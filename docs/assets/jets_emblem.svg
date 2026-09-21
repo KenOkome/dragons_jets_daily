@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="jetsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E60012"/>
+      <stop offset="50%" stop-color="#B3000E"/>
+      <stop offset="100%" stop-color="#730009"/>
+    </linearGradient>
+    <linearGradient id="jetsBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="jetWing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="jetsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#EF4444" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <!-- 円形ベース -->
+  <circle cx="50" cy="50" r="46" fill="url(#jetsBg)" stroke="url(#jetsBorder)" stroke-width="3"/>
+  <!-- 内側のリングアクセント -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#F87171" stroke-width="1" stroke-opacity="0.4"/>
+  
+  <!-- 千葉ジェッツ ジェット機シンボル & 星 -->
+  <!-- ジェット戦闘機の鋭いフォルム -->
+  <path d="M 50 18 L 56 36 L 82 56 L 68 58 L 58 50 L 58 72 L 66 78 L 62 82 L 50 78 L 38 82 L 34 78 L 42 72 L 42 50 L 32 58 L 18 56 L 44 36 Z" 
+        fill="url(#jetWing)" filter="url(#jetsGlow)"/>
+  <!-- 機体センターライン・アクセント -->
+  <path d="M 50 24 L 53 40 L 50 68 L 47 40 Z" fill="#E60012"/>
+  <!-- ジェッツスター（星） -->
+  <path d="M 50 42 L 52 47 L 57 47 L 53 50 L 55 55 L 50 52 L 45 55 L 47 50 L 43 47 L 48 47 Z" fill="#FBBF24"/>
+</svg>

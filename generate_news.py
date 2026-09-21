@@ -40,6 +40,13 @@ CATEGORIES = [
         "query": "(F1 OR MotoGP OR \"角田裕毅\" OR \"小椋藍\" OR \"中上貴晶\" OR \"ホンダF1\" OR \"トヨタ\" OR WRC OR WEC OR \"ル・マン\" OR インディカー OR ダカールラリー) (グランプリ OR 決勝 OR 予選 OR 表彰台 OR 参戦 OR 速報 OR 結果 OR レース)",
         "icon": "🏎️",
         "desc": "F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約"
+    },
+    {
+        "id": "world",
+        "name": "世界のメジャースポーツ",
+        "query": "(MLB OR 大谷翔平 OR 山本由伸 OR プレミアリーグ OR チャンピオンズリーグ OR 三笘薫 OR 久保建英 OR NBA OR 八村塁 OR グランドスラム OR マスターズ) (速報 OR 試合 OR 結果 OR ホームラン OR ゴール OR 勝利 OR 決勝)",
+        "icon": "🌍",
+        "desc": "MLB（大谷・山本等）、欧州サッカー（三笘・久保等）、NBA等の注目速報要約"
     }
 ]
 
@@ -104,7 +111,7 @@ def get_topic_key(title, category_id):
         if 'SEASON' in t or 'B.LEAGUE' in t:
             return 'resona_season'
         return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
-    else: # motorsport
+    elif category_id == 'motorsport':
         if '角田' in t:
             return 'f1_tsunoda'
         if 'ホンダ' in t or 'アストンマーティン' in t or 'PU' in t:
@@ -128,6 +135,28 @@ def get_topic_key(title, category_id):
         if 'フェルスタッペン' in t or 'ノリス' in t or 'メルセデス' in t or 'F1' in t:
             return 'f1_general'
         return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
+    else: # world
+        if '大谷' in t:
+            return 'mlb_ohtani'
+        if '山本由伸' in t or 'ドジャース' in t:
+            return 'mlb_dodgers'
+        if any(w in t for w in ['ダルビッシュ', '今永', '鈴木誠也', '千賀', '吉田正尚', 'MLB', 'メジャー']):
+            return 'mlb_japanese'
+        if '三笘' in t or 'ブライトン' in t:
+            return 'soccer_mitoma'
+        if '久保' in t or 'ソシエダ' in t:
+            return 'soccer_kubo'
+        if any(w in t for w in ['遠藤', 'リバプール', 'アーセナル', 'マンチェスター', 'プレミアリーグ']):
+            return 'soccer_premier'
+        if any(w in t for w in ['レアル', 'バルセロナ', 'CL', 'チャンピオンズリーグ']):
+            return 'soccer_cl'
+        if any(w in t for w in ['八村', 'レイカーズ', 'NBA', '河村']):
+            return 'nba_basketball'
+        if any(w in t for w in ['テニス', '全米', '全仏', 'ウィンブルドン', '全豪']):
+            return 'tennis_grandslam'
+        if any(w in t for w in ['ゴルフ', 'マスターズ', '松山英樹']):
+            return 'golf_masters'
+        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
 
 def score_article(title):
     """見出しの具体性・情報量をスコアリング（発言や数字、具体的選手名を含むものを優先）"""
@@ -136,9 +165,9 @@ def score_article(title):
         score += 5
     if re.search(r'\d+', title):
         score += 2
-    if any(w in title for w in ['井上監督', '富樫', '髙橋宏斗', '高橋宏斗', '村松', '加藤', '小川', '角田', 'ホンダ', '小椋', '中上', 'F1', 'MotoGP', 'WEC', 'WRC', 'ル・マン']):
+    if any(w in title for w in ['井上監督', '富樫', '髙橋宏斗', '高橋宏斗', '村松', '加藤', '小川', '角田', 'ホンダ', '小椋', '中上', 'F1', 'MotoGP', 'WEC', 'WRC', 'ル・マン', '大谷', '山本由伸', '三笘', '久保', '八村', '松山英樹', 'ドジャース', 'MLB', 'プレミアリーグ', 'NBA']):
         score += 3
-    if '謝罪' in title or '怒号' in title or '挑戦状' in title:
+    if any(w in title for w in ['謝罪', '怒号', '挑戦状', '本塁打', 'ホームラン', 'ゴール', '圧巻', '劇的', '勝利', '大台', '最多']):
         score += 4
     return score
 
@@ -281,11 +310,16 @@ def fallback_weekly_report(category_id, category_name, news_items):
         summary = "過去1週間ではプレシーズンゲームや開幕直前の記者会見が話題を呼び、新生千葉ジェッツのチームケミストリーが高まっています。日本代表主将・富樫勇樹を中心に、新加入選手との連携やディフェンス強度の向上が随所に見られ、王座奪還への期待が高まります。"
         key_players = "キャプテン富樫勇樹が巧みなゲームメイクで牽引する中、新戦力や若手選手がプレシーズンマッチで躍動。激しいロスター争いがチーム全体の底上げにつながっています。"
         outlook = "いよいよ始まるレギュラーシーズン開幕戦に向け、完成度をどこまで高められるかが焦点。強豪との開幕シリーズで最高のスタートダッシュが期待されます。"
-    else: # motorsport
+    elif category_id == "motorsport":
         title = "F1角田裕毅の復帰への強い意志、MotoGP日本勢躍動とル・マン24時間計画"
         summary = "直近1週間のモータースポーツ界では、F1で角田裕毅が「来年F1に戻ることしか考えていない」と強い決意を表明。ホンダF1は過酷なバクーGPへ向けPU最適化を推進しています。MotoGPでは小椋藍が復帰戦で4位入賞、中上貴晶も好感触を掴むなど日本勢の躍動が目立ちました。"
         key_players = "角田裕毅（F1）が代役出場で手応えを得てレギュラー復帰に照準。MotoGPでは小椋藍、中上貴晶が欧州勢相手に存在感を発揮。さらにWECル・マン24時間へのF1ドライバー（フェルスタッペンら）参戦可能性やWRC勝田貴元など世界選手権の動向が活発化。"
         outlook = "F1秋の過酷なフライアウェイ戦や次戦MotoGP、さらにWEC・WRCのシーズン終盤戦に向けて、日本勢の表彰台獲得と来季シート獲得の行方に大きな期待と注目が集まります。"
+    else: # world
+        title = "大谷翔平の歴史的活躍、欧州サッカー日本人躍動とNBA新シーズンへの期待"
+        summary = "直近1週間の世界のメジャースポーツでは、MLBでドジャース大谷翔平選手や山本由伸投手がポストシーズン・優勝争いで主力を張り圧巻のパフォーマンスを連発。欧州サッカーでは三笘薫（ブライトン）、久保建英（ソシエダ）らが決定機を演出し、CLや国内リーグで存在感を発揮しています。"
+        key_players = "大谷翔平（MLB）が投打・打撃で異次元の記録を更新し続ける中、欧州サッカーでは三笘・久保・遠藤航らが世界トップレベルで躍動。NBAでは八村塁、河村勇輝ら日本勢が新シーズンに向けたロスター争いでアピールを続けています。"
+        outlook = "MLBの頂点を決めるワールドシリーズへの激闘、欧州CLの激戦グループステージ、そして開幕を迎えるNBAと、世界最高峰の舞台で躍動する日本人アスリートの歴史的一戦から目が離せません。"
         
     report_data = {
         "title": title,
@@ -298,7 +332,7 @@ def fallback_weekly_report(category_id, category_name, news_items):
 def render_report_html(category_id, category_name, r):
     """調査レポートのHTMLをレンダリング"""
     now_str = datetime.now(JST).strftime("%m/%d %H:%M")
-    cat_icon = "⚾" if category_id == "dragons" else ("🏀" if category_id == "jets" else "🏎️")
+    cat_icon = "⚾" if category_id == "dragons" else ("🏀" if category_id == "jets" else ("🏎️" if category_id == "motorsport" else "🌍"))
     return f"""
     <div class="report-card {category_id}">
         <div class="report-header">
@@ -679,7 +713,7 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             item["takeaway"] = "人車一体で挑む大自然の冒険！過酷な砂漠に挑む挑戦者たちの不屈のスピリットに注目です！"
 
         # --- 23. モータースポーツ：F1一般 ---
-        elif 'F1' in t or 'フォーミュラ1' in t or category_id == 'motorsport':
+        elif 'F1' in t or 'フォーミュラ1' in t or (category_id == 'motorsport' and any(w in t for w in ['GP', 'レース', 'サーキット'])):
             item["headline"] = f"{clean[:28]}"
             item["points"] = [
                 f"「{src}」より、モータースポーツ界の最新動向が報じられました。",
@@ -688,7 +722,90 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             ]
             item["takeaway"] = "世界最高峰のスピードとテクノロジーの戦い！次戦の展開にも大注目です！"
 
-        # --- 24. 汎用フォールバック（具体的情報から構成） ---
+        # --- 24. 世界スポーツ：大谷翔平（MLB） ---
+        elif '大谷' in t:
+            q_text = f"「{quotes[0]}」" if quotes else "歴史的快挙へ前進"
+            item["headline"] = f"大谷翔平、圧巻の打棒でチームを牽引！{q_text}"
+            item["points"] = [
+                "MLBロサンゼルス・ドジャースの大谷翔平選手が、打撃・走塁で驚異的なパフォーマンスを披露。",
+                "重要な局面で値千金の一打を放ち、ポストシーズン進出および地区優勝へ向けチームを牽引。",
+                "本塁打王・打点王のタイトル争いや前人未到の記録更新へ向けて全米の期待が高まっています。"
+            ]
+            item["takeaway"] = "異次元の活躍を続ける大谷選手！歴史が動く瞬間をリアルタイムで応援しましょう！"
+
+        # --- 25. 世界スポーツ：山本由伸 / ドジャース ---
+        elif '山本由伸' in t or ('ドジャース' in t and ('投手' in t or '登板' in t or '勝' in t)):
+            item["headline"] = "山本由伸、キレ味鋭い投球で好投！ドジャース投手陣の柱へ"
+            item["points"] = [
+                "ドジャース先発の山本由伸投手が精密な制球と多彩な変化球で相手強力打線を封殺。",
+                "復帰登板でも安定感抜群のピッチングを見せ、首脳陣の期待に応える力投を披露。",
+                "勝負どころの終盤戦に向け、先発ローテーションの頼れる柱としてチームを支えています。"
+            ]
+            item["takeaway"] = "大舞台で真価を発揮する日本のエース！ポストシーズンでの快投に大きな期待がかかります！"
+
+        # --- 26. 世界スポーツ：MLB日本人選手（今永・ダルビッシュ・鈴木誠也等） ---
+        elif any(w in t for w in ['ダルビッシュ', '今永', '鈴木誠也', '千賀', '吉田正尚', '松井裕樹']) or ('MLB' in t and 'メジャー' in t):
+            item["headline"] = f"MLB日本人メジャーリーガー躍動！{clean[:22]}"
+            item["points"] = [
+                f"「{src}」より、日本人メジャーリーガーの最新試合結果と活躍ぶりが報じられました。",
+                "世界最高峰MLBの舞台で、投打の主力としてチームの勝利に直結するハイパフォーマンスを発揮。",
+                "地区優勝争いや個人タイトルの行方に向け、現地メディアからも高い評価が寄せられています。"
+            ]
+            item["takeaway"] = "海の向こうで躍動する日本勢！勝負の秋を彩る熱い戦いに注目しましょう！"
+
+        # --- 27. 世界スポーツ：三笘薫（プレミアリーグ・ブライトン） ---
+        elif '三笘' in t:
+            q_text = f"「{quotes[0]}」" if quotes else "切れ味鋭いドリブルで決定機演出"
+            item["headline"] = f"三笘薫、プレミアリーグで輝き！{q_text}"
+            item["points"] = [
+                "イングランド・プレミアリーグのブライトンで、三笘薫選手が左サイドから圧倒的な突破力を披露。",
+                "世界最高峰のディフェンダーを翻弄する鋭いドリブルと決定的なラストパスで攻撃を牽引。",
+                "相手チームの徹底マークをかいくぐり、得点関与でチームの勝利に大きく貢献しています。"
+            ]
+            item["takeaway"] = "世界トップレベルのサイドを切り裂く三笘のドリブル！次戦のゴールと勝利に大注目です！"
+
+        # --- 28. 世界スポーツ：久保建英（レアル・ソシエダ・ラリーガ） ---
+        elif '久保' in t:
+            q_text = f"「{quotes[0]}」" if quotes else "攻撃の絶対的エースとして君臨"
+            item["headline"] = f"久保建英、ラ・リーガで躍動！{q_text}"
+            item["points"] = [
+                "スペイン・ラ・リーガのレアル・ソシエダにて、久保建英選手が圧巻のテクニックで攻撃の軸として活躍。",
+                "高精度のクロスやシュートで再三チャンスを創出し、現地メディアからも絶賛の嵐。",
+                "欧州カップ戦やリーグ上位進出へ向け、攻撃のキーマンとしてチームを牽引しています。"
+            ]
+            item["takeaway"] = "スペインのピッチで魅せる至高のプレー！久保建英の進化から目が離せません！"
+
+        # --- 29. 世界スポーツ：欧州サッカー / CL / プレミアリーグ ---
+        elif any(w in t for w in ['プレミアリーグ', 'チャンピオンズリーグ', 'レアル', 'バルセロナ', 'リバプール', 'マンチェスター', 'アーセナル', '遠藤航']):
+            item["headline"] = f"欧州最高峰サッカー激闘！{clean[:24]}"
+            item["points"] = [
+                f"「{src}」より、欧州サッカーの白熱した試合結果と最新戦況が報じられました。",
+                "世界トップクラブ同士が激突するハイレベルな攻防と戦術の応酬がファンを魅了。",
+                "日本人選手の奮闘やリーグ優勝争い、欧州カップ戦の勝ち残りをかけた熱戦が続いています。"
+            ]
+            item["takeaway"] = "世界最高峰フットボールの熱狂！極上のスーパープレーと勝負の行方に注目です！"
+
+        # --- 30. 世界スポーツ：八村塁 / 河村勇輝 / NBAバスケ ---
+        elif '八村' in t or 'NBA' in t or '河村' in t or 'レイカーズ' in t:
+            item["headline"] = f"NBA世界最高峰バスケ！{clean[:24]}"
+            item["points"] = [
+                "世界最高峰バスケットボールリーグNBAで、日本人選手たちの熱い挑戦が展開。",
+                "名門ロサンゼルス・レイカーズで主力を担う八村塁選手の攻守にわたる貢献や、新天地で挑む日本勢の動向。",
+                "フィジカルとスピードが極限でぶつかり合う世界最高峰のコートで存在感を発揮しています。"
+            ]
+            item["takeaway"] = "世界最高峰NBAのダイナミックなバスケ！日本勢のダンクやシュートに大興奮です！"
+
+        # --- 31. 世界スポーツ：ゴルフ / テニス / その他メジャー ---
+        elif any(w in t for w in ['マスターズ', '松山英樹', '全米', '全仏', 'ウィンブルドン', '錦織']):
+            item["headline"] = f"世界メジャートーナメント速報！{clean[:22]}"
+            item["points"] = [
+                f"「{src}」より、世界最高峰メジャートーナメントの熱戦が報じられました。",
+                "極限のプレッシャーの中で繰り広げられるトップアスリートたちのスーパーショットと名勝負。",
+                "歴史あるビッグタイトルをかけた緊迫の展開が世界中のスポーツファンを沸かせています。"
+            ]
+            item["takeaway"] = "世界の頂点を決める極限の真剣勝負！日本人選手の快挙達成に熱い声援を送りましょう！"
+
+        # --- 32. 汎用フォールバック（具体的情報から構成） ---
         else:
             q_str = f"『{quotes[0]}』" if quotes else ""
             item["headline"] = f"{clean[:28]}"
@@ -795,14 +912,17 @@ def main():
     rendered = rendered.replace("{{DRAGONS_COUNT}}", str(len(all_news.get("dragons", []))))
     rendered = rendered.replace("{{JETS_COUNT}}", str(len(all_news.get("jets", []))))
     rendered = rendered.replace("{{MOTORSPORT_COUNT}}", str(len(all_news.get("motorsport", []))))
+    rendered = rendered.replace("{{WORLD_COUNT}}", str(len(all_news.get("world", []))))
     
     rendered = rendered.replace("{{DRAGONS_AI_REPORT}}", ai_reports.get("dragons", ""))
     rendered = rendered.replace("{{JETS_AI_REPORT}}", ai_reports.get("jets", ""))
     rendered = rendered.replace("{{MOTORSPORT_AI_REPORT}}", ai_reports.get("motorsport", ""))
+    rendered = rendered.replace("{{WORLD_AI_REPORT}}", ai_reports.get("world", ""))
     
     rendered = rendered.replace("{{DRAGONS_NEWS_CARDS}}", render_news_cards(all_news.get("dragons", [])))
     rendered = rendered.replace("{{JETS_NEWS_CARDS}}", render_news_cards(all_news.get("jets", [])))
     rendered = rendered.replace("{{MOTORSPORT_NEWS_CARDS}}", render_news_cards(all_news.get("motorsport", [])))
+    rendered = rendered.replace("{{WORLD_NEWS_CARDS}}", render_news_cards(all_news.get("world", [])))
     
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:

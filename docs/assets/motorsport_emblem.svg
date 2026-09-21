@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="msBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+    <linearGradient id="msBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="msGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#F59E0B" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <!-- 円形ベース -->
+  <circle cx="50" cy="50" r="46" fill="url(#msBg)" stroke="url(#msBorder)" stroke-width="3"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#FBBF24" stroke-width="1" stroke-opacity="0.4"/>
+  
+  <!-- F1 / レーシングカー & スピードライン -->
+  <!-- リアウィング -->
+  <rect x="22" y="32" width="14" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="26" y="36" width="6" height="8" fill="#FFFFFF"/>
+  
+  <!-- マシンボディ -->
+  <path d="M 24 44 C 36 42 44 40 56 40 C 66 40 76 45 84 52 L 80 56 L 68 53 L 42 54 L 28 54 Z" fill="#FFFFFF" filter="url(#msGlow)"/>
+  
+  <!-- ノーズ ＆ フロントウィング -->
+  <path d="M 76 50 L 86 54 L 84 58 L 74 54 Z" fill="#FDE68A"/>
+  <rect x="78" y="55" width="8" height="3" rx="1.5" fill="#FFFFFF"/>
+  
+  <!-- ホイール (リア & フロント) -->
+  <circle cx="34" cy="58" r="10" fill="#18181B" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="34" cy="58" r="4" fill="#FFFFFF"/>
+  
+  <circle cx="70" cy="58" r="9" fill="#18181B" stroke="#F59E0B" stroke-width="2"/>
+  <circle cx="70" cy="58" r="3.5" fill="#FFFFFF"/>
+  
+  <!-- スピードライン -->
+  <path d="M 18 64 L 82 64" stroke="#FDE68A" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 4"/>
+</svg>

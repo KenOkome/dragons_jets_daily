@@ -32,6 +32,12 @@
     --color-motorsport-bg: rgba(245, 158, 11, 0.12);
     --color-motorsport-border: rgba(245, 158, 11, 0.3);
     
+    /* 世界のメジャースポーツ: サファイア / スカイブルー */
+    --color-world: #38BDF8;
+    --color-world-dark: #0284C7;
+    --color-world-bg: rgba(2, 132, 199, 0.12);
+    --color-world-border: rgba(56, 189, 248, 0.3);
+    
     --border-color: rgba(255, 255, 255, 0.08);
     --border-highlight: rgba(255, 255, 255, 0.15);
     
@@ -154,60 +160,81 @@ body {
     padding: 16px;
 }
 
-/* カテゴリー切り替えタブ（中日・千葉ジェッツ） */
+/* カテゴリー切り替えタブ（名前省略・4アイコン横一列） */
 .category-tabs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    background: rgba(19, 27, 46, 0.7);
-    padding: 6px;
-    border-radius: 14px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background: rgba(19, 27, 46, 0.85);
+    padding: 8px 6px;
+    border-radius: 16px;
     border: 1px solid var(--border-color);
     margin-bottom: 20px;
     position: sticky;
     top: 72px;
     z-index: 90;
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .tab-btn {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 10px 8px;
+    position: relative;
+    padding: 6px 4px 8px;
     border: none;
     background: transparent;
-    color: var(--text-muted);
-    font-family: var(--font-heading);
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
     transition: var(--transition);
 }
 
-.tab-btn .tab-icon {
-    font-size: 20px;
+.tab-btn .tab-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.tab-btn .tab-emblem {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+    transition: transform 0.25s ease;
 }
 
 .tab-btn .tab-count {
-    font-size: 11px;
-    padding: 2px 8px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: var(--font-en);
+    padding: 1px 6px;
     background: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    border-radius: 8px;
     color: var(--text-dim);
+    margin-top: 4px;
+    transition: var(--transition);
+}
+
+.tab-btn:hover .tab-icon-wrapper {
+    transform: translateY(-2px) scale(1.06);
 }
 
 .tab-btn.active {
-    background: var(--bg-secondary);
-    color: #FFFFFF;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--border-highlight);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.tab-btn.active .tab-icon-wrapper {
+    transform: translateY(-2px) scale(1.1);
 }
 
 .tab-btn.active[data-tab="dragons"] {
-    border-color: var(--color-dragons-border);
+    border-bottom: 3px solid var(--color-dragons);
 }
 .tab-btn.active[data-tab="dragons"] .tab-count {
     background: var(--color-dragons-bg);
@@ -215,7 +242,7 @@ body {
 }
 
 .tab-btn.active[data-tab="jets"] {
-    border-color: var(--color-jets-border);
+    border-bottom: 3px solid var(--color-jets);
 }
 .tab-btn.active[data-tab="jets"] .tab-count {
     background: var(--color-jets-bg);
@@ -223,11 +250,19 @@ body {
 }
 
 .tab-btn.active[data-tab="motorsport"] {
-    border-color: var(--color-motorsport-border);
+    border-bottom: 3px solid var(--color-motorsport);
 }
 .tab-btn.active[data-tab="motorsport"] .tab-count {
     background: var(--color-motorsport-bg);
     color: var(--color-motorsport);
+}
+
+.tab-btn.active[data-tab="world"] {
+    border-bottom: 3px solid var(--color-world);
+}
+.tab-btn.active[data-tab="world"] .tab-count {
+    background: var(--color-world-bg);
+    color: var(--color-world);
 }
 
 /* スワイプガイド */
@@ -294,9 +329,16 @@ body {
     background: var(--color-motorsport-bg);
     border-color: var(--color-motorsport-border);
 }
+.section-intro.world {
+    background: var(--color-world-bg);
+    border-color: var(--color-world-border);
+}
 
 .section-intro .intro-icon {
     font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-intro h2 {
@@ -308,6 +350,7 @@ body {
 .section-intro.dragons h2 { color: var(--color-dragons); }
 .section-intro.jets h2 { color: var(--color-jets); }
 .section-intro.motorsport h2 { color: var(--color-motorsport); }
+.section-intro.world h2 { color: var(--color-world); }
 
 .section-intro p {
     font-size: 12px;
@@ -347,6 +390,10 @@ body {
 
 .report-card.motorsport::before {
     background: linear-gradient(90deg, #F59E0B, #FBBF24);
+}
+
+.report-card.world::before {
+    background: linear-gradient(90deg, #0284C7, #38BDF8);
 }
 
 .report-header {

@@ -26,10 +26,10 @@
     <header class="app-header">
         <div class="header-inner">
             <div class="logo-area">
-                <div class="logo-icon">⚾🏀🏎️</div>
+                <div class="logo-icon">⚾🏀🏎️🌍</div>
                 <div>
                     <h1 class="logo-title">まいすぽ</h1>
-                    <p class="logo-subtitle">ドラ・ジェッツ・モータースポーツ要約 ＆ 1週間AIレポート</p>
+                    <p class="logo-subtitle">ドラ・ジェッツ・モータースポーツ・世界の主要スポーツ要約 ＆ 1週間AIレポート</p>
                 </div>
             </div>
             <div class="update-badge" id="updateBadge">
@@ -41,30 +41,39 @@
 
     <!-- メインコンテンツ -->
     <main class="main-container">
-        <!-- カテゴリー切り替えタブ -->
-        <nav class="category-tabs" role="tablist">
-            <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true">
-                <span class="tab-icon">🐉</span>
-                <span class="tab-text">中日ドラゴンズ</span>
+        <!-- カテゴリー切り替えタブ（名前省略・4アイコン横一列） -->
+        <nav class="category-tabs" role="tablist" aria-label="スポーツカテゴリー切り替え">
+            <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true" aria-label="中日ドラゴンズ" title="中日ドラゴンズ">
+                <span class="tab-icon-wrapper">
+                    <img src="assets/dragons_emblem.svg" class="tab-emblem" alt="中日ドラゴンズ">
+                </span>
                 <span class="tab-count">{{DRAGONS_COUNT}}</span>
             </button>
-            <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false">
-                <span class="tab-icon">✈️</span>
-                <span class="tab-text">千葉ジェッツ</span>
+            <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false" aria-label="千葉ジェッツ" title="千葉ジェッツふなばし">
+                <span class="tab-icon-wrapper">
+                    <img src="assets/jets_emblem.svg" class="tab-emblem" alt="千葉ジェッツ">
+                </span>
                 <span class="tab-count">{{JETS_COUNT}}</span>
             </button>
-            <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false">
-                <span class="tab-icon">🏎️</span>
-                <span class="tab-text">モータースポーツ</span>
+            <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false" aria-label="モータースポーツ" title="モータースポーツ">
+                <span class="tab-icon-wrapper">
+                    <img src="assets/motorsport_emblem.svg" class="tab-emblem" alt="モータースポーツ">
+                </span>
                 <span class="tab-count">{{MOTORSPORT_COUNT}}</span>
             </button>
+            <button class="tab-btn" data-tab="world" role="tab" aria-selected="false" aria-label="世界のメジャースポーツ" title="世界のメジャースポーツ">
+                <span class="tab-icon-wrapper">
+                    <img src="assets/world_emblem.svg" class="tab-emblem" alt="世界のメジャースポーツ">
+                </span>
+                <span class="tab-count">{{WORLD_COUNT}}</span>
+            </button>
         </nav>
-        <div class="swipe-hint"><span>⇄</span> 画面を左右にスワイプして切り替え</div>
+        <div class="swipe-hint"><span>⇄</span> アイコンタップ または 左右スワイプで切り替え</div>
 
         <!-- 中日ドラゴンズセクション -->
         <section id="dragons-tab" class="tab-content active" role="tabpanel">
             <div class="section-intro dragons">
-                <div class="intro-icon">🐉</div>
+                <div class="intro-icon"><img src="assets/dragons_emblem.svg" width="38" height="38" alt="中日ドラゴンズ"></div>
                 <div>
                     <h2>中日ドラゴンズ 最新情報</h2>
                     <p>試合結果速報、選手活躍、采配動向、チーム再建の要約まとめ</p>
@@ -83,7 +92,7 @@
         <!-- 千葉ジェッツセクション -->
         <section id="jets-tab" class="tab-content" role="tabpanel">
             <div class="section-intro jets">
-                <div class="intro-icon">✈️</div>
+                <div class="intro-icon"><img src="assets/jets_emblem.svg" width="38" height="38" alt="千葉ジェッツ"></div>
                 <div>
                     <h2>千葉ジェッツふなばし 最新情報</h2>
                     <p>Bリーグプレミア開幕、試合速報、富樫・渡邊ら注目選手動向</p>
@@ -102,7 +111,7 @@
         <!-- モータースポーツセクション -->
         <section id="motorsport-tab" class="tab-content" role="tabpanel">
             <div class="section-intro motorsport">
-                <div class="intro-icon">🏎️</div>
+                <div class="intro-icon"><img src="assets/motorsport_emblem.svg" width="38" height="38" alt="モータースポーツ"></div>
                 <div>
                     <h2>モータースポーツ 最新情報</h2>
                     <p>F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約</p>
@@ -115,6 +124,25 @@
             <!-- 最新ニュース要約カード群 -->
             <div class="news-grid">
                 {{MOTORSPORT_NEWS_CARDS}}
+            </div>
+        </section>
+
+        <!-- 世界のメジャースポーツセクション -->
+        <section id="world-tab" class="tab-content" role="tabpanel">
+            <div class="section-intro world">
+                <div class="intro-icon"><img src="assets/world_emblem.svg" width="38" height="38" alt="世界のメジャースポーツ"></div>
+                <div>
+                    <h2>世界のメジャースポーツ 最新情報</h2>
+                    <p>MLB（大谷・山本等）、欧州サッカー（三笘・久保等）、NBA等の速報要約</p>
+                </div>
+            </div>
+
+            <!-- 過去1週間のAI調査レポート -->
+            {{WORLD_AI_REPORT}}
+
+            <!-- 最新ニュース要約カード群 -->
+            <div class="news-grid">
+                {{WORLD_NEWS_CARDS}}
             </div>
         </section>
     </main>
@@ -138,7 +166,7 @@
     <!-- インタラクション用スクリプト -->
     <script>
         let currentTabIndex = 0;
-        const categories = ['dragons', 'jets', 'motorsport'];
+        const categories = ['dragons', 'jets', 'motorsport', 'world'];
         const tabs = document.querySelectorAll('.tab-btn');
         const panels = document.querySelectorAll('.tab-content');
 

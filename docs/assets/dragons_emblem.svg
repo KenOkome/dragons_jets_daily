@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="dragonsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004098"/>
+      <stop offset="50%" stop-color="#002B66"/>
+      <stop offset="100%" stop-color="#001633"/>
+    </linearGradient>
+    <linearGradient id="dragonsBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#3B82F6" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- 円形ベース -->
+  <circle cx="50" cy="50" r="46" fill="url(#dragonsBg)" stroke="url(#dragonsBorder)" stroke-width="3"/>
+  <!-- 内側のリングアクセント -->
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#60A5FA" stroke-width="1" stroke-opacity="0.4"/>
+  
+  <!-- ドラゴンズ "CD" アイコニックロゴ -->
+  <!-- C -->
+  <path d="M 44 26 C 28 26 19 36 19 50 C 19 64 28 74 44 74 C 49 74 53 72 56 69 L 51 63 C 49 65 47 66 44 66 C 33 66 28 59 28 50 C 28 41 33 34 44 34 C 47 34 49 35 51 37 L 56 31 C 53 28 49 26 44 26 Z" 
+        fill="#FFFFFF" filter="url(#glow)"/>
+  <!-- D (Cと美しくインターロック) -->
+  <path d="M 46 30 L 46 70 L 58 70 C 72 70 81 62 81 50 C 81 38 72 30 58 30 Z M 54 38 L 58 38 C 66 38 72 43 72 50 C 72 57 66 62 58 62 L 54 62 Z" 
+        fill="#FFFFFF" filter="url(#glow)"/>
+</svg>

@@ -1,10 +1,14 @@
-const CACHE_NAME = 'myspo-v2';
+const CACHE_NAME = 'myspo-v3';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
     './manifest.json',
-    './icon.svg'
+    './icon.svg',
+    './assets/dragons_emblem.svg',
+    './assets/jets_emblem.svg',
+    './assets/motorsport_emblem.svg',
+    './assets/world_emblem.svg'
 ];
 
 self.addEventListener('install', (event) => {

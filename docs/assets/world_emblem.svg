@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="worldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#0C4A6E"/>
+    </linearGradient>
+    <linearGradient id="worldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="worldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#38BDF8" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <!-- 円形ベース -->
+  <circle cx="50" cy="50" r="46" fill="url(#worldBg)" stroke="url(#worldBorder)" stroke-width="3"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+  
+  <!-- 地球儀の経緯度ライン -->
+  <circle cx="50" cy="50" r="28" fill="none" stroke="#BAE6FD" stroke-width="1.5" stroke-opacity="0.5"/>
+  <ellipse cx="50" cy="50" rx="14" ry="28" fill="none" stroke="#BAE6FD" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="22" y1="50" x2="78" y2="50" stroke="#BAE6FD" stroke-width="1.5" stroke-opacity="0.5"/>
+  
+  <!-- チャンピオン・トロフィー / 星 -->
+  <path d="M 38 32 L 62 32 L 58 48 C 58 54 54 58 50 58 C 46 58 42 54 42 48 Z" fill="#FBBF24" filter="url(#worldGlow)"/>
+  <path d="M 38 34 C 32 34 30 42 36 46 L 40 46" stroke="#FBBF24" stroke-width="2" fill="none"/>
+  <path d="M 62 34 C 68 34 70 42 64 46 L 60 46" stroke="#FBBF24" stroke-width="2" fill="none"/>
+  <rect x="47" y="58" width="6" height="8" fill="#FBBF24"/>
+  <rect x="42" y="66" width="16" height="4" rx="2" fill="#FBBF24"/>
+  
+  <!-- 頂点のスター -->
+  <path d="M 50 20 L 52 25 L 57 25 L 53 28 L 55 33 L 50 30 L 45 33 L 47 28 L 43 25 L 48 25 Z" fill="#FFFFFF"/>
+</svg>
