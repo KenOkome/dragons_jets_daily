@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ドラ＆ジェッツ速報 | 中日ドラゴンズ & 千葉ジェッツ ニュース要約＆1週間AIレポート</title>
-    <meta name="description" content="中日ドラゴンズと千葉ジェッツふなばしの最新ニュースを3行要約。過去1週間の試合結果・選手動向をAIが徹底調査・分析して毎朝お届けします。">
+    <title>ドラ＆ジェッツ＆MS速報 | 中日ドラゴンズ・千葉ジェッツ・モータースポーツ ニュース要約＆1週間AIレポート</title>
+    <meta name="description" content="中日ドラゴンズ、千葉ジェッツ、モータースポーツ（F1・MotoGP・WRC・WEC・Indy等）の最新ニュースを3行要約。過去1週間の動向をAIが徹底調査・分析して毎朝お届けします。">
     
     <!-- PWA / モバイル対応 -->
     <meta name="theme-color" content="#0A0F1D">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="ドラ＆ジェッツ">
+    <meta name="apple-mobile-web-app-title" content="ドラ・ジェッツ・MS">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icon.svg">
@@ -19,22 +19,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="app-header">
         <div class="header-inner">
             <div class="logo-area">
-                <div class="logo-icon">⚾🏀</div>
+                <div class="logo-icon">⚾🏀🏎️</div>
                 <div>
-                    <h1 class="logo-title">ドラ＆ジェッツ速報</h1>
+                    <h1 class="logo-title">ドラ＆ジェッツ＆MS速報</h1>
                     <p class="logo-subtitle">最新要約 ＆ 1週間AI徹底調査レポート</p>
                 </div>
             </div>
             <div class="update-badge" id="updateBadge">
                 <span class="pulse-dot"></span>
-                <span>09月21日 21:09 更新</span>
+                <span>09月21日 21:27 更新</span>
             </div>
         </div>
     </header>
@@ -53,6 +53,11 @@
                 <span class="tab-text">千葉ジェッツ</span>
                 <span class="tab-count">6</span>
             </button>
+            <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false">
+                <span class="tab-icon">🏎️</span>
+                <span class="tab-text">モータースポーツ</span>
+                <span class="tab-count">6</span>
+            </button>
         </nav>
         <div class="swipe-hint"><span>⇄</span> 画面を左右にスワイプして切り替え</div>
 
@@ -66,12 +71,12 @@
                 </div>
             </div>
 
-            <!-- 過去3日間のAI調査レポート -->
+            <!-- 過去1週間のAI調査レポート -->
             
     <div class="report-card dragons">
         <div class="report-header">
             <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">09/21 21:09 AI分析</span>
+            <span class="report-date">09/21 21:27 AI分析</span>
         </div>
         <h3 class="report-title">本拠地最終戦を終え来季へ反攻の誓い、井上監督体制の総括と課題</h3>
         
@@ -239,17 +244,17 @@
                 </div>
             </div>
 
-            <!-- 過去3日間のAI調査レポート -->
+            <!-- 過去1週間のAI調査レポート -->
             
     <div class="report-card jets">
         <div class="report-header">
             <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">09/21 21:09 AI分析</span>
+            <span class="report-date">09/21 21:27 AI分析</span>
         </div>
         <h3 class="report-title">Bリーグプレミア開幕へ仕上がり順調、富樫・新戦力が噛み合う好発進</h3>
         
         <div class="report-section">
-            <div class="report-section-title">⚾ <strong>直近1週間の戦況・動向総括</strong></div>
+            <div class="report-section-title">🏀 <strong>直近1週間の戦況・動向総括</strong></div>
             <div class="report-section-text">過去1週間ではプレシーズンゲームや開幕直前の記者会見が話題を呼び、新生千葉ジェッツのチームケミストリーが高まっています。日本代表主将・富樫勇樹を中心に、新加入選手との連携やディフェンス強度の向上が随所に見られ、王座奪還への期待が高まります。</div>
         </div>
         
@@ -401,6 +406,179 @@
         
             </div>
         </section>
+
+        <!-- モータースポーツセクション -->
+        <section id="motorsport-tab" class="tab-content" role="tabpanel">
+            <div class="section-intro motorsport">
+                <div class="intro-icon">🏎️</div>
+                <div>
+                    <h2>モータースポーツ 最新情報</h2>
+                    <p>F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約</p>
+                </div>
+            </div>
+
+            <!-- 過去1週間のAI調査レポート -->
+            
+    <div class="report-card motorsport">
+        <div class="report-header">
+            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+            <span class="report-date">09/21 21:27 AI分析</span>
+        </div>
+        <h3 class="report-title">F1角田裕毅の復帰への強い意志、MotoGP日本勢躍動とル・マン24時間計画</h3>
+        
+        <div class="report-section">
+            <div class="report-section-title">🏎️ <strong>直近1週間の戦況・動向総括</strong></div>
+            <div class="report-section-text">直近1週間のモータースポーツ界では、F1で角田裕毅が「来年F1に戻ることしか考えていない」と強い決意を表明。ホンダF1は過酷なバクーGPへ向けPU最適化を推進しています。MotoGPでは小椋藍が復帰戦で4位入賞、中上貴晶も好感触を掴むなど日本勢の躍動が目立ちました。</div>
+        </div>
+        
+        <div class="report-section">
+            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+            <div class="report-section-text">角田裕毅（F1）が代役出場で手応えを得てレギュラー復帰に照準。MotoGPでは小椋藍、中上貴晶が欧州勢相手に存在感を発揮。さらにWECル・マン24時間へのF1ドライバー（フェルスタッペンら）参戦可能性やWRC勝田貴元など世界選手権の動向が活発化。</div>
+        </div>
+        
+        <div class="report-section">
+            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+            <div class="report-section-text">F1秋の過酷なフライアウェイ戦や次戦MotoGP、さらにWEC・WRCのシーズン終盤戦に向けて、日本勢の表彰台獲得と来季シート獲得の行方に大きな期待と注目が集まります。</div>
+        </div>
+    </div>
+    
+
+            <!-- 最新ニュース要約カード群 -->
+            <div class="news-grid">
+                
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">Yahoo!ニュース</span>
+                <span class="card-date">09/21 17:07</span>
+            </div>
+            <h3 class="card-title">【F1】フェルスタッペンとノリス、目指す「ル・マン参戦」と「若手育成」 同じ情熱、異なる2人の“自分流”とは（TopNews）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 2027年F1日程発表でル・マン重複解消へ！F1勢参戦に道</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>最新のF1日程発表に伴い、世界三大レース「ル・マン24時間」との日程重複が解消される見込みに。</span></div><div class="summary-point"><span class="dot">•</span><span>フェルスタッペンら現役F1トップドライバーのル・マン挑戦の可能性が大きく浮上。</span></div><div class="summary-point"><span class="dot">•</span><span>最高峰プロトタイプカーによる24時間の極限レースに、さらなる注目と熱気が集まっています。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 現役F1王者のル・マン挑戦が実現するかも！世界最高峰耐久レースのスケール拡大に胸が躍ります！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE12RkdQMWtqYTlxZUtWcHlPT0VmVjk4QTdzWDhNQldTZXRQdFNXT0hsYVNlWWg3bDF5bTQ1OHk4VFdIWjVDakFUSG41R2kyQjJWWlNKVHR4SzZJdEt2SGNBdS1nbWt1bm56NFNQX0QtUTdWZlBaWHZseklBQlFVZU0?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">autosport web</span>
+                <span class="card-date">09/21 15:28</span>
+            </div>
+            <h3 class="card-title">角田裕毅「今の目標は来年F1に戻ること。他は考えていない」代役出場で久々に“素晴らしい瞬間”を経験</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 角田裕毅 「今の目標は来年F1に戻ること。他は考えていない」 代役出場で手応え</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>F1代役出場を果たした角田裕毅選手が、「今の目標は来年F1に戻ること。他は考えていない」と復帰への確固たる決意を表明。</span></div><div class="summary-point"><span class="dot">•</span><span>実戦の中でマシンの感触を掴み、久々に素晴らしい瞬間を経験したと充実感を語る。</span></div><div class="summary-point"><span class="dot">•</span><span>限られた出走機会の中で確かな速さと実力をアピールし、来季のシート獲得へ期待が高まっています。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> F1復帰への熱い情熱と揺るぎない覚悟！角田選手の今後の動向とレギュラー奪還に全力で期待しましょう！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMiR0FVX3lxTE5KUkRuUTlLQzBpQ3BIdXBiUmVEeDR6NHZIZ3kzQlQ2WE1FOWN1RTJ4emtHQ2RZUE55MjJ5aDRzbTJDQUFaTlk4?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">Yahoo!ニュース</span>
+                <span class="card-date">09/21 12:44</span>
+            </div>
+            <h3 class="card-title">復帰戦の小椋藍が決勝も4位「驚きの連続 これ以上ない週末になった」 ペドロ・アコスタが待望の初勝利【モトGP・第15戦オーストリアGP決勝】（中日スポーツ）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 小椋藍、復帰戦で4位快走！「驚きの連続 これ以上ない週末になった」</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>MotoGPオーストリアGPにて、怪我から復帰した小椋藍選手が見事4位入賞。</span></div><div class="summary-point"><span class="dot">•</span><span>「驚きの連続 これ以上ない週末になった」と語り、最高峰クラスでの走りに確かな手応えと自信を深める。</span></div><div class="summary-point"><span class="dot">•</span><span>世界の強豪ライダーたちと互角のバトルを繰り広げ、今後の表彰台争いへ弾みをつけました。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 復帰初戦で堂々の4位は素晴らしい快挙！自信を深めた小椋選手の次戦での表彰台登壇が本当に楽しみです！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBGSWhMQ0VuYm1jVVFtQU5PRmJ1akFic1dzOTFuZlVyd2pMNE9YeW1aY2VUR3Rsa1ZUQm5rcElYUTJ2dkp0ZXF4MUdnREpqTEpvM3Vqcm1LaEFieEFtTExJeWg3dWhZUUtjOXhfV3hDNFAwdVpLbFZ6d1FjbmhSeDA?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">Yahoo!ニュース</span>
+                <span class="card-date">09/21 07:26</span>
+            </div>
+            <h3 class="card-title">F1参戦2年目で大フィーバー！ アントネッリの大活躍には”女房役”ボニントンの存在が必要不可欠。元エンジニア「ボノがいなければ何もできなかった」 (motorsport.com 日本版)</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> F1参戦2年目で大フィーバー！ アントネッリの大活躍には</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>「Yahoo!ニュース」より、モータースポーツ界の最新動向が報じられました。</span></div><div class="summary-point"><span class="dot">•</span><span>マシンの開発アップデートやドライバーの走りが注目を集めています。</span></div><div class="summary-point"><span class="dot">•</span><span>シーズン終盤に向けてチャンピオンシップや順位争いがさらに熱を帯びています。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 世界最高峰のスピードとテクノロジーの戦い！次戦の展開にも大注目です！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkZKS0I4bVl0N0pEY0VLWTAwVWRwbURLSGxHNVJsUWgwNHR6dkNCSFVrZXF0Qk5TOUFibHFpYVFrSlRTSjBOcWVwY2lTcDNGak5Fbi1MOWdaYXBpbmNMdmlyc0JnSFpOZFJVaHZPQWJHSnliS1JYcTgtOFpiaEdzVEEzUy1HNGdBOXlOV3JB?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">autosport web</span>
+                <span class="card-date">09/21 11:38</span>
+            </div>
+            <h3 class="card-title">決勝で入賞の中上、もてぎへ向けた足がかりを築く「この結果は予想していなかった」／第15戦オーストリアGP</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 中上貴晶、決勝入賞でもてぎ日本GPへ「この結果は予想していなかった」</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>MotoGPオーストリアGP決勝で中上貴晶選手が入賞を果たし、貴重なポイントを獲得。</span></div><div class="summary-point"><span class="dot">•</span><span>「この結果は予想していなかった」と振り返り、マシンの熟成と次戦もてぎ日本グランプリへの好感触を口に。</span></div><div class="summary-point"><span class="dot">•</span><span>母国ファンの前で最高の走りを披露すべく、チーム一丸となったマシン改善が進んでいます。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 母国・もてぎに向けて確かな手応え！ホームの大歓声を背に走る中上選手の快走に大注目です！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE92Rl9NVWI4WnV1ZHBQTHhGQld4MHF1dU1oQ1BFVVZMRFZDT3VOVTJmYmM2WjZWbUxSQTROYjJaQUNKMjUwdy1Kd2JB?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+
+        <article class="news-card">
+            <div class="card-header">
+                <span class="card-source">Yahoo!ニュース</span>
+                <span class="card-date">09/20 17:45</span>
+            </div>
+            <h3 class="card-title">【MotoGP】ベッツェッキ、オーストリアGPスプリントで3位表彰台も「トップ3人にはペースで負けていた」（motorsport.com 日本版）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> MotoGP世界選手権、激化するバトルとマシントラブルの明暗</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>世界最高峰二輪レースMotoGPで、トップライダーたちの極限のバトルが展開。</span></div><div class="summary-point"><span class="dot">•</span><span>ブレーキトラブルやタイヤマネジメントなど過酷な環境下でのドラマが多発。</span></div><div class="summary-point"><span class="dot">•</span><span>チャンピオンシップ争いが過熱する中、コンマ数秒を削り合うハイレベルな攻防が続いています。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 時速350km超の世界で繰り広げられる極限の駆け引き！ライダーたちの超絶ライディングに熱狂しましょう！</div>
+            </div>
+            <div class="card-footer">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBPMzdGWUNuZ2sxbURnaGk2XzAzWlczNE5lTkFVTllJX2hpR3IxMG1mMlJRYlpJVFVjZDc3TFNJLVJnelhuOE1URTBXWFlZS2RSZmh1dnpfcVpsOVo2ZTl1R1o4Q1VvMkp0empqLVZ2LV8xMXlKd1U1bHYtZldZcFE?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                    <span>元記事を読む</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </article>
+        
+            </div>
+        </section>
     </main>
 
     <!-- フッター -->
@@ -414,7 +592,7 @@
                 📱 <strong>スマホのホーム画面に追加</strong> するとアプリのようにサッと読めます！
             </p>
             <div class="footer-copy">
-                &copy; 2026 ドラ＆ジェッツ速報 - Powered by GitHub Pages & Gemini
+                &copy; 2026 ドラ＆ジェッツ＆MS速報 - Powered by GitHub Pages & Gemini
             </div>
         </div>
     </footer>
@@ -422,7 +600,7 @@
     <!-- インタラクション用スクリプト -->
     <script>
         let currentTabIndex = 0;
-        const categories = ['dragons', 'jets'];
+        const categories = ['dragons', 'jets', 'motorsport'];
         const tabs = document.querySelectorAll('.tab-btn');
         const panels = document.querySelectorAll('.tab-content');
 

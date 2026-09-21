@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ドラ＆ジェッツ速報 | 中日ドラゴンズ & 千葉ジェッツ ニュース要約＆1週間AIレポート</title>
-    <meta name="description" content="中日ドラゴンズと千葉ジェッツふなばしの最新ニュースを3行要約。過去1週間の試合結果・選手動向をAIが徹底調査・分析して毎朝お届けします。">
+    <title>ドラ＆ジェッツ＆MS速報 | 中日ドラゴンズ・千葉ジェッツ・モータースポーツ ニュース要約＆1週間AIレポート</title>
+    <meta name="description" content="中日ドラゴンズ、千葉ジェッツ、モータースポーツ（F1・MotoGP・WRC・WEC・Indy等）の最新ニュースを3行要約。過去1週間の動向をAIが徹底調査・分析して毎朝お届けします。">
     
     <!-- PWA / モバイル対応 -->
     <meta name="theme-color" content="#0A0F1D">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="ドラ＆ジェッツ">
+    <meta name="apple-mobile-web-app-title" content="ドラ・ジェッツ・MS">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="icon.svg">
@@ -19,16 +19,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.0">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="app-header">
         <div class="header-inner">
             <div class="logo-area">
-                <div class="logo-icon">⚾🏀</div>
+                <div class="logo-icon">⚾🏀🏎️</div>
                 <div>
-                    <h1 class="logo-title">ドラ＆ジェッツ速報</h1>
+                    <h1 class="logo-title">ドラ＆ジェッツ＆MS速報</h1>
                     <p class="logo-subtitle">最新要約 ＆ 1週間AI徹底調査レポート</p>
                 </div>
             </div>
@@ -53,6 +53,11 @@
                 <span class="tab-text">千葉ジェッツ</span>
                 <span class="tab-count">{{JETS_COUNT}}</span>
             </button>
+            <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false">
+                <span class="tab-icon">🏎️</span>
+                <span class="tab-text">モータースポーツ</span>
+                <span class="tab-count">{{MOTORSPORT_COUNT}}</span>
+            </button>
         </nav>
         <div class="swipe-hint"><span>⇄</span> 画面を左右にスワイプして切り替え</div>
 
@@ -66,7 +71,7 @@
                 </div>
             </div>
 
-            <!-- 過去3日間のAI調査レポート -->
+            <!-- 過去1週間のAI調査レポート -->
             {{DRAGONS_AI_REPORT}}
 
             <!-- 最新ニュース要約カード群 -->
@@ -85,12 +90,31 @@
                 </div>
             </div>
 
-            <!-- 過去3日間のAI調査レポート -->
+            <!-- 過去1週間のAI調査レポート -->
             {{JETS_AI_REPORT}}
 
             <!-- 最新ニュース要約カード群 -->
             <div class="news-grid">
                 {{JETS_NEWS_CARDS}}
+            </div>
+        </section>
+
+        <!-- モータースポーツセクション -->
+        <section id="motorsport-tab" class="tab-content" role="tabpanel">
+            <div class="section-intro motorsport">
+                <div class="intro-icon">🏎️</div>
+                <div>
+                    <h2>モータースポーツ 最新情報</h2>
+                    <p>F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約</p>
+                </div>
+            </div>
+
+            <!-- 過去1週間のAI調査レポート -->
+            {{MOTORSPORT_AI_REPORT}}
+
+            <!-- 最新ニュース要約カード群 -->
+            <div class="news-grid">
+                {{MOTORSPORT_NEWS_CARDS}}
             </div>
         </section>
     </main>
@@ -106,7 +130,7 @@
                 📱 <strong>スマホのホーム画面に追加</strong> するとアプリのようにサッと読めます！
             </p>
             <div class="footer-copy">
-                &copy; {{CURRENT_YEAR}} ドラ＆ジェッツ速報 - Powered by GitHub Pages & Gemini
+                &copy; {{CURRENT_YEAR}} ドラ＆ジェッツ＆MS速報 - Powered by GitHub Pages & Gemini
             </div>
         </div>
     </footer>
@@ -114,7 +138,7 @@
     <!-- インタラクション用スクリプト -->
     <script>
         let currentTabIndex = 0;
-        const categories = ['dragons', 'jets'];
+        const categories = ['dragons', 'jets', 'motorsport'];
         const tabs = document.querySelectorAll('.tab-btn');
         const panels = document.querySelectorAll('.tab-content');
 

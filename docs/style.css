@@ -26,6 +26,12 @@
     --color-jets-bg: rgba(239, 68, 68, 0.12);
     --color-jets-border: rgba(239, 68, 68, 0.3);
     
+    /* モータースポーツ: レーシングアンバー / ゴールド */
+    --color-motorsport: #F59E0B;
+    --color-motorsport-dark: #D97706;
+    --color-motorsport-bg: rgba(245, 158, 11, 0.12);
+    --color-motorsport-border: rgba(245, 158, 11, 0.3);
+    
     --border-color: rgba(255, 255, 255, 0.08);
     --border-highlight: rgba(255, 255, 255, 0.15);
     
@@ -216,6 +222,14 @@ body {
     color: var(--color-jets);
 }
 
+.tab-btn.active[data-tab="motorsport"] {
+    border-color: var(--color-motorsport-border);
+}
+.tab-btn.active[data-tab="motorsport"] .tab-count {
+    background: var(--color-motorsport-bg);
+    color: var(--color-motorsport);
+}
+
 /* スワイプガイド */
 .swipe-hint {
     text-align: center;
@@ -276,6 +290,10 @@ body {
     background: var(--color-jets-bg);
     border-color: var(--color-jets-border);
 }
+.section-intro.motorsport {
+    background: var(--color-motorsport-bg);
+    border-color: var(--color-motorsport-border);
+}
 
 .section-intro .intro-icon {
     font-size: 26px;
@@ -289,6 +307,7 @@ body {
 
 .section-intro.dragons h2 { color: var(--color-dragons); }
 .section-intro.jets h2 { color: var(--color-jets); }
+.section-intro.motorsport h2 { color: var(--color-motorsport); }
 
 .section-intro p {
     font-size: 12px;
@@ -326,6 +345,10 @@ body {
     background: linear-gradient(90deg, #EF4444, #F87171);
 }
 
+.report-card.motorsport::before {
+    background: linear-gradient(90deg, #F59E0B, #FBBF24);
+}
+
 .report-header {
     display: flex;
     align-items: center;
@@ -355,6 +378,12 @@ body {
     background: rgba(239, 68, 68, 0.2);
     color: #F87171;
     border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.report-card.motorsport .report-badge {
+    background: rgba(245, 158, 11, 0.2);
+    color: #FBBF24;
+    border: 1px solid rgba(245, 158, 11, 0.4);
 }
 
 .report-date {
