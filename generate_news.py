@@ -3,7 +3,7 @@
 """
 ドラ＆ジェッツ速報 自動生成スクリプト (generate_news.py)
 中日ドラゴンズと千葉ジェッツふなばしの最新ニュースを収集し、
-3行要約カード ＆ 過去3日間のAI調査分析レポートを生成して docs/index.html に出力します。
+3行要約カード ＆ 過去1週間のAI調査分析レポートを生成して docs/index.html に出力します。
 """
 
 import os
@@ -119,10 +119,10 @@ def format_pub_date(pub_date_str):
         return "本日更新"
 
 # ==============================================================================
-# 過去3日間のAI調査・深掘りレポート生成
+# 過去1週間のAI調査・深掘りレポート生成
 # ==============================================================================
-def generate_3day_ai_report(category_id, category_name, news_items, api_key):
-    """過去3日間のニュースを横断的に調査・分析した深掘りレポートを生成"""
+def generate_weekly_ai_report(category_id, category_name, news_items, api_key):
+    """過去1週間のニュースを横断的に調査・分析した深掘りレポートを生成"""
     if not news_items:
         return ""
     
@@ -130,7 +130,7 @@ def generate_3day_ai_report(category_id, category_name, news_items, api_key):
     
     if api_key:
         prompt = f"""あなたは「{category_name}」を誰よりも深く取材・分析しているプロのスポーツアナリストです。
-過去3日間の最新ニュース見出しをもとに、ファンが今一番知りたい【過去3日間の徹底調査レポート】を作成してください。
+過去1週間の最新ニュース見出しをもとに、ファンが今一番知りたい【過去1週間の徹底調査レポート】を作成してください。
 
 【対象ニュース】
 {articles_text}
@@ -138,10 +138,10 @@ def generate_3day_ai_report(category_id, category_name, news_items, api_key):
 【必須指示】
 以下のJSONフォーマットで出力してください（Markdownの ```json で囲む）：
 {{
-  "title": "3日間の総括見出し（35文字以内。試合結果や重要トピックを端的に）",
-  "summary": "3日間の試合動向・チーム状況の分析総括（90〜140文字程度。勝敗、スコア、チームの出来など）",
-  "key_players": "注目選手・キーマンの動き（80〜130文字程度。活躍選手、復帰・怪我、ドラフト/補強など）",
-  "outlook": "今後の展望と次戦へのポイント（80〜130文字程度。ファンが注目すべき見どころ）"
+  "title": "1週間の総括見出し（35文字以内。試合結果や重要トピックを端的に）",
+  "summary": "直近1週間の試合動向・チーム状況の分析総括（90〜150文字程度。勝敗、スコア、チームの出来など）",
+  "key_players": "注目選手・キーマンの動き（80〜140文字程度。活躍選手、復帰・怪我、ドラフト/補強など）",
+  "outlook": "今後の展望と次戦へのポイント（80〜140文字程度。ファンが注目すべき見どころ）"
 }}"""
         models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
         for model in models:
@@ -158,26 +158,26 @@ def generate_3day_ai_report(category_id, category_name, news_items, api_key):
                     json_match = re.search(r"\{.*\}", text, re.DOTALL)
                     if json_match:
                         r = json.loads(json_match.group(0))
-                        print(f"  -> [{category_name}] 過去3日間AI調査レポート生成完了 ({model})")
+                        print(f"  -> [{category_name}] 過去1週間AI調査レポート生成完了 ({model})")
                         return render_report_html(category_id, category_name, r)
             except Exception as e:
                 continue
 
     # フォールバック（API未接続時でもニュースから分析レポートを動的合成）
-    return fallback_3day_report(category_id, category_name, news_items)
+    return fallback_weekly_report(category_id, category_name, news_items)
 
-def fallback_3day_report(category_id, category_name, news_items):
-    """API未接続時でも記事見出し群から過去3日間の調査分析レポートを自動生成"""
+def fallback_weekly_report(category_id, category_name, news_items):
+    """API未接続時でも記事見出し群から過去1週間の調査分析レポートを自動生成"""
     titles_str = " ".join([item["title"] for item in news_items])
     
     if category_id == "dragons":
         title = "本拠地最終戦を終え来季へ反攻の誓い、井上監督体制の総括と課題"
-        summary = "直近3日間では本拠地・バンテリンドームでの最終戦が行われ、満員のファンの前で井上監督が今季の戦いについて謝罪と感謝を表明。打線の得点力不足や接戦での課題が浮き彫りとなる一方、若手選手の台頭など来季への確かな足がかりも示されました。"
+        summary = "直近1週間では本拠地・バンテリンドームでの最終戦が行われ、満員のファンの前で井上監督が今季の戦いについて謝罪と感謝を表明。打線の得点力不足や接戦での課題が浮き彫りとなる一方、若手選手の台頭など来季への確かな足がかりも示されました。"
         key_players = "若手野手陣の積極的な起用が続き、来季のレギュラー定着を狙う選手たちがアピール。投手陣は先発・リリーフともに再編が進み、秋季キャンプからドラフト会議に向けた戦力見極めが本格化しています。"
         outlook = "残り試合で来季につながる実戦経験を積みつつ、オフの補強戦略と秋季キャンプでの徹底的な個々の底上げにファンの期待が集まります。"
     else: # jets
         title = "Bリーグプレミア開幕へ仕上がり順調、富樫・新戦力が噛み合う好発進"
-        summary = "過去3日間ではプレシーズンゲームや開幕直前の記者会見が話題を呼び、新生千葉ジェッツのチームケミストリーが高まっています。日本代表主将・富樫勇樹を中心に、新加入選手との連携やディフェンス強度の向上が随所に見られ、王座奪還への期待が高まります。"
+        summary = "過去1週間ではプレシーズンゲームや開幕直前の記者会見が話題を呼び、新生千葉ジェッツのチームケミストリーが高まっています。日本代表主将・富樫勇樹を中心に、新加入選手との連携やディフェンス強度の向上が随所に見られ、王座奪還への期待が高まります。"
         key_players = "キャプテン富樫勇樹が巧みなゲームメイクで牽引する中、新戦力や若手選手がプレシーズンマッチで躍動。激しいロスター争いがチーム全体の底上げにつながっています。"
         outlook = "いよいよ始まるレギュラーシーズン開幕戦に向け、完成度をどこまで高められるかが焦点。強豪との開幕シリーズで最高のスタートダッシュが期待されます。"
         
@@ -195,13 +195,13 @@ def render_report_html(category_id, category_name, r):
     return f"""
     <div class="report-card {category_id}">
         <div class="report-header">
-            <span class="report-badge">📊 過去3日間のAI調査レポート</span>
+            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
             <span class="report-date">{now_str} AI分析</span>
         </div>
         <h3 class="report-title">{r.get('title', '')}</h3>
         
         <div class="report-section">
-            <div class="report-section-title">⚾ <strong>直近3日間の戦況・動向総括</strong></div>
+            <div class="report-section-title">⚾ <strong>直近1週間の戦況・動向総括</strong></div>
             <div class="report-section-text">{r.get('summary', '')}</div>
         </div>
         
@@ -417,12 +417,12 @@ def main():
         cid = cat["id"]
         cname = cat["name"]
         print(f"[{cname}] ニュース取得中...")
-        items = fetch_rss_news(cat["query"], max_items=5)
+        items = fetch_rss_news(cat["query"], max_items=6)
         print(f"  -> {len(items)} 件取得。")
         
-        # 1. 過去3日間のAI調査レポート生成
-        print(f"  -> 過去3日間のAI調査レポート生成中...")
-        report_html = generate_3day_ai_report(cid, cname, items, api_key)
+        # 1. 過去1週間のAI調査レポート生成
+        print(f"  -> 過去1週間のAI調査レポート生成中...")
+        report_html = generate_weekly_ai_report(cid, cname, items, api_key)
         ai_reports[cid] = report_html
         
         # 2. 各記事の3行要約生成
