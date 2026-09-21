@@ -1,4 +1,4 @@
-const CACHE_NAME = 'dragons-jets-news-v5';
+const CACHE_NAME = 'myspo-v1';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',

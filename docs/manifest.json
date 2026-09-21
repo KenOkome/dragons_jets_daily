@@ -1,7 +1,7 @@
 {
-  "name": "ドラ＆ジェッツ速報 | 中日ドラゴンズ & 千葉ジェッツ",
-  "short_name": "ドラ＆ジェッツ",
-  "description": "中日ドラゴンズと千葉ジェッツふなばしの最新ニュース要約＆過去3日間のAI調査レポート",
+  "name": "まいすぽ | ドラゴンズ・ジェッツ・モータースポーツ速報",
+  "short_name": "まいすぽ",
+  "description": "中日ドラゴンズ、千葉ジェッツ、モータースポーツの最新ニュース要約＆過去1週間のAI調査レポート",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0A0F1D",

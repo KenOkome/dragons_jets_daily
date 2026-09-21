@@ -743,7 +743,7 @@ def render_news_cards(news_items):
 # メイン処理
 # ==============================================================================
 def main():
-    print("=== ドラ＆ジェッツ速報 生成開始 ===")
+    print("=== まいすぽ 生成開始 ===")
     api_key = load_api_key()
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
