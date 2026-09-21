@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ドラ＆ジェッツ速報 | 中日ドラゴンズ & 千葉ジェッツ ニュース要約＆3日間AIレポート</title>
+    <meta name="description" content="中日ドラゴンズと千葉ジェッツふなばしの最新ニュースを3行要約。過去3日間の試合結果・選手動向をAIが徹底調査・分析して毎朝お届けします。">
+    
+    <!-- PWA / モバイル対応 -->
+    <meta name="theme-color" content="#0A0F1D">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ドラ＆ジェッツ">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1.0">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="app-header">
+        <div class="header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">⚾🏀</div>
+                <div>
+                    <h1 class="logo-title">ドラ＆ジェッツ速報</h1>
+                    <p class="logo-subtitle">最新要約 ＆ 3日間AI徹底調査レポート</p>
+                </div>
+            </div>
+            <div class="update-badge" id="updateBadge">
+                <span class="pulse-dot"></span>
+                <span>{{UPDATED_TIME}} 更新</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="main-container">
+        <!-- カテゴリー切り替えタブ -->
+        <nav class="category-tabs" role="tablist">
+            <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true">
+                <span class="tab-icon">🐉</span>
+                <span class="tab-text">中日ドラゴンズ</span>
+                <span class="tab-count">{{DRAGONS_COUNT}}</span>
+            </button>
+            <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false">
+                <span class="tab-icon">✈️</span>
+                <span class="tab-text">千葉ジェッツ</span>
+                <span class="tab-count">{{JETS_COUNT}}</span>
+            </button>
+        </nav>
+        <div class="swipe-hint"><span>⇄</span> 画面を左右にスワイプして切り替え</div>
+
+        <!-- 中日ドラゴンズセクション -->
+        <section id="dragons-tab" class="tab-content active" role="tabpanel">
+            <div class="section-intro dragons">
+                <div class="intro-icon">🐉</div>
+                <div>
+                    <h2>中日ドラゴンズ 最新情報</h2>
+                    <p>試合結果速報、選手活躍、采配動向、チーム再建の要約まとめ</p>
+                </div>
+            </div>
+
+            <!-- 過去3日間のAI調査レポート -->
+            {{DRAGONS_AI_REPORT}}
+
+            <!-- 最新ニュース要約カード群 -->
+            <div class="news-grid">
+                {{DRAGONS_NEWS_CARDS}}
+            </div>
+        </section>
+
+        <!-- 千葉ジェッツセクション -->
+        <section id="jets-tab" class="tab-content" role="tabpanel">
+            <div class="section-intro jets">
+                <div class="intro-icon">✈️</div>
+                <div>
+                    <h2>千葉ジェッツふなばし 最新情報</h2>
+                    <p>Bリーグプレミア開幕、試合速報、富樫・渡邊ら注目選手動向</p>
+                </div>
+            </div>
+
+            <!-- 過去3日間のAI調査レポート -->
+            {{JETS_AI_REPORT}}
+
+            <!-- 最新ニュース要約カード群 -->
+            <div class="news-grid">
+                {{JETS_NEWS_CARDS}}
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="app-footer">
+        <div class="footer-inner">
+            <p class="footer-desc">
+                🤖 Google News RSS より自動収集・Gemini AI による自動要約＆3日間調査<br>
+                毎朝 6:00（JST）自動更新 | 完全無料運用中
+            </p>
+            <p class="footer-tip">
+                📱 <strong>スマホのホーム画面に追加</strong> するとアプリのようにサッと読めます！
+            </p>
+            <div class="footer-copy">
+                &copy; {{CURRENT_YEAR}} ドラ＆ジェッツ速報 - Powered by GitHub Pages & Gemini
+            </div>
+        </div>
+    </footer>
+
+    <!-- インタラクション用スクリプト -->
+    <script>
+        let currentTabIndex = 0;
+        const categories = ['dragons', 'jets'];
+        const tabs = document.querySelectorAll('.tab-btn');
+        const panels = document.querySelectorAll('.tab-content');
+
+        function switchTab(newIndex, direction = 'right') {
+            if (newIndex < 0 || newIndex >= categories.length) return;
+            currentTabIndex = newIndex;
+
+            tabs.forEach((tab, i) => {
+                const isActive = (i === newIndex);
+                tab.classList.toggle('active', isActive);
+                tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            });
+
+            panels.forEach((panel, i) => {
+                panel.classList.remove('active', 'slide-from-left');
+                if (i === newIndex) {
+                    panel.classList.add('active');
+                    if (direction === 'left') {
+                        panel.classList.add('slide-from-left');
+                    }
+                }
+            });
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // タブボタンクリック
+        tabs.forEach((tab, i) => {
+            tab.addEventListener('click', () => {
+                const dir = (i < currentTabIndex) ? 'left' : 'right';
+                switchTab(i, dir);
+            });
+        });
+
+        // スマホ用タッチスワイプ検知
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let touchEndX = 0;
+        let touchEndY = 0;
+
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        document.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            handleSwipe();
+        }, { passive: true });
+
+        function handleSwipe() {
+            const diffX = touchEndX - touchStartX;
+            const diffY = touchEndY - touchStartY;
+            // 縦スクロール優先ガード（縦移動が大きい、または横移動が40px未満なら無視）
+            if (Math.abs(diffX) < Math.abs(diffY) || Math.abs(diffX) < 40) {
+                return;
+            }
+            if (diffX < 0) {
+                // 左スワイプ（次へ進む）
+                if (currentTabIndex < categories.length - 1) {
+                    switchTab(currentTabIndex + 1, 'right');
+                }
+            } else {
+                // 右スワイプ（前に戻る）
+                if (currentTabIndex > 0) {
+                    switchTab(currentTabIndex - 1, 'left');
+                }
+            }
+        }
+
+        // キーボード左右矢印キー対応
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' && currentTabIndex < categories.length - 1) {
+                switchTab(currentTabIndex + 1, 'right');
+            } else if (e.key === 'ArrowLeft' && currentTabIndex > 0) {
+                switchTab(currentTabIndex - 1, 'left');
+            }
+        });
+
+        // サービスワーカー登録（PWA用）
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').catch(() => {});
+            });
+        }
+    </script>
+</body>
+</html>

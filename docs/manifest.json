@@ -1,0 +1,17 @@
+{
+  "name": "ドラ＆ジェッツ速報 | 中日ドラゴンズ & 千葉ジェッツ",
+  "short_name": "ドラ＆ジェッツ",
+  "description": "中日ドラゴンズと千葉ジェッツふなばしの最新ニュース要約＆過去3日間のAI調査レポート",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0A0F1D",
+  "theme_color": "#0A0F1D",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
