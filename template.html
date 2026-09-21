@@ -19,17 +19,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="style.css?v=3.2">
 </head>
 <body>
     <!-- ヘッダー -->
     <header class="app-header">
         <div class="header-inner">
             <div class="logo-area">
-                <div class="logo-icon">⚾🏀🏎️🌍</div>
+                <div class="logo-icon">🏆</div>
                 <div>
                     <h1 class="logo-title">まいすぽ</h1>
-                    <p class="logo-subtitle">ドラ・ジェッツ・モータースポーツ・世界の主要スポーツ要約 ＆ 1週間AIレポート</p>
+                    <p class="logo-subtitle">ドラ・ジェッツ・モータースポーツ・世界スポーツ</p>
                 </div>
             </div>
             <div class="update-badge" id="updateBadge">
@@ -46,26 +46,26 @@
             <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true" aria-label="中日ドラゴンズ" title="中日ドラゴンズ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/dragons_emblem.svg" class="tab-emblem" alt="中日ドラゴンズ">
+                    <span class="tab-count">{{DRAGONS_COUNT}}</span>
                 </span>
-                <span class="tab-count">{{DRAGONS_COUNT}}</span>
             </button>
             <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false" aria-label="千葉ジェッツ" title="千葉ジェッツふなばし">
                 <span class="tab-icon-wrapper">
                     <img src="assets/jets_emblem.svg" class="tab-emblem" alt="千葉ジェッツ">
+                    <span class="tab-count">{{JETS_COUNT}}</span>
                 </span>
-                <span class="tab-count">{{JETS_COUNT}}</span>
             </button>
             <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false" aria-label="モータースポーツ" title="モータースポーツ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/motorsport_emblem.svg" class="tab-emblem" alt="モータースポーツ">
+                    <span class="tab-count">{{MOTORSPORT_COUNT}}</span>
                 </span>
-                <span class="tab-count">{{MOTORSPORT_COUNT}}</span>
             </button>
             <button class="tab-btn" data-tab="world" role="tab" aria-selected="false" aria-label="世界のメジャースポーツ" title="世界のメジャースポーツ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/world_emblem.svg" class="tab-emblem" alt="世界のメジャースポーツ">
+                    <span class="tab-count">{{WORLD_COUNT}}</span>
                 </span>
-                <span class="tab-count">{{WORLD_COUNT}}</span>
             </button>
         </nav>
         <div class="swipe-hint"><span>⇄</span> アイコンタップ または 左右スワイプで切り替え</div>

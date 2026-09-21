@@ -98,15 +98,16 @@ body {
 }
 
 .logo-icon {
-    font-size: 24px;
-    width: 44px;
-    height: 44px;
+    font-size: 20px;
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(239, 68, 68, 0.3));
     border: 1px solid var(--border-highlight);
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .logo-title {
@@ -162,12 +163,12 @@ body {
 
 /* カテゴリー切り替えタブ（名前省略・4アイコン横一列） */
 .category-tabs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 6px;
     background: rgba(19, 27, 46, 0.85);
-    padding: 8px 6px;
-    border-radius: 16px;
+    padding: 6px 4px;
+    border-radius: 14px;
     border: 1px solid var(--border-color);
     margin-bottom: 20px;
     position: sticky;
@@ -179,44 +180,50 @@ body {
 
 .tab-btn {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    padding: 6px 4px 8px;
+    padding: 8px 4px;
     border: none;
     background: transparent;
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
+    min-width: 0;
     transition: var(--transition);
 }
 
 .tab-btn .tab-icon-wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
     transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .tab-btn .tab-emblem {
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
-    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
     transition: transform 0.25s ease;
 }
 
 .tab-btn .tab-count {
-    font-size: 10px;
-    font-weight: 700;
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    font-size: 9px;
+    font-weight: 800;
     font-family: var(--font-en);
-    padding: 1px 6px;
-    background: rgba(255, 255, 255, 0.08);
+    padding: 1px 5px;
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
-    color: var(--text-dim);
-    margin-top: 4px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     transition: var(--transition);
 }
 
@@ -225,44 +232,44 @@ body {
 }
 
 .tab-btn.active {
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .tab-btn.active .tab-icon-wrapper {
-    transform: translateY(-2px) scale(1.1);
+    transform: translateY(-1px) scale(1.08);
 }
 
 .tab-btn.active[data-tab="dragons"] {
     border-bottom: 3px solid var(--color-dragons);
 }
 .tab-btn.active[data-tab="dragons"] .tab-count {
-    background: var(--color-dragons-bg);
-    color: var(--color-dragons);
+    background: var(--color-dragons);
+    color: #FFFFFF;
 }
 
 .tab-btn.active[data-tab="jets"] {
     border-bottom: 3px solid var(--color-jets);
 }
 .tab-btn.active[data-tab="jets"] .tab-count {
-    background: var(--color-jets-bg);
-    color: var(--color-jets);
+    background: var(--color-jets);
+    color: #FFFFFF;
 }
 
 .tab-btn.active[data-tab="motorsport"] {
     border-bottom: 3px solid var(--color-motorsport);
 }
 .tab-btn.active[data-tab="motorsport"] .tab-count {
-    background: var(--color-motorsport-bg);
-    color: var(--color-motorsport);
+    background: var(--color-motorsport);
+    color: #FFFFFF;
 }
 
 .tab-btn.active[data-tab="world"] {
     border-bottom: 3px solid var(--color-world);
 }
 .tab-btn.active[data-tab="world"] .tab-count {
-    background: var(--color-world-bg);
-    color: var(--color-world);
+    background: var(--color-world);
+    color: #FFFFFF;
 }
 
 /* スワイプガイド */

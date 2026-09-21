@@ -1,8 +1,9 @@
-const CACHE_NAME = 'myspo-v3';
+const CACHE_NAME = 'myspo-v3.2';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
     './style.css',
+    './style.css?v=3.2',
     './manifest.json',
     './icon.svg',
     './assets/dragons_emblem.svg',
