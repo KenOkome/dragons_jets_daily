@@ -57,8 +57,61 @@ def load_api_key():
                 pass
     return ""
 
-def fetch_rss_news(query, max_items=6):
-    """Google News RSS から指定クエリの最新ニュースを取得（重複排除付き）"""
+def get_topic_key(title, category_id):
+    """タイトルから話題（トピック）の分類キーを判定"""
+    t = title
+    if category_id == 'dragons':
+        if '語録' in t:
+            return 'director_words'
+        if '松山' in t and ('30' in t or 'セーブ' in t or '守護神' in t):
+            return 'matsuyama_save'
+        if '大野' in t and ('10勝' in t or '左腕' in t or '２ケタ' in t or '2ケタ' in t):
+            return 'ohno_10win'
+        if '続投' in t or '現実味' in t:
+            return 'manager_continue'
+        if any(w in t for w in ['セレモニー', '最終戦', '謝罪', 'お詫び', 'おわび', 'あいさつ', 'スピーチ', '怒号']):
+            return 'ceremony_speech'
+        if '去就' in t or '加藤' in t:
+            return 'manager_future'
+        if any(w in t for w in ['髙橋宏斗', '高橋宏斗', '村松', '無失点', '6号', '4勝目', '勝', '敗', 'スコア', '試合結果']):
+            return 'game_result'
+        if '動員' in t or '観客' in t:
+            return 'attendance'
+        if '若松' in t or '独立球団' in t:
+            return 'ob_topic'
+        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
+    else: # jets
+        if '小川' in t and ('富樫' in t or '挑戦状' in t):
+            return 'ogawa_challenge'
+        if '若手' in t and 'ベテラン' in t or ('開幕' in t and 'プレミア' in t):
+            return 'young_veteran'
+        if 'PRESEASON' in t or 'プレシーズン' in t or 'ちばぎん' in t:
+            return 'preseason'
+        if 'TOGAシート' in t or '招待席' in t:
+            return 'toga_seat'
+        if '動員' in t or '観客' in t:
+            return 'attendance'
+        if '決起会' in t or 'グッズ' in t or 'イベント' in t or '装飾' in t:
+            return 'fan_event'
+        if 'SEASON' in t or 'B.LEAGUE' in t:
+            return 'resona_season'
+        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
+
+def score_article(title):
+    """見出しの具体性・情報量をスコアリング（発言や数字、具体的選手名を含むものを優先）"""
+    score = 0
+    if '「' in title and '」' in title:
+        score += 5
+    if re.search(r'\d+', title):
+        score += 2
+    if any(w in title for w in ['井上監督', '富樫', '髙橋宏斗', '高橋宏斗', '村松', '加藤', '小川']):
+        score += 3
+    if '謝罪' in title or '怒号' in title or '挑戦状' in title:
+        score += 4
+    return score
+
+def fetch_rss_news(category_id, query, max_items=6):
+    """Google News RSS から最新ニュースを取得し、トピック重複を排除して厳選"""
     encoded_query = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={encoded_query}&hl=ja&gl=JP&ceid=JP:ja"
     
@@ -74,8 +127,7 @@ def fetch_rss_news(query, max_items=6):
             xml_data = resp.read()
             root = ET.fromstring(xml_data)
             
-            items = []
-            seen_titles = set()
+            raw_candidates = []
             for item in root.findall(".//item"):
                 title = item.findtext("title", "").strip()
                 link = item.findtext("link", "").strip()
@@ -83,28 +135,45 @@ def fetch_rss_news(query, max_items=6):
                 source_elem = item.find("source")
                 source = source_elem.text.strip() if source_elem is not None and source_elem.text else "スポーツ速報"
                 
-                # タイトル末尾の「 - メディア名」を整理
-                clean_title = re.sub(r"\s*-\s*[^-]+$", "", title).strip()
+                clean_title = re.sub(r"\s*[-|]\s*[^-|]+$", "", title).strip()
                 
-                # 重複判定（先頭18文字で同一ニュースを排除）
-                norm_key = re.sub(r"[\s\W]", "", clean_title)[:18]
-                if norm_key in seen_titles:
-                    continue
-                seen_titles.add(norm_key)
+                # 千葉ジェッツの場合、関係の薄い海外・日本代表のみのニュース（中国大敗など）を除外
+                if category_id == "jets":
+                    if not any(k in clean_title for k in ["ジェッツ", "富樫", "原修太", "渡邊雄太", "船橋", "B.LEAGUE", "Bリーグ", "ちばぎん"]):
+                        continue
+                        
+                topic = get_topic_key(clean_title, category_id)
+                score = score_article(clean_title)
                 
-                items.append({
+                raw_candidates.append({
                     "title": clean_title,
                     "raw_title": title,
                     "link": link,
                     "pub_date": format_pub_date(pub_date_str),
                     "source": source,
+                    "topic": topic,
+                    "score": score,
                     "headline": "",
                     "points": [],
                     "takeaway": ""
                 })
-                if len(items) >= max_items:
+            
+            # 各トピックごとに最もスコアの高い代表記事を選定
+            selected_items = []
+            seen_topics = set()
+            
+            # スコア順にソートして、より具体的で魅力的な記事を優先
+            raw_candidates.sort(key=lambda x: x["score"], reverse=True)
+            
+            for cand in raw_candidates:
+                topic = cand["topic"]
+                if topic not in seen_topics:
+                    seen_topics.add(topic)
+                    selected_items.append(cand)
+                if len(selected_items) >= max_items:
                     break
-            return items
+                    
+            return selected_items
     except Exception as e:
         print(f"RSS取得エラー ({query}): {e}", file=sys.stderr)
         return []
@@ -345,7 +414,48 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             ]
             item["takeaway"] = "ブースターの声援が選手の力になります。会場や配信でチームを全力で後押ししましょう！"
 
-        # --- 5. 中日：髙橋宏斗 / 村松開人 / 個人成績・試合結果 ---
+        # --- 5. 中日：井上監督語録・試合後コメント（最優先判定） ---
+        elif '語録' in t or ('宏斗' in t and '当然' in t):
+            item["headline"] = "井上監督語録：髙橋宏斗の好投に「宏斗からしたら当然」"
+            item["points"] = [
+                "試合後の囲み取材で、先発・髙橋宏斗の力投について「最近の宏斗からしたら当然と言える内容」と絶大な信頼を表明。",
+                "序盤に先制・追加点を挙げた打線に対しても「2回までで終わらずに得点できた」と評価。",
+                "最終戦で見せた投打の噛み合わせを、来季へ向けた確かな手応えとして振り返りました。"
+            ]
+            item["takeaway"] = "エースへの確固たる信頼と打線の成長への評価。来季の反攻に向けた指揮官の確かなビジョンが伺えます！"
+
+        # --- 6. 中日：大野雄大投手 10勝目 ---
+        elif '大野' in t and ('10勝' in t or '左腕' in t or '２ケタ' in t or '2ケタ' in t):
+            item["headline"] = "大野雄大が2年連続10勝目達成、規定投球回へ井上監督も熟考"
+            item["points"] = [
+                "37歳の左腕・大野雄大投手が今季10勝目をマークし、2年連続となる2桁勝利を達成。",
+                "試合後は「情けない」と語り笑顔を見せず、規定投球回クリア（残り6イニング）へ井上監督も登板機会を熟考。",
+                "ベテランとしてチームを牽引し続けたエース左腕の意地と責任感が光る登板となりました。"
+            ]
+            item["takeaway"] = "37歳で2桁勝利は快挙！自身の投球に妥協せず高みを目指すエースの姿勢に胸が熱くなります！"
+
+        # --- 7. 中日：守護神・松山晋也投手 30セーブ ---
+        elif '松山' in t and ('30' in t or 'セーブ' in t or '守護神' in t):
+            q_text = quotes[0] if quotes else '俺の仕事はお前につなぐこと'
+            item["headline"] = f"守護神・松山晋也が2年連続30セーブ！監督「{q_text}」"
+            item["points"] = [
+                "守護神の松山晋也投手が今季30セーブを達成、2年連続の大台クリアを果たしました。",
+                f"井上監督は「{q_text}」と語り、チームを締めくくる若きクローザーへ絶大な信頼を口に。",
+                "苦しいチーム状況の中でも試合を締めくくり続けた絶対的守護神の存在感が際立ちます。"
+            ]
+            item["takeaway"] = "2年連続30セーブは球界屈指の証！来季も中日の勝利の方程式を支える守護神に大声援を！"
+
+        # --- 8. 中日：井上監督続投の現実味 ---
+        elif '続投' in t or '現実味' in t:
+            item["headline"] = "中日・井上監督の「続投」が現実味、観客動員数3位の経営貢献も"
+            item["points"] = [
+                "井上監督の来季続投の可能性が高まっていることが報じられました。",
+                "順位は低迷したものの、主催試合の入場者数が12球団中3位と高稼働を維持し球団経営に大きく貢献。",
+                "ファンからの支持や若手育成の手腕も評価され、来季に向けた体制維持が現実味を帯びています。"
+            ]
+            item["takeaway"] = "ファン動員を支えた井上監督。来季こそ結果で応えるべく、オフの戦力補強と指導に期待です！"
+
+        # --- 9. 中日：髙橋宏斗 / 村松開人 / 個人成績・試合結果 ---
         elif '村松' in t or '髙橋宏斗' in t or '高橋宏斗' in t:
             item["headline"] = "村松が6号3打点＆髙橋宏斗が7回無失点8Kで4勝目"
             item["points"] = [
@@ -355,7 +465,7 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             ]
             item["takeaway"] = "投の髙橋宏斗、打の村松。チームの未来を担う投打の柱がしっかり結果を残した頼もしい一戦です！"
 
-        # --- 6. 中日：加藤球団社長 / 井上監督の去就 ---
+        # --- 10. 中日：加藤球団社長 / 井上監督の去就 ---
         elif '加藤' in t and ('去就' in t or '監督' in t):
             q_text = f'「{quotes[0]}」' if quotes else '「まだ話すことはない」'
             item["headline"] = f"加藤球団社長、井上監督の来季去就に{q_text}"
@@ -366,8 +476,8 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             ]
             item["takeaway"] = "シーズン大詰めを迎え、来季の首脳陣体制とチーム再建プランの行方に大きな注目が集まります。"
 
-        # --- 7. 中日：井上監督 最終戦セレモニー / 謝罪 / あいさつ ---
-        elif '井上監督' in t or 'セレモニー' in t or '謝罪' in t or 'お詫び' in t:
+        # --- 11. 中日：井上監督 最終戦セレモニー / 謝罪 / あいさつ（セレモニー限定） ---
+        elif ('セレモニー' in t or '謝罪' in t or 'お詫び' in t or 'おわび' in t or 'あいさつ' in t or 'スピーチ' in t or '怒号' in t) and '井上' in t:
             q_text = quotes[0] if quotes else 'お詫びと感謝'
             action_desc = "スタンドから拍手と怒号が飛ぶ中、" if "怒号" in t else ""
             item["headline"] = f"井上監督が本拠地最終戦セレモニーで謝罪 「{q_text}」"
@@ -378,7 +488,47 @@ def fallback_smart_summaries(category_id, category_name, news_items):
             ]
             item["takeaway"] = "ファンの悔しさと激励を一身に背負った井上監督。この悔しさを糧にした秋季の猛練習に期待しましょう！"
 
-        # --- 8. 汎用フォールバック（具体的情報から構成） ---
+        # --- 12. 中日：年間観客動員数 253万人突破 ---
+        elif '動員' in t or '観客' in t:
+            item["headline"] = "中日、主催71試合で総観客253万人突破！2年連続最多更新"
+            item["points"] = [
+                "中日球団が今季主催71試合の総観客動員数を253万3,782人（平均3万5,687人）と発表。",
+                "順位は低迷したものの、ファンの圧倒的な忠誠心と熱い応援により2年連続で過去最多記録を更新。",
+                "満員のバンテリンドームで選手を鼓舞し続けたファンの熱気が数字となって証明されました。"
+            ]
+            item["takeaway"] = "熱狂的なファンの声援は球界屈指の宝。来季こそファンを歓喜させる強いドラゴンズの復活に期待です！"
+
+        # --- 13. 中日：OB若松駿太氏 独立球団監督就任 ---
+        elif '若松' in t or '独立球団' in t:
+            item["headline"] = "元中日・若松駿太氏が岐阜の新独立球団「初代監督」就任"
+            item["points"] = [
+                "2015年に中日で10勝を挙げた若松駿太氏が、岐阜県に新設される独立球団の監督に就任決定。",
+                "就任会見で「岐阜県を盛り上げたい」と意気込みを語り、地域密着の球団づくりを宣言。",
+                "ドラゴンズで培ったプロの経験を活かし、若手選手の育成と地域振興に新たな挑戦を始めます。"
+            ]
+            item["takeaway"] = "かつてのドラ戦士が監督として新天地へ！地域に夢と活気を与える指導者としての活躍を応援しましょう！"
+
+        # --- 11. 千葉ジェッツ：富樫勇樹 TOGAシート招待席 ---
+        elif 'TOGAシート' in t or '招待席' in t:
+            item["headline"] = "富樫勇樹プロデュース招待席『TOGAシート』今季も実施"
+            item["points"] = [
+                "千葉ジェッツ主将・富樫勇樹選手が子どもたちを試合に招待する『TOGAシート』の実施を発表。",
+                "プロのダイナミックなプレーを間近で体感する機会を提供し、子どもたちの夢を応援。",
+                "新シーズン開幕に向けて第1回募集がスタートし、ブースターの間で大きな話題となっています。"
+            ]
+            item["takeaway"] = "バスケの未来を担う子どもたちへ夢を届ける素晴らしい活動。富樫選手のキャプテンシーに拍手です！"
+
+        # --- 12. 千葉ジェッツ：開幕イベント・グッズ・SNS情報 ---
+        elif '装飾' in t or '決起会' in t or 'グッズ' in t or 'イベント' in t:
+            item["headline"] = "Bプレミア開幕直前！アリーナ装飾・グッズ・イベント案内"
+            item["points"] = [
+                "2026-27シーズンBプレミア開幕に向け、アリーナ特別装飾や記念グッズ情報が解禁。",
+                "新シーズン決起会やSNS連動キャンペーンなど、開幕ムードを盛り上げる企画が目白押し。",
+                "新アリーナで迎える特別なシーズンに向けて、クラブとファンの熱気が最高潮に達しています。"
+            ]
+            item["takeaway"] = "いよいよ始まる新シーズン！会場の特別な演出や限定グッズをチェックして、開幕戦を全力で楽しみましょう！"
+
+        # --- 13. 汎用フォールバック（具体的情報から構成） ---
         else:
             q_str = f"『{quotes[0]}』" if quotes else ""
             item["headline"] = f"{clean[:28]}"
@@ -460,7 +610,7 @@ def main():
         cid = cat["id"]
         cname = cat["name"]
         print(f"[{cname}] ニュース取得中...")
-        items = fetch_rss_news(cat["query"], max_items=6)
+        items = fetch_rss_news(cid, cat["query"], max_items=6)
         print(f"  -> {len(items)} 件取得。")
         
         # 1. 過去1週間のAI調査レポート生成
