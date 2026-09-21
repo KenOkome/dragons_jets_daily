@@ -13,6 +13,7 @@ import re
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
+import time
 from datetime import datetime, timezone, timedelta
 
 # 日本時間 (JST)
@@ -243,7 +244,7 @@ def generate_weekly_ai_report(category_id, category_name, news_items, api_key):
   "key_players": "注目選手・キーマンの動き（80〜140文字程度。活躍選手、復帰・怪我、ドラフト/補強など）",
   "outlook": "今後の展望と次戦へのポイント（80〜140文字程度。ファンが注目すべき見どころ）"
 }}"""
-        models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+        models = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
         for model in models:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
             body = {
@@ -336,34 +337,40 @@ def summarize_news_items(category_id, category_name, news_items, api_key):
         for i, item in enumerate(news_items)
     ])
     
-    prompt = f"""あなたは「{category_name}」の専門スポーツ記者です。
-以下の最新ニュース見出しを読み解き、忙しいファンが30秒で状況を把握できる3行要約を作成してください。
+    # 最初にフォールバック要約をセットしておき、AI要約で上書き（欠落防止）
+    news_items = fallback_smart_summaries(category_id, category_name, news_items)
+    
+    total_count = len(news_items)
+    prompt = f"""あなたは「{category_name}」を専門に取材・解説するプロのスポーツ記者です。
+以下の最新ニュース見出し全{total_count}件を分析し、ファンが最も知りたい「事実の核心・背景・詳細・今後の影響」が30秒でわかる本格的な3行要約を作成してください。
 
 【対象記事】
 {articles_text}
 
-【必須指示】
-各記事について、以下のJSON配列形式で必ず出力してください（Markdownの ```json で囲む）：
-- index: 記事番号（1から始まる整数）
-- headline: ニュースの核心を一言で（30文字以内。何が起きたかの結論）
-- points: ニュースの重要ポイント・背景・詳細を2〜3点（各35〜55文字程度）
-- takeaway: ファン・サポーター目線での注目点や見どころ（40〜65文字程度）
+【最重要ルール（厳守）】
+1. **対象記事全{total_count}件（記事1〜記事{total_count}）すべてについて、1件も漏らさず必ず要約を出力してください**。
+2. **見出しの単なる言い換え・オウム返しは絶対に禁止**です。「〜が話題となっています」「〜が報じられました」「〜に注目が集まっています」といった抽象的で中身のない表現は書かないでください。
+3. 各記事について、**「具体的に何が起きたのか（勝敗・スコア・順位・選手名・発言内容）」**、**「なぜそれが重要なのか・どんな戦術的/チーム背景があるのか」**、**「それによって今後の試合やチームにどう影響するのか」**を具体的に掘り下げてください。
+4. headline: 見出しをそのまま写すのではなく、「何が起きたかの核心・結論（30文字以内）」を明確に記述してください。
+5. points: 具体的かつ情報密度の高いポイントを2〜3点（各35〜65文字程度）。選手のプレー内容や指揮官の意図、チーム事情を具体的に解説してください。
+6. takeaway: 「💡 注目」として、ファンが次に注目すべき見どころや試合の焦点を熱く具体的に記述してください（40〜65文字程度）。
 
-【出力例】
+【出力フォーマット】
+以下のJSON配列形式のみで出力してください（Markdownの ```json で囲む）：
 [
   {{
     "index": 1,
-    "headline": "中日、ホーム最終戦を快勝で飾るも井上監督が謝罪",
+    "headline": "何が起きたかの結論（30文字以内）",
     "points": [
-      "本拠地バンテリンドーム最終戦で勝利を収めるも、今季の順位に監督が深々と一礼。",
-      "スタンドのファンからは温かい拍手とともに来季への奮起を促す声が飛ぶ。",
-      "若手の積極起用で来季への光も見えた一戦となった。"
+      "具体的な事実・スコア・発言内容（35〜65文字）",
+      "その背景や戦術・チーム状況の分析（35〜65文字）",
+      "今後の展開や順位争いへの影響（35〜65文字）"
     ],
-    "takeaway": "悔しさを糧に来季こそ上位進出へ。若手たちの秋季キャンプでの急成長に期待しましょう！"
+    "takeaway": "ファン目線での具体的な見どころや次戦への注目ポイント（40〜65文字）"
   }}
 ]"""
 
-    models = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+    models = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
     for model in models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
         body = {
@@ -381,16 +388,19 @@ def summarize_news_items(category_id, category_name, news_items, api_key):
                     for s in summaries:
                         idx = s.get("index", 1) - 1
                         if 0 <= idx < len(news_items):
-                            news_items[idx]["headline"] = s.get("headline", "")
-                            news_items[idx]["points"] = s.get("points", [])
-                            news_items[idx]["takeaway"] = s.get("takeaway", "")
+                            if s.get("headline"):
+                                news_items[idx]["headline"] = s.get("headline", "")
+                            if s.get("points"):
+                                news_items[idx]["points"] = s.get("points", [])
+                            if s.get("takeaway"):
+                                news_items[idx]["takeaway"] = s.get("takeaway", "")
                     print(f"  -> [{category_name}] Gemini API ({model}) による要約生成成功！")
                     return news_items
         except Exception:
             continue
             
-    print(f"  -> [{category_name}] インテリジェント要約エンジンで要約を生成します。")
-    return fallback_smart_summaries(category_id, category_name, news_items)
+    print(f"  -> [{category_name}] インテリジェント要約エンジンで要約を生成しました。")
+    return news_items
 
 def fallback_smart_summaries(category_id, category_name, news_items):
     """タイトルから発言（「…」）・選手名・対戦・スコア・具体的事象を徹底解析して3行要約を動的合成"""
@@ -767,11 +777,13 @@ def main():
         print(f"  -> 過去1週間のAI調査レポート生成中...")
         report_html = generate_weekly_ai_report(cid, cname, items, api_key)
         ai_reports[cid] = report_html
+        time.sleep(1)
         
         # 2. 各記事の3行要約生成
         print(f"  -> 各記事の3行要約生成中...")
         summarized_items = summarize_news_items(cid, cname, items, api_key)
         all_news[cid] = summarized_items
+        time.sleep(1)
         
     now_jst = datetime.now(JST)
     updated_str = now_jst.strftime("%m月%d日 %H:%M")
