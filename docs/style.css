@@ -1,5 +1,5 @@
 /* ==========================================================================
-   中日ドラゴンズ & 千葉ジェッツ デイリーニュース要約 - スタイルシート
+   まいすぽ | デイリーニュース要約＆1週間AIレポート - スタイルシート (v4.0)
    ========================================================================== */
 
 :root {
@@ -76,11 +76,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(10, 15, 29, 0.88);
+    background: rgba(10, 15, 29, 0.9);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border-color);
-    padding: 12px 16px;
+    padding: 10px 14px;
 }
 
 .header-inner {
@@ -89,58 +89,113 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
 }
 
 .logo-area {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    min-width: 0;
 }
 
 .logo-icon {
-    font-size: 20px;
-    width: 38px;
-    height: 38px;
+    font-size: 18px;
+    width: 34px;
+    height: 34px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(239, 68, 68, 0.3));
     border: 1px solid var(--border-highlight);
-    border-radius: 10px;
+    border-radius: 9px;
 }
 
 .logo-title {
     font-family: var(--font-heading);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 800;
     letter-spacing: -0.2px;
     background: linear-gradient(90deg, #FFFFFF, #E2E8F0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 1.2;
 }
 
 .logo-subtitle {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--text-muted);
+    white-space: nowrap;
+}
+
+/* 過去履歴（アーカイブ）日付ナビ */
+.archive-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.date-nav-btn {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    width: 26px;
+    height: 28px;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.date-nav-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.16);
+    border-color: var(--border-highlight);
+}
+
+.date-nav-btn:disabled {
+    opacity: 0.28;
+    cursor: default;
 }
 
 .update-badge {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     background: rgba(16, 185, 129, 0.12);
-    border: 1px solid rgba(16, 185, 129, 0.3);
+    border: 1px solid rgba(16, 185, 129, 0.35);
     color: #34D399;
     font-size: 11px;
     font-weight: 600;
-    padding: 5px 10px;
-    border-radius: 20px;
+    padding: 3px 8px;
+    border-radius: 16px;
+}
+
+.date-select {
+    background: transparent;
+    border: none;
+    color: #34D399;
+    font-family: var(--font-main);
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    padding-right: 2px;
+}
+
+.date-select option {
+    background-color: #131B2E;
+    color: #F8FAFC;
 }
 
 .pulse-dot {
     width: 6px;
     height: 6px;
+    flex-shrink: 0;
     background-color: #34D399;
     border-radius: 50%;
     animation: pulse 2s infinite;
@@ -152,27 +207,61 @@ body {
     100% { transform: scale(0.95); opacity: 0.8; box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
 }
 
+/* 過去アーカイブ閲覧中バナー */
+.archive-banner {
+    background: rgba(245, 158, 11, 0.16);
+    border-bottom: 1px solid rgba(245, 158, 11, 0.35);
+    color: #FCD34D;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.archive-banner[hidden] {
+    display: none !important;
+}
+
+.btn-return-latest {
+    background: rgba(245, 158, 11, 0.25);
+    border: 1px solid rgba(245, 158, 11, 0.5);
+    color: #FEF3C7;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-return-latest:hover {
+    background: rgba(245, 158, 11, 0.4);
+}
+
 /* メインコンテナ */
 .main-container {
     flex: 1;
     max-width: 680px;
     width: 100%;
     margin: 0 auto;
-    padding: 16px;
+    padding: 14px 16px;
 }
 
-/* カテゴリー切り替えタブ（名前省略・4アイコン横一列） */
+/* カテゴリー切り替えタブ（4アイコン＋短縮ラベル横一列） */
 .category-tabs {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
     gap: 6px;
-    background: rgba(19, 27, 46, 0.85);
+    background: rgba(19, 27, 46, 0.9);
     padding: 6px 4px;
     border-radius: 14px;
     border: 1px solid var(--border-color);
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     position: sticky;
-    top: 72px;
+    top: 56px;
     z-index: 90;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -180,10 +269,12 @@ body {
 
 .tab-btn {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 3px;
     position: relative;
-    padding: 8px 4px;
+    padding: 6px 2px 5px;
     border: none;
     background: transparent;
     border-radius: 10px;
@@ -197,17 +288,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 32px;
     transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .tab-btn .tab-emblem {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
     transition: transform 0.25s ease;
+}
+
+.tab-btn .tab-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    line-height: 1.1;
+}
+
+.tab-btn.active .tab-label {
+    color: #FFFFFF;
 }
 
 .tab-btn .tab-count {
@@ -237,7 +341,7 @@ body {
 }
 
 .tab-btn.active .tab-icon-wrapper {
-    transform: translateY(-1px) scale(1.08);
+    transform: translateY(-1px) scale(1.06);
 }
 
 .tab-btn.active[data-tab="dragons"] {
@@ -277,13 +381,13 @@ body {
     text-align: center;
     font-size: 11px;
     color: var(--text-dim);
-    margin-top: -12px;
-    margin-bottom: 16px;
+    margin-top: -8px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 /* タブコンテンツ表示制御 */
@@ -313,14 +417,14 @@ body {
     to { opacity: 1; transform: translateX(0); }
 }
 
-/* セクションイントロ */
+/* セクションイントロ（スリム1行化） */
 .section-intro {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 14px 16px;
-    border-radius: 12px;
-    margin-bottom: 16px;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-bottom: 14px;
     border: 1px solid;
 }
 
@@ -341,16 +445,9 @@ body {
     border-color: var(--color-world-border);
 }
 
-.section-intro .intro-icon {
-    font-size: 26px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .section-intro h2 {
     font-family: var(--font-heading);
-    font-size: 16px;
+    font-size: 14.5px;
     font-weight: 800;
 }
 
@@ -360,18 +457,18 @@ body {
 .section-intro.world h2 { color: var(--color-world); }
 
 .section-intro p {
-    font-size: 12px;
+    font-size: 11.5px;
     color: var(--text-muted);
 }
 
 /* ==========================================================================
-   AI調査レポートカード（3Days Deep Dive）
+   AI調査レポートカード（アコーディオン開閉対応）
    ========================================================================== */
 .report-card {
     background: linear-gradient(145deg, rgba(30, 41, 69, 0.9), rgba(15, 23, 42, 0.95));
     border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 24px;
+    padding: 16px 18px;
+    margin-bottom: 20px;
     border: 1px solid var(--border-highlight);
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
     position: relative;
@@ -390,24 +487,56 @@ body {
 .report-card.dragons::before {
     background: linear-gradient(90deg, #3B82F6, #60A5FA);
 }
-
 .report-card.jets::before {
     background: linear-gradient(90deg, #EF4444, #F87171);
 }
-
 .report-card.motorsport::before {
     background: linear-gradient(90deg, #F59E0B, #FBBF24);
 }
-
 .report-card.world::before {
     background: linear-gradient(90deg, #0284C7, #38BDF8);
+}
+
+.report-summary-toggle {
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.report-summary-toggle::-webkit-details-marker {
+    display: none;
 }
 
 .report-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
+    gap: 8px;
+}
+
+.report-header-right {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.report-chevron {
+    font-size: 12px;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+}
+
+details.report-card:not([open]) .report-chevron {
+    transform: rotate(-90deg);
+}
+
+details.report-card:not([open]) .report-title {
+    margin-bottom: 0;
+}
+
+.report-body {
+    margin-top: 12px;
 }
 
 .report-badge {
@@ -416,10 +545,9 @@ body {
     gap: 6px;
     font-size: 11px;
     font-weight: 800;
-    letter-spacing: 0.5px;
-    padding: 4px 10px;
+    letter-spacing: 0.4px;
+    padding: 3px 10px;
     border-radius: 20px;
-    text-transform: uppercase;
 }
 
 .report-card.dragons .report-badge {
@@ -440,6 +568,12 @@ body {
     border: 1px solid rgba(245, 158, 11, 0.4);
 }
 
+.report-card.world .report-badge {
+    background: rgba(56, 189, 248, 0.2);
+    color: #38BDF8;
+    border: 1px solid rgba(56, 189, 248, 0.4);
+}
+
 .report-date {
     font-size: 11px;
     color: var(--text-dim);
@@ -447,19 +581,22 @@ body {
 
 .report-title {
     font-family: var(--font-heading);
-    font-size: 16px;
+    font-size: 15.5px;
     font-weight: 800;
     line-height: 1.4;
-    margin-bottom: 16px;
     color: #FFFFFF;
 }
 
 .report-section {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     background: rgba(10, 15, 29, 0.6);
     border-radius: 10px;
-    padding: 12px 14px;
+    padding: 11px 13px;
     border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.report-section:last-child {
+    margin-bottom: 0;
 }
 
 .report-section-title {
@@ -468,7 +605,7 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     color: #E2E8F0;
 }
 
@@ -479,21 +616,36 @@ body {
 }
 
 /* ==========================================================================
-   ニュースカード
+   ニュースカード（NEWバッジ・既読表示対応）
    ========================================================================== */
 .news-grid {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 14px;
 }
 
 .news-card {
     background: var(--bg-card);
     border-radius: 14px;
-    padding: 16px;
+    padding: 15px 16px;
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
+}
+
+.news-card.is-new {
+    border-left: 3px solid #34D399;
+}
+
+.news-card.is-read {
+    opacity: 0.72;
+}
+
+.news-card.is-read .btn-read-more::after {
+    content: ' ✓既読';
+    color: #34D399;
+    font-weight: 700;
+    margin-left: 4px;
 }
 
 .news-card:hover {
@@ -508,6 +660,25 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px;
+    gap: 8px;
+}
+
+.card-meta-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.badge-new {
+    background: rgba(16, 185, 129, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.5);
+    color: #34D399;
+    font-family: var(--font-en);
+    font-size: 9.5px;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
 }
 
 .card-source {

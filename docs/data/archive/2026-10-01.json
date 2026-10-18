@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-01",
+  "updated_at": "10月01日 09:24",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/01 09:24",
+        "title": "井上監督電撃辞任と激動の1週間、最終戦へ向けた総括",
+        "summary": "井上監督の無念の辞任表明を受け、チームは激動の1週間となった。松中コーチら首脳陣も感謝と力不足を謝罪。加藤球団社長は次期監督の選定について「現在議論しているところ」であり、外部やOBを含めた次期体制への注目が高まっている。",
+        "key_players": "ラストゲームの先発を託された高橋宏斗は「全力で最後の試合を取りにいく」と闘志を燃やす。井上監督の最終陣を白星で飾るべく、若きエースの気迫あふれるピッチングと打線の奮起が最大の注目ポイントとなる。",
+        "outlook": "今季最終戦となるヤクルト戦を勝利で締めくくれるかが最大の焦点。試合後には井上監督の退任セレモニーや挨拶も予定されており、ファンの記憶に残る戦いを見せられるか。オフシーズンに入り本格化する次期監督人事の動向からも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "「またプロ野球の経験をさせてもらった」中日・松中信彦打撃統括コーチ、辞任表明の井上監督へ感謝「力になれなかった」と謝罪も：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "09/30 17:58",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jdlF5aWxldW5LT0V3bWM5bzdPTWVPclVKa1MzTXJpVGxRbGFzeVFiX3Q2Nm12MmVJb1FPUmVESm9NVm5pMUhyNEtBX3BPYkJlRVZUeQ?oc=5",
+          "headline": "松中打撃統括コーチが辞任表明した井上監督へ感謝と謝罪",
+          "points": [
+            "今季限りで退任する井上監督への感謝とともに「力になれなかった」と自身の打撃指導の結果責任を猛省した。",
+            "球団改革を託され今季から入閣したものの、チーム打率低迷を打破できず、首脳陣としての責任を痛感している。",
+            "一軍打撃部門を支えた首脳陣の相次ぐ退団は、次期体制における野手育成プランや攻撃力再構築へ大きな影を落とす。"
+          ],
+          "takeaway": "松中コーチの薫陶を受けた若手打者たちが、この悔しさをバネに最終戦でどんな打撃を見せるか要注目です。",
+          "is_new": false
+        },
+        {
+          "title": "「全力で最後の試合を取りにいく」中日・高橋宏斗、 3日・ヤクルト戦先発へ 井上監督のラストゲーム白星締め宣言「やるべきことに集中」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/01 05:45",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaTUFRNmtvMHRnX3IxcjRleENKYzlEOFNSa3phZmxrMzNjVkstTy13akNQTTVIRm5TUE5VZDJ0c3ZXcUE2d3YxLXZ6V2Fha2RNcTQwMA?oc=5",
+          "headline": "高橋宏斗が3日のヤクルト戦で井上監督のラストゲーム先発へ",
+          "points": [
+            "3日のヤクルト戦に先発予定の高橋宏斗が「全力で最後の試合を取りにいく」と井上監督へ白星を捧げる決意を語った。",
+            "今季チームをエースとして牽引してきた右腕が、指揮官の有終の美を飾るために私心を捨ててマウンドに上がる。",
+            "若手のエース格である高橋の気迫あふれる投球は、来季以降のチームを引っ張る精神的支柱としての成長を証明する。"
+          ],
+          "takeaway": "井上監督のラストマッチでエース高橋宏斗が魂の投球を披露し、チームに白星をもたらすことができるか必見です。",
+          "is_new": false
+        },
+        {
+          "title": "【中日】井上監督辞任で…権藤博氏に〝監督待望論〟 ８７歳でも衰えぬ「超人伝説」（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/30 05:15",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jUzNlV3N0TVBhS1RkVUh2T0ZUMHZFUnpEZXlEa2QxcWNTRVZxNHJjYUtvX3R0cUJSaC1kV2ZkWEtjZFd3RmpRSzZiLUxsUURkWTh6eUFKY1pSeXljS0pjSGRQMnNRV0xwYlpLbUZNZXdZLU9XQm5WcFJmWm9pRDA?oc=5",
+          "headline": "電撃辞任の中日次期監督として権藤博氏に待望論が浮上",
+          "points": [
+            "井上監督の辞任を受け、球団OBで過去にリーグ優勝実績もある権藤博氏の次期監督待望論が一部で取り沙汰されている。",
+            "87歳という年齢ながら野球界への影響力は健在であり、低迷するチームの立て直し役として名前が挙がっている。",
+            "フロントが外部招聘とOB路線のどちらにかじを切るかによって、球団の次期オーナー方針や編成方針が大きく問われる。"
+          ],
+          "takeaway": "次期監督人事の選考プロセスにおいて、球団がどのような再建ビジョンを描いているのか報道の行方に目が離せません。",
+          "is_new": false
+        },
+        {
+          "title": "【中日】加藤球団社長、井上監督の後任は「議論しているところ」３年契約２年目で辞任「２軍監督から３年間お疲れさまでした、ありがとうございました、と」（スポーツ報知）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/29 17:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PM1JTVS1rMU9iLW9rU1h2dlNZTTVmNHpCbUFuZl9sckxBcms0MElfVEZxSFl5MEZMeDZaVjRZZUI3c0ZXY2stQXd4M3hfdWdxVTdqdjVHcTY2MTVRWFhFSG0wbnVrZUZxSG90d1ZrUlppdFVhbUZKekdyYzJKTms?oc=5",
+          "headline": "加藤球団社長が井上監督の辞任と後任人事の現状を言及",
+          "points": [
+            "加藤球団社長が取材に応じ、3年契約の2年目途中で辞任した井上監督へ「2軍監督から3年間お疲れさまでした」と労った。",
+            "電撃的な辞任劇となった背景を受け、次期監督の後任人事については「現在まさに議論しているところ」と明言を避けた。",
+            "シーズン終了直後からの迅速な次期体制構築が、来季の巻き返しとファン離れを防ぐための最重要課題となっている。"
+          ],
+          "takeaway": "球団首脳陣が描く次期監督の条件や、秋季キャンプからの新体制発足に向けたフロントの動きに注目です。",
+          "is_new": false
+        },
+        {
+          "title": "中日・井上監督が無念の辞任表明、次期監督は「外部かOBか」名前が挙がった“低迷脱出”の救世主候補（週刊女性PRIME）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/30 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UVWlFVDZGcXBFZzAtLVg1SjFVNW03VWRkeEl1Xy1lODJQbXVHMWNOS0xkcGRqRFpSem9VeUh2dmNaR21mZDdqUGVBd1pzbzMyc2phVUhocHpXNm1WQVNxWVBYNnJpSHpnTVBjUGVMcF9PdEcyclE1Z3A2OU9VQ3c?oc=5",
+          "headline": "井上監督無念の辞任で次期監督候補に外部・OBの名前が浮上",
+          "points": [
+            "今季低迷の責任を取る形となった井上監督の辞任を受け、次期監督候補として複数の外部人材や有力OBの名前が挙がっている。",
+            "長年続くチームの低迷を脱却するため、球団は抜本的な血の入れ替えか、伝統継承のOB路線かで激しい議論を重ねている。",
+            "次期監督の采配スタイルや組閣人事次第で、主力選手の去就や来季のチーム戦術が根底から覆る可能性がある。"
+          ],
+          "takeaway": "次期監督の発表がいつ、どのような形でなされるのか、中日球団の新たな舵取りに全プロ野球ファンの視線が集まります。",
+          "is_new": false
+        },
+        {
+          "title": "【日本ハム】新庄監督が中日・井上監督の辞任惜しむ「見ててツラかった」将来の〝共闘〟にも言及（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/01 05:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwY0t1cGh3SHRielR0VE9sMDNtSmJFWTFNYUtvLWtDdVhMSVJ2YnJmeGVvXzA1TkNqeThMQkJLeHFsZTZzeTFsNzZmMG9CZndXcExwX21zcG5UZHVhSTNBVGM5OWZEazM2RU1CazBUN1VnUzVNVTktVWxFZS1ha28?oc=5",
+          "headline": "日本ハム新庄監督が中日・井上監督の辞任を惜しみ心情吐露",
+          "points": [
+            "日本ハムの新庄監督が、同年同業の苦悩を分かち合うように井上監督の辞任を惜しみ「見ていてツラかった」と心境を語った。",
+            "勝負の世界の厳しさを知り尽くす両指揮官の間にある絆を示し、将来的な球界での「共闘」の可能性にも言及した。",
+            "他球団の辣腕監督からも同情と敬意を集めるほど、井上監督が背負っていた重圧とチーム再建の難しさが浮き彫りになった。"
+          ],
+          "takeaway": "他球団の監督をも動かした井上監督の人間性と、退任後に日本プロ野球界へ与える影響の大きさを噛みしめたいです。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/01 09:24",
+        "title": "富樫契約継続と入場者数30万人突破！新時代へ挑む千葉ジェッツ",
+        "summary": "過去1週間、千葉ジェッツはクラブ史上最多となる年間総入場者数30万人超えを達成し、圧倒的な熱狂を証明した。また、チームの顔である富樫勇樹との契約継続が発表され、悲願のタイトル奪還へ向け求心力が一層高まっている。",
+        "key_players": "チームの顔である富樫勇樹が来季の契約を継続し、初代Bプレミア王者への強い決意を表明。一方、神戸の小川麻斗が富樫へ宣戦布布告するなど、対戦相手からも最大の警戒とライバル視を集める絶対的な存在感を示している。",
+        "outlook": "タイトルから遠ざかった直近2年間の悔しさをバネに、変化を受け入れながら「ナンバー1かつオンリー1」を目指す。悲願の頂点へ向け、富樫を軸としたチーム作りと、新B1を見据えた圧倒的な熱量を維持できるかに注目だ。"
+      },
+      "news": [
+        {
+          "title": "神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/20 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zTm95V0M4TnJyTDRaekpOTE56MG5oa3pNSE1RQm9aUTAwOVdOd29ZVjVSdGZ1ZVBJLXE3VjdpMnNIdk44b2EwTWY2S2V4bE9Pd2pHb3oxQ0xKemFxbEhRV1ZmV3FocDJQNWFkTW1nTnV4LWxyUk5yOGV6dFgyS1k?oc=5",
+          "headline": "小川麻斗が古巣・千葉ジェッツへ宣戦布告",
+          "points": [
+            "神戸ストークスの小川麻斗が、日本代表PGである千葉の富樫勇樹への対抗心をむき出しにした。",
+            "かつて共に戦った先輩ガードに対し、強気な姿勢を見せることで自身の成長と打倒千葉への意欲を示した。",
+            "Bリーグにおける若手ガードの台頭を象徴するカードとなり、今後の直接対決でのマッチアップがより熱を帯びる。"
+          ],
+          "takeaway": "激しいプレッシャーディフェンスを持ち味とする小川と、冷静沈着な司令塔・富樫の火花散る直接対決は見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "【千葉ジェッツ】クラブ史上最多の年間総入場者数「30万人」超えを達成し、アリーナ収容率は約95％を記録！！そして最終節にて2日連続で1試合の最多入場者数記録も更新！！",
+          "source": "PR TIMES",
+          "pub_date": "05/07 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaMmlocUdOV2ZMWktucjJreUxFazdGeDdWZHFCUlRxY2xrSEMyT3pYV05tY3JnbEd1Nm9aSmdsNHRoUElQT3ZhdklFaFVpdHZfVThHMlpfR0tOTGl3Sy04TElJN3Uxdi0tNXc?oc=5",
+          "headline": "千葉Jが年間総入場者数30万人突破を達成",
+          "points": [
+            "クラブ史上最多となる年間総入場者数30万人超えを達成し、アリーナ収容率も約95%驚異的な数字を記録した。",
+            "新アリーナ移行を見据え、圧倒的なブースター熱とクラブのマーケティング力が結実した歴史的なマイルストーンとなる。",
+            "次世代のBプレミアを見据え、日本バスケ界を牽引する圧倒的な興行力とブランド価値を証明した。"
+          ],
+          "takeaway": "新B1に向け満員御礼が続くホームアリーナで、選手たちがブースターの大歓声を背にどのようなパフォーマンスを見せるか。",
+          "is_new": false
+        },
+        {
+          "title": "変化を受け入れ初代Bプレミア王者を目指す千葉ジェッツの富樫勇樹「この2年間はタイトルから遠ざかっているので勝ち取りたい」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/11 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KbDBxR2hITjVZNlFiMzdIejIyZTQxVlBjUU9IYVAxTGttV2dGZUt1YUdiajBlQW9DYlZMZ0dGVHNDQmNuRXhxMFdnTWE1MGJVd0tRNjNMVGtNQllFZmdQbWZUeHhoMF84dWVIT29yNlRvNnNuZ0p0eWp6dzBfVXM?oc=5",
+          "headline": "富樫勇樹が変化を受け入れ初代王者へ意欲",
+          "points": [
+            "主将の富樫勇樹が直近2年間タイトルから遠ざかっている現状を直視し、チームの変化を受け入れる重要性を語った。",
+            "新リーグ設立という変革期において、勝者のメンタリティーを再びチームに植え付けるための強い覚悟を示している。",
+            "悲願のタイトル奪還に向け、エース兼キャプテンとしてチームを牽引する強い求心力がさらなる結束を生む。"
+          ],
+          "takeaway": "変化を恐れず進化を続ける富樫が、勝負どころで発揮するリーダーシップと圧倒的な勝負強さに注目したい。",
+          "is_new": false
+        },
+        {
+          "title": "「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る",
+          "source": "バスケットボールキング",
+          "pub_date": "08/21 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5",
+          "headline": "渡邊雄太がWindow4での代表復帰を宣言",
+          "points": [
+            "負傷離脱中の渡邊雄太が自身の怪我の状況に言及し、次なるワールドカップ予選Window4での代表復帰を明確にした。",
+            "八村塁や河村勇輝ら主軸との連係を見据え、日本代表のさらなる高みへのステップとして強い意欲を持っている。",
+            "日本バスケ界の黄金時代を牽引する中心人物として、代表チームの戦術的基盤を再び作り上げる起爆剤となる。"
+          ],
+          "takeaway": "日本代表の精神的支柱である渡邊が、国際舞台でどのようにチームをまとめ上げ、再び世界と渡り合うのか。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」",
+          "source": "Basket Count",
+          "pub_date": "06/02 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5",
+          "headline": "千葉Jがチームの顔・富樫勇樹と契約継続",
+          "points": [
+            "千葉ジェッツは、チームの象徴であり日本代表司令塔でもある富樫勇樹選手との契約継続を正式に発表した。",
+            "クラブのアイデンティティそのものである富樫の残留により、戦術の軸とチームカルチャーがしっかりと継承される。",
+            "悲願の王座奪還と新B1での初代王者獲得に向け、盤石の体制で来シーズンへ挑むことができる。"
+          ],
+          "takeaway": "クラブの顔として長くチームを引っ張り続ける富樫が、来季どのような進化を見せて頂点に導くか期待が高まる。",
+          "is_new": false
+        },
+        {
+          "title": "渡邊雄太「歴史はこうやって繋がっていく」八村塁＆河村勇輝と“27.8秒”の共演…男子バスケ黄金時代にある明確な目標「3人がまた一緒にプレーできたら…」（宮地陽子）",
+          "source": "Number Web",
+          "pub_date": "09/03 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVUwya2IxZWtSczNMSGEybDRXS1lFZmRqbzY4bzUyUlhRT2x6MW9zZjgteHhtY3hLTERUUTZfT1dKb0VkaFFhd3k2S2J1TzFsNUx4TG9B?oc=5",
+          "headline": "八村・渡邊・河村の共演がもたらす黄金時代",
+          "points": [
+            "日本バスケの歴史的瞬間となった3選手の共演を振り返り、渡邊雄太が次世代へ繋ぐ明確な目標とビジョンを語った。",
+            "世界最高峰の舞台を知る選手たちが同じフロアに立つことで、日本バスケットボール界全体のレベルアップを促している。",
+            "代表チームの戦力強化にとどまらず、子どもたちや次世代のプレイヤーに夢を与える大きなレガシーとなる。"
+          ],
+          "takeaway": "日本の至宝たちがピッチ上で織りなす化学反応が、今後の国際大会でどれほどの勝利をもたらすのか目が離せない。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/01 09:24",
+        "title": "F1アゼルバイジャンGP激闘とWEC長期継続、契約発表相次ぐ",
+        "summary": "F1ではアゼルバイジャンGPでノリスがコラピントへの謝罪を行い、角田は予選15番手と苦戦。アストンマーティンはアロンソとストロールの継続を発表。WECはFIAとACOが2037年までの長期契約を締結し、未来へ向けた基盤を固めた。",
+        "key_players": "アロンソは「レースは人生そのもの」と健在をアピールし契約延長。ラッセルはアントネッリと比較される重圧を語りつつ勝利への意欲を維持。角田裕毅は新品タイヤの感触に苦しみながらも決勝でのポイント獲得を目指す。",
+        "outlook": "F1での勢力争いや若手・ベテランの心理的プレッシャーがパフォーマンスにどう影響するか注目。またMotoGP日本GPでは異色のコラボ企画も登場し、モータースポーツ全体のエンタメ性も含めた次戦への盛り上がりが期待される。"
+      },
+      "news": [
+        {
+          "title": "【F1アゼルバイジャンGP】ノリス「僕が間違っていました」レース後のコラピント批判を謝罪",
+          "source": "topnews.jp",
+          "pub_date": "09/30 12:30",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FR3BUcENNQlFLdlRsbG1uRTIzVGlOVm1rVkNBUWhPTkVzQVRZN0Z2NHlnSTVNRi1ON2tBSzFIemVraUEwWDZFRmxQaTRTWHBmX3p4TnN0dXBJRjJvSGFGX2U0cjZoeE80N29nbk1CVDR0NnJxSkhnU2RUVmQ?oc=5",
+          "headline": "ノリスがコラピントへの批判を撤回・謝罪",
+          "points": [
+            "F1アゼルバイジャンGP後、マクラーレンのノリスがウィリアムズのルーキーであるコラピントへの不適切な発言を自ら誤りと認め謝罪した。",
+            "激しいレース展開の中で感情的になったものの、プロフェッショナルとして自身の非を速やかに認めるフェアな姿勢を示した。",
+            "トップドライバーとしての品格を保つとともに、若手ドライバーとのクリーンな関係性を維持し今後の精神的余裕にも繋がる。"
+          ],
+          "takeaway": "トップ争いを繰り広げる王座候補の心理面と、プレッシャーの中で見せるドライバー同士の人間関係の変化に注目。",
+          "is_new": false
+        },
+        {
+          "title": "FIAとACO、WECの共同運営に関する2037年までの10年契約を締結「極めて重要な前進」",
+          "source": "autosport web",
+          "pub_date": "09/30 16:29",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iMzdjM3k0TkVCbzllcjNhdUxXUjhQWHlvYTJ5YXNDQzRBOU5uTXV5YVBoOENxTl9BZWlXTC1lN25fUE9BdS13d0UtaGZGOVpfSmc?oc=5",
+          "headline": "FIAとACOがWEC共同運営の10年契約を締結",
+          "points": [
+            "FIAとACOが世界耐久選手権（WEC）のプロモーションに関する2037年までの長期10年契約を新たに締結した。",
+            "近年盛り上がりを見せるハイパーカークラスの参戦メーカー拡大と、耐久レース界の持続可能な運営基盤を強固にする狙いがある。",
+            "長期的なレギュレーションの安定化により、参戦自動車メーカーの巨額投資計画やモータースポーツ活動の継続性が大きく保証される。"
+          ],
+          "takeaway": "黄金期を迎えたWECへの新規参戦メーカーの動向と、ル・マン24時間を中心とした耐久レースのさらなる発展に期待。",
+          "is_new": false
+        },
+        {
+          "title": "アストンマーティン、アロンソとストロールの契約延長 アロンソは「レースは私の人生そのもの」「あと数年は続けられる」【F1】",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/30 12:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Mkt1S2R0TGItNlpMMjF1bFF1MHJDZFZsMTFxM01DUmlUQzkwR0V4azlUZFRYSmFuZWkweGZUMm1SaWFuUlhlUnlCNVZrUFJicFVMQS1qNEotYjNvWVpIbWg2Sko3aFVXemMzcDdpa1FyWGkyako5V080aVZRMEU?oc=5",
+          "headline": "アストンマーティン、アロンソとストロールの継続決定",
+          "points": [
+            "アストンマーティンF1はアロンソとストロールのドライバーラインナップ継続を発表し、アロンソは「レースは人生そのもの」と語った。",
+            "40代を超えても圧倒的な速さと技術を維持するアロンソの経験値と、チームのオーナーシップ背景を持つストロールの体制を固めた。",
+            "ホンダ製パワーユニットを独占搭載する2026年のレギュレーション大改定に向け、開発の継続性と経験豊富な布陣を確保した。"
+          ],
+          "takeaway": "2026年のホンダワークス体制本格始動に向け、経験豊富なベテランがチームをどこまで上位に押し上げるか。",
+          "is_new": false
+        },
+        {
+          "title": "角田裕毅 予選15番手「ペースが足りず悔しい結果に。なぜか新品タイヤの感触が良くなかった」決勝の目標はポイント獲得",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/13 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56SVVYT0pfUkM5ME9CVTczQjdnY1hWMUNhMW9rMWtNbWlCTjJVTHhPRktIc050cnhFdXBSdUhMblk5ZkVIYlRGU2lqMHFVN2V4WDJRdWpMNnM5WUFOczNoMk5aV3VwaDdyWmFQQ1o3Q2RGZFJKQ1NrMkkwcVdmeU0?oc=5",
+          "headline": "角田裕毅、予選15番手で新品タイヤに苦悩",
+          "points": [
+            "F1予選で角田裕毅はペース不足により15番手に沈み、「なぜか新品タイヤの感触が良くなかった」とマシンバランスに苦言を呈した。",
+            "予選を通してマシンのグリップを引き出せず、チーム全体としてタイヤの温存やコンパウンドの特性を活かしきれない課題が露呈した。",
+            "決勝では厳しい後方からのスタートとなるが、卓越したタイヤマネジメントとオーバーテイクを駆使して入賞圏内への浮上を狙う。"
+          ],
+          "takeaway": "決勝レースでの圧倒的なリカバリー力と、トラフィックをかき分けてポイントを獲得できるかどうかの戦略に注目。",
+          "is_new": false
+        },
+        {
+          "title": "ラッセル「自分にかかるプレッシャーは、アントネッリよりも小さい」差を縮めるも、“毎戦勝利を狙う”方針は変わらず",
+          "source": "autosport web",
+          "pub_date": "10/01 07:00",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1jb3ByS1dmSGJxc0JMUXVqUFkxT0FwemlESW1iejlMMGFmUEZiaDlnLTV3dDVwX0c4WF9VQWFzYWtRaklNMmYw?oc=5",
+          "headline": "ラッセルが語るアントネッリとの比較と方針",
+          "points": [
+            "メルセデスのラッセルが、自身にかかるプレッシャーは新人アントネッリよりも小さいと分析しつつ毎戦勝利を狙う姿勢を強調した。",
+            "チームのエースとして結果を残す重圧を抱えながらも、若手ルーキーの加入によってチーム内の競争原理が活性化している。",
+            "経験豊富なラッセルがチームを牽引しつつ、若手の台頭に対抗することでメルセデスの戦闘力向上と開発スピード加速を促す。"
+          ],
+          "takeaway": "新旧メルセデスドライバーの社内闘争と、トップ争いに返り咲くためのマシンの進化スピードが勝敗を分ける。",
+          "is_new": false
+        },
+        {
+          "title": "【MotoGP日本GP限定】世界最高峰のスピードと日本が誇る「漫画」カルチャーが融合! モビリティリゾートもてぎでNMAX特別パドックスクーターと現地限定Tシャツが登場",
+          "source": "WEBヤングマシン",
+          "pub_date": "09/30 07:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JbkJGdWxpQTl0MGZNczBRM1V0cGlmbDRWd0JuOUVLRHRSTDNnZnRaVXRIYmlwU1VHclBhbXpCdzRXdzlfbnIwcUFVWTFvNFFGN01XOUJMRQ?oc=5",
+          "headline": "MotoGP日本GPで漫画カルチャーとコラボ",
+          "points": [
+            "モビリティリゾートもてぎで開催されるMotoGP日本GP限定で、日本の漫画カルチャーと融合したスクーターやTシャツが登場した。",
+            "世界最高峰のバイクレースのスピード感と日本のポップカルチャーを掛け合わせることで、国内外の新しいファン層の獲得を狙う。",
+            "サーキット現地でのエンターテインメント性が向上し、モータースポーツのイベントとしての魅力と経済効果を高める契機となる。"
+          ],
+          "takeaway": "サーキット現地でしか手に入らない限定コラボグッズのクオリティと、日本GPならではの特別な雰囲気を楽しみたい。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/01 09:24",
+        "title": "メジャーリーグ地区Sの開幕やサッカー代表の激闘など国内外で熱戦が続いた1週間",
+        "summary": "直近1週間は国内外のメジャースポーツで重要な一戦が相次いだ。MLBでは地区シリーズが開幕し、ドジャースやホ軍が熱戦を展開。サッカー界では日本代表戦やU-18プレミアリーグなど育成・トップ層ともに見応えのある激闘が繰り広げられた。",
+        "key_players": "サッカー日本代表戦では2ゴールのうえ田綺世に加え、久保建英が絶賛した選手の戦術的貢献が光った。MLBではドジャースのロバーツ監督が絶好調を確信する大谷翔平のパフォーマンスや、村上宗隆らポストシーズンを戦う主軸の活躍が注目を集めている。",
+        "outlook": "今後はMLB地区シリーズの勝敗や過酷な日程・酷暑への対応、ドジャースの次戦への戦略が最大の焦点。また、サッカー日本代表の勢いや若手育成カテゴリの行方など、国内外のメジャースポーツにおける次なる展開から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "「マジでいい」「ケチつける人はサッカーを分かってない」久保建英がベネズエラ戦後に絶賛した選手は？ ２ゴールの上田綺世ではなく…",
+          "source": "サッカーダイジェストWeb",
+          "pub_date": "09/29 05:50",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KY2RCVmljUGNOUmJWeG1BaHVubXpwQllldjJnOURYcFA4QVNOUkpaQk5Ed3BzU0NXakk2bWZqcEhnVlRaMGdINDgzZzY3aXRmVm5RR2l1a2Rnc0NFNVJ5ZUN5VdIBc0FVX3lxTFBPc0ZXbmVjei1qeU1NbVhrOWp3aTdjZFhnNTZhMWVObTBHTTFkeTNSejZHbzhFZXVraGNqMVVXMm16Q0RoOFJ2WWRvLVJmQ3JzRElDNzBxdnBWY21tU3g0N0llVW1pUWQ1YXFiSF9zajRWVkk?oc=5",
+          "headline": "久保建英がベネズエラ戦で絶賛した意外なキーマン",
+          "points": [
+            "2ゴールの上田綺世ではなく、試合を通じてチームを陰で支えた別の選手の献身的なプレーを高く評価した。",
+            "ゴールという目立つ結果だけでなく、戦術理解度やハードワークを重視する久保ならではの玄人好みの視点である。",
+            "今後の国際親善試合やアジア最終予選において、こうした脇役の働きが日本代表の層の厚さをさらに証明することになる。"
+          ],
+          "takeaway": "記録に残らない部分でチームに貢献する隠れたキーマンの動きに注目すれば、次戦の観戦が何倍も深まります。",
+          "is_new": false
+        },
+        {
+          "title": "ホ軍快勝 シリーズ突破確率93.8％ MLB公式は「唯一のミスは試合前のアントナッチの転倒」と絶賛（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/01 03:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SOFBZNnF1ZzJjNUpxSzNCYTlUSnhKTl9LN2dYeDR1TW4tU0hYd0VzT3REd1VLYzZvUG1BX1R4Zm9qVkMteS1HdzZfRGx3RVdwM2pkeWNNam4zVTFfT1EzMUsyQ1JRNjVPODQ1TElhUlBDU0lHYV9lM1VJTUlGR2c?oc=5",
+          "headline": "ホ軍が快勝でシリーズ突破確率93.8%の優位性に",
+          "points": [
+            "MLBポストシーズンの初戦を圧倒的な内容で制し、歴史的データからも極めて有利な状況を作り出した。",
+            "試合前のアントナッチの転倒という思わぬハプニングを除けば、完璧な試合運びで相手を完全に圧倒した。",
+            "このままの勢いを維持すれば、次戦以降も主導権を握ったままシリーズを優位に進める可能性が極めて高い。"
+          ],
+          "takeaway": "わずかなミスすら笑いに変えて勢いに乗るチームの雰囲気が、短期決戦でどう働くかに注目です。",
+          "is_new": false
+        },
+        {
+          "title": "ドジャースに異例の展開 地区Ｓ開幕戦の開始時間が決まらず→パドレス勝てば最高気温３８度の酷暑デーゲームに ロバーツ監督「夜の方が間違いなくメリットがある」（デイリースポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/30 10:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5hYThHTmZrS0ZwZ0VnVDhkQnloTnhyOXRHdmd5T3ZmZTd6SGFndWdibjlHcWptaFhxTldTTmh3OTJsMUwzc2hsd005NGUtNko4bTNWaWZUT3REUUMydHhKRHZ6NXg5amh5eFQ4QndJTElvSk5jamJEeVJYZFNlcnc?oc=5",
+          "headline": "ドジャースが直面する異例の酷暑デーゲームの可能性",
+          "points": [
+            "地区シリーズ初戦の開始時間が未定であり、パドレスの勝敗次第で最高気温38度の過酷なデーゲームになる。",
+            "ロバーツ監督が「夜の方がメリットがある」と語る通り、選手への肉体的負担やコンディション維持に直結する重要な問題である。",
+            "酷暑での試合となれば、両チームの選手起用やベンチワーク、特に投手陣の継投策に大きな影響を与える。"
+          ],
+          "takeaway": "異例の過酷な環境下で監督がどのような選手起用とコンディショニング管理を見せるか見逃せません。",
+          "is_new": false
+        },
+        {
+          "title": "高円宮杯 JFA U-18サッカープレミアリーグ 2026 WEST 第15節「ファジアーノ岡山U-18」試合結果",
+          "source": "名古屋グランパス公式サイト",
+          "pub_date": "09/29 10:49",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXFzTEltU1d0bHlWS05TOTc3VGVCcGJSd1YyNlljc3dwZHNrVm9PcEVEeFdRdTZWRDRFSHhlckREVXZDZlFaOE5oNEFlbGdwVnBETlhnOUh5UDhUM0ptNkFfZnpTZDFhbEpBWW14Q0h1aHBTNU5YeE4wQkJGcjRaMGVn?oc=5",
+          "headline": "高円宮杯U-18プレミアリーグWEST第15節の激闘",
+          "points": [
+            "育成年代最高峰のリーグ戦において、ファジアーノ岡山U-18が持てる力をぶつけ合う白熱した一戦を戦い抜いた。",
+            "将来のJリーガーを目指す若き才能たちが、日頃の練習の成果とクラブの戦術をピッチ上で全力で表現している。",
+            "この世代の経験値がトップチームへの昇格や、将来の日本サッカーを担う人材育成に直接的な影響を与える。"
+          ],
+          "takeaway": "未来の日本代表を背負う原石たちがどのような戦術眼と技術でピッチを支配するのか要チェックです。",
+          "is_new": false
+        },
+        {
+          "title": "ロバーツ監督、大谷翔平の『結果』に自信「パフォーマンスでも期待するモノ見せる」「2カ月で最もいい状態」 実戦形式の打撃実施要望（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/30 08:48",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MbHBrOUdRM2x6VC1kOERqVmp3a2Uxa0pFMXFTaXItNmszTVJndExROUZPQUo2UkR0WmpDaFBSaHNYZm5nbnRSdzVrb20zWTJGS2ZVRl9NeFhKMGJFMmJKZjE4TDNraEJsVl9ObUtBdWx1cV9Ga2NMUEFzTkd3QzA?oc=5",
+          "headline": "ロバーツ監督が大谷翔平の状態と打撃に絶大な自信",
+          "points": [
+            "実戦形式の打撃を自ら要望した大谷について、指揮官が「2カ月で最もいい状態」と絶賛し結果に太鼓判を押した。",
+            "ポストシーズンの大舞台に向けて、打撃のメカニズムとメンタル面のコンディションが完璧に噛み合っている。",
+            "チームの主砲として、相手投手陣に計り知れないプレッシャーを与え、攻撃の核として得点機を量産する。"
+          ],
+          "takeaway": "最高潮の仕上がりを見せる大谷が、大舞台の初打席でどのような衝撃的な一打を見せるか必見です。",
+          "is_new": false
+        },
+        {
+          "title": "村上宗隆「すごくいい雰囲気で」PS初戦勝利のチームに手応え「明日も勝つしかない」／一問一答",
+          "source": "nikkansports.com",
+          "pub_date": "09/30 10:50",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNGQ1S0RrNE8zXzl0Z21saUtvZDFiY0JoZ090eXJPWXZISXZFckZ2b2ItQjFlZTNyOENNeTZ6OFVSc0ZuWEFPdVdCT1lZYjJWV1pibzlMZWhmZFFQbTVEZF9YQzNGNXhmMl9qX2FQOF9CY0dNeHNiQnNMNnZTbGstX0ctTmZIaGFZMHBGUDhfQkc1ZlRI?oc=5",
+          "headline": "村上宗隆がPS初戦勝利に手応え「明日も勝つ」",
+          "points": [
+            "ポストシーズン初戦を白星で飾り、チーム全体が非常に良い雰囲気の中で次戦への準備を進めている。",
+            "主砲としての重圧がかかる中、自身の打撃内容とチームの勝利への手応えを冷静かつ力強く語った。",
+            "この初戦の勢いをそのまま維持できれば、短期決戦のシリーズ全体を優位に支配する原動力となる。"
+          ],
+          "takeaway": "チームに最高の流れをもたらした村上が、連勝をかけた次戦でどんな勝負強さを発揮するかに注目です。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

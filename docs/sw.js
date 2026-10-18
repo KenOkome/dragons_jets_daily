@@ -1,9 +1,10 @@
-const CACHE_NAME = 'myspo-v3.2';
+const STATIC_CACHE = 'myspo-static-v4.0';
+const DATA_CACHE = 'myspo-data-v4.0';
+
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
-    './style.css',
-    './style.css?v=3.2',
+    './style.css?v=4.0',
     './manifest.json',
     './icon.svg',
     './assets/dragons_emblem.svg',
@@ -14,37 +15,65 @@ const ASSETS_TO_CACHE = [
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
-        caches.open(CACHE_NAME).then((cache) => {
-            return cache.addAll(ASSETS_TO_CACHE);
-        })
+        caches.open(STATIC_CACHE).then((cache) => cache.addAll(ASSETS_TO_CACHE))
     );
     self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
+    const allowedCaches = new Set([STATIC_CACHE, DATA_CACHE]);
     event.waitUntil(
-        caches.keys().then((keys) => {
-            return Promise.all(
-                keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
-            );
-        })
+        caches.keys().then((keys) =>
+            Promise.all(
+                keys.filter((key) => !allowedCaches.has(key)).map((key) => caches.delete(key))
+            )
+        )
     );
     self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
-    // ネットワークファースト（最新ニュースを優先し、オフライン時はキャッシュ）
-    event.respondWith(
-        fetch(event.request)
-            .then((response) => {
-                if (response && response.status === 200) {
-                    const responseClone = response.clone();
-                    caches.open(CACHE_NAME).then((cache) => {
-                        cache.put(event.request, responseClone);
-                    });
-                }
-                return response;
+    const req = event.request;
+    if (req.method !== 'GET') return;
+
+    const url = new URL(req.url);
+    if (url.origin !== self.location.origin) return;
+
+    const isHtmlOrData =
+        req.mode === 'navigate' ||
+        url.pathname.endsWith('/') ||
+        url.pathname.endsWith('/index.html') ||
+        url.pathname.endsWith('.json');
+
+    if (isHtmlOrData) {
+        // HTMLおよびアーカイブJSONはブラウザキャッシュをバイパスして最新を取得し、オフライン時はキャッシュを返す
+        event.respondWith(
+            fetch(req, { cache: 'no-cache' })
+                .then((response) => {
+                    if (response && response.status === 200) {
+                        const clone = response.clone();
+                        const targetCache = url.pathname.endsWith('.json') ? DATA_CACHE : STATIC_CACHE;
+                        caches.open(targetCache).then((cache) => cache.put(req, clone));
+                    }
+                    return response;
+                })
+                .catch(() => caches.match(req))
+        );
+    } else {
+        // 静的アセット（CSS・SVG等）はキャッシュ優先＋バックグラウンド更新
+        event.respondWith(
+            caches.match(req).then((cached) => {
+                const networkFetch = fetch(req)
+                    .then((response) => {
+                        if (response && response.status === 200) {
+                            const clone = response.clone();
+                            caches.open(STATIC_CACHE).then((cache) => cache.put(req, clone));
+                        }
+                        return response;
+                    })
+                    .catch(() => cached);
+                return cached || networkFetch;
             })
-            .catch(() => caches.match(event.request))
-    );
+        );
+    }
 });

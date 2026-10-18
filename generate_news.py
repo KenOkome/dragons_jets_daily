@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ドラ＆ジェッツ速報 自動生成スクリプト (generate_news.py)
-中日ドラゴンズと千葉ジェッツふなばしの最新ニュースを収集し、
-3行要約カード ＆ 過去1週間のAI調査分析レポートを生成して docs/index.html に出力します。
+まいすぽ 自動生成スクリプト (generate_news.py)
+中日ドラゴンズ、千葉ジェッツふなばし、モータースポーツ、世界のメジャースポーツの
+最新ニュースを収集し、3行要約カード ＆ 過去1週間のAI調査分析レポートを生成して
+docs/index.html および docs/data/archive/YYYY-MM-DD.json, docs/data/index.json に出力します。
 """
 
 import os
 import sys
 import json
 import re
+import html
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 import time
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 
 # 日本時間 (JST)
 JST = timezone(timedelta(hours=9))
@@ -23,31 +26,36 @@ CATEGORIES = [
     {
         "id": "dragons",
         "name": "中日ドラゴンズ",
-        "query": "(中日ドラゴンズ OR 中日 OR ドラゴンズ) (試合 OR 勝 OR 敗 OR 選手 OR 監督 OR 移籍 OR ドラフト OR 成績 OR セレモニー)",
+        "query": "(\"中日ドラゴンズ\" OR \"ドラゴンズ\") (試合 OR 勝 OR 敗 OR 選手 OR 監督 OR 工藤 OR 井上 OR ドラフト OR 契約更改 OR キャンプ OR 補強 OR 移籍 OR 現役ドラフト OR FA OR 戦力外 OR 自主トレ OR オープン戦 OR 成績) when:7d",
         "icon": "🐉",
         "desc": "試合結果速報、選手活躍、采配動向、チーム再建の要約まとめ"
     },
     {
         "id": "jets",
         "name": "千葉ジェッツふなばし",
-        "query": "(千葉ジェッツ OR 千葉ジェッツふなばし OR 富樫勇樹 OR 原修太 OR 渡邊雄太) (試合 OR 勝利 OR 敗戦 OR 開幕 OR 移籍 OR プレシーズン OR 天皇杯 OR バスケ)",
+        "query": "(\"千葉ジェッツ\" OR \"千葉ジェッツふなばし\" OR \"富樫勇樹\" OR \"渡邊雄太\" OR \"原修太\") (試合 OR 勝利 OR 敗戦 OR Bリーグ OR Bプレミア OR 節 OR 天皇杯 OR CS OR チャンピオンシップ OR 開幕 OR 移籍 OR バスケ) when:7d",
         "icon": "✈️",
-        "desc": "Bリーグプレミア開幕、試合速報、富樫・渡邊ら注目選手動向"
+        "desc": "Bリーグプレミア、試合速報、富樫・渡邊ら注目選手動向"
     },
     {
         "id": "motorsport",
         "name": "モータースポーツ",
-        "query": "(F1 OR MotoGP OR \"角田裕毅\" OR \"小椋藍\" OR \"中上貴晶\" OR \"ホンダF1\" OR \"トヨタ\" OR WRC OR WEC OR \"ル・マン\" OR インディカー OR ダカールラリー) (グランプリ OR 決勝 OR 予選 OR 表彰台 OR 参戦 OR 速報 OR 結果 OR レース)",
+        "query": "(F1 OR MotoGP OR 角田裕毅 OR 小椋藍 OR ホンダF1 OR WRC OR WEC OR インディカー) (GP OR 決勝 OR 予選 OR 表彰台 OR 参戦 OR 結果 OR レース) when:7d",
         "icon": "🏎️",
         "desc": "F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約"
     },
     {
         "id": "world",
         "name": "世界のメジャースポーツ",
-        "query": "(MLB OR 大谷翔平 OR 山本由伸 OR プレミアリーグ OR チャンピオンズリーグ OR 三笘薫 OR 久保建英 OR NBA OR 八村塁 OR グランドスラム OR マスターズ) (速報 OR 試合 OR 結果 OR ホームラン OR ゴール OR 勝利 OR 決勝)",
+        "query": "(MLB OR \"大谷翔平\" OR \"山本由伸\" OR プレミアリーグ OR チャンピオンズリーグ OR \"三笘薫\" OR \"久保建英\" OR NBA OR \"八村塁\" OR ワールドシリーズ OR ポストシーズン) (速報 OR 試合 OR 結果 OR ホームラン OR ゴール OR 勝利 OR 決勝 OR プレーオフ) when:7d",
         "icon": "🌍",
         "desc": "MLB（大谷・山本等）、欧州サッカー（三笘・久保等）、NBA等の注目速報要約"
     }
+]
+
+GEMINI_MODELS = [
+    "gemini-flash-latest",
+    "gemini-flash-lite-latest"
 ]
 
 def load_api_key():
@@ -72,116 +80,128 @@ def load_api_key():
                 pass
     return ""
 
-def get_topic_key(title, category_id):
-    """タイトルから話題（トピック）の分類キーを判定"""
-    t = title
-    if category_id == 'dragons':
-        if '語録' in t:
-            return 'director_words'
-        if '松山' in t and ('30' in t or 'セーブ' in t or '守護神' in t):
-            return 'matsuyama_save'
-        if '大野' in t and ('10勝' in t or '左腕' in t or '２ケタ' in t or '2ケタ' in t):
-            return 'ohno_10win'
-        if '続投' in t or '現実味' in t:
-            return 'manager_continue'
-        if any(w in t for w in ['セレモニー', '最終戦', '謝罪', 'お詫び', 'おわび', 'あいさつ', 'スピーチ', '怒号']):
-            return 'ceremony_speech'
-        if '去就' in t or '加藤' in t:
-            return 'manager_future'
-        if any(w in t for w in ['髙橋宏斗', '高橋宏斗', '村松', '無失点', '6号', '4勝目', '勝', '敗', 'スコア', '試合結果']):
-            return 'game_result'
-        if '動員' in t or '観客' in t:
-            return 'attendance'
-        if '若松' in t or '独立球団' in t:
-            return 'ob_topic'
-        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
-    elif category_id == 'jets':
-        if '小川' in t and ('富樫' in t or '挑戦状' in t):
-            return 'ogawa_challenge'
-        if '若手' in t and 'ベテラン' in t or ('開幕' in t and 'プレミア' in t):
-            return 'young_veteran'
-        if 'PRESEASON' in t or 'プレシーズン' in t or 'ちばぎん' in t:
-            return 'preseason'
-        if 'TOGAシート' in t or '招待席' in t:
-            return 'toga_seat'
-        if '動員' in t or '観客' in t:
-            return 'attendance'
-        if '決起会' in t or 'グッズ' in t or 'イベント' in t or '装飾' in t:
-            return 'fan_event'
-        if 'SEASON' in t or 'B.LEAGUE' in t:
-            return 'resona_season'
-        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
-    elif category_id == 'motorsport':
-        if '角田' in t:
-            return 'f1_tsunoda'
-        if 'ホンダ' in t or 'アストンマーティン' in t or 'PU' in t:
-            return 'f1_honda'
-        if '小椋' in t:
-            return 'motogp_ogura'
-        if '中上' in t or 'もてぎ' in t:
-            return 'motogp_nakagami'
-        if 'クアルタラロ' in t or 'ヤマハ' in t:
-            return 'motogp_yamaha'
-        if 'マルケス' in t or 'バニャイア' in t or 'オーストリアGP' in t or 'MotoGP' in t:
-            return 'motogp_race'
-        if 'ル・マン' in t or 'WEC' in t or '耐久' in t:
-            return 'wec_lemans'
-        if 'WRC' in t or 'ラリー' in t or '勝田' in t:
-            return 'wrc_rally'
-        if 'インディ' in t or 'Indy' in t or '佐藤琢磨' in t:
-            return 'indycar'
-        if 'ダカール' in t:
-            return 'dakar'
-        if 'フェルスタッペン' in t or 'ノリス' in t or 'メルセデス' in t or 'F1' in t:
-            return 'f1_general'
-        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
-    else: # world
-        if '大谷' in t:
-            return 'mlb_ohtani'
-        if '山本由伸' in t or 'ドジャース' in t:
-            return 'mlb_dodgers'
-        if any(w in t for w in ['ダルビッシュ', '今永', '鈴木誠也', '千賀', '吉田正尚', 'MLB', 'メジャー']):
-            return 'mlb_japanese'
-        if '三笘' in t or 'ブライトン' in t:
-            return 'soccer_mitoma'
-        if '久保' in t or 'ソシエダ' in t:
-            return 'soccer_kubo'
-        if any(w in t for w in ['遠藤', 'リバプール', 'アーセナル', 'マンチェスター', 'プレミアリーグ']):
-            return 'soccer_premier'
-        if any(w in t for w in ['レアル', 'バルセロナ', 'CL', 'チャンピオンズリーグ']):
-            return 'soccer_cl'
-        if any(w in t for w in ['八村', 'レイカーズ', 'NBA', '河村']):
-            return 'nba_basketball'
-        if any(w in t for w in ['テニス', '全米', '全仏', 'ウィンブルドン', '全豪']):
-            return 'tennis_grandslam'
-        if any(w in t for w in ['ゴルフ', 'マスターズ', '松山英樹']):
-            return 'golf_masters'
-        return 'general_' + re.sub(r'[\s\W]', '', t)[:8]
+def strip_html_tags(text):
+    """HTMLタグを除去しプレーンテキスト化"""
+    if not text:
+        return ""
+    s = re.sub(r"<[^>]+>", " ", text)
+    s = html.unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
 
-def score_article(title):
-    """見出しの具体性・情報量をスコアリング（発言や数字、具体的選手名を含むものを優先）"""
-    score = 0
-    if '「' in title and '」' in title:
-        score += 5
-    if re.search(r'\d+', title):
-        score += 2
-    if any(w in title for w in ['井上監督', '富樫', '髙橋宏斗', '高橋宏斗', '村松', '加藤', '小川', '角田', 'ホンダ', '小椋', '中上', 'F1', 'MotoGP', 'WEC', 'WRC', 'ル・マン', '大谷', '山本由伸', '三笘', '久保', '八村', '松山英樹', 'ドジャース', 'MLB', 'プレミアリーグ', 'NBA']):
-        score += 3
-    if any(w in title for w in ['謝罪', '怒号', '挑戦状', '本塁打', 'ホームラン', 'ゴール', '圧巻', '劇的', '勝利', '大台', '最多']):
-        score += 4
+def normalize_for_similarity(title):
+    """類似度判定用に記号・括弧・空白を除去して正規化"""
+    s = re.sub(r"^[【\[][^】\]]+[】\]]\s*", "", title)
+    s = re.sub(r"[\s\W_]+", "", s)
+    return s.lower()
+
+def char_bigrams(text):
+    """2文字N-gram集合を生成"""
+    s = normalize_for_similarity(title=text)
+    if len(s) < 2:
+        return {s} if s else set()
+    return {s[i:i+2] for i in range(len(s) - 1)}
+
+def is_duplicate_topic(title, selected_titles, threshold=0.34):
+    """既存の選択済み記事と同一トピック（2-gram Jaccard類似度 >= threshold）か判定"""
+    bg1 = char_bigrams(title)
+    if not bg1:
+        return False
+    for prev in selected_titles:
+        bg2 = char_bigrams(prev)
+        if not bg2:
+            continue
+        inter = len(bg1 & bg2)
+        union = len(bg1 | bg2)
+        if union > 0 and (inter / union) >= threshold:
+            return True
+    return False
+
+def is_relevant_article(clean_title, snippet, category_id):
+    """カテゴリ無関係の記事（例：中日スポーツ配信のMLB単体記事等）を除外"""
+    combined = f"{clean_title} {snippet}"
+    if category_id == "dragons":
+        dragons_keywords = [
+            "中日", "ドラゴンズ", "工藤", "井上", "立浪", "バンテリン", "ナゴヤ",
+            "髙橋宏斗", "高橋宏斗", "大野", "松山", "細川", "村松", "石川昂",
+            "根尾", "金丸", "森駿太", "清水", "柳", "福永", "岡林", "涌井", "宏斗", "竜"
+        ]
+        # タイトル自体にドラゴンズ関連ワードが1つも含まれない場合は他球団・MLB記事とみなして除外
+        if not any(k in clean_title for k in dragons_keywords):
+            return False
+        # セ・リーグ順位表まとめ等で他球団メインの記事を抑制
+        if "順位表" in clean_title and not clean_title.startswith(("【中日", "中日", "ドラゴンズ")):
+            return False
+    elif category_id == "jets":
+        jets_keywords = [
+            "ジェッツ", "千葉J", "富樫", "渡邊雄太", "原修太", "金近", "小川",
+            "ホグ", "ムーニー", "船橋", "LaLa arena", "ららアリーナ", "Bリーグ", "B.LEAGUE", "Bプレミア"
+        ]
+        if not any(k in combined for k in jets_keywords):
+            return False
+    return True
+
+def parse_pub_datetime(pub_date_str):
+    """RFC 2822 文字列を日本時間の datetime オブジェクトに変換"""
+    if not pub_date_str:
+        return None
+    try:
+        dt = parsedate_to_datetime(pub_date_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(JST)
+    except Exception:
+        try:
+            dt = datetime.strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S %Z")
+            return dt.replace(tzinfo=timezone.utc).astimezone(JST)
+        except Exception:
+            return None
+
+def score_article(title, age_hours):
+    """鮮度（公開からの経過時間）＋ 見出しの具体性・情報量を複合スコアリング"""
+    score = 0.0
+    # 1. 鮮度スコア（最新ニュースを最優先）
+    if age_hours <= 18:
+        score += 14.0
+    elif age_hours <= 36:
+        score += 10.0
+    elif age_hours <= 72:
+        score += 6.0
+    elif age_hours <= 120:
+        score += 3.0
+    else:
+        score += 1.0
+
+    # 2. 具体性スコア（カギ括弧の発言、数字、重要キーワード）
+    if "「" in title and "」" in title:
+        score += 4.0
+    if re.search(r"\d+", title):
+        score += 2.0
+    if any(w in title for w in [
+        "工藤", "井上", "髙橋宏斗", "高橋宏斗", "細川", "松山", "村松", "金丸", "根尾",
+        "富樫", "渡邊雄太", "原修太", "角田", "ホンダ", "小椋", "中上", "勝田", "F1", "MotoGP",
+        "大谷", "山本由伸", "三笘", "久保", "八村", "ドジャース"
+    ]):
+        score += 3.0
+    if any(w in title for w in [
+        "勝利", "快勝", "逆転", "本塁打", "ホームラン", "ゴール", "優勝", "表彰台",
+        "決定", "就任", "ドラフト", "契約", "開幕", "連勝", "新記録", "圧巻", "劇的"
+    ]):
+        score += 2.5
     return score
 
 def fetch_rss_news(category_id, query, max_items=6):
-    """Google News RSS から最新ニュースを取得し、トピック重複を排除して厳選"""
+    """Google News RSS から最新ニュースを取得し、期間フィルタ＆重複排除して厳選"""
     encoded_query = urllib.parse.quote(query)
     url = f"https://news.google.com/rss/search?q={encoded_query}&hl=ja&gl=JP&ceid=JP:ja"
     
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         }
     )
+    
+    now_jst = datetime.now(JST)
     
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -193,169 +213,251 @@ def fetch_rss_news(category_id, query, max_items=6):
                 title = item.findtext("title", "").strip()
                 link = item.findtext("link", "").strip()
                 pub_date_str = item.findtext("pubDate", "").strip()
+                desc_raw = item.findtext("description", "").strip()
                 source_elem = item.find("source")
                 source = source_elem.text.strip() if source_elem is not None and source_elem.text else "スポーツ速報"
                 
                 clean_title = re.sub(r"\s*[-|]\s*[^-|]+$", "", title).strip()
+                snippet = strip_html_tags(desc_raw)
+                # スニペットからタイトル重複や配信元名を軽く整理
+                if snippet.startswith(clean_title):
+                    snippet = snippet[len(clean_title):].strip(" -|　")
                 
-                # 千葉ジェッツの場合、関係の薄い海外・日本代表のみのニュース（中国大敗など）を除外
-                if category_id == "jets":
-                    if not any(k in clean_title for k in ["ジェッツ", "富樫", "原修太", "渡邊雄太", "船橋", "B.LEAGUE", "Bリーグ", "ちばぎん"]):
+                if not is_relevant_article(clean_title, snippet, category_id):
+                    continue
+                
+                pub_dt = parse_pub_datetime(pub_date_str)
+                if pub_dt is not None:
+                    age_hours = max(0.0, (now_jst - pub_dt).total_seconds() / 3600.0)
+                    # 10日（240時間）より古い記事は完全に除外（5月〜8月の古い記事混入を遮断）
+                    if age_hours > 240.0:
                         continue
-                        
-                topic = get_topic_key(clean_title, category_id)
-                score = score_article(clean_title)
+                    pub_date_display = pub_dt.strftime("%m/%d %H:%M")
+                    is_new = (age_hours <= 28.0)
+                else:
+                    age_hours = 48.0
+                    pub_date_display = "最新速報"
+                    is_new = False
+
+                score = score_article(clean_title, age_hours)
                 
                 raw_candidates.append({
                     "title": clean_title,
                     "raw_title": title,
+                    "snippet": snippet[:220],
                     "link": link,
-                    "pub_date": format_pub_date(pub_date_str),
+                    "pub_date": pub_date_display,
+                    "age_hours": age_hours,
+                    "is_new": is_new,
                     "source": source,
-                    "topic": topic,
                     "score": score,
                     "headline": "",
                     "points": [],
                     "takeaway": ""
                 })
             
-            # 各トピックごとに最もスコアの高い代表記事を選定
-            selected_items = []
-            seen_topics = set()
-            
-            # スコア順にソートして、より具体的で魅力的な記事を優先
+            # 複合スコア（鮮度＋具体性）の高い順にソート
             raw_candidates.sort(key=lambda x: x["score"], reverse=True)
             
+            selected_items = []
+            selected_titles = []
+            
             for cand in raw_candidates:
-                topic = cand["topic"]
-                if topic not in seen_topics:
-                    seen_topics.add(topic)
+                if not is_duplicate_topic(cand["title"], selected_titles):
+                    selected_titles.append(cand["title"])
                     selected_items.append(cand)
                 if len(selected_items) >= max_items:
                     break
-                    
+            
+            # 画面上では新しい順が見やすいため、選択された上位記事を公開日時（新しい順）に整列
+            selected_items.sort(key=lambda x: x["age_hours"])
             return selected_items
     except Exception as e:
-        print(f"RSS取得エラー ({query}): {e}", file=sys.stderr)
+        print(f"RSS取得エラー ({category_id}): {e}", file=sys.stderr)
         return []
 
-def format_pub_date(pub_date_str):
-    """pubDate 文字列 (RFC 2822) を日本時間表記 (MM/DD HH:MM) に変換"""
-    try:
-        dt = datetime.strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S %Z")
-        dt_jst = dt.replace(tzinfo=timezone.utc).astimezone(JST)
-        return dt_jst.strftime("%m/%d %H:%M")
-    except Exception:
-        return "本日更新"
+def clean_takeaway_text(text):
+    """AI出力のtakeaway先頭に重複しやすい『💡 注目:』等を除去"""
+    if not text:
+        return ""
+    t = str(text).strip()
+    t = re.sub(r"^[📣💡\s]*注目(?:ポイント)?[:：]?\s*", "", t)
+    t = re.sub(r"^[📣💡\s]*注目(?:ポイント)?[:：]?\s*", "", t)
+    return t.strip()
+
+def sanitize_url(url):
+    """http/https スキームのみ許可し、安全なエスケープ済みURLを返す"""
+    if not url:
+        return "#"
+    u = str(url).strip()
+    parsed = urllib.parse.urlparse(u)
+    if parsed.scheme not in ("http", "https"):
+        return "#"
+    return html.escape(u, quote=True)
+
+def load_recent_archive_headlines(script_dir, category_id, days=7):
+    """過去7日分のアーカイブJSONから主要ニュース見出しを取得し、1週間レポートの文脈を補強"""
+    archive_dir = os.path.join(script_dir, "docs", "data", "archive")
+    if not os.path.exists(archive_dir):
+        return []
+    files = sorted([f for f in os.listdir(archive_dir) if f.endswith(".json")], reverse=True)[:days]
+    past_lines = []
+    seen = set()
+    for fname in files:
+        fpath = os.path.join(archive_dir, fname)
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            cat_data = data.get("categories", {}).get(category_id, {})
+            for n in cat_data.get("news", [])[:3]:
+                ttl = n.get("title", "").strip()
+                if ttl and ttl not in seen:
+                    seen.add(ttl)
+                    past_lines.append(f"- [{data.get('date', '')[5:]}] {ttl}")
+        except Exception:
+            continue
+    return past_lines[:12]
+
+def call_gemini_json(prompt, api_key, timeout=30):
+    """Gemini API を呼び出して JSON をパースして返す（エラーログ・リトライ対応）"""
+    if not api_key:
+        return None, None
+    for model in GEMINI_MODELS:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        body = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.25}
+        }
+        try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(body).encode("utf-8"),
+                headers={"Content-Type": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+                try:
+                    return json.loads(text), model
+                except json.JSONDecodeError:
+                    m = re.search(r"(\{.*\}|\[.*\])", text, re.DOTALL)
+                    if m:
+                        return json.loads(m.group(1)), model
+        except urllib.error.HTTPError as he:
+            print(f"  [Gemini HTTP {he.code}] model={model}", file=sys.stderr)
+            if he.code == 429:
+                time.sleep(2)
+            continue
+        except Exception as e:
+            print(f"  [Gemini Error] model={model}: {e}", file=sys.stderr)
+            continue
+    return None, None
 
 # ==============================================================================
 # 過去1週間のAI調査・深掘りレポート生成
 # ==============================================================================
-def generate_weekly_ai_report(category_id, category_name, news_items, api_key):
-    """過去1週間のニュースを横断的に調査・分析した深掘りレポートを生成"""
+def generate_weekly_ai_report(category_id, category_name, news_items, api_key, script_dir):
+    """過去1週間のニュースとアーカイブ履歴を横断的に分析した深掘りレポートを生成"""
     if not news_items:
-        return ""
+        return "", None
     
-    articles_text = "\n".join([f"- {item['title']} ({item['source']})" for item in news_items])
+    current_articles_text = "\n".join([
+        f"- [{item['pub_date']}] {item['title']} ({item['source']})"
+        + (f" / 概要: {item['snippet']}" if item.get("snippet") else "")
+        for item in news_items
+    ])
+    past_lines = load_recent_archive_headlines(script_dir, category_id, days=7)
+    past_context = "\n".join(past_lines) if past_lines else "（直近取得記事を参照）"
     
     if api_key:
-        prompt = f"""あなたは「{category_name}」を誰よりも深く取材・分析しているプロのスポーツアナリストです。
-過去1週間の最新ニュース見出しをもとに、ファンが今一番知りたい【過去1週間の徹底調査レポート】を作成してください。
+        prompt = f"""あなたは「{category_name}」を専門に取材・分析しているスポーツアナリストです。
+本日の最新ニュースおよび直近1週間のアーカイブ見出しをもとに、ファンが今一番知りたい【過去1週間の徹底調査レポート】を作成してください。
 
-【対象ニュース】
-{articles_text}
+【本日の最新ニュース】
+{current_articles_text}
 
-【必須指示】
-以下のJSONフォーマットで出力してください（Markdownの ```json で囲む）：
+【直近1週間の主な出来事（時系列アーカイブ）】
+{past_context}
+
+【厳守ルール】
+1. 与えられた記事見出し・概要に含まれる事実のみに基づいて分析し、記事にないスコアや順位、発言を勝手に創作（ハルシネーション）しないでください。
+2. 以下のJSONオブジェクト形式のみで出力してください：
 {{
-  "title": "1週間の総括見出し（35文字以内。試合結果や重要トピックを端的に）",
-  "summary": "直近1週間の試合動向・チーム状況の分析総括（90〜150文字程度。勝敗、スコア、チームの出来など）",
-  "key_players": "注目選手・キーマンの動き（80〜140文字程度。活躍選手、復帰・怪我、ドラフト/補強など）",
-  "outlook": "今後の展望と次戦へのポイント（80〜140文字程度。ファンが注目すべき見どころ）"
+  "title": "1週間の総括見出し（35文字以内。最新の重要トピックを端的に）",
+  "summary": "直近1週間の戦況・チーム動向の総括（90〜150文字程度）",
+  "key_players": "注目選手・キーマン・首脳陣の動き（80〜140文字程度）",
+  "outlook": "今後の展望とファンが注目すべき見どころ（80〜140文字程度）"
 }}"""
-        models = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
-        for model in models:
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-            body = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}
+        parsed, used_model = call_gemini_json(prompt, api_key)
+        if isinstance(parsed, dict) and parsed.get("title"):
+            now_str = datetime.now(JST).strftime("%m/%d %H:%M")
+            report_obj = {
+                "analyzed_at": now_str,
+                "title": str(parsed.get("title", "")).strip(),
+                "summary": str(parsed.get("summary", "")).strip(),
+                "key_players": str(parsed.get("key_players", "")).strip(),
+                "outlook": str(parsed.get("outlook", "")).strip()
             }
-            try:
-                req = urllib.request.Request(url, data=json.dumps(body).encode("utf-8"), headers={"Content-Type": "application/json"})
-                with urllib.request.urlopen(req, timeout=30) as resp:
-                    data = json.loads(resp.read().decode("utf-8"))
-                    text = data["candidates"][0]["content"]["parts"][0]["text"]
-                    json_match = re.search(r"\{.*\}", text, re.DOTALL)
-                    if json_match:
-                        r = json.loads(json_match.group(0))
-                        print(f"  -> [{category_name}] 過去1週間AI調査レポート生成完了 ({model})")
-                        return render_report_html(category_id, category_name, r)
-            except Exception as e:
-                continue
+            print(f"  -> [{category_name}] 過去1週間AI調査レポート生成完了 ({used_model})")
+            return render_report_html(category_id, report_obj), report_obj
 
-    # フォールバック（API未接続時でもニュースから分析レポートを動的合成）
+    # 動的フォールバック（固定の9月イベントではなく、現在の取得記事から合成）
     return fallback_weekly_report(category_id, category_name, news_items)
 
 def fallback_weekly_report(category_id, category_name, news_items):
-    """API未接続時でも記事見出し群から過去1週間の調査分析レポートを自動生成"""
-    titles_str = " ".join([item["title"] for item in news_items])
-    
-    if category_id == "dragons":
-        title = "本拠地最終戦を終え来季へ反攻の誓い、井上監督体制の総括と課題"
-        summary = "直近1週間では本拠地・バンテリンドームでの最終戦が行われ、満員のファンの前で井上監督が今季の戦いについて謝罪と感謝を表明。打線の得点力不足や接戦での課題が浮き彫りとなる一方、若手選手の台頭など来季への確かな足がかりも示されました。"
-        key_players = "若手野手陣の積極的な起用が続き、来季のレギュラー定着を狙う選手たちがアピール。投手陣は先発・リリーフともに再編が進み、秋季キャンプからドラフト会議に向けた戦力見極めが本格化しています。"
-        outlook = "残り試合で来季につながる実戦経験を積みつつ、オフの補強戦略と秋季キャンプでの徹底的な個々の底上げにファンの期待が集まります。"
-    elif category_id == "jets":
-        title = "Bリーグプレミア開幕へ仕上がり順調、富樫・新戦力が噛み合う好発進"
-        summary = "過去1週間ではプレシーズンゲームや開幕直前の記者会見が話題を呼び、新生千葉ジェッツのチームケミストリーが高まっています。日本代表主将・富樫勇樹を中心に、新加入選手との連携やディフェンス強度の向上が随所に見られ、王座奪還への期待が高まります。"
-        key_players = "キャプテン富樫勇樹が巧みなゲームメイクで牽引する中、新戦力や若手選手がプレシーズンマッチで躍動。激しいロスター争いがチーム全体の底上げにつながっています。"
-        outlook = "いよいよ始まるレギュラーシーズン開幕戦に向け、完成度をどこまで高められるかが焦点。強豪との開幕シリーズで最高のスタートダッシュが期待されます。"
-    elif category_id == "motorsport":
-        title = "F1角田裕毅の復帰への強い意志、MotoGP日本勢躍動とル・マン24時間計画"
-        summary = "直近1週間のモータースポーツ界では、F1で角田裕毅が「来年F1に戻ることしか考えていない」と強い決意を表明。ホンダF1は過酷なバクーGPへ向けPU最適化を推進しています。MotoGPでは小椋藍が復帰戦で4位入賞、中上貴晶も好感触を掴むなど日本勢の躍動が目立ちました。"
-        key_players = "角田裕毅（F1）が代役出場で手応えを得てレギュラー復帰に照準。MotoGPでは小椋藍、中上貴晶が欧州勢相手に存在感を発揮。さらにWECル・マン24時間へのF1ドライバー（フェルスタッペンら）参戦可能性やWRC勝田貴元など世界選手権の動向が活発化。"
-        outlook = "F1秋の過酷なフライアウェイ戦や次戦MotoGP、さらにWEC・WRCのシーズン終盤戦に向けて、日本勢の表彰台獲得と来季シート獲得の行方に大きな期待と注目が集まります。"
-    else: # world
-        title = "大谷翔平の歴史的活躍、欧州サッカー日本人躍動とNBA新シーズンへの期待"
-        summary = "直近1週間の世界のメジャースポーツでは、MLBでドジャース大谷翔平選手や山本由伸投手がポストシーズン・優勝争いで主力を張り圧巻のパフォーマンスを連発。欧州サッカーでは三笘薫（ブライトン）、久保建英（ソシエダ）らが決定機を演出し、CLや国内リーグで存在感を発揮しています。"
-        key_players = "大谷翔平（MLB）が投打・打撃で異次元の記録を更新し続ける中、欧州サッカーでは三笘・久保・遠藤航らが世界トップレベルで躍動。NBAでは八村塁、河村勇輝ら日本勢が新シーズンに向けたロスター争いでアピールを続けています。"
-        outlook = "MLBの頂点を決めるワールドシリーズへの激闘、欧州CLの激戦グループステージ、そして開幕を迎えるNBAと、世界最高峰の舞台で躍動する日本人アスリートの歴史的一戦から目が離せません。"
-        
-    report_data = {
-        "title": title,
-        "summary": summary,
-        "key_players": key_players,
-        "outlook": outlook
-    }
-    return render_report_html(category_id, category_name, report_data)
-
-def render_report_html(category_id, category_name, r):
-    """調査レポートのHTMLをレンダリング"""
+    """API未接続時でも現在の記事見出し群から安全に調査レポートを合成"""
     now_str = datetime.now(JST).strftime("%m/%d %H:%M")
+    top_titles = [re.sub(r"^[【\[][^】\]]+[】\]]\s*", "", item["title"]) for item in news_items[:3]]
+    lead_topic = top_titles[0][:32] if top_titles else f"{category_name} 最新動向総括"
+    joined_topics = " / ".join([t[:28] for t in top_titles])
+
+    report_obj = {
+        "analyzed_at": now_str,
+        "title": f"{lead_topic}",
+        "summary": f"直近の{category_name}では、「{joined_topics}」など注目のニュースが相次いで報じられています。",
+        "key_players": "主力選手や首脳陣の最新コメント、チーム編成・次戦に向けた調整状況に高い関心が集まっています。",
+        "outlook": "今後の試合日程やチーム戦略の展開に向け、各メディアの続報と選手のパフォーマンスに注目です。"
+    }
+    return render_report_html(category_id, report_obj), report_obj
+
+def render_report_html(category_id, r):
+    """調査レポートのHTMLをレンダリング（開閉可能なアコーディオン対応＆XSSエスケープ済）"""
+    if not r:
+        return ""
+    now_str = html.escape(str(r.get("analyzed_at", datetime.now(JST).strftime("%m/%d %H:%M"))), quote=True)
+    title = html.escape(str(r.get("title", "")), quote=True)
+    summary = html.escape(str(r.get("summary", "")), quote=True)
+    key_players = html.escape(str(r.get("key_players", "")), quote=True)
+    outlook = html.escape(str(r.get("outlook", "")), quote=True)
     cat_icon = "⚾" if category_id == "dragons" else ("🏀" if category_id == "jets" else ("🏎️" if category_id == "motorsport" else "🌍"))
+
     return f"""
-    <div class="report-card {category_id}">
-        <div class="report-header">
-            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">{now_str} AI分析</span>
+    <details class="report-card {category_id}" open>
+        <summary class="report-summary-toggle">
+            <div class="report-header">
+                <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                <span class="report-header-right">
+                    <span class="report-date">{now_str} AI分析</span>
+                    <span class="report-chevron" aria-hidden="true">▾</span>
+                </span>
+            </div>
+            <h3 class="report-title">{title}</h3>
+        </summary>
+        <div class="report-body">
+            <div class="report-section">
+                <div class="report-section-title">{cat_icon} <strong>直近1週間の戦況・動向総括</strong></div>
+                <div class="report-section-text">{summary}</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                <div class="report-section-text">{key_players}</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                <div class="report-section-text">{outlook}</div>
+            </div>
         </div>
-        <h3 class="report-title">{r.get('title', '')}</h3>
-        
-        <div class="report-section">
-            <div class="report-section-title">{cat_icon} <strong>直近1週間の戦況・動向総括</strong></div>
-            <div class="report-section-text">{r.get('summary', '')}</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
-            <div class="report-section-text">{r.get('key_players', '')}</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
-            <div class="report-section-text">{r.get('outlook', '')}</div>
-        </div>
-    </div>
+    </details>
     """
 
 # ==============================================================================
@@ -363,463 +465,94 @@ def render_report_html(category_id, category_name, r):
 # ==============================================================================
 def summarize_news_items(category_id, category_name, news_items, api_key):
     """各ニュース記事の3行要約を生成"""
-    if not api_key or not news_items:
-        return fallback_smart_summaries(category_id, category_name, news_items)
+    if not news_items:
+        return []
+    
+    # まず記事自身のタイトル・スニペットから安全な初期要約をセット（欠落防止）
+    news_items = fallback_smart_summaries(category_id, category_name, news_items)
+    if not api_key:
+        return news_items
     
     articles_text = "\n\n".join([
-        f"【記事{i+1}】\n見出し: {item['title']}\n配信元: {item['source']}"
+        f"【記事{i+1}】\n公開日時: {item['pub_date']}\n見出し: {item['title']}\n配信元: {item['source']}"
+        + (f"\n抜粋: {item['snippet']}" if item.get("snippet") else "")
         for i, item in enumerate(news_items)
     ])
     
-    # 最初にフォールバック要約をセットしておき、AI要約で上書き（欠落防止）
-    news_items = fallback_smart_summaries(category_id, category_name, news_items)
-    
     total_count = len(news_items)
     prompt = f"""あなたは「{category_name}」を専門に取材・解説するプロのスポーツ記者です。
-以下の最新ニュース見出し全{total_count}件を分析し、ファンが最も知りたい「事実の核心・背景・詳細・今後の影響」が30秒でわかる本格的な3行要約を作成してください。
+以下の最新ニュース全{total_count}件を分析し、ファンが30秒で核心を把握できる3行要約を作成してください。
 
 【対象記事】
 {articles_text}
 
 【最重要ルール（厳守）】
-1. **対象記事全{total_count}件（記事1〜記事{total_count}）すべてについて、1件も漏らさず必ず要約を出力してください**。
-2. **見出しの単なる言い換え・オウム返しは絶対に禁止**です。「〜が話題となっています」「〜が報じられました」「〜に注目が集まっています」といった抽象的で中身のない表現は書かないでください。
-3. 各記事について、**「具体的に何が起きたのか（勝敗・スコア・順位・選手名・発言内容）」**、**「なぜそれが重要なのか・どんな戦術的/チーム背景があるのか」**、**「それによって今後の試合やチームにどう影響するのか」**を具体的に掘り下げてください。
-4. headline: 見出しをそのまま写すのではなく、「何が起きたかの核心・結論（30文字以内）」を明確に記述してください。
-5. points: 具体的かつ情報密度の高いポイントを2〜3点（各35〜65文字程度）。選手のプレー内容や指揮官の意図、チーム事情を具体的に解説してください。
-6. takeaway: 「💡 注目」として、ファンが次に注目すべき見どころや試合の焦点を熱く具体的に記述してください（40〜65文字程度）。
+1. **対象記事全{total_count}件（index: 1 〜 {total_count}）すべてについて、1件も漏らさず出力してください**。
+2. **事実厳守（ハルシネーション禁止）**: 見出しと抜粋に書かれている事実のみを基に要約し、書かれていない試合スコアや発言を勝手に創作しないでください。
+3. headline: 記事の結論・核心を30文字以内で端的に記述してください。
+4. points: 具体的な事実・背景・今後の影響を3点（各35〜65文字程度）で整理してください。
+5. takeaway: ファン目線での注目ポイントや見どころを40〜65文字程度で記述してください（※先頭に「注目:」や「💡」は付けないでください）。
 
-【出力フォーマット】
-以下のJSON配列形式のみで出力してください（Markdownの ```json で囲む）：
+【出力JSON配列フォーマット】
 [
   {{
     "index": 1,
     "headline": "何が起きたかの結論（30文字以内）",
     "points": [
-      "具体的な事実・スコア・発言内容（35〜65文字）",
-      "その背景や戦術・チーム状況の分析（35〜65文字）",
-      "今後の展開や順位争いへの影響（35〜65文字）"
+      "具体的な事実・発言内容（35〜65文字）",
+      "その背景やチーム・戦況における意味（35〜65文字）",
+      "今後の展開への影響（35〜65文字）"
     ],
-    "takeaway": "ファン目線での具体的な見どころや次戦への注目ポイント（40〜65文字）"
+    "takeaway": "ファン目線での具体的な見どころ（40〜65文字）"
   }}
 ]"""
 
-    models = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.5-flash", "gemini-flash-latest"]
-    for model in models:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-        body = {
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}
-        }
-        try:
-            req = urllib.request.Request(url, data=json.dumps(body).encode("utf-8"), headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                text = data["candidates"][0]["content"]["parts"][0]["text"]
-                json_match = re.search(r"\[\s*\{.*\}\s*\]", text, re.DOTALL)
-                if json_match:
-                    summaries = json.loads(json_match.group(0))
-                    for s in summaries:
-                        idx = s.get("index", 1) - 1
-                        if 0 <= idx < len(news_items):
-                            if s.get("headline"):
-                                news_items[idx]["headline"] = s.get("headline", "")
-                            if s.get("points"):
-                                news_items[idx]["points"] = s.get("points", [])
-                            if s.get("takeaway"):
-                                news_items[idx]["takeaway"] = s.get("takeaway", "")
-                    print(f"  -> [{category_name}] Gemini API ({model}) による要約生成成功！")
-                    return news_items
-        except Exception:
-            continue
-            
-    print(f"  -> [{category_name}] インテリジェント要約エンジンで要約を生成しました。")
+    parsed, used_model = call_gemini_json(prompt, api_key)
+    if isinstance(parsed, list):
+        for s in parsed:
+            if not isinstance(s, dict):
+                continue
+            idx = s.get("index", 1) - 1
+            if 0 <= idx < len(news_items):
+                if s.get("headline"):
+                    news_items[idx]["headline"] = str(s.get("headline", "")).strip()
+                if s.get("points") and isinstance(s.get("points"), list):
+                    news_items[idx]["points"] = [str(p).strip() for p in s.get("points") if str(p).strip()][:3]
+                if s.get("takeaway"):
+                    news_items[idx]["takeaway"] = clean_takeaway_text(s.get("takeaway", ""))
+        print(f"  -> [{category_name}] Gemini API ({used_model}) による要約生成成功！")
+        return news_items
+
+    print(f"  -> [{category_name}] 動的フォールバック要約を使用しました。")
     return news_items
 
 def fallback_smart_summaries(category_id, category_name, news_items):
-    """タイトルから発言（「…」）・選手名・対戦・スコア・具体的事象を徹底解析して3行要約を動的合成"""
+    """API障害時でも過去の古い固定データを混ぜず、記事自身の見出し・抜粋・発言から安全に要約を構成"""
     for item in news_items:
         t = item["title"]
         src = item["source"]
+        snippet = item.get("snippet", "")
         
-        # タイトル整形（ゴミ除去）
-        clean = re.sub(r'^[【\[][^】\]]+[】\]]\s*', '', t)
-        clean = re.sub(r'\s*／.*$', '', clean)
-        clean = re.sub(r'\s*（[^）]+）\s*$', '', clean)
-        clean = re.sub(r'\s*｜.*$', '', clean)
-        clean = clean.strip()
+        clean = re.sub(r"^[【\[][^】\]]+[】\]]\s*", "", t)
+        clean = re.sub(r"\s*[／｜|].*$", "", clean).strip()
+        quotes = re.findall(r"「([^」]+)」", t)
         
-        quotes = re.findall(r'「([^」]+)」', t)
-        
-        # --- 1. 千葉ジェッツ：小川麻斗 vs 富樫勇樹 / 挑戦状 ---
-        if '小川' in t and ('富樫' in t or '挑戦状' in t or 'ジェッツ' in t):
-            q_text = f'「{quotes[0]}」' if quotes else '「千葉ジェッツには負けたくない」'
-            item["headline"] = f"神戸・小川麻斗が富樫勇樹に挑戦状 {q_text}"
-            item["points"] = [
-                f"神戸ストークスの小川麻斗が、日本代表PG富樫勇樹に対し{q_text}と宣戦布告。",
-                "かつて特別指定選手として千葉Jでプレーした若き司令塔が、元チームメイトであり日本のトップ司令塔に真っ向勝負を宣言。",
-                "新シーズン開幕を前に、激しいマッチアップと下克上への強い意気込みが大きな注目を集めています。"
-            ]
-            item["takeaway"] = "かつての仲間・富樫に挑む小川の熱い闘志。コート上で繰り広げられる新旧PG直接対決は見逃せません！"
-
-        # --- 2. 千葉ジェッツ：若手とベテラン融合 / 開幕 ---
-        elif '若手' in t and 'ベテラン' in t or ('開幕' in t and ('プレミア' in t or '２２日' in t or '22日' in t)):
-            item["headline"] = "若手とベテランが融合、新生ジェッツがプレミア開幕へ"
-            item["points"] = [
-                "Bリーグプレミア開幕に向けて、千葉ジェッツが新布陣でのチームづくりを本格化。",
-                "富樫勇樹ら経験豊富なベテランと、勢いのある若手新戦力が融合しチーム全体の総合力を底上げ。",
-                "開幕ダッシュを飾るべく、攻守の戦術フォーメーションやコンディショニングの最終調整が進められています。"
-            ]
-            item["takeaway"] = "新旧戦力がガッチリ噛み合った新生千葉ジェッツ。王座奪還に向けた開幕シリーズが楽しみです！"
-
-        # --- 3. 千葉ジェッツ：プレシーズンマッチ結果・日程 ---
-        elif 'PRESEASON' in t or 'プレシーズン' in t or '試合結果' in t or 'ちばぎん' in t:
-            vs_match = re.search(r'vs\s*([^\s」）]+)', t, re.IGNORECASE)
-            vs_team = vs_match.group(1) if vs_match else ""
-            vs_info = f"（vs {vs_team}）" if vs_team else ""
-            item["headline"] = f"プレシーズンゲーム{vs_info}結果＆開幕前の実戦総括"
-            item["points"] = [
-                f"「{src}」より、プレシーズンゲームの試合結果と戦況が公表されました。",
-                "新加入選手との連携プレーや、新戦術の機能性を実戦形式で入念にテスト。",
-                "開幕本番に向けた課題の洗い出しと好材料の確認が着実に進んでいます。"
-            ]
-            item["takeaway"] = "実戦で得た収穫を武器に、開幕戦で最高のパフォーマンスを発揮してくれることを期待しましょう！"
-
-        # --- 4. 千葉ジェッツ：シーズン日程・クラブ発表 ---
-        elif 'SEASON' in t or 'B.LEAGUE' in t:
-            item["headline"] = "新シーズン（2026-27）クラブ公式発表＆日程案内"
-            item["points"] = [
-                f"「{src}」より、新シーズンに向けた公式案内や試合日程が発表されました。",
-                "ホームアリーナでの開催イベントやチケット情報、ファンサービスの詳細が公開。",
-                "地域と一体となった熱いブーストで、今季もアリーナが熱狂に包まれることが期待されます。"
-            ]
-            item["takeaway"] = "ブースターの声援が選手の力になります。会場や配信でチームを全力で後押ししましょう！"
-
-        # --- 5. 中日：井上監督語録・試合後コメント（最優先判定） ---
-        elif '語録' in t or ('宏斗' in t and '当然' in t):
-            item["headline"] = "井上監督語録：髙橋宏斗の好投に「宏斗からしたら当然」"
-            item["points"] = [
-                "試合後の囲み取材で、先発・髙橋宏斗の力投について「最近の宏斗からしたら当然と言える内容」と絶大な信頼を表明。",
-                "序盤に先制・追加点を挙げた打線に対しても「2回までで終わらずに得点できた」と評価。",
-                "最終戦で見せた投打の噛み合わせを、来季へ向けた確かな手応えとして振り返りました。"
-            ]
-            item["takeaway"] = "エースへの確固たる信頼と打線の成長への評価。来季の反攻に向けた指揮官の確かなビジョンが伺えます！"
-
-        # --- 6. 中日：大野雄大投手 10勝目 ---
-        elif '大野' in t and ('10勝' in t or '左腕' in t or '２ケタ' in t or '2ケタ' in t):
-            item["headline"] = "大野雄大が2年連続10勝目達成、規定投球回へ井上監督も熟考"
-            item["points"] = [
-                "37歳の左腕・大野雄大投手が今季10勝目をマークし、2年連続となる2桁勝利を達成。",
-                "試合後は「情けない」と語り笑顔を見せず、規定投球回クリア（残り6イニング）へ井上監督も登板機会を熟考。",
-                "ベテランとしてチームを牽引し続けたエース左腕の意地と責任感が光る登板となりました。"
-            ]
-            item["takeaway"] = "37歳で2桁勝利は快挙！自身の投球に妥協せず高みを目指すエースの姿勢に胸が熱くなります！"
-
-        # --- 7. 中日：守護神・松山晋也投手 30セーブ ---
-        elif '松山' in t and ('30' in t or 'セーブ' in t or '守護神' in t):
-            q_text = quotes[0] if quotes else '俺の仕事はお前につなぐこと'
-            item["headline"] = f"守護神・松山晋也が2年連続30セーブ！監督「{q_text}」"
-            item["points"] = [
-                "守護神の松山晋也投手が今季30セーブを達成、2年連続の大台クリアを果たしました。",
-                f"井上監督は「{q_text}」と語り、チームを締めくくる若きクローザーへ絶大な信頼を口に。",
-                "苦しいチーム状況の中でも試合を締めくくり続けた絶対的守護神の存在感が際立ちます。"
-            ]
-            item["takeaway"] = "2年連続30セーブは球界屈指の証！来季も中日の勝利の方程式を支える守護神に大声援を！"
-
-        # --- 8. 中日：井上監督続投の現実味 ---
-        elif '続投' in t or '現実味' in t:
-            item["headline"] = "中日・井上監督の「続投」が現実味、観客動員数3位の経営貢献も"
-            item["points"] = [
-                "井上監督の来季続投の可能性が高まっていることが報じられました。",
-                "順位は低迷したものの、主催試合の入場者数が12球団中3位と高稼働を維持し球団経営に大きく貢献。",
-                "ファンからの支持や若手育成の手腕も評価され、来季に向けた体制維持が現実味を帯びています。"
-            ]
-            item["takeaway"] = "ファン動員を支えた井上監督。来季こそ結果で応えるべく、オフの戦力補強と指導に期待です！"
-
-        # --- 9. 中日：髙橋宏斗 / 村松開人 / 個人成績・試合結果 ---
-        elif '村松' in t or '髙橋宏斗' in t or '高橋宏斗' in t:
-            item["headline"] = "村松が6号3打点＆髙橋宏斗が7回無失点8Kで4勝目"
-            item["points"] = [
-                "若手野手の村松開人が今季第6号本塁打を含む2安打3打点とバットで猛アピール。",
-                "エース髙橋宏斗が7回を無失点、8奪三振の圧巻の投球で自身4勝目をマーク。",
-                "投打の若き主力が揃って躍動し、チームの快勝に大きく貢献しました。"
-            ]
-            item["takeaway"] = "投の髙橋宏斗、打の村松。チームの未来を担う投打の柱がしっかり結果を残した頼もしい一戦です！"
-
-        # --- 10. 中日：加藤球団社長 / 井上監督の去就 ---
-        elif '加藤' in t and ('去就' in t or '監督' in t):
-            q_text = f'「{quotes[0]}」' if quotes else '「まだ話すことはない」'
-            item["headline"] = f"加藤球団社長、井上監督の来季去就に{q_text}"
-            item["points"] = [
-                "中日の加藤宏幸球団社長が、井上監督の来季続投・去就についての質問に回答。",
-                f"去就について{q_text}と言及を避け、シーズン終了後の判断を示唆しました。",
-                "今季の戦いぶりを踏まえ、球団首脳陣が来季に向けてどのような体制を敷くかファンの関心が高まっています。"
-            ]
-            item["takeaway"] = "シーズン大詰めを迎え、来季の首脳陣体制とチーム再建プランの行方に大きな注目が集まります。"
-
-        # --- 11. 中日：井上監督 最終戦セレモニー / 謝罪 / あいさつ（セレモニー限定） ---
-        elif ('セレモニー' in t or '謝罪' in t or 'お詫び' in t or 'おわび' in t or 'あいさつ' in t or 'スピーチ' in t or '怒号' in t) and '井上' in t:
-            q_text = quotes[0] if quotes else 'お詫びと感謝'
-            action_desc = "スタンドから拍手と怒号が飛ぶ中、" if "怒号" in t else ""
-            item["headline"] = f"井上監督が本拠地最終戦セレモニーで謝罪 「{q_text}」"
-            item["points"] = [
-                "バンテリンドームでの本拠地最終戦終了後、井上監督がグラウンド上でファンへ挨拶。",
-                f"{action_desc}「{q_text}」と語り、成績が低迷した今季の戦いぶりを真摯に陳謝しました。",
-                "悔しさを滲ませつつも、来季に向けた再起と選手たちへの変わらぬ応援を呼びかけました。"
-            ]
-            item["takeaway"] = "ファンの悔しさと激励を一身に背負った井上監督。この悔しさを糧にした秋季の猛練習に期待しましょう！"
-
-        # --- 12. 中日：年間観客動員数 253万人突破 ---
-        elif '動員' in t or '観客' in t:
-            item["headline"] = "中日、主催71試合で総観客253万人突破！2年連続最多更新"
-            item["points"] = [
-                "中日球団が今季主催71試合の総観客動員数を253万3,782人（平均3万5,687人）と発表。",
-                "順位は低迷したものの、ファンの圧倒的な忠誠心と熱い応援により2年連続で過去最多記録を更新。",
-                "満員のバンテリンドームで選手を鼓舞し続けたファンの熱気が数字となって証明されました。"
-            ]
-            item["takeaway"] = "熱狂的なファンの声援は球界屈指の宝。来季こそファンを歓喜させる強いドラゴンズの復活に期待です！"
-
-        # --- 13. 中日：OB若松駿太氏 独立球団監督就任 ---
-        elif '若松' in t or '独立球団' in t:
-            item["headline"] = "元中日・若松駿太氏が岐阜の新独立球団「初代監督」就任"
-            item["points"] = [
-                "2015年に中日で10勝を挙げた若松駿太氏が、岐阜県に新設される独立球団の監督に就任決定。",
-                "就任会見で「岐阜県を盛り上げたい」と意気込みを語り、地域密着の球団づくりを宣言。",
-                "ドラゴンズで培ったプロの経験を活かし、若手選手の育成と地域振興に新たな挑戦を始めます。"
-            ]
-            item["takeaway"] = "かつてのドラ戦士が監督として新天地へ！地域に夢と活気を与える指導者としての活躍を応援しましょう！"
-
-        # --- 11. 千葉ジェッツ：富樫勇樹 TOGAシート招待席 ---
-        elif 'TOGAシート' in t or '招待席' in t:
-            item["headline"] = "富樫勇樹プロデュース招待席『TOGAシート』今季も実施"
-            item["points"] = [
-                "千葉ジェッツ主将・富樫勇樹選手が子どもたちを試合に招待する『TOGAシート』の実施を発表。",
-                "プロのダイナミックなプレーを間近で体感する機会を提供し、子どもたちの夢を応援。",
-                "新シーズン開幕に向けて第1回募集がスタートし、ブースターの間で大きな話題となっています。"
-            ]
-            item["takeaway"] = "バスケの未来を担う子どもたちへ夢を届ける素晴らしい活動。富樫選手のキャプテンシーに拍手です！"
-
-        # --- 12. 千葉ジェッツ：開幕イベント・グッズ・SNS情報 ---
-        elif '装飾' in t or '決起会' in t or 'グッズ' in t or 'イベント' in t:
-            item["headline"] = "Bプレミア開幕直前！アリーナ装飾・グッズ・イベント案内"
-            item["points"] = [
-                "2026-27シーズンBプレミア開幕に向け、アリーナ特別装飾や記念グッズ情報が解禁。",
-                "新シーズン決起会やSNS連動キャンペーンなど、開幕ムードを盛り上げる企画が目白押し。",
-                "新アリーナで迎える特別なシーズンに向けて、クラブとファンの熱気が最高潮に達しています。"
-            ]
-            item["takeaway"] = "いよいよ始まる新シーズン！会場の特別な演出や限定グッズをチェックして、開幕戦を全力で楽しみましょう！"
-
-        # --- 13. モータースポーツ：角田裕毅（F1） ---
-        elif '角田' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "「目標は来年F1に戻ること」"
-            item["headline"] = f"角田裕毅 {q_text} 代役出場で手応え"
-            item["points"] = [
-                f"F1代役出場を果たした角田裕毅選手が、{q_text}と復帰への確固たる決意を表明。",
-                "実戦の中でマシンの感触を掴み、久々に素晴らしい瞬間を経験したと充実感を語る。",
-                "限られた出走機会の中で確かな速さと実力をアピールし、来季のシート獲得へ期待が高まっています。"
-            ]
-            item["takeaway"] = "F1復帰への熱い情熱と揺るぎない覚悟！角田選手の今後の動向とレギュラー奪還に全力で期待しましょう！"
-
-        # --- 14. モータースポーツ：ホンダF1 / HRC / パワーユニット ---
-        elif 'ホンダ' in t or 'HRC' in t or 'PU' in t or 'パワーユニット' in t:
-            item["headline"] = "ホンダF1、次戦バクーへ向けPU最適化とエネルギーマネジメント"
-            item["points"] = [
-                "パワーユニットに過酷な市街地コース・バクー戦に向け、ホンダF1が緻密な最適化を推進。",
-                "超高速ストレートと直角コーナーが連続する特殊なレイアウトに対応するエンジンセッティングを構築。",
-                "ハイブリッドシステムのエネルギーマネジメントを磨き上げ、過酷な戦いでの上位進出を狙います。"
-            ]
-            item["takeaway"] = "世界最高峰の技術を結集するホンダPU。バクーの超高速ストレートでのパワー炸裂に期待大です！"
-
-        # --- 15. モータースポーツ：小椋藍（MotoGP） ---
-        elif '小椋' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "「思っていた以上のレースができた」"
-            item["headline"] = f"小椋藍、復帰戦で4位快走！{q_text}"
-            item["points"] = [
-                "MotoGPオーストリアGPにて、怪我から復帰した小椋藍選手が見事4位入賞。",
-                f"{q_text}と語り、最高峰クラスでの走りに確かな手応えと自信を深める。",
-                "世界の強豪ライダーたちと互角のバトルを繰り広げ、今後の表彰台争いへ弾みをつけました。"
-            ]
-            item["takeaway"] = "復帰初戦で堂々の4位は素晴らしい快挙！自信を深めた小椋選手の次戦での表彰台登壇が本当に楽しみです！"
-
-        # --- 16. モータースポーツ：中上貴晶（MotoGP） ---
-        elif '中上' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "「いいベースを見つけることができた」"
-            item["headline"] = f"中上貴晶、決勝入賞でもてぎ日本GPへ{q_text}"
-            item["points"] = [
-                "MotoGPオーストリアGP決勝で中上貴晶選手が入賞を果たし、貴重なポイントを獲得。",
-                f"{q_text}と振り返り、マシンの熟成と次戦もてぎ日本グランプリへの好感触を口に。",
-                "母国ファンの前で最高の走りを披露すべく、チーム一丸となったマシン改善が進んでいます。"
-            ]
-            item["takeaway"] = "母国・もてぎに向けて確かな手応え！ホームの大歓声を背に走る中上選手の快走に大注目です！"
-
-        # --- 17. モータースポーツ：ヤマハ / クアルタラロ（MotoGP） ---
-        elif 'クアルタラロ' in t or 'ヤマハ' in t or 'Yamaha' in t:
-            item["headline"] = "クアルタラロ「ホイールスピンに苦戦」ヤマハ陣営の課題"
-            item["points"] = [
-                "ヤマハのエース・クアルタラロ選手がリヤのホイールスピンに苦しみ、課題を吐露。",
-                "「まだやるべきことがある」とマシン開発の継続的な改善とアップデートの必要性を強調。",
-                "日本メーカー復権へ向け、次戦以降のパッケージ改善に全力で取り組んでいます。"
-            ]
-            item["takeaway"] = "苦しい戦いが続くヤマハですが、王者の熱い走りと開発陣の巻き返しを信じて応援しましょう！"
-
-        # --- 18. モータースポーツ：MotoGPレース動向 / マルケス等 ---
-        elif 'マルケス' in t or 'バニャイア' in t or 'MotoGP' in t or 'モトGP' in t:
-            item["headline"] = "MotoGP世界選手権、激化するバトルとマシントラブルの明暗"
-            item["points"] = [
-                "世界最高峰二輪レースMotoGPで、トップライダーたちの極限のバトルが展開。",
-                "ブレーキトラブルやタイヤマネジメントなど過酷な環境下でのドラマが多発。",
-                "チャンピオンシップ争いが過熱する中、コンマ数秒を削り合うハイレベルな攻防が続いています。"
-            ]
-            item["takeaway"] = "時速350km超の世界で繰り広げられる極限の駆け引き！ライダーたちの超絶ライディングに熱狂しましょう！"
-
-        # --- 19. モータースポーツ：WEC / ル・マン24時間 ---
-        elif 'ル・マン' in t or 'ルマン' in t or 'WEC' in t or '耐久' in t:
-            item["headline"] = "2027年F1日程発表でル・マン重複解消へ！F1勢参戦に道"
-            item["points"] = [
-                "最新のF1日程発表に伴い、世界三大レース「ル・マン24時間」との日程重複が解消される見込みに。",
-                "フェルスタッペンら現役F1トップドライバーのル・マン挑戦の可能性が大きく浮上。",
-                "最高峰プロトタイプカーによる24時間の極限レースに、さらなる注目と熱気が集まっています。"
-            ]
-            item["takeaway"] = "現役F1王者のル・マン挑戦が実現するかも！世界最高峰耐久レースのスケール拡大に胸が躍ります！"
-
-        # --- 20. モータースポーツ：WRC / ラリー / 勝田貴元 ---
-        elif 'WRC' in t or 'ラリー' in t or '勝田' in t:
-            item["headline"] = "WRC世界ラリー選手権、トヨタ勝田貴元ら激戦のロードへ"
-            item["points"] = [
-                "世界各地の過酷な道を走破するWRC世界ラリー選手権の最新動向。",
-                "トヨタの日本人ドライバー勝田貴元選手が、世界の強豪相手にトップカテゴリーで奮闘。",
-                "限界ギリギリのマシンコントロールとタイムアタックが毎ステージで白熱しています。"
-            ]
-            item["takeaway"] = "世界一過酷な道を駆け抜けるラリーの魅力！勝田選手の表彰台とトヨタの連覇を応援しましょう！"
-
-        # --- 21. モータースポーツ：インディカー / 佐藤琢磨 ---
-        elif 'インディ' in t or 'Indy' in t or 'INDY' in t:
-            item["headline"] = "インディカー・シリーズ、超高速オーバルと市街地での激闘"
-            item["points"] = [
-                "アメリカ最高峰オープンホイールレース、インディカーの最新レース動向。",
-                "時速380kmを超える超高速バトルと、戦略が交錯する激しいオーバーテイク合戦が展開。",
-                "佐藤琢磨選手の挑戦や若手実力派ドライバーの台頭によりシリーズの人気が沸騰しています。"
-            ]
-            item["takeaway"] = "アメリカンモータースポーツの最高峰！ホイール・トゥ・ホイールの超高速バトルから目が離せません！"
-
-        # --- 22. モータースポーツ：ダカールラリー ---
-        elif 'ダカール' in t or 'Dakar' in t:
-            item["headline"] = "ダカールラリー、世界一過酷な砂漠と荒野の冒険レース最新動向"
-            item["points"] = [
-                "地球上で最も過酷と言われるダカールラリーの最新参戦体制とマシン開発情報。",
-                "日本チーム（トヨタ車体等）の市販車部門連覇への挑戦や総合優勝を争う怪物マシンの動向。",
-                "数千キロに及ぶ砂漠や岩場をナビゲーションしながら走破する究極の耐久レース。"
-            ]
-            item["takeaway"] = "人車一体で挑む大自然の冒険！過酷な砂漠に挑む挑戦者たちの不屈のスピリットに注目です！"
-
-        # --- 23. モータースポーツ：F1一般 ---
-        elif 'F1' in t or 'フォーミュラ1' in t or (category_id == 'motorsport' and any(w in t for w in ['GP', 'レース', 'サーキット'])):
-            item["headline"] = f"{clean[:28]}"
-            item["points"] = [
-                f"「{src}」より、モータースポーツ界の最新動向が報じられました。",
-                "マシンの開発アップデートやドライバーの走りが注目を集めています。",
-                "シーズン終盤に向けてチャンピオンシップや順位争いがさらに熱を帯びています。"
-            ]
-            item["takeaway"] = "世界最高峰のスピードとテクノロジーの戦い！次戦の展開にも大注目です！"
-
-        # --- 24. 世界スポーツ：大谷翔平（MLB） ---
-        elif '大谷' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "歴史的快挙へ前進"
-            item["headline"] = f"大谷翔平、圧巻の打棒でチームを牽引！{q_text}"
-            item["points"] = [
-                "MLBロサンゼルス・ドジャースの大谷翔平選手が、打撃・走塁で驚異的なパフォーマンスを披露。",
-                "重要な局面で値千金の一打を放ち、ポストシーズン進出および地区優勝へ向けチームを牽引。",
-                "本塁打王・打点王のタイトル争いや前人未到の記録更新へ向けて全米の期待が高まっています。"
-            ]
-            item["takeaway"] = "異次元の活躍を続ける大谷選手！歴史が動く瞬間をリアルタイムで応援しましょう！"
-
-        # --- 25. 世界スポーツ：山本由伸 / ドジャース ---
-        elif '山本由伸' in t or ('ドジャース' in t and ('投手' in t or '登板' in t or '勝' in t)):
-            item["headline"] = "山本由伸、キレ味鋭い投球で好投！ドジャース投手陣の柱へ"
-            item["points"] = [
-                "ドジャース先発の山本由伸投手が精密な制球と多彩な変化球で相手強力打線を封殺。",
-                "復帰登板でも安定感抜群のピッチングを見せ、首脳陣の期待に応える力投を披露。",
-                "勝負どころの終盤戦に向け、先発ローテーションの頼れる柱としてチームを支えています。"
-            ]
-            item["takeaway"] = "大舞台で真価を発揮する日本のエース！ポストシーズンでの快投に大きな期待がかかります！"
-
-        # --- 26. 世界スポーツ：MLB日本人選手（今永・ダルビッシュ・鈴木誠也等） ---
-        elif any(w in t for w in ['ダルビッシュ', '今永', '鈴木誠也', '千賀', '吉田正尚', '松井裕樹']) or ('MLB' in t and 'メジャー' in t):
-            item["headline"] = f"MLB日本人メジャーリーガー躍動！{clean[:22]}"
-            item["points"] = [
-                f"「{src}」より、日本人メジャーリーガーの最新試合結果と活躍ぶりが報じられました。",
-                "世界最高峰MLBの舞台で、投打の主力としてチームの勝利に直結するハイパフォーマンスを発揮。",
-                "地区優勝争いや個人タイトルの行方に向け、現地メディアからも高い評価が寄せられています。"
-            ]
-            item["takeaway"] = "海の向こうで躍動する日本勢！勝負の秋を彩る熱い戦いに注目しましょう！"
-
-        # --- 27. 世界スポーツ：三笘薫（プレミアリーグ・ブライトン） ---
-        elif '三笘' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "切れ味鋭いドリブルで決定機演出"
-            item["headline"] = f"三笘薫、プレミアリーグで輝き！{q_text}"
-            item["points"] = [
-                "イングランド・プレミアリーグのブライトンで、三笘薫選手が左サイドから圧倒的な突破力を披露。",
-                "世界最高峰のディフェンダーを翻弄する鋭いドリブルと決定的なラストパスで攻撃を牽引。",
-                "相手チームの徹底マークをかいくぐり、得点関与でチームの勝利に大きく貢献しています。"
-            ]
-            item["takeaway"] = "世界トップレベルのサイドを切り裂く三笘のドリブル！次戦のゴールと勝利に大注目です！"
-
-        # --- 28. 世界スポーツ：久保建英（レアル・ソシエダ・ラリーガ） ---
-        elif '久保' in t:
-            q_text = f"「{quotes[0]}」" if quotes else "攻撃の絶対的エースとして君臨"
-            item["headline"] = f"久保建英、ラ・リーガで躍動！{q_text}"
-            item["points"] = [
-                "スペイン・ラ・リーガのレアル・ソシエダにて、久保建英選手が圧巻のテクニックで攻撃の軸として活躍。",
-                "高精度のクロスやシュートで再三チャンスを創出し、現地メディアからも絶賛の嵐。",
-                "欧州カップ戦やリーグ上位進出へ向け、攻撃のキーマンとしてチームを牽引しています。"
-            ]
-            item["takeaway"] = "スペインのピッチで魅せる至高のプレー！久保建英の進化から目が離せません！"
-
-        # --- 29. 世界スポーツ：欧州サッカー / CL / プレミアリーグ ---
-        elif any(w in t for w in ['プレミアリーグ', 'チャンピオンズリーグ', 'レアル', 'バルセロナ', 'リバプール', 'マンチェスター', 'アーセナル', '遠藤航']):
-            item["headline"] = f"欧州最高峰サッカー激闘！{clean[:24]}"
-            item["points"] = [
-                f"「{src}」より、欧州サッカーの白熱した試合結果と最新戦況が報じられました。",
-                "世界トップクラブ同士が激突するハイレベルな攻防と戦術の応酬がファンを魅了。",
-                "日本人選手の奮闘やリーグ優勝争い、欧州カップ戦の勝ち残りをかけた熱戦が続いています。"
-            ]
-            item["takeaway"] = "世界最高峰フットボールの熱狂！極上のスーパープレーと勝負の行方に注目です！"
-
-        # --- 30. 世界スポーツ：八村塁 / 河村勇輝 / NBAバスケ ---
-        elif '八村' in t or 'NBA' in t or '河村' in t or 'レイカーズ' in t:
-            item["headline"] = f"NBA世界最高峰バスケ！{clean[:24]}"
-            item["points"] = [
-                "世界最高峰バスケットボールリーグNBAで、日本人選手たちの熱い挑戦が展開。",
-                "名門ロサンゼルス・レイカーズで主力を担う八村塁選手の攻守にわたる貢献や、新天地で挑む日本勢の動向。",
-                "フィジカルとスピードが極限でぶつかり合う世界最高峰のコートで存在感を発揮しています。"
-            ]
-            item["takeaway"] = "世界最高峰NBAのダイナミックなバスケ！日本勢のダンクやシュートに大興奮です！"
-
-        # --- 31. 世界スポーツ：ゴルフ / テニス / その他メジャー ---
-        elif any(w in t for w in ['マスターズ', '松山英樹', '全米', '全仏', 'ウィンブルドン', '錦織']):
-            item["headline"] = f"世界メジャートーナメント速報！{clean[:22]}"
-            item["points"] = [
-                f"「{src}」より、世界最高峰メジャートーナメントの熱戦が報じられました。",
-                "極限のプレッシャーの中で繰り広げられるトップアスリートたちのスーパーショットと名勝負。",
-                "歴史あるビッグタイトルをかけた緊迫の展開が世界中のスポーツファンを沸かせています。"
-            ]
-            item["takeaway"] = "世界の頂点を決める極限の真剣勝負！日本人選手の快挙達成に熱い声援を送りましょう！"
-
-        # --- 32. 汎用フォールバック（具体的情報から構成） ---
+        item["headline"] = clean[:30] if len(clean) > 30 else clean
+        pts = [f"「{src}」より、{clean}に関する最新動向が報じられました。"]
+        if quotes:
+            pts.append(f"記事内では「{quotes[0]}」といった注目の発言・コメントが伝えられています。")
+        elif snippet and snippet != clean:
+            pts.append(f"詳細抜粋：{snippet[:60]}...")
         else:
-            q_str = f"『{quotes[0]}』" if quotes else ""
-            item["headline"] = f"{clean[:28]}"
-            item["points"] = [
-                f"「{src}」より、{clean}に関する注目の最新ニュースが報じられました。",
-                f"選手・首脳陣の直近の動向や{q_str}といった重要な動きに注目が集まっています。" if q_str else "チームの現状や今後の試合に向けた戦術・選手起用の動向が注目されています。",
-                "シーズンを左右する局面において、今後のチーム状況にどのような影響を与えるかが焦点です。"
-            ]
-            item["takeaway"] = "チームの最新情報をしっかりチェックし、次の試合やチームの成長を応援しましょう！"
-
+            pts.append(f"{category_name}の今後のチーム状況や戦況に関わるトピックとして注目されています。")
+        pts.append("最新の動向や続報はリンク先の元記事全文から確認できます。")
+        
+        item["points"] = pts
+        item["takeaway"] = f"{category_name}の最新動向をチェックして次戦や今後の展開に注目しましょう！"
     return news_items
 
 def render_news_cards(news_items):
-    """ニュースカード群のHTMLを生成"""
+    """ニュースカード群のHTMLを生成（XSSエスケープ・NEWバッジ・重複防止対応）"""
     if not news_items:
         return """
         <div class="empty-state">
@@ -828,43 +561,120 @@ def render_news_cards(news_items):
         </div>
         """
     
-    html = []
+    cards_html = []
     for item in news_items:
-        headline = item.get("headline", item["title"])
-        points = item.get("points", [])
-        takeaway = item.get("takeaway", "")
+        title_esc = html.escape(str(item.get("title", "")), quote=True)
+        source_esc = html.escape(str(item.get("source", "")), quote=True)
+        pub_date_esc = html.escape(str(item.get("pub_date", "")), quote=True)
+        headline_esc = html.escape(str(item.get("headline", item.get("title", ""))), quote=True)
+        link_esc = sanitize_url(item.get("link", "#"))
+        is_new = bool(item.get("is_new", False))
         
+        points = item.get("points", [])
         points_html = "".join([
-            f'<div class="summary-point"><span class="dot">•</span><span>{p}</span></div>'
+            f'<div class="summary-point"><span class="dot">•</span><span>{html.escape(str(p), quote=True)}</span></div>'
             for p in points
         ])
         
-        takeaway_html = f'<div class="summary-takeaway">📣 <strong>注目:</strong> {takeaway}</div>' if takeaway else ""
+        takeaway_clean = clean_takeaway_text(item.get("takeaway", ""))
+        takeaway_esc = html.escape(takeaway_clean, quote=True)
+        takeaway_html = f'<div class="summary-takeaway">📣 <strong>注目:</strong> {takeaway_esc}</div>' if takeaway_esc else ""
+        
+        new_badge_html = '<span class="badge-new">NEW</span>' if is_new else ""
+        card_new_class = " is-new" if is_new else ""
         
         card = f"""
-        <article class="news-card">
+        <article class="news-card{card_new_class}" data-url="{link_esc}">
             <div class="card-header">
-                <span class="card-source">{item['source']}</span>
-                <span class="card-date">{item['pub_date']}</span>
+                <div class="card-meta-left">
+                    {new_badge_html}
+                    <span class="card-source">{source_esc}</span>
+                </div>
+                <span class="card-date">{pub_date_esc}</span>
             </div>
-            <h3 class="card-title">{item['title']}</h3>
+            <h3 class="card-title">{title_esc}</h3>
             <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> {headline}</div>
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> {headline_esc}</div>
                 <div class="summary-points">
                     {points_html}
                 </div>
                 {takeaway_html}
             </div>
             <div class="card-footer">
-                <a href="{item['link']}" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="{link_esc}" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
             </div>
         </article>
         """
-        html.append(card)
-    return "\n".join(html)
+        cards_html.append(card)
+    return "\n".join(cards_html)
+
+def save_daily_archive(script_dir, now_jst, updated_str, all_news, ai_report_objs):
+    """本日のデータを docs/data/archive/YYYY-MM-DD.json に保存し、docs/data/index.json を更新"""
+    archive_dir = os.path.join(script_dir, "docs", "data", "archive")
+    index_path = os.path.join(script_dir, "docs", "data", "index.json")
+    os.makedirs(archive_dir, exist_ok=True)
+    
+    date_key = now_jst.strftime("%Y-%m-%d")
+    categories_payload = {}
+    for cat in CATEGORIES:
+        cid = cat["id"]
+        clean_news = []
+        for n in all_news.get(cid, []):
+            clean_news.append({
+                "title": n.get("title", ""),
+                "source": n.get("source", ""),
+                "pub_date": n.get("pub_date", ""),
+                "link": n.get("link", "#"),
+                "headline": n.get("headline", ""),
+                "points": n.get("points", []),
+                "takeaway": clean_takeaway_text(n.get("takeaway", "")),
+                "is_new": bool(n.get("is_new", False))
+            })
+        categories_payload[cid] = {
+            "report": ai_report_objs.get(cid),
+            "news": clean_news
+        }
+        
+    daily_payload = {
+        "date": date_key,
+        "updated_at": updated_str,
+        "categories": categories_payload
+    }
+    
+    daily_file = os.path.join(archive_dir, f"{date_key}.json")
+    with open(daily_file, "w", encoding="utf-8") as f:
+        json.dump(daily_payload, f, ensure_ascii=False, indent=2)
+        
+    # 全アーカイブJSONを走査して index.json を再構築
+    all_files = sorted([f[:-5] for f in os.listdir(archive_dir) if re.match(r"^\d{4}-\d{2}-\d{2}\.json$", f)], reverse=True)
+    index_entries = []
+    for d in all_files:
+        fpath = os.path.join(archive_dir, f"{d}.json")
+        try:
+            with open(fpath, "r", encoding="utf-8") as f:
+                rec = json.load(f)
+            dragons_title = ""
+            if "dragons" in rec.get("categories", {}) and rec["categories"]["dragons"].get("report"):
+                dragons_title = rec["categories"]["dragons"]["report"].get("title", "")
+            index_entries.append({
+                "date": d,
+                "updated_at": rec.get("updated_at", ""),
+                "label": f"{int(d[5:7])}/{int(d[8:10])}",
+                "summary_title": dragons_title
+            })
+        except Exception:
+            continue
+            
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "latest_date": all_files[0] if all_files else date_key,
+            "total_days": len(index_entries),
+            "dates": index_entries
+        }, f, ensure_ascii=False, indent=2)
+    print(f"=== アーカイブ保存完了: {daily_file} (全 {len(index_entries)} 日分) ===")
 
 # ==============================================================================
 # メイン処理
@@ -881,7 +691,9 @@ def main():
         template = f.read()
         
     all_news = {}
-    ai_reports = {}
+    ai_reports_html = {}
+    ai_report_objs = {}
+    total_fetched = 0
     
     for cat in CATEGORIES:
         cid = cat["id"]
@@ -889,11 +701,13 @@ def main():
         print(f"[{cname}] ニュース取得中...")
         items = fetch_rss_news(cid, cat["query"], max_items=6)
         print(f"  -> {len(items)} 件取得。")
+        total_fetched += len(items)
         
         # 1. 過去1週間のAI調査レポート生成
         print(f"  -> 過去1週間のAI調査レポート生成中...")
-        report_html = generate_weekly_ai_report(cid, cname, items, api_key)
-        ai_reports[cid] = report_html
+        report_html, report_obj = generate_weekly_ai_report(cid, cname, items, api_key, script_dir)
+        ai_reports_html[cid] = report_html
+        ai_report_objs[cid] = report_obj
         time.sleep(1)
         
         # 2. 各記事の3行要約生成
@@ -902,8 +716,16 @@ def main():
         all_news[cid] = summarized_items
         time.sleep(1)
         
+    # 全カテゴリ合計0件の場合はネットワーク障害とみなし、既存の index.html を白紙上書きしないよう異常終了
+    if total_fetched == 0:
+        print("エラー: 全カテゴリのニュース取得件数が0件のため更新を中断します。", file=sys.stderr)
+        sys.exit(1)
+        
     now_jst = datetime.now(JST)
     updated_str = now_jst.strftime("%m月%d日 %H:%M")
+    
+    # 日別アーカイブJSONと index.json を保存
+    save_daily_archive(script_dir, now_jst, updated_str, all_news, ai_report_objs)
     
     rendered = template
     rendered = rendered.replace("{{UPDATED_TIME}}", updated_str)
@@ -914,10 +736,10 @@ def main():
     rendered = rendered.replace("{{MOTORSPORT_COUNT}}", str(len(all_news.get("motorsport", []))))
     rendered = rendered.replace("{{WORLD_COUNT}}", str(len(all_news.get("world", []))))
     
-    rendered = rendered.replace("{{DRAGONS_AI_REPORT}}", ai_reports.get("dragons", ""))
-    rendered = rendered.replace("{{JETS_AI_REPORT}}", ai_reports.get("jets", ""))
-    rendered = rendered.replace("{{MOTORSPORT_AI_REPORT}}", ai_reports.get("motorsport", ""))
-    rendered = rendered.replace("{{WORLD_AI_REPORT}}", ai_reports.get("world", ""))
+    rendered = rendered.replace("{{DRAGONS_AI_REPORT}}", ai_reports_html.get("dragons", ""))
+    rendered = rendered.replace("{{JETS_AI_REPORT}}", ai_reports_html.get("jets", ""))
+    rendered = rendered.replace("{{MOTORSPORT_AI_REPORT}}", ai_reports_html.get("motorsport", ""))
+    rendered = rendered.replace("{{WORLD_AI_REPORT}}", ai_reports_html.get("world", ""))
     
     rendered = rendered.replace("{{DRAGONS_NEWS_CARDS}}", render_news_cards(all_news.get("dragons", [])))
     rendered = rendered.replace("{{JETS_NEWS_CARDS}}", render_news_cards(all_news.get("jets", [])))

@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>まいすぽ | ドラゴンズ・ジェッツ・モータースポーツ ニュース要約＆1週間AIレポート</title>
-    <meta name="description" content="中日ドラゴンズ、千葉ジェッツ、モータースポーツ（F1・MotoGP・WRC・WEC・Indy等）の最新ニュースを3行要約。過去1週間の動向をAIが徹底調査・分析して毎朝お届けします。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>まいすぽ | ドラゴンズ・ジェッツ・モータースポーツ・世界スポーツ ニュース要約＆1週間AIレポート</title>
+    <meta name="description" content="中日ドラゴンズ、千葉ジェッツ、モータースポーツ（F1・MotoGP・WRC・WEC・Indy等）、世界のメジャースポーツの最新ニュースを3行要約。過去1週間の動向をAIが徹底調査・分析して毎朝お届けします。">
     
     <!-- PWA / モバイル対応 -->
     <meta name="theme-color" content="#0A0F1D">
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=3.2">
+    <link rel="stylesheet" href="style.css?v=4.0">
 </head>
 <body>
     <!-- ヘッダー -->
@@ -29,51 +29,67 @@
                 <div class="logo-icon">🏆</div>
                 <div>
                     <h1 class="logo-title">まいすぽ</h1>
-                    <p class="logo-subtitle">ドラ・ジェッツ・モータースポーツ・世界スポーツ</p>
+                    <p class="logo-subtitle">ドラ・ジェッツ・モーター・世界</p>
                 </div>
             </div>
-            <div class="update-badge" id="updateBadge">
-                <span class="pulse-dot"></span>
-                <span>10月18日 07:55 更新</span>
+            <!-- 過去履歴（アーカイブ）日付切り替えナビ -->
+            <div class="archive-nav" id="archiveNav">
+                <button type="button" class="date-nav-btn" id="prevDateBtn" aria-label="前日のニュースを表示" title="前日のニュース">◀</button>
+                <div class="update-badge" id="updateBadge">
+                    <span class="pulse-dot" id="liveDot"></span>
+                    <select id="dateSelect" class="date-select" aria-label="表示する日付を選択">
+                        <option value="latest">10月18日 22:03 更新</option>
+                    </select>
+                </div>
+                <button type="button" class="date-nav-btn" id="nextDateBtn" aria-label="翌日のニュースを表示" title="翌日のニュース" disabled>▶</button>
             </div>
         </div>
     </header>
 
+    <!-- 過去アーカイブ閲覧中バナー（過去日選択時のみ表示） -->
+    <div class="archive-banner" id="archiveBanner" hidden>
+        <span id="archiveBannerText">📅 過去のアーカイブを表示中</span>
+        <button type="button" class="btn-return-latest" id="returnLatestBtn">最新日に戻る ↩</button>
+    </div>
+
     <!-- メインコンテンツ -->
     <main class="main-container">
-        <!-- カテゴリー切り替えタブ（名前省略・4アイコン横一列） -->
+        <!-- カテゴリー切り替えタブ（4アイコン＋短縮ラベル横一列） -->
         <nav class="category-tabs" role="tablist" aria-label="スポーツカテゴリー切り替え">
             <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true" aria-label="中日ドラゴンズ" title="中日ドラゴンズ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/dragons_emblem.svg" class="tab-emblem" alt="中日ドラゴンズ">
-                    <span class="tab-count">6</span>
+                    <span class="tab-count" id="count-dragons">6</span>
                 </span>
+                <span class="tab-label">ドラゴンズ</span>
             </button>
             <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false" aria-label="千葉ジェッツ" title="千葉ジェッツふなばし">
                 <span class="tab-icon-wrapper">
                     <img src="assets/jets_emblem.svg" class="tab-emblem" alt="千葉ジェッツ">
-                    <span class="tab-count">6</span>
+                    <span class="tab-count" id="count-jets">6</span>
                 </span>
+                <span class="tab-label">ジェッツ</span>
             </button>
             <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false" aria-label="モータースポーツ" title="モータースポーツ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/motorsport_emblem.svg" class="tab-emblem" alt="モータースポーツ">
-                    <span class="tab-count">6</span>
+                    <span class="tab-count" id="count-motorsport">6</span>
                 </span>
+                <span class="tab-label">モーター</span>
             </button>
             <button class="tab-btn" data-tab="world" role="tab" aria-selected="false" aria-label="世界のメジャースポーツ" title="世界のメジャースポーツ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/world_emblem.svg" class="tab-emblem" alt="世界のメジャースポーツ">
-                    <span class="tab-count">6</span>
+                    <span class="tab-count" id="count-world">6</span>
                 </span>
+                <span class="tab-label">世界スポーツ</span>
             </button>
         </nav>
-        <div class="swipe-hint"><span>⇄</span> アイコンタップ または 左右スワイプで切り替え</div>
+        <div class="swipe-hint"><span>⇄</span> タブ選択・左右スワイプで切替 ｜ 上部の日付から過去履歴も閲覧可能</div>
 
         <!-- 中日ドラゴンズセクション -->
         <section id="dragons-tab" class="tab-content active" role="tabpanel">
             <div class="section-intro dragons">
-                <div class="intro-icon"><img src="assets/dragons_emblem.svg" width="38" height="38" alt="中日ドラゴンズ"></div>
                 <div>
                     <h2>中日ドラゴンズ 最新情報</h2>
                     <p>試合結果速報、選手活躍、采配動向、チーム再建の要約まとめ</p>
@@ -81,49 +97,58 @@
             </div>
 
             <!-- 過去1週間のAI調査レポート -->
-            
-    <div class="report-card dragons">
-        <div class="report-header">
-            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">10/18 07:54 AI分析</span>
+            <div id="report-container-dragons">
+                
+    <details class="report-card dragons" open>
+        <summary class="report-summary-toggle">
+            <div class="report-header">
+                <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                <span class="report-header-right">
+                    <span class="report-date">10/18 22:00 AI分析</span>
+                    <span class="report-chevron" aria-hidden="true">▾</span>
+                </span>
+            </div>
+            <h3 class="report-title">工藤公康新監督が就任！「全員キーマン」掲げ再建へ</h3>
+        </summary>
+        <div class="report-body">
+            <div class="report-section">
+                <div class="report-section-title">⚾ <strong>直近1週間の戦況・動向総括</strong></div>
+                <div class="report-section-text">工藤公康新監督が就任会見を行い、「全員がキーマン」「24時間365日選手を考える」と宣言。球団社長も早期の優勝争いに期待を寄せた。ドラフト戦略の修正やマネジメント方針に注目が集まる中、フェニックス・リーグでは森駿太の外野テストが示唆されるなど、来季へ向けたチーム変革が本格化している。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                <div class="report-section-text">工藤新監督の就任に髙橋宏斗は「吸収したい」、根尾昂はアピールを誓った。大砲候補の森駿太は飯山2軍監督から外野挑戦が示唆され、打撃陣を支えたコーチの退団も報じられた。新指揮官が掲げる「監督は中間管理職」の理念のもと、選手個々の競争と成長が求められる。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                <div class="report-section-text">まもなく迎えるドラフト会議では、即戦力重視の社会人指名や戦略の修正がどう影響するかが焦点となる。さらにフェニックス・リーグでの森の外野起用をはじめとする戦力見極めや、コーチとの合議制によるチーム改革の進展が今後の大きな注目点だ。</div>
+            </div>
         </div>
-        <h3 class="report-title">森駿太の外野挑戦と清水達也の好調キープ、秋季練習で来季へ視界良好</h3>
-        
-        <div class="report-section">
-            <div class="report-section-title">⚾ <strong>直近1週間の戦況・動向総括</strong></div>
-            <div class="report-section-text">フェニックス・リーグや秋季練習を通じ、来季への底上げが着実に進む1週間となった。若手の新たな適性テストや主力の順調な調整が光り、新体制でのチーム改革と戦力底上げに向けた確かな手応えを掴む期間となった。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
-            <div class="report-section-text">大砲候補の森駿太がフェニックス・リーグで外野守備テストをクリアし、打球勘の良さとミスなしの堅実な守備を披露。また清水達也は秋季練習に合流し、宮崎での好感触を継続して順調な調整ぶりを示している。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
-            <div class="report-section-text">新監督を迎えての本格的なチーム作りと秋季練習の成果に注目が集まる。来季のレギュラー争いや起用法を見据え、若手野手のコンバート実験や主力投手陣の状態維持がどのように結実していくか見逃せない。</div>
-        </div>
-    </div>
+    </details>
     
+            </div>
 
             <!-- 最新ニュース要約カード群 -->
-            <div class="news-grid">
+            <div class="news-grid" id="news-grid-dragons">
                 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nUzlQaUd4OWdvbWJnTVN5QlhFbnluOWl2YnNKVkZWMTZYMXFxSnlQWVo0cjhwb1h5b0VaVHFjRjNoSk1NU3dfTzZIVGJDbEZtdTVmeA?oc=5">
             <div class="card-header">
-                <span class="card-source">中日新聞Web</span>
-                <span class="card-date">10/17 02:00</span>
-            </div>
-            <h3 class="card-title">中日・森駿太、『外野テスト』へ 飯山2軍監督「まずはできるのか」フェニックスLでの“お試し”起用示唆！ 今季1軍でプロ初本塁打の大砲候補：中日スポーツ・東京中日スポーツ</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 森駿太がフェニックスLで外野守備テストへ</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>飯山2軍監督の示唆により、今季1軍初本塁打を放った大砲候補の森駿太がフェニックス・リーグで外野守備に挑戦することが決まった。</span></div><div class="summary-point"><span class="dot">•</span><span>打撃のポテンシャルを活かせる出場機会を増やすため、高校時代以来となる外野コンバートの可能性を探る重要なテストとなる。</span></div><div class="summary-point"><span class="dot">•</span><span>長打力不足に悩むチームにおいて、新たな武器を手に入れた森の起用法は来季の野手構想を大きく左右する要因となる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">中日新聞Web</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：若き大砲候補が外野の守備をどこまでこなせるか。打撃との相乗効果で来季の1軍定着を掴めるか要注目です。</div>
+                <span class="card-date">10/18 18:10</span>
+            </div>
+            <h3 class="card-title">ドラゴンズ新監督「優勝請負人」、もうひとつの顔 工藤公康さん、土と汗にまみれる日々</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 工藤新監督の知られざる素顔に迫る</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>優勝請負人と称される工藤新監督の、グラウンド外でのもうひとつの顔が報じられました。</span></div><div class="summary-point"><span class="dot">•</span><span>土と汗にまみれる日々を通じて培われた人間性や姿勢に光が当てられています。</span></div><div class="summary-point"><span class="dot">•</span><span>多彩な経験と深い人間力が、今後のチームマネジメントや選手育成に活かされそうです。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 勝負師の顔とは異なる素顔や生き方を知ることで、新指揮官が目指す人間味豊かなチーム像が見えてきます。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wSnAyejlleXZUNHlFeUkwU2w0TmZLc1FjX0pBcTJtWEdkY2IwZFhxZTJOUzBKYVdRTnVGUGt4VjVlN0xfNWx4OWRFWDgxMHpiOVdEeQ?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nUzlQaUd4OWdvbWJnTVN5QlhFbnluOWl2YnNKVkZWMTZYMXFxSnlQWVo0cjhwb1h5b0VaVHFjRjNoSk1NU3dfTzZIVGJDbEZtdTVmeA?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -131,21 +156,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE9fVkszRWdWelBWUDRqSlYxN2NfU3E2RHNrcktON2pWR0JXSkZSNmdUZVRwaFh1YTFMdTJsS2hOaktyQ1Y1ZndwcDNvWWhZdVd6cWdGbmZ3aDBTVmVPY0lWNmluTUlLdzk5TTh5dDNzS2FZVmhCcG05YXZFNm9zVk0?oc=5">
             <div class="card-header">
-                <span class="card-source">高校野球ドットコム</span>
-                <span class="card-date">10/15 13:03</span>
-            </div>
-            <h3 class="card-title">【12球団ドラフト指名予想】低迷する中日、あるか「名手の一本釣り」!? 工藤新監督の優先順位に注目！ ｜記事一覧</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 低迷打破へ中日のドラフト指名戦略に注目集まる</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>低迷からの脱却を図る中日ドラゴンズのドラフト指名において、即戦力野手や「名手の一本釣り」の可能性が取り沙汰されている。</span></div><div class="summary-point"><span class="dot">•</span><span>チームの抜本的な立て直しを図る新監督の就任に伴い、選手選考の優先順位や補強ポイントがどのように変わるかが最大の焦点。</span></div><div class="summary-point"><span class="dot">•</span><span>将来のレギュラー候補確保に向けたフロントの戦略が、今後のチーム再建スピードを大きく左右する重要な分岐点となる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：新体制で迎える運命のドラフト。球団の弱点を補う即戦力や次世代のスター候補を誰に定めるのか目が離せません。</div>
+                <span class="card-date">10/18 11:51</span>
+            </div>
+            <h3 class="card-title">ドラゴンズが“獲得”する…？中日のドラフト指名候補（2）即戦力重視の“社会人指名も！？（ベースボールチャンネル）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 中日のドラフト指名候補に社会人急浮上</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>ドラフト会議に向けた指名候補として、即戦力を重視した社会人選手の獲得が浮上しています。</span></div><div class="summary-point"><span class="dot">•</span><span>早期のチーム浮上を目指す中日において、即戦力として計算できる戦力の補強が急務です。</span></div><div class="summary-point"><span class="dot">•</span><span>指名方針の選択が、来季の陣容や今後のチーム編成の方向性を大きく左右しそうです。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 即戦力重視の社会人指名となるのか、チームの弱点を補うドラフト戦略の行方に注目が集まります。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jWUpuVDQ0LVFNLVkwcFJiRlRXdVFuOGtBdi03MDRUbXdaeWFqTVFhb3NhMEdJSVNsN0xHWDJRdXNlVlhfektiOEJYNV9LVURDQ1E?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9fVkszRWdWelBWUDRqSlYxN2NfU3E2RHNrcktON2pWR0JXSkZSNmdUZVRwaFh1YTFMdTJsS2hOaktyQ1Y1ZndwcDNvWWhZdVd6cWdGbmZ3aDBTVmVPY0lWNmluTUlLdzk5TTh5dDNzS2FZVmhCcG05YXZFNm9zVk0?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -153,21 +181,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaFlGV3M2a2dRNmxON0Y5UjJYemRQRHZZUkZXWTExQ1ZKSmttVFJBWWtYVlVPNWl2THVrUVFuS0szWG41dGpYN0ZXUDhZbHd0TEg2aEZNLTRibng5emw3N0xSS0llTkJQLU9uRHc5bWE5MGhDWk1TbXF3ZmVqQUE?oc=5">
             <div class="card-header">
-                <span class="card-source">中日新聞Web</span>
-                <span class="card-date">10/17 23:00</span>
-            </div>
-            <h3 class="card-title">中日・森駿太、外野守備テスト第1弾クリア！5度の守備機会ミスなし＆同点阻止の猛チャージ！飯山2軍監督「打球勘よかった」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 森駿太が外野守備テスト第1弾をノーミスでクリア</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>フェニックスLの試合で外野手として初出場した森駿太は、5度の守備機会を無難にこなし同点を阻止する猛チャージも見せた。</span></div><div class="summary-point"><span class="dot">•</span><span>飯山2軍監督から「打球勘がよかった」と高評価を得ており、不慣れなポジションへの適性の高さを示した。</span></div><div class="summary-point"><span class="dot">•</span><span>外野守備の選択肢が広がったことで、打撃を活かすための1軍昇格へのアピール度が一気に高まる結果となった。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：本職ではない外野で初見せ場を作った森。打撃だけでなく守備でも首脳陣の信頼を掴み、一軍への道をこじ開けられるか。</div>
+                <span class="card-date">10/18 09:01</span>
+            </div>
+            <h3 class="card-title">ドラゴンズ新監督「工藤公康」が語っていた「監督は中間管理職」 組織図を書いてわかった自分の立場 コーチと合議制にしていきなり出た成果とは（デイリー新潮）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 工藤新監督が示す合議制マネジメント論</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>工藤新監督は監督を中間管理職と位置づけ、組織図から自身の立場を見極めていました。</span></div><div class="summary-point"><span class="dot">•</span><span>コーチ陣との合議制を導入することで、過去にもチーム改革ですぐに成果を出しています。</span></div><div class="summary-point"><span class="dot">•</span><span>トップダウンではなく対話を重んじる指導法が、中日再建の大きな鍵となりそうです。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 指揮官が掲げる合議制がドラゴンズのコーチ陣や選手にどう浸透し、成果へ結びつくのか期待されます。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zVUs0SExZSWZ2M1c4bTZ3NG9xbWx1S1ZabHZoQUw2U0twSEhnQXdNenBqa0pWaWNxVjJRQ1IwZ0xyQnl5djVwdFF2dWo0YURDNjVhbg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaFlGV3M2a2dRNmxON0Y5UjJYemRQRHZZUkZXWTExQ1ZKSmttVFJBWWtYVlVPNWl2THVrUVFuS0szWG41dGpYN0ZXUDhZbHd0TEg2aEZNLTRibng5emw3N0xSS0llTkJQLU9uRHc5bWE5MGhDWk1TbXF3ZmVqQUE?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -175,21 +206,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwTTVncDg5d19sUjVENy1FbVlzX3IySXFfZjhDZTFIVnZWTV9FZmtSZ05WQW5hV0ZGSXBkamVaNmdvMC13VEFFc0EyRklPTlptQ2UxQ2FFOXBNelk?oc=5">
             <div class="card-header">
-                <span class="card-source">中日新聞Web</span>
-                <span class="card-date">10/17 22:15</span>
-            </div>
-            <h3 class="card-title">中日・清水達也、ナゴヤ球場での秋季練習合流！フェニックスLで計2試合登板で16イニング2失点「宮崎で得た感覚を継続して練習」：中日スポーツ・東京中日スポーツ</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 清水達也が秋季練習に合流し順調な調整をアピール</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>フェニックスLで計2試合に登板して16イニングで2失点と安定した成績を残した清水達也が、ナゴヤ球場の秋季練習に合流した。</span></div><div class="summary-point"><span class="dot">•</span><span>宮崎での実戦を通じて掴んだ確かな手応えを継続し、来季へ向けたブルペンでの自主的な調整に早くも着手している。</span></div><div class="summary-point"><span class="dot">•</span><span>盤石の救援陣をさらに強固にするため、中心投手である清水の順調な仕上がりは来季の投手運用において非常に心強い材料となる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">full-count.jp</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：秋季練習から圧倒的な仕上がりを見せる清水。来季もブルペンの要として君臨し、チームを勝利へ導く投球に期待です。</div>
+                <span class="card-date">10/18 04:55</span>
+            </div>
+            <h3 class="card-title">約30万円の高級スーツ「新調しました」 中日カラーの逸品…新監督の気品「お似合いです」 - full</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 工藤新監督が中日色スーツ新調に反響</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>工藤公康新監督が中日カラーを取り入れた約30万円の高級スーツを新調したと明かしました。</span></div><div class="summary-point"><span class="dot">•</span><span>新指揮官の気品あふれる着こなしに対し、周囲やファンからは似合っていると好評です。</span></div><div class="summary-point"><span class="dot">•</span><span>チームカラーを身にまとった装いからも、ドラゴンズ改革に向けた強い気合いが伝わります。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 中日ブルーを意識した勝負服に身を包んだ新監督の姿は、新時代への期待感を大いに高めてくれます。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WbDFPeS1odmx6SDVhSzhjbW83WGlfR0ZzczVweklRcEpSVHVRZDN5MGdfVC1lMGhzaWJXWERabEctVl9Xdmc4dFlUM3l5c1pmUWlQSg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwTTVncDg5d19sUjVENy1FbVlzX3IySXFfZjhDZTFIVnZWTV9FZmtSZ05WQW5hV0ZGSXBkamVaNmdvMC13VEFFc0EyRklPTlptQ2UxQ2FFOXBNelk?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -197,21 +231,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUpPREE2UXVSRmxIZjJ5X0JfSm5FY3FmU2lrQmxQODZMcFFDVVZpcXczNE5NVWlKa3U3LXAwV194MndsbHRjS0NBc3lIcEhRTVpkSlBJYkhhX1lJTTQzeWhxblBIR3hDU3JrYlUxNnltY0g0aWxHUlo1bzhqZ2c?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/18 05:01</span>
-            </div>
-            <h3 class="card-title">約30万円の高級スーツ「新調しました」 中日カラーの逸品…新監督の気品「お似合いです」（Full-Count）</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 新監督が約30万円の中日カラー高級スーツを披露</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>新監督が約30万円の中日ドラゴンズカラーを取り入れた特製の高級スーツを新調し、その気品ある佇まいが大きな話題となった。</span></div><div class="summary-point"><span class="dot">•</span><span>チームカラーを身にまとうことで新指揮官としての強い決意と、球団を背負う覚悟を周囲のファンや関係者に示した。</span></div><div class="summary-point"><span class="dot">•</span><span>監督の装いや振る舞いはチーム全体やファンの士気高揚に直結するため、新体制への期待感がより一層高まる影響を与えている。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：勝負の秋を迎えた指揮官の勝負服。スタイリッシュな装いとともに、来季のチームをどう勝利へ導く手腕を見せるか必見です。</div>
+                <span class="card-date">10/17 21:44</span>
+            </div>
+            <h3 class="card-title">横浜・織田翔希の米球界挑戦で“工藤ドラゴンズ”のドラフト戦略も修正か「中西投手とバッテリー見たい」（スポニチアネックス）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 織田の米挑戦で中日ドラフト戦略修正か</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>横浜・織田翔希の米球界挑戦を受け、工藤ドラゴンズのドラフト戦略の再検討が浮上しました。</span></div><div class="summary-point"><span class="dot">•</span><span>有力候補の進路選択により各球団の思惑が揺れ、中日も指名優先度の再整理を迫られます。</span></div><div class="summary-point"><span class="dot">•</span><span>中西投手ら注目選手との組み合わせなど、ファンの間でも様々な期待や議論が広がっています。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 有力株の米挑戦で勢力図が変わる中、工藤新体制がドラフトでどのような決断を下すか要注目です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE4zcGJrNmJDTTA0UVYyNTZMbHpEYWllalNaRkcwWTNlajNHNUk3WnNQSzF1dDIxMjRWYVlRYjZHN2RrNnJiMHBoSG14azcxMGFmRWR2Tk5xcGRlU1FJNEpYOEltUUl1djdXZFU3WDZOUExxcXZTTDVQWnVWbU1TbHM?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbUpPREE2UXVSRmxIZjJ5X0JfSm5FY3FmU2lrQmxQODZMcFFDVVZpcXczNE5NVWlKa3U3LXAwV194MndsbHRjS0NBc3lIcEhRTVpkSlBJYkhhX1lJTTQzeWhxblBIR3hDU3JrYlUxNnltY0g0aWxHUlo1bzhqZ2c?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -219,21 +256,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE1jSVVtNUhKZWNzTnBVZzAxbndFUUhzMzU0djV1cFEzUC1kNUxUVnplNXcweTBEZndCRTBCWGFaSWJ5aC1rZ1lhWURMYkVLNldBbzhFeDk4WjlVU1YyNVliM0VSb3NKRk5STXNDMG1uS0FqcW84OWVVQm95VVZBdEE?oc=5">
             <div class="card-header">
-                <span class="card-source">中日新聞Web</span>
-                <span class="card-date">10/17 19:43</span>
-            </div>
-            <h3 class="card-title">DeNA・相川監督、9回”あと1球”から逆転の日本シリーズ進出に「頼もしい」ナインの底力に全幅の信頼</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> DeNAの劇的勝利と相川監督のナインへの全幅の信頼</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>日本シリーズ進出をかけた試合で、DeNAが9回あと1球からの逆転劇を演じ、相川監督がナインの底力に全幅の信頼を示した。</span></div><div class="summary-point"><span class="dot">•</span><span>土壇場での驚異的な粘りとチーム全体の総合力が勝利を呼び込み、短期決戦を勝ち抜くための理想的な雰囲気が醸成されている。</span></div><div class="summary-point"><span class="dot">•</span><span>他球団の躍進や勝負強さは、セ・リーグ全体の勢力図や、来季再び上位を狙う中日ドラゴンズにとって大きな研究対象となる。</span></div>
+                <div class="card-meta-left">
+                    
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：土壇場で見せたDeNAの驚異的な底力。セ・リーグのライバルが見せる勝負強さから、中日が学ぶべき戦う姿勢に注目です。</div>
+                <span class="card-date">10/16 06:01</span>
+            </div>
+            <h3 class="card-title">【会見全文】ドラゴンズ改革へ 工藤公康新監督が就任会見「全員がキーマン」「24時間365日選手を考える」</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 工藤新監督が就任会見でチーム改革宣言</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>工藤公康新監督が就任会見を行い、ドラゴンズ改革に向けた力強い決意を表明しました。</span></div><div class="summary-point"><span class="dot">•</span><span>全員がキーマンとし、24時間365日選手を考え抜く指導姿勢を熱く語っています。</span></div><div class="summary-point"><span class="dot">•</span><span>選手全員に目を配る熱意あふれるアプローチが、チーム全体の底上げにつながりそうです。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 選手全員を主役と位置づけ寄り添う工藤新監督のもと、チームがどう生まれ変わるか楽しみです。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XVHpUM25WMEtqRWk1SmlkVDBjU0ROU1ZUVmpqUlVETjItenVFeW1ITFdQQ1VuRldtRmdaam92MEczUS0wNE82ZGFERmFkX0hDdk5yWg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1jSVVtNUhKZWNzTnBVZzAxbndFUUhzMzU0djV1cFEzUC1kNUxUVnplNXcweTBEZndCRTBCWGFaSWJ5aC1rZ1lhWURMYkVLNldBbzhFeDk4WjlVU1YyNVliM0VSb3NKRk5STXNDMG1uS0FqcW84OWVVQm95VVZBdEE?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -246,57 +286,65 @@
         <!-- 千葉ジェッツセクション -->
         <section id="jets-tab" class="tab-content" role="tabpanel">
             <div class="section-intro jets">
-                <div class="intro-icon"><img src="assets/jets_emblem.svg" width="38" height="38" alt="千葉ジェッツ"></div>
                 <div>
                     <h2>千葉ジェッツふなばし 最新情報</h2>
-                    <p>Bリーグプレミア開幕、試合速報、富樫・渡邊ら注目選手動向</p>
+                    <p>Bリーグプレミア、試合速報、富樫・渡邊ら注目選手動向</p>
                 </div>
             </div>
 
             <!-- 過去1週間のAI調査レポート -->
-            
-    <div class="report-card jets">
-        <div class="report-header">
-            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">10/18 07:55 AI分析</span>
+            <div id="report-container-jets">
+                
+    <details class="report-card jets" open>
+        <summary class="report-summary-toggle">
+            <div class="report-header">
+                <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                <span class="report-header-right">
+                    <span class="report-date">10/18 22:01 AI分析</span>
+                    <span class="report-chevron" aria-hidden="true">▾</span>
+                </span>
+            </div>
+            <h3 class="report-title">千葉Jが今季ホーム初勝利！島根撃破と若手の躍動</h3>
+        </summary>
+        <div class="report-body">
+            <div class="report-section">
+                <div class="report-section-title">🏀 <strong>直近1週間の戦況・動向総括</strong></div>
+                <div class="report-section-text">直近1週間、千葉ジェッツは島根戦で今季ホーム初勝利を掴み取りました。渡邊雄太や瀬川琉久の活躍で価値ある1勝を挙げ、クラブ史上最多の年間総入場者数30万人超えを達成するなど、コート内外で大きな盛り上がりを見せています。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                <div class="report-section-text">島根戦でキャリアハイタイの21得点をマークした瀬川琉久と、22得点を挙げた渡邊雄太が躍動しました。また、金近廉も「ファーストオプションではなくてもアタックできる」と自信を深め、チームの勝利に貢献しています。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                <div class="report-section-text">10月19日には東京サンロッカーズ戦を控えており、連勝を伸ばせるかどうかが注目されます。苦しい時期を乗り越えホーム初勝利を挙げたチームが、ここからどのように連勝街道に乗っていくのか、ファン必見の戦いが続きます。</div>
+            </div>
         </div>
-        <h3 class="report-title">千葉J激動の1週間：富樫の覚悟とチーム再建への道筋</h3>
-        
-        <div class="report-section">
-            <div class="report-section-title">🏀 <strong>直近1週間の戦況・動向総括</strong></div>
-            <div class="report-section-text">ホーム開幕2連敗を喫した千葉ジェッツは、苦境からの立て直しを迫られています。富樫勇樹主将は言い訳をせず「勝つこと」の重要性を強調し、チーム一丸となってこの逆境を乗り越えようと結束を強めています。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
-            <div class="report-section-text">チームの顔である富樫勇樹が契約継続を発表し、「ナンバー1にもオンリー1にも」と悲願達成への強い決意を示しました。代表戦での悔しさや発言も含め、精神的支柱としての彼のリーダーシップが今最も求められています。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
-            <div class="report-section-text">今後は他クラブからのマークやライバル選手の挑戦状をいかに跳ね返すかが焦点となります。富樫を中心に戦術を再構築し、連敗脱出と圧倒的な強さを取り戻せるか、次戦以降のチームの立て直しに要注目です。</div>
-        </div>
-    </div>
+    </details>
     
+            </div>
 
             <!-- 最新ニュース要約カード群 -->
-            <div class="news-grid">
+            <div class="news-grid" id="news-grid-jets">
                 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySHRoSGN3SDZCVEJwc2hkamZ3YjhCME04dTdlanotQ19tOEljVVdVS2hRWHVyX3pNYVhWclg3R1RZX1pma2h6Nk82OUNaYTQ?oc=5">
             <div class="card-header">
-                <span class="card-source">サンスポ</span>
-                <span class="card-date">09/20 16:00</span>
-            </div>
-            <h3 class="card-title">神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 小川麻斗が千葉Jとの対戦へ闘志</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>神戸ストークスの小川麻斗が、日本代表PGである富樫勇樹への対抗心を露わにし勝利を誓った。</span></div><div class="summary-point"><span class="dot">•</span><span>昨季まで千葉Jで薫陶を受けた若手ガードが、古巣対決において己の成長を示そうと意気込んでいる。</span></div><div class="summary-point"><span class="dot">•</span><span>B1での生き残りと下克上を懸け、古巣ジェッツの守備網をどう打破するのか大きな見どころとなる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">千葉ジェッツ</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：恩師や元チームメイトの網をかいくぐり、小川が富樫ら日本代表クラスにどこまで迫れるか熱い。</div>
+                <span class="card-date">10/18 21:43</span>
+            </div>
+            <h3 class="card-title">【試合情報】10/19 千葉ジェッツvs.東京サンロッカーズ [Resona Group B.LEAGUE 2026-27 SEASON]</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 10/19東京SR戦の試合情報が公開</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>10月19日に開催されるサンロッカーズ渋谷（東京サンロッカーズ）との対戦情報が公式発表された。</span></div><div class="summary-point"><span class="dot">•</span><span>リーグ戦を戦い抜く上で重要な一戦に向けた詳細スケジュールや会場関連情報が案内されている。</span></div><div class="summary-point"><span class="dot">•</span><span>ホームでの熱戦に向けて、チーム公式から発信される最新の観戦情報を事前に確認しておきたい。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 週末の東京サンロッカーズとの激突へ向け、公式情報や試合の最新動向をしっかりチェックして応援に備えよう。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFBBWWdmMUdPR1d6dXZlcDFKaE5HdElJR01xbEYtNUwtOFVxTG1sOXBMZ1F3LUN6VGZhTHJ5QkZ1QmZLczdad1pTLXNBamdOVXhZOExRWGUtaUI2SmZtMkpXdkc3YjZjZFBjTG16T2FGbFJDckNYRXfSAYoBQVVfeXFMTXlVTkNoTncyN0xYMy1ZUkJ0R0tONVlBcVRzQlY1bnl1R1N5WUJQYmtoZDlVTmVsVUtMbnI5ZnhPRDZpVUNsX3VYa19WaUYxN1lUdm9oTFp0OEUtTHQ0NGwwbXNUb3ZZVDlqOGlkMlNlZUhicURwS1o0TXFPZjQzU0RxclhITEh1RjdR?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySHRoSGN3SDZCVEJwc2hkamZ3YjhCME04dTdlanotQ19tOEljVVdVS2hRWHVyX3pNYVhWclg3R1RZX1pma2h6Nk82OUNaYTQ?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -304,21 +352,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMia0FVX3lxTE1tb0lQemRWZER0SzJUWTE4Zzh4RFVTSTh2LTJ4cjVLcU1PbEhKU0FWMHFqZmVzQjFNalB2cnF3WkpGZmk2OU1pNGxvYUlCMThHOXdjc0puRV80bzdSQUFCQ2ZjMFZIcWZmd1k4?oc=5">
             <div class="card-header">
-                <span class="card-source">https://jbasket.jp/</span>
-                <span class="card-date">10/04 16:00</span>
-            </div>
-            <h3 class="card-title">【B.PREMIER】富樫勇樹「いろんな言い訳はできますけど、それをせずに、とりあえず勝つこと」／ホーム開幕2連敗の千葉J、ここからどう作る</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 富樫勇樹がホーム開幕連敗に言及</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>千葉Jがホーム開幕戦でまさかの2連敗を喫し、主将の富樫勇樹が言い訳無用の勝利の必要性を強調した。</span></div><div class="summary-point"><span class="dot">•</span><span>新アリーナ移行期におけるチームケミストリーの構築や、主力のコンディション調整に課題が残る。</span></div><div class="summary-point"><span class="dot">•</span><span>ここからの立て直しに向け、HCの戦術遂行力とロスター全体の連動性を早期に高めることが求められる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Unisba Media</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：エース富樫の危機感をチーム全体がどう受け止め、次戦からのバウンスバックを見せるか必見。</div>
+                <span class="card-date">10/18 18:39</span>
+            </div>
+            <h3 class="card-title">【裏側】Bリーグオールスター前日の控え室に密着！スター選手は再会からパッション全開!?【バスケットLIVEクラブ限定動画をYouTubeでも】 Newhook (Laq6LzoqTR)</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> オールスター前日控室の密着動画が公開</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>Bリーグオールスター前日の控え室の様子に密着した特別動画がYouTubeなどで公開された。</span></div><div class="summary-point"><span class="dot">•</span><span>普段は見られないスター選手たちの再会シーンや情熱あふれる素顔、舞台裏の様子が収められている。</span></div><div class="summary-point"><span class="dot">•</span><span>バスケットLIVEクラブ限定コンテンツの一部が展開され、ファンの関心を集めている。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 普段の真剣勝負とは一味違う、選手たちの熱量やリラックスした関係性が垣間見える貴重な裏側は見逃せない。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SYkw5WmZ3dUR4ZVBpYTNsQy1Cb2N5VVBYdHZvWU56cmdPaUJhRHFjZmxRNFZQejJpUEltZ2NFckk1YTBwNlFOR1QwczFyc1FjR3dQanUzQkJCT1RKM05WZ0ZUVU5xdw?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE1tb0lQemRWZER0SzJUWTE4Zzh4RFVTSTh2LTJ4cjVLcU1PbEhKU0FWMHFqZmVzQjFNalB2cnF3WkpGZmk2OU1pNGxvYUlCMThHOXdjc0puRV80bzdSQUFCQ2ZjMFZIcWZmd1k4?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -326,21 +377,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE8yeUhIQTlMQ0RQMVYzMUotZEZQX3hjQzhQdERZN2RkNjl2TnVQT0ZNcnFTZ1FBRHkya0lPWndyYS1KQUlBNGZPQndkblY5dDJtbWlnYkRFalRTWE05cE5NcFJYNmxjTm5KZEs4ZzFSZkFDLWRGa2M5X251bXNYXzQ?oc=5">
             <div class="card-header">
-                <span class="card-source">バスケットボールキング</span>
-                <span class="card-date">08/21 16:00</span>
-            </div>
-            <h3 class="card-title">「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 渡邊雄太がWindow4での復帰示唆</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>負傷離脱中の渡邊雄太が自身のケガの状況を語り、代表戦Window4での試合出場に強い意欲を示した。</span></div><div class="summary-point"><span class="dot">•</span><span>八村塁や河村勇輝ら海外組との融合を見据え、日本代表の戦術的な核としてのカムバックが期待される。</span></div><div class="summary-point"><span class="dot">•</span><span>代表チームの戦力アップはもちろん、Bリーグの盛り上がりや日本バスケ界全体への影響力も非常に大きい。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：日本バスケの最高峰メンツが揃う代表戦で、渡邊がコート上でどんなリーダーシップを発揮するか。</div>
+                <span class="card-date">10/18 15:03</span>
+            </div>
+            <h3 class="card-title">価値ある1勝を手にした千葉ジェッツ、金近廉の自信「ファーストオプションではなくてもアタックできる場面は全然ある」</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 金近廉が攻撃参加への強い自信を示す</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>千葉ジェッツが価値ある1勝を挙げ、金近廉がオフェンスへの手応えと自信を口にした。</span></div><div class="summary-point"><span class="dot">•</span><span>金近は第1オプションでなくとも自ら積極的にアタックできる場面は十分にあると力強く語った。</span></div><div class="summary-point"><span class="dot">•</span><span>主力選手が多い中で積極的な仕掛けを増やす姿勢はチームの得点パターン拡大につながる。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> チームの攻撃陣の中で、隙を逃さず果敢にアタックを狙う金近廉の強気なオフェンス姿勢に期待が高まる。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE8yeUhIQTlMQ0RQMVYzMUotZEZQX3hjQzhQdERZN2RkNjl2TnVQT0ZNcnFTZ1FBRHkya0lPWndyYS1KQUlBNGZPQndkblY5dDJtbWlnYkRFalRTWE05cE5NcFJYNmxjTm5KZEs4ZzFSZkFDLWRGa2M5X251bXNYXzQ?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -348,21 +402,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiaEFVX3lxTE15eVJEUG4yMEhJRjRRVVM2YUtMSW1qT1FYeTBtVjJQVG10MXg5LTMzRG5yQzJSZDlWUjJCbEhYbkZXb2UxaHVURFlGT1FKNjdPNnhjMnlrRlFiOUZnaWNxZFh1Rm43ZU01?oc=5">
             <div class="card-header">
-                <span class="card-source">Basket Count</span>
-                <span class="card-date">08/30 18:52</span>
-            </div>
-            <h3 class="card-title">【ワールドカップ2027アジア予選】ロスター入りを逃した富樫勇樹「シンプルにコート上のプレーを評価されない限りは意味がない」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 富樫勇樹が代表ロスター落選に言及</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>ワールドカップ2027アジア予選のロスターから外れた富樫が、コート上のプレー評価の厳しさを語った。</span></div><div class="summary-point"><span class="dot">•</span><span>実績に甘んじることなく実力で勝ち取る姿勢を示し、代表選考の競争激化の現状を浮き彫りにした。</span></div><div class="summary-point"><span class="dot">•</span><span>この悔しさをバネに、千葉Jでの圧倒的なパフォーマンス維持と代表再選出へ向けたアプローチが注目される。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">バスケットボールキング</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：代表落選という逆境をエネルギーに変え、富樫がクラブで見せる圧倒的な個人パフォーマンス。</div>
+                <span class="card-date">10/17 19:00</span>
+            </div>
+            <h3 class="card-title">千葉Jが今季ホーム初勝利！ 瀬川琉久がキャリアハイタイ21得点、渡邊雄太も22得点で島根撃破</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 瀬川と渡邊が大暴れし島根に勝利</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>千葉ジェッツが島根を下し、今シーズンのホーム初勝利をファンとともに飾った。</span></div><div class="summary-point"><span class="dot">•</span><span>瀬川琉久がキャリアハイタイとなる21得点を挙げ、渡邊雄太も22得点を記録して勝利に貢献。</span></div><div class="summary-point"><span class="dot">•</span><span>若手の瀬川と新戦力の渡邊が揃って20点超えの活躍を見せ、今後の攻撃力強化に弾みをつけた。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> キャリアハイタイの瀬川と得点源となった渡邊の躍動は、これからのホームゲームでも最大の注目ポイントだ。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zTVUwazJobDdsUXA5Wi1pWnBlYk84bU9Nc3BIRHNkcGROeDdNYWp3TkhILTczYXVWZmFFSnNuS3ZPVmlIODNCWEpsMXNpcEQ4ajhZTVh3UUdoZw?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE15eVJEUG4yMEhJRjRRVVM2YUtMSW1qT1FYeTBtVjJQVG10MXg5LTMzRG5yQzJSZDlWUjJCbEhYbkZXb2UxaHVURFlGT1FKNjdPNnhjMnlrRlFiOUZnaWNxZFh1Rm43ZU01?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -370,21 +427,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card" data-url="https://news.google.com/rss/articles/CBMia0FVX3lxTE8zS1NOSUUwRVhrREdWUXB4TF85WGtpbTdkbXhMYnZwVFV5QktoWXlxQ0JhcFhBUzlwdjRiRWVZM2VSM0l1bVJqdjVoZzhBa0txeUd5TTA2YmNHdnRBZ1pFQlRFNGN4MXJQZDgw?oc=5">
             <div class="card-header">
-                <span class="card-source">Basket Count</span>
-                <span class="card-date">06/02 16:00</span>
-            </div>
-            <h3 class="card-title">千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 富樫勇樹が千葉Jと契約継続を表明</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>チームの顔である富樫勇樹と千葉ジェッツが契約継続を発表し、悲願の頂点奪還へ共闘を誓い合った。</span></div><div class="summary-point"><span class="dot">•</span><span>クラブの象徴として戦術の軸を担い続けるだけでなく、新B1に向けたチームの求心力として不可欠な存在。</span></div><div class="summary-point"><span class="dot">•</span><span>千葉Jを常に優勝争いの常連へと押し上げる原動力として、今季もチームを牽引し続ける。</span></div>
+                <div class="card-meta-left">
+                    
+                    <span class="card-source">Unisba Media</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：千葉の顔として君臨する富樫が、チームを再び圧倒的な「ナンバー1」へ導く歴史的な瞬間を見逃すな。</div>
+                <span class="card-date">10/17 11:10</span>
+            </div>
+            <h3 class="card-title">【Bリーグ】移籍市場&amp;契約状況 | 千葉ジェッツ 菅原佳依、秋田ノーザンハピネッツ トロイ・マーフィージュニア 他 James Bond (ucrhi2Kwg2)</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 菅原佳依らの移籍・契約情報が更新</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>Bリーグの移籍市場および最新契約状況として千葉Jの菅原佳依らに関する情報が報じられた。</span></div><div class="summary-point"><span class="dot">•</span><span>他クラブの秋田ノーザンハピネッツに所属するトロイ・マーフィージュニアなどの動向も含まれる。</span></div><div class="summary-point"><span class="dot">•</span><span>チーム編成や戦力補強に直結する契約動向は、今後のロスター構成を見据える上で重要となる。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 選手たちの契約動向や移籍状況を把握し、千葉ジェッツのチーム体制がどのように整っていくか見守りたい。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE8zS1NOSUUwRVhrREdWUXB4TF85WGtpbTdkbXhMYnZwVFV5QktoWXlxQ0JhcFhBUzlwdjRiRWVZM2VSM0l1bVJqdjVoZzhBa0txeUd5TTA2YmNHdnRBZ1pFQlRFNGN4MXJQZDgw?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -392,18 +452,21 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card" data-url="https://news.google.com/rss/articles/CBMiZkFVX3lxTE45WWxpREF1X3NnMlg1MWhia2M4VFdIWlI0dk5kcjVjcG1mNVR6SHlaUGpaY2F3VVJ5anZjX1RrRUxma1F5S1FyOTQ1a2RvQXJzRjJzNWlreUt0MFRNdmpxRnRIRFktZw?oc=5">
             <div class="card-header">
-                <span class="card-source">Unisba Media</span>
+                <div class="card-meta-left">
+                    
+                    <span class="card-source">Unisba Media</span>
+                </div>
                 <span class="card-date">10/17 00:11</span>
             </div>
             <h3 class="card-title">【バスケ日本代表】千葉J・富樫勇樹「この組み合わせで良かった」パリ五輪の組み合わせ決定 Kazakhstan (3p94uToGvw)</h3>
             <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 富樫がパリ五輪の組み合わせを評価</div>
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 富樫勇樹がパリ五輪の組み合わせに言及</div>
                 <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>パリ五輪のグループステージ対戦国が決まり、富樫勇樹が「この組み合わせで良かった」と前向きに語った。</span></div><div class="summary-point"><span class="dot">•</span><span>世界最高峰の舞台で強豪国と渡り合うため、日本代表の現在地と勝機を見出すための具体的なシミュレーションが進む。</span></div><div class="summary-point"><span class="dot">•</span><span>五輪での躍進が日本のバスケットボール人気と競技レベルのさらなる引き上げに直結する重要な大会となる。</span></div>
+                    <div class="summary-point"><span class="dot">•</span><span>バスケ日本代表のパリ五輪組み合わせ決定を受け、千葉Jの富樫勇樹がコメントを発表した。</span></div><div class="summary-point"><span class="dot">•</span><span>富樫はこの組み合わせで良かったと前向きに受け止め、本番に向けた手応えや覚悟を示した。</span></div><div class="summary-point"><span class="dot">•</span><span>キャプテンとして世界の大舞台に挑む富樫の発言は、代表およびチームを勢いづける要素となる。</span></div>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目：世界トップレベルの猛者たちを相手に、司令塔・富樫が日本代表をどう勝利へと操るのか。</div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 世界の強豪と戦うパリ五輪へ向け、前向きな姿勢を崩さない頼れるキャプテン富樫勇樹のリーダーシップに注目。</div>
             </div>
             <div class="card-footer">
                 <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE45WWxpREF1X3NnMlg1MWhia2M4VFdIWlI0dk5kcjVjcG1mNVR6SHlaUGpaY2F3VVJ5anZjX1RrRUxma1F5S1FyOTQ1a2RvQXJzRjJzNWlreUt0MFRNdmpxRnRIRFktZw?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
@@ -419,7 +482,6 @@
         <!-- モータースポーツセクション -->
         <section id="motorsport-tab" class="tab-content" role="tabpanel">
             <div class="section-intro motorsport">
-                <div class="intro-icon"><img src="assets/motorsport_emblem.svg" width="38" height="38" alt="モータースポーツ"></div>
                 <div>
                     <h2>モータースポーツ 最新情報</h2>
                     <p>F1、MotoGPを中心にWRC、WEC、Indy等の日本勢＆世界トップレース要約</p>
@@ -427,49 +489,58 @@
             </div>
 
             <!-- 過去1週間のAI調査レポート -->
-            
-    <div class="report-card motorsport">
-        <div class="report-header">
-            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">10/18 07:55 AI分析</span>
+            <div id="report-container-motorsport">
+                
+    <details class="report-card motorsport" open>
+        <summary class="report-summary-toggle">
+            <div class="report-header">
+                <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                <span class="report-header-right">
+                    <span class="report-date">10/18 22:02 AI分析</span>
+                    <span class="report-chevron" aria-hidden="true">▾</span>
+                </span>
+            </div>
+            <h3 class="report-title">MotoGP・F1・WEC激動の1週間：王者争いと舞台裏</h3>
+        </summary>
+        <div class="report-body">
+            <div class="report-section">
+                <div class="report-section-title">🏎️ <strong>直近1週間の戦況・動向総括</strong></div>
+                <div class="report-section-text">直近1週間はF1シンガポールGPでの戦略ミスやアストンマーティンの窮地、WEC第7戦の熱戦、MotoGPでの小椋藍の快走や無罪裁定など多岐にわたるトピックが浮き彫りとなった。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                <div class="report-section-text">ハミルトンはピット判断のミスを謝罪。アロンソは苛立ちを隠さず。また、Moto3のフェルナンデスが無罪裁定でポイント全回復となり、小椋藍は圧倒的なオーバーテイクショーを披露した。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                <div class="report-section-text">WEC第7戦でのトヨタ小林可夢偉らのタイトル争いの行方や、MotoGPの残り5戦におけるマルティンとマルケスの首位攻防戦、そしてホンダ製パワーユニットを巡る動向にファンは要注目。</div>
+            </div>
         </div>
-        <h3 class="report-title">モータースポーツ激動の1週間：トヨタと日本人勢の挑戦</h3>
-        
-        <div class="report-section">
-            <div class="report-section-title">🏎️ <strong>直近1週間の戦況・動向総括</strong></div>
-            <div class="report-section-text">WECバルセロナでトヨタが初日から順調な滑り出しを見せ、国内ではGR GT3の実戦テストや新型MR2の話題が加熱。F1ではホンダのPU戦略が注目を集め、二輪のMotoGPでは小椋藍が転倒を乗り越える粘り強さを見せるなど、多岐にわたるカテゴリーで大きな動きがあった1週間となった。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
-            <div class="report-section-text">WECの小林可夢偉が手探りながらも2台揃ってトップ10入りを果たし好調を維持。MotoGPの小椋藍は2度の転倒に沈むも「さすがにへこんだ」と語りつつ前を向く。また、F1ではアロンソの的確なフィードバックがホンダPUの交換判断を導くなど、ベテランの存在感が際立った。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
-            <div class="report-section-text">次戦のポイントは、11月のスーパーGT最終戦に向けたトヨタ「GR GT3」の動向と、過酷な二輪・四輪レースを戦う日本勢の精神的なリカバリー。特にMotoGP小椋の天候に恵まれたレースでの雪辱や、WECでのトヨタのさらなるマシン熟成プロセスから目が離せない。</div>
-        </div>
-    </div>
+    </details>
     
+            </div>
 
             <!-- 最新ニュース要約カード群 -->
-            <div class="news-grid">
+            <div class="news-grid" id="news-grid-motorsport">
                 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE10SlUwUTdnMTd5TlktSDIyY0VwYjJySWtqTllYanJweXdaeFZZQmRhTldRWFI0Z05pTWNOaGd3X2U1eUtlVXVQaVphdUtheHpJTVVvVEFYTkhqOHZJek41MmxaaWNyTHB4bXdOd0p3M1Exa0MzWkY2MkN2Z2IzR1U?oc=5">
             <div class="card-header">
-                <span class="card-source">autosport web</span>
-                <span class="card-date">10/17 09:33</span>
-            </div>
-            <h3 class="card-title">トヨタ、手探りの初日は2台揃ってトップ10入り「さらに改善できることを期待」と可夢偉／WECバルセロナ</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> トヨタWECバルセロナ初日は2台揃ってトップ10入り</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>WECバルセロナの初日セッションで小林可夢偉擁するトヨタの2台が揃ってトップ10入りを果たした。</span></div><div class="summary-point"><span class="dot">•</span><span>手探り状態からのスタートとなったがマシンの適応を進め、さらなるパフォーマンス改善に手応えを示す。</span></div><div class="summary-point"><span class="dot">•</span><span>シーズン終盤に向けたマシンセッティングの成熟度が高まり、決勝レースでの上位争いに向け順調な仕上がりを見せる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: 可夢偉が手探りの状態からどうセットアップを煮詰め、決勝でライバル勢を凌駕するペースを発揮できるかに期待がかかる。</div>
+                <span class="card-date">10/18 19:17</span>
+            </div>
+            <h3 class="card-title">次世代MotoGPマシン、乗りやすくて好印象？ ビニャーレスの「良いエンジンを積んだMoto2マシン」は褒め言葉</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 次世代MotoGPマシンは好印象、ビニャーレスが操作性を評価</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>ビニャーレスは次世代MotoGPマシンを良いエンジンを積んだMoto2マシンと表現した。</span></div><div class="summary-point"><span class="dot">•</span><span>この発言は次世代車両の扱いやすさや良好なフィーリングを称賛する褒め言葉である。</span></div><div class="summary-point"><span class="dot">•</span><span>新規定導入に向けて乗りやすさが向上することでライダーの適応が進むと期待される。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 次世代MotoGPマシンがどのような走りとバトルをもたらすのか、今後の開発状況に要注目です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yOWU3eXJWTEFrdWNtZXJwaDFXRUlfdXBJTElwZi1PODlkX2RFRjQ1VEgtVDRzUXphS1IzNnE0OHZjanJBYjZYOG1pc2NxUnRxSnc?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE10SlUwUTdnMTd5TlktSDIyY0VwYjJySWtqTllYanJweXdaeFZZQmRhTldRWFI0Z05pTWNOaGd3X2U1eUtlVXVQaVphdUtheHpJTVVvVEFYTkhqOHZJek41MmxaaWNyTHB4bXdOd0p3M1Exa0MzWkY2MkN2Z2IzR1U?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -477,21 +548,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE5mWHpTLTlzdU11aUdsWk9IaE9kX2lhZ1UwMUtBemNpSGdkVGpuaVlMOEJzTXFHTG5aTFlBSUxUSDRsOFdHaUpxQWs1Z2tWSlpyNXRrR0ZZSmJOVDVyZXZBalVXVmgtNUotZTZZQXJaS3RtSjk0cnh3ZUlHai1UZUk?oc=5">
             <div class="card-header">
-                <span class="card-source">音楽業界総合情報サイト</span>
-                <span class="card-date">10/16 19:35</span>
-            </div>
-            <h3 class="card-title">PSYCHIC FEVER・小波津志、シンガポールF1グランプリのステージに登場 フィリピンの人気バンドLola Amourと共演し「The Moment」を披露</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> PSYCHIC FEVER小波津志がシンガポールF1で熱唱</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>シンガポールF1グランプリの音楽ステージにPSYCHIC FEVERの小波津志が登場し観客を魅了した。</span></div><div class="summary-point"><span class="dot">•</span><span>フィリピンの人気バンドLola Amourと共演し、コラボ楽曲「The Moment」を力強く披露した。</span></div><div class="summary-point"><span class="dot">•</span><span>モータースポーツの巨大イベントとアジアの音楽シーンが融合し、現地の観客やファンに強烈なインパクトを残した。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: F1の巨大なナイトレース特有の熱気あふれる空間で、アジアの音楽アーティストがどう観客を熱狂させたかそのパフォーマンスに注目。</div>
+                <span class="card-date">10/18 17:15</span>
+            </div>
+            <h3 class="card-title">【MotoGP】大逆転の無罪裁定 Moto3参戦のフェルナンデス エンジン改ざん疑惑のはく奪ポイントを全回復へ</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> Moto3フェルナンデスが無罪裁定、剥奪ポイント全回復へ</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>Moto3参戦のフェルナンデスに対しエンジン改ざん疑惑で大逆転の無罪裁定が下された。</span></div><div class="summary-point"><span class="dot">•</span><span>以前の処分により一度ははく奪されていたシリーズポイントが全て回復することになった。</span></div><div class="summary-point"><span class="dot">•</span><span>不正疑惑が晴れたことでランキング争いに大きな影響を与える逆転劇となっている。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> ポイント全回復によりフェルナンデスがチャンピオンシップ戦線でどう巻き返すか注目です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zY0p5ODlPdk1yYmdvVDhyOGNKQzg0RjgzVms1TzRQbzdXSXFmdG1DSjlCZnctNjBISEYwRUtnR01kYWtCancxenpLZ3pZV0p1ekE?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5mWHpTLTlzdU11aUdsWk9IaE9kX2lhZ1UwMUtBemNpSGdkVGpuaVlMOEJzTXFHTG5aTFlBSUxUSDRsOFdHaUpxQWs1Z2tWSlpyNXRrR0ZZSmJOVDVyZXZBalVXVmgtNUotZTZZQXJaS3RtSjk0cnh3ZUlHai1UZUk?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -499,21 +573,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiUkFVX3lxTE12dkRDZHlwLTZrc3hSVVhBLUhzajEzZVZydkd0QTVpUEswMG1OUGhpNGpZdzREeGdxS3NKUy1yemdsdjlIYmpqTHRZZy1rU3VyRnc?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/17 09:30</span>
-            </div>
-            <h3 class="card-title">【MotoGP】「さすがにへこんだ」2度の転倒…それでも崩れないのが小椋藍 次戦は「とにかく良い天気でレースがしたい」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> MotoGP小椋藍が2度転倒も次戦へ前向きな姿勢</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>MotoGPのセッションで2度の転倒を喫し「さすがにへこんだ」と本人が悔しさを率直に語った。</span></div><div class="summary-point"><span class="dot">•</span><span>度重なるアクシデントに見舞われながらもマシンの限界や課題を冷静に分析し、メンタルは崩れていない。</span></div><div class="summary-point"><span class="dot">•</span><span>次戦に向けて気持ちを切り替えており、「とにかく良い天気でレースがしたい」と純粋な走行を楽しみにしている。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">autosport web</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: 痛みを伴う転倒を経験した小椋藍が、次戦でいかにマシンをコントロールし本来の速さと安定感を取り戻せるかが見どころ。</div>
+                <span class="card-date">10/18 14:36</span>
+            </div>
+            <h3 class="card-title">7戦目でのポール獲得は「大きな意味がある」と最年少記録更新のジョベール。決勝への期待高まるジェネシス</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> ジョベールが最年少PP記録更新、ジェネシスの決勝に期待</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>ジョベールが参戦7戦目にして最年少記録を更新するポールポジションを獲得した。</span></div><div class="summary-point"><span class="dot">•</span><span>本人はこの記録達成に対して「大きな意味がある」と喜びと手応えを語っている。</span></div><div class="summary-point"><span class="dot">•</span><span>最前列グリッドを得たジェネシスチームとして決勝レースへの期待が高まっている。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 最年少記録を打ち立てた新星ジョベールが決勝レースで初勝利を飾れるか注目が集まります。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5ldk9uZV9CWmplWXFPQy0xa3lEU2FlVzhYVHl0ejEyLVRVUjIwYVJ1WmpMNDF4X21WN2t6aFZiRU5nR21vOGxCZk5MNU5YdFNjcjExNTRZdm93MDhVcGRnbEFZSGk4bFpIYjVYaE1tV0hGVkZlZEowWEJubjc0TTg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE12dkRDZHlwLTZrc3hSVVhBLUhzajEzZVZydkd0QTVpUEswMG1OUGhpNGpZdzREeGdxS3NKUy1yemdsdjlIYmpqTHRZZy1rU3VyRnc?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -521,21 +598,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiUkFVX3lxTE51N1FubFhGMjVLYk4wSEFMR0JuV1RZSWJxbDRDcEp6dThweVMzNmw2eGowTndpVE0zamFxd0dQZVRMa2ZRNm1vbGQxUE9IcjAzdWc?oc=5">
             <div class="card-header">
-                <span class="card-source">Formula1-Data</span>
-                <span class="card-date">10/11 02:17</span>
-            </div>
-            <h3 class="card-title">ホンダF1「予選中のアロンソのフィードバック」を受けPU交換を決定、折原GMが明かす / F1シンガポールGP《予選》2026 - Formula1</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> ホンダF1がアロンソの指摘を受けPU交換を決定</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>F1シンガポールGP予選中にフェルナンド・アロンソから寄せられた無線フィードバックをホンダが重く受け止めた。</span></div><div class="summary-point"><span class="dot">•</span><span>折原GMが明かした通り、ドライバーの鋭い洞察に基づき迅速にパワーユニット（PU）の交換を決断した。</span></div><div class="summary-point"><span class="dot">•</span><span>信頼性の確保とトラブルの未然防止を最優先し、決勝レースでのポイント獲得に向け万全の体制を整えた。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">autosport web</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: ベテランアロンソの卓越したドライビング感覚とホンダの迅速なエンジニアリング対応が、決勝でどれほどの成果を生むか要注目。</div>
+                <span class="card-date">10/18 13:58</span>
+            </div>
+            <h3 class="card-title">タイトル確定は「考えていない」／雨に備えF2の車載映像にかじりつく／ペンスキーに復帰の動き？etc.【第7戦予選日Topics】</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 第7戦予選日トピックス、タイトル争いや雨対策など話題多数</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>第7戦予選日ではタイトル確定は意識していないという冷静なコメントが確認された。</span></div><div class="summary-point"><span class="dot">•</span><span>雨天のコンディション変化に備えてF2の車載映像を綿密に確認する動きが見られた。</span></div><div class="summary-point"><span class="dot">•</span><span>ペンスキーへの復帰に関する噂などパドック内で多彩な話題が交錯している。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 雨への対応策や水面下の移籍事情など予選日のパドック動向から決勝の展開が占えます。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPdG1JS1czdDNIUmdlM2lwNWlPdVFiQmgtVk9mNTFZcXR3M2lUaS1PbjhaN3BGWVlTek9VT2RIZ3Z5TUd3XzNWclhaMWloN2NSbGlxeEo1ZjFKdnJhUG41MWxrSmJhWDlFWEJOWFU2d0F4MWdtOGpLUnRqYmtwV2kzR2MwcnRnajFicUhFVg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE51N1FubFhGMjVLYk4wSEFMR0JuV1RZSWJxbDRDcEp6dThweVMzNmw2eGowTndpVE0zamFxd0dQZVRMa2ZRNm1vbGQxUE9IcjAzdWc?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -543,21 +623,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE9kQmF0UElXQlNsMjVVTGhTWF9xTFRKTWxZY0NDWnpmOUlMUC1EalR3amxrR1lEb1UtbUtMd0tiUTFZZ1ZWMU1vNGhXbWRWRHpYZ2ZhazdRaFdUcDJ6NTdfQnF6VXZBWHBVWnNnaTV4cVBnY0RLUjQzMWJmNGxiSUk?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/15 18:04</span>
-            </div>
-            <h3 class="card-title">【トヨタ「GR GT3」がついに実戦へ？】富士でテスト、11月のスーパーGT最終戦でデビューか。2027年の本格参戦に向けて前進</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> トヨタGR GT3が富士でテスト、スーパーGT参戦へ前進</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>開発中のトヨタ「GR GT3」が富士スピードウェイで実戦さながらの精力的なテスト走行を実施した。</span></div><div class="summary-point"><span class="dot">•</span><span>11月のスーパーGT最終戦でのデビューが噂されており、2027年の本格的な本格参戦へ向けて大きく前進している。</span></div><div class="summary-point"><span class="dot">•</span><span>新たなGT3マシンの戦闘力がライバルメーカー勢に対してどれほどのポテンシャルを持つのか業界の注目を集める。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: ついにベールを脱ぎつつある新型GR GT3が、最終戦の実戦舞台でどれほどの速さと完成度を見せつけるのか目が離せない。</div>
+                <span class="card-date">10/18 11:10</span>
+            </div>
+            <h3 class="card-title">MotoGP仕様! ホンダ「CBR500R FOUR」レーシングコンセプトが中国重慶ショーで初公開!（WEBヤングマシン）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> ホンダCBR500R FOURレーシングコンセプトが重慶で初公開</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>中国の重慶ショーでホンダのCBR500R FOURレーシングコンセプトが初公開された。</span></div><div class="summary-point"><span class="dot">•</span><span>本車両はMotoGP仕様を意識したレーシーなスタイリングが特徴となっている。</span></div><div class="summary-point"><span class="dot">•</span><span>4気筒ミドルクラスの新たなコンセプトモデルとして世界的な注目を集めている。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> MotoGPのDNAを受け継ぐ新たな4気筒レーシングコンセプトの市販化展開に期待です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5XeGZ5c1lwY3pkRmh2Z0JjU0c3blMxUlBHZlRBSGxzQ0Y4TU5PRG9FNkhudlBLdXVQRWlhWENXc0hHamdNZnh6RUFidzBBTlpHQ1ZTRVJiOUp5MjY1UXNtbHFIUlJyVTJvVFR2MTZGVW5GczdsMm1MdTBRUDJvZGM?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9kQmF0UElXQlNsMjVVTGhTWF9xTFRKTWxZY0NDWnpmOUlMUC1EalR3amxrR1lEb1UtbUtMd0tiUTFZZ1ZWMU1vNGhXbWRWRHpYZ2ZhazdRaFdUcDJ6NTdfQnF6VXZBWHBVWnNnaTV4cVBnY0RLUjQzMWJmNGxiSUk?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -565,21 +648,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE9rMnNKQ1U2RXczUTZDdTJfeDF5dUtFRE44dWlaNTJYNWxaNFNIVVBDeHR4WFVCVEZhRG55cEVqenJIN3JzNEdhVzB6UjQtcXVncl9IV3V1OEhoYmY1Yk0yOURZTGUwUFpyXzN5SmI1ZVdrZGU4X1NiX0o2LTFiQTQ?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/16 06:21</span>
-            </div>
-            <h3 class="card-title">なぜトヨタは「大衆車MR2」を怪物へと変貌させるのか？ 最高出力400馬力超へ進化！ BMWやアウディをも脅かす“下剋上スポーツ”の衝撃とは（Merkmal）</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> トヨタが次期MR2を400馬力超の怪物マシンへ変貌</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>大衆車のイメージがあったMR2をベースに、最高出力400馬力超を発揮するハイパフォーマンスカーへと進化させる。</span></div><div class="summary-point"><span class="dot">•</span><span>ドイツのBMWやアウディといった強豪プレミアムブランドのスポーツモデルをも脅かす下剋上スペックを誇る。</span></div><div class="summary-point"><span class="dot">•</span><span>トヨタのモータースポーツ知見をフルに注ぎ込んだ次世代スポーツカーとして、市場に大きな衝撃を与えつつある。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 💡 注目: 伝統の車名が最新の電動化技術や高出力ターボでどう現代によみがえり、欧州ライバルを凌駕する走りを魅せるか要チェック。</div>
+                <span class="card-date">10/18 05:06</span>
+            </div>
+            <h3 class="card-title">日本人記者、持ち物検査でストップ！未納税のたばこ所持で関係者3人別室へ「高額にならないことを願う」／F1シンガポールGP</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> F1シンガポールGPで日本人記者ら未納税たばこ所持で別室へ</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>F1シンガポールGPの持ち物検査で日本人記者を含む関係者3人がストップを受けた。</span></div><div class="summary-point"><span class="dot">•</span><span>未納税のたばこを所持していたことが理由で3名は別室へと案内される事態となった。</span></div><div class="summary-point"><span class="dot">•</span><span>課される罰金等について当事者からは高額にならないことを願う声が上がっている。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 持ち込み規制が厳しいシンガポールならではのトラブルであり遠征時の注意点を物語ります。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdE5VMElwN3RKX1lxRjZnclNYcGl5Skg0WFJPaHE2MlJVei1qTnN2ODBVRmNjRUh4RDlhTVpnTDFaMkh6UXJldmJDZUd6VHpkbE1rRC1KVlRvTnBiTTI1N1Njc2lOcVlHRmJRZTQ1eWgzSXFTSXNCTHZ3Zjg2b3NQVmRhWjZWa3JN?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9rMnNKQ1U2RXczUTZDdTJfeDF5dUtFRE44dWlaNTJYNWxaNFNIVVBDeHR4WFVCVEZhRG55cEVqenJIN3JzNEdhVzB6UjQtcXVncl9IV3V1OEhoYmY1Yk0yOURZTGUwUFpyXzN5SmI1ZVdrZGU4X1NiX0o2LTFiQTQ?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -592,7 +678,6 @@
         <!-- 世界のメジャースポーツセクション -->
         <section id="world-tab" class="tab-content" role="tabpanel">
             <div class="section-intro world">
-                <div class="intro-icon"><img src="assets/world_emblem.svg" width="38" height="38" alt="世界のメジャースポーツ"></div>
                 <div>
                     <h2>世界のメジャースポーツ 最新情報</h2>
                     <p>MLB（大谷・山本等）、欧州サッカー（三笘・久保等）、NBA等の速報要約</p>
@@ -600,49 +685,58 @@
             </div>
 
             <!-- 過去1週間のAI調査レポート -->
-            
-    <div class="report-card world">
-        <div class="report-header">
-            <span class="report-badge">📊 過去1週間のAI調査レポート</span>
-            <span class="report-date">10/18 07:55 AI分析</span>
+            <div id="report-container-world">
+                
+    <details class="report-card world" open>
+        <summary class="report-summary-toggle">
+            <div class="report-header">
+                <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                <span class="report-header-right">
+                    <span class="report-date">10/18 22:03 AI分析</span>
+                    <span class="report-chevron" aria-hidden="true">▾</span>
+                </span>
+            </div>
+            <h3 class="report-title">大谷の3ランや前田のプレミア初弾、各地で熱戦</h3>
+        </summary>
+        <div class="report-body">
+            <div class="report-section">
+                <div class="report-section-title">🌍 <strong>直近1週間の戦況・動向総括</strong></div>
+                <div class="report-section-text">MLBではポストシーズンが白熱し、ALCSでレイズが2勝2敗のタイに戻す一方、ナ・リーグ第4戦は悪天候で順延となりました。欧州サッカー界では前田大然がプレミア初ゴールを記録し、鈴木彩艶がCL初クリーンシートを達成した一方、ソシエダの久保建英は3試合ぶりの出場でも苦境が続くなど明暗が分かれました。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                <div class="report-section-text">ドジャースの大谷翔平は打撃不振に悩みつつも3ランを放ち敵将を警戒させ、山本由伸は第6戦へ入念な調整を見せています。また、前田大然は念願のプレミア初得点を挙げ、久保建英は低評価を受けながらも復活が期待されています。</div>
+            </div>
+            <div class="report-section">
+                <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                <div class="report-section-text">MLBではALCSの行方や順延されたナ・リーグ優勝決定Sの戦況、大谷や山本の巻き返しに注目が集まります。サッカーでは初得点で勢いに乗る前田の活躍や、過密日程の中で復調を目指す久保の今季初ゴールが期待されます。</div>
+            </div>
         </div>
-        <h3 class="report-title">前田大然プレミア初弾、大谷は悔しさ吐露、日本人選手の光と影</h3>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌍 <strong>直近1週間の戦況・動向総括</strong></div>
-            <div class="report-section-text">直近1週間は日本代表勢の明暗が分かれた。前田大然がマンチェスター・C戦でプレミアリーグ初ゴールを挙げ強烈なインパクトを残す一方、ソシエダの久保建英は3戦ぶり出場も厳しい評価を受けるなどチームと共に苦戦が続く。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
-            <div class="report-section-text">マンC戦で強豪から貴重な初得点を奪った前田大然は、少ないチャンスをモノにする決定力で評価を高めた。一方、MLBでは大谷翔平がシーズンを振り返り「ふがいない」「本塁打が少ない」と厳しい自己評価を語り、次への闘志を燃やす。</div>
-        </div>
-        
-        <div class="report-section">
-            <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
-            <div class="report-section-text">前田は勢いを維持しレギュラー定着とさらなるゴール量産が期待される。一方、久保はチームの不調打破へ攻撃の起点となる結果が求められる。欧州CLを控えるレアル・マドリードの戦いぶりや、各競技のトップアスリートの動向から目が離せない。</div>
-        </div>
-    </div>
+    </details>
     
+            </div>
 
             <!-- 最新ニュース要約カード群 -->
-            <div class="news-grid">
+            <div class="news-grid" id="news-grid-world">
                 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE03ZlFjZ0pRa1h4SVE1UHo2M1lDNE5jTkJnam9zVDFILXNXTG9CeEtrOHdBLXJieU9MSFpZZWxkXzRjZHBJM3JNdE0tU1hzQ3liT21VVXowZjQzeUNCbmRZZ0pqYUlYYlpTZF9Gdm9ENXkyS3Axd1MzVUdHTTVRbVU?oc=5">
             <div class="card-header">
-                <span class="card-source">スポーツナビ</span>
-                <span class="card-date">10/18 05:11</span>
-            </div>
-            <h3 class="card-title">【動画】【🇯🇵前田大然がプレミアリーグ初ゴール⚽️｜マンチェスター・C v イプスウィッチ｜ショートハイライト】プレミアリーグ2026/27 第7節 - スポーツナビ「株式会社U-NEXT_フットボール_イングランド」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 前田大然がマンC戦でプレミア初弾</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>イプスウィッチの前田大然が王者マンチェスター・シティ戦で待望のプレミアリーグ初ゴールを記録した。</span></div><div class="summary-point"><span class="dot">•</span><span>強豪相手の厳しい展開の中、わずかなチャンスを完璧にものにする決定力の高さと抜群のスピードを発揮した。</span></div><div class="summary-point"><span class="dot">•</span><span>強豪からの初得点は日本人アタッカーとしての評価を大きく高め、今後のレギュラー定着に大きく影響する。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 世界最高峰の舞台で王者からゴールを奪った前田大然が、次節以降の定位置争いでさらなるインパクトを残せるか必見です。</div>
+                <span class="card-date">10/18 16:01</span>
+            </div>
+            <h3 class="card-title">【MLBポストシーズン】ALCSはレイズが逆転勝利で2勝2敗タイへ 元NPB右腕がガーディアンズ相手に力投 ブリュワーズと戦うのはどっちか（日テレNEWS NNN）</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> レイズ逆転勝利で2勝2敗タイへ</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>ALCSでレイズがガーディアンズに逆転勝利を収め、対戦成績を2勝2敗のタイに戻しました。</span></div><div class="summary-point"><span class="dot">•</span><span>試合では元NPB右腕が相手打線を抑える力投を見せ、チームの勝利に大きく貢献しました。</span></div><div class="summary-point"><span class="dot">•</span><span>このシリーズを制したチームが、待ち受けるブリュワーズとの大一番に進出することになります。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 2勝2敗の五分に戻った激闘の行方と、どちらが勝ち上がりブリュワーズに挑むのか必見です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GVlkyWGtHLVFtZmh3M2JTZUdJc2JxaDdlZF9maGVsaTQ0X00zMV9DbXNQSl9OVDRiRjZ0UEtCcWxvbzRfdlBSNWFSS0NmMGFsc3hhZk5EQy1MVC1x?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE03ZlFjZ0pRa1h4SVE1UHo2M1lDNE5jTkJnam9zVDFILXNXTG9CeEtrOHdBLXJieU9MSFpZZWxkXzRjZHBJM3JNdE0tU1hzQ3liT21VVXowZjQzeUNCbmRZZ0pqYUlYYlpTZF9Gdm9ENXkyS3Axd1MzVUdHTTVRbVU?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -650,21 +744,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xc2VWRlhVM1RXVi11Tm00T0Vpdmt2LUE5VlhfWEhNaU1Nc2xQclJGaEpvRnk1SHM3dnBzUHpvSnRuc3l3Rm54VFREeVVibDVIUDRuTUFjcUJ0WEVqWWpSSVV6SdIBc0FVX3lxTFBNM2VFM0xDaVdHdE9reW9lTzBqSVBvUzdtTkFWZ241REY2bzZxZjBBVWVXVDJSUnhDdWRYQURUNUxiU041aHo2VVBsTFlFZ3A4R3E0Ul92YmlvMXZIYThSUWRudU15UDRPcUNjMmdjRlY2OWM?oc=5">
             <div class="card-header">
-                <span class="card-source">朝日新聞</span>
-                <span class="card-date">10/16 14:40</span>
-            </div>
-            <h3 class="card-title">大谷翔平が語った胸中「自分がふがいない」「ホームランも1本だけ」</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 大谷翔平が自身の不振に言及</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>大谷翔平が自身の打撃内容について「自分がふがいない」「ホームランも1本だけ」と厳しい表情で胸中を語った。</span></div><div class="summary-point"><span class="dot">•</span><span>シーズンを通じて高い期待を背負う中で、本塁打数の伸び悩みや自身のパフォーマンスに対する葛藤が背景にある。</span></div><div class="summary-point"><span class="dot">•</span><span>本人の強い危機感と反省は、シーズン終盤の大一番やポストシーズンに向けた打撃改造や復調への大きな起爆剤となる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">サッカーダイジェストWeb</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 基準を高く持つ大谷がこの悔しさをどうバネにするか。ここからの勝負所で見せる圧倒的な一打に期待が高まります。</div>
+                <span class="card-date">10/18 15:53</span>
+            </div>
+            <h3 class="card-title">「タケの場合、何も起きていない」３試合ぶり出場も低調な久保建英にクラブ関係者が本音。ソシエダ番記者が明かした“懐疑派”と“擁護派”の主張「ますます悲観的」「復活を渇望」【現地発】</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 久保建英の低調に現地で賛否両論</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>3試合ぶりの出場を果たした久保建英ですが、目立った活躍を見せられず低調な結果に終わりました。</span></div><div class="summary-point"><span class="dot">•</span><span>クラブ関係者から厳しい本音が漏れる中、番記者がチーム内の懐疑派と擁護派の意見を伝えています。</span></div><div class="summary-point"><span class="dot">•</span><span>ますます悲観的になる見方がある一方で、本来のパフォーマンスへの復活を渇望する声も根強くあります。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 厳しい評価と期待が交錯する中、次戦で久保が周囲を納得させる復活のプレーを見せられるか注目です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lQm14SWktUW1XQ2V1ZjBRYnJIclJiMEJQNU92WE9UN2d5dkQ5Tmh6dGJ6TTVINXNZNkt4RXlQU2taaVB1NTN1YzRUS2pfODg1bEtuWEtUU3l4S214WkMxMm9PYk1kTDg?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xc2VWRlhVM1RXVi11Tm00T0Vpdmt2LUE5VlhfWEhNaU1Nc2xQclJGaEpvRnk1SHM3dnBzUHpvSnRuc3l3Rm54VFREeVVibDVIUDRuTUFjcUJ0WEVqWWpSSVV6SdIBc0FVX3lxTFBNM2VFM0xDaVdHdE9reW9lTzBqSVBvUzdtTkFWZ241REY2bzZxZjBBVWVXVDJSUnhDdWRYQURUNUxiU041aHo2VVBsTFlFZ3A4R3E0Ul92YmlvMXZIYThSUWRudU15UDRPcUNjMmdjRlY2OWM?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -672,21 +769,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMikgFBVV95cUxOejVrcmxwdWFPLXBxY0xwSW82U3FLczVLZXpLN01LLUFIbWEzb2duTGFrYzdqMnRnWG85emRxSzl5bmFsbEpaa1Q0dmZ5dWdlTE1Qbzg5Smg4UDRKYi01QzJZc2oxN1gwbjFxMUNtbmhJVnByTjgxZzRYdWQtUGZodVd3VS1VWUpzSzduUGtMaU1KUdIBigFBVV95cUxNRTA2dl9wRXU3M0hWNk9nb3NSeEZjekc0T3VfZXI0aXd0b0pwTHhuUDFrTFFQSlFuYkRsbDRLMFhSMjVjRUY3aEpoMG4wRDQ5aEVuYV9GbnowX3RqZE9DRHBiQW5uUlRrWHhNV2JXMUlUWjNGTlBERTlaRkRpTVQ4ZFpXeWRUNDFobHc?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/16 17:01</span>
-            </div>
-            <h3 class="card-title">不調のレアル・ソシエダMF久保建英、3試合ぶり出場も厳しい評価「何もチャンスを作り出すことはできなかった」（GOAL）</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 久保建英が3戦ぶり出場も厳しい評価</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>レアル・ソシエダの久保建英が3試合ぶりの出場を果たしたものの、現地メディアからは厳しい評価を受けた。</span></div><div class="summary-point"><span class="dot">•</span><span>チーム全体が不振にあえぐ中、相手の徹底マークに遭い自身の特長である決定的なチャンスを創出できなかった。</span></div><div class="summary-point"><span class="dot">•</span><span>チームの低迷とともに個人スタッツが停滞すれば、今後の移籍市場やスタメン起用における立場にも影響が及ぶ。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">サンスポ</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 厳しいマークを破り、再びチームを勝利に導くエースとしての輝きを取り戻せるか、次戦での修正力に注目です。</div>
+                <span class="card-date">10/18 09:21</span>
+            </div>
+            <h3 class="card-title">【トーナメント表】MLBポストシーズン日程（17日終了時点）ナ・リーグ優勝決定S第4戦は悪天候で18日に順延</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> MLBナ・リーグ優勝決定S第4戦が順延</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>17日終了時点のMLBポストシーズン日程において、ナ・リーグ優勝決定S第4戦が悪天候で順延となりました。</span></div><div class="summary-point"><span class="dot">•</span><span>悪天候による影響を受け、仕切り直しとなる第4戦は翌18日に開催される予定となっています。</span></div><div class="summary-point"><span class="dot">•</span><span>予期せぬ日程変更が両チームの投手起用や試合の流れにどのような変化をもたらすかが注目されます。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 雨による順延が両軍のコンディションや戦術にどう作用し、第4戦の勝敗に影響を与えるか見逃せません。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0xaFFwZkhCY1pQWWE3anJNdF9kSERzNldmTy1MemMxMFlnRGJtak1xeUl2QVpyRUVWN2t1OW1hWXJHaFUxcnh3Vlk1VFlzUlZKUk5wODJnclA2cGZlSnZURU53TVplcWxOdURkUmdwX29PNUhZQVB6T2RhZUxkY28?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOejVrcmxwdWFPLXBxY0xwSW82U3FLczVLZXpLN01LLUFIbWEzb2duTGFrYzdqMnRnWG85emRxSzl5bmFsbEpaa1Q0dmZ5dWdlTE1Qbzg5Smg4UDRKYi01QzJZc2oxN1gwbjFxMUNtbmhJVnByTjgxZzRYdWQtUGZodVd3VS1VWUpzSzduUGtMaU1KUdIBigFBVV95cUxNRTA2dl9wRXU3M0hWNk9nb3NSeEZjekc0T3VfZXI0aXd0b0pwTHhuUDFrTFFQSlFuYkRsbDRLMFhSMjVjRUY3aEpoMG4wRDQ5aEVuYV9GbnowX3RqZE9DRHBiQW5uUlRrWHhNV2JXMUlUWjNGTlBERTlaRkRpTVQ4ZFpXeWRUNDFobHc?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -694,21 +794,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE1WemxjS3B0UkRURlFtOTVsNHY1cko5MUw2UjA0dnBTV2owU3QxdXpoN1pHd2RWNDJlQnpwSGFvNHJxc1ZXOGx2QUxkS09JclN4a00yd0lGNmlpeHJ0RVBlWldweENLYktMXzRtdmZZTzJ5R21EQkF4LWpHczIyNVk?oc=5">
             <div class="card-header">
-                <span class="card-source">Yahoo!ニュース</span>
-                <span class="card-date">10/18 02:52</span>
-            </div>
-            <h3 class="card-title">前田大然、マンＣからプレミア初ゴール「素晴らしい相手で生まれた」「一つのチャンスで決め切ったのも大きい」（スポーツ報知）</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 前田大然がマンC戦の初弾を振り返る</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>前田大然が強豪マンC戦でのプレミア初ゴールについて「素晴らしい相手で生まれた」「一つのチャンスで決め切った」と語った。</span></div><div class="summary-point"><span class="dot">•</span><span>王者との一戦という極限のプレッシャーの中で、チームの戦術的な狙いを体現し見事にゴールをこじ開けた。</span></div><div class="summary-point"><span class="dot">•</span><span>この一撃により監督やチームメイトからの信頼がさらに厚くなり、今後の重要な戦いでの起用法に直結する。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 世界の頂点を知るマンC相手に結果を残した自信を胸に、次戦でも快足と泥臭いゴールでチームを救えるか注目です。</div>
+                <span class="card-date">10/18 09:12</span>
+            </div>
+            <h3 class="card-title">【プレミアリーグ】「夢がかないました！」 前田大然、プレミア初得点に感激 「すごく意味のあるゴール」</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 前田大然がプレミア初得点に感激</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>プレミアリーグの試合に出場した前田大然が、待望のプレミアリーグ初ゴールを記録しました。</span></div><div class="summary-point"><span class="dot">•</span><span>前田は「夢がかないました！」と喜びを爆発させ、自身にとって「すごく意味のあるゴール」と語りました。</span></div><div class="summary-point"><span class="dot">•</span><span>初ゴールという最高の結果を残したことで、今後のリーグ戦でのさらなる出場機会や活躍に期待が高まります。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 夢の舞台で記念すべき初ゴールを決めた前田大然が、ここから勢いに乗っていけるか要注目です。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5GcnNjZW8xQk5KQ3ZndXg2d0dmcnpxVHJyQzRFZTZ4MFVnbGl4WUo1TU0yTUlNUFlOSHg3c0J2ZDRDTEtMZ1lMd3hKZXQ1c3E0ZXZ2dVZFV09RaHQzc3VOMEFacW85U0hvY3V5S0k4UzVad3hSZmd0ZktQeVJUS00?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1WemxjS3B0UkRURlFtOTVsNHY1cko5MUw2UjA0dnBTV2owU3QxdXpoN1pHd2RWNDJlQnpwSGFvNHJxc1ZXOGx2QUxkS09JclN4a00yd0lGNmlpeHJ0RVBlWldweENLYktMXzRtdmZZTzJ5R21EQkF4LWpHczIyNVk?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -716,21 +819,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card is-new" data-url="https://news.google.com/rss/articles/CBMif0FVX3lxTE1XSHcxZlVza0ZHMGQzUDQzd2FRcWtudW5GUXAzcE03cFdnM0NkZ0thTDRyMGxYcmlwNXBZdjBKRTNwVkRJMHJhdWRkWDlrOWZaWjE5VndIc2JsSldBWmdoOGJRR0xXTF9FTWxLOEhhRUU1UFIxRWlxb0xVQ0M5b2c?oc=5">
             <div class="card-header">
-                <span class="card-source">バスケットボールキング</span>
-                <span class="card-date">10/17 16:56</span>
-            </div>
-            <h3 class="card-title">元NBAドラフト2位ビーズリーがボクシングでTKO勝利…ウェストを第1ラウンドで下す</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 元NBAビーズリーがボクシングでTKO勝利</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>元NBAドラフト2位のマイケル・ビーズリーがボクシング転向戦でウェストを第1ラウンドTKOで下した。</span></div><div class="summary-point"><span class="dot">•</span><span>バスケットボール界で高い身体能力を誇った圧倒的なアスリート能力を格闘技のリングでも見せつけた。</span></div><div class="summary-point"><span class="dot">•</span><span>衝撃的な初回決着デビューにより、格闘技界における新たなスター候補としての注目度と今後の興行価値が高まる。</span></div>
+                <div class="card-meta-left">
+                    <span class="badge-new">NEW</span>
+                    <span class="card-source">Yahoo!ニュース</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 元NBAスターの異色の転向劇がどのようなキャリアを築くのか、次戦の対戦相手やボクシング界での躍進から目が離せません。</div>
+                <span class="card-date">10/17 21:00</span>
+            </div>
+            <h3 class="card-title">「誰も想像していなかった状況だ」大谷翔平、打撃不振の原因はケガではなかった！？ 米メディアが言及「最後のホームラン以来」</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> 大谷翔平の不振に米メディアが言及</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>打撃不振が続く大谷翔平について、米メディアが「誰も想像していなかった状況だ」と現状を報じました。</span></div><div class="summary-point"><span class="dot">•</span><span>報道では最後のホームラン以降の状態に触れ、不振の直接的な原因はケガではない可能性が示唆されています。</span></div><div class="summary-point"><span class="dot">•</span><span>原因を巡り様々な議論を呼んでおり、打撃の感覚を取り戻して本来の打棒をいつ取り戻せるかが焦点となります。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> ケガ以外の要因も指摘される中、大谷翔平が修正を図り快音を取り戻すことができるのか注目されます。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yMFJmRlhFelRpNDI0R0pDTGpJTmNfYndoclRSbDVKeGVyUGxKbmJSZXhYc19EdkNVRUh6bU5RV1N0cE5EaEZ4Z1pBRUdHdkIwT1d4YjNwaXRfakJHZlNPakpWeW1ub0dS?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1XSHcxZlVza0ZHMGQzUDQzd2FRcWtudW5GUXAzcE03cFdnM0NkZ0thTDRyMGxYcmlwNXBZdjBKRTNwVkRJMHJhdWRkWDlrOWZaWjE5VndIc2JsSldBWmdoOGJRR0xXTF9FTWxLOEhhRUU1UFIxRWlxb0xVQ0M5b2c?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -738,21 +844,24 @@
         </article>
         
 
-        <article class="news-card">
+        <article class="news-card" data-url="https://news.google.com/rss/articles/CBMib0FVX3lxTE1XT2d1amlDTEtYZFlOeVVhSkhHcWNqT3l2NkxXVTdvTENFWXMtYldTN1JZampIbFl0QWU0ejRMUnZrX0U0a21CUVpxUXUwMFBleHVqSEtEZjRTVjZOWkFINWkybnNuR3hhQ3NkZUVxb9IBekFVX3lxTE0zVlBJODFiWEI2T3kybFNhSGxTN1FHUzJveVpqc2VNNDZkMVM2MzJNa0JQRFdpMFhWUTk5dm4wNi1SUklibG9MWFRKb3JuUnNQTi11enE2ZFhMdW9xQ1laVlJCN3prWFhUWFlseEl4STBoaHNaME1MWjNB?oc=5">
             <div class="card-header">
-                <span class="card-source">Real Madrid CF | Web Oficial</span>
-                <span class="card-date">10/13 20:07</span>
-            </div>
-            <h3 class="card-title">トゥアメニ：「重要な試合であり、勝利してチャンピオンズリーグでポイントを積み重ねたい」 - Real Madrid CF</h3>
-            <div class="summary-box">
-                <div class="summary-headline"><span class="headline-badge">📌 要約</span> チュアメニがCL勝利への強い決意</div>
-                <div class="summary-points">
-                    <div class="summary-point"><span class="dot">•</span><span>レアル・マドリードのチュアメニが公式会見で「重要な試合であり、勝利してCLのポイントを積み重ねたい」と語った。</span></div><div class="summary-point"><span class="dot">•</span><span>過密日程と熾烈な順位争いが続く中、中盤の要としてチームにバランスをもたらし勝利に貢献する強い意欲を示した。</span></div><div class="summary-point"><span class="dot">•</span><span>チャンピオンズリーグでの勝ち点獲得は、チームの勢いを保ちシーズン後半のタイトル獲得へ向けて極めて重要となる。</span></div>
+                <div class="card-meta-left">
+                    
+                    <span class="card-source">テレ東スポーツ</span>
                 </div>
-                <div class="summary-takeaway">📣 <strong>注目:</strong> 攻守の要であるチュアメニがピッチ中央をどう支配し、チームを勝利へと導くのか、その戦術的パフォーマンスに注目です。</div>
+                <span class="card-date">10/17 10:36</span>
+            </div>
+            <h3 class="card-title">ブルワーズ監督 大谷翔平の3ランに戦慄「巨人を目覚めさせてしまった。世界最高の選手」｜テレ東スポーツ：テレ東</h3>
+            <div class="summary-box">
+                <div class="summary-headline"><span class="headline-badge">📌 要約</span> ブルワーズ監督が大谷の3ランに戦慄</div>
+                <div class="summary-points">
+                    <div class="summary-point"><span class="dot">•</span><span>大谷翔平が放った3ランホームランに対し、対戦相手であるブルワーズの監督が戦慄のコメントを残しました。</span></div><div class="summary-point"><span class="dot">•</span><span>監督は「巨人を目覚めさせてしまった」と語り、大谷を「世界最高の選手」と最大級の言葉で称賛しました。</span></div><div class="summary-point"><span class="dot">•</span><span>警戒していた主砲の一発をきっかけに、相手チームに大きな脅威とプレッシャーを与える結果となりました。</span></div>
+                </div>
+                <div class="summary-takeaway">📣 <strong>注目:</strong> 敵将に世界最高と言わしめた大谷翔平の一発が、シリーズ全体の流れを大きく変えるのか見どころです。</div>
             </div>
             <div class="card-footer">
-                <a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOM296UlJpQ1NJSkkxVE13VTI2TC1SZm82emdZb0NLTUZXakkyOC1McXNCbGhKU01Lb3doY2tHeC1YYjk5WHU1NmZ3elkwaE9kUFJRYmlHNGtGTmVxeGNhaDVZWXY4SzM1b1Q1bVVvQS1KWFJCMGpXc29KeGNBQk9oakEyVHVsZUhRREthRG9TbDhzbk5MQThWRzJ5SkV0am9YOF9vcTNER3YxdjdxQmI5cFVkV3Z3RGREYmc?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1XT2d1amlDTEtYZFlOeVVhSkhHcWNqT3l2NkxXVTdvTENFWXMtYldTN1JZampIbFl0QWU0ejRMUnZrX0U0a21CUVpxUXUwMFBleHVqSEtEZjRTVjZOWkFINWkybnNuR3hhQ3NkZUVxb9IBekFVX3lxTE0zVlBJODFiWEI2T3kybFNhSGxTN1FHUzJveVpqc2VNNDZkMVM2MzJNa0JQRFdpMFhWUTk5dm4wNi1SUklibG9MWFRKb3JuUnNQTi11enE2ZFhMdW9xQ1laVlJCN3prWFhUWFlseEl4STBoaHNaME1MWjNB?oc=5" target="_blank" rel="noopener noreferrer" class="btn-read-more">
                     <span>元記事を読む</span>
                     <span>↗</span>
                 </a>
@@ -768,26 +877,80 @@
         <div class="footer-inner">
             <p class="footer-desc">
                 🤖 Google News RSS より自動収集・Gemini AI による自動要約＆1週間調査<br>
-                毎朝 6:00（JST）自動更新 | 完全無料運用中
+                毎朝 自動更新 ＆ 過去アーカイブ保存対応 | 完全無料運用中
             </p>
             <p class="footer-tip">
                 📱 <strong>スマホのホーム画面に追加</strong> するとアプリのようにサッと読めます！
             </p>
             <div class="footer-copy">
-                &copy; 2026 まいすぽ - Powered by GitHub Pages & Gemini
+                &copy; 2026 まいすぽ - Powered by GitHub Pages &amp; Gemini
             </div>
         </div>
     </footer>
 
-    <!-- インタラクション用スクリプト -->
+    <!-- インタラクション＆過去アーカイブ切り替えスクリプト -->
     <script>
         let currentTabIndex = 0;
         const categories = ['dragons', 'jets', 'motorsport', 'world'];
         const tabs = document.querySelectorAll('.tab-btn');
         const panels = document.querySelectorAll('.tab-content');
+        const scrollPositions = { dragons: 0, jets: 0, motorsport: 0, world: 0 };
+        const READ_STORAGE_KEY = 'myspo_read_urls_v1';
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function getReadUrls() {
+            try {
+                const raw = localStorage.getItem(READ_STORAGE_KEY);
+                return raw ? new Set(JSON.parse(raw)) : new Set();
+            } catch (e) {
+                return new Set();
+            }
+        }
+
+        function markUrlAsRead(url) {
+            if (!url || url === '#') return;
+            try {
+                const readSet = getReadUrls();
+                readSet.add(url);
+                const arr = Array.from(readSet).slice(-300);
+                localStorage.setItem(READ_STORAGE_KEY, JSON.stringify(arr));
+            } catch (e) {}
+        }
+
+        function applyReadStates() {
+            const readSet = getReadUrls();
+            document.querySelectorAll('.news-card').forEach((card) => {
+                const url = card.getAttribute('data-url');
+                if (url && readSet.has(url)) {
+                    card.classList.add('is-read');
+                }
+                const linkEl = card.querySelector('.btn-read-more');
+                if (linkEl && !linkEl.dataset.boundRead) {
+                    linkEl.dataset.boundRead = '1';
+                    linkEl.addEventListener('click', () => {
+                        markUrlAsRead(url);
+                        card.classList.add('is-read');
+                    });
+                }
+            });
+        }
 
         function switchTab(newIndex, direction = 'right') {
             if (newIndex < 0 || newIndex >= categories.length) return;
+            if (newIndex === currentTabIndex) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                return;
+            }
+            scrollPositions[categories[currentTabIndex]] = window.scrollY;
             currentTabIndex = newIndex;
 
             tabs.forEach((tab, i) => {
@@ -806,10 +969,10 @@
                 }
             });
 
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            const targetY = scrollPositions[categories[newIndex]] || 0;
+            window.scrollTo({ top: targetY, behavior: 'instant' });
         }
 
-        // タブボタンクリック
         tabs.forEach((tab, i) => {
             tab.addEventListener('click', () => {
                 const dir = (i < currentTabIndex) ? 'left' : 'right';
@@ -817,7 +980,7 @@
             });
         });
 
-        // スマホ用タッチスワイプ検知
+        // スマホ用タッチスワイプ検知（斜めスクロール誤爆防止ガード付き）
         let touchStartX = 0;
         let touchStartY = 0;
         let touchEndX = 0;
@@ -837,24 +1000,17 @@
         function handleSwipe() {
             const diffX = touchEndX - touchStartX;
             const diffY = touchEndY - touchStartY;
-            // 縦スクロール優先ガード（縦移動が大きい、または横移動が40px未満なら無視）
-            if (Math.abs(diffX) < Math.abs(diffY) || Math.abs(diffX) < 40) {
+            // 横移動75px以上、かつ横移動が縦移動の1.8倍以上の場合のみタブ切り替え
+            if (Math.abs(diffX) < 75 || Math.abs(diffX) < Math.abs(diffY) * 1.8) {
                 return;
             }
-            if (diffX < 0) {
-                // 左スワイプ（次へ進む）
-                if (currentTabIndex < categories.length - 1) {
-                    switchTab(currentTabIndex + 1, 'right');
-                }
-            } else {
-                // 右スワイプ（前に戻る）
-                if (currentTabIndex > 0) {
-                    switchTab(currentTabIndex - 1, 'left');
-                }
+            if (diffX < 0 && currentTabIndex < categories.length - 1) {
+                switchTab(currentTabIndex + 1, 'right');
+            } else if (diffX > 0 && currentTabIndex > 0) {
+                switchTab(currentTabIndex - 1, 'left');
             }
         }
 
-        // キーボード左右矢印キー対応
         document.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowRight' && currentTabIndex < categories.length - 1) {
                 switchTab(currentTabIndex + 1, 'right');
@@ -862,6 +1018,191 @@
                 switchTab(currentTabIndex - 1, 'left');
             }
         });
+
+        // ====================================================================
+        // 過去アーカイブ（日付選択・前後日移動）機能
+        // ====================================================================
+        let archiveDates = [];
+        let currentDateIndex = 0;
+
+        const dateSelect = document.getElementById('dateSelect');
+        const prevDateBtn = document.getElementById('prevDateBtn');
+        const nextDateBtn = document.getElementById('nextDateBtn');
+        const archiveBanner = document.getElementById('archiveBanner');
+        const archiveBannerText = document.getElementById('archiveBannerText');
+        const returnLatestBtn = document.getElementById('returnLatestBtn');
+        const liveDot = document.getElementById('liveDot');
+
+        function renderReportClient(cid, r) {
+            if (!r || !r.title) return '';
+            const catIcon = cid === 'dragons' ? '⚾' : (cid === 'jets' ? '🏀' : (cid === 'motorsport' ? '🏎️' : '🌍'));
+            const analyzedAt = escapeHtml(r.analyzed_at || '');
+            return `
+            <details class="report-card ${cid}" open>
+                <summary class="report-summary-toggle">
+                    <div class="report-header">
+                        <span class="report-badge">📊 過去1週間のAI調査レポート</span>
+                        <span class="report-header-right">
+                            <span class="report-date">${analyzedAt} AI分析</span>
+                            <span class="report-chevron" aria-hidden="true">▾</span>
+                        </span>
+                    </div>
+                    <h3 class="report-title">${escapeHtml(r.title)}</h3>
+                </summary>
+                <div class="report-body">
+                    <div class="report-section">
+                        <div class="report-section-title">${catIcon} <strong>直近1週間の戦況・動向総括</strong></div>
+                        <div class="report-section-text">${escapeHtml(r.summary)}</div>
+                    </div>
+                    <div class="report-section">
+                        <div class="report-section-title">🌟 <strong>注目選手・キーマンの動き</strong></div>
+                        <div class="report-section-text">${escapeHtml(r.key_players)}</div>
+                    </div>
+                    <div class="report-section">
+                        <div class="report-section-title">🔮 <strong>今後の展望と注目ポイント</strong></div>
+                        <div class="report-section-text">${escapeHtml(r.outlook)}</div>
+                    </div>
+                </div>
+            </details>`;
+        }
+
+        function renderNewsCardsClient(newsList) {
+            if (!newsList || newsList.length === 0) {
+                return `
+                <div class="empty-state">
+                    <div class="icon">📭</div>
+                    <p>この日のニュースデータはありません。</p>
+                </div>`;
+            }
+            return newsList.map((item) => {
+                const pointsHtml = (item.points || []).map((p) =>
+                    `<div class="summary-point"><span class="dot">•</span><span>${escapeHtml(p)}</span></div>`
+                ).join('');
+                const cleanTk = String(item.takeaway || '').replace(/^[📣💡\s]*注目(?:ポイント)?[:：]?\s*/g, '');
+                const takeawayHtml = cleanTk
+                    ? `<div class="summary-takeaway">📣 <strong>注目:</strong> ${escapeHtml(cleanTk)}</div>`
+                    : '';
+                const newBadge = item.is_new ? '<span class="badge-new">NEW</span>' : '';
+                const newClass = item.is_new ? ' is-new' : '';
+                const safeLink = (item.link && /^https?:\/\//i.test(item.link)) ? escapeHtml(item.link) : '#';
+                return `
+                <article class="news-card${newClass}" data-url="${safeLink}">
+                    <div class="card-header">
+                        <div class="card-meta-left">
+                            ${newBadge}
+                            <span class="card-source">${escapeHtml(item.source)}</span>
+                        </div>
+                        <span class="card-date">${escapeHtml(item.pub_date)}</span>
+                    </div>
+                    <h3 class="card-title">${escapeHtml(item.title)}</h3>
+                    <div class="summary-box">
+                        <div class="summary-headline"><span class="headline-badge">📌 要約</span> ${escapeHtml(item.headline || item.title)}</div>
+                        <div class="summary-points">${pointsHtml}</div>
+                        ${takeawayHtml}
+                    </div>
+                    <div class="card-footer">
+                        <a href="${safeLink}" target="_blank" rel="noopener noreferrer" class="btn-read-more">
+                            <span>元記事を読む</span>
+                            <span>↗</span>
+                        </a>
+                    </div>
+                </article>`;
+            }).join('\n');
+        }
+
+        function updateDateNavButtons() {
+            if (!prevDateBtn || !nextDateBtn) return;
+            // archiveDates は新しい順（0が最新、末尾が最古）
+            prevDateBtn.disabled = (currentDateIndex >= archiveDates.length - 1);
+            nextDateBtn.disabled = (currentDateIndex <= 0);
+            if (archiveBanner && archiveBannerText && archiveDates[currentDateIndex]) {
+                if (currentDateIndex === 0) {
+                    archiveBanner.hidden = true;
+                    if (liveDot) liveDot.style.display = 'inline-block';
+                } else {
+                    const d = archiveDates[currentDateIndex];
+                    archiveBannerText.textContent = `📅 過去ログ表示中：${d.date}（${d.updated_at || d.label}）`;
+                    archiveBanner.hidden = false;
+                    if (liveDot) liveDot.style.display = 'none';
+                }
+            }
+        }
+
+        async function loadArchiveDate(index) {
+            if (index < 0 || index >= archiveDates.length) return;
+            currentDateIndex = index;
+            const entry = archiveDates[index];
+            if (dateSelect) dateSelect.value = entry.date;
+            updateDateNavButtons();
+
+            try {
+                const resp = await fetch(`./data/archive/${entry.date}.json`, { cache: 'no-cache' });
+                if (!resp.ok) return;
+                const data = await resp.json();
+                categories.forEach((cid) => {
+                    const catData = (data.categories && data.categories[cid]) || { report: null, news: [] };
+                    const repEl = document.getElementById(`report-container-${cid}`);
+                    const gridEl = document.getElementById(`news-grid-${cid}`);
+                    const countEl = document.getElementById(`count-${cid}`);
+                    if (repEl) repEl.innerHTML = renderReportClient(cid, catData.report);
+                    if (gridEl) gridEl.innerHTML = renderNewsCardsClient(catData.news);
+                    if (countEl) countEl.textContent = String((catData.news || []).length);
+                });
+                applyReadStates();
+            } catch (e) {
+                console.error('アーカイブ読み込みエラー:', e);
+            }
+        }
+
+        async function initArchiveNav() {
+            applyReadStates();
+            try {
+                const resp = await fetch('./data/index.json', { cache: 'no-cache' });
+                if (!resp.ok) return;
+                const idxData = await resp.json();
+                if (!idxData.dates || !idxData.dates.length) return;
+                archiveDates = idxData.dates;
+                currentDateIndex = 0;
+
+                if (dateSelect) {
+                    dateSelect.innerHTML = archiveDates.map((d, i) => {
+                        const suffix = (i === 0) ? ' (最新)' : '';
+                        const timeLabel = d.updated_at ? d.updated_at : d.date;
+                        return `<option value="${escapeHtml(d.date)}">${escapeHtml(timeLabel)}${suffix}</option>`;
+                    }).join('');
+                    dateSelect.addEventListener('change', (e) => {
+                        const targetDate = e.target.value;
+                        const foundIdx = archiveDates.findIndex((d) => d.date === targetDate);
+                        if (foundIdx !== -1) {
+                            loadArchiveDate(foundIdx);
+                        }
+                    });
+                }
+
+                if (prevDateBtn) {
+                    prevDateBtn.addEventListener('click', () => {
+                        if (currentDateIndex < archiveDates.length - 1) {
+                            loadArchiveDate(currentDateIndex + 1);
+                        }
+                    });
+                }
+                if (nextDateBtn) {
+                    nextDateBtn.addEventListener('click', () => {
+                        if (currentDateIndex > 0) {
+                            loadArchiveDate(currentDateIndex - 1);
+                        }
+                    });
+                }
+                if (returnLatestBtn) {
+                    returnLatestBtn.addEventListener('click', () => {
+                        loadArchiveDate(0);
+                    });
+                }
+                updateDateNavButtons();
+            } catch (e) {}
+        }
+
+        initArchiveNav();
 
         // サービスワーカー登録（PWA用）
         if ('serviceWorker' in navigator) {

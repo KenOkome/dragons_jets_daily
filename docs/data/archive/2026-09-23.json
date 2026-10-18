@@ -1,0 +1,386 @@
+{
+  "date": "2026-09-23",
+  "updated_at": "09月23日 08:31",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "09/23 08:30",
+        "title": "本拠地最終戦を終えた中日の収穫と課題、来季への視点",
+        "summary": "直近1週間は本拠地最終戦を迎え、井上監督がファンへ謝罪と感謝を述べた。チームは投打に精彩を欠き連勝がストップしたものの、観客動員数は本拠地過去最多を記録し、熱狂的なファンの声援が最後まで選手たちの背中を押した。",
+        "key_players": "福永が本塁打を含む3安打を放つなど好調を維持し、打線を牽引する存在感を示した。また、大野雄大が『ドラゴンズクラウン賞』を史上最多3度目の受賞を果たし、ベテランの健在ぶりと今季の奮闘が改めて高く評価された。",
+        "outlook": "シーズン最終盤における個々の選手の躍動が来季への大きな希望となる。1試合でも多くの良い姿を見せようとする選手たちの執念が、チーム全体の底上げと次なる勝利へと繋がるか、最後までその戦いぶりに注目したい。"
+      },
+      "news": [
+        {
+          "title": "中日・井上監督、ファンへ謝罪と感謝 深々と頭を下げ「背中押してもらった」本拠地最終戦セレモニーであいさつ",
+          "source": "中日新聞Web",
+          "pub_date": "09/21 22:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53dVhKZUZLSEZ6TGRiN2xwZU1KNXFpSElYY2R5bkF6ajl2b05kdzhLZlRTT3h2cjNXaHgwT3Zvc3FvX2l0S3dKckZiUW84VlZaZzd0Rg?oc=5",
+          "headline": "井上監督が本拠地最終戦でファンに感謝と謝罪",
+          "points": [
+            "本拠地最終戦のセレモニーで井上監督が深々と頭を下げ、ファンからの温かい声援とサポートに対して心からの感謝と今季の戦いに対する謝罪の意を述べた。",
+            "苦しい戦いが続くチーム状況の中、最後まで熱い声援を送り続けたスタンドのファンとの絆が改めて確認される象徴的なシーンとなった。",
+            "このファンの支えを来季の反転攻勢への大きなエネルギーに変え、チーム一丸となって巻き返しを図る強い決意を示す契機となる。"
+          ],
+          "takeaway": "ファンと共に歩んだ今季の総括を胸に、来季こそ悲願のAクラス入りを果たすための新生ドラゴンズの戦い方に注目したい。",
+          "is_new": false
+        },
+        {
+          "title": "【中日】井上監督の進退問われ加藤球団社長が回答「特に言うことは」観客動員数は本拠地過去最多（日刊スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/21 21:38",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uTko3NGFXbjZfY0pmNmxDN1JIb0hRLWVIT05zLU5jYkw3LWluVFdpeTV1YU9lZXhnNFhDamtqcTJTTUpRd0p0emlOSmJ3NXhZU0hXNjlaemtXRTNRRF9QZ2s4U1BIOGtXWmFDeXBza0d3aWxOR1JtNV9sWm9QbXc?oc=5",
+          "headline": "加藤球団社長が井上監督の進退について言及",
+          "points": [
+            "加藤球団社長が報道陣の取材に応じ、去就が注目される井上監督の進退について「特に言うことはない」と現状の体制維持を示唆する回答を行った。",
+            "チーム成績が低迷する一方で、今季の観客動員数が本拠地過去最多を記録したことは、球団経営とファンマーケティングの大きな成果といえる。",
+            "球団首脳陣が現場の指揮官をどのように評価し、来季へ向けた具体的な補強やチーム編成の舵取りを行っていくかが今後の最大の焦点となる。"
+          ],
+          "takeaway": "観客動員数の増加という追い風を活かし、フロントがどのような補強戦略で井上政権の2年目をバックアップするのかが見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "『ドラゴンズクラウン賞』最優秀選手の中日・大野雄大ら3選手を表彰 同賞史上最多3度目の受賞に「うれしい気持ちでいっぱい」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/22 06:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oaDNoVXMteW5XVHRIeEc0NThBbTBlUUJ1ZUNsenFUTGdlYTBUeFcyQUx3ZnJQblgwcTNhcFRVU1diZkNkNVVrQldxQVhUTnUzaGVCR3dBajhOajlaeDhIYmZkdERQc0ZhVl9RYkNWWTRYY1FqUER1bU0xdWZfbDA?oc=5",
+          "headline": "大野雄大らがドラゴンズクラウン賞を受賞",
+          "points": [
+            "卓越したパフォーマンスを発揮した選手を称える『ドラゴンズクラウン賞』の最優秀選手に大野雄大ら3選手が選出され、表彰を受けた。",
+            "大野は同賞史上最多となる通算3度目の受賞となり、長年チームを支えてきたベテラン左腕の圧倒的な存在感と努力が改めて証明された。",
+            "復活を遂げたベテランの経験値と若手投手の融合が、来季の投手王国再建に向けたチームの大きな推進力となることが期待される。"
+          ],
+          "takeaway": "チーム最多受賞を成し遂げた大野雄大が、来季の先発ローテーションの柱として再び圧倒的な投球を見せてくれるかに期待したい。",
+          "is_new": false
+        },
+        {
+          "title": "中日・福永 本塁打含む３安打「１試合でも多くいい姿を見せたい」",
+          "source": "デイリースポーツ",
+          "pub_date": "09/23 05:00",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUUzFBaS1nT25LUFY4eU5LZUNQUzd6SE5jYTJWRmJhZFVnUTFpNnpUTlNhZkZZLXE1SGFqQ0VybHdZRjZOWXY2RFVqLVp3d2p2dGJSZm9HeFNHRnVwbHE4dFQyTWhiV2Z4VDlUTA?oc=5",
+          "headline": "福永が本塁打含む3安打の猛打賞で存在感",
+          "points": [
+            "福永裕基が主軸としての役割を果たす本塁打を含む猛打賞の固め打ちを記録し、打線の起爆剤として圧倒的な打撃センスを証明した。",
+            "シーズン終盤戦においても「1試合でも多くいい姿を見せたい」という強い執念が、自身の打撃フォームの安定と好結果に直結している。",
+            "来季のレギュラー定着およびクリーンアップ候補として、チームの得点力不足を解消するキーマンへの成長を強く印象づけた。"
+          ],
+          "takeaway": "来季のレギュラー死守へ向けて猛アピールを続ける福永が、残り試合でさらに打棒を爆発させられるか注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "日本ハム・新庄監督「臨時コーチのおかげで打てた」チーム本塁打両リーグ断トツの174本！試合前に春季キャンプで臨時コーチを務めた山崎武司さんと談笑",
+          "source": "ｄメニューニュース",
+          "pub_date": "09/22 23:41",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80ajFDTFBDTWpYSFR5RFBfMFptSnpVQkgtdmRjNUdFbmItc2RhR3N0YjdQZ1hfSzdWRjZGTnpwV3NSUTJ0M2RVTmxVRVlVRENxb24zMlI1M3hKUzFiV2VoZXJPYk1ocFNLdDNzWnlqMVRkR3l0OWd30gF8QVVfeXFMTUpGd0lNRFkzVGpBYVVDYks2OXNnYlhwcTB0aWZPQmltbUdtU0V3bUY4Y1NKN003amJYbUFLbkU2R0xDb0xod2VuekdhbWI5Yi1GT0ZKTHdMR21zR2ozU3M1dkRNc28tamxaOEpNLXV4cF9QbmVHYkJGTmZnMQ?oc=5",
+          "headline": "新庄監督が山崎武司氏の臨時コーチ効果を絶賛",
+          "points": [
+            "日本ハムの新庄監督が、春季キャンプで臨時コーチを務めた山崎武司氏との対談で、打撃陣の快進撃と本塁打量産への貢献を称えた。",
+            "かつて中日の主砲として鳴らした山崎氏の的確な打撃指導が、他球団である日本ハムの選手たちの長打力を劇的に引き出す要因となった。",
+            "球界全体でレジェンドOBの知見が若手育成や他球団の戦力アップにも波及しており、中日の指導体制への視点にも示唆を与える話題である。"
+          ],
+          "takeaway": "他球団をも変える元中日のレジェンド・山崎武司氏の卓越した打撃理論と指導力が、古巣の若手育成にもどう影響するか。",
+          "is_new": false
+        },
+        {
+          "title": "中日 投打に精彩欠き連勝2でストップ 井上監督「1本出ていれば逆の展開になっていた」",
+          "source": "スポニチ Sponichi Annex",
+          "pub_date": "09/23 08:00",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2puWmtRV2ktdllQNzNJWDdPOUkwR0kxLVBoeWFqZUhrYTZERlFmWFFfM3FRWW9aNDdCZ0VIN3FETGQwendLOGpPYjA4SFMwcjRvV1FZSkNzOS0xeUtZckQ3eDZxVTh0SmI0cm1mR2dQd2piV1FIWHRrTlR0YUU3ZDJDRkZHTENfSFRjYjk1SQ?oc=5",
+          "headline": "投打がかみ合わず連勝が2でストップ",
+          "points": [
+            "投打ともに精彩を欠いた中日は試合に敗れ、連勝記録が2でストップ。井上監督は「1本が出ていれば逆の展開になっていた」と悔しさをにじませた。",
+            "好機での凡退やあと一本が出ない勝負弱さが露呈し、今季チームが抱える得点力不足の課題がそのまま結果に直結した形となった。",
+            "残り少ない試合の中で若手野手陣がこの悔しさを糧にいかに勝負強さを身につけられるかが、来季のチーム変革の試金石となる。"
+          ],
+          "takeaway": "好機でのあと一本が出ない課題を克服するため、終盤戦の打線の組み方や若手の勝負強いバッティングに注目したい。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "09/23 08:30",
+        "title": "富樫残留と大型補強！観客動員30万人突破の快挙",
+        "summary": "クラブ史上最多となる年間総入場者数30万人超えと収容率約95％を達成し、熱狂的な盛り上がりを見せる千葉ジェッツ。チームの顔である富樫勇樹との契約継続が発表され、新シーズンに向けた盤石の体制づくりが進んでいる。",
+        "key_players": "チームの象徴である富樫勇樹が契約継続となり、「ナンバー1かつオンリー1」を目指す。さらに、NBA経験を持つ208cmのビッグマン、マット・コステロを獲得。インサイドの強化に成功し、優勝へ向けた戦力拡充を着々と進めている。",
+        "outlook": "神戸の小川麻斗選手からの挑戦状など他クラブの警戒も高まる中、新戦力コステロの融合が最大のポイント。代表で活躍する渡邊雄太らの動向も含め、圧倒的なロスターを誇る新生ジェッツが新シーズンでどう化学反応を起こすか注目だ。"
+      },
+      "news": [
+        {
+          "title": "神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/20 17:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zTm95V0M4TnJyTDRaekpOTE56MG5oa3pNSE1RQm9aUTAwOVdOd29ZVjVSdGZ1ZVBJLXE3VjdpMnNIdk44b2EwTWY2S2V4bE9Pd2pHb3oxQ0xKemFxbEhRV1ZmV3FocDJQNWFkTW1nTnV4LWxyUk5yOGV6dFgyS1k?oc=5",
+          "headline": "小川麻斗が富樫勇樹へ宣戦布告",
+          "points": [
+            "神戸ストークスの小川が日本代表PG富樫に対し「千葉ジェッツには負けたくない」と闘志を剥き出しにした。",
+            "昨季まで千葉に在籍した若手ガードが、古巣対戦に向けて強いライバル心と下剋上への意欲を示した形だ。",
+            "両チームの対戦において、PGマッチアップの激しさと若手の躍動が勝敗を分ける重要な見どころとなる。"
+          ],
+          "takeaway": "古巣ジェッツの牙城に挑む小川麻斗と、それを迎え撃つ絶対的司令塔・富樫勇樹の意地がぶつかる直接対決を見逃すな！",
+          "is_new": false
+        },
+        {
+          "title": "【千葉ジェッツ】クラブ史上最多の年間総入場者数「30万人」超えを達成し、アリーナ収容率は約95％を記録！！そして最終節にて2日連続で1試合の最多入場者数記録も更新！！",
+          "source": "prtimes.jp",
+          "pub_date": "05/07 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaMmlocUdOV2ZMWktucjJreUxFazdGeDdWZHFCUlRxY2xrSEMyT3pYV05tY3JnbEd1Nm9aSmdsNHRoUElQT3ZhdklFaFVpdHZfVThHMlpfR0tOTGl3Sy04TElJN3Uxdi0tNXc?oc=5",
+          "headline": "千葉ジェッツが総入場者数30万人突破",
+          "points": [
+            "クラブ史上最多となる年間総入場者数30万人を超え、アリーナ収容率約95％という驚異的な数字を叩き出した。",
+            "新ホームアリーナへの移行期において、圧倒的な集客力とブースターの熱量がクラブの経営基盤を強固にしている。",
+            "熱狂的なホームの利点を最大限に活かしたチーム運営が、選手たちのパフォーマンスや勝利への後押しとなっている。"
+          ],
+          "takeaway": "新アリーナの圧倒的な熱気と満員の大歓声が、勝負所での選手たちの背中を押し、チームをさらなる高みへ導く。",
+          "is_new": false
+        },
+        {
+          "title": "「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る",
+          "source": "バスケットボールキング",
+          "pub_date": "08/21 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5",
+          "headline": "渡邊雄太がWindow4での復帰を明言",
+          "points": [
+            "負傷離脱中の渡邊雄太が日本代表のWindow4での試合出場に強い意欲を示し、自身のケガの状況を語った。",
+            "八村塁や河村勇輝ら海外組との連携を見据え、日本代表が「黄金時代」を迎えるためのキーマンとして調整を進めている。",
+            "代表チームの戦術的核となる彼の復帰は、国際舞台での躍進とチーム全体のレベルアップに直結する。"
+          ],
+          "takeaway": "日本バスケ界の牽引者である渡邊雄太が代表戦でどんなパフォーマンスを見せ、チームをどう引っ張るか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "渡邊雄太「歴史はこうやって繋がっていく」八村塁＆河村勇輝と“27.8秒”の共演…男子バスケ黄金時代にある明確な目標「3人がまた一緒にプレーできたら…」（宮地陽子）",
+          "source": "Number Web",
+          "pub_date": "09/03 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVUwya2IxZWtSczNMSGEybDRXS1lFZmRqbzY4bzUyUlhRT2x6MW9zZjgteHhtY3hLTERUUTZfT1dKb0VkaFFhd3k2S2J1TzFsNUx4TG9B?oc=5",
+          "headline": "八村・渡邊・河村の夢の共演が実現",
+          "points": [
+            "代表戦で八村塁、渡邊雄太、河村勇輝の3人が同時にコートに立ち、わずか27.8秒間の歴史的共演を果たした。",
+            "日本バスケの歴史を繋ぐ象徴的な瞬間であり、世界の強豪と渡り合うための明確な黄金世代の形が示された。",
+            "この経験が選手個々のモチベーションを高め、今後の国際大会や日本代表のチームビルディングに大きな好影響を与える。"
+          ],
+          "takeaway": "日本が誇る最高峰のタレントたちが同じコートで交わした歴史的な瞬間が、次世代の日本代表の未来を切り拓く。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」",
+          "source": "Basket Count",
+          "pub_date": "06/02 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5",
+          "headline": "富樫勇樹が千葉ジェッツと契約継続",
+          "points": [
+            "チームの顔である富樫勇樹が契約継続を発表し、「ナンバー1にもオンリー1にもなりましょう」とファンへメッセージを送った。",
+            "絶対的エースとして長年クラブを牽引してきた主将の残留は、チームのアイデンティティと優勝への強い意志を示す。",
+            "次季以降も富樫を軸としたオフェンス構築が可能となり、Bリーグ制覇に向けた盤石の体制が維持される。"
+          ],
+          "takeaway": "ジェッツの心臓部である富樫勇樹がチームをどう引っ張り、悲願のタイトル奪還へ導くのかから目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツが208センチのマット・コステロを獲得…NBA経験もあるビッグマン「優勝を勝ち取りたい」",
+          "source": "バスケットボールキング",
+          "pub_date": "07/13 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90Q1RMZkpVQmZiTlR2RzNaZmk0elBsMXNpNDdzVE5rM0xfRXotc1psMFh0VXJHeGstV2VMTzJ0WHVweTVlZ19mSU0xNGNfa3BLWWhmWWpreEp4VnFobV85cUtDV3NacTZ4?oc=5",
+          "headline": "巨漢ビッグマンのマット・コステロを獲得",
+          "points": [
+            "身長208センチでNBA経験を持つ実力派ビッグマン、マット・コステロの獲得を正式発表した。",
+            "インサイドの得点力とリラウンド力強化が急務だったチームにおいて、戦術の幅を劇的に広げるピースとなる。",
+            "新加入のコステロと富樫のホットラインが確立されれば、千葉ジェッツのオフェンスはBリーグ最強クラスへ進化する。"
+          ],
+          "takeaway": "高さと機動力を兼ね備えたコステロがインサイドの要として機能し、ジェッツにどんな相乗効果をもたらすか必見。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "09/23 08:30",
+        "title": "小椋藍が堂々4位復帰＆アコスタ初勝利！角田は試練の時",
+        "summary": "MotoGPオーストリアGPでは小椋藍が怪我からの復帰戦で4位と健闘し、ペドロ・アコスタが待望の初勝利を飾った。一方F1ではハジャーが復帰し、スポット参戦の角田裕毅には来季へ向け厳しい現実が突きつけられる激動の一週間となった。",
+        "key_players": "MotoGPでは初勝利のKTMアコスタがさらなる飛躍を誓い、負傷明けの小椋藍も驚きの4位で存在感を発揮した。F1では怪我から復帰したハジャーが感謝を語る一方、アピール機会を終えた角田裕毅の去就動向が大きな注目を集めている。",
+        "outlook": "MotoGPは次戦もてぎに向け、中上らのさらなるステップアップや日本人勢の活躍に期待が高まる。F1市場では残りわずかとなった来季シートを巡る動向と、トップドライバーたちのル・マン参戦など将来の挑戦への情熱から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "復帰戦の小椋藍が決勝も4位「驚きの連続 これ以上ない週末になった」 ペドロ・アコスタが待望の初勝利【モトGP・第15戦オーストリアGP決勝】（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/21 12:44",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGSWhMQ0VuYm1jVVFtQU5PRmJ1akFic1dzOTFuZlVyd2pMNE9YeW1aY2VUR3Rsa1ZUQm5rcElYUTJ2dkp0ZXF4MUdnREpqTEpvM3Vqcm1LaEFieEFtTExJeWg3dWhZUUtjOXhfV3hDNFAwdVpLbFZ6d1FjbmhSeDA?oc=5",
+          "headline": "小椋藍が復帰戦で堂々の4位完走",
+          "points": [
+            "オーストリアGP決勝で小椋藍が怪我からの復帰戦ながら4位入賞を果たし本人は驚きと手応えを語った",
+            "ペドロ・アコスタが待望のモトGP初勝利を飾りKTM陣営に大きな歓喜をもたらす週末となった",
+            "負傷明けの小椋がトップ争いに絡む走りを魅せたことで今後のシーズン後半戦への期待が高まる"
+          ],
+          "takeaway": "復帰初戦で圧巻の走りを魅せた小椋藍が、次戦以降のレースで表彰台の頂点へどう迫るかが見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "【MotoGP】ついに勝った！ 初勝利のKTMアコスタ、自分自身にさらなるプレッシャーを掛けた決意「土曜日はキャリアで一番恥ずかしいミスだった」（motorsport.com 日本版）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/21 08:46",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tYV9BYUhfTU5iSS1MNm5LU28tT0g2bTI0MEVmMVRDb1pmMHg4YVphT3NHQjNSYThFZEFxN01QbnYxUmowZllIR09ZRkhCTXA3OWRQZWVscmN4Z2NvWU40WjBLUjJJZ2tIS0RoVndKazFGVVFfN0kzd0h5X19rNjg?oc=5",
+          "headline": "KTMアコスタが悲願の初優勝を達成",
+          "points": [
+            "アコスタが悲願のモトGP初勝利を挙げ、土曜日の大失敗を乗り越えて自らに厳しくプレッシャーを課した",
+            "前日の恥ずかしいミスを猛省し、決勝に向けて完璧なメンタルコントロールとマシンのアジャストに成功した",
+            "この初勝利を契機にアコスタがトップライダーの一角として今後のタイトル争いを台風の目としてかき乱す"
+          ],
+          "takeaway": "待望の初勝利で覚醒したアコスタが、若手特有の勢いをそのままに次戦以降も連勝街道を突き進めるか要注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "怪我から回復しF1復帰のハジャー、感謝語る「レースに出られない1ヵ月は、慣れていないことなので辛かった」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "09/22 18:52",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSHBsWS1QbDFfalJNX010eWFiU1d1d2tpVDRVRU1tWEJCSVptZ0RSeXBFNzdDZGhJbVMtcFNyMzJncXNMVkE2UTZrV3dTZ1lDam5MSmlBOExCeUpGUG5fdWZ0OGh1c2pwcVl2aDlyZ1lHT0x3MFVKY3BtazVkNVlucXU3ZjF1Rl90bEE?oc=5",
+          "headline": "ハジャーが負傷からF1復帰へ感謝",
+          "points": [
+            "負傷による離脱を余儀なくされたハジャーが辛かった1ヶ月間を振り返りチームへの感謝を語った",
+            "若手ドライバーにとって実戦経験の空白期間は致命的だが、強靭な精神力でコンディションを戻してきた",
+            "万全の状態でF1グリッドに戻ったことで、残されたシートを巡るし烈なサバイバル戦に再び参戦する"
+          ],
+          "takeaway": "苦難の離脱期間を乗り越えたハジャーが、復帰戦でどれだけの速さと勝負強さを取り戻しているか要チェック。",
+          "is_new": false
+        },
+        {
+          "title": "「角田裕毅はスポット参戦の3戦で衝撃は与えなかった」ハジャー復帰で\"今季終了\"の角田に突きつけられた厳しい現実…来季F1の残されたシートは7つだが…もうアピール機会はなし（RONSPO）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/23 06:33",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50OGNDUGtPQTRTQ0JNOURPVEROOXc5eGEtY1R5SFBKbDNhSWdaQWJYRDVEVDkwSzU4S1hPTHFETEZleWN5UDlfcGs1Y3ZlZ2I2S1J0ZUUtaldFRHk3TTM0aVBndTZ6ZEhOYmpjMkhBMEZNNU14cGdtZmJ4cnpUSzA?oc=5",
+          "headline": "角田裕毅に厳しいF1サバイバルの現実",
+          "points": [
+            "スポット参戦3戦の角田裕毅はインパクトを残せず、ハジャーの復帰により今季の出場機会が絶たれた",
+            "限られたチャンスの中で結果を出すことが求められたが、マシンの戦闘力やチーム事情に阻まれアピール不足に",
+            "来季のF1シートが残りわずか7つとなる中、角田の去就を巡る交渉は極めて厳しい局面を迎えている"
+          ],
+          "takeaway": "崖っぷちに立たされた角田裕毅が、来季のF1シート確保に向けて今後どのような活路を見出すのかが最大の焦点。",
+          "is_new": false
+        },
+        {
+          "title": "【F1】フェルスタッペンとノリス、目指す「ル・マン参戦」と「若手育成」 同じ情熱、異なる2人の“自分流”とは（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/21 17:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12RkdQMWtqYTlxZUtWcHlPT0VmVjk4QTdzWDhNQldTZXRQdFNXT0hsYVNlWWg3bDF5bTQ1OHk4VFdIWjVDakFUSG41R2kyQjJWWlNKVHR4SzZJdEt2SGNBdS1nbWt1bm56NFNQX0QtUTdWZlBaWHZseklBQlFVZU0?oc=5",
+          "headline": "フェルスタッペンとノリスのルマン夢",
+          "points": [
+            "F1トップのフェルスタッペンとノリスがル・マン25時参戦や若手育成に対する熱い情熱をそれぞれ語った",
+            "両者ともに勝利への執念は共通しながらも、アプローチや育成の哲学には独自の自分流のスタイルが光る",
+            "F1の枠を超えたレジェンドたちの挑戦意欲は、モータースポーツ界全体の将来やカテゴリー間交流を活発にする"
+          ],
+          "takeaway": "F1を牽引するトップドライバーたちが将来的にル・マンの舞台でどのような共演と激闘を見せてくれるのか非常に楽しみだ。",
+          "is_new": false
+        },
+        {
+          "title": "決勝で入賞の中上、もてぎへ向けた足がかりを築く「この結果は予想していなかった」／MotoGP第15戦オーストリアGP",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/21 11:38",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjWHljdnJZdlBycDNBRjlVN3dUR01HNlFsVC1rSS1XbWlXTE80ZnNiWnc0NElGQ1N3RGlNV1FqT1ZHRVJ0bWdicGdqSTV6dVBWTDlsMnloay1lTTJRYlBkTFNlakNLQkd5TGl5STd0VU9kblRFWEtvVUQ3bHg2T0E?oc=5",
+          "headline": "中上貴晶が入賞で次戦もてぎへ弾み",
+          "points": [
+            "オーストリアGP決勝で中上貴晶が粘りの走りで入賞を果たし、予想外の好結果に安堵の表情を見せた",
+            "マシンのセットアップに苦しむ中でチームと一丸となり、決勝に向けた決定的な足がかりを築くことに成功した",
+            "次戦の日本GPもてぎに向けて、母国ファンの前でさらなるポイント獲得と上位進出を狙う大きな弾みとなった"
+          ],
+          "takeaway": "自国開催の日本GP・もてぎを控える中上が、この好調な流れを維持して母国ファンの前で躍動できるかに期待が高まる。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "09/23 08:31",
+        "title": "大谷翔平の最短復帰と久保建英の試練、日本人・海外スターの動向",
+        "summary": "直近1週間は野球とサッカー界で明暗が分かれた。MLBでは大谷翔平が最短での戦列復帰へ向かいチームに活気を与え、山本由伸は自己ベストの投球内容を維持。一方、サッカーでは久保建英が2026年に入りノーゴールとプロ人生最大の試練に直面し、現地メディアでも大きな懸念材料となっている。",
+        "key_players": "ドジャースの大谷翔平が14試合ぶりの出場へ向け調整しチームの攻撃力再強化の鍵を握る。山本由伸は長いイニングを見据えた高水準なパフォーマンスを維持。不振にあえぐ久保建英は、次戦以降でこの停滞ムードを払拭する結果を残せるか全視線が注がれている。",
+        "outlook": "大谷の復帰によるドジャースの打線活性化と、救援起用が明言された佐々木朗希の起用法が当面の大きな見どころ。また、苦境の久保がいかにして得点を奪い復活を果たすか、そしてBリーグの高知初開催など国内バスケットボールの盛り上がり拡大にも注目が集まる。"
+      },
+      "news": [
+        {
+          "title": "控え転落の久保建英、なんと2026年はまだ『0ゴール』…「プロ人生最大の試練」とスペイン紙憂慮",
+          "source": "ｄメニューニュース",
+          "pub_date": "09/23 06:44",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQnZhYWNsazF2YzRXZ2hITUU2UzZUYVBVQ295N29pWjRfWEctTE5QSXd5NEUzUmlGYXRKbENucG1LSEIxR1Q2d0NEZDRYTkRlMUhQTFc4Qnk1UjRhdVkwQkMyMzE1UkdQcjh0LW1pNFRvTXBwZTROcEhaWVg2TXF4eEdtX0ctUzU3WUtfbXJ1RW0zTUFkZFc2M0xSU2lfUdIBowFBVV95cUxPd3FnVGg3VmJsZk1lbVNQNy1HRHIxR2lKQ3dCSnlPSmRJTjA4WDNKTUpNXzVERFB5V0hORy0yaVhFVHhTWXFuZVhuREkySEhENEI5TDNlMkJHUDFITU53aXM3MGFJZGROSTZNZXgxRlo4eW9pUXZaZ1RfT3h6cDcyVDV1NzVtcExYazRNV2tjbnhoVVliMHJCSWpjdFAyUTlOX2xn?oc=5",
+          "headline": "久保建英が2026年ノーゴールで試練",
+          "points": [
+            "スペイン紙が久保建英の控え降格と2026年に入りまだゴールがない現状をプロ人生最大の試練として大きく憂慮している。",
+            "戦術的な役割の変化やチーム内での序列低下が重なり、決定的な仕事を残せない厳しい時期を過ごしている。",
+            "今後のレギュラー奪還と結果を残せるかどうかが、キャリアの大きな分岐点として厳しく問われることになる。"
+          ],
+          "takeaway": "限られた出場時間の中でいかに存在感を示し、自身の得点力でスタメンの座を奪い返せるかを見守りたい。",
+          "is_new": false
+        },
+        {
+          "title": "ジョアン・ペドロはプレミアリーグ屈指のストライカーの中でどの位置にいるのか。元チェルシーFWカールトン・コールが、チェルシーの背番号9に「2桁後半」のゴール数を予想",
+          "source": "Goal.com",
+          "pub_date": "09/22 22:58",
+          "link": "https://news.google.com/rss/articles/CBMi1ghBVV95cUxQYVZTSFVLTW5tQVJySF9TRTFEVkhtWjhXQmd5aEJYTEU0ay1Yb0ZJdmUwSnoxYmhOTm5xdS1VQjhjdkstUGhlbTFJOGxGT2NXQUtNYjJVSGQ3Y3FYNGQ1TVNSVkpSSjZKUW12S1c1cEdJSlBCVWhidEVveTF4T3RkX2Q4ekhLbFZYSnREVGdfTkVpUGxkY2lvR2tiVHdzNmRaNjgyWkxaaXRlZTAzYWcxbzdKVnUtdjQwRklhSmR5UmlvWHdURzYyZllzRnUwWDVVcXVFYUlyWWlISk4wdlB3Uk0weEV6bzR3UjM3Nk9WQ3Z3OGtLazJ6OHJBQWh5Mi15WDAxUGRTOWV5eERSbVh2LUZJSkxBYi1FOVpGdnJFZkU2cE80Y0JqNG9vYzNIeVF4bXBrQ0xmeHR1X0Znc1l5eWozMElrbFg2azQ5bmZpZVZ4XzhQWWVKTndrMUxZS2xYOWhSbUZCQzRUWFpsTjVsZVpxc09HYjdxcnRjUUJYYlNQTk1fak1GRUpmTEZSMHprUWhSaVhTa3U2eTNGekt0eUJTZEMwZmg4VTRxb1NBci1YNzVYRWdWV3c1WENYdE9WSk1hWXBHOGdtQ0cxQU9RWDNSaVJJX25DNlBpZFc4dTJxTU1KRU02c1RWZXhyRnNubkFPVUdhQTZKRVQxaVhzVmZBTzRJOEo3LXp4V25DejRqN2pYcVBQVzk3anB5SzBiamZvRW5TXzhkYS1sTHh0S3FVLTRRN1U1THNwSUlMYjRIbkZQal8tVTgtakJOSkVwQ1Zlc3ZTUzBYbVh4WHZaTzhicnk2OTh0c09DeXk2XzhDeXZQaVBYVkhFbklpTl9FS1hFQldab25GUnZUNTE3WnJiaVBBVzdLYVlaYjU1VXBrbkluSm1sd3BtM3daSkRRRFZOMXdfdE5HR1VDT2tLVm5LeVRwNEZad3BsLXlZXzk4T1pVZHpKMnFzQ0U4bUNJeTNKTjF2OG50aWFhOWZiRjZ1QzVLZUdkZ1p6c2g2ZllFZUI4QnVFcEJETzNrQ1NqODVmOVJ1ZDI1RVFfSEdTUk9CYWE5aDJuSWRlTmIxbGZKNHpsMGJXbjFVZFlzNG1TX0l2UXdiTG5Ec2RTUnlmYXZObHVZVy1GQXh4NlZwNkI4dUNhQnFqZFRDTVM1LTZWejZRYVhaQ0VmUy1HMlJZWUg2TjljUVprdURjSXhDeEhMSUJ1X2gtNWF1WHZCUDAtWkhaZzhmdF9JTWF3NFE3NFJ6LTRMWk9HWU9CeTlRUjlza3IyYlFxWmN1RGF6dnFmWVo3RTVYMUhRNmNtY2lQVkJpeVFBU0lPT2VyR2JCY21VNTJiZVZSNTBYMzRTRmd2dnp2SlZ3N1VrOGREbmhDNTg5em4wajJOM0lxcnNrSTZmOUtVSkpZT1A1QnN0SHEwLXptdjcyaWkxcTNQQXdKYk5XUVJxUC0yTDlkdllQUzJ4Q1FNVnc?oc=5",
+          "headline": "ペドロがプレミア屈指のFWへ飛躍確実",
+          "points": [
+            "元チェルシーFWのカールトン・コールが、チェルシーの背番号9を背負うジョアン・ペドロの今季ゴール数を2桁後半と予想した。",
+            "屈強なプレミアリーグのDF陣を相手に、抜群の得点感覚とポストプレーでチームの攻撃陣を牽引する存在となっている。",
+            "今後の上位争いや欧州カップ戦進出において、彼の爆発的な得点力がチームの成績を大きく左右する鍵となる。"
+          ],
+          "takeaway": "新エースとして期待されるジョアン・ペドロが、強豪相手の試合でどれだけ決定的な仕事を果たせるか必見。",
+          "is_new": false
+        },
+        {
+          "title": "山本由伸、勝利数＆WHIPは自己ベスト、奪三振率は微減　今季パフォーマンスを高橋由伸氏が分析「長いイニングを投げるために…」",
+          "source": "ｄメニューニュース",
+          "pub_date": "09/20 14:45",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS01rWlVidkd3YWw1T3Q4Szh1UFpmQV9ITDRQd3ZiWXZCNlZLM1JFTnBQMWRuU05WbFdzU2xqWjA3a093aDlYMlctR095bEtua0IydXozMnZPXzZhaDBvU3JuMzJxX1cyektQNE1vbEtNekFidTVCX3RWUGs1amlDRHZUT2FIQdIBiwFBVV95cUxOM3JWVFB3Nm9ETW9JQ0huX3Vfa0x4SnpGb3JzXzl3REhJd01MeFJuNlNkdi1iWENQa2N1cFJIOGh5dlVnNlEybWRBbW9pLVF3Z0RzTkd5cDk0TnpaaWRDVVhUZkVjRWd3OG9SYzAxSzVKN3dkdlZNdVk1UVhWQ1Mtb19pTXprWk14VUhn?oc=5",
+          "headline": "山本由伸の自己ベスト更新と投球術",
+          "points": [
+            "山本由伸は今季、勝利数とWHIPで自己ベストを更新する一方で、奪三振率はわずかに微減する結果となった。",
+            "高橋由伸氏が分析したように、長いイニングを安定して投げるために省エネ投球や打たせて取るスタイルへ適応している。",
+            "シーズンを通して計算できる先発の柱として、チームの地区優勝やポストシーズン進出の最大の原動力となっている。"
+          ],
+          "takeaway": "三振数にとらわれず打者を圧倒する進化を遂げた投球術と、シーズンを完走するスタミナの維持に注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "大谷翔平が日本時間24日に最短復帰へ！ドジャース監督「ラインアップ入る」と明言 14試合ぶり出場へ（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/23 08:28",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84LWlBUGhCNFFfeUZZZS1ENkU3SmwtUVpaSXNJR1hyX2tGLUVDY19YcUdIMFhTR1Z3dW5tUmtfRlhTakhTM0FXN3FOVXNzeElqSHJQbW1HZWNOWVRXSERNVklvbURYUXJoR3BOLWl4Zk5CZ3ZuU0d2QjU4YVhLUkE?oc=5",
+          "headline": "大谷翔平が最短でスタメン復帰へ",
+          "points": [
+            "ドジャース監督が日本時間24日の試合で大谷翔平が最短でのラインアップ復帰を果たすと明言し、14試合ぶりの出場へ向かう。",
+            "怪我の影響による長期離脱を懸念されたが、驚異的な回復力と調整力で万全の状態で再び打席に立つ準備が整った。",
+            "首位争いを繰り広げるチームの打線に絶対的な大黒柱が戻ることで、攻撃力の爆発とチーム全体の士気向上につながる。"
+          ],
+          "takeaway": "復帰戦からいきなり快音を響かせ、打撃タイトル争いやチームの勝利を牽引する圧倒的なパフォーマンスに期待。",
+          "is_new": false
+        },
+        {
+          "title": "「迫力がすごい!」プロバスケ・Bリーグが高知で初試合 神戸と広島が熱戦 八村塁選手の弟・阿蓮選手も（FNNプライムオンライン）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/22 10:45",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GNjNpSElfYTFDZVpuaWVveHg2TnA1Z19HODNXNzlBcmtLeHl4WWFiVEQ4dlpfd0dqQkx2OHVJOVJFR3ZOTGl1ZG5URzBHajRKNE1rX3dvdmU2bUREeHZ4MFBoMm96VnVVOTlIMXJlQy1MUFF1ZlJjc2paaWQ0TEE?oc=5",
+          "headline": "Bリーグが初の高知開催で熱戦披露",
+          "points": [
+            "プロバスケットボールBリーグが球団史上初めて高知県で公式戦を開催し、神戸と広島が満員の観客の前で激闘を展開した。",
+            "八村塁の弟である阿蓮選手もコートに立ち、迫力あるプレーで地方のバスケットボールファンを大いに魅了した。",
+            "全国各地への普及活動と競技の認知度向上を通じて、Bリーグ全体の市場拡大やバスケ人気の一層の定着に大きく寄与する。"
+          ],
+          "takeaway": "バスケ未開拓の地域での熱狂的な盛り上がりと、日本人ビッグマンたちの迫力あるコート上の競い合いを見逃すな。",
+          "is_new": false
+        },
+        {
+          "title": "ロバーツ監督「先発は４人いればいい」佐々木朗希の救援起用明言 昨年PSは３セーブで「信頼」",
+          "source": "日刊スポーツ",
+          "pub_date": "09/23 08:01",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ1JtcHJ0N3FBOFE5OUV3eUpqTmRueVRQQk05MVhfQlZWQ3FTZWhIZ01PMlpSOUpjb05LU0VhTlFlZlgwVGJhWmZFQkdTWDYwQkhvSTF3ODNvcHQxVU1McjA3V29kR2hwTG9Pc2xWdTl4V2FkbWtvNS1DcV9hb2RmM3lWTlA4OHh3dl81RkhIQ2hjZnJjT1ZKakVobkN1d2NncmpNdjA3LWtoUQ?oc=5",
+          "headline": "ロバーツ監督が佐々木朗希の救援起用明言",
+          "points": [
+            "ドジャースのロバーツ監督が「先発は4人いればいい」と語り、佐々木朗希を救援投手として起用する方針を明確に明言した。",
+            "昨季のポストシーズンで3セーブを挙げており、その圧倒的な球威と勝負強さに対する首脳陣からの絶大な信頼の表れである。",
+            "短期決戦を勝ち抜くための秘密兵器として、試合終盤の最も重要な局面を任されることでチームの勝利に直結する役割を担う。"
+          ],
+          "takeaway": "守護神やセットアッパーとして、痺れる場面でマウンドに上がる佐々木朗希の圧倒的な剛速球で三振を奪う姿に注目。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

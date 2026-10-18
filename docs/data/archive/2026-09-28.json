@@ -1,0 +1,386 @@
+{
+  "date": "2026-09-28",
+  "updated_at": "09月28日 08:41",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "09/28 08:40",
+        "title": "球団ワーストの逆転負けで最下位転落、苦悩のシーズン最終盤",
+        "summary": "今週の中日は球団最多タイ・史上40度目の逆転負けを喫し、最下位へ転落。金丸が5回5失点で12敗目を喫するなど、終盤の継投やブルペン運用に課題を残す厳しい戦いが続き、チーム全体に重い空気が漂う結末となった。",
+        "key_players": "ドラフト1位の金丸が5回5失点と苦しみ12敗目。井上監督は今後の起用再考を示唆した。また、新助っ人ウォードは本塁打数が期待値を下回るなど打撃面での実像と課題が浮き彫りになり、次季へ向けた大きな検証ポイントとなっている。",
+        "outlook": "残り2試合を「2つとも白星で」と指揮官が語る通り、意地を見せて明るい材料をつかみ取れるかが最大の焦点。来季の巻き返しへ向け、若手や新たな戦力の起用を含め、チームの立て直しに向けた光明が見える戦いに期待したい。"
+      },
+      "news": [
+        {
+          "title": "中日 球団最多タイ39度目逆転負け 金丸夢斗5回5失点で12敗目 井上監督は今後の起用「再考します」（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/26 05:05",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlc3BkY0RPdXBjbU5USFJEb3c1aVZ4dE9NTzNwNlRUMEJvS29mNTRna1JaUHVVRUtBenhTM0d0UUVfTFlfQjNmSUhZNFJKVVRiTVBmc2dzemtPOHVZWHhXdDJLQnFBSnplMkRON0M3WTUtSHcweWItOEFUWmlpZm8?oc=5",
+          "headline": "金丸が5回5失点で12敗目、逆転負け",
+          "points": [
+            "金丸夢斗が5回を投げ5失点を喫し、今季12敗目を記録したことで試合は逆転負けとなった。",
+            "球団最多タイとなる39度目の逆転負けを喫し、投手陣の継投策やリード面に課題が露呈した。",
+            "井上監督が試合後に今後の金丸の起用法について「再考する」と明言し、次戦以降のローテーション変更が示唆された。"
+          ],
+          "takeaway": "若手左腕・金丸の次回登板に向けた配置転換や、井上監督の厳しい決断がチームの残り試合の起用にどう影響するか見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "【中日】球団史上最多シーズン40度目逆転負け　最下位転落…井上監督「10月は２つとも白で」",
+          "source": "日刊スポーツ",
+          "pub_date": "09/26 23:04",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0teExrR0RHUmlyT0FBd2dVSnN5enFKd0p0c0FhZkhlWDVDVF9SZHR1NWV2bHJTbnJTc0pESXprRm0zMjNLWHZXOWdUSGNTdEs1RkpWMklydmVKTVp2V3hDcmgxVzh6cUVlVFB0Z1M2dDfSAXhBVV95cUxNQnRxY1pvdENCUVA0anBEUExGTG5tY0VHTmtWWGtENVp2eHdBaUZ4U1FreVhQUXZVcWdicnllb0wyWFZGaTNZX0ZGX2ZuMmprY0xmYXVPQnpEclB6bnRKR2VGUzJIQXFEd211WGlFaTJSeXZ4Ry1kS3g?oc=5",
+          "headline": "球団ワーストの40度目逆転負けで最下位転落",
+          "points": [
+            "シーズン40度目の逆転負けを喫し、ついに単独最下位へ転落する苦しい展開となった。",
+            "終盤のリードを守りきれない試合が年間を通じて頻発し、ブルペンの崩壊と層の薄さが致命的な弱点となった。",
+            "井上監督は「10月は２つとも白で」と語り、最下位脱出と来季への布石となる連勝を強く誓った。"
+          ],
+          "takeaway": "シーズン最終盤の戦いでチームが意地を見せ、最下位脱出と来季につながる白星で今季を締めくくれるか注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "中日新助っ人ウォード、本塁打36発から18発の「半減」にカラクリ データを分解して見えた実像（三尾圭） - エキスパート",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/26 07:48",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRXVhN0pLRy1GbmF0QUM4aUxST2gxbjg4R1ZSbnRNT25LSXV3UFF3dVRuZ0lYRGZtOEVTb282dUx4UEU2aGJvSmhEVjhBZkZFcHhQNmVZODBzY2ppVUotMmFKUmg3SjZzLUJ1WXBSMkxjd3gwNEE3Y281SnlJUERJU1ZGTmtoWkZz?oc=5",
+          "headline": "新助っ人ウォードの凄まじい本塁打激減の真相",
+          "points": [
+            "新外国人のウォードが、母国での36本塁打から今季は18本塁打へと大きく数字を半減させた。",
+            "詳細なデータを分解して検証した結果、日本の配球や外角攻めに対する適応の苦しさが数字に表れた実像が判明した。",
+            "来季もチームの主軸として期待されるだけに、このデータを踏まえた打撃スタイルの修正やインコースの克服が急務となる。"
+          ],
+          "takeaway": "データが明かした弱点を来季までにどう克服し、かつての長打力を取り戻せるか、球団の残留・補強方針の判断材料になる。",
+          "is_new": false
+        },
+        {
+          "title": "【中日・井上監督語録】9回サヨナラ被弾「ピッチャー全員つぎ込んででも」「ブルペンの中の選択として、橋本に任せた」",
+          "source": "中日新聞Web",
+          "pub_date": "09/26 22:16",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pZ3NfUmpnaHBjaWdkMEZLUWVjZnEyOExoSTgtcURhUlM4YzFvQjZOakt5Tjk4cFh1ZWFocGRScDJKMG1LeVZqNHFhM01QT014OUI3LQ?oc=5",
+          "headline": "井上監督が語る9回サヨナラ被弾と継投の裏側",
+          "points": [
+            "9回に痛恨のサヨナラ被弾を喫した場面で、井上監督は「ピッチャー全員つぎ込んででも」と総力戦の構えだったことを明かした。",
+            "ブルペンの残された選択肢の中から、首脳陣は迷わず橋本にマウンドを託したと采配の意図を説明した。",
+            "一瞬の判断が生死を分ける緊迫した救援陣のやり繰りが、今季のチームの苦しい台所事情を如実に物語っている。"
+          ],
+          "takeaway": "指揮官が全幅の信頼を置くリリーフ陣の再構築と、来季に向けたブルペンのエース格発掘がいかに進むかに注目したい。",
+          "is_new": false
+        },
+        {
+          "title": "「湿っぽい感じになっている」 中日・井上監督、サヨナラ負けで最下位転落 残り2試合「2つとも白星で終わりたい」来季への光明つかめるか：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "09/26 22:28",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xUEV6VDR1eXFBNVZkRGxEQ04tZjQ0LWp2Yk91SGw2ejllV2xySW5aSDl1NndfbW5lU3hIQmRSdWxwOHhiWVZlYmJsRjh3Q2JnRnZESA?oc=5",
+          "headline": "最下位転落でチームに重く漂う「湿っぽい空気」",
+          "points": [
+            "サヨナラ負けで最下位に転落したことで、チーム内には「湿っぽい感じになっている」と重苦しい雰囲気が漂っている。",
+            "井上監督はこの停滞ムードを払拭すべく、残り2試合を「2つとも白星で終わりたい」と強い言葉でナインを鼓舞した。",
+            "この悔しさを来季への光明に変えられるかどうかが、オフシーズンのチーム改革と練習への姿勢を大きく左右する。"
+          ],
+          "takeaway": "どん底の最下位から這い上がるため、最終戦に向けてチームが一丸となり、明るい兆しをつかむラストスパートを見届けたい。",
+          "is_new": false
+        },
+        {
+          "title": "【サッカー日本代表】森保監督、28日ベネズエラ戦は「大幅変更でいきたい」塩貝、小久保、中野らの起用が有力「経験の浅い選手をスタートで起用して…」（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/27 17:27",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oMGV2bm9wNV9tb3R3RUk4MUtfamJCbEQ5emZpWHJXLXVXUDA3ZERVYTVvaFlVVzdLdVE0R1E0Zmw0c09oUDY1Ym96ZkNjaTBveVlkWWdZZFpBakdaTmxSQXVkTVpaeG5GOFpPVDRLbjktSWZqT25Za3lRNWxPaDg?oc=5",
+          "headline": "森保監督がベネズエラ戦でスタメン大幅変更を示唆",
+          "points": [
+            "サッカー日本代表の森保一監督が28日のベネズエラ戦に向け「大幅変更でいきたい」と方針を明確にした。",
+            "塩貝、小久保、中野ら経験の浅い若手選手をスタートから積極的に起用する方針が濃厚となっている。",
+            "チーム全体での底上げを図りつつ、国際舞台での若手の適性を見極める重要なテストマッチとなる。"
+          ],
+          "takeaway": "抜擢された若手選手たちが指揮官の期待に応え、今後の代表争いに割って入るような強烈なアピールを見せるか要注目だ。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "09/28 08:41",
+        "title": "富樫残留と30万人突破の快挙！代表では新体制へ始動",
+        "summary": "今週の千葉ジェッツは、クラブ史上初の年間総入場者数30万人超えを達成し、圧倒的な熱量を証明。また、チームの顔である富樫勇樹選手の契約継続が発表され、新シーズンへ向けた強固な基盤が整う歴史的な一週間となった。",
+        "key_players": "契約継続が発表された富樫勇樹は、日本代表候補メンバーにも復帰。神戸の小川選手からの挑戦状を受けるなど、次季もリーグの主役としてけん引する。また、渡邊雄太の日本代表での共演や復帰への意欲もチームに好影響を与える。",
+        "outlook": "日本代表戦を見据える富樫のコンディション維持とリーダーシップに注目。クラブとしては大記録を打ち立てた熱狂を維持しつつ、悲願のタイトル奪還に向けたロスター構築とチームの戦術深化が次なる大きな見どころとなる。"
+      },
+      "news": [
+        {
+          "title": "神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/20 17:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zTm95V0M4TnJyTDRaekpOTE56MG5oa3pNSE1RQm9aUTAwOVdOd29ZVjVSdGZ1ZVBJLXE3VjdpMnNIdk44b2EwTWY2S2V4bE9Pd2pHb3oxQ0xKemFxbEhRV1ZmV3FocDJQNWFkTW1nTnV4LWxyUk5yOGV6dFgyS1k?oc=5",
+          "headline": "小川麻斗が富樫勇樹と古巣対決へ闘志",
+          "points": [
+            "神戸ストークスの小川麻斗が日本代表PGである千葉ジェッツの富樫勇樹に対し、ライバル心を剥き出しにして宣戦布告を行った。",
+            "昨季まで千葉Jで薫陶を受けた若手ガードが、成長した姿を示して古巣撃破を果たすべく、強気な姿勢を貫いている。",
+            "両チームの対戦において、司令塔同士のマッチアップが勝敗を分ける極めて熱いキーファクターとして注目を集める。"
+          ],
+          "takeaway": "元チームメイトである小川が富樫の牙城をどう崩すか、若武者の下克上バトルから一瞬たりとも目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "【千葉ジェッツ】クラブ史上最多の年間総入場者数「30万人」超えを達成し、アリーナ収容率は約95％を記録！！そして最終節にて2日連続で1試合の最多入場者数記録も更新！！",
+          "source": "PR TIMES",
+          "pub_date": "05/07 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaMmlocUdOV2ZMWktucjJreUxFazdGeDdWZHFCUlRxY2xrSEMyT3pYV05tY3JnbEd1Nm9aSmdsNHRoUElQT3ZhdklFaFVpdHZfVThHMlpfR0tOTGl3Sy04TElJN3Uxdi0tNXc?oc=5",
+          "headline": "千葉Jがクラブ史上初の年間30万人動員を達成",
+          "points": [
+            "千葉ジェッツは今季の年間総入場者数が30万人を突破し、アリーナ収容率約95％という驚異的な数字を叩き出した。",
+            "クラブの圧倒的な集客力と熱狂的なブースターの支えが証明され、新アリーナ移行期に向けて確固たる基盤を築いている。",
+            "最終節には2日連続でクラブの1試合最多入場者数記録を更新し、ホームアドバンテージがさらに強固なものとなっている。"
+          ],
+          "takeaway": "Bリーグ全体を牽引する圧倒的な熱量を持つブースターの後押しを背に、千葉Jが頂点へ向け勢いを加速させる。",
+          "is_new": false
+        },
+        {
+          "title": "「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る",
+          "source": "バスケットボールキング",
+          "pub_date": "08/21 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5",
+          "headline": "渡邊雄太がW杯予選Window4での復帰を宣言",
+          "points": [
+            "負傷離脱中の渡邊雄太が取材に応じ、コンディションが順調に回復しているとしてWindow4での代表戦出場に強い意欲を示した。",
+            "日本バスケ界を牽引する大黒柱として、チームメイトである八村塁や河村勇輝らと共に日本代表を牽引する覚悟を語っている。",
+            "主力の復帰により代表チームの戦術的レイヤーが一段と厚くなり、アジア予選突破に向けたチームの求心力がさらに高まる。"
+          ],
+          "takeaway": "国際舞台で再び日本代表のユニフォームを纏う渡邊が、勝負のWindow4でいかにチームを勝利へ導くか必見。",
+          "is_new": false
+        },
+        {
+          "title": "渡邊雄太「歴史はこうやって繋がっていく」八村塁＆河村勇輝と“27.8秒”の共演…男子バスケ黄金時代にある明確な目標「3人がまた一緒にプレーできたら…」（宮地陽子）",
+          "source": "Number Web",
+          "pub_date": "09/03 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVUwya2IxZWtSczNMSGEybDRXS1lFZmRqbzY4bzUyUlhRT2x6MW9zZjgteHhtY3hLTERUUTZfT1dKb0VkaFFhd3k2S2J1TzFsNUx4TG9B?oc=5",
+          "headline": "八村・渡邊・河村の奇跡の共演が実現",
+          "points": [
+            "日本バスケの黄金時代を象徴する八村塁、渡邊雄太、河村勇輝の3選手が、公式戦のコート上で歴史的な共演を果たした。",
+            "わずか27.8秒間の短い時間ながら、世界最高峰の舞台で培った技術と高いシナジーが融合し、強烈なインパクトを残した。",
+            "次世代へつながる明確な強化の道筋が示され、日本代表が世界強豪国と対等に渡り合うための新たな黄金期が到来している。"
+          ],
+          "takeaway": "日本バスケの歴史を塗り替える才能たちが融合した奇跡の瞬間が、今後の国際大会でどんな化学反応を生むか期待大。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」",
+          "source": "Basket Count",
+          "pub_date": "06/02 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5",
+          "headline": "千葉ジェッツが富樫勇樹と契約継続を発表",
+          "points": [
+            "千葉ジェッツはチームの象徴であり精神的支柱である富樫勇樹との契約継続を正式発表し、クラブの顔を死守した。",
+            "「ナンバー1にもオンリー1にもなりましょう」という熱いメッセージが交わされ、悲願のBリーグ制覇へ向け体制が整った。",
+            "チームの戦術構築における絶対的な核が残留したことで、来季以降も安定した優勝候補筆頭として君臨し続ける。"
+          ],
+          "takeaway": "チームの絶対的リーダーである富樫が引っ張る千葉Jが、来季こそ悲願のリーグ制覇を成し遂げられるか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "【バスケ日本代表】富樫勇樹がW杯予選Window4に向かう代表候補メンバーに復帰「自分の立ち位置が今までと違うことは理解しているがーー」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "08/14 16:00",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTBXVUlSX0VtWS1LUk9zSWd2aU44a3ZCMXVZZ0J2RGY1SjA3bFlQVTYzU3Rsc1ZJOEdVUmhHa0plSWVDaHNEbTJfR3QwQnJ5NGM0c3BNSWo5cmlMaGhiQjFNODVPNTJNQ3hXbmdwOGZCbEhQdnUwY2w3bzNWb1haZWUzazBHWGttV1pGSHJB?oc=5",
+          "headline": "富樫勇樹が日本代表候補に電撃復帰",
+          "points": [
+            "W杯予選Window4に向けた日本代表候補メンバーに富樫勇樹が復帰し、これまでの立場とは異なる役割への覚悟を語った。",
+            "海外組や若手の台頭が著しい代表チームにおいて、ベテラン司令塔としての冷静なゲームメイクと精神的支柱の役割が期待される。",
+            "代表と所属する千葉Jの両方で主軸を担う過密日程の中、チームを勝利へ導く卓越したリーダーシップを発揮する。"
+          ],
+          "takeaway": "進化を続ける日本代表の中で、司令塔・富樫が新体制のチームをどうオーガナイズし勝利を掴むのかに注目。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "09/28 08:41",
+        "title": "モータースポーツ激動の1週間：トヨタ逆転劇とF1・MotoGP最新動向",
+        "summary": "直近1週間は耐久レースでトヨタが優れた戦術により大逆転勝利を飾り、アルピーヌを下す劇的な展開となった。一方、F1ではフェルスタッペンの将来的な耐久参戦意欲が示され、各チームの苦戦や予選の戦いぶりが浮き彫りとなっている。",
+        "key_players": "フェルスタッペンは2027年のニュルブルクリンクやスパ24時間への参戦意欲を語りファンを沸かせた。また、ホンダ折原GMがサーキット特性に苦しむ現状を明かすなど、各陣営のキーパーソンたちが次戦へ向けて動いている。",
+        "outlook": "トヨタの戦術的勝利の要因分析や、アルピーヌのリベンジ戦に注目が集まる。さらにF1各チームのパフォーマンス改善や、2026年秋葉原でのMotoGPファンフェストなど、カテゴリーを越えた今後の盛り上がりに期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "【F1】フェルスタッペン、2027年のニュルブルクリンクとスパ24時間に参戦意欲 ル・マンは「今のリストにない」（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/28 00:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zZGg4QkRuczRuT2pYMGhOSkVIUUhxUUtLUDYtYWsyX2ltUTJuUmVPdjVHd1BhbFpjVDdLTjlUY0l3TW9zYnJMeWRxX09YWHJTNllEckJ6RE5rVWpzR2JDZWE1OHNNd0paSXExcDlWd1dCeGlKWUhnTXJXWXRlQU0?oc=5",
+          "headline": "フェルスタッペンがGT3参戦に意欲",
+          "points": [
+            "F1王者フェルスタッペンが2027年にニュルブルクリンク24時間やスパ・フランコルシャン24時間への参戦意欲を表明した。",
+            "ル・マン24時間については現時点での参戦リストには入っていないと明言し、GT3レースを中心に挑戦を視野に入れている。",
+            "F1トップドライバーによる耐久レースへの本格参戦の可能性が高まり、モータースポーツ界全体の注目を集めている。"
+          ],
+          "takeaway": "F1と並行して他カテゴリへの参戦を模索するフェルスタッペンの動向と、現実になるかもしれないGT3での走りから目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "【2026年9月30日開催】MotoGP日本グランプリ公式プロモーションイベントが「MotoGP Fan Fest Tokyo」として秋葉原に上陸！",
+          "source": "carview!",
+          "pub_date": "09/27 09:00",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbElIV0lRcGtSRm9CN0lmY0htRGlGZ2l6MHJQdmZ5alk3VXFMV3ZSbENwVkVJQXVoZnBlM2Z6TGZUTzJFYVhOUkNIeUYzRlViNWtxMzhCUW9IN1BrLVF2aWRGMVBPR2xlV2xXdFFDcWwyTjdQY0V2RlduM2h6emNGZGdnU1dZSThh?oc=5",
+          "headline": "MotoGP日本GP公式イベが秋葉原開催",
+          "points": [
+            "2026年9月30日開催のMotoGP日本グランプリに向けた公式プロモーションイベントが、秋葉原でファンフェストとして実施される。",
+            "日本GPの魅力やバイクレースの熱狂を都心から広く発信するため、ファンとの交流や最新情報が公開される重要な施策となっている。",
+            "開催に向けた機運を大きく高め、新規ファン層の開拓やモータースポーツ全体の盛り上がりを強力に牽引することが期待される。"
+          ],
+          "takeaway": "秋葉原の地でMotoGPの熱気がどう表現されるか。日本GP開幕へ向けたファンの期待感を高める一大イベントを見逃すな。",
+          "is_new": false
+        },
+        {
+          "title": "ホンダ折原GM「予選19＆21番手は、長いストレートを持つサーキットでのパフォーマンスを反映した結果」",
+          "source": "autosport web",
+          "pub_date": "09/26 07:13",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBxSlVpNm5vRHpkQUVBS3NCc3hMWm5EbGJyWER5WUV3RGhLYmg4YlBLY0lCcVo0alhfeWNkU2Zqdy1Ub2VSbTlB?oc=5",
+          "headline": "ホンダ折原GMが予選下位の原因を分析",
+          "points": [
+            "ホンダの折原GMが予選19番手と21番手に沈んだ結果について、ロングストレートを持つサーキット特性が影響したと分析した。",
+            "パワーユニットやマシンの絶対的なパフォーマンス不足が、高速レイアウトのコースで如実に数字として表れた形となった。",
+            "今後のアップデートや低中速コーナーでの挽回に向け、さらなるマシン熟成とパワーユニットの効率化が急務となっている。"
+          ],
+          "takeaway": "ホンダ製パワーユニット搭載勢が高速サーキットで抱える課題をどう克服するか。次戦以降の改良計画と現場の立て直しに注目。",
+          "is_new": false
+        },
+        {
+          "title": "「ここしばらくで最高の感触だった」「アタックを中止せざるを得なかった」／F1第15戦予選トップ10コメント（1）",
+          "source": "autosport web",
+          "pub_date": "09/26 16:31",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWb2t3UHNFTWozejFBZzZxRldRUzZPQmZVeXlKMm5QZnhNTllGSndfbU1sMjFLaWxaYW5UckM0TnpDRlNUM1U0?oc=5",
+          "headline": "F1予選トップ10ドライバーの明暗",
+          "points": [
+            "F1第15戦の予選で上位につけたドライバーから「ここしばらくで最高の感触だった」と手応えを語るコメントが相次いだ。",
+            "一方で、予選中に赤旗やトラブルが発生し、決定的なアタックを中止せざるを得なかった不運な陣営も存在した。",
+            "マシンの仕上がりとドライバーの好調ぶりが決勝のグリッドを大きく左右し、激しい上位争いを予感させる結果となった。"
+          ],
+          "takeaway": "手応えを掴んだ上位陣と不完全燃焼に終わった実力者たちが、決勝のスタート直後から繰り広げる激しいポジション争いに注目。",
+          "is_new": false
+        },
+        {
+          "title": "トヨタ、凱旋レースで大どんでん返しの逆転優勝「あれが全てでした」 明暗分けたピットイン…“トヨタマジック”で勝利呼び込む",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/27 17:48",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WU3poZi1VU25Mcm5LRG5PdHJPWGpXQW16MFlmZWVkUEZ6eERvT1htZkl5VklTUEwyWVpLYzdwcGdJMkd6OF9FbG80Y1JtRm5sQ3FZNDB6aEFPc0VlQXJIdUx4U3VWVlJYSDlLNlRZUGE4Rkl1RFJwa2x5S09nOU0?oc=5",
+          "headline": "トヨタが凱旋レースで大逆転勝利",
+          "points": [
+            "トヨタが凱旋レースにおいて大どんでん返しの逆転勝利を飾り、チームの勝利を呼び込む決定打となったピットイン戦略が光った。",
+            "レース終盤までライバルに主導権を握られる展開だったが、絶妙なタイミングでのピット作業と戦略的判断で形勢を逆転した。",
+            "チームの総合力と抜群の戦術遂行能力の高さを改めて証明し、今後の選手権争いに向けて大きな弾みをつける勝利となった。"
+          ],
+          "takeaway": "勝利をたぐり寄せた“トヨタマジック”と呼ばれる神がかったピット戦略の全貌と、王者の勝負強さを決勝レースで再確認せよ。",
+          "is_new": false
+        },
+        {
+          "title": "2位アルピーヌ、レース中盤まで完全支配もトヨタの戦術に敗れる「彼らは他のクルマが見えるピット位置を活かした」",
+          "source": "autosport web",
+          "pub_date": "09/27 20:06",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NTkJvc2tVN0Z3c2FDLXhZUWJfYlRtS0taRWZ5dlp3VkIxR3ZrZGVZalFOYWprU2pOZm8yRGNRTFZYZV9lSkxQNFdaX1k3U28tRHc?oc=5",
+          "headline": "アルピーヌが戦術面でトヨタに敗北",
+          "points": [
+            "アルピーヌはレース中盤まで圧倒的なペースでレースを完全支配していたが、トヨタの巧みな戦術に屈し2位にとどまった。",
+            "ライバルの動きが直接見える有利なピット位置をトヨタに巧妙に活用され、逆転を許す致命的な隙を生む結果となった。",
+            "圧倒的な速さがありながら勝利を逃した悔しさをバネに、今後はピット戦略や状況判断力の強化がチームの最重要課題となる。"
+          ],
+          "takeaway": "速さで勝りながらも戦術で敗れたアルピーヌが、次戦以降どのようにピット戦略やレースマネジメントを修正してくるかに注目。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "09/28 08:41",
+        "title": "久保の苦悩と大谷の復帰、アジア発アスリートの激動期",
+        "summary": "過去1週間は国内外の主要スポーツで明暗が分かれた。サッカーでは久保建英の4試合連続ベンチや青森山田の逆転勝利があり、テニスではフェルナンデスが逆転でツアー決勝へ進出するなど、激しい生存競争とドラマが展開された。",
+        "key_players": "9カ月ゴールがなく西紙で特集された久保建英は正念場を迎える。復帰後5試合で打率.2割3分8厘の大谷翔平は指揮官が状態向上に期待。さらに兵役免除がかかる韓国のMLB候補生など、重圧と戦う選手たちの動向に熱視線が注がれている。",
+        "outlook": "大谷は数日内の調子上昇に期待がかかり、久保は厳しいスタメン争いからの脱却が求められる。また、アジア大会での兵役を巡る韓国代表の戦いや、国内ユース年代の終盤戦など、各競技における今後の展開と勝負所から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "9カ月ゴールなしで4試合連続ベンチ 久保建英に異変、西紙が指摘する「日本茶でも救えない」現状とは",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/26 18:40",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EaDZJdEVfemVUT1JiRVM0Vklsa0pHb1BlUHItYWMtY3JIdjRQS0psMjI0MGYtQ3ZmSVpRS3JVMmNlNDNWOFcxUmoyNGpyR1BtVTI1T29FY04wLUF0NFNNbHBjeEl0OV82ZXZVUGJnRHp4VXZUUDBWc1RsVlVvbnc?oc=5",
+          "headline": "久保建英、9カ月弾なしで4試合連続ベンチ",
+          "points": [
+            "スペイン紙で公式戦9カ月間ゴールから遠ざかり、直近4試合連続でベンチスタートという苦境が大きく報じられている。",
+            "相手のマークが厳しくなる中で戦術的な役割の変化もあり、かつての決定力を発揮できずチーム内での立場が揺らいでいる。",
+            "今後スタメンを奪還するためには、限られた出場時間の中で目に見える結果を残し、監督の信頼を再び掴む必要がある。"
+          ],
+          "takeaway": "次節での起用法と、得点力不足を脱却するために久保がどのような位置取りで違いを作るのかが焦点。",
+          "is_new": false
+        },
+        {
+          "title": "グランドスラム決勝進出経験者同士の初対決、フェルナンデスがフワリンスカに逆転勝利でキャリア10度目のツアー決勝進出「最初は少しショックを受けて…」 [シンガポール・オープン／テニス]（テニスマガジンONLINE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/27 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwbmUwMVpSS2xYWUIzaUloMS0zS19WQWNJNS0zc2pwNWU0UnlRV1NVajBKQVhpcm8tZ2FXMkp2R3lwMzBKWnJnZTVBd1lLTXhPY1RsMTlneUk3R3gyeHFmRy1MOUQwaFpVM2N0QTU5azBmOW4wbndRVTZUcHhjV00?oc=5",
+          "headline": "フェルナンデスが逆転でツアー10度目の決勝へ",
+          "points": [
+            "シンガポール・オープンの準決勝でフワリンスカと対戦し、初対決を制してキャリア10度目のツアー決勝進出を決めた。",
+            "第1セットを奪われる苦しい展開から冷静に戦術を修正し、相手のミスを誘う粘り強いストロークで逆転勝ちを収めた。",
+            "グランドスラム決勝経験者としての勝負強さを証明し、今大会のタイトル獲得に向けて弾みをつける大きな勝利となった。"
+          ],
+          "takeaway": "決勝の舞台で見せる精神的なタフさと、これまでの対戦データを活かした序盤からの主導権争いに注目。",
+          "is_new": false
+        },
+        {
+          "title": "大谷翔平、復帰後５試合で打率２割３分８厘 ロバーツ監督「数日たてば、さらに状態は良くなる」（日刊スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/28 08:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iaDIxcElPZkNDRFBMOE9saEhWQlNVTF9pYUg4OHp4TjNGUTVrekNOLVEza3hFTWpxcG45T3JZNW42TnFuNk1TVnd5UVFvV0VNWkFyd3Zjc3pGQjZGM1BpTm1LcDdlR2ZEUnhYTEZqeVlyeENIbmdMOUZkMkN0bUE?oc=5",
+          "headline": "大谷翔平、復帰後5試合で打率.238と調整中",
+          "points": [
+            "負傷からの復帰後5試合を消化し、打率2割3分8厘とまだ本来の圧倒的な打撃フォームを取り戻しきれていない。",
+            "ロバーツ監督は「数日たてば状態はさらに良くなる」とコメントしており、実戦感覚を取り戻す段階にあると強調している。",
+            "シーズン終盤のチームの主軸として、彼の完全復活が打線の破壊力とポストシーズン進出に向けた命運を握っている。"
+          ],
+          "takeaway": "確実性を高めるためのスイング軌道の修正と、復帰後初アーチが飛び出す瞬間にファンやメディアの期待が集まる。",
+          "is_new": false
+        },
+        {
+          "title": "1億ドルか、軍隊か ヤンキースも熱視線の韓国MLB候補生に危機 日本との決勝敗戦なら兵役免除できず 国内メディアも焦燥感「夢も消えてしまう」【アジア大会】（CoCoKARAnext）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/27 11:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84U3JNQ202X3RMRWprZXFIekRfc1JFTVR4c1dOZDdIUm5JLXhyQ1ZNeUdvTlg0cWFQX1RvN3dndW9JUHB0X0p5ZzQzWFI0UWV6VlZ3X3I4TlFkWjE2dGtNaFVreWIycThSd01LUmV2WHc2QkZkRUhBeUViSzlzQVk?oc=5",
+          "headline": "韓国MLB候補生、アジア大会の兵役免除に危機",
+          "points": [
+            "米1億ドル規模の契約が期待される韓国の至宝が、アジア大会で日本に敗北すれば兵役免除を逃す危機的状況にある。",
+            "兵役義務が発生すれば選手生命やMLB挑戦の夢が断たれる可能性があり、国内メディアや球界関係者から強い焦燥感が漏れている。",
+            "今後の国際大会の結果次第で、選手のキャリアプランだけでなく、メジャーリーグ球団の補強戦略にも甚大な影響を及ぼす。"
+          ],
+          "takeaway": "プレッシャーが極限に達する日韓戦をはじめとした大舞台で、彼がどのようなパフォーマンスを発揮するか。",
+          "is_new": false
+        },
+        {
+          "title": "[プレミアリーグEAST]逆転勝利の青森山田、連敗をストップ…帝京長岡は今季初の3連敗に:第15節",
+          "source": "gekisaka.jp",
+          "pub_date": "09/28 08:03",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45cjE1NEdYUFpRaEtsbENsWENWNV9GbE1XRWk4N2lLVUdXZks3YjdyRGJkdVRLRnlSUkF4akhNdHFsbEFYbk9ZSVIzdWVrUFMtdkJiVTItQzBJTzVqYWVlQ2p5ck1ZVXZNN3Jv?oc=5",
+          "headline": "青森山田が逆転勝利で連敗ストップ、帝京長岡3連敗",
+          "points": [
+            "プレミアリーグEAST第15節で青森山田が逆転勝利を飾り、チームの連敗をストップして立て直しに成功した。",
+            "一方の帝京長岡は粘りを見せたものの敗れ、今季初となる手痛い3連敗を喫して上位争いへ向け正念場を迎えている。",
+            "青森山田はこの勝利を機に勢いを取り戻し、帝京長岡は守備の立て直しと立て直しの戦術変更が急務となる。"
+          ],
+          "takeaway": "青森山田がここから連勝街道に乗れるか、帝京長岡が次戦で連敗を止められるか両チームの修正力に注目。",
+          "is_new": false
+        },
+        {
+          "title": "【U18日清トップリーグ】新潟開催で帝京長岡が躍動！八村塁を輩出の仙台大明成に勝利",
+          "source": "Yahoo!ニュース",
+          "pub_date": "09/27 17:19",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tb3VWNkVLTEd5bTBPbXVNOXBxTzRickRQaTdrVXlybF9nZXEwNEJubFg3eWd4SjJIbWdHaGg2NndJdmJ6XzVyMUpiTVgtQzdCOFdWbFFmdnljOEZMdWdQUHpGc3ZkMTRiN1hZZmV5aklHb0ZfYmw1MURDTVJqYTA?oc=5",
+          "headline": "帝京長岡、U18トップリーグで仙台大明成に勝利",
+          "points": [
+            "新潟開催で行われたU18日清トップリーグにおいて、帝京長岡が八村塁を輩出した強豪・仙台大明成を撃破した。",
+            "エース級の選手が躍動し、組織的なディフェンスから得意の速攻を展開して終始試合の主導権を握り続けた。",
+            "このビッグウィンによりチームの士気は最高潮に達し、今後の全国大会を見据えた大きな自信をつかむ一戦となった。"
+          ],
+          "takeaway": "強豪撃破の勢いをそのまま維持し、次戦以降もこのアグレッシブなバスケットボールを継続できるか。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

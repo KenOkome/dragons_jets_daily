@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-14",
+  "updated_at": "10月14日 09:10",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/14 09:10",
+        "title": "高橋宏斗が新監督超えの快進撃！来季のさらなる飛躍へ視界良好",
+        "summary": "今週は中日・高橋宏斗の圧倒的な進化が大きな話題となりました。プロ通算勝利数で新監督の6年目を上回るハイペースを維持し、来季の2桁勝利クリアへ向けて「勝ちまくるだけ」と力強い意気込みを見せています。チームの未来を背負う若きエースの調整が順調に進んでおり、ファンの期待感も最高潮に達しています。",
+        "key_players": "今週の主役は紛れもなく高橋宏斗です。若かりしころの新監督と比較されるほどの卓越した才能を示し、周囲の大きな期待を背負いながらも気負うことなく調整を続けています。来季は絶対的エースとしての独走と、チームを上位へ導く圧巻の投球パフォーマンスに熱い視線が注がれています。",
+        "outlook": "オフシーズンに入り各選手の動向や来季への準備期間が本格化する中、投手陣の柱である高橋宏斗がどれだけ万全の状態で春季キャンプインを迎えられるかが最大のポイントです。競争が激化する球界において、若き右腕がチームを牽引し、悲願の優勝・Aクラス入りへ向けた確かな礎を築けるかどうかに注目が集まります。"
+      },
+      "news": [
+        {
+          "title": "中日・高橋宏斗、ライバルは若かりしころの新監督！？プロ通算38勝で新監督の6年目上回る 来季は2桁勝利クリア「勝ちまくるだけ」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/13 22:02",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAyTWRpQnA5Y05IeGxUbm9ZVHhHNy1md055LWFsNG9BY0lZNjlJcWRWYzZBeVFrRDBXTnlUX2Yxc1llamsxYi03c29lZW95Vi11aVRGdg?oc=5",
+          "headline": "高橋宏斗、新監督のプロ6年目を突破",
+          "points": [
+            "プロ通算38勝をマークし、若かりしころの新監督の6年目成績を上回る実績を達成した。",
+            "球団のレジェンドでもある新指揮官の若手時代と比較されるほどのハイペースな成長曲線を描いている。",
+            "来季は自身初の2桁勝利クリアを絶対目標に掲げ、チームを勝たせるエースとしての覚悟を示している。"
+          ],
+          "takeaway": "チームの浮沈を握る若きエース高橋宏斗が、新体制のもとでいかに勝ち星を重ねていくかから目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "大谷翔平を指導したマドン元エンゼルス監督「これほど悪い状態になっているのを見たのは6年ぶり」それでも「1打席で必要な感覚を取り戻せる可能性」と期待（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 18:22",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oYThrYkc2V09ELXFHUnViZWpBQi0yMFZ5VHNobGtyay1FM0lab2htQWdjYnlCV0tBQzZYa0lLdXZIZ2FYbUdVaV9HbjlpTTBqMmNYTUdMbncyVUNZaW5Ic3dOYy0wM1ljX0FuWk5vOW9QdHNlNGswYXZaZjgwSHc?oc=5",
+          "headline": "マドン元監督が不調の大谷を分析",
+          "points": [
+            "指導経験のあるマドン元エンゼルス監督が、大谷の現状を「6年ぶりの悪い状態」と指摘した。",
+            "深刻な不調にある一方で、卓越した修正能力により「1打席で感覚を取り戻せる」と完全復活へ期待を寄せた。",
+            "一時のスランプから脱却するきっかけを掴めば、ポストシーズン全体の打線に絶大な影響を与えることになる。"
+          ],
+          "takeaway": "世界最高峰の打者がわずか1打席でどう悪癖を修正し、本来の圧倒的な打撃を取り戻すのかに注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "「あれで試合の流れが変わった」ブルワーズ監督が絶賛した3回の”粘り腰” 「投手にとってどれほどの負担になるか」山本由伸を見事攻略（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 11:50",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hTzhNTjJDTjF2ZGVfdlUya0xtNm5tYUd2WHRSQmI0RXVDbzNMVjhxczYtcll4WU16NEVUdmJkN0hMTXVDYWlQbFBNMUpYanNwZEJkQ3FfLTU5V01ZU0JHbVZjUGV6WUJjbHN1UDl2UjgycWxFX0szRFJsdXhyQXc?oc=5",
+          "headline": "山本由伸が見事な粘り腰で相手攻略",
+          "points": [
+            "ブルワーズ監督が「3回の粘り腰で試合の流れが変わった」と絶賛し、山本由伸の投球術を警戒した。",
+            "巧みな配球と粘りの投球が相手打線に多大な精神的・肉体的負担を強いる要因となったことを明かした。",
+            "大舞台での圧倒的な試合メイク能力が、チームを勝利へ導く最大の原動力となっていることを証明した。"
+          ],
+          "takeaway": "相手首脳陣をも脱帽させる山本由伸の投球術が、今後の大舞台でいかに相手打線を封じ込めていくか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "大谷翔平、第3戦はベンチスタートか先発継続か…ロバーツ監督と前日に話し合い、米メディア報道 ファン「ドジャースの過失」「WBC症候群」（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 16:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yejRhenpxY1dxSjdqWGY3QzFPalRGOUdISnB4Z3YxOGY4ekpuRFNGd19ua2VfZENDejlJZGJvUkhzVU53NmV4ckZhc0NQcVBrR0tXS0R1c0dpRlVpQ293WUNIX1MtUW54dHVpQWp3MGZUWHhrd2NwazBsVThEalE?oc=5",
+          "headline": "大谷翔平の起用法を巡り米メディア紛糾",
+          "points": [
+            "第3戦のスタメンについてロバーツ監督と前日に話し合いが行われ、ベンチスタートの可能性が浮上した。",
+            "ファンからは過密日程や怪我のリスクを懸念し「ドジャースの過失」「WBC症候群」との声が上がった。",
+            "主力選手のコンディショニング管理が、ワールドチャンピオンを目指すチームの命運を分ける重要な局面となる。"
+          ],
+          "takeaway": "連戦が続く中で首脳陣が下す大谷翔平の起用判断が、試合の勝敗やチーム全体の士気にどう影響するか見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "ロバーツ監督、山本由伸の投球術「別次元」連発、大舞台の強さの秘密…伝説カーショー以来の衝撃「山本が現れるまでは…」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 16:10",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YSXhrMzBXOWZhYTV1SWNjVEM3Y2kxX3hvWGJISzU3ZG1odzU3Y1N0bU1udU05Rko4SkZDRnJMUGVic08yWkd2U3lQdzNBSmdyRzluXzFadnpFcUZ6VGswemVSTWhpYm0tOHJTWjBMZ1lSeGNuLVRIdzdweEJpMWs?oc=5",
+          "headline": "ロバーツ監督が山本由伸の投球を絶賛",
+          "points": [
+            "ロバーツ監督が山本の投球術を「別次元」と表現し、伝説のカーショー以来の衝撃であると最大級の賛辞を送った。",
+            "大舞台で動じない強さの秘密として、抜群の制球力とメンタルの強さがチームに安心感を与えていると分析した。",
+            "レジェンド左腕に匹敵する歴史的な投手がチームに加入したことで、ポストシーズンの戦い方が大きく優位になった。"
+          ],
+          "takeaway": "監督すらも唸らせる山本由伸の神業的な投球が、大舞台で今後どのような伝説的ピッチングを生むのか期待が高まる。",
+          "is_new": false
+        },
+        {
+          "title": "名古屋グランパス・ミシャ監督が示す自省の哲学…14日ルヴァン杯岡山戦へ、自分たちとの闘い強調「『なぜ』を自分自身に矢印を向けないと」（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/14 06:02",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dHBCY2pyY3FxYmhvRmlVejVjS1NlUVRfdUdxbWRxWDdnNTRmSGEwWUhCYmJiMElCUWVBMDhIWmR4SDFSYnRpVjBZMF9VNGtJYmhMcTdWdFdZUmlwNUZRQVRQazl0VE9YTTVCaS1GLTNaekphZVAtWlFVNG9ySE0?oc=5",
+          "headline": "グランパスミシャ監督が自省の哲学表明",
+          "points": [
+            "名古屋グランパスのミシャ監督が14日のルヴァン杯岡山戦に向け、自分たちに矢印を向ける自省の哲学を強調した。",
+            "チームが勝てない理由を他者ではなく「なぜ」と自らに問いかけることで、組織全体のマインド改革を図っている。",
+            "指揮官の明確な姿勢が選手たちの当事者意識を高め、カップ戦突破に向けたチームの結束力を強めている。"
+          ],
+          "takeaway": "苦境にあっても自らに厳しく向き合うミシャ監督の哲学が、ルヴァン杯の大一番でチームをどう勝利へ導くか注目。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/14 09:10",
+        "title": "千葉ジェッツ激動の1週間：富樫契約継続と代表戦での奮闘",
+        "summary": "ホーム開幕連敗という苦しい立ち上がりとなったが、チームの顔である富樫勇樹との契約継続が発表されファンに大きな安心感を与えた。日本代表戦では富樫が韓国戦で存在感を放ち、チームの立て直しへ視界良好だ。",
+        "key_players": "富樫勇樹は日本代表の韓国戦で勝負強い3Pシュートを決めるなどベテランの妙味を発揮。また、小川麻斗からの挑戦状も届くなど、Bリーグ各チームからマークされる絶対的司令塔としての存在感が際立つ一週間となった。",
+        "outlook": "開幕連敗の悔しさをバネに、富樫を中心にどうチームを再構築し連勝街道に乗れるかが最大の焦点。渡邊雄太の将来的な動向や代表勢の好調を維持しつつ、Bプレミアでの圧倒的な強さを証明する戦いに期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ",
+          "source": "サンスポ",
+          "pub_date": "09/20 16:00",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBWWdmMUdPR1d6dXZlcDFKaE5HdElJR01xbEYtNUwtOFVxTG1sOXBMZ1F3LUN6VGZhTHJ5QkZ1QmZLczdad1pTLXNBamdOVXhZOExRWGUtaUI2SmZtMkpXdkc3YjZjZFBjTG16T2FGbFJDckNYRXfSAYoBQVVfeXFMTXlVTkNoTncyN0xYMy1ZUkJ0R0tONVlBcVRzQlY1bnl1R1N5WUJQYmtoZDlVTmVsVUtMbnI5ZnhPRDZpVUNsX3VYa19WaUYxN1lUdm9oTFp0OEUtTHQ0NGwwbXNUb3ZZVDlqOGlkMlNlZUhicURwS1o0TXFPZjQzU0RxclhITEh1RjdR?oc=5",
+          "headline": "神戸の小川麻斗が千葉J富樫に宣戦布告",
+          "points": [
+            "神戸ストークスの小川麻斗が、日本代表PGである千葉ジェッツの富樫勇樹に対して「負けたくない」と強く対抗心を燃やした。",
+            "昨季までB1でしのぎを削った若手ガードが、新天地での飛躍を誓い、日本バスケ界を牽引するエースへの挑戦状をたたきつけた。",
+            "両者の直接対決において、若手の勢いとベテランの巧者ぶりが激突するマッチアップは今後のリーグ戦の大きな見どころとなる。"
+          ],
+          "takeaway": "若手ガード・小川麻斗が日本代表の司令塔・富樫勇樹を相手にどこまで自分の持ち味を発揮できるか、激しいマッチアップに要注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "【B.PREMIER】富樫勇樹「いろんな言い訳はできますけど、それをせずに、とりあえず勝つこと」／ホーム開幕2連敗の千葉J、ここからどう作る",
+          "source": "https://jbasket.jp/",
+          "pub_date": "10/04 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9SYkw5WmZ3dUR4ZVBpYTNsQy1Cb2N5VVBYdHZvWU56cmdPaUJhRHFjZmxRNFZQejJpUEltZ2NFckk1YTBwNlFOR1QwczFyc1FjR3dQanUzQkJCT1RKM05WZ0ZUVU5xdw?oc=5",
+          "headline": "富樫勇樹「言い訳せず勝つ」ホーム開幕連敗からの立て直し",
+          "points": [
+            "千葉Jはホーム開幕戦でまさかの2連敗を喫し、主将の富樫勇樹が「言い訳をせず、まず勝つこと」と危機感をあらわにした。",
+            "新アリーナでの期待感が高まる中での躓きであり、チームケミストリーの構築や戦術の浸透度において早急な修正が求められている。",
+            "B.PREMIERの頂点を目指すチームにとって、この序盤のつまずきをどう糧にして結束力を高めるかがシーズン全体の命運を握る。"
+          ],
+          "takeaway": "連敗という重い空気の中、主将・富樫がチームをどう牽引し、次戦以降の戦術的アプローチやメンタル面でどう立て直すかが見逃せない。",
+          "is_new": false
+        },
+        {
+          "title": "「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る",
+          "source": "バスケットボールキング",
+          "pub_date": "08/21 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5",
+          "headline": "渡邊雄太がWindow4での代表復帰とケガの状況を語る",
+          "points": [
+            "負傷離脱中の渡邊雄太が取材に応じ、FIBAアジアカップ予選Window4での代表戦出場への強い意欲と現在のコンディションを明かした。",
+            "八村塁や河村勇輝ら海外組との連携を見据え、日本代表のさらなる強化と次世代への継承に向けた明確なビジョンを語っている。",
+            "日本バスケ界の黄金期を牽引する主軸として、代表チームに精神的・戦術的な大きなプラスアルファをもたらすことが期待される。"
+          ],
+          "takeaway": "渡邊雄太が万全の状態で代表に復帰し、八村や河村ら主軸選手たちとどのようなケミストリーを構築して世界と戦うのか目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」",
+          "source": "Basket Count",
+          "pub_date": "06/02 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5",
+          "headline": "千葉ジェッツがチームの顔・富樫勇樹との契約継続を発表",
+          "points": [
+            "千葉ジェッツはクラブの象徴であり日本代表の司令塔でもある富樫勇樹選手との契約継続を正式に発表し、ファンへ強いメッセージを送った。",
+            "「ナンバー1にもオンリー1にもなりましょう」という言葉通り、新B1（B.PREMIER）での圧倒的な優勝を目指すクラブの覚悟の表れである。",
+            "チームの軸である富樫を中心としたロスター構築が完了し、悲願のタイトル獲得へ向けた盤石の体制が整ったことを示している。"
+          ],
+          "takeaway": "クラブの顔である富樫が中心となり、新B.PREMIERの舞台で千葉ジェッツをいかに頂点へと導くのか、その圧倒的なパフォーマンスに期待したい。",
+          "is_new": false
+        },
+        {
+          "title": "【バスケ男子】ベテラン富樫勇樹 ２戦連続で河村勇輝との「Ｗユウキ」で競演 第２Ｑで２本の３Ｐ沈め存在感「与えられた時間で活躍できるように」…韓国に大勝連破（スポーツ報知）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "08/17 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aUmtkdElCNF9FMHFNQnRWY19LZVAtNDQtLWN6YVU5RlpKMHNlZWM2YW40ZHBrcmh0eW1CeGtfdW5mbm5lWE81STI5NGNuUVoxNlVWRnZaMzhkWWwxeDFITENoaEg1U19lNXhwMlpudFBYZ3ZGRkJucGpCYlJLU1E?oc=5",
+          "headline": "河村とのWユウキで躍動、富樫が韓国戦連勝に貢献",
+          "points": [
+            "国際強化試合の韓国戦において、ベテランの富樫勇樹と河村勇輝の「Wユウキ」が連続で同時起用され、チームを連勝へと導いた。",
+            "第2Qには富樫が勝負どころで2本の3ポイントシュートを沈めるなど、限られた出場時間の中でも抜群の存在感と決定力を発揮した。",
+            "プレミアイヤーを迎える国内リーグだけでなく、国際舞台でも日本代表のバックコート陣が圧倒的なアドバンテージを握る証明となった。"
+          ],
+          "takeaway": "異なる持ち味を持つ富樫と河村の「Wユウキ」が国際舞台でどう機能し、相手ディフェンスをどのように崩していくのか、その連係プレーに注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "渡邊雄太「歴史はこうやって繋がっていく」八村塁＆河村勇輝と“27.8秒”の共演…男子バスケ黄金時代にある明確な目標「3人がまた一緒にプレーできたら…」（宮地陽子）",
+          "source": "Number Web",
+          "pub_date": "09/03 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVUwya2IxZWtSczNMSGEybDRXS1lFZmRqbzY4bzUyUlhRT2x6MW9zZjgteHhtY3hLTERUUTZfT1dKb0VkaFFhd3k2S2J1TzFsNUx4TG9B?oc=5",
+          "headline": "渡邊・八村・河村の歴史的共演と日本バスケの明確な目標",
+          "points": [
+            "渡邊雄太、八村塁、河村勇輝の3選手がコート上で同時にプレーした“27.8秒間”の共演が、日本バスケの新たな歴史の幕開けとなった。",
+            "「歴史はこうやって繋がっていく」という渡邊の言葉通り、代変わりしながらも世界と戦える黄金時代を築くという明確な目標が共有されている。",
+            "個々のNBAやBリーグでの経験が代表チームに還元され、日本バスケットボール界全体のレベルアップと世界での勝利に直結していく。"
+          ],
+          "takeaway": "日本バスケの歴史を塗り替える才能たちが再びコートで揃い踏みし、世界を相手にどのような化学反応を起こすのか、その未来像から目が離せない。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/14 09:10",
+        "title": "F1シンガポールでの誤算とホンダの課題、WEC・二輪の激闘",
+        "summary": "シンガポールGPでハミルトンがピット判断の誤りで表彰台を逃し謝罪。アストンマーティンとホンダの遅れが浮上する一方、WECでタイトル争いが大詰めを迎え、MotoGPではマルティンが首位を堅持するなど各カテゴリーで激動の1週間となった。",
+        "key_players": "ハミルトンはピット指示を見送り表彰台を逸すも自らの責任と謝罪。WECでは可夢偉がタイトルを見据えミス厳禁と気を引き締め、ブエミが100戦目を迎える。MotoGPではマルティンがマルケスとの厳しい戦いを制し首位を維持した。",
+        "outlook": "F1では鈴鹿の将来を不安視する声やホンダの責任論が浮上し次戦以降の動向が注目される。WECバルセロナでのトヨタの連勝や、MotoGPの残り5戦となったタイトル争いの行方がファンにとって最大の焦点となる。"
+      },
+      "news": [
+        {
+          "title": "【F1分析】ハミルトン謝罪「責任は僕にあります」 ピット指示を見送り、表彰台を逃した経緯は？ 無線でたどる判断の背景／F1シンガポールGP（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/14 07:05",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ncEhYai1taUJ2V3gxWEJWMk1XSVBpcmxjVFVqdEN0TkhrWG5TRXIzQVVaaFhRTXgzclR5ZEh2anFXbDhibUdKTjBYaHNzU2JhSVZWQ2hJSFBXcEUwOVp6MHNPSDIteHRhWUNxNGVJQ0tnX2l4T01nTllVeGF3dEk?oc=5",
+          "headline": "ハミルトンがピット判断ミスを謝罪",
+          "points": [
+            "シンガポールGP決勝にて、VSC中のピットイン指示をハミルトンが見送り、痛恨の表彰台逸となった。",
+            "チーム側は絶好のタイミングで周回遅れを避けるための入省を促したが、ドライバー側の判断が遅れた。",
+            "ベテランまじりの痛いミスは、今季終盤のチーム内空気感やドライバーズランキング争いに悪影響を及ぼす。"
+          ],
+          "takeaway": "優勝争いだけでなく、名手ハミルトンとフェラーリ戦略陣のコミュニケーションの立て直しが急務。",
+          "is_new": false
+        },
+        {
+          "title": "トヨタ可夢偉、タイトル見据え「もうミスは許されない」ブエミは100戦目のWECバルセロナで連勝に挑む",
+          "source": "autosport web",
+          "pub_date": "10/13 13:28",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uam9EMWZ6cTFMRThPc0dhMlRkTnBpdFpwNWN0NzBFeXlORVVfZUdKRXJuQXBEdHRFSE9RTnNLTHVmNGV2c2NSUERXa2RxRmJ6emc?oc=5",
+          "headline": "小林可夢偉がWECタイトルへ背水の陣",
+          "points": [
+            "WECバルセロナ戦に向け、小林可夢偉が「もうミスは許されない」とタイトルの行方を見据え強い覚悟を示した。",
+            "チームメイトのブエミは節目となるWEC通算100戦目を迎え、連勝に向けて闘志を燃やしている。",
+            "シーズン終盤のシビアなポイント争いにおいて、トヨタ陣営の完璧なレース執行がチャンピオン獲得の鍵を握る。"
+          ],
+          "takeaway": "可夢偉陣営がいかにノーミスのレースを演じ、ライバルを引き離して王座を手繰り寄せるか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "【Ｆ１】アストンマーティンの窮地示すデータ明らかに「遅れはホンダが直接的な責任を負っている」（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 18:35",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qdVlxLXd6LUVRV2kzR01xVmZEdHZmZE11UHRtMnY4eVgyMzM3YnhuM0xvSEljc0x5QzBmaUFoODh1X1Z2LUsxWHNVVTd6Z1lncFZ4eklpQkI2Q2diaHI3UTJqY0g5b0tkc19KRjl4TmNtQXI2VHd1SEhFRlhiUzg?oc=5",
+          "headline": "アストンマーティンの不振とホンダの責任",
+          "points": [
+            "アストンマーティンの深刻なマシンの遅れに関して、ホンダのパワートレイン側に直接的責任があるとのデータが浮上した。",
+            "パートナーシップ初年度に向けた開発競争において、パワーユニットと車体パッケージングの統合に苦戦している。",
+            "来季以降のホンダ製PU投入と黄金コンビ復活への期待が大きいだけに、現在のパフォーマンス不足は重大な懸念材料。"
+          ],
+          "takeaway": "ホンダとアストンマーティンがいかにこの技術的窮地を脱し、戦闘力を取り戻せるかその開発進捗に注目。",
+          "is_new": false
+        },
+        {
+          "title": "【MotoGP】「マルケスとの戦いは最後まで厳しいだろう」マルティン、インドネシアGP3位でランキング首位維持。残りレースは5戦！",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/12 19:44",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wdXpYSFRZMGl3cEZEdFA3LXhJYm9GZ1BGOUNkZzZMVnNFcTBWbEJsZlZCUExNank0UHc3Z3JRZFdBT2FpalVMeXpPVF8yZElXOEFBQ3RoT0xfNlZuTHluOExtUm14cy1zZWw2REllbXhRY3lwUDNJelZmY3JmREU?oc=5",
+          "headline": "マルティンが首位維持、マルケスと激突へ",
+          "points": [
+            "インドネシアGPで3位表彰台を獲得したマルティンが、宿敵マルケスの猛追を凌ぎランキング首位を死守した。",
+            "残り5戦となった終盤戦、マルケスとの直接対決が激化しており、両者の心理戦とマシン性能の差が勝負を分ける。",
+            "チャンピオン争いは事実上の2強によるマッチレース様相を呈しており、わずかなミスが王座を左右する。"
+          ],
+          "takeaway": "熾烈を極めるタイトル争いで、マルティンがプレッシャーを跳ね返し逃げ切れるか、マルケスの逆転劇に期待。",
+          "is_new": false
+        },
+        {
+          "title": "フェラーリ「VSCでルイスをピットに呼んだが入らず。ミスで表彰台を失った」ハミルトンは「すべて僕の責任」とチームに謝罪",
+          "source": "autosport web",
+          "pub_date": "10/12 12:32",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE15T25pV2xEZEZ5SHI0VG5QOWl0X0tRbEJQYTVCcVZyYVdGS29abEo2VW9JRFJ6cGVIbmZpOUduTWFwTWRoVVlr?oc=5",
+          "headline": "VSC対応の行き違いでフェラーリ表彰台逃す",
+          "points": [
+            "フェラーリはバーチャル・セーフティカー導入時にハミルトンを呼び込んだが、本人が入らず好機を逸した。",
+            "ピットの的確な指示とドライバーの判断にズレが生じ、結果として表彰台獲得のチャンスをドブに捨てる形となった。",
+            "コンストラクターズ選手権の順位争いが佳境を迎える中、こうした手痛い作戦ミスが致命傷になりかねない。"
+          ],
+          "takeaway": "フェラーリがチーム一丸となって戦略の精度を高め、残りのグランプリで完璧な遂行ができるかに注目。",
+          "is_new": false
+        },
+        {
+          "title": "【Ｆ１】ルワンダ開催が10年契約決定で〝鈴鹿消滅論〟 ファンは不安視「契約は2029年までよね…」（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/14 05:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBISGxJbDYzTUd1dGcwZTRQaWxsM2RmcEV3RDh1QXdIZ3JUdVlwa0dsZU1BbVJWOGkwN1QtZWhtSzFsTE1RaGJUUk9YLVEzYU1zbUZOMTlEdU9nd0EzYkFRSDRuTzJiQnVXcUFWZGdxVFlCYWFKblJEbEpRQ0hUaWs?oc=5",
+          "headline": "ルワンダ開催決定で鈴鹿の将来に不安",
+          "points": [
+            "F1のルワンダ新規開催が10年契約で正式決定したことで、ファンの間で日本の鈴鹿サーキット存続を懸念する声が高まった。",
+            "F1カレンダーの過密化と新興開催地へのシフトが進む中、伝統的なヨーロピアンおよび日本ラウンドの立場が揺らいでいる。",
+            "2029年までの契約満了後、鈴鹿がカレンダーに生き残るための政治的・経済的な交渉が今後さらに激化することは確実。"
+          ],
+          "takeaway": "グローバル化を進めるF1運営の次なる一手と、聖地・鈴鹿の未来を巡る今後の契約延長交渉の動向に注目。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/14 09:10",
+        "title": "大谷の復調気配と欧州サッカーの激動、日本人選手の活躍",
+        "summary": "直近1週間はMLBポストシーズンで大谷のスタメン継続と山本由伸の調整法が話題に。欧州サッカーではマンUの不振によるマルティネスの異例の批判や、コベントリーの歴史的勝利など激動の展開となった。",
+        "key_players": "PS打率低迷も指揮官から厚い信頼を得る大谷翔平や、大舞台でいつも通りの調整を貫く山本由伸が注目を集めた。また、マンUの現状に苦言を呈したL・マルティネスや、米報道で粘投を見せた元巨人のグリフィンも奮闘した。",
+        "outlook": "大谷がポストシーズンで不振を脱し長打を放てるか、ワールドシリーズ進出に向けた打線の中軸としての働きが最大の見どころ。欧州サッカーでは低迷する名門マンUの立て直しや、昇格組コベントリーの勢い継続に注目が集まる。"
+      },
+      "news": [
+        {
+          "title": "大谷翔平のスタメン外しを否定、ロバーツ監督「勝利、優勝に貢献したい」、第３戦もスタメン出場へ ＰＳ打率・１５０で長打なし、１１０打席本塁打なしの不振（スポーツ報知）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/14 08:46",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NNW5yOTlTRHZteHctNURhOHplVWJtMUNHajBwdUtGM2dTcExBNURiT3VzZWF3aUVsM2ZCbFVfeUs5c0ZvRVBaTkJDS1RIZ0FvdXFqSzVTUF9tVkdsR1ZqcXkyc240cnNYMHBXQl9KYlVWMHNoMERiYVRuQmJhOE0?oc=5",
+          "headline": "大谷のスタメン外しをロバーツ監督が否定",
+          "points": [
+            "PS打率.150、110打席本塁打なしと深刻な不振に陥る中でも、第3戦でのスタメン起用を明言した。",
+            "指揮官は勝利と優勝への貢献度を最重視しており、一時的な不調による外野からの懸念を完全に払拭した。",
+            "主砲の復調がワールドシリーズ制覇に向けた打線全体の鍵を握り、次戦以降のパフォーマンスに注目が集まる。"
+          ],
+          "takeaway": "苦しむ大谷が第3戦でいかにしてマークを外し、周囲の懸念を吹き飛ばす長打を放てるかが見どころ。",
+          "is_new": false
+        },
+        {
+          "title": "坂元達裕所属コベントリーがプレミアリーグのホームで「25年ぶり」に勝利 今季のプレミアリーグは昇格組が大健闘",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 23:10",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UNkdQUkc2XzBMS3lwYnV2OFFJY2cyeGRWeFdIeFZaUHRHNmdoRVhmeWZfSzlTUllwZ3pEODBKUXhRajRfRWhOazgwMzR0d1ZLbGhsRFdFanBucWJBbkZUOUpYV0I1b296bUdkempmRWhXVnBJVWVCVTZVNlhNcWM?oc=5",
+          "headline": "コベントリーがホームで25年ぶりの歴史的勝利",
+          "points": [
+            "坂元達裕が所属するコベントリーが、プレミアリーグのホーム戦で実に25年ぶりとなる歴史的勝利を挙げた。",
+            "今季は昇格組の健闘が際立っており、強豪ひしめくリーグにおいて戦術的な躍進が大きな話題となっている。",
+            "この勝利によりチームの勢いはさらに加速し、中位争いや今後の残留争いにおいて非常に大きな弾みとなる。"
+          ],
+          "takeaway": "絶好調の昇格組の中で、日本人MF坂元がさらなる主力としての存在感を発揮できるかが今後の焦点。",
+          "is_new": false
+        },
+        {
+          "title": "5戦未勝利…L・マルティネスがマンU首脳陣を異例の批判「監督や選手のせいと言うのは簡単」",
+          "source": "サッカーキング",
+          "pub_date": "10/14 08:37",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mY2tiVnJsR0JlOERMeUZzdzZtbW5qbGF0d3JfWklLdlJTRGtzUGFCY3U1MU11S2NRUF9vNlBtaXFDeW1wQThYajF6NmxaNmxFd2YxVzBiUHVCOFpwZENnMlZQbVJodEM1ZEQ1aGFOTUM?oc=5",
+          "headline": "マルティネスがマンU首脳陣を異例の公然批判",
+          "points": [
+            "5戦未勝利と低迷するチーム状況を受け、マルティネスが監督や選手個人のせいにする風潮を真っ向から批判した。",
+            "相次ぐ不振の責任を現場だけに押し付けるクラブ首脳陣の姿勢に対し、選手側からの強い不満が表面化した形となる。",
+            "この内部からの強烈な問題提起が、低迷からの脱却に向けたチームの結束を高めるか、さらなる混乱を招くかが注目される。"
+          ],
+          "takeaway": "ピッチ外での不協和音が漂う中、次戦のピッチ上で選手たちがどのような姿勢と結果を示せるかに要注目。",
+          "is_new": false
+        },
+        {
+          "title": "山本由伸が明かす大舞台での心得「大事な試合こそいつも通り」18歳から続く独自の調整法（テレ東スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/12 22:40",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yaEhhUUUwanZMX3RXYnpWUkp2cU1tMF9xQmlxLWlBbDMxbWF3d1c0UzRKaDJfc18xczFwcUo1WGs3aEZNSjktVzJIUWlndzczdVd6STU3cFV2eEQ5NFJNYWxSSzc1MEpkRmNuRWpZb29mVnZnampvSVdFM0lPVFU?oc=5",
+          "headline": "山本由伸が明かす大舞台での独自の調整法",
+          "points": [
+            "山本由伸が18歳から継続している独自の調整法を明かし、大一番でも「いつも通り」入るメンタリティを語った。",
+            "プレッシャーのかかるメジャーの大舞台においても、ルーティンを崩さない強靭な精神力が好投を支えている。",
+            "この揺るぎない調整術がポストシーズンでの快投につながっており、今後のマウンドでもチームを勝利へと導く。"
+          ],
+          "takeaway": "世界最高峰の舞台でプレッシャーを跳ね返す、山本由伸の完璧なルーティンと圧倒的な投球内容を見逃すな。",
+          "is_new": false
+        },
+        {
+          "title": "トゥアメニ：「重要な試合であり、勝利してチャンピオンズリーグでポイントを積み重ねたい」 - Real Madrid CF",
+          "source": "Real Madrid CF | Web Oficial",
+          "pub_date": "10/13 20:07",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM296UlJpQ1NJSkkxVE13VTI2TC1SZm82emdZb0NLTUZXakkyOC1McXNCbGhKU01Lb3doY2tHeC1YYjk5WHU1NmZ3elkwaE9kUFJRYmlHNGtGTmVxeGNhaDVZWXY4SzM1b1Q1bVVvQS1KWFJCMGpXc29KeGNBQk9oakEyVHVsZUhRREthRG9TbDhzbk5MQThWRzJ5SkV0am9YOF9vcTNER3YxdjdxQmI5cFVkV3Z3RGREYmc?oc=5",
+          "headline": "チュアメニがCL勝利とポイント積上げを宣言",
+          "points": [
+            "レアル・マドリードのチュアメニがメディアに対し、次戦の重要性を強調し、勝利と勝ち点獲得を誓った。",
+            "過密日程と熾烈なグループステージを戦う中で、チーム全体として確実に白星を重ねる必要性に迫られている。",
+            "この一戦での勝利が今後の決勝トーナメント進出および首位通過に向けた優位性を大きく左右することになる。"
+          ],
+          "takeaway": "王b者レアルを中盤の底から支えるチュアメニが、攻守のバランスをどう保ち勝利へ導くかに注目。",
+          "is_new": false
+        },
+        {
+          "title": "【ＭＬＢ】元巨人・グリフィン 粘投でガーディアンズ初戦勝利に貢献「かなり満足している」＝米報道（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/13 19:25",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53S2pRQUZ5eWVUR1piSk1Gd0NIY2ZHa051SmliWTdLNnBKOFVmZTJGS0Q5T253OTV6N29IU1NSaTFBUGVZb2JSWkdBT2o2UmJ4dGtPYW9FR1YxWl9MM18zNXI1dXY2eWVVNlREUUw3djl5Vm03aHZmZjRlUS16d0U?oc=5",
+          "headline": "元巨人グリフィンが粘投でガーディアンズ初戦勝利",
+          "points": [
+            "元巨人のグリフィンが粘り強いピッチングを披露し、新天地ガーディアンズの初戦勝利に大きく貢献した。",
+            "米メディアの報道でも「かなり満足している」と本人が語る通り、日本での経験を活かした配球が機能した。",
+            "この好投により信頼を勝ち得たことで、今後の先発ローテーション定着とチームの地区優勝争いへの貢献が期待される。"
+          ],
+          "takeaway": "NPBからMLBへ移籍したグリフィンが、新天地でどこまで安定した投球を続けられるか要チェック。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

@@ -1,17 +1,24 @@
-name: 毎朝6時 ドラ＆ジェッツ速報自動更新
+name: 毎朝 まいすぽ速報＆AIレポート自動更新
 
 on:
   schedule:
-    # 毎日 21:00 UTC (日本時間 午前6:00) に自動実行
-    - cron: '0 21 * * *'
+    # GitHub Actionsの正時混雑（2〜5時間遅延）を回避するため、
+    # 毎日 19:23 UTC (日本時間 午前4:23) にオフピーク起動し、朝6:00までに確実に反映
+    - cron: '23 19 * * *'
   workflow_dispatch: # GitHub画面から手動実行も可能
 
 permissions:
   contents: write # リポジトリへのプッシュ権限
 
+concurrency:
+  group: update-myspo-news
+  cancel-in-progress: false
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
 
     steps:
       - name: リポジトリをチェックアウト
@@ -22,20 +29,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: ニュース取得＆AI要約・3日間レポート生成
+      - name: ニュース取得＆AI要約・1週間レポート・日別アーカイブ生成
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python generate_news.py
 
-      - name: 最新HTMLをGitHubにコミット＆プッシュ
+      - name: 最新HTML＆アーカイブJSONをGitHubにコミット＆プッシュ
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html
+          git add docs/index.html docs/data/
           if git diff --staged --quiet; then
             echo "変更はありませんでした。"
           else
-            git commit -m "chore: 毎朝のドラ＆ジェッツ速報を自動更新 $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "chore: 毎朝のまいすぽ速報＆アーカイブを自動更新 $(date +'%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
             git push
           fi

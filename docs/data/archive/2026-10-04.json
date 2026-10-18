@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-04",
+  "updated_at": "10月04日 08:33",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/04 08:32",
+        "title": "井上監督ラストゲームを勝利で飾る、激動の1週間",
+        "summary": "今季最終戦を白星で締めくくったものの、井上監督の電撃辞任という激震が走った1週間。逆転負け40試合に象徴される投手陣の課題や、電撃辞任に至る舞台裏、そして他球団の優勝を目の当たりにする悔しさが浮き彫りとなった。",
+        "key_players": "松山晋也は最終戦を三者凡退で締めくくり31セーブ目を挙げるも「今季の成績に満足していない」と早くも来季を見据える。また、井上監督は最後の試合前に選手へ「なむけの勝利」を要求し、有終の美を飾った。",
+        "outlook": "最大の焦点は次期監督の選定と外部招聘の行方。決決定権を握るキーマンが誰になるのか、そして来季の巻き返しに向けたコーチングスタッフや補強の動向にファンとメディアの注目が集中している。"
+      },
+      "news": [
+        {
+          "title": "【中日・井上監督語録】松山から勝利球「勝って気持ちよく終われた」1軍監督の2年間「白星という部分で期待に応えられなかったことが残念」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/03 21:55",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FT1VXc3FPbWY3dWhPUk0wNHZScTNveHBkRHFMeG9TeEZHNXdCTjIxZXAyQjFPVHNoU1l1TlJRel9QSnpFWTRheGQ4Q2NCMzlySmhGUQ?oc=5",
+          "headline": "井上監督が最終戦後に辞意と感謝を表明",
+          "points": [
+            "松山から勝利球を受け取った井上監督が、2年間の指揮で白星という結果を出せなかった無念さとファンへの感謝を語った。",
+            "結果が求められるプロの世界において、期待に応えられなかった責任を率直に受け止める退任コメントとなった。",
+            "チームはこの敗戦を糧に、次期体制での巻き返しと勝利にこだわる意識改革へ向けてゼロからの再出発を図る。"
+          ],
+          "takeaway": "新体制がどのような野球スタイルを掲げ、低迷からの脱却に向けたチーム作りをどう進めるかを見守りたい。",
+          "is_new": false
+        },
+        {
+          "title": "中日・井上監督、試合前「『俺にはなむけの勝利をくれ』と言った」「俺たちはプロ。勝たなきゃいけない、責任は取らせてくれ」と選手に伝える：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/03 22:08",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zNDBKaXJGMndCQ3lfa3l6UlJqMUE4ektKejdoaGRLaW5RMjViV2VsdnVqZHZGQk1FN0VXWENhTlZHSjhWemRKMUNZS1dHQWxXWG02aA?oc=5",
+          "headline": "井上監督が選手へ「なむけの勝利」を要求",
+          "points": [
+            "試合前に「俺にはなむけの勝利をくれ、プロだから勝たなきゃいけない、責任は取らせてくれ」とナインに熱いメッセージを送った。",
+            "自らがすべての責任を背負う覚悟を示しつつ、プロとしての誇りと執念を持って最終戦に臨むよう選手たちを鼓舞した。",
+            "指揮官の退任という重い空気が漂う中、選手個々がプロとしての責任感と自覚を改めて強く胸に刻むきっかけとなった。"
+          ],
+          "takeaway": "指揮官の覚悟ある言葉が若手や中堅野手陣のメンタル面に与えた影響と、来季のレギュラー争いへの波及効果に注目。",
+          "is_new": false
+        },
+        {
+          "title": "阪神Vにセ5球団監督がコメント 巨人・橋上監督代行「まだ力の差」中日・井上監督「強いチームの代表作」（スポニチアネックス）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/04 05:32",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwbzBPSGV3b0JvMlhzZ2pzc09vSTBrdmNvbVE2NFJQTXRJZjluVVRZODZaeWJIVkgxZXJCY3pqczA2Z2o4YzYwTlVfaDRSNXNXRnVtNFZ4ZE1lWUM0alNsRnpuWU9ka0hrT2JhOFFKazA4clNuX2NQMzZqZ0FIUXM?oc=5",
+          "headline": "井上監督がセV阪神を「強いチームの代表作」と評価",
+          "points": [
+            "阪神の優勝決定を受けてセ5球団監督がコメントを発表し、井上監督は相手の強さを素直に称賛する言葉を残した。",
+            "長年勝率に苦しんだ中日の視点から、頂点に立つチームと自軍の間に存在する戦力や組織力の明確な差を冷静に分析している。",
+            "球団が常勝軍団へ生まれ変わるために、他球団の勝利の哲学をどのように取り入れていくかが今後の重要なテーマとなる。"
+          ],
+          "takeaway": "首位チームとの差を埋めるため、中日フロントや新首脳陣がオフの補強や育成方針をどう修正していくか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "実は「続投に前向きだった」中日・井上監督 “心が折れた”シーズン最終盤の「決定的出来事」とは 「逆転負け40試合」の投手陣を立て直せる「外部招聘監督」の名前（デイリー新潮）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/02 06:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sTGpVSkZaQlNDT1dIX3RfZzZZNHVNVG9haFVjemdDaGNPeVRVS2ZqTzFuUWVqejlWOVhkSWdJRE1TY3FkdTFwNVMxUHFjak94Vldpa1lKa2lfNW1NQ0wwX1JhcXdLcDl4RnhOajhLd0xaZU5LcXlkdDZDVzNGQ2M?oc=5",
+          "headline": "続投前向きから電撃辞任に至った背景と次期監督",
+          "points": [
+            "当初は続投に前向きだった井上監督だが、シーズン最終盤の失速や逆転負け40試合という投手陣の崩壊で心が折れた。",
+            "リリーフや投手運用に課題を残した救援陣の立て直しが急務であり、外部招聘監督の動向やその手腕に大きな関心が集まる。",
+            "球団の次期監督人事の決定権を誰が握るかによって、今後のドラフト戦略やチーム再建のスピードが大きく左右される。"
+          ],
+          "takeaway": "低迷する投手王国を立て直す次期監督の正式発表と、それに伴うコーチ陣の組閣人事の全容に目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "球団関係者も「ネットニュースで知った」 中日ドラゴンズ井上監督の“電撃辞任” 新監督は誰に?決定権を握るキーマンは?いつ頃発表?【若狭敬一解説 前編】（9/30取材）（CBCテレビ）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/02 19:48",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyMkx0R3ZuMDZSSkZncnkwNmNmZTlsbGd3Sm05SXBZcDRNRENxNUVWUVJsSzNmcmxiYTdFOGdXeVpZRElxRWJSUTJRbnBxdkw0RkhnQ0xwUkExbjBjQ2pDWnlYaWxUTWQ0dXBNcTQ2S2M5N3pLMWdIUlFoSXFXRU0?oc=5",
+          "headline": "球団内でも情報が交錯した異例の電撃辞任劇",
+          "points": [
+            "球団関係者さえもネットニュースで知るという異例のスピードで井上監督の辞任が報じられ、大きな波紋を呼んだ。",
+            "現場とフロント間の情報共有や意思決定プロセスに課題を残す形となり、組織全体のガバナンスに注目が集まっている。",
+            "新監督の決定権を持つキーマンが誰であり、いつ公式発表されるかによってファンの信頼回復のスピードが変わる。"
+          ],
+          "takeaway": "一連の辞任劇を経た球団のマネジメント体制の透明性と、新体制発足に向けた正式アナウンスのタイミングに注目。",
+          "is_new": false
+        },
+        {
+          "title": "中日・松山晋也、「今季の成績に満足はしていない」井上監督ラストゲームを三者凡退締めで31セーブも来季へ目を向ける",
+          "source": "中日新聞Web",
+          "pub_date": "10/03 22:58",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GTVpfbHdvYTNSOUhtVWVUUEd3SlpkUkNIck9zMk5HdEstcWpSd1E3TnBIOVJZOWZ0SktsX0JkMGtoUDZNVUl0RmM0eGdwX1h0M2xGcw?oc=5",
+          "headline": "松山晋也が31セーブ挙げるも来季へ強い危機感",
+          "points": [
+            "井上監督のラストゲームで松山晋也が三者凡退で締めくくって31セーブ目を挙げたが、本人は今季の成績に全く満足していない。",
+            "チームの敗戦数がかさむ中で自己最多級のセーブ数を重ねたものの、個人の数字以上にチームの順位に強い責任を感じている。",
+            "守護神として確固たる地位を築きつつある若き右腕の存在は、来季のブルペン安定と優勝争いにおいて不可欠のピースとなる。"
+          ],
+          "takeaway": "さらなる進化を誓う松山が、来季はどのようなコンディションと球威で勝ちパターンを構築していくのか見逃せない。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/04 08:33",
+        "title": "富樫残留と代表復帰、歴史的死闘を制した千葉Jの激動週",
+        "summary": "過酷な4度のオーバータイムを戦い抜いた千葉Jは、チーム一丸の底力を証明した。主将・富樫勇樹の契約継続が発表され、新体制への期待が高まる中、激闘を経たチームの精神的な成長と結束力が際立つ1週間となった。",
+        "key_players": "チームの顔である富樫勇樹が契約継続を果たすとともに、日本代表のWindow4候補メンバーへ復帰。新たな立ち位置での覚悟を示しつつ、千葉Jの牽引役として攻守両面で圧倒的なリーダーシップを発揮し続ける。",
+        "outlook": "神戸の小川麻斗ら若手からの挑戦状も届く中、富樫を中心に次戦へ向けてどうコンディションを整えるかが鍵。日本代表活動への合流も含め、チームの戦術的レイヤーがさらに深まる次節の戦いぶりから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "神戸ストークス・小川麻斗、日本代表PG富樫勇樹に挑戦状「千葉ジェッツには負けたくない」／バスケ（サンケイスポーツ）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "09/20 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zTm95V0M4TnJyTDRaekpOTE56MG5oa3pNSE1RQm9aUTAwOVdOd29ZVjVSdGZ1ZVBJLXE3VjdpMnNIdk44b2EwTWY2S2V4bE9Pd2pHb3oxQ0xKemFxbEhRV1ZmV3FocDJQNWFkTW1nTnV4LWxyUk5yOGV6dFgyS1k?oc=5",
+          "headline": "小川麻斗が富樫勇樹へ宣戦布告",
+          "points": [
+            "神戸の小川麻斗選手が日本代表PG富樫勇樹選手に対し「千葉ジェッツには負けたくない」と闘志を燃やした。",
+            "若手ガードとして日本トップを走る富樫選手へのリスペクトと、直接対決で下克上を果たしたい強い野心が背景にある。",
+            "今後の両チームの対戦において、激しいマッチアップと若手の台頭が勝敗を分ける大きな見どころとなる。"
+          ],
+          "takeaway": "富樫勇樹と若き挑戦者・小川麻斗による世代を超えたPG対決は、試合の主導権を握る最大の焦点となる。",
+          "is_new": false
+        },
+        {
+          "title": "4度のオーバータイムを戦いぬいた千葉J…富樫勇樹「チームとして本当に戦えたと思う」",
+          "source": "バスケットボールキング",
+          "pub_date": "10/03 13:41",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44WkFyajZiMEZRbXp5THVCZmgzaGdPeDlPaFF3MzJvay1aSkNJWU5ySVRtd3RvWGhLeHRtcFhHVzZxekNsYy1sYmk0bEFBamw5Y09zc25DY3pIRnRYbVNVcTlVZTZrU21w?oc=5",
+          "headline": "4度のOT死闘を戦い抜いた富樫の総括",
+          "points": [
+            "千葉Jが前例のない4度のオーバータイムに及ぶ歴史的な激闘を戦い抜き、チームの総合力を証明した。",
+            "試合後、富樫勇樹主将が過酷な状況下でも全員が一体となって戦い抜けた手応えを強く口にした。",
+            "この総力戦の経験は、今後の長丁場なシーズンにおけるチームの精神的支柱として大きなプラスに働く。"
+          ],
+          "takeaway": "異常な疲労度の中でも勝ち切る、あるいは戦い抜いた千葉Jの底力が、シーズン終盤の順位争いで真価を発揮する。",
+          "is_new": false
+        },
+        {
+          "title": "「Window4は出るつもり」…復帰目指す渡邊雄太、ケガの状況と八村・河村合流の代表を語る",
+          "source": "バスケットボールキング",
+          "pub_date": "08/21 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80VEdmeHVsd3cxSjJVa1YxMWdkWHhIY0VpSGtOLXBad0JmVkVSNW4tVmt1eF93N3NTQ3A0OEZSRWV2Ym1JN1VyZmd0OEZZT1lZWENqcW5fTHRBdzdWenpZbGFBbjh4VURF?oc=5",
+          "headline": "渡邊雄太がWindow4復帰へ意欲",
+          "points": [
+            "負傷離脱中の渡邊雄太選手が、バスケットボールW杯アジア予選Window4での日本代表復帰を明言した。",
+            "自身のケガの順調な回復に加え、八村塁選手や河村勇輝選手ら主力が合流する代表チームの現状を語った。",
+            "日本代表の戦力アップはもちろん、日本バスケ界全体の求心力とレベルを引き上げる起爆剤となる。"
+          ],
+          "takeaway": "NBA級のタレントが揃う日本代表において、渡邊雄太のコート上のリーダーシップがチームにもたらす化学反応に期待。",
+          "is_new": false
+        },
+        {
+          "title": "千葉ジェッツがチームの顔である富樫勇樹と契約を継続「来シーズンはナンバー1にもオンリー1 にもなりましょう!!!」 - basket",
+          "source": "basket-count.com",
+          "pub_date": "06/02 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54YkNrZHBqVk1KeWZmS0Z3N3JMMWYwTGhvcElVandHRzJNOXFxcVc3aUhiMTNnM0xYSEk4R0Nkclo5dmlpYVkwc0FPRWducWVMTml5OXQ5QTJfZw?oc=5",
+          "headline": "富樫勇樹が千葉Jと契約継続を発表",
+          "points": [
+            "千葉ジェッツの顔である富樫勇樹選手がチームとの契約継続を正式発表し、ファンへ強いメッセージを送った。",
+            "「ナンバー1にもオンリー1にもなりましょう」という言葉通り、クラブを常に頂点へ導く覚悟を示している。",
+            "チームの核である富樫選手の残留決定により、中長期的な編成プランと優勝を狙う軸が完全に定まった。"
+          ],
+          "takeaway": "クラブの象徴である富樫が引っ張る千葉Jが、Bリーグの頂点君臨に向けてどのような圧倒的なバスケを見せるか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "渡邊雄太「歴史はこうやって繋がっていく」八村塁＆河村勇輝と“27.8秒”の共演…男子バスケ黄金時代にある明確な目標「3人がまた一緒にプレーできたら…」（宮地陽子）",
+          "source": "Number Web",
+          "pub_date": "09/03 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vVUwya2IxZWtSczNMSGEybDRXS1lFZmRqbzY4bzUyUlhRT2x6MW9zZjgteHhtY3hLTERUUTZfT1dKb0VkaFFhd3k2S2J1TzFsNUx4TG9B?oc=5",
+          "headline": "黄金時代を象徴する27.8秒の共演",
+          "points": [
+            "渡邊雄太、八村塁、河村勇輝の3選手がコート上で同時にプレーし、日本バスケの黄金時代を印象づけた。",
+            "「歴史はこうやって繋がっていく」という渡邊選手の言葉通り、世代を超えた融合が明確な目標を形作っている。",
+            "世界の強豪と渡り合うための絶対的なコア戦力が構築され、日本代表の国際大会における躍進が期待される。"
+          ],
+          "takeaway": "日本バスケ史に残る豪華メンバーが同時起用された際の圧倒的なシナジーと、世界への挑戦の行方に目が離せない。",
+          "is_new": false
+        },
+        {
+          "title": "【バスケ日本代表】富樫勇樹がW杯予選Window4に向かう代表候補メンバーに復帰「自分の立ち位置が今までと違うことは理解しているがーー」",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "08/14 16:00",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTBXVUlSX0VtWS1LUk9zSWd2aU44a3ZCMXVZZ0J2RGY1SjA3bFlQVTYzU3Rsc1ZJOEdVUmhHa0plSWVDaHNEbTJfR3QwQnJ5NGM0c3BNSWo5cmlMaGhiQjFNODVPNTJNQ3hXbmdwOGZCbEhQdnUwY2w3bzNWb1haZWUzazBHWGttV1pGSHJB?oc=5",
+          "headline": "富樫勇樹がW杯予選Window4代表復帰",
+          "points": [
+            "日本代表の主将・富樫勇樹選手が、W杯予選Window4の代表候補メンバーへ再び合流を果たした。",
+            "「自分の立ち位置が今までと違う」と語り、若手の台頭やチーム内の役割変化を冷静に受け止めている。",
+            "代表チームにおけるベテランとしての統率力と、勝負所でのゲームメイク力が再び勝利の鍵を握る。"
+          ],
+          "takeaway": "変革期にある日本代表の中で、富樫勇樹がどのようなリーダーシップを発揮しチームを勝利に導くのか必見。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/04 08:33",
+        "title": "日本GP激闘！ホンダ前進と日本勢の挑戦、F1ではピアストリに厳しい視線",
+        "summary": "モータースポーツ界は日本GPを中心に激動の1週間。MotoGPではホンダが2台揃ってQ2進出を果たし確かな前進を実感。一方、ル・マン予選ではタイム抹消の大波乱が起きるなど、各カテゴリーでドラマチックな展開が続出しました。",
+        "key_players": "MotoGPで小椋藍が11番グリッドからの巻き返しを狙い、山中琉聖がホームGPで今季初表彰台を目指す。中上貴晶は鎖骨負傷で無念の手術離脱。F1ではピアストリがルーキー並みのミスと厳しい批判を受け、闘志が問われています。",
+        "outlook": "日本GPの決勝レースにおける日本勢の躍進と、ホンダのさらなる戦闘力向上が最大の焦点。また、F1で批判を浴びたピアストリが次戦でどのような攻撃性と走りをみせるか、ドライバーたちのメンタルとリカバリーに注目です。"
+      },
+      "news": [
+        {
+          "title": "【MotoGP】小椋藍 日本GPで「苦戦のち巻き返し」なるか 11番グリッドスタート （日テレNEWS NNN）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/03 12:45",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XRVNhUEhfaTVRMVZyT0F4WEhrbXBEbkNLbm9hRDZ6MnZUTEdTUGt3NWN3N1JhOWtueVpWb2lJako5N1hlV0hISkUtME0yRHNqdDUzakxXQ0hHVlc3VDNVVzlCRm80QVl4ZmZtcWI3ZTRuZTZLeTN1MmhwUVM3Nm8?oc=5",
+          "headline": "小椋藍は11番手から日本GP決勝へ",
+          "points": [
+            "予選で苦戦を強いられた小椋藍は、中団グループからの巻き返しを狙うべく11番グリッドからのスタートが決定した。",
+            "母国グランプリ特有のプレッシャーやマシンセッティングの調整に苦しみ、上位進出へ向けた機動力の改善が急務となっている。",
+            "決勝レースでのオーバーテイクショーやポイント獲得に向けた追い上げが、チャンピオンシップ争いに大きく影響する。"
+          ],
+          "takeaway": "母国の大声援を背に、小椋がどこまでポジションを上げてポイント圏内に食い込めるか。",
+          "is_new": false
+        },
+        {
+          "title": "【MotoGP】Moto3クラスの山中琉聖 「今回乗らなかったらいつ乗るの？」 ホームGPで今季初表彰台を目指す",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/04 06:18",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3eTR6U3gzYXBhd3owZXJTVWpCa0xvY3RzZ1Rmc0dTZjNNcEN3WjhxNUwtU2dIa2JRR0VLQkM5S1FyRW9oRC1veVpHVTZ2SGh2VHUwMER0U1NyUWg2ZnAtRWJWcGlUZGk4bC02ZE9DVHN6eExCX09FZUJJNzhYRE0?oc=5",
+          "headline": "山中琉聖がホームGPで初表彰台へ闘志",
+          "points": [
+            "Moto3クラスに参戦する山中琉聖が「今回乗らなかったらいつ乗るの？」と強い決意を語り、今季初表彰台を目指す。",
+            "日本GPという特別な舞台でファンの期待を一身に背負い、フリー走行から攻めの走りでマシン限界を引き出している。",
+            "ここで表彰台を獲得できれば、シーズン後半戦の契約やチーム内評価、自己のモチベーション向上に絶大な効果をもたらす。"
+          ],
+          "takeaway": "得意のモビリティリゾートもてぎで、山中が日本人トップの座を掴み取れるか。",
+          "is_new": false
+        },
+        {
+          "title": "ホンダ折原GM、2台揃ってのQ2進出は「ホンダにとっても前進を感じられる結果」",
+          "source": "autosport web",
+          "pub_date": "10/03 19:59",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA4MGNseDZtMk40LXdiSEd1LW9hN3BEazdYUXE3Zlp3bGQ5M202SUNiWlB6aXJadnBobzJ3Umg3UnJpM0RCdGYw?oc=5",
+          "headline": "ホンダ折原GMが2台のQ2進出を評価",
+          "points": [
+            "ホンダの折原GMが、MotoGP予選で2台揃ってQ2進出を果たしたことについて「チームにとって確かな前進」と手応えを語った。",
+            "開発競争で苦戦が続く中、マシンの戦闘力向上とエンジニアリングの方向性が正しかったことがデータとしても証明された。",
+            "この改善傾向が決勝レースでの完走や入賞ペースに直結し、次戦以降の開発スピードをさらに加速させる原動力となる。"
+          ],
+          "takeaway": "低迷打破へ向けて進化を続けるホンダ勢が、決勝でライバルメーカーとどこまで渡り合えるか。",
+          "is_new": false
+        },
+        {
+          "title": "セレモニー中にまさかのタイム抹消!? ル・マン24時間予選で起きた「大どんでん返し」の裏側【みどり独乙通信】",
+          "source": "carview!",
+          "pub_date": "10/03 17:30",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjgtcW5BbjhiNUx3cHJRS0xsYmwwYjZZUTl3RVRKRE1VYTNZVFRad3QzYXcxbFBqU3lGYmxaMm1JckxDeTlfRVhqdmpuZTJLNDhWNFZyMk15ZHdRb0ItdnpIUWpPeThPOERkZ2NnSUFrZDFSbE83WXBfQnVka3dEZ2Z6TlpHamFp?oc=5",
+          "headline": "ル・マン予選でセレモニー中のタイム抹消劇",
+          "points": [
+            "ル・マン24時間の予選セッション中、セレモニー進行の混乱に起因するまさかのタイム抹消という大どんでん返しが発生した。",
+            "競技規則の適用と運営側の裁量を巡り、各チームがピット裏で対応に追われるなど、過酷な耐久レース特有のドラマが生じた。",
+            "この予選順位の変動はスタート位置だけでなく、決勝24時間のレース戦略や初期のピットストップ計画を根底から狂わせることになる。"
+          ],
+          "takeaway": "予選での思わぬペナルティを乗り越え、各チームが本戦でどうリカバリーを図るか。",
+          "is_new": false
+        },
+        {
+          "title": "【F1】表彰台を逃したピアストリに「ルーキー並みのミス」と厳しい批判 問われる攻撃性と闘志（TopNews）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/01 17:33",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jQlNwcVhYNk11SjhmYXB4bk5TcE55aEg1LVpGLWl1V3N0OVI5bjRBY0xxZUhuM2dBaTZzZmxHd3ZUQ1pZZWZ2aEd4TlB2aHJCNmhPT3VIbnlCQkNwM1dYTjk5WWJCbVpwcE5UTTJzeDhkOHVhLXBzYWZyYzFLa28?oc=5",
+          "headline": "ピアストリのミスに厳しい批判が集まる",
+          "points": [
+            "表彰台を逃したオスカー・ピアストリに対し、専門家から「ルーキー並みのミス」と厳しい批判が浴びせられている。",
+            "勝負所での冷静さを欠いたドライビングミスにより、確実だった表彰台のチャンスを自ら手放す結果となった。",
+            "トップ争いに常時絡むための攻撃性と闘志のバランスが問われており、次戦以降のメンタル面とドライビングの立て直しが急務。"
+          ],
+          "takeaway": "手痛い批判を受けたピアストリが、プレッシャーを跳ね除けて次戦で真価を示せるか。",
+          "is_new": false
+        },
+        {
+          "title": "鎖骨負傷で欠場の中上貴晶が手術のため、もてぎを去る。石川譲部長「とても悔しがっている」／第16戦日本GP",
+          "source": "autosport web",
+          "pub_date": "10/02 19:06",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA3aGxMSjdhWnA0blBlRHdrZUk3QUZzY0I2SzR4cGVkeXZwWVI5TzBzV2JneklZa0JWUmxlUGNLTDY2M3JxZ3Vmd2Z3?oc=5",
+          "headline": "鎖骨負傷の中上貴晶がもてぎを離れ手術へ",
+          "points": [
+            "鎖骨負傷により日本GPを欠場している中上貴晶が、治療のための手術に踏み切るべく、もてぎのサーキットを去る決断を下した。",
+            "石川譲部長によれば、地元ファンの前を走れないことで本人が誰よりも悔しがっており、早期復帰へ強い執念を見せている。",
+            "エースライダーの離脱はチームの開発データ収集に痛手となるが、万全な状態での早期復帰が来季に向けた最優先事項となる。"
+          ],
+          "takeaway": "無事に手術を終えた中上のリハビリの進捗と、代役ライダーによる週末の奮闘ぶり。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/04 08:33",
+        "title": "MLB日本人勢躍動と久保建英の殊勲PK：激動の1週間レポート",
+        "summary": "直近1週間は国内外で熱戦が展開された。MLBでは村上宗隆がポストシーズン初アーチとなる決勝弾を放ちチームを牽引。サッカーでは久保建英が劇的勝利を導く殊勲のPKを獲得し、存在感を示した。各競技で日本人選手の躍動が光り、チームの勝利に大きく貢献する充実の1週間となった。",
+        "key_players": "村上宗隆はPS初本塁打を含む大活躍で勝負強さを証明。大谷翔平は一時的な不調が報じられるも、チームのWS3連覇へ向けて状態の立て直しが期待される。山本由伸は次戦へ向け調整中でチームの信頼厚く、久保建英は勝負どころで結果を残しチームを勝利へ導いた。",
+        "outlook": "MLBでは山本由伸の次戦での投球内容と、大谷のバッティングの復調がドジャースの快進撃のカギを握る。村上の所属チームも勢いを維持できるか注目だ。サッカーでは久保の好調維持と、国内外のリーグ戦における熾烈な上位争いからの目が離せない。"
+      },
+      "news": [
+        {
+          "title": "【MLB】村上宗隆、PS初アーチが決勝弾　PS3連勝に「完璧なホームランでした」　止まらぬ勢い　同地区ライバル完封で　3年連続100敗から続く快進撃",
+          "source": "sanspo.com",
+          "pub_date": "10/04 05:11",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNME4zdlBqNHhRdVpNUU55R2V1MklfaVNKN2t0azZFZDFvM2pxRzFDUS1SWFE2bUxWQTdOcVNPd193LWVydHZDb0JOSk5hUzNpUExHZnhtTXhhNFF0MW5rYmRCcklVY1BFX3djRjRZWGRNTWt6bWxfTmFDQzVoVzB6Nm5EeWw1LUpDMHMzY3FEcHpzUdIBigFBVV95cUxPbkk0WXZwRjNwUGNiS25waUlwVkhVeGs5NlR5Wkl0bVZJWDBucXRMcXhZdkZibmcyMVJNVGEzOG1sMlVQQ3c3RmE2NjVPaDJwdjlPekdJWFNjXzNTWl8wdWh1dC1kVlhIcHZtamlCY2I4amswbi1xNTBzcWVleGRWcE9JMVNlQ1FreFE?oc=5",
+          "headline": "村上宗隆がPS初アーチとなる決勝弾",
+          "points": [
+            "村上宗隆がポストシーズン初アーチを放ち、同地区ライバル相手の完封勝利に貢献して3連勝を飾った。",
+            "3年連続100敗を喫した過去の低迷期から一転し、チームの快進撃を支える主砲として圧倒的な存在感を放っている。",
+            "このまま打撃好調を維持できれば、チームのワールドチャンピオンに向けた戦いで不可欠なピースとなる。"
+          ],
+          "takeaway": "チームの快進撃を牽引する村上のバットが、次戦以降も大舞台で勝負強さを発揮できるかに熱視線が集まる。",
+          "is_new": false
+        },
+        {
+          "title": "“86打席ホームランなし”大谷翔平は「少し焦っているのかも」「一番大事なのは…」ロバーツ監督が語った現状…ドジャースWS3連覇へどんな状態なのか（Number Web）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/02 12:05",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SbDMyUElaREVkSk1jQ3hwNzZab0hVdzlhS21IOHRXS19aRzVYekZYd0ZJTEdRZVNiV0w0MVVIMTZvNmNkOHlFZmFmWjV6a2x1ZnFFM2dKd0IzNklvWHh3XzZMX0NnOHRwUXBsMWQwbTVlY1VOdHNaRWFYcWo4RGM?oc=5",
+          "headline": "ロバーツ監督が大谷翔平の現状を分析",
+          "points": [
+            "大谷翔平が86打席本塁打なしと苦しんでおり、ロバーツ監督が「少し焦っているのかも」と現在の心理状態を明かした。",
+            "シーズン終盤の重要な局面において、主砲の長打力欠如はドジャースのワールドシリーズ3連覇への大きな懸念材料となっている。",
+            "打撃フォームの修正やメンタル面の立て直しが急務であり、今後の起用法や打順変更の可能性にも影響を与える。"
+          ],
+          "takeaway": "待望の一発が飛び出すタイミングと、指揮官がどのように大谷の復調をサポートしていくのかが最大の焦点。",
+          "is_new": false
+        },
+        {
+          "title": "久保建英が劇的勝利導く殊勲のPK獲得「なんとかチャンスがあればと」会場のEピースにも改めて感銘",
+          "source": "gekisaka.jp",
+          "pub_date": "09/28 21:55",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0tWmpUUFQzdm9nNU5vcXkzdkR2cEV0WHNsM2JlLVhfVVlEUEx6MkVyT1Exdk8tb25WT1BSdDdqdEs3WXZZQTEybjNfQWlfai1Ud0JBSUk3VmxpSjRTNmVHcVdpZXdRMHUwX2U0?oc=5",
+          "headline": "久保建英が劇的勝利を呼ぶPK獲得",
+          "points": [
+            "久保建英が試合終盤に決定的なPKを獲得し、チームを劇的勝利へと導く殊勲のパフォーマンスを披露した。",
+            "「なんとかチャンスがあれば」という強い執念が結実したものであり、強豪ひしめく舞台での勝負強さを改めて証明した。",
+            "エースとしての信頼を高め、今後の代表や所属チームでの戦いにおいてマークがさらに厳しくなることが予想される。"
+          ],
+          "takeaway": "勝負を決める局面で結果を残し続ける久保が、次戦でさらにどのような決定機を演出しチームを勝利に導くか。",
+          "is_new": false
+        },
+        {
+          "title": "山本由伸、第３戦へ調整 ロバーツ監督「ローテーション全体、そしてヨシノブにとってもいい形」（日刊スポーツ）",
+          "source": "news.yahoo.co.jp",
+          "pub_date": "10/04 06:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YRHVJTFVyYlRHTHZyMl9xeUxiTk5sV2hwMnpocUVpa3hIaEx4aFk3NDJocGxGZldhcWdPeUQ5Q2RBcVl2aTFmeFc1X20wU2Z4b1ZtWFdwVzVMOW1pQ0lfaV9NQXhtWVR5NklRZ0RVQy1COG9xS1BYYW95SnhDeVk?oc=5",
+          "headline": "山本由伸の第3戦へ向けた調整が順調",
+          "points": [
+            "山本由伸がポストシーズン第3戦へ向けた調整を行い、ロバーツ監督から「ローテーション全体と本人にとっていい形」と高評価を受けた。",
+            "投手陣の疲労が蓄積する重要なポストシーズンにおいて、中軸を担う右腕のコンディション管理は極めて戦略的に進められている。",
+            "盤石の先発ローテーションを維持することで、チームはワールドシリーズ制覇へ向けた主導権を確実に握りやすくなる。"
+          ],
+          "takeaway": "満を持してマウンドに上がる山本が、大舞台のプレッシャーを跳ね返し相手打線をどのように封じ込めるか。",
+          "is_new": false
+        },
+        {
+          "title": "[プレミアリーグEAST]FW高木瑛人ハットの鹿島ユースが昌平を5発撃破…前橋育英は青森山田に1-0勝利:第16節",
+          "source": "gekisaka.jp",
+          "pub_date": "10/03 20:42",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UV2hMTy1SYjVmQkhueEcwc081ZHB0S0kwOVRaVDFiNUJUbHF0THlaTDZTd0tZMS1GNGdUcFhQekl0TFcteVJLc2RTQTZiYjc1bWJOSUI2QnZwcTZSUllWUFZiUks1VmUySF9V?oc=5",
+          "headline": "鹿島ユースが昌平を5発撃破し快勝",
+          "points": [
+            "高円宮杯プレミアリーグEAST第16節で、鹿島ユースがFW高木瑛人のハットトリックなどで昌平を5-0で圧倒した。",
+            "前橋育英も青森山田を1-0で下すなど上位争いが激化しており、一瞬の隙も許されない緊迫した展開となっている。",
+            "シーズン終盤戦に向けて若手育成と勝敗の両立が求められ、プロ輩出を見据えた選手たちの熾烈なアピールが続く。"
+          ],
+          "takeaway": "圧巻の5ゴールで大勝を飾った鹿島ユースの攻撃力が、次節以降のタフな上位対決でも通用するか要注目。",
+          "is_new": false
+        },
+        {
+          "title": "村上宗隆　PS１号は決勝先制２ラン　絶叫は「汚い言葉です」ホワイトソックスは敵地初戦で快勝",
+          "source": "日刊スポーツ",
+          "pub_date": "10/04 07:14",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5fc3NwbXFlVDhmUC1wODNkWTFnLXpCdlN2OHdfUTliSTFXbVFjbkVxbXljZzd2THo5QUdFZUZKb3pMVW9uajZtMUpnUWJqWE9IWmtvaGluYUVCRXJ1SHZMT2wyVmF2RWdDcUhxWGtyWDZzcUFKTE1VOFR6VdIBfkFVX3lxTE1iNHdrTDN6OHZQRm9UYnoxSEZubmI2M2VVV01vTUhXb0dpLW5SX20wZV9lSEF4OVIyNEVoN2tTaFRONldPcGxsaWRNTWpSYTNNZTZSRmRWVkJCc0N3bUVhTDlMRFdRTVFidjhnTUQyVXM0ZC1odk9ReTBhTDFMUQ?oc=5",
+          "headline": "村上宗隆がPS1号の先制2ラン炸裂",
+          "points": [
+            "ホワイトソックスの敵地初戦において、村上宗隆がポストシーズン初号となる先制2ランを放ち快勝の立役者となった。",
+            "完璧な一発を放った興奮から「汚い言葉です」と絶叫を振り返るなど、チームの勢いを加速させる起爆剤となっている。",
+            "同地区ライバルとの重要なシリーズ初戦を制したことで、チーム全体の士気は最高潮に達し今後の戦いでも優位に立てる。"
+          ],
+          "takeaway": "敵地での初戦を勝利に導いた村上の絶好調な打撃が、次の試合でもチームに流れを引き寄せ続けられるか。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}
