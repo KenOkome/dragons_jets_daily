@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-19",
-  "total_days": 29,
+  "latest_date": "2026-10-20",
+  "total_days": 30,
   "dates": [
+    {
+      "date": "2026-10-20",
+      "updated_at": "10月20日 07:57",
+      "label": "10/20",
+      "summary_title": "工藤公康新監督が就任！科学的トレと意識改革で竜の常勝化へ挑む"
+    },
     {
       "date": "2026-10-19",
       "updated_at": "10月19日 06:35",
