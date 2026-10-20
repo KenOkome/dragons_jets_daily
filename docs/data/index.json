@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-20",
-  "total_days": 30,
+  "latest_date": "2026-10-21",
+  "total_days": 31,
   "dates": [
+    {
+      "date": "2026-10-21",
+      "updated_at": "10月21日 07:24",
+      "label": "10/21",
+      "summary_title": "工藤新監督が就任！全試合動画分析と徹底した体づくりで再建へ"
+    },
     {
       "date": "2026-10-20",
       "updated_at": "10月20日 07:57",
