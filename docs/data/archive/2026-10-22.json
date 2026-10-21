@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-22",
+  "updated_at": "10月22日 07:26",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/22 07:24",
+        "title": "工藤新体制が始動、4万球超の映像分析と徹底改革へ",
+        "summary": "工藤公康新監督が就任し、今季143試合4万球以上の動画チェックや若手と横一線の走り込み令など、チーム把握と再建へ向けた改革が急ピッチで進んでいます。また、ドラフト会議の指名方針やFA権行使の動向も注目を集めています。",
+        "key_players": "工藤新監督は就任前から徹底したデータ分析と厳しい指導姿勢を示し、ベテランの大野雄大も若手との横一線での走り込みに覚悟を語っています。また、フェニックスLで外野テストに挑む森駿太や去就注目の選手たちにも視線が注がれています。",
+        "outlook": "明日へと迫ったドラフト会議での1位指名の最終確認や、新体制による秋季練習での怪我耐性づくり、科学的トレーニングの導入が焦点となります。新指揮官のもとでチームがどう生まれ変わるか、ファンの期待が高まっています。"
+      },
+      "news": [
+        {
+          "title": "ドラゴンズに迫るFAラッシュ！ 中日、去就注目の選手（6）髙橋宏斗の女房役が権利取得…強肩捕手の決断は？",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/22 07:08",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TREFvTE9FZ013UTJQb3Y2Wm9iRGhRYjFWSWdiTjZ6VHRPcWc3Y19zTkcwR3VqTXJpZ1ZRdjdjREY4alI1azRleWZETmp1R09kUnFRaGxqV1dHUEl4NUxmNUxCeldCSE4teDBhRUxPOWRaWWQ3N1BDY1A2N3VjVFk?oc=5",
+          "headline": "強肩捕手がFA権取得で去就注目",
+          "points": [
+            "髙橋宏斗の女房役を務める中日の強肩捕手が国内FA権利を取得した。",
+            "チームにFAラッシュが迫る中、正捕手格の去就が大きな焦点となっている。",
+            "捕手が残留するか移籍を選ぶかにより来季のバッテリー編成が左右される。"
+          ],
+          "takeaway": "エースの女房役である強肩捕手がFA権を行使するか残留を決断するかに大きな注目が集まります。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラゴンズ、ドラフト１位指名は「あすの会場で最終確認する」",
+          "source": "中日新聞Web",
+          "pub_date": "10/21 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSb01pSHJscGh1ZnBlVDQ1QTdyRmQ1d29kMEZNOWhBclFwZVBnZ1JkaVRESlVVRldDZnNuTjdlN25nTGQxZlVSSTFITVc1THFhTTNiOQ?oc=5",
+          "headline": "中日、ドラフト1位は当日会場で最終確認",
+          "points": [
+            "中日ドラゴンズはドラフト1位指名選手を翌日の会場で最終確認する方針だ。",
+            "当日の他球団の競合状況や動向を見極めた上で最終決断を下すとみられる。",
+            "誰を1位指名するかによりチームの将来的な戦力補強の方向性が大きく決まる。"
+          ],
+          "takeaway": "当日の会場での最終判断で誰を1位指名するのか、ドラフト戦略の結末に熱い視線が注がれます。",
+          "is_new": true
+        },
+        {
+          "title": "【ヤフコメで話題】「工藤監督の徹底した分析と指導力に期待」「選手起用やチーム改革への注目」 - 中日ドラゴンズ新体制へのファンの視線",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/21 15:23",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNUDBCWVRrYTd1Wm9pQ1Bya3RHZ2RxbG1nQW1vSEhvTWkyQVdnVW5Ic0tCZTRFaVhDQzN5YUR5Q1ZHc2JSV0g3Q3NJUlBLNmZXbHI0a0E5TGQ2U2NkRVB2NUdJLVRJOFM0bXpwWlBfYzd0SUxTZUZ6WldQaUxEaDQ?oc=5",
+          "headline": "工藤新体制にファンから分析・指導力期待",
+          "points": [
+            "新体制に対しヤフコメ等で工藤監督の徹底した分析と指導力に期待が集まる。",
+            "ファンは今後の選手起用の変化やチーム改革の進展に強い関心を寄せている。",
+            "新体制への高い関心とファンの視線がチーム改革の後押しとなるか注目される。"
+          ],
+          "takeaway": "工藤新監督の徹底的な分析力と指導力によって、チームがどう改革されるのか期待が膨らみます。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督、竜の今季143試合！4万球以上！動画チェック！ チーム把握へ急ピッチ、「全体を見る」投手の2万653球+打者が相手に投げさせた2万956球：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/21 05:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95SHJCYVdBdndwT1ZTY2dnLTZZTlBpOHRqeG45ZS1FREpRcWhTYnhyT1lER3VLdFFqWUlXSnZFcXBKUGhoSXRhQTRVa242clliUXAwMA?oc=5",
+          "headline": "工藤監督、今季全4万球超を動画確認へ",
+          "points": [
+            "工藤新監督がチーム把握のため今季143試合4万球超を動画でチェックする。",
+            "投手の2万653球と打者が投げさせた2万956球の全体を急ピッチで精査。",
+            "膨大なデータと映像の確認を通じて来季の戦術構築や戦力見極めが進められる。"
+          ],
+          "takeaway": "143試合4万球以上を徹底分析する工藤監督の緻密なアプローチがどんな采配を生むか注目です。",
+          "is_new": true
+        },
+        {
+          "title": "中日・大野雄大、工藤新監督の『若手と横一線走り込み令』に「覚悟はしていました」 オフのランニング増量で「体をつくっていかなあかん」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/20 22:27",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DZ3hXU3hSU3NudVFYdWgyZ2NzSENMdUtoXzhoeXNlWDJ2bk5XUDJoeHBweURoQmpjWm9JekVYa0lCb1JxV3VDV2RQLXlVV0E1WGFnWA?oc=5",
+          "headline": "大野雄大、工藤監督の若手と横一線令に覚悟",
+          "points": [
+            "工藤新監督による若手と横一線の走り込み令に対し大野雄大が覚悟を口にした。",
+            "オフのランニング量を増やし、体をつくっていかなあかんと調整を進める。",
+            "実績あるベテランも例外なく走らされることで投手陣の底上げが図られる。"
+          ],
+          "takeaway": "ベテラン大野雄大が若手同様の走り込み増量を受け入れ、再起に挑む姿にファンの期待が高まります。",
+          "is_new": false
+        },
+        {
+          "title": "中日ドラゴンズ・工藤公康監督が就任会見前にコーチ要請した山﨑武司「イチローに“来い”と言ったら…」愛工大名電の先輩後輩“組閣構想”を明かす（2ページ目）",
+          "source": "週刊女性PRIME",
+          "pub_date": "10/20 18:30",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TTVk4LVc2SUdRa0JBdWY0aUFJRGdsUkUta19DZjJRSm0tUG05anNMWEZaay1FNEJlVy0ySmNGTWpZVm5Tdm9YNjVnNU9iaW1LSE1HUXh2WGc?oc=5",
+          "headline": "山﨑武司氏、工藤監督のコーチ要請明かす",
+          "points": [
+            "山﨑武司氏が工藤監督から就任会見前にコーチ就任の要請を受けたと明かした。",
+            "愛工大名電の先輩後輩の間柄で、イチロー氏への言及を含む組閣構想を語る。",
+            "新指揮官が描く首脳陣体制の陣容が明らかになるにつれ注目度が増している。"
+          ],
+          "takeaway": "名電OBの絆やイチロー氏への言及など、工藤新体制が構想する豪華な組閣の行方から目が離せません。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/22 07:24",
+        "title": "千葉ジェッツ：試練を乗り越え浮上へ",
+        "summary": "直近1週間は東京SR戦での負傷退場や43点差大敗など試練の時を迎えたが、京都ハンナリーズ戦での試合開催など新たな一歩を踏み出した。チームは苦境の中でも勝利を目指し、立て直しを図っている。",
+        "key_players": "東京SR戦で負傷退場となった渡邊雄太の状況や、初出場を果たした田代直希のチームへの定着、ファーストオプション以外でもアタックする姿勢を見せる金近廉らの奮闘が試練打破の鍵となる。",
+        "outlook": "主力の負傷など逆風が吹く中、富樫勇樹が語るように「言い訳せず勝つこと」を体現できるか。ファンはチームの立て直しと、ホーム・ららアリーナでの次なる戦いでの巻き返しに期待を寄せている。"
+      },
+      "news": [
+        {
+          "title": "【試合情報】10/21 千葉ジェッツvs.京都ハンナリーズ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "10/22 04:25",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04Mml2bUJ2TEtyZjFPU0FLdjdmcmJZRUx4YTZNSVJoSjh3dU5tU2F2V1poYU1pV3puZEYwczVjWUMzSjNtX2VkNWRvQjBZTG8?oc=5",
+          "headline": "10月21日に京都戦を開催",
+          "points": [
+            "千葉ジェッツ対京都ハンナリーズの試合情報が公開された。",
+            "Resona Group B.LEAGUE 2026-27シーズンの一環として行われた。",
+            "試合に関する詳細な公式情報がファンに向けて発信された。"
+          ],
+          "takeaway": "公式から発表された対戦カードや試合情報を事前にチェックして、チームの勝利に向けた戦いをしっかり応援していきましょう。",
+          "is_new": true
+        },
+        {
+          "title": "【Bﾌﾟﾚﾐｱ26-27】千葉ジェッツ vs 京都ハンナリーズ G1【ワイ氏の反応】",
+          "source": "Basketball News Times",
+          "pub_date": "10/21 21:24",
+          "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOaV95Nk5sMnMzYWFDYUJ6eGZNZnRMcEpiX09Rd29nSzR3VlQ2emtKV3huTnE3VmtFaUFNeDBORnQzTHhNOVh2dGZwVXItM2NSSVQ5LTdhWkxkZkdqQVB0emlfOThVN3F2Q2dQbjhHM2JYX0ZyUVF1MTFldGgzaDFrbFJ3YUlYcVRXUUVSMDlaT3k4bjd4dDJaUUJZbjlJZnk1WVRsVHlJMllsRGNZQzJhY2tSalFGTkpKVTBQU0lqRTBsLUxId0g3N0M4c01PSzBna1E1MDhoMmQ5MDVlMkh6LVJndl9ZOW9pR3kyMjZ5MzZsOVlFUzhoaHlMVl9mYVFWTjVEY0pEWk12WElRdlBReDVYSXlyVEpLcFpkSnJMVzFEaElSNE1iNUpEaVdJalNrSGw4OWs3Umx6ZC1EWGZ3LVNGY2VZZlU?oc=5",
+          "headline": "京都戦の試合反応を報道",
+          "points": [
+            "千葉ジェッツ対京都ハンナリーズのG1に関する記事が配信された。",
+            "Basketball News Timesによって試合の様子や反応が取り上げられた。",
+            "ファンやメディアの間で試合内容に対する様々な意見が交わされている。"
+          ],
+          "takeaway": "メディアや識者がどのように試合を分析し反応しているのかを確認することで、次戦へのチームの課題を深く理解することができます。",
+          "is_new": true
+        },
+        {
+          "title": "まさかの地区11位…千葉ジェッツに試練の時。東京SR戦は渡邊雄太が負傷退場し、ホームで屈辱の43点差大敗＜DUNKSHOOT＞",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/20 20:20",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWUNabmREX2RMWkMwcnlVRjQ5YmRoSWFVd0lBZnFGVFJHREZwXzJwT3Q3a21icnBiNnpuM0UxNXJVc2NQVWNKcV84aXhpeDFMRlcxMHFSQjZVOXZJdG5SM1ZMbzM1Sm1OS2VYVmk4TnNMMDF0ampVV3hnd2lIRTQtQ3FsT3J1cThyUlZaZnNaONIBiwFBVV95cUxQbXBVYlZRSloxSjEzUDZ0bzlvejVWZ3JZMXByNmxocDdUVW1VZzhrb1I4MFg1VEhueWw4cU1mU0o3b0lDZ0kxVS1fR2pjVmtFcmZyV3RLQkIxWHZicjQ3bTQxemZ2Nkpaa1dleC01UWh0VndyTDFweFNkYXVvNE9FWjhGQTVrR0YyTnRJ?oc=5",
+          "headline": "東京SR戦で大敗と試練の時",
+          "points": [
+            "千葉ジェッツは東京SR戦でホーム43点差の大敗を喫した。",
+            "この試合で渡邊雄太選手が負傷退場するアクシデントも発生した。",
+            "チームは現在地区11位と苦しい試練の時期を迎えている。"
+          ],
+          "takeaway": "厳しい順位や主力の負傷など逆風が吹く中、チームがどのようにこの困難を乗り越えて立て直していくのかが今後の大きな見どころです。",
+          "is_new": false
+        },
+        {
+          "title": "第1子出産の久慈暁子、バスケコートで子供抱いたショット披露「パパの応援かな？」「大きくなってる」の声 夫は渡邊雄太選手",
+          "source": "モデルプレス",
+          "pub_date": "10/20 16:20",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iYUowU2pXVk9MNTVpRExJcm5qdFpuYnB2TnNRNEdPY1RUSHJreVJWNHVFNnVmMHlLdEV2THRnOHdOLUJkS3oyRXBRWdIBR0FVX3lxTE9yYmJXN3RwMmRhaGhJcWxnMlUwUy1ZUU1OTm5tVWZCcWN4elpObHA0NHhQQzBmejdDX2FuVUsxc2lDMFJ3ZVFN?oc=5",
+          "headline": "久慈暁子が子供抱いたショット",
+          "points": [
+            "第1子を出産した久慈暁子選手がバスケコートでのショットを披露した。",
+            "夫である渡邊雄太選手の応援に駆けつけた様子が話題となっている。",
+            "子供の成長を喜ぶ声やパパの応援を温かく見守る声が寄せられた。"
+          ],
+          "takeaway": "コート外での家族の温かいサポートや微笑ましいエピソードを知ることで、選手のプライベートな一面を感じながら応援できます。",
+          "is_new": false
+        },
+        {
+          "title": "「こんな姿が見られるとは驚き」久慈暁子、親子で夫・渡邊雄太の試合へ「赤ちゃん大きくなってきましたね」",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/19 12:20",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2g1bGdwbmhPNHBRVGpUWkVISk1yZDJSaWM2MWdKQ1I1TzJPelJlUTVYZkt1ZzJtOTlidEg0QVhDTmNvZXc4dmRacWFmS0stbkhSeF9KTE9TNUpIbFJfTDFZUmZGMUI0aFVxMy1OdEoyTXZrRTdENUNreG9hNVFrTTVFQy03c2lpdmFobWJnc9IBlAFBVV95cUxPNVJRN0x0VndZWHBDbzkzSEJwTlJNZHlnWWMyQWNzVmFveWk2X0pNQVNOVG5EMHZLTmFKVS1FV0sxU0Y4bzJBUVhJblI5T3QxNFRmZ25WRVdWQW5JLWlrWm9hQzkwcnFtV3Y1MmNhd0lHdFRNT2JaSTdQZjZ3d0Nyb09XUVdKRDRPb0tpQzFHdWpzajEt?oc=5",
+          "headline": "親子で渡邊雄太の試合へ来場",
+          "points": [
+            "久慈暁子が親子で夫・渡邊雄太の試合観戦に訪れたことが報じられた。",
+            "赤ちゃんの成長した姿に驚きと称賛の声が集まっている。",
+            "家族が見守る中でのプレーやその反響がニュースとして取り上げられた。"
+          ],
+          "takeaway": "家族の支えを力に変えて戦う選手たちの姿に注目し、コート上だけでなく会場全体の一体感ある雰囲気を楽しんでみましょう。",
+          "is_new": false
+        },
+        {
+          "title": "【バスケ日本代表】千葉J・富樫勇樹「この組み合わせで良かった」パリ五輪の組み合わせ決定 Kazakhstan (3p94uToGvw)",
+          "source": "Unisba Media",
+          "pub_date": "10/17 00:11",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45WWxpREF1X3NnMlg1MWhia2M4VFdIWlI0dk5kcjVjcG1mNVR6SHlaUGpaY2F3VVJ5anZjX1RrRUxma1F5S1FyOTQ1a2RvQXJzRjJzNWlreUt0MFRNdmpxRnRIRFktZw?oc=5",
+          "headline": "富樫勇樹がパリ五輪に言及",
+          "points": [
+            "バスケットボール日本代表の富樫勇樹選手がパリ五輪についてコメントした。",
+            "対戦相手の組み合わせ決定を受けてこの組み合わせで良かったと語った。",
+            "カザフスタン戦など代表チームの国際舞台での戦いに関心が集まっている。"
+          ],
+          "takeaway": "日本代表を牽引する主将の言葉から、国際大会に向けた強い意気込みやチームのコンディションを感じ取ることができます。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/22 07:24",
+        "title": "F1ホンダ500戦記念とアメリカGP開幕直前動向",
+        "summary": "直近1週間は、ホンダのF1参戦通算500戦を記念したアメリカGPでのロゴ掲出やTV放送日程の発表をはじめ、FIAの新リモートオペレーションセンター設置などが報じられました。また、各カテゴリーでのドライバー移籍やレース外の話題も豊富でした。",
+        "key_players": "マクラーレン残留とWEC参戦およびリザーブ兼任が決まったフォルナローリや、ホンダとともにアメリカGPに臨むアストンマーティン等の動向が注目を集めました。また、MotoGP日本GPでの小椋藍への大声援なども話題となりました。",
+        "outlook": "まもなく迎える2026年F1第18戦アメリカGPでのホンダ記念ロゴ掲出や各チームの戦況が最大の注目点です。さらに、F1の判定を公平化するFIAの新センター運用や、今後のカレンダー調整の行方からも目が離せません。"
+      },
+      "news": [
+        {
+          "title": "【F1】フォルナローリ、ハースのシート逃すもマクラーレン残留 WEC参戦とリザーブ兼任（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/22 00:09",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMRUppOHZaVVZncmttUjA2azdkNTdQc0JOc053YXNjTzNPUEhvaG5tWjM2SDFHTDFvY0RleDZWaDRNVTB5azFXcGt3dGpOUVhSY0V5Q1VmaFFJM2J5cXVnbHM5WnFQektEXzc1a3FoX05zbjRuV082ZllXSmNWSjg?oc=5",
+          "headline": "フォルナローリ、マクラーレン残留でWECとリザーブ兼任へ",
+          "points": [
+            "フォルナローリはハースのレギュラーシート獲得を逃したものの、マクラーレンへの残留が決定した。",
+            "新たな役割としてWECへの参戦を果たしつつ、F1チームのリザーブドライバーも兼任する体制となる。",
+            "耐久レースで実戦経験を重ねながらF1のバックアップを務めることで、将来の昇格機会を窺う形となる。"
+          ],
+          "takeaway": "WECでの実戦経験を積みながらF1リザーブとしてスタンバイする彼の今後のキャリア展開に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "【写真1】10月21日に販売が開始された『ライカQ3 43 F1エディション』",
+          "source": "autosport web",
+          "pub_date": "10/21 19:45",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44U3dCZUEtZzhOaEwtSTFkSWRXVGZOTnRGenFCWFpvSnlRbk1VRDlYTERPcFNaWnlPbkJhd1RQLVVSRmxFREJKUVFYNzR5b3J2M25FSW5PMVBwWEVNTnN2Sg?oc=5",
+          "headline": "限定カメラ『ライカQ3 43 F1エディション』が発売開始",
+          "points": [
+            "プレミアムカメラブランドのライカから『ライカQ3 43 F1エディション』が10月21日に発売された。",
+            "F1の名を冠した特別仕様モデルとしてリリースされ、モータースポーツファンや写真愛好家の関心を集める。",
+            "レース界と高級カメラのコラボレーション商品として、限定感のあるデザインや所有価値が提供される。"
+          ],
+          "takeaway": "F1の世界観が反映された特別なライカQ3の質感やデザインがファンにとって魅力的なコレクターズアイテムです。",
+          "is_new": true
+        },
+        {
+          "title": "2026年F1第18戦アメリカGP TV放送＆タイムスケジュール",
+          "source": "autosport web",
+          "pub_date": "10/21 16:49",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwSEZfZlMzQnYtTnp2MXlqOUtWLThXMzVLWFJ5ODVBc3VxNWNRLXh1dy1MMHJTVGE1NV91MV9pdW5IVWU0T2cw?oc=5",
+          "headline": "2026年F1第18戦アメリカGPの放送予定と進行日程が公開",
+          "points": [
+            "2026年F1第18戦アメリカGPのテレビ放送予定および公式タイムスケジュール情報が公開された。",
+            "観戦計画を立てるファンに向けて、各セッションの正確な走行開始時刻や中継プラットフォームが案内される。",
+            "現地との時差が大きいアメリカ開催において、セッションごとの放送枠を把握して観戦態勢を整える基準となる。"
+          ],
+          "takeaway": "週末のスケジュールと中継情報を事前に確認し、アメリカGPの各走行セッションを余さず観戦しましょう。",
+          "is_new": true
+        },
+        {
+          "title": "「優れたドライバー」平川亮／ガス欠目前の表彰台／アストンの不得意分野etc.【第7戦決勝後Topics】",
+          "source": "autosport web",
+          "pub_date": "10/21 15:47",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yc1I3V1otclh6NExXbUJjWm04R0hBQ29BbnRsS21fNGoyUnRQX1U2b0tkSWtmSWNiQnFHbkI0bUJ4SVJ5NkRyRnRzVVBVOHdNSHc?oc=5",
+          "headline": "平川亮の奮闘や燃料危機など第7戦決勝の注目トピック総括",
+          "points": [
+            "第7戦決勝後のトピックとして、高い評価を得た平川亮の活躍やガス欠寸前での表彰台獲得劇が取り上げられた。",
+            "あわせてアストンマーティンが抱える不得意分野の課題など、決勝レースの重要な分岐点が分析されている。",
+            "各チームやドライバーの戦況と課題が浮き彫りとなり、今後のシーズン展開や序列争いに影響を与える内容だ。"
+          ],
+          "takeaway": "称賛を集めた平川亮の走りと波乱のドラマを振り返り、次戦に向けた各チームの対策に期待が高まります。",
+          "is_new": true
+        },
+        {
+          "title": "ホンダF1参戦通算500戦 アメリカGPで「AMR26」に記念ロゴ掲出",
+          "source": "Car Watch",
+          "pub_date": "10/21 12:15",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlZWZ3VFhsWVJXSW5kMXF2VGVrUmhIWnowUk0ySDVETDdxR1pSRFVZUVlMN1k5bVNwSXlLYTVyeG9JeWhrVE1MazRFUmpVaG1NUmREamVBd2NJbndDOVUtT2RTWWI?oc=5",
+          "headline": "ホンダF1通算500戦、アメリカGPでAMR26に記念ロゴ",
+          "points": [
+            "ホンダのF1参戦通算500戦を記念し、アメリカGPを走るAMR26に特別記念ロゴが掲出される。",
+            "ホンダの長年にわたるF1挑戦の歴史を称える節目であり、アストンマーティンとの共闘を象徴する演出となる。",
+            "メモリアルな一戦を迎えるマシンに記念ロゴが刻まれることで、節目となるグランプリの注目度が一段と高まる。"
+          ],
+          "takeaway": "記念すべき500戦目の節目にAMR26のマシンを彩るホンダの特別記念ロゴの勇姿はファン必見です。",
+          "is_new": true
+        },
+        {
+          "title": "FIA、F1と協力しリモートオペレーションセンターを新設「より公平で一貫性のある判定を可能に」",
+          "source": "autosport web",
+          "pub_date": "10/21 10:56",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zUHpsQnRid0NGWWlSSHRUeTFVMHN1Uk00Z1FtYjV5WnJ5Tld0N2JLZHFrSGhVWW5BLTlZdVY1d1I1eEJuZHFZ?oc=5",
+          "headline": "FIA、判定の公平性向上へF1と遠隔運用センターを新設",
+          "points": [
+            "FIAがF1と協力体制を築き、判定精度を高めるためのリモートオペレーションセンターを新たに開設した。",
+            "「より公平で一貫性のある判定を可能に」することを目的とし、レース運営とスチュワードの支援体制を強化する。",
+            "遠隔地からの多角的なデータ分析とサポートにより、審判判断の迅速化や判定トラブルの低減が期待される。"
+          ],
+          "takeaway": "新設された遠隔拠点による支援で、レース中のスチュワード判定がどのように公平化されるか注目されます。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/22 07:25",
+        "title": "久保建英が復活の1G1A！欧州サッカーやMLB熱戦の1週間",
+        "summary": "サッカーではレアル・ソシエダの久保建英がマラガ戦で今季初ゴールとアシストを記録し、チームの3連勝に貢献。バルセロナのヤマルもCLで圧巻のゴールを決めた。またMLBポストシーズンではレイズが勝利して対戦成績を2勝2敗のタイに戻すなど、各競技で激しい戦いが繰り広げられた。",
+        "key_players": "久保建英は7試合ぶりの先発起用に応えて1得点1アシストと躍動し、指揮官や現地メディアから絶賛された。また、バルセロナのヤマルはCLのPSG戦で得点し、10代の大会最多得点記録更新へ王手をかけている。",
+        "outlook": "得点すれば負けなしの不敗神話を持つ久保建英が復調の勢いを維持できるか注目が集まる。また、記録更新まであと1点に迫るヤマルのCLでの活躍や、勝敗がタイに戻り白熱するMLBポストシーズンの行方からも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "高円宮杯U-18プレミアリーグ2026ファイナルおよびプレーオフの大会概要が決定…PO進出は5チームが決定済み",
+          "source": "ゲキサカ",
+          "pub_date": "10/21 14:14",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13andRTlBwWHdLR0NzUTVWMlZTSG5zUlRqc09SbGI3amRPR0x1OF9QUVJlNEZHY2ZuRVBpb3l4aENOc1ZFdmh6djZaLXQ2a05iLTJuMlpGSkJjTGFHZDZFUm4zelhjTnZKSG1N?oc=5",
+          "headline": "高円宮杯U-18プレミア2026概要決定",
+          "points": [
+            "高円宮杯U-18プレミアリーグ2026の決勝およびプレーオフ概要が決定した。",
+            "プレーオフ進出枠を争う戦いにおいて、すでに5チームの進出が確定している。",
+            "高校年代最高峰の頂点を目指し、残る出場枠と本大会の動向に注目が集まる。"
+          ],
+          "takeaway": "若き才能たちが激突する高校年代最高峰の舞台で、残る出場権をどのチームが掴むのか目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "PSG戦で圧巻ゴール！ バルサFWヤマルが10代のCL最多得点記録更新まであと「1点」、記録更新も射程圏内 ｜ UEFAチャンピオンズリーグ",
+          "source": "DAZN",
+          "pub_date": "10/21 11:26",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRmZ3WHRVUGtVTVo5NXA1TWVFMkg2bEwzd2VadXFKOGpWZVNtSGlqN1VaakFub0FqaDR4M3N5dlRmbGtqSlFVblZfT0tZSk84OTZnV29IaUN4X3c0TVhNNXU4bE5tNm5tcTVpZUxzLTI2cmJPVXpFaW9iUExTSGZzYjhkMkZzYzg4ZmphdXlCVVlMYUZSNG5iM2dGNWZ5MVJGWmQ3ai1VdWdhLUd6ZmRxREc4RWZzbENHT2ItY1ZDaU9uajdqR2xCbUIyYXFXSVlPbnVwZTczX0Q0Zm9UMGZNbmwxQmVoakxCTzQxaV9B?oc=5",
+          "headline": "バルサFWヤマル、10代CL最多得点まで1点",
+          "points": [
+            "バルセロナFWヤマルがPSG戦で圧巻のゴールを叩き込み、大きな存在感を示した。",
+            "10代選手によるUEFAチャンピオンズリーグ最多得点記録の更新へあと1点に迫った。",
+            "歴代記録更新も完全に射程圏内となり、今後の欧州大会でのゴール量産に期待がかかる。"
+          ],
+          "takeaway": "世界最高峰の舞台で記録更新に挑む若き天才アタッカーの、歴史的一撃がいつ生まれるのか必見です。",
+          "is_new": true
+        },
+        {
+          "title": "「久保建英のゴールは常に朗報。その貢献は文句のつけようがない」得点すればソシエダ負け無し！現地記者が称賛",
+          "source": "Goal.com",
+          "pub_date": "10/21 09:56",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQk9lUm15WW9zUjU0N2JncEFibUtDR3lzZ2FNZ0JxaGx6eUFuamVvS3BNcllXUHc3ZU5OM05zUGdkblBsODk5djZiTExkNGFwcEZ5ZF9jajBmVVBEVmFENGFiNlZFWGRiNmpmWmpmYzFjLVk2ZXhaOWllMnhUUkNlMXA5XzlVbUVJMEFpMGxDZDdtQnJUbFRRZ3AtTHVfNFozWGJvMlpXTGh2X19nVTBHNm5uM3FYNUhBZ28weGxB?oc=5",
+          "headline": "久保建英の得点でソシエダ不敗、現地絶賛",
+          "points": [
+            "久保建英が得点した試合でソシエダの負けなしが続き、現地記者から称賛を集めた。",
+            "「久保のゴールは常に朗報で貢献は文句なし」と評され、チームの不敗神話を支える。",
+            "得点時の高い勝率が証明され、攻撃の絶対的キーマンとして今後の活躍が期待される。"
+          ],
+          "takeaway": "久保がゴールネットを揺らせばチームは負けないという頼もしいジンクスが、どこまで続くか注目です。",
+          "is_new": true
+        },
+        {
+          "title": "久保建英、マラガ戦の１ゴール１アシストをもたらした３つの要因 「連係力」が戻ってきた",
+          "source": "webスポルティーバ",
+          "pub_date": "10/20 16:30",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSW9PYndKOVVleFlhVldQcElMd000SEpvSTVSNUFwamplam1nV2F1NlN6UE5tSHBmeHFOaTlKZ21nbmFrdGVGYmdVRFpsbVFwZDJMaUY3R19tTmJQcllHNTdLRFMtMjh2cm9zaldLNTJqQTMxdHU2NDI3X1JpNHBhLQ?oc=5",
+          "headline": "久保建英、マラガ戦で1G1Aと躍動",
+          "points": [
+            "久保建英がマラガ戦で1ゴール1アシストを記録し、攻撃陣を力強く牽引した。",
+            "活躍の背景には失われかけていたチーム内の「連係力」の復活など3要因が存在した。",
+            "チームメイトとのスムーズな連係を取り戻したことで、今後の継続的な活躍が期待される。"
+          ],
+          "takeaway": "チームとの連係を取り戻した久保が、今後も攻撃を牽引して数字を残し続けられるか要チェックです。",
+          "is_new": false
+        },
+        {
+          "title": "「えぐいのキター!」ソシエダMF久保建英が圧巻ゴラッソで復活を宣言! 7試合ぶりのスタメンで302日ぶり＆結婚発表後初ゴール!「ヤマルみたいだ」「これは福原遥パワーすぎる」（サッカー批評Web）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/19 10:06",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JRU1FQW90NmU4Tl8ya0N5dEdKbTVPVDdFTjQwR3E4VDlCTGxMbGxmREZ2RjQzQW1mb3czRnZLeV9NaWo4ZWFhRjlYd1lZM0dkQlY0YkVyMTZVekZFXzdvUUpNSGJNdEhVdWlNS2hPN1E4S1lab0p6NVFNeURkYUE?oc=5",
+          "headline": "久保建英が302日ぶり圧巻弾で復活",
+          "points": [
+            "ソシエダの久保建英が7試合ぶりの先発出場を果たし、圧巻のゴラッソを叩き込んだ。",
+            "302日ぶりかつ結婚発表後初ゴールとなり、ファンからは「ヤマルみたいだ」と反響。",
+            "圧巻の復活弾によって存在感を示し、今後のスタメン定着や更なる得点量産が期待される。"
+          ],
+          "takeaway": "久しぶりのスタメン起用で見事なゴラッソを決めて復活を告げた久保の、さらなる爆発に期待が高まります。",
+          "is_new": false
+        },
+        {
+          "title": "復活の久保建英、1G1Aで現地喝采「見事なゴール」 敵陣で多大な脅威…最高評価「相手を翻弄」（FOOTBALL ZONE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/19 08:47",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HUlFuN1BkY1NRS1dnVUFLRHJqa1VNUDYxaTFvT0pHZ2VSc1RSQ0tmVlBFNzJfR2N0WFZhNGJIdFZoeG8xYjhkSW55anR2cklTaDduZTQ0eENrNVEwSWdidl9TT05kcFA0dUx0d2ZVWnpraWJGbDItMllOcmdkUGc?oc=5",
+          "headline": "久保建英が1G1Aで現地最高評価を獲得",
+          "points": [
+            "久保建英が敵陣で相手を翻弄して多大な脅威となり、1ゴール1アシストの大活躍を見せた。",
+            "現地メディアから「見事なゴール」と絶賛され、試合の最高評価を獲得して喝采を浴びた。",
+            "復活を印象づけるハイパフォーマンスにより、チーム内での信頼を確固たるものにした。"
+          ],
+          "takeaway": "敵陣を切り裂き最高評価を勝ち取った久保建英が、この勢いを維持してチームを勝利へ導くか注目です。",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

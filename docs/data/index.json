@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-21",
-  "total_days": 31,
+  "latest_date": "2026-10-22",
+  "total_days": 32,
   "dates": [
+    {
+      "date": "2026-10-22",
+      "updated_at": "10月22日 07:26",
+      "label": "10/22",
+      "summary_title": "工藤新体制が始動、4万球超の映像分析と徹底改革へ"
+    },
     {
       "date": "2026-10-21",
       "updated_at": "10月21日 07:24",
