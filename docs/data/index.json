@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-22",
-  "total_days": 32,
+  "latest_date": "2026-10-23",
+  "total_days": 33,
   "dates": [
+    {
+      "date": "2026-10-23",
+      "updated_at": "10月23日 07:25",
+      "label": "10/23",
+      "summary_title": "工藤新体制始動とドラフト戦略の全貌"
+    },
     {
       "date": "2026-10-22",
       "updated_at": "10月22日 07:26",
