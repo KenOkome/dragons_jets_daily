@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-23",
-  "total_days": 33,
+  "latest_date": "2026-10-24",
+  "total_days": 34,
   "dates": [
+    {
+      "date": "2026-10-24",
+      "updated_at": "10月24日 07:16",
+      "label": "10/24",
+      "summary_title": "工藤新体制が始動！ドラフト1位・宮原指名と徹底管理の改革へ"
+    },
     {
       "date": "2026-10-23",
       "updated_at": "10月23日 07:25",
