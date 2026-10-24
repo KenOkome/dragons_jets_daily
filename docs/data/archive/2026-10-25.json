@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-25",
+  "updated_at": "10月25日 06:43",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/25 06:39",
+        "title": "工藤新監督が始動！ドラフト戦略とチーム改革へ",
+        "summary": "工藤公康新監督が就任し、今季143試合分の膨大な映像チェックや若手との横一線での走り込み令など、早くも徹底したチーム改革に着手。さらに、ドラフト会議にも駆けつけてスカウト陣を労うなど積極的な動きを見せている。",
+        "key_players": "ドラフト1位で最速157キロを誇りフォームを絶賛された宮原廉投手や、4位指名の鈴木悠悟選手らが加入。また、大野雄大投手がオフのランニング増量に覚悟を示すなど、新体制での飛躍に向けて意識が高まっている。",
+        "outlook": "工藤新監督が山崎武司さんへの打撃コーチ要請を認めるなど組閣も注目される。松井新監督率いる巨人への警戒感も示す中、徹底したデータ分析と理論的な采配がどのようにチームに浸透していくのか、今後の動向から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "中日新監督・工藤公康さん「そういう部分は持っていてほしい」投手に求める資質…三浦大輔さん特大被弾をフォロー「ちゃんと勝負にいっている」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/24 23:55",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CMXhHM1FUOENHaHNrQTVqSnB0MndPUy1PemJKX0NZdFctTWF3RDczd1BKM1RfN2VxSG9wM3FSRzVkbmVHcXAxVnhPaldNMzlCSEhIbw?oc=5",
+          "headline": "工藤新監督が投手に求める資質",
+          "points": [
+            "工藤公康新監督が投手陣に求める資質について言及し、逃げずに勝負する姿勢の重要性を語った。",
+            "三浦大輔さんの特大被弾の場面をフォローし、ちゃんと勝負にいっている点を高く評価した。",
+            "新監督の投手起用や求めるピッチングスタイルが明確になり、来季の投手運用に直結する。"
+          ],
+          "takeaway": "新監督が投手陣に求めるアグレッシブな姿勢や勝負勘が実際の試合でどう表現されるのか注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督「ちゃんと研究しないと」松井新監督の巨人に警戒感 「多分打線も良くなる」安住紳一郎アナの質問に”激白”",
+          "source": "中日新聞Web",
+          "pub_date": "10/24 23:22",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIOTYtMXM2Y0dlRkRDTk9zTDJ4RVZEa0VCMnFtOTBnU3lLSEY2eGlMNDJZajkzRGlwQUQ1S3RuUm9Pc3VTa2MzVGxtMG92ekYtMHZmWg?oc=5",
+          "headline": "松井新監督率いる巨人に警戒感",
+          "points": [
+            "工藤新監督が番組出演し、松井新監督が率いる巨人をちゃんと研究しないといけないと語った。",
+            "巨人の打線も良くなると分析しており、ライバルチームの動向を強く警戒している様子を示した。",
+            "セ・リーグの覇権争いにおいて、巨人との対戦が来季の大きな鍵を握る重要な要素になる。"
+          ],
+          "takeaway": "ライバル巨人の新体制をどう分析し、どのような対策を立ててシーズンに臨むのか非常に楽しみだ。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督、山崎武司さんへの打撃コーチ要請認める「教え方、理論、考え方とかが素晴らしいと」TBS安住紳一郎アナの”直撃”に回答：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/24 23:14",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kTXZfR053dzVmc1N3WmczWmlUNVF6MEd2QzZReXhsSFFrTjAyeFRIeGdrWHVWM1FKS0tMNkw1YlVKNTRVVTQ1QnFoRThzcWFoNmlSQg?oc=5",
+          "headline": "山崎武司氏への打撃コーチ要請",
+          "points": [
+            "工藤新監督が山崎武司さんへ打撃コーチを要請していることをテレビ番組の直撃に答えて認めた。",
+            "山崎さんの教え方や打撃理論、考え方が素晴らしいと高く評価してのことであると理由を明かした。",
+            "レジェンドOBの入閣が実現すれば、打撃陣の意識改革やチームの攻撃力向上への大きな期待がかかる。"
+          ],
+          "takeaway": "経験豊富な山崎氏がコーチとして打撃陣をどう変えていくのか、チームの攻撃力アップに期待が高まる。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤公康新監督「僕なら代えます」日本S初戦、7回のタカ上沢続投の解説に注目「来季の采配に通じそう」「短期決戦の鬼が正しい」「理論派」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/24 21:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FQkdvbXdvWWVwMWQwOEFiRGlTalFMREhwQm5RcDRHNjFsZ1NoRDNsRFVnRzRFYUZhemRNVk9OVmNTSXFBZ1MyeEFQeVdBWGFCY2RiTg?oc=5",
+          "headline": "日本Sの継投解説にファン注目",
+          "points": [
+            "日本シリーズ初戦で7回の投手続投について工藤新監督が私なら代えると解説して注目を集めた。",
+            "ファンからは来季の采配に通じそう、短期決戦の鬼が正しいなどと手腕を絶賛する声が上がった。",
+            "勝負所での冷徹かつ的確な決断力が、来季の中日のベンチワークの大きな武器になると期待される。"
+          ],
+          "takeaway": "テレビ解説で見せた卓越した勝負勘や采配の引き出しが、来季の中日をどう導くのか非常に興味深い。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤監督が公開…“600万円超デカい国産車”が話題「運転見てみたい」「かっこいい～」企業に感謝（THE ANSWER）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/24 12:13",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51Q3VrWWF1ZlZ6eE5RS0hMM0dxQVZVNWVZU0JzZkRMRExLVnRhcThtTEk4TmtQMXJMSzAxWUx6SUlBTjF6QW0xTHR0MWpMTjdrdFYwNl95X3Y0aFRfYXdjLVFQdDcwUmlIaWF3NzB2V0NCdlBKRVRZb1lrb2N0bjA?oc=5",
+          "headline": "公開された600万円超の愛車",
+          "points": [
+            "工藤新監督が公開した600万円を超えるデカい国産車がSNSやネットニュースで話題となった。",
+            "ファンからは運転してるところを見てみたいやかっこいいなど絶賛するコメントが寄せられた。",
+            "監督のプライベートな一面や話題性がファンの関心を引き付け、チームへの親近感を高めている。"
+          ],
+          "takeaway": "監督の迫力ある愛車やプライベートの話題は、チームの明るいニュースとしてファンを楽しませてくれる。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督、『巨人・松井新監督』に警戒「強くなるんだろうな」 ドラフト1位・宮原廉のフォーム絶賛「直すところない」",
+          "source": "中日新聞Web",
+          "pub_date": "10/23 22:35",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JSVQwRGdNdFRrVXVDM29RY2ZRcl9VTHBUT1l4TVRWU05TYlhmaUtSNUtGQ1ByaHprVUk3dFZqY1g5SXdiQ2lpMkphbENoXzFCbVV5VA?oc=5",
+          "headline": "巨人への警戒とドラ1を絶賛",
+          "points": [
+            "工藤新監督が巨人・松井新監督の就任によりチームが強くなると警戒感を示している。",
+            "一方でドラフト1位の宮原廉のフォームについて直すところないと絶賛し高く評価した。",
+            "ライバルへの警戒と新戦力への高い期待を同時に示すことで、新体制の視界の広さをアピールした。"
+          ],
+          "takeaway": "ドラフト1位ルーキーの宮原がプロの世界でどのような成長を見せるのか、今から楽しみでならない。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/25 06:40",
+        "title": "千葉ジェッツ：試練の連敗と守備再建への課題",
+        "summary": "直近1週間は東京SR戦での43点差大敗や京都戦での2試合連続100失点など、手痛い連敗を喫し地区11位と苦しい戦況が続く。立て直しに向けた守備の再建が急務となっている。",
+        "key_players": "東京SR戦で負傷退場となった渡邊雄太の動向が懸念される中、第1子出産を迎えた妻の久慈暁子が試合会場で子供を抱いた応援姿が話題を集め、ファンの注目を集めた。",
+        "outlook": "喫緊の課題である守備の立て直しを図りつつ、11月10日の大阪エヴェッサ戦では「WILD BLUE」の出演やハーフタイムショーといったエンタメ面での見どころもある。"
+      },
+      "news": [
+        {
+          "title": "【千葉ジェッツ】公式「note」アカウントを開設しました！！",
+          "source": "PR TIMES",
+          "pub_date": "10/23 19:41",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qT09pWDVwbDZNX183Q1cwNUR0ZER0R2dIcVUxWktaQmNhbzNDWENRNVhuVy1UUFNCbG16UkJvY1AtTGVEVFU5WGZ1UzVMU2g0UVpRRFpYdnpZSm5ibXFLMTlFN1RjYUp6U3c?oc=5",
+          "headline": "千葉ジェッツが公式「note」アカウントを開設",
+          "points": [
+            "千葉ジェッツが情報発信の新たな場として公式「note」アカウントを開設した。",
+            "クラブの日常や選手の魅力など、より深い情報を発信するプラットフォームとなる。",
+            "公式情報の発信強化により、ブースターとのエンゲージメント向上が期待される。"
+          ],
+          "takeaway": "新設されたnoteを通じて、公式SNSとは一味違うクラブの裏側や発信に注目したい。",
+          "is_new": false
+        },
+        {
+          "title": "【Bプレミア】千葉ジェッツまた100失点 京都に敗れ浮き彫りになった守備再建への課題（スポーティングニュース日本版）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/22 15:23",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcDRncUUxQmt2Yk0yRkpjU21JSTZDelFuajV1R3ZuWDZKUHY0aWlTQWpqb3p3c1p5c3RFc0h0TmxDb0FPMnFNOGU0QzhOczdrWmpjUExjQ2VvNGpfVDIwc0l5TXExWUoyWHlVcTlpaFNyaHNVTDBDcGE5OVNFRE1rdS1CNnA3a2Zm?oc=5",
+          "headline": "千葉ジェッツが京都に敗戦、守備再建が急務に",
+          "points": [
+            "京都戦でも100失点を喫して敗れ、チームの守備崩壊が浮き彫りとなった。",
+            "守備の強度が上がらず、失点を重ねる試合が続く厳しい状況が続いている。",
+            "Bプレミアへ向けチームの守備再建が今後の最重要課題として突きつけられた。"
+          ],
+          "takeaway": "連続100失点という守備の課題を、次戦以降どう修正し再建を図るのか注目したい。",
+          "is_new": false
+        },
+        {
+          "title": "まさかの地区11位…千葉ジェッツに試練の時。東京SR戦は渡邊雄太が負傷退場し、ホームで屈辱の43点差大敗＜DUNKSHOOT＞",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/20 20:20",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWUNabmREX2RMWkMwcnlVRjQ5YmRoSWFVd0lBZnFGVFJHREZwXzJwT3Q3a21icnBiNnpuM0UxNXJVc2NQVWNKcV84aXhpeDFMRlcxMHFSQjZVOXZJdG5SM1ZMbzM1Sm1OS2VYVmk4TnNMMDF0ampVV3hnd2lIRTQtQ3FsT3J1cThyUlZaZnNaONIBiwFBVV95cUxQbXBVYlZRSloxSjEzUDZ0bzlvejVWZ3JZMXByNmxocDdUVW1VZzhrb1I4MFg1VEhueWw4cU1mU0o3b0lDZ0kxVS1fR2pjVmtFcmZyV3RLQkIxWHZicjQ3bTQxemZ2Nkpaa1dleC01UWh0VndyTDFweFNkYXVvNE9FWjhGQTVrR0YyTnRJ?oc=5",
+          "headline": "東京SR戦で渡邊雄太が負傷退場し屈辱の大敗",
+          "points": [
+            "ホームの東京SR戦で渡邊雄太が負傷退場し、屈辱の43点差で大敗を喫した。",
+            "この敗戦によりチームはまさかの地区11位に沈み、試練の時を迎えている。",
+            "主力である渡邊の負傷状況と戦線離脱が今後のチーム成績に大きく影響しそうだ。"
+          ],
+          "takeaway": "地区11位と苦しむ中、負傷退場した渡邊雄太の容態とチームの立て直しが焦点となる。",
+          "is_new": false
+        },
+        {
+          "title": "「ＷＩＬＤ　ＢＬＵＥ」出演決定！　１１月１０日ホーム開催、千葉ジェッツ対大阪エヴェッサ戦",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/20 19:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1Y4OXF1SXRid0M2VUJkYV81cEp6SmYwdjl3bGg4UEVtRUJoUXRGOFJCQWJDbDA5bUhsUnlGY0dRWFBiRGNDUjN5bHBkQkJkSXFiN2QzWS05dk82cktxWnRuM0JuMFE4akJYX3VyanhTSDNtZEYzMDhmOWh6R1YzcjdXa9IBgwFBVV95cUxPS1Y4OXF1SXRid0M2VUJkYV81cEp6SmYwdjl3bGg4UEVtRUJoUXRGOFJCQWJDbDA5bUhsUnlGY0dRWFBiRGNDUjN5bHBkQkJkSXFiN2QzWS05dk82cktxWnRuM0JuMFE4akJYX3VyanhTSDNtZEYzMDhmOWh6R1YzcjdXaw?oc=5",
+          "headline": "11月10日大阪戦に「WILD BLUE」出演決定",
+          "points": [
+            "11月10日にホームで開催される大阪エヴェッサ戦に「WILD BLUE」が出演する。",
+            "ホームゲームのイベントとして会場を盛り上げ、観客を楽しませる演出が行われる。",
+            "試合観戦とエンタメステージが融合し、会場の一体感や集客の向上が見込まれる。"
+          ],
+          "takeaway": "11月10日の大阪戦会場に登場するWILD BLUEのパフォーマンスに注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "第1子出産の久慈暁子、バスケコートで子供抱いたショット披露「パパの応援かな？」「大きくなってる」の声 夫は渡邊雄太選手",
+          "source": "モデルプレス",
+          "pub_date": "10/20 16:20",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iYUowU2pXVk9MNTVpRExJcm5qdFpuYnB2TnNRNEdPY1RUSHJreVJWNHVFNnVmMHlLdEV2THRnOHdOLUJkS3oyRXBRWdIBR0FVX3lxTE9yYmJXN3RwMmRhaGhJcWxnMlUwUy1ZUU1OTm5tVWZCcWN4elpObHA0NHhQQzBmejdDX2FuVUsxc2lDMFJ3ZVFN?oc=5",
+          "headline": "久慈暁子がコートで子供を抱いたショットを披露",
+          "points": [
+            "第1子を出産した久慈暁子が、バスケットボールコートで子供を抱く写真を披露した。",
+            "夫である渡邊雄太の応援に訪れた姿に、ファンから温かいコメントが多く寄せられた。",
+            "家族の支えを受けながら戦う渡邊雄太へのブースターからの応援熱も高まっている。"
+          ],
+          "takeaway": "コートで家族の応援を受ける渡邊雄太の家庭的で心温まる一面にファンも大注目だ。",
+          "is_new": false
+        },
+        {
+          "title": "「こんな姿が見られるとは驚き」久慈暁子、親子で夫・渡邊雄太の試合へ「赤ちゃん大きくなってきましたね」",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/19 12:20",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2g1bGdwbmhPNHBRVGpUWkVISk1yZDJSaWM2MWdKQ1I1TzJPelJlUTVYZkt1ZzJtOTlidEg0QVhDTmNvZXc4dmRacWFmS0stbkhSeF9KTE9TNUpIbFJfTDFZUmZGMUI0aFVxMy1OdEoyTXZrRTdENUNreG9hNVFrTTVFQy03c2lpdmFobWJnc9IBlAFBVV95cUxPNVJRN0x0VndZWHBDbzkzSEJwTlJNZHlnWWMyQWNzVmFveWk2X0pNQVNOVG5EMHZLTmFKVS1FV0sxU0Y4bzJBUVhJblI5T3QxNFRmZ25WRVdWQW5JLWlrWm9hQzkwcnFtV3Y1MmNhd0lHdFRNT2JaSTdQZjZ3d0Nyb09XUVdKRDRPb0tpQzFHdWpzajEt?oc=5",
+          "headline": "久慈暁子が親子で夫・渡邊雄太の試合応援へ",
+          "points": [
+            "久慈暁子が親子で夫・渡邊雄太の試合を訪れ、その姿がファンの間で話題となった。",
+            "赤ちゃんの成長に驚きや喜びの声が集まり、SNS等で大きな反響を呼んでいる。",
+            "家族の温かいサポートが、厳しいシーズンを戦う渡邊雄太の大きな力となっている。"
+          ],
+          "takeaway": "会場で渡邊雄太を温かく支える家族の姿と、それを見守るファンの反応に注目したい。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/25 06:41",
+        "title": "F1アメリカGP間近、MotoGPオーストラリアGP激闘",
+        "summary": "直近1週間はF1アメリカGPのタイムスケジュールやタイヤ選定が発表され、開催に向けた準備が加速。一方、MotoGPオーストラリアGPではマルティンが痛恨の転倒を喫し、マルク・マルケスが勝利してランキングを逆転するなど、二輪四輪ともに熱い戦いが繰り広げられた。",
+        "key_players": "MotoGPオーストラリアGPでは小椋藍が雨と空気圧ペナルティーの二重苦に直面し13位となるも、Q2直接進出など光る走りを見せた。F1ではフェルスタッペンが2連勝で手応えを語り、ホンダHRC折原GMがPUの改善について言及した。",
+        "outlook": "今週末に迫ったF1アメリカGPのTV放送やスケジュール、タイヤ戦略に注目。また、MotoGPオーストラリアGPでの逆転劇を受けたチャンピオン争いや、小椋藍の決勝での巻き返しなど、両カテゴリーの今後の展開から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "2026年F1第18戦アメリカGP TV放送＆タイムスケジュール",
+          "source": "autosport web",
+          "pub_date": "10/25 03:58",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwSEZfZlMzQnYtTnp2MXlqOUtWLThXMzVLWFJ5ODVBc3VxNWNRLXh1dy1MMHJTVGE1NV91MV9pdW5IVWU0T2cw?oc=5",
+          "headline": "F1アメリカGPのTV放送と日程が発表",
+          "points": [
+            "2026年F1第18戦アメリカGPのテレビ放送およびタイムスケジュール情報が公開された。",
+            "週末のセッションを網羅して観戦計画を立てるための重要情報が整理されている。",
+            "タイムスケジュールに合わせてファンが現地観戦や配信視聴の準備を進められる。"
+          ],
+          "takeaway": "のアメリカGP観戦に向けてタイムスケジュールと放送時間を事前に把握しておこう。",
+          "is_new": true
+        },
+        {
+          "title": "小椋藍、雨とペナルティの二重苦に直面「決勝では自信と感覚を取り戻すことに努める」／第18戦オーストラリアGP",
+          "source": "autosport web",
+          "pub_date": "10/24 19:52",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1xWkppdkRaaDV0azFfbkdkNnJRQTB3VmRVM1N0eDlZVVJmMV9qR04xcUw0Sk1HUU1lZHNwUzBIOXdlM24ySlo1aklB?oc=5",
+          "headline": "小椋藍が雨と降格に苦戦も決勝に集中",
+          "points": [
+            "第18戦オーストラリアGPで小椋藍が雨のコンディションとペナルティの二重苦に直面した。",
+            "スプリント等で苦しい状況に追い込まれながらも前を向く姿勢を示している。",
+            "本人は「決勝では自信と感覚を取り戻すことに努める」と挽回への決意を語っている。"
+          ],
+          "takeaway": "予選やスプリントでの逆境を跳ね返し、小椋が決勝レースで感覚を取り戻せるか注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "マルティン痛恨の転倒！ マルク・マルケス勝利でランキング逆転｜MotoGPオーストラリアGPスプリント",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "10/24 19:04",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRlFJYUl3TnpqYkVOSDJqXzRYNW1xTzJ5WmR1TzlKYzU3MTZuVnEzQm81cUx5VW5Ud2NSN01qVlpqSHhuS2Q2bXpfUmNZdlF2dkxTbDExV1RVWDg1VExtQkJLSFhsUERyNHlRU05jdy1OaldxNmFseHoya3BsUGdzdw?oc=5",
+          "headline": "マルケスがスプリント制し首位逆転",
+          "points": [
+            "MotoGPオーストラリアGPスプリントでマルティンが痛恨の転倒を喫した。",
+            "好機を逃さずマルク・マルケスが勝利を飾り、チャンピオンシップのランキング逆転に成功した。",
+            "タイトル争いが緊迫する中、スプリントでの勝敗が年間ランキングの行方に大きな影響を与える。"
+          ],
+          "takeaway": "マルケスが逆転首位に立った激動のタイトル争いにおいて、次なる決勝での攻防は見逃せない。",
+          "is_new": true
+        },
+        {
+          "title": "ヤマハ、予選は路面変化に苦戦「完全なウエットの方が調子が上がる」とクアルタラロ／第18戦オーストラリアGP",
+          "source": "autosport web",
+          "pub_date": "10/24 18:38",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9DMmZScDFGXzdtZU91bmM0aGh4MUJQRlBkYXZnVS1lZnhJSXg3bkJpakRpOUdRTmtwUXNMWlg3V0gxZjFtYkJGSlp3?oc=5",
+          "headline": "ヤマハ予選苦戦、クアルタラロが言及",
+          "points": [
+            "第18戦オーストラリアGP予選でヤマハ陣営が路面コンディションの変化に苦戦を強いられた。",
+            "クアルタラロは「完全なウエットの方が調子が上がる」とマシンの状況について言及した。",
+            "変動する路面状況への対応が今後のセッションやレース結果を左右する要因となる。"
+          ],
+          "takeaway": "天候や路面状態の変化に対し、クアルタラロが雨の強まりとともに巻き返せるか注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "【モトGP】小椋藍、6番手ゴールも空気圧のペナルティーで13位 「スプリントは悪くなかった」【オーストラリアGP予選＆スプリント】",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/24 18:22",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3Qy1EZTFyR1RONjBaUVNjaFFMaTUzNW10MHJmVnB4LU1mLXFScm9WNVViRDZUY095YVZ4LXo4OWZaVjhTRjRjOXVMSmxSWnlCTk9vVE5vdlBHU0xCUm5xbHpMem5WczZCdl9NbU1LcGNxSno3RGtzcENQczR0RVE?oc=5",
+          "headline": "小椋藍、内圧違反ペナルティで13位",
+          "points": [
+            "オーストラリアGPスプリントで小椋藍は6番手でフィニッシュしたが内圧違反で13位となった。",
+            "タイヤ空気圧ペナルティにより後退したものの「スプリントは悪くなかった」と手応えを語る。",
+            "ペナルティによる降格を経験したものの、本来の走りの良さを決勝で発揮することが期待される。"
+          ],
+          "takeaway": "降格判定を受けながらも走りに好感触を得ている小椋が、決勝で本来の速さを証明できるか注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "ラルフ・シューマッハ「偉大な選手の仲間入り」 アントネッリのF1アメリカGP王座決定に慎重 （TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/23 21:37",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SajhQYThOeGVDVkstV1BXS0VJaEdmaTA3aDV3ODNIakpsZU96STNJQ0U3SHRPdTI2LUZQalVqUXg2dXhwTVQxa3BiVEJtXzZ6c2tSVE9SRlVsX0twdnVaS1hmZlF1QmNFN09uMk1ORjZKLTBvUjlsNzU0SmcwWU0?oc=5",
+          "headline": "ラルフ、アントネッリの戴冠に慎重論",
+          "points": [
+            "ラルフ・シューマッハが若手アントネッリの「偉大な選手の仲間入り」について評価した。",
+            "一方でF1アメリカGPでの早期王座決定については慎重な見方を示している。",
+            "アントネッリの実力を認めつつもタイトル獲得に向けたハードルに注意を促す形となった。"
+          ],
+          "takeaway": "元F1ドライバーが才能を認めつつも慎重姿勢を崩さない中、アントネッリの戦いぶりに注目だ。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/25 06:42",
+        "title": "MLB開幕＆八村好調、欧州の日本人選手も躍動",
+        "summary": "直近1週間はMLBワールドシリーズが開幕しブルワーズが白首発進。NBAでは八村塁がクリッパーズで躍動し、欧州サッカーでは久保建英が2戦連続スタメンで勝利に貢献するなど、国内外のメジャースポーツで日本選手が大きな存在感を放ちました。",
+        "key_players": "MLBワールドシリーズで要所の投球を見せたミジオロウスキーや、ポストシーズン5本塁打のDeNA・牧が活躍。NBAでは古巣レイカーズ戦で16得点を挙げた八村塁、欧州では連戦で勝利に貢献する久保建英が光ります。",
+        "outlook": "熱戦が続くMLBワールドシリーズの今後の勝敗や、NBAシーズン本格化に伴う八村所属クリッパーズの戦いぶりが注目されます。また、欧州で好調を維持する久保建英のさらなるゴールやチームの躍進からも目が離せません。"
+      },
+      "news": [
+        {
+          "title": "ＤｅＮＡ・牧が起死回生の同点ホームラン バックスクリーン直撃！ ポストシーズン５本目の本塁打（デイリースポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/24 21:23",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsT1c3YUNKdUxPdDdWejJMSUZCdTF3aVJlckctdVlrTHc1c1BqWTZjQk5RNHl1Nnl6OTZ3R2F4cXBoOFMtUmpndDJORGdBZjM2NTBYakpETGlqbTZpMHJ6dE9lQnVDa3BHeEpSaExxNTdCWFBJVkd6SkxwY0JNbjA?oc=5",
+          "headline": "ＤｅＮＡ・牧が起死回生の同点ホームラン バックスクリーン直撃",
+          "points": [
+            "「Yahoo!ニュース」より、ＤｅＮＡ・牧が起死回生の同点ホームラン バックスクリーン直撃！ ポストシーズン５本目の本塁打（デイリースポーツ）に関する最新動向が報じられました。",
+            "詳細抜粋：Yahoo!ニュース...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "ワールドシリーズ 勝利に徹したミジオロウスキー、要所でカットボール連投し５回１失点…ブルワーズ白星発進",
+          "source": "読売新聞",
+          "pub_date": "10/24 18:59",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vTzVuNGpTYkdMR2lyTl9vM1c4SkNGM1JVdm02RU1XX0dVaG1hUUFETFNVem1XUkw0b2JxMUFoRk5ZQUZwNC1GX1FuXzJYdEd0OXQwcms2U2dhSXlUbno5U21pY0U3cldT?oc=5",
+          "headline": "ワールドシリーズ 勝利に徹したミジオロウスキー、要所でカット",
+          "points": [
+            "「読売新聞」より、ワールドシリーズ 勝利に徹したミジオロウスキー、要所でカットボール連投し５回１失点…ブルワーズ白星発進に関する最新動向が報じられました。",
+            "詳細抜粋：読売新聞...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "ワールドシリーズが開幕 第1戦はブルワーズが勝利",
+          "source": "NHKニュース",
+          "pub_date": "10/24 15:04",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tb1p3ZzM0NHZvVjE4X2puWnh5a0pUaXZrVkNuTklPNDdiLUxSY2dmMXpPaHV1U3UzYjRXSl9NWFJjQUpDVE5lZV9Vel82X2g0ZE1GUmNpdEJ6d2J3R3NJ?oc=5",
+          "headline": "ワールドシリーズが開幕 第1戦はブルワーズが勝利",
+          "points": [
+            "「NHKニュース」より、ワールドシリーズが開幕 第1戦はブルワーズが勝利に関する最新動向が報じられました。",
+            "詳細抜粋：NHKニュース...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "八村塁、古巣凱旋試合で3本の3Pを含む16得点…クリッパーズはレイカーズに敗戦",
+          "source": "バスケットボールキング",
+          "pub_date": "10/24 13:40",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96bUxyaTJ3cnpCVEtuOW95el9EcU9OYk9VVzBRV1U4NmNDdmd0T3RGaXJZMFUyUm1VYmVvRTN0RGNkUzRZQ1VHZWFsa042VDlxbzNMODlKbnB0aWFtSGk2UDBWRFEySWdJ?oc=5",
+          "headline": "八村塁、古巣凱旋試合で3本の3Pを含む16得点…クリッパーズ",
+          "points": [
+            "「バスケットボールキング」より、八村塁、古巣凱旋試合で3本の3Pを含む16得点…クリッパーズはレイカーズに敗戦に関する最新動向が報じられました。",
+            "詳細抜粋：バスケットボールキング...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "【MLB】ブリュワーズ 試合終了で勝利かと思いきや…逆転ピンチ拡大ヒヤリ 土壇場レイズのチャレンジ成功 勝利ムード残るなか1点差で再開するレアな展開に（日テレNEWS NNN）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/24 13:25",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WY2ZGcnRtQVZZWjg5aHpBa0RnUDQ3MWJiT1VqZTNHZ3djdnZ4MDI5SzZEVVRnYlBiaWNrOU11QmlkRDJZQ1JnTHgtdlpMR0FXRDREbzdTRmZ4LUpJR2JhaWt2VWF2eVdGS0pwRC00N2dGSUhIcmpfSzQ0akE2SVk?oc=5",
+          "headline": "ブリュワーズ 試合終了で勝利かと思いきや…逆転ピンチ拡大ヒヤ",
+          "points": [
+            "「Yahoo!ニュース」より、ブリュワーズ 試合終了で勝利かと思いきや…逆転ピンチ拡大ヒヤリ 土壇場レイズのチャレンジ成功 勝利ムード残るなか1点差で再開するレアな展開に（日テレNEWS NNN）に関する最新動向が報じられました。",
+            "詳細抜粋：Yahoo!ニュース...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "久保建英 ２戦連続スタメンで勝利に貢献「危険なエリアで存在感」「守備面でも貢献した」（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/23 09:15",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80STFNMTVfaW80Qk9WNE9QLWkwYVRKZnhSNDRNdU5RZENqaHlsbURFTWM3TnVuai1KT25mdnhVOFY0TXlMREFaOXcwQzBCX084bzBXbVF3U3FRZVMxMzFlS0lYejdVSm5pSXhTdWlhalZ4azRhS0xBUDR4bUhHVUk?oc=5",
+          "headline": "久保建英 ２戦連続スタメンで勝利に貢献「危険なエリアで存在感",
+          "points": [
+            "「Yahoo!ニュース」より、久保建英 ２戦連続スタメンで勝利に貢献「危険なエリアで存在感」「守備面でも貢献した」（東スポWEB）に関する最新動向が報じられました。",
+            "記事内では「危険なエリアで存在感」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "世界のメジャースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": false
+        }
+      ]
+    }
+  }
+}

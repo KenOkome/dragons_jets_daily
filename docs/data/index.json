@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-24",
-  "total_days": 34,
+  "latest_date": "2026-10-25",
+  "total_days": 35,
   "dates": [
+    {
+      "date": "2026-10-25",
+      "updated_at": "10月25日 06:43",
+      "label": "10/25",
+      "summary_title": "工藤新監督が始動！ドラフト戦略とチーム改革へ"
+    },
     {
       "date": "2026-10-24",
       "updated_at": "10月24日 07:16",
