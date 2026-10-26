@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-26",
-  "total_days": 36,
+  "latest_date": "2026-10-27",
+  "total_days": 37,
   "dates": [
+    {
+      "date": "2026-10-27",
+      "updated_at": "10月27日 08:11",
+      "label": "10/27",
+      "summary_title": "工藤新監督が始動！ドラ1・宮原へ指名あいさつ"
+    },
     {
       "date": "2026-10-26",
       "updated_at": "10月26日 06:54",

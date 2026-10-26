@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-27",
+  "updated_at": "10月27日 08:11",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "10/27 08:10",
+        "title": "工藤新監督が始動！ドラ1・宮原へ指名あいさつ",
+        "summary": "中日ドラゴンズは、工藤公康新監督が誕生し新たな体制が本格始動。直近のドラフト会議では、1位の宮原廉投手ら新戦力の獲得に成功しました。工藤新監督は就任直後から精力的に動き、各選手へ期待と熱いメッセージを送っています。",
+        "key_players": "工藤新監督はドラ1・宮原廉に指名あいさつを行い、誠実・真面目な人柄を絶賛。宮原は金丸夢斗からの歓迎に感激し弟子入りを希望するなど早くも好影響。また、山崎武司氏への打撃コーチ要請を認めるなど組閣にも注目が集まっています。",
+        "outlook": "工藤新監督が描くチーム作りの具体策や、巨人の松井新監督への警戒など他球団の動向も気になるところ。最速157キロを誇るドラ1・宮原や勝てる捕手を目指す3位の前嶋藍ら新戦力たちが、新体制の下でどう躍動するのか注目です。"
+      },
+      "news": [
+        {
+          "title": "中日・工藤新監督、ドラ1・宮原廉へ指名あいさつ！誠実・真面目・一生懸命の三拍子絶賛「僕も優しいですよ」と笑顔の激励",
+          "source": "中日新聞Web",
+          "pub_date": "10/26 22:44",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGMWRfa3poSm9nY0diZkFoenlFdFJqQ0tiMnFtQTU0TVFBZkVLaWpqRG1SejR4WktiLVFmZmpfR0lGMk9oOUNyamRtR1AxQVVZU3I4NQ?oc=5",
+          "headline": "工藤新監督がドラ1・宮原へ指名あいさつ",
+          "points": [
+            "工藤新監督がドラフト1位の宮原廉へ指名あいさつを行い、誠実・真面目・一生懸命の三拍子を絶賛した。",
+            "初対面では少し緊張気味だった宮原に対し、「僕も優しいですよ」と笑顔で声をかけて緊張をほぐした。",
+            "新体制となるドラゴンズの将来を担う若手有望株の獲得と、温かいコミュニケーションの第一歩となった。"
+          ],
+          "takeaway": "工藤新監督が期待を寄せるドラフト1位・宮原廉のプロでの成長と、新体制での活躍が非常に楽しみである。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラ1・宮原廉、工藤新監督の指名あいさつに気合！金丸夢斗からの歓迎メッセージに感激「ついていきたい」弟子入り希望",
+          "source": "中日新聞Web",
+          "pub_date": "10/26 22:33",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jb0k5R3phdDVKYlc4VjJqQVh1TzB3OUl3cWVXd3J4UGttOGFsNF81bVJhd0ZXNUNSTkpQeU4zUS0zeUlCdGhQTkJ5WVE5LTF6UHNJSw?oc=5",
+          "headline": "宮原廉が金丸夢斗への弟子入りを希望",
+          "points": [
+            "中日ドラフト1位の宮原廉が工藤新監督の指名あいさつを受けて気合を入れ、今後の意気込みを語った。",
+            "先輩である金丸夢斗から歓迎メッセージをもらったことに感激し、早くも弟子入りを希望する姿勢を見せた。",
+            "チーム内の良好な関係性と、ルーキーが先輩から積極的に吸収しようとする頼もしい姿勢が伺える。"
+          ],
+          "takeaway": "金丸夢斗からの歓迎メッセージに感激して弟子入りを志願した宮原の、今後の成長スピードに大いに期待したい。",
+          "is_new": true
+        },
+        {
+          "title": "【中日】ドラフト1位・宮原投手に工藤新監督が指名あいさつ 「ストレートで勝負できるピッチャーに」",
+          "source": "愛知のニュース",
+          "pub_date": "10/26 19:06",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYR2d1d0JhWll6YkJBTC1YanowVWhDY3FfQnNrM0Z1TmtNU1lhSXVlRnR2ZkhwQjV0QS1XcWtOdTRIdGtZemY4Ql94NklKYXJBRlN5Nk1DZzlIQUk?oc=5",
+          "headline": "工藤監督が宮原にストレートでの勝負を期待",
+          "points": [
+            "工藤新監督がドラフト1位の宮原廉投手に直接指名あいさつを行い、今後のピッチング方針について語った。",
+            "ストレートでしっかりと勝負できるピッチャーになってほしいという明確な期待と要望を本人に伝えた。",
+            "新監督の直接指導のもと、チームの主軸となる本格派右腕としての育成プランが着実にスタートした。"
+          ],
+          "takeaway": "工藤新監督が求める「ストレートで勝負できる投手」を目指し、宮原廉がどのように進化していくか注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラフト3位・前嶋藍、中日ドラゴンズでも「勝てる捕手」を目指す",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "10/26 15:45",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Nblh1TTVBdWZPbEdnaXJ6RXhqVUpWSmpuSDV1M1FMU2ExYVR1d0VEaE1KWGJZRWMybFg2Y2F0WmQ0dHMxZGFiTTF0cWxuU01qbkZtS3NTNWttUQ?oc=5",
+          "headline": "ドラ3・前嶋藍が目指す「勝てる捕手」像",
+          "points": [
+            "中日ドラゴンズからドラフト3位で指名された前嶋藍が、チームでの明確な目標と決意を語った。",
+            "プロの世界において「勝てる捕手」になることを強く意識し、正捕手争いに向けた意気込みを示している。",
+            "チームの立て直しに不可欠な扇の要として、ルーキーイヤーからのアピールと将来の飛躍が期待される。"
+          ],
+          "takeaway": "「勝てる捕手」を目指してプロの扉を叩く前嶋藍が、正捕手への道をどう切り開いていくのか見逃せない。",
+          "is_new": true
+        },
+        {
+          "title": "竜党の「バッテリィズ」・寺家 ドラゴンズの工藤新監督就任に触れ「楽しみでしょうがない。ドラゴンズの立て直しをしてほしい」と特大エール 野球とお笑いのイベント「ホンキッキーズフェスティバル2027」取材会（中日スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 14:01",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZkc4RVFGbElUTkJmdHctOG84Y3hrMDRYb1A3bjlQdjhmQ2tqZzB3TFA1dlZpejcySG5TcFFRMGNWVVVOcHE1QWE5UWc5TFBwdzNGVnoydHlZUi0zTFAwNExwTFdXVDdKcG1CREcyM29kclNYSC1ZQW9mWThNaWs?oc=5",
+          "headline": "竜党のバッテリィズ・寺家が新監督にエール",
+          "points": [
+            "竜党として知られる「バッテリィズ」の寺家が、中日ドラゴンズの工藤新監督就任について言及した。",
+            "新監督の就任に対して「楽しみでしょうがない」と語り、チームの立て直しに向けて特大のエールを送った。",
+            "熱狂的なファンやお笑い界からも、新体制となったドラゴンズの躍進に対する期待が大きく高まっている。"
+          ],
+          "takeaway": "著名な竜党芸人からも特大のエールが送られた工藤新監督の初年度、チームの巻き返しを全力で応援しよう。",
+          "is_new": true
+        },
+        {
+          "title": "近大・宮原廉、工藤公康新監督との初対面で“キョトン”…「僕も優しいですよ」「大丈夫だよね？」【中日ドラフト1位】",
+          "source": "中日新聞Web",
+          "pub_date": "10/26 11:32",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XV0dYVFdSRmNPaUtDYkFxWWk0c0ZwaVhkaTZlY2pIRlFPUXFNeUR5a1hGcWd3ZU1OUGVxNVFISGs3Vnk4YklXTnl4RFlmRkluakd3MQ?oc=5",
+          "headline": "宮原廉が工藤監督との初対面でキョトン",
+          "points": [
+            "近大の宮原廉が、中日ドラゴンズの工藤公康新監督と初めて対面した際の和やかなエピソードが明かされた。",
+            "初対面の緊張からか“キョトン”とした表情を見せた宮原に対し、監督が「大丈夫だよね？」と優しく声をかけた。",
+            "新監督のユーモアと気配りにより、ドラフト1位ルーキーがリラックスしてプロ生活のスタートを切れた。"
+          ],
+          "takeaway": "初対面で少しキョトンとした宮原廉の素直なリアクションと、指揮官の温かい人柄が伝わるほっこりするエピソードだ。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "10/27 08:10",
+        "title": "千葉ジェッツ：守備の立て直しと試練の1週間",
+        "summary": "直近1週間は京都戦での2試合連続3桁失点や東京SR戦での大敗など守備面の課題が浮き彫りになり、苦しい戦いが続いた。一方で大阪戦には勝利し、公式note開設やパートナーシップ継続などクラブの積極的な動きも見られた。",
+        "key_players": "富樫勇樹が新生Bリーグのマイスター6選に選出されプロデュース企画も発表された一方、東京SR戦では渡邊雄太が負傷退場するアクシデントがあり、今後のコンディションが懸念される。",
+        "outlook": "浮き彫りとなった守備の再建が急務となる。次戦以降、失点を抑えたディフェンスを取り戻し、地区順位浮上のきっかけを掴めるかどうかがブースターにとって最大の注目ポイントとなる。"
+      },
+      "news": [
+        {
+          "title": "(画像3/15) 第1子出産の久慈暁子、バスケコートで子供抱いたショット披露「パパの応援かな？」「大きくなってる」の声 夫は渡邊雄太選手",
+          "source": "モデルプレス",
+          "pub_date": "10/27 00:33",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jeGZ1ZkhReGJ4ZDh2QUpJckI3WlhvdW5VSjJzZEZvU25aRXk5TzhSdFVrS2JzQkxxRGRUSWFNX2dOTl8wcFF0ckN1eWVIQQ?oc=5",
+          "headline": "久慈暁子さんが第1子を抱いたショットを披露",
+          "points": [
+            "夫である渡邊雄太選手の所属に関連して話題となった情報である。",
+            "バスケットボールコートで子供を抱いた微笑ましい写真が公開された。",
+            "ファンから子供の成長を喜ぶ声やパパの応援を推測するコメントが寄せられている。"
+          ],
+          "takeaway": "コート上で子供を抱いた貴重なショットを通じて、家族の温かい雰囲気が伝わってくるファン必見の微笑ましい話題です。",
+          "is_new": true
+        },
+        {
+          "title": "比江島慎、富樫勇樹、西田優大――ただいま熱戦中！ 新生Bリーグの“仕事人”＝マイスター・6選 (TVガイドWeb)",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 14:29",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcl9IcDJ5eFVhM1ZCbXRwdlZCa3cyMmU5NEJHM3lHYndPY2pkRUVJZk9KUVpDTzhLMXNPcVpvejhrNU9PZ2xxZGs2ZzVkSHBkWVZFaHFKWXJWQ1JLaW5DNzcwX2Y4TzBqcVRvLWZhSmZNWmZBck8yZV9JY2hsZ0xIbjNNMkJHQWxmWjVzZkRR?oc=5",
+          "headline": "富樫勇樹選手が新生Bリーグの仕事人に選出",
+          "points": [
+            "比江島慎選手や西田優大選手らと共に、新生Bリーグのマイスター6選に選出された。",
+            "リーグ戦で熱戦を展開する中での重要なプレーヤーとして取り上げられている。",
+            "日本バスケットボール界をけん引する主力選手の活躍が改めて評価されている。"
+          ],
+          "takeaway": "日本代表でも活躍する主力がリーグの顔として選ばれており、チームを勝利へ導く圧倒的なリーダーシップに注目が集まります。",
+          "is_new": true
+        },
+        {
+          "title": "【チケット】2026-27シーズン富樫勇樹選手プロデュース 招待席『TOGAシート』第4回募集開始のお知らせ",
+          "source": "千葉ジェッツ",
+          "pub_date": "10/26 12:18",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9iUjZzVHY5ZkVpTmtXNFlpcjZEMG9tTjhrQU5MSW1xVXlYR2RaVGNESjFadGtiM002NzdZZWRRdm5iSFd5ZHVvd05ocWtudVJlU3I5ZEkxUlV6SDFfSGxES1p6SVlpX0VieXBWeTV1Y1NFaEhr?oc=5",
+          "headline": "富樫勇樹選手プロデュース招待席の第4回募集",
+          "points": [
+            "2026-27シーズンの富樫勇樹選手がプロデュースする招待席「TOGAシート」の企画である。",
+            "ファンへ向けた特別な観戦機会を提供するための施策として第4回募集が開始された。",
+            "選手自身が企画に関わることでブースターとの結びつきをさらに強める効果が期待される。"
+          ],
+          "takeaway": "キャプテンの富樫選手が直接プロデュースに関わる特別なシートであり、ホームゲームをより深く楽しめる魅力的な企画です。",
+          "is_new": true
+        },
+        {
+          "title": "【延長4回】A東京vs千葉Jの激闘を数字で振り返る！ Colorado (ukcmJSb94R)",
+          "source": "Unisba Media",
+          "pub_date": "10/26 03:43",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rRDREZDVVOGdUWkRFeHlBSE9EdXFRV280TmNYbUZOcEVDSVdZWDgzNGlJN3VnR3hZaEt1SWhpVmtKeEN1dU9ZMjRWY2lBdjJIMllaYjhpVUsybDd4X2llcUtjQ3lBdw?oc=5",
+          "headline": "A東京対千葉Jの激闘を数字で振り返る",
+          "points": [
+            "アルバルク東京と千葉ジェッツによる激しい試合展開が数字を基に分析されている。",
+            "両チームの攻防における詳細なデータがメディアで取り上げられている。",
+            "上位争いを繰り広げるライバル対決の激しさをスタッツから再確認できる。"
+          ],
+          "takeaway": "強豪同士の激闘をスタッツの視点から深く読み解くことで、次戦に向けたチームの強みや課題を改めて実感することができます。",
+          "is_new": false
+        },
+        {
+          "title": "Upmindと千葉ジェッツが2026-27シーズンのパートナーシップ継続を発表",
+          "source": "Dellows News",
+          "pub_date": "10/26 00:49",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1CUXAwbmVDVmVDM1RvYkw5NGF3SzBEZkUxdWJjWG5USm5CU3RMOE9VNFJhUkpidzhqTzB0TEhPQUYzdHNoV2c?oc=5",
+          "headline": "Upmind社と千葉ジェッツのパートナーシップ継続",
+          "points": [
+            "2026-27シーズンにおけるUpmind株式会社とのパートナーシップ契約継続が発表された。",
+            "両者の良好な関係性が継続されることで、クラブ経営の安定基盤強化につながる。",
+            "チームの持続的な発展に向けたスポンサー企業との連携がさらに深まる。"
+          ],
+          "takeaway": "クラブを支えるパートナー企業との絆が継続されることは、チームが長期的なビジョンに向かって進む上で心強いニュースです。",
+          "is_new": false
+        },
+        {
+          "title": "Bリーグプレミア 大阪エヴェッサ―千葉ジェッツ 7人で戦いチーム最多の19得点を挙げた大阪・木下は試合後、ブースターの声援に感謝する",
+          "source": "スポニチ Sponichi Annex",
+          "pub_date": "10/25 20:54",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORUFLUEptRlFMS1NweEJpWGU0ZVNWY0IzNllrWFUzY1hjamtpLUpVZW0tQUNyZ1VMbVdBZ1loaWVOT25WUmdzdHU0aVY0RDZBU1NsQXd6TmQxYUFsZ3FlelFSU2FZSjc0c1JfOUVfWUVLaFJaelk4MndPYThrMWRvOVhpNXVPYTE0ZmR5Yw?oc=5",
+          "headline": "大阪戦で7人ロースターの中奮闘した試合を振り返る",
+          "points": [
+            "大阪エヴェッサとのBプレミアの試合で、限られた7人で戦う状況となった。",
+            "大阪の木下選手がチーム最多の19得点を挙げ、試合後にブースターの声援へ感謝した。",
+            "主力が少ない苦しい状況下での選手たちの奮闘ぶりがスポーツニッポンで報じられた。"
+          ],
+          "takeaway": "厳しい編成の中でも全力で戦い抜いた選手たちの姿勢や、熱いブースターの声援が一体となった試合のドラマを感じられます。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "10/27 08:11",
+        "title": "F1アメリカGP激戦と角田の去就報道",
+        "summary": "F1アメリカGP決勝ではアントネッリが優勝するもタイトル決定はお預け。一方、角田裕毅の電撃キャデラック入り有力候補浮上や、マルコ博士による若手ドライバーのシート交代提言など、去就を巡る動きが活発化している。",
+        "key_players": "アメリカGPを制したアントネッリ、タイトル阻止のハミルトンとラッセルが躍動。マルコ博士がローソンとツォロフのシート交代を提言したほか、キャデラック入りの有力候補として角田裕毅の名前が報じられている。",
+        "outlook": "F1はシーズン終盤に向けたドライバー市場やシート争いが一段と過熱。MotoGPでのマルク・マルケスのランキング逆転劇など、他カテゴリも含めた王座争いと来季に向けたチーム動向から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "角田裕毅、電撃キャデラック入りへ「有力候補の一人だ」と英専門メディア 最有力ハータはF2フル参戦19位「失望しているし、まったく良くなかった」（THE DIGEST）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 18:24",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wTG9UcWFnX2d3NElscHR6ejhfLW55LUEwZGNoYzhYTGgzQlhVYnlKTzRyWk1Fb25HcDdYdE55VGtMLTF5clBXMWRIT1BGcWxHaVp4YVdyTmd3RGt1Q0htbXMwMVZ4dmp0RHczNXp0NnQxNVVEeHpOR2xmM3lsb2s?oc=5",
+          "headline": "角田裕毅がキャデラック有力候補に",
+          "points": [
+            "英専門メディアが角田裕毅を電撃キャデラック入りの有力候補の一人として報じている。",
+            "最有力とされていたハータがF2フル参戦で19位に終わり失望を表明している状況がある。",
+            "新チーム参戦に向けたドライバー選考の動向において角田の去就が大きな注目を集めている。"
+          ],
+          "takeaway": "新参入チームのシートを巡る激しい争いの中で、角田裕毅の評価や去就に関する今後の報道から目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "【写真2】2026年F1第18戦アメリカGP決勝スタート",
+          "source": "autosport web",
+          "pub_date": "10/26 17:19",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zdzJnX0FHRUliRnc5NU5CQUcwQndEVmx4LVIwb3dsUGZ2RGhyWjUybEhySVdZc2VKRUZxalhPOUZsT2d6VUhrVmFFWW9nM0FNUm53WU9BQ0Roa2p6TG5ib3Z6RUQ5ZWVDaHpfaEZSWGtKVGk1MVVwRw?oc=5",
+          "headline": "2026年F1第18戦アメリカGP決勝スタート",
+          "points": [
+            "2026年F1第18戦アメリカGPの決勝レースがいよいよスタートを迎えた。",
+            "現地での白熱したレース展開やスタート直後のポジション争いに注目が集まっている。",
+            "シーズン終盤に向けた重要な一戦としての位置づけを持つグランプリとなっている。"
+          ],
+          "takeaway": "緊迫したスタートからどのようなドラマが生まれるのか、アメリカGP決勝の行方に熱い視線が注がれている。",
+          "is_new": true
+        },
+        {
+          "title": "【F1アメリカGP決勝結果】アントネッリ優勝も初王座はお預け！ハミルトンとラッセルがギリギリで阻止、アロンソは接触で入賞遠のく（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 08:26",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RcS1YVDVPbllLa1RwYzA0ZGUxWU5nWHNaYjRPOEM0bG03clFPYkpPSjMta3RmdXJsdW5mRnAwenJXV0FfMTByaHlUV3lHWktsbjZITFAtQkVsc0tQQ3dQQUlwM1llRElxa1QwX0NBVnNiSjk4cjBOdDBmWHRwTjg?oc=5",
+          "headline": "アメリカGPはアントネッリ優勝も王座持ち越し",
+          "points": [
+            "F1アメリカGP決勝でアントネッリが優勝を飾るも、初王座獲得はお預けとなった。",
+            "ハミルトンとラッセルがギリギリの走りでタイトル決定を阻止する粘りを見せた。",
+            "アロンソは接触アクシデントにより入賞圏内から遠ざかる結果に終わっている。"
+          ],
+          "takeaway": "ルーキーのアントネッリが優勝を果たしながらも、ライバルたちの意地によって王座争いが次戦以降に持ち越された。",
+          "is_new": true
+        },
+        {
+          "title": "F1アメリカGP決勝速報｜アントネッリ優勝もタイトル決定ならず。アロンソは好ペース発揮もトラブルで後退16位",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "10/26 07:38",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVi1GSUpxRTdHZy1ObTI4dzA2bGtwUEkzaFFhVnE0Mnk3YkZzUzBldkRhQ29DQnlFREpOVkY5TWFnWlZRQ0ZEeXRQeXJPSGo1Y1JYUmoxeVgxUVNwWHBidHloLTM0dHFnVnhMYVh0cGVDa2ZjUk1nQjVIMDBJa3VKQzFBWV9pZw?oc=5",
+          "headline": "アントネッリ優勝もアロンソはトラブル後退",
+          "points": [
+            "F1アメリカGP決勝速報でアントネッリの優勝とタイトル決定持ち越しが伝えられた。",
+            "アロンソはレース中に好ペースを発揮していたもののトラブルに見舞われて16位へと後退した。",
+            "上位争いだけでなく中団グループのマシン信頼性やトラブルが戦況を大きく左右した。"
+          ],
+          "takeaway": "好走していたアロンソを襲った不運なトラブルや、王座決定を巡る緊密なポイント争いの結末が鮮明になった。",
+          "is_new": true
+        },
+        {
+          "title": "「ポールも狙えると思った」「明日は最高のレースをすることだけに集中」／F1第18戦予選トップ10コメント（2）",
+          "source": "autosport web",
+          "pub_date": "10/25 20:17",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9uRW1QLWg2dm9uT2xpTjFCdU1nM0RQX0F6VC1zUndNeHhzQmxwQVdpSFA2NkdTd2FFRFRxeld2TjM5U0Z5c1RN?oc=5",
+          "headline": "予選トップ10ドライバーの決勝への意気込み",
+          "points": [
+            "F1第18戦予選トップ10に入ったドライバーたちのコメントが公開された。",
+            "ポールポジションも狙えた手応えを口にするなど、各ドライバーが決勝への自信を覗かせている。",
+            "翌日の決勝レースで最高のパフォーマンスを発揮することだけに集中する姿勢を示している。"
+          ],
+          "takeaway": "予選上位勢がどのような手応えを掴み、決勝での勝利や表彰台に向けてどう集中を高めているのかが伝わってくる。",
+          "is_new": false
+        },
+        {
+          "title": "「走らないと決めていた」「長いレースになるし戦略が大きな役割を果たす」／F1第18戦予選トップ10コメント（1）",
+          "source": "autosport web",
+          "pub_date": "10/25 20:16",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB2ZUZoXy1PbnRPclpKRDNsY1lpdHhzeDJIUzYxSW9xZ0U0TUpxR3JIZ2ROTGhpMTd3YmkyeHp5eUljLTAtc2xr?oc=5",
+          "headline": "予選上位勢が語る長丁場レースの戦略",
+          "points": [
+            "F1第18戦予選トップ10のコメント後半ではレースに向けた戦略の重要性が語られた。",
+            "あえて走らない選択をした背景や、長いレース展開を見据えたマネジメントの意識がある。",
+            "決勝におけるタイヤやピット戦略が勝敗を分ける大きな役割を果たすと予想されている。"
+          ],
+          "takeaway": "単なるスピードだけでなく、長い決勝レースを制するための緻密なチーム戦略やドライバーの読み合いに注目したい。",
+          "is_new": false
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "10/27 08:11",
+        "title": "久保がまさかの出番なし＆MLB熱戦",
+        "summary": "直近1週間は、ソシエダがリーグ戦4連勝と好調を維持する一方で前節1G1Aの久保建英が出番なしとなり波紋を呼ぶ。MLBではワールドシリーズが開幕しブルワーズが白星発進。NBAでは八村塁がクリッパーズでのデビュー戦で10得点をマークし勝利に貢献した。",
+        "key_players": "レバンテ戦でまさかの出番なしに終わったレアル・ソシエダの久保建英に対し、指揮官は決定力への課題を指摘。また、MLBポストシーズンで15.2イニング連続無失点を継続する投手や、ワールドシリーズで決勝打を放った新人プラットらが活躍を見せている。",
+        "outlook": "定位置を失いつつあると報じられる久保建英が次戦で再びスタメンを奪還できるか、指揮官の起用法に注目が集まる。また、開幕したMLBワールドシリーズの行方や、NBAクリッパーズで好発進した八村塁のさらなるスタッツとチームの連勝継続に期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "「決定力があれば６ゴールは奪えていた」Rソシエダード監督 久保建英は３試合ぶり出番なし - スペインリーグ写真ニュース",
+          "source": "日刊スポーツ",
+          "pub_date": "10/26 14:11",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON2l1cXpkLVYwcXlWM1JienRMdU51aUM2Y3JSLVotQVBCSzVXZ01vbXdoWm9GUUpOZ0FTWjByRG1uMG5sYXR1bTR5RENvSTBoM2lHT08xbHFoaHBOWmFtRHZtMVluOG1KU1pQeFB5dng1OF9NWk9BSEJjWE1JRDBuTkRWbzBzY3QxQkFpc3RFVkJiTmtm?oc=5",
+          "headline": "久保建英が出番なしに終わる",
+          "points": [
+            "スペインリーグの試合において、久保建英が3試合ぶりに出番なしに終わった。",
+            "監督は試合後に決定力があれば6ゴールは奪えていたと内容への課題を口にした。",
+            "好調なチーム状況の中で出場機会を得られなかったことは今後の序列に影響する。"
+          ],
+          "takeaway": "前節に活躍を見せた久保建英がまさかの出場なしとなったチーム事情と監督の試合後の評価に注目が集まる。",
+          "is_new": true
+        },
+        {
+          "title": "「納得できない」「理由は何？」前節１G１Aなのに…久保建英、まさかの出番なしに疑問の声「出さないんかい」",
+          "source": "サッカーダイジェストWeb",
+          "pub_date": "10/26 11:00",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rVllseXJxZ3F5ejJIUWt6cWlyNG45MUlIUGZLUFY0VE5DZDFGaU5veDVIZEZlUGo0ZzNIbGhZMUJfdlM4SkVhc3dUUDdEazhhZWdnTUFJTTBHVVJyVS12NGxpb9IBc0FVX3lxTE9YRHdNV3dmZ0lGOHUyQndjaDdDcl9tY0ZYWTFzcGFJbEIydkFObWEwdTBIZ2tLWmVWUDJLbGgyR082eFdsUHRwaENqSW5JNktBNi13MEFobF84VzI3dUFwZFNYLTZqU1lkbXJSN2k4WXI2YVU?oc=5",
+          "headline": "久保建英の出番なしに疑問の声",
+          "points": [
+            "前節で1ゴール1アシストを記録したにもかかわらず出場機会がなかった。",
+            "前節の好成績直後での起用見送りに対して納得できないとの疑問の声が上がった。",
+            "ファンの間でもなぜ起用されなかったのかを巡って大きな議論を呼んでいる。"
+          ],
+          "takeaway": "直近の試合で結果を残していた主力がベンチ外ではなく出場なしに終わった采配の意図をファン目線で深く追いたい。",
+          "is_new": true
+        },
+        {
+          "title": "継続中の15.2イニング連続無失点は「ポストシーズン新記録」まであと何アウト!? 10試合中８登板（宇根夏樹） - エキスパート",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 06:15",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWJJMDV4TExhVE1ZeU45Z0x1ZHhaOW5YazJCS1UyQWgyWGxBWVZpNlJVUEY0QjRRSGtNN3RnZTdfeWNHSk5QWmRQSEl4XzV2QUNTNU5xaHREUlZwdVVzTkdfbXFxT2Z1Vk5CYjBHdW9XcFVlNFJDOVhFRjJfdUNjY0dHLXNWbFVy?oc=5",
+          "headline": "ポストシーズン新記録へ迫る",
+          "points": [
+            "メジャーリーグのポストシーズンにおいて15.2イニング連続無失点を継続中である。",
+            "これまでの偉大な記録であるポストシーズン新記録の樹立まであと何アウトかに迫っている。",
+            "歴史的な大記録のかかる緊迫した場面での今後の登板とピッチング内容に期待がかかる。"
+          ],
+          "takeaway": "短期決戦の舞台で圧倒的なパフォーマンスを続ける投手陣が歴史的な新記録を達成する瞬間に注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "ソシエダがリーグ戦4連勝！ 一方で久保建英に出番訪れず…レバンテは一時追いつくも失速 ｜ラ・リーガ",
+          "source": "DAZN",
+          "pub_date": "10/26 04:30",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRDA2NDdwYjVRQU9WRDNSV1NjZ2pscm5yT0xneTRaMzJDb3VyMFYxbnFPenMwRnpUMXplZXNjNkZNYnczVDVBN0dMTElCOUZhTjNWWjZsNWNkbm1yUXZveVVpcEVyM3hzNDdGU0Vkb3RPNlN2UFVoZEhtdjRhZkZmWTY3UFFZdzBEdlR1MDVMeDViUXF1WEdqYXFOdnZzRm5BRmdXT2Rsb0NGQVE1cFdZRWZIVjJsZGYtWTRGaEFzTm1xYlFBZWNkdlZaMTN4NWc?oc=5",
+          "headline": "ソシエダがリーグ戦4連勝を達成",
+          "points": [
+            "ソシエダがレバンテ戦を制してラ・リーガで4連勝の好調を維持している。",
+            "対戦相手のレバンテは一時追いつく健闘を見せたものの終盤に失速した。",
+            "チームが連勝を伸ばして勢いに乗る一方で久保建英には出場機会が訪れなかった。"
+          ],
+          "takeaway": "チームが快進撃を続けて連勝を伸ばす中で、ベンチ入りしながらも出場がなかった日本代表アタッカーの起用法。",
+          "is_new": true
+        },
+        {
+          "title": "ソシエダで定位置を失った久保建英…レバンテ戦は出場機会なし。チームはラ・リーガ4連勝と好調（GOAL）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/26 04:23",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kZjh6TWxLNTAyRU1EQk1iWTdhcjZXQlRwV1RKdE5tMnFYN3M5bmVpMHNvNFQyRVlDS3VfRWtiUG9qN2tid2psTHdJdVBubms0bDBWaUY3ajhBNk1ZRnFkaTNfTWFUUk5MZ3NfNVpjenpjTmFHRjZESmRDcUVlTzA?oc=5",
+          "headline": "ソシエダで定位置を失う久保建英",
+          "points": [
+            "レバンテ戦においてソシエダの久保建英に出場機会は訪れず定位置を失う形となった。",
+            "チーム自体はラ・リーガで4連勝を飾るなど好調な戦いぶりを見せている。",
+            "好調を維持するチームの中で、個人としてのレギュラー争いが激化している。"
+          ],
+          "takeaway": "チームが連勝街道を突き進む一方で定位置確保に黄信号が灯った久保建英が次戦でどう巻き返すのかが見どころ。",
+          "is_new": true
+        },
+        {
+          "title": "好調ソシエダ、レバンテを破りラ・リーガ4連勝！ 前節初ゴールの久保建英はベンチ入りも出番なし",
+          "source": "サッカーキング",
+          "pub_date": "10/26 04:22",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5FTTdlWUhGeDhZdzZvM3RRakNBV1l4Q0xMRFJmd3J4eWZLT1ZtdVVxMzMtaC1RU3NOcFpiTTBNSlRvYzJCbkxNM0pibzNlOXlaSk9ISWFHYnJWWkEyQ3oxLU9nQjRGV1BnWGswd1Q5Ukk?oc=5",
+          "headline": "ソシエダがレバンテを破り4連勝",
+          "points": [
+            "ソシエダがレバンテを破りラ・リーガで4連勝を飾る好結果を残した。",
+            "前節に初ゴールをマークした久保建英はベンチ入りしたものの出番はなかった。",
+            "チームが勝利したことで現在の好調な順位と勢いをさらに加速させている。"
+          ],
+          "takeaway": "チームの勝利と連勝継続という最高の結果と、前節初ゴールを挙げた久保がベンチで見守る展開のコントラスト。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
