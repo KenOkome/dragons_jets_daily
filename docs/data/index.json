@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-28",
-  "total_days": 38,
+  "latest_date": "2026-10-29",
+  "total_days": 39,
   "dates": [
+    {
+      "date": "2026-10-29",
+      "updated_at": "10月29日 08:18",
+      "label": "10/29",
+      "summary_title": "工藤新体制が始動、秋季キャンプと新戦力への期待"
+    },
     {
       "date": "2026-10-28",
       "updated_at": "10月28日 08:01",
