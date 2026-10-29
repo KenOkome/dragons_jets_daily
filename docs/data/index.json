@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-29",
-  "total_days": 39,
+  "latest_date": "2026-10-30",
+  "total_days": 40,
   "dates": [
+    {
+      "date": "2026-10-30",
+      "updated_at": "10月30日 08:23",
+      "label": "10/30",
+      "summary_title": "工藤新体制始動と契約更改、未来を担う新人たちの動向"
+    },
     {
       "date": "2026-10-29",
       "updated_at": "10月29日 08:18",
