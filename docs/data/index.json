@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-10-30",
-  "total_days": 40,
+  "latest_date": "2026-10-31",
+  "total_days": 41,
   "dates": [
+    {
+      "date": "2026-10-31",
+      "updated_at": "10月31日 08:02",
+      "label": "10/31",
+      "summary_title": "工藤新体制が始動！秋季キャンプと契約更改の動向"
+    },
     {
       "date": "2026-10-30",
       "updated_at": "10月30日 08:23",
