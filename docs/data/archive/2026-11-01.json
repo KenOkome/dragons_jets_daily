@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-01",
+  "updated_at": "11月01日 07:35",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/01 07:31",
+        "title": "工藤新体制が始動！秋季キャンプとコーチ陣発表で脱・ぬるま湯へ",
+        "summary": "工藤新監督がフェニックス組を含むナインに訓示を行い、厳しさと勝利文化の浸透に着手。高知での秋季キャンプやナゴヤ球場での指導に向け、新コーチ陣も発表され、チームは新たなスタートを切りました。",
+        "key_players": "山崎武司新コーチが石川昂弥や鵜飼らの育成に意欲を見せる。また、秋季キャンプから参加する工藤監督の指導や、歯科健診で高数値を出した細川の好状態維持、ロドリゲスの帰国などが報じられています。",
+        "outlook": "11月2日からの高知秋季キャンプがいよいよスタート。工藤新監督の下で「ぬるま湯体質」からの脱却を図り、若手野手陣の育成やチームの立て直しに向けた具体的な変革のプロセスにファンの熱い視線が集まります。"
+      },
+      "news": [
+        {
+          "title": "【中日】“新コーチ”山崎武司さん、右の大砲育てる！ 工藤新監督から“宿題”「昂弥とか鵜飼とか」秋季キャンプはナゴヤ球場で指導、ポテンシャル引き出す：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/31 22:01",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QUHRyR3A2U0tTeFZ6T05KLTc3ZDhtZzZuRU5oajNBQUpLbEVHekpZUG16VW1VZVEyRmxPMFZidkF1ODB4dExobWc3dmd0N2ttS19mag?oc=5",
+          "headline": "山崎武司氏が新コーチ就任",
+          "points": [
+            "工藤新監督からの宿題を受け、秋季キャンプのナゴヤ球場で指導を行う予定である。",
+            "石川昂弥や鵜飼航丞ら右の大砲候補たちのポテンシャルを引き出すことが期待されている。",
+            "若手スラッガーの育成に特化した打撃指導が、チームの長打力不足解消の鍵となる。"
+          ],
+          "takeaway": "球界屈指のレジェンド打者である山崎武司氏が、長年課題となっている右の大砲候補たちをどう覚醒させるか非常に楽しみだ。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラフト3位・前嶋藍「青いユニフォームはドラゴンズが初めてです」",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "10/31 21:15",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mNm1YR2pFckZYbXVMRXFlcVdvY3B6R2NtVWJuNDJGV3JJRHZpcEtGN25xb2l2d0ktWTlQS1RIaFhkekV5S19VbmN0TzBVQkl3dlJMcENhb0hRZw?oc=5",
+          "headline": "ドラフト3位の前嶋藍が入団へ",
+          "points": [
+            "中日ドラゴンズからドラフト3位指名を受けた前嶋藍が、入団に向けた心境を語った。",
+            "本人にとって青いユニフォームに袖を通すのはドラゴンズが初めての経験となる。",
+            "新人選手としての新たなスタートを切り、今後のチームへの貢献が期待されている。"
+          ],
+          "takeaway": "フレッシュな新戦力である前嶋藍選手が、ドラゴンズの青いユニフォームでどのような躍動を見せてくれるのか今から応援したい。",
+          "is_new": true
+        },
+        {
+          "title": "中日・ロドリゲスが帰国 来日3年目の今季はファームで打率2割8分5厘、6本塁打、24打点：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "10/31 20:33",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BUjZYeEoxWjRTN1FUMlYzeFg0Z1cxN1V2QjI3WWlCS0ZjdF9xQndzcEJINzlzVHVCdkVKTzNfRGNNd1NuNjhNeF9uUU8zTjF4b25DWA?oc=5",
+          "headline": "ロドリゲスが母国へ帰国",
+          "points": [
+            "来日3年目を迎えたロドリゲスが、今季の全日程を終えて帰国することになった。",
+            "今季はファームで打率2割8分5厘、6本塁打、24打点という成績を残した。",
+            "来季に向けてファームでの経験を糧にし、さらなる飛躍と一軍定着を目指す。"
+          ],
+          "takeaway": "ファームで着実に実績を残してきたロドリゲスが、来季こそは一軍の舞台で持ち前の打撃力を発揮してブレイクすることを期待したい。",
+          "is_new": true
+        },
+        {
+          "title": "中日・細川成也「いい状態をキープしたい」選手、コーチ対象の歯科健診を実施 かみ合わせの圧力で高数値マーク",
+          "source": "中日新聞Web",
+          "pub_date": "10/31 20:24",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xUXJqTGw1XzliQXpzdjhRTzBXaFZjYllXOGR0Z2t1SFJzM1l6TlRQa3d1Ymt1SjU0VTRXa0ctck41a3VOUHpJWElnY1kyd2RJTVJuQw?oc=5",
+          "headline": "細川成也らが歯科健診を実施",
+          "points": [
+            "選手やコーチ陣を対象とした歯科健診が実施され、細川成也らが受診した。",
+            "細川はかみ合わせの圧力測定で高い数値をマークし、良好な状態を示した。",
+            "万全のコンディショニングを維持し、来季もチームの主軸として好状態キープを狙う。"
+          ],
+          "takeaway": "日々の地道なコンディショニング管理が好成績を支えており、来季もチームの柱として全試合出場と圧倒的なパフォーマンスを見せてほしい。",
+          "is_new": true
+        },
+        {
+          "title": "中日・野本圭コーチ就任によって来季担当地区も一部変化？ 中日ドラゴンズ、2026年のスカウト担当地区一覧",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "10/31 13:32",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LQ2lKdHMxdUZvMy0tenRoZ19hV3lXZ0VGMWFKQTNUY2JIYXFVaWNoM2ZEUmdvY051R0tFNDFJU3FUVklpcDI5aFBaTkFEMnk4S3dja25rbGZudw?oc=5",
+          "headline": "野本圭コーチ就任でスカウト担当変更",
+          "points": [
+            "野本圭のコーチ就任に伴い、2026年の中日ドラゴンズのスカウト担当地区が一部変化した。",
+            "新体制への移行に合わせて、フロントやスカウト部門の役割分担が整理されている。",
+            "新たな編成体制が将来的なドラフト戦略や選手発掘にどのような影響を与えるか注目される。"
+          ],
+          "takeaway": "コーチ人事の連鎖によってスカウト体制も刷新されており、次世代を担う原石を発掘する編成部門の動きから目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督、フェニックス組含む竜ナインに訓示！「今年やめていった人もいる…力をつけていかないといけない」",
+          "source": "中日新聞Web",
+          "pub_date": "10/30 19:41",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HSU9CSVllQnI0TVlZV3d1azBsMGNWMlRDTG9feFhrYi1hVVlLV2d2VFg5ZjdIQzhyZ1RBSk9oMFllTHgwYnRGQWRYVFVoYi1JLTZQSg?oc=5",
+          "headline": "工藤新監督が竜ナインに厳戒訓示",
+          "points": [
+            "フェニックスリーグ参加組を含む竜ナインに対し、工藤新監督が力強い訓示を行った。",
+            "今年チームを去っていった選手がいる現実を挙げ、厳しさを説いた。",
+            "チーム内で生き残るために一人ひとりが実力をつけ、底上げを図る必要性を強調した。"
+          ],
+          "takeaway": "新監督のシビアで熱い言葉に選手たちがどう応え、チーム全体で競争意識を高めて来季の巻き返しを体現してくれるのか非常に注目される。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/01 07:32",
+        "title": "千葉ジェッツ、富山戦で100失点黒星も富樫がファン投票1位",
+        "summary": "直近1週間では富山グラウジーズ戦を迎えたが、守備に苦しみ100失点で敗戦を喫した。一方、オールスターファン投票の中間発表では富樫勇樹が15万票超を集めて暫定全体1位に輝くなど、コート内外で大きな注目を集めている。",
+        "key_players": "富樫勇樹がオールスターファン投票で15万票を超え暫定全体1位に君臨。また、富山戦で100失点を喫したチームにおいて、渡邊雄太が試合後に「こんなところであきらめてしまうようなキャリアを積んできてはいない」と強い姿勢を示した。",
+        "outlook": "11月1日にも富山グラウジーズとの対戦が控えており、前戦で課題となった守備の立て直しが急務となる。過密日程の中、チームがどのように修正して連敗を阻止し、勝利を取り戻すのかがファンにとって最大の注目ポイントとなる。"
+      },
+      "news": [
+        {
+          "title": "【試合情報】10/31-11/1 千葉ジェッツvs.富山グラウジーズ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/01 01:26",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04VXBFUi1TamlOQkdLNUZyV1dmOXpiTXcwMkNYVXlnTGVSWTkxZnFrYXFnZXRFTUFod28xZjhvSFdmLTRWYnhLcGRQdzRMTnBoVWlGUmROT0VneUE?oc=5",
+          "headline": "富山戦の試合情報を配信",
+          "points": [
+            "Resona Group B.LEAGUE 2026-27シーズンにおける富山グラウジーズ戦の試合情報が公式より公開された。",
+            "クラブの最新スケジュールや対戦カードに関する公式の案内としてファン向けに発信されている。",
+            "チームの公式情報としてシーズンを追いかけるブースターにとって重要な確認事項となっている。"
+          ],
+          "takeaway": "公式から発表された試合情報を事前にしっかりと確認し、今シーズンの戦いに向けたスケジュールを把握しておこう。",
+          "is_new": true
+        },
+        {
+          "title": "〈富山グラウジーズ〉試合を詳しく【2026年10月31日千葉ジェッツ戦】｜スポーツ｜富山のニュース｜富山新聞",
+          "source": "北國新聞",
+          "pub_date": "10/31 21:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jMEs1ZlNBVnBwbmNLZXhHN29zbE8wdmVpODB3b2pjSi1MdjZQNG9zdVA2RGdSX1ZXZFBSejc1ak56YkFzbFJfaURyc3FSaXVfVDdZcEp4TQ?oc=5",
+          "headline": "富山戦の詳細を地元紙が報道",
+          "points": [
+            "10月31日に行われた千葉ジェッツ戦の試合詳細について、北國新聞が記事として配信した。",
+            "対戦相手である富山グラウジーズ側の視点や地元メディアならではの切り口で試合内容が報じられている。",
+            "外部メディアによる詳細な試合振り返りは、チームの客観的な評価を知るための参考材料となる。"
+          ],
+          "takeaway": "地元メディアがどのように試合を描いたのかを読み解き、他視点からのチーム評価や試合のディテールを楽しもう。",
+          "is_new": true
+        },
+        {
+          "title": "守備に苦しむ千葉ジェッツは100失点で富山に敗戦、渡邊雄太「こんなところであきらめてしまうようなキャリアを積んできてはいない」（BASKET COUNT）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/31 19:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iaE5jYzAyelpzN3B6ZmZNV3liR1dIN041TTVMT1huSWV6aU5EZmt1NHNBVDYxSlJTME1lYjZFV3FTaEExaFEwQ25xN2lCZG9rQVZPS2dlRkRwcGxITDYwUTF1a0E5RGxMR1NZbGZpV05kbklOdkZFS3N3N3hzQTg?oc=5",
+          "headline": "守備に苦しみ富山に敗戦",
+          "points": [
+            "守備の立て直しに苦しんだ千葉ジェッツは100失点を喫し、富山グラウジーズに敗戦を喫した。",
+            "試合後、渡邊雄太が「こんなところであきらめてしまうようなキャリアを積んできてはいない」と強い言葉を残した。",
+            "この手痛い黒星を契機として、チーム全体の守備力改善に向けた強い修正が今後の課題となる。"
+          ],
+          "takeaway": "渡邊選手の強い覚悟の言葉を胸に、守備の立て直しを図るチームが次戦でどう変わるのか注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "富山グラウジーズ 千葉ジェッツに逆転勝利 ウィリスジュニアがゴール下での強さを見せる（富山テレビ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/31 18:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pc0ZoZWZzVFUtUWlCaGxDazR6TVFORzhGTGdIRThONXFqWmU4MmxiTDVnUXVvalB1MTR3TGc0OVkyTThVdFdGbmZyMnRkYV80MnJFY3hiRmI4SEZOT1g2RmQ2SWFVUmIzdldBQnRreFNvdnFVZHduUVQyeVNQTVE?oc=5",
+          "headline": "富山に逆転負けを喫する",
+          "points": [
+            "富山テレビの報道によると、富山グラウジーズに逆転勝利を許す形で試合に敗れる結果となった。",
+            "対戦相手のウィリスジュニアがゴール下で見せた強さが、試合の勝敗を分ける大きな要因となった。",
+            "ゴール下におけるディフェンスやリバウンドの強化が、今後の浮上に向けた急務であることが浮き彫りになった。"
+          ],
+          "takeaway": "ゴール下での強さを発揮された反省を活かし、インサイドの守備とリバウンド争いでどう雪辱果たすかに期待。",
+          "is_new": true
+        },
+        {
+          "title": "ソン・ギョチャン、Bリーグ球宴へ票上積み必要…富樫勇樹が首位",
+          "source": "조선일보",
+          "pub_date": "10/31 16:44",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16MWFXeklZLTdqVG1FS1A0a2NWbDRtdDFybDJLWFNvWGFFU0wwSGpxai04aWxNTlBncFMwcnM3aW5kcjJESVBjU2x1X0kxX0tEOWtjNWZ0WnJKZ0NISXJ2VGdzblo5bXZ5R0NsWndmRHJScjlRdThxYTJOVmdpTHM?oc=5",
+          "headline": "Bリーグ球宴の投票状況",
+          "points": [
+            "Bリーグオールスターゲームに向けたファン投票で、富樫勇樹が首位に立っていることが報じられた。",
+            "ソン・ギョチャンに関しては、球宴出場に向けてさらなる票の積み上げが必要であると伝えられている。",
+            "チームを代表する選手の選出や、国内外の選手に対するファンの投票動向が注目を集めている。"
+          ],
+          "takeaway": "オールスターに向けたファン投票の途中経過に注目し、推し選手たちが夢の舞台に立てるよう応援を届けよう。",
+          "is_new": true
+        },
+        {
+          "title": "【Bﾌﾟﾚﾐｱ26-27】千葉ジェッツ vs 富山グラウジーズ G1【ワイ氏の反応】",
+          "source": "Basketball News Times",
+          "pub_date": "10/31 16:38",
+          "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPRG9IUS0wOTZmalhLR1Rmd25JTG1EOUlVNFlEQ1p5bkJOZWR3ZUhhMGpXV2tfY05sRDJNMi1sN0VqVzQ1ZkpDYmp5UEctRHdwS2FibXZFZ3htM0I0UWJrblZZOW5zME1fejJEWk1OdldxTU9WelpVQ1JJeVpmclpBQXEzQXY1OUZ4MGxpODNxU0kwOUNEcVEtUUxIdi1GZy02d2VyZXdZSUVVM0hoZ0hZcGdRQjRnZGx1YnZxSEFfbkV1cXBtdHZDRmMxcTNETUhGeTVIRThzeG8zWEU0UGtzVDY0TFFTOHRQQU40TTRRV3NTa25PRUN2RlRMRGdKMTlYN1c4SFUzTm42Sl9GUVJMakdybG40RlJ4U2VqUEVLS2RaR25mNHhGRFphMFVBd09xVGlJM1VvM25aZWlERUFGZ1I3eWdJQXc?oc=5",
+          "headline": "富山戦G1の反応を配信",
+          "points": [
+            "千葉ジェッツ対富山グラウジーズの第1戦（G1）に関して、Bプレミア26-27の試合反応が公開された。",
+            "ファンやネット上における試合展開に対する様々な意見やリアクションが取りまとめられている。",
+            "試合結果を受けた周囲の雰囲気を知ることで、ブースター間の盛り上がりや関心の高さを共有できる。"
+          ],
+          "takeaway": "試合を見守ったファンたちの様々な反応や意見をチェックして、チームへの熱い想いを共有し合おう。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/01 07:33",
+        "title": "F1メキシコ開幕とMotoGPマレーシア熱戦の行方",
+        "summary": "直近1週間はF1メキシコシティGPが開幕し、平川亮が予選19番手となる一方、ペレスの2029年までの契約延長が発表された。またMotoGPマレーシアGPでは、小椋藍がスプリント4位入賞など健闘を見せつつも課題を残す展開となった。",
+        "key_players": "F1初予選に挑んだ平川亮はアロンソへの緊急停止指示による赤旗に阻まれ19番手。MotoGPの小椋藍はトップ快走を見せるもスプリントで4位に終わりメダルを逃すなど、両カテゴリーで日本人ドライバーの奮闘と苦闘が報じられている。",
+        "outlook": "F1メキシコシティGPの決勝レースでの各車の巻き返しや、マレーシアGPを戦うMotoGP勢の最終結果に注目。また、F1カレンダーの過密化に対する懸念や各チームの来季に向けたドライバー動向など、今後の展開からも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "【予選Q1結果】平川亮、初予選は19番手で敗退 アロンソ「なぜ？」緊急停止指示で赤旗中断／F1メキシコシティGP（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/01 06:33",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yVFVjcXVnRDRIS2x4R21FYTRWOG1BaWpicmI4NFNZeG9CR0JHandBMlV1YUdnNmp2S3ZZaUJsSlpZeDlDN0VyVEFLSEhKclFraG9manFlVkkyRGZZZ0FZLVcxYVBjdUhzbXFwTXA3TWkxR3BnLXdQaEQ1YUdXTjg?oc=5",
+          "headline": "平川亮がF1初予選で19番手敗退",
+          "points": [
+            "F1メキシコシティGPの予選Q1で、平川亮は19番手で敗退する結果となった。",
+            "チームメイトのアロンソに対して緊急停止指示が出され赤旗中断となるトラブルがあった。",
+            "予選での突然のマシントラブルと赤旗中断が、初参戦の平川の走行に大きく影響した。"
+          ],
+          "takeaway": "待望のF1初予選に挑んだ平川亮の走りと、突然のアロンソに対する緊急停止指示の背景に注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "ホンダ、モレイラが追い上げを見せ入賞。ミルはギャンブル失敗「スプリントでの教訓が明日に活かされる」／第19戦マレーシアGP",
+          "source": "autosport web",
+          "pub_date": "11/01 04:36",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1BU0JneEQ2SldackNaZE9NbE5XQ05FMDgyWVFKNHFXWUZYREY2alpwV3N4VFdObHJrMi02QUozZFhwckRLTWhZSTFn?oc=5",
+          "headline": "マレーシアGPでホンダが奮闘",
+          "points": [
+            "モレイラが粘り強い追い上げを見せて入賞を果たし、チームに貴重なポイントをもたらした。",
+            "ミルはギャンブル的な戦略が失敗に終わり、スプリントでの教訓を明日の決勝に活かす構えを見せた。",
+            "マレーシアGPでの各陣営の戦略の成否が、次戦以降のレース展開やマシン開発に影響を与えそうだ。"
+          ],
+          "takeaway": "モレイラの追い上げによる入賞と、ミルがスプリントの教訓を本戦でどう活かして挽回するのかが見どころだ。",
+          "is_new": true
+        },
+        {
+          "title": "「攻撃的な態度で近づいてきた」ゲストを押し退けたハジャーに警告／F1メキシコシティGP",
+          "source": "autosport web",
+          "pub_date": "11/01 03:01",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8yWUZJR3dSbGJVLTVwQ0E2c0FNSm12YlI1NnBPNkZQWW0zalI3bzItWVZRc3dfOGlrNnJkLVhaNDdxTEFFU1Fz?oc=5",
+          "headline": "ハジャーにゲスト押し退けで警告",
+          "points": [
+            "F1メキシコシティGPの会場で、ハジャーがゲストに対して攻撃的な態度で近づき押し退けた。",
+            "この不適切な振る舞いを受けて、公式に関連する警告が下される事態となった。",
+            "パドック内でのドライバーのマナーや行動規範に対する厳格な姿勢が改めて示された。"
+          ],
+          "takeaway": "サーキット外でのドライバーの振る舞いや、運営側から下された警告が今後のパドック内の雰囲気に与える影響に注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "【モトGP第19戦マレーシアGP予選＆スプリント】小椋藍、トップ快走も4位「悔しいですが、これが現実…相手の方が速かった」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/31 21:21",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zRF9va3owOGVJZUJmbDVEdEpPTlpyOG4ydi1ET3l3SWlHeUJMaE0xenJhak1VZkJ5alRRX0RES0pqUjNTakZOZFp2N3BZeEVabDBWcFMzenRSOXBIMXh4OWRfbS1JN1czd2tUNHZTZWM1MGpudzREOUtNdjlUUEU?oc=5",
+          "headline": "小椋藍がマレーシアGP予選4位",
+          "points": [
+            "モトGP第19戦マレーシアGPの予選とスプリントで、小椋藍はトップを快走した。",
+            "一時はトップを走りながらも最終的に4位となり、「相手の方が速かった」と悔しさをにじませた。",
+            "ライバルたちのペースに屈したこの現実をバネに、次戦以降のさらなる巻き返しが期待される。"
+          ],
+          "takeaway": "トップを快走しながらも4位に終わった小椋藍が、ライバルたちの強敵を相手にどう挑み続けるのかに注目。",
+          "is_new": true
+        },
+        {
+          "title": "小椋藍、スプリントでトップを走行もメダルを逃す「3人のペースが良くて、4位が精いっぱいだった」／第19戦マレーシアGP",
+          "source": "autosport web",
+          "pub_date": "10/31 20:36",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ZdDUySnBIRi10Q05xRDd0QllOeF9FbzVTSjFic2c3ZFFsQm5malZoNmRpbW04YlNKS0hqMF9obGhMT0F0cDZfMkp3?oc=5",
+          "headline": "小椋藍スプリントでメダル逃す",
+          "points": [
+            "マレーシアGPのスプリントで小椋藍はトップを走行したが、メダル獲得を逃す結果となった。",
+            "上位3人のペースが非常に良く、懸命の走りを見せたものの4位が精いっぱいだったと語っている。",
+            "トップ争いを演じた経験は今後のレース戦略やマシンのポテンシャル引き出しにプラスとなる。"
+          ],
+          "takeaway": "首位を走行しながらも表彰台を逃した悔しさを、小椋藍が次戦の決勝レースでどう晴らすのかが見どころだ。",
+          "is_new": true
+        },
+        {
+          "title": "ロシアGPの開催断念をF1が公式発表「F1は人々を団結させる目的で世界を転戦する」代替開催はまだ未定…ロシア軍のウクライナ侵攻により決断｜F1",
+          "source": "DAZN",
+          "pub_date": "10/31 17:58",
+          "link": "https://news.google.com/rss/articles/CBMimwdBVV95cUxQa3BCb3pwTjFKUVJ2dXRKQURLcWtFNEpJQVBBM0JCU1VETTg5Nks1ZmNvTmhZcWNZUVNuNWE2NFRlczk2ZXdyS3Y4eDNyWjJfeDlaWjBGaURIQmJSWkJHelJ1aXl5SldNVndpY3VON0pEdklFdGVod3lleVNFb0VpVFNNcC1HT1dQN19IRS1QbGtPZnJJN1J3a1JXcjZKUmZMQUJwMU9HWXU4T2F0Zm9Ja2xJZ1RNYmp2VU1ULW84bGJYbzZtQThGcWk5U1dndHdLU2IwejFLT2pERTFWNVJjR0w1RjVOYnQxVk5PSWJUdmJ5c3o5YTFpYzdJVHEtQng0SUt0c3RMV0h4R3JMZXc0c2xBVlZuZDdiZjd2RFZzdWxmVFZFd29RMVZxS29ZQlhJVk44SmVjc3FBUktSRU56eWVROVBQclJIZlVzZlpNYkF5cFgzWXA4QmhjTDdBUUNjczBYTGpVakJnd0JDQ1JiSl9TU3cyeEgwaEFhaWtabXRfSzkyVExnSU5pc0lXRkdwbTJVOFMzVDZCUzBlTWhqclZ6dktBM2t2a2E3cDBfd3NaMEdjUm1GMnJha1Ewaklndnc2blRqUkt0OFpKWmszbHF0Q2JPa3VOaVF4NjZwQU1GUWdXUk1wc3RNVThaU0o5WHNGUkMyUUIxQ3JkMHdVUTk5dWVOMDAtZGhYbXZqejVNQmt4ejA4bDZOQmxoOGd6ZEx5ME1oMEw2NVhKN1FEVmk3Z2ptWnZ6bGN1QjRtdXNzSk9JZElzbU5vN2FqMDV3X0pQaEtTcVo1cmNyS1JUbENKV3VTWHVhbUdSQ3VOWmN5WFMzREMyQ0dRRmVndFZRQ1hmOFpYdjVaYThHRUdnbFRBbENmcjNsUU1DSkN5OWNXOUFlRFltVFN6X2x0YVQwcmJlSXRRQUdfd2M5QXhyV1ptOElHdXFLeUppRlYtcURDWEE0Zk40UUYtY0t5U2hrSUNqaHB1NW01ZWFENlV2MXVDd0JLNVZiUTBEcU14bnVBczB2d0pOV3N5cHNieldycVVMeHBWb2NPRlh0aDVyTlhLU21ZZzZRUF90Yi1pQ01TYmpMMjRxeG5WbjdhYmRfbmV0cGJUeExJUHdMelNKanoxeloyeWczVVNicVRuQXhqLTlVS2hqNHc5eGVGV01jNlZHZ2pYQjFfSU5HV1JBczlIM1NfVmluMHBoOV80Y1hwRlZvaS1GYkE1VQ?oc=5",
+          "headline": "F1がロシアGP開催断念を正式発表",
+          "points": [
+            "ロシア軍のウクライナ侵攻を受け、F1はロシアGPの開催断念を公式に発表した。",
+            "「人々を団結させる目的で世界を転戦する」というF1の理念に基づいた決断となった。",
+            "現時点で代替開催地はまだ未定となっており、今後のカレンダーの調整が注目される。"
+          ],
+          "takeaway": "世界情勢を鑑みたF1の重大な決断と、今後予定される未定の代替開催地の行方にモータースポーツファンは要注目。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/01 07:34",
+        "title": "日本人選手の欧州躍進とMLB激闘の1週間",
+        "summary": "直近1週間は欧州サッカーで日本人選手の初ゴールや負傷者の復帰見通しが相次ぎ、MLBではポストシーズンやワールドシリーズの熱戦が展開された。バスケットボールでも日本人所属チームの動向や契約情報が注目を集めた。",
+        "key_players": "プレミアリーグで坂元達裕が鮮烈な初ゴールを記録。NBAでは八村塁が復帰戦で12得点を挙げるもチームは連敗。MLBではポストシーズン本塁打王の傾向やFA市場における佐藤輝明の評価に注目が集まった。",
+        "outlook": "サッカーでは久保建英の次戦や三笘薫の代表ウィーク後の復帰、ラ・リーガのダービーマッチが見どころ。MLBはワールドシリーズの行方やレイズの逆転劇、FA市場の動向から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "坂元達裕がプレミアリーグ初ゴール 日本人15人目 | スマートニュース",
+          "source": "SmartNews",
+          "pub_date": "11/01 01:44",
+          "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxNQmVmTV9fRTZxQ1kzdlpQNGJER3VYVjY4MUZVWG41QXpNTGsxQ3FWQXdZQm5xcWRrZWhCZHk5OWlBbXpQbkd2MjI0UXg5c3ktdzJOdGY3Q1AzNldFZDNsWU9mbFNvc0hwcnRkLTAyTjVjSmFNdGJ5NUQxaldQV1pQaWdtZUFsb193X3oxeXI5QXM2VGNWa0RFRWlOQVdhQUlUdGNwb0s2NXhhOC1LUFNUcTQwOUx5enJXY3ZHQldJdHczT0VxM1VsQWVzUHMxaWUzNkNxaklIM2xmRFRSWWo2ZXViRXMxZkJJbHhKRmZMYlVVU2I4ZkhlNHlxeGZQNDFNZThzSmI2NWhMXzBlV1BFQ2VPaEpkbUQ4SGtTUndITHhkRVFPZTVKN1g2UUhtSlB2ZFA2SWZSTVV5cnVLSThvT2w0R1A0QkFVQ0hrOU44dThtRzJTZFl3UUp3aVZITFp4QzFUcS1WMGJzbm81SEE5cnRFcjFYdw?oc=5",
+          "headline": "坂元達裕がプレミア初ゴール",
+          "points": [
+            "坂元達裕選手がプレミアリーグで初ゴールを記録しました。",
+            "日本人のプレミアリーグでの得点は史上15人目の快挙となります。",
+            "今後のさらなる活躍やチームへの貢献度が大きく期待されます。"
+          ],
+          "takeaway": "日本人15人目となる記念すべきプレミア初ゴールを決めた坂元達裕の今後の試合での活躍から目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "30歳MF坂元達裕がプレミアリーグ初ゴール!! 左足ダイレクトで鮮烈先制弾",
+          "source": "ゲキサカ",
+          "pub_date": "11/01 00:27",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94RjRMQ0tRcTdZQTZ2N24yMk5xaW5kc1JHY1RJVVdGS0NpcmpZOTBzZGFDVnVVNGNDTWNCTGloZEgxUWpBcl9ELUJNazhZX3lRZTRxakJsU2hQUE5tRk5WR3pRaUU4WEduZHMw?oc=5",
+          "headline": "坂元達裕が左足で鮮烈先制弾",
+          "points": [
+            "30歳のMF坂元達裕選手が左足ダイレクトで先制弾を叩き込みました。",
+            "試合の均衡を破る鮮烈なゴールで自身の存在感を強くアピールしました。",
+            "チームのオフェンス陣における重要なピースとして信頼を高めています。"
+          ],
+          "takeaway": "鮮やかな左足のダイレクトボレーで先制点を奪った坂元達裕の技術の高さを味わうことができる。",
+          "is_new": true
+        },
+        {
+          "title": "クリッパーズの八村塁、復帰戦は12得点 NBA（時事通信）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/31 14:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83aUsxQTUwSHpZV2tlTVNzNk5ZZ2hXVUgtbHlEMUVkcHYtbVBscVhqcXJ6M2pnSXJrRG1jUV9mcmFvaHMyX2pEMFJYZ2l0YTVGU0xhUWc4MUpmck9OWmNQT2xOTFlZTUhXcktaMk1rYXVkcjZRMC11UzdoR1ByeG8?oc=5",
+          "headline": "八村塁が復帰戦で12得点",
+          "points": [
+            "負傷から復帰したクリッパーズの八村塁が試合で12得点を挙げました。",
+            "チームの主力として早期に結果を残し、健在ぶりを証明しています。",
+            "主力の復帰がチームの戦術や今後の巻き返しに大きく影響します。"
+          ],
+          "takeaway": "怪我からの復帰戦でいきなり12得点をマークした八村塁が、ここからチームを勝利へ導けるか注目。",
+          "is_new": true
+        },
+        {
+          "title": "【NBA試合速報】2026年10月31日（土） ゴールデンステイト・ウォリアーズ vs ロサンゼルス・レイカーズ",
+          "source": "ｄメニューニュース",
+          "pub_date": "10/31 14:20",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMmZiTmJ1WURqYmk4ZkpDZWJtVF9TUHNWLW1aU3hzR2dKLUtJX3FqYkVEWHNYU2dfOU9mZEpiTEZuT3g1Y0VOaWFxbjZ2Zk5kdGNxc3ZHRVB1VllZVmpFOVJGZFJmdzJicGJLVElXTGlzVGFHZjVyTVVTSDlUV0xjZXl6MDfSAYoBQVVfeXFMT2ZuQ0w3S25sSFU3NHJ2VWtYNzVsSXAzQk5STTBGMWNfc25CRy03S2dLRkt6dXJGa2VXemZpV3BKUVRmQ3R2MTFJV2ZDRWFmdDRfRVctcjZNcEVqcHp3VzlyRUhpTGg3U0xGLXd1OEFRODRMaDBnc2VSMUdqeVpiWWNncjh2LVZJVVpR?oc=5",
+          "headline": "ウォリアーズ対レイカーズ戦",
+          "points": [
+            "ゴールデンステイト・ウォリアーズ対ロサンゼルス・レイカーズの試合が速報されました。",
+            "NBAの人気チーム同士の対戦として多くのファンから注目を集めています。",
+            "レギュラーシーズンの順位争いに直結する重要な一戦となりました。"
+          ],
+          "takeaway": "激しいライバル関係にあるウォリアーズとレイカーズの最新の対戦結果や試合展開をチェックできる。",
+          "is_new": true
+        },
+        {
+          "title": "NBA 八村塁 2試合ぶりに先発し12得点 チームは4連敗",
+          "source": "NHKニュース",
+          "pub_date": "10/31 13:44",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYb0o3c0FuOHVrMjJyRE5tU3BoTlRkOUQ1cXp0ejlJLXVwYzBENjlKdnF5TkRfRjQ3RnhCU1kxR1otcWM2enB4TktOeEFpRU1IZWh4ZDVFYkd2Q1lWdGdB?oc=5",
+          "headline": "八村塁2試合ぶり先発で12得点",
+          "points": [
+            "八村塁が2試合ぶりに先発出場を果たし12得点を記録しました。",
+            "チームは試合に敗れて4連敗となり苦しい状況が続いています。",
+            "連敗ストップに向けてチーム全体での立て直しが急務となっています。"
+          ],
+          "takeaway": "八村が2試合ぶりの先発で奮闘するもチームは4連敗となっており、次戦での雪辱に期待が高まる。",
+          "is_new": true
+        },
+        {
+          "title": "今年の「ポストシーズン本塁打王」は４本。今世紀最少!? 昨年の最多は大谷とゲレーロJr.の８本（宇根夏樹） - エキスパート",
+          "source": "Yahoo!ニュース",
+          "pub_date": "10/31 09:06",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUFVEaWZDajZlRUpWQU8xUGhyQ04ydU0wZ2xrZXp1cVVEcXcwdHBxX2dRT0JLMEl0NDV1a196LWl6R3BXNllFWEVLSDVLR09sdFdNcGxOSkYxS3l3MldTUTltLWQ5VHdFWkRZN04wYVBJdXozWDZKY1JYa1lKcFVaaEtpeEtVMnhN?oc=5",
+          "headline": "今年のポストシーズン本塁打王4本",
+          "points": [
+            "今年のポストシーズン本塁打王のホームラン数は4本にとどまりました。",
+            "昨年の最多本塁打数は大谷選手とゲレーロJr.選手の8本でした。",
+            "今世紀最少とも言われる今年の記録的背景について分析されています。"
+          ],
+          "takeaway": "昨年の大谷選手らの記録と比較して今世紀最少ペースとなったポストシーズン本塁打王の傾向が興味深い。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
