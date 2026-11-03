@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-02",
-  "total_days": 43,
+  "latest_date": "2026-11-03",
+  "total_days": 44,
   "dates": [
+    {
+      "date": "2026-11-03",
+      "updated_at": "11月03日 10:38",
+      "label": "11/3",
+      "summary_title": "工藤新体制が高知で始動！心技体の改革とマインドチェンジへ"
+    },
     {
       "date": "2026-11-02",
       "updated_at": "11月02日 07:55",
