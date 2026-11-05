@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-04",
-  "total_days": 45,
+  "latest_date": "2026-11-05",
+  "total_days": 46,
   "dates": [
+    {
+      "date": "2026-11-05",
+      "updated_at": "11月05日 09:25",
+      "label": "11/5",
+      "summary_title": "工藤新監督が就任！秋季キャンプから鬼軍曹ぶり発揮"
+    },
     {
       "date": "2026-11-04",
       "updated_at": "11月04日 09:01",
