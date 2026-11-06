@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-06",
-  "total_days": 47,
+  "latest_date": "2026-11-07",
+  "total_days": 48,
   "dates": [
+    {
+      "date": "2026-11-07",
+      "updated_at": "11月07日 08:48",
+      "label": "11/7",
+      "summary_title": "工藤新監督が就任！秋季キャンプから始まる竜の意識改革"
+    },
     {
       "date": "2026-11-06",
       "updated_at": "11月06日 09:22",
