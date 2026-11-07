@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-08",
+  "updated_at": "11月08日 07:50",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/08 07:47",
+        "title": "中日ドラゴンズ 2026年契約更改選手一覧",
+        "summary": "直近の中日ドラゴンズでは、「中日ドラゴンズ 2026年契約更改選手一覧 / 11月8日(日)放送 サンデードラゴンズ 新生ドラゴンズ / 中日・田中幹也、故障でチャンスをつぶしてしまった今季…「」など注目のニュースが相次いで報じられています。",
+        "key_players": "主力選手や首脳陣の最新コメント、チーム編成・次戦に向けた調整状況に高い関心が集まっています。",
+        "outlook": "今後の試合日程やチーム戦略の展開に向け、各メディアの続報と選手のパフォーマンスに注目です。"
+      },
+      "news": [
+        {
+          "title": "中日ドラゴンズ 2026年契約更改選手一覧",
+          "source": "ベースボールチャンネル",
+          "pub_date": "11/08 07:07",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WdXNmY2JNS3BlMFN5VHowRXdZLVg1VXlxWlh6ZGpqNnVEaU5yYTlHSktUUlFyQThXZzBPdkV5Z2lfUDliZEN4Ny0ydjBGUDRmYlBKTHhNRllYMXZoeFJn?oc=5",
+          "headline": "2026年の中日契約更改選手一覧",
+          "points": [
+            "ベースボールチャンネルが2026年中日ドラゴンズの契約更改選手一覧情報を公開している。",
+            "オフシーズン恒例の契約更改の動向を一覧で確認できるため、ファンからの注目度が高い。",
+            "今後の全選手の年俸変動やサイン状況を把握するための重要なデータとなる。"
+          ],
+          "takeaway": "今オフの選手たちの評価や球団の編成方針を一覧でチェックできるため、ファン必見の情報源です。",
+          "is_new": true
+        },
+        {
+          "title": "11月8日(日)放送 サンデードラゴンズ 新生ドラゴンズが始動！工藤流キャンプ！！！",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "11/07 23:30",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CZFd4WEVYc2VRV1hGVkxhMDdzNmU5Q3hUWndqbThDMXVXMy1iejFTNnBwSlkyNVIzSnVMbzBjN3VpYk1xdW0yaVBrWnBQU0VTRzRqbHNQS0pvQQ?oc=5",
+          "headline": "新生ドラゴンズの工藤流キャンプ始動",
+          "points": [
+            "11月8日放送のサンドラで新生ドラゴンズの工藤流キャンプの模様が特集される。",
+            "新たに始まった工藤監督によるキャンプでの指導方針やチームの雰囲気が伝えられる。",
+            "秋季キャンプから始まる新体制のチーム作りや若手育成の様子を詳しく知ることができる。"
+          ],
+          "takeaway": "テレビ番組を通じて、秋季キャンプにおける工藤監督の指導スタイルや新生竜の様子をいち早く確認できます。",
+          "is_new": true
+        },
+        {
+          "title": "中日・田中幹也、故障でチャンスをつぶしてしまった今季…「まずは守備からだぞ」工藤監督の言葉で自身の強みを再確認、来季は「どこでも守る」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/07 22:54",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91amE2YTBkZlpIRkYzSFBCclEtZGhWSE5mNWowN2QzMzBwS1FJbzY0aWxvU2dvYmREZTFuWWVMdzZmaHFwYTZIQ3hndFB0ZWJpb180VA?oc=5",
+          "headline": "田中幹也が監督の言葉で強み再確認",
+          "points": [
+            "故障でチャンスをつぶした今季を振り返り、田中幹也が自身の強みを再確認した。",
+            "工藤監督から「まずは守備からだぞ」と言葉をかけられ、原点に立ち返るきっかけとなった。",
+            "来季に向けて「どこでも守る」と強い意気込みを語り、レギュラー奪回へ闘志を燃やす。"
+          ],
+          "takeaway": "指揮官の言葉を受けて守備からの再起を誓った田中幹也が、マルチな守備力で来季の飛躍を狙う姿に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "中日・田中幹也、100万円ダウン更改 左肩脱臼などで今季84試合出場「よかったことの方が少なかった1年」",
+          "source": "中日新聞Web",
+          "pub_date": "11/07 16:51",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jcHJFV3pnLUVzOEtydXFlQzIzdVFSVXl0QUcwZDJQbHlVSHoyd3d3cTNBalN6OTkzV0hZMzU4VGF4dXhFMzVvNnpyRHUyeGc5MUZpVw?oc=5",
+          "headline": "田中幹也が100万円ダウンで更改",
+          "points": [
+            "中日の田中幹也が契約更改を行い、100万円ダウンの金額でサインした。",
+            "左肩脱臼などの故障もあり今季は84試合の出場にとどまったシーズンとなった。",
+            "本人も「よかったことの方が少なかった1年」と今季を厳しく振り返っている。"
+          ],
+          "takeaway": "悔しいシーズンとなった今季の経験を糧に、来季こそ万全の状態で結果を残す田中幹也の巻き返しを応援しましょう。",
+          "is_new": true
+        },
+        {
+          "title": "侍ジャパン・高橋宏斗、あす広島との練習試合に先発 捕手陣と意思疎通の大切さ強調「しっかり話し合いました」",
+          "source": "中日新聞Web",
+          "pub_date": "11/07 15:02",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jV05OSmZyUkhBRFdXREhxZEVTZGlqRFBUUkp2Wm9kY1RfVU9lcndBT2V2OUxRWVBGWGt3LUZrNHVCaW0zblRrNmpVM1N2ZDh6YnZMdg?oc=5",
+          "headline": "侍ジャパンの高橋宏斗が広島戦先発",
+          "points": [
+            "侍ジャパンの高橋宏斗が、翌日に控える広島との練習試合に先発登板する予定である。",
+            "捕手陣との意思疎通の大切さを強調し、試合に向けてしっかりと話し合いを行った。",
+            "侍ジャパンの代表としてのマウンドで、キャッチャーとの連携を確認しながら調整を進める。"
+          ],
+          "takeaway": "侍ジャパンで先発を務める高橋宏斗が、捕手陣とどのようにコミュニケーションを取り投球を見せるか注目です。",
+          "is_new": true
+        },
+        {
+          "title": "「金丸夢斗かなりレベル違いすぎるな」 侍ジャパン・井口監督“初陣”で先発、力強い投球に注目集まる 「世界にバレちまう」「ストレート良すぎ」",
+          "source": "中日新聞Web",
+          "pub_date": "11/07 14:10",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Cc1RDZ05xOC1MX2JiVEtUcmtEN1JZTlNUTWVtX0pCY1lKbUw2dGxyQmhKSmVSaTMzRzVidU5aX2tCbHNiSDdrRjBWbDNMX0lHN3RaUA?oc=5",
+          "headline": "金丸夢斗の侍ジャパン初陣で好投",
+          "points": [
+            "侍ジャパンの初陣で金丸夢斗が先発マウンドに上がり、力強い投球を披露した。",
+            "「レベル違いすぎるな」といった称賛の声や、ストレートの良さに大きな注目が集まった。",
+            "その圧倒的な投球内容に「世界にバレちまう」など、ファンや関係者から驚きの声が上がった。"
+          ],
+          "takeaway": "侍ジャパンの初陣で見せた金丸夢斗の力強いストレートと圧倒的なピッチングは必見の価値があります。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/08 07:48",
+        "title": "千葉J：新戦力の躍動と金近選手の負傷、激動の1週間を徹底分析",
+        "summary": "直近1週間は富山戦での黒星や金近廉選手の脳震盪による離脱という痛手があった一方、アルティーリ千葉戦の開催や、ふなっしーの期間限定CEO就任など話題も豊富。新加入ブランドン・ランドルフのデビュー戦活躍も光る激動の期間となりました。",
+        "key_players": "待望のBリーグデビューを果たし攻守に活躍したブランドン・ランドルフがプレーメーカーとしてチームに新風を吹き込んでいます。また、原修太選手がメディアでのSPトークで富樫勇樹選手や他選手について語るなどコート外での発信も注目を集めました。",
+        "outlook": "負傷離脱者が出る中、チームがどのように守備の課題を修正し、B.PREMIERの戦いを立て直していくかが最大の焦点です。新戦力のランドルフのさらなるフィットや、富樫勇樹選手を中心としたチームの結束力に大きな期待がかかります。"
+      },
+      "news": [
+        {
+          "title": "【プレーまとめ】千葉J#2 富樫 勇樹｜りそなグループ B.LEAGUE 2026-27 SEASON｜B.PREMIER｜11.06.2026",
+          "source": "www.bleague.jp",
+          "pub_date": "11/07 13:08",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84d2lXYm9uck5HYmFHN0hmLXBIR18xQW51QVJ1cXVzSVVCWm9ZblYyend2VHJ3RkxRdmJYekN6Sm1qNlZYdk1ycTZQT3RIYUF1RDI5cHQxTEl0Zw?oc=5",
+          "headline": "富樫勇樹選手のプレーまとめ動画公開",
+          "points": [
+            "2026年11月6日に行われたB.PREMIERの試合における、千葉J所属#2富樫勇樹選手のプレーまとめが公開された。",
+            "りそなグループ B.LEAGUE 2026-27シーズンの一環として、公式メディアにより配信が行われた。",
+            "ファンがエースの卓越した個人技や試合中の重要なプレイシーンをいつでも振り返ることが可能になる。"
+          ],
+          "takeaway": "日本代表を牽引する司令塔の華麗なテクニックや試合を決める決定的なプレイを何度も見返して楽しむことができます。",
+          "is_new": true
+        },
+        {
+          "title": "待望のBリーグデビュー戦で攻守に渡って活躍、千葉ジェッツのブランドン・ランドルフ「基本的に自分の役割はプレーメーカー」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 11:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VYTBIdjU1VmI2Qm1tYU5xZzVNS3hKdUhxeFNFS3JGODgzRHUtMU1pbWpzcWNGZmhwX3N3NkE3MllOSjB0WWFxclBVUzJra0Fhc1VOeVMzSjZtSVdEUUx0MDJkWTRuWE9rRm5taTBIQVV0VV9PV3BJQXRSbk9Cb0U?oc=5",
+          "headline": "ランドルフがデビュー戦で攻守に躍動",
+          "points": [
+            "待望のBリーグデビュー戦となった試合で、ブランドン・ランドルフが攻守にわたる素晴らしい活躍を見せた。",
+            "本人は自身の役割について「基本的に自分の役割はプレーメーカーである」とインタビューで語っている。",
+            "新加入選手がチームに迅速に適応し、オフェンスとディフェンスの両面で大きな貢献を果たしている。"
+          ],
+          "takeaway": "新戦力として加入したランドルフ選手が、司令塔としてチームの攻撃をどのように活性化させていくのか非常に楽しみです。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツ・原修太選手によるSPトーク③「辻直人さんみたいな人はあと10年20年出てこない」【B MY HERO!】",
+          "source": "スポーツナビ",
+          "pub_date": "11/07 08:02",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nZ0VOQkJXRXZ3V1dYajdqSmRLQlJWREl6TDMwc3I5QWRiVGZ0bGMzZTZ1OW1PRXJGSndYQVd5Q0VTay1GSmNycW5ES1FCOGljaDBGZHdUMkl2ZS14?oc=5",
+          "headline": "原修太が選ぶBリーグの歴代No.1選手",
+          "points": [
+            "スポーツナビの企画「B MY HERO!」のSPトーク第3弾に千葉ジェッツの原修太選手が登場した。",
+            "辻直人選手について「あんな人はあと10年20年出てこない」と敬意を込めてその唯一無二の才能を絶賛した。",
+            "リーグを熟知する主力が独自の視点で歴代の優れた選手たちについて深く語る貴重な内容となっている。"
+          ],
+          "takeaway": "チームの精神的支柱である原選手が、対戦経験豊富なライバル選手たちに対してどのようなリスペクトを持っているか必見です。",
+          "is_new": true
+        },
+        {
+          "title": "【試合情報】11/6 千葉ジェッツvs.アルティーリ千葉 [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/06 22:10",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85ZHo5eGptcXk2dGlCVkhYclRuc3kybVFjdlRhalZ2RFBDaS14ODJJWHFpaE1jUEZPWS0zYTY0ejhrcTlKQWlvVTIzaDVmZjA?oc=5",
+          "headline": "千葉J対アルティーリ千葉の試合情報を公開",
+          "points": [
+            "2026年11月6日に開催された千葉ジェッツとアルティーリ千葉の試合に関する詳細な情報が発表された。",
+            "りそなグループ B.LEAGUE 2026-27シーズンの公式戦として注目を集めるカードとなった。",
+            "両チームのファンやバスケットボール界全体に向けて、試合の開催概要や見どころが広く発信された。"
+          ],
+          "takeaway": "を集めるカードとなった一戦の詳細情報をチェックし、白熱した試合の興奮を改めて振り返ることができます。",
+          "is_new": false
+        },
+        {
+          "title": "「あんな人あと10年20年は出てこない」原修太が選ぶBリーグ歴代“No.1”選手たち／B MY HERO!",
+          "source": "バスケットボールキング",
+          "pub_date": "11/06 15:27",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aalVjUFJLZEhoX2ZJY2F0SE1WM0R3d1gwRHJ0WEtrRmtCWHc1Q3dkQzZSUmNnS1U2c3lyanJOYzJCTjVmZFAycmhJeFVQelJOeDhaY3Rlb2g5NzdzRl9pUkwyOW9rQUxP?oc=5",
+          "headline": "原修太が明かすBリーグの歴代名選手",
+          "points": [
+            "バスケットボールキングの企画において、原修太選手がBリーグの歴代ナンバーワン選手たちについて語った。",
+            "辻直人選手を例に挙げ「あんな人あと10年20年は出てこない」と熱い持論を展開して絶賛している。",
+            "現役トッププレイヤーが選ぶ特別な選手たちの名前と、その選出理由の背景が詳しく明かされている。"
+          ],
+          "takeaway": "選手同士だからこそ分かる深いバスケットボール観や、リーグを牽引する名手たちへの熱いリスペクトを感じられます。",
+          "is_new": false
+        },
+        {
+          "title": "【千葉ジェッツ】ふなっしーが千葉ジェッツの期間限定「CEO」に就任！",
+          "source": "PR TIMES",
+          "pub_date": "11/05 11:43",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DTmNITmxiV2ZnTXFobTdRM0VvVG9tbkNTLWhTd09yblZLMVpSZTQ4d1B5dGZmQTJYZjBzNGcydDVTWGtzaUlrSzJGVXRQejRtMGM1ZUFmYnYtejlvQjZTa1l3eWlPQS1Cdmc?oc=5",
+          "headline": "ふなっしーが期間限定のCEOに就任",
+          "points": [
+            "人気キャラクターの「ふなっしー」が、千葉ジェッツの期間限定「CEO」に就任したことが発表された。",
+            "PR TIMESを通じて発表され、チームとふなっしーの新たなコラボレーション企画として注目を集めた。",
+            "期間限定のCEOとしての活動を通じて、チームのさらなる盛り上がりや地域との一体感の醸成が期待される。"
+          ],
+          "takeaway": "千葉県を代表する人気キャラクターが期間限定で経営陣に加わるという驚きの企画で、今季の千葉ジェッツをさらに盛り上げます。",
+          "is_new": false
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/08 07:48",
+        "title": "サンパウロGP開幕と平川・ホンダの動向",
+        "summary": "ブラジル・サンパウロGPが開幕し、アロンソ＆ホンダが今季初Q3進出。ペレスの部品ポイ捨てやカマラの戒告処分など波乱の展開に。一方、MotoGPでは小椋藍がカタールGP初日を9番手でQ2進出を果たした。",
+        "key_players": "平川亮はWEC優先でサンパウロGP欠場もハース再登板の可能性が浮上。アロンソはホンダと共にQ3進出を果たし、アントネッリは来季のカーナンバー決定や最年少王者としての話題を集めた。",
+        "outlook": "サンパウロGPの決勝レースでの各車の巻き返しや、ホンダ製パワーユニットを巡る戦いに注目。また、中東でのF1開催に関する期限や、MotoGPでの小椋藍の予選・スプリントでの巻き返しが大きな見どころとなる。"
+      },
+      "news": [
+        {
+          "title": "【F1】ペレスが走行中に部品を「ポイ捨て」！FIAが正式警告「不適切」 投げ捨てた理由とは？／サンパウロGP（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/08 06:51",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01V2x3bE84Tng5b1BOaTdaWkxleU1WdnhPUGliak5Jb3lDbEZwZ01NRXVZU1VrYjUtVlJFMlRJZi1ha0xyaXlFYjc0Q0otVjRBR3I4WlgxMHF1dEU5alNfU2I1NWEwT3RUQVhxNXM2RC1HVkdWbkJaVjRMTS1EWEk?oc=5",
+          "headline": "ペレスが走行中に部品を「ポイ捨て」！FIAが正式警告「不適切",
+          "points": [
+            "「Yahoo!ニュース」より、ペレスが走行中に部品を「ポイ捨て」！FIAが正式警告「不適切」 投げ捨てた理由とは？に関する最新動向が報じられました。",
+            "記事内では「ポイ捨て」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "【F1予選Q3結果】アロンソ＆ホンダが今季初Q3！ノリスがPP、ラッセルは「“アルボーノ”どいてくれ！」と無線で絶叫／サンパウロGP（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/08 06:28",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WWUVpY19uaXhoTkw4M2VmYzl3OHJjRktzWmhxYkplbHd6aUN2LWNjT3JRYUxZa1NBUllha29iSjNjd3JEVEZBTHhNb3NGS3EzcjFXeGp4WTdOYnZYQXExS1dNaG1TN2xJRXRoX3J2ck1DLUVuUmNoNzRGd21BNW8?oc=5",
+          "headline": "アロンソ＆ホンダが今季初Q3！ノリスがPP、ラッセルは「“ア",
+          "points": [
+            "「Yahoo!ニュース」より、アロンソ＆ホンダが今季初Q3！ノリスがPP、ラッセルは「“アルボーノ”どいてくれ！」と無線で絶叫に関する最新動向が報じられました。",
+            "記事内では「“アルボーノ”どいてくれ！」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "F1デビューのカマラに戒告処分！FIA「明らかに危険」ルクレールが接触回避でコース外へ／F1サンパウロGP（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 23:36",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LSW1VdXhTWjl5cnJwaU9nYTh4bTBPRmctbFFSUlhkcThrM2loZENtWnpFSkNidVZUNTRLZ3Jycy1BX05jQU01TVNlNFgzdTVWZnk0WlFpa3JTemNFUTNQUDIzQlJ5YnNxaUU5ME85cTd5V29pVnVFOXoyQ295RjA?oc=5",
+          "headline": "F1デビューのカマラに戒告処分！FIA「明らかに危険」ルクレ",
+          "points": [
+            "「Yahoo!ニュース」より、F1デビューのカマラに戒告処分！FIA「明らかに危険」ルクレールが接触回避でコース外へに関する最新動向が報じられました。",
+            "記事内では「明らかに危険」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "平川亮「話し合いはあった」サンパウロGPはWEC優先で欠場も、連戦プランがあった…残り3レースでハース再登板の可能性も浮上｜F1（DAZN News）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 17:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZdUoxTDQ5cDd6VWRaVGF3dDBBVGxnQVNtbzZwRm5mWl9zeWhQajB3djN4c3VzbFpHLUZuLVRtZmNaYXhDVHlnR2tpNzRpcFNDaUFoRnZnRW03emNLeFNxWlVEME1CNXE2R3I5X3hVMVZMLTJMTEhhZVVtTzJPOEk?oc=5",
+          "headline": "平川亮「話し合いはあった」サンパウロGPはWEC優先で欠場も",
+          "points": [
+            "「Yahoo!ニュース」より、平川亮「話し合いはあった」サンパウロGPはWEC優先で欠場も、連戦プランがあった…残り3レースでハース再登板の可能性も浮上に関する最新動向が報じられました。",
+            "記事内では「話し合いはあった」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "【MotoGP】小椋藍はカタールGP初日 プラクティス9番手「すごく悪かった」ダイレクトでQ2進出を果たすも納得にはほど遠い内容 予選とスプリントでの巻き返しなるか（日テレNEWS NNN）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 16:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oV1ZwaUhSTkxrZUYxQ0pvYVlMRk4xdWFJYUE5b3JETk9vVkROMTV2R2wxNmhTYzM4TTlNV0lOTTZFTDZWMGQ3cFBXOWxoXzd2NHR3NXpnbzI3NmVaSTMxZ191M0RzamdKVjQ5cmplRWRRUTdwWW5TVmZPUWhWSE0?oc=5",
+          "headline": "小椋藍はカタールGP初日 プラクティス9番手「すごく悪かった",
+          "points": [
+            "「Yahoo!ニュース」より、小椋藍はカタールGP初日 プラクティス9番手「すごく悪かった」ダイレクトでQ2進出を果たすも納得にはほど遠い内容 予選とスプリントでの巻き返しなるか（日テレNEWS NNN）に関する最新動向が報じられました。",
+            "記事内では「すごく悪かった」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "「僕のこと！？」“ベテラン”扱いに驚く2年目ボルトレート／7度の王者は400戦目の節目【F1 SNSまとめ】",
+          "source": "autosport web",
+          "pub_date": "11/07 15:35",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5qNFRoWThyXzdiT1NrbU4yRzk4WGQxMk4zNEJwR1U0eDFpeEk1LTBDSDN6bVVZZ1FQdm9zT181c0tYLVZycldR?oc=5",
+          "headline": "「僕のこと！？」“ベテラン”扱いに驚く2年目ボルトレート",
+          "points": [
+            "「autosport web」より、「僕のこと！？」“ベテラン”扱いに驚く2年目ボルトレートに関する最新動向が報じられました。",
+            "記事内では「僕のこと！？」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "モータースポーツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/08 07:49",
+        "title": "久保建英の序列低下や佐野躍動、日本初「MLBx」開催など話題多数",
+        "summary": "欧州サッカーでは久保建英が所属クラブで出場時間チーム内18番目と苦しい現状が報じられる一方、佐野航大がCL初ゴールを決めるなど日本人選手の明暗が分かれました。また日本初開催となったMLB主催イベント「MLBx」には松坂大輔氏や藤浪晋太郎らが参加し、野球界でも大きな注目を集めました。",
+        "key_players": "久保建英は指揮官から出場時間獲得への厳しい要求を受ける一方、佐野航大はCL初ゴールで高い技術を称賛されました。野球界ではMLB主催イベントで藤浪晋太郎が13発のアーチを放ち、松坂大輔氏やアダム・ジョーンズ氏らも参加して会場を沸かせました。",
+        "outlook": "ソシエダで序列低下が指摘される久保建英の巻き返しや定位置争いが焦点となります。CLで存在感を示した佐野航大の継続的な活躍に加え、DeNA戦力外となり去就が注目される藤浪晋太郎の今後の動向にもファンの熱い視線が注がれます。"
+      },
+      "news": [
+        {
+          "title": "MLB主催のホームラン競争イベント「MLBx」開催 松中信彦氏ら「チームホークス」が優勝（日刊スポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 19:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pQzZ0T2NBTHVaOFJTbnhFMjBqRUR1RzJ0T1NlcnZrLVV1bVFaUnpyZ1YtcHpuVDNsakpGSWljdnQxeXg2d29IVGNGYW9pbmtsX1pucEZzYXVKcER1bndJakNwYllhRjdUOEFuTS1KanBqMVZ2cE9mODVPSkdjOWc?oc=5",
+          "headline": "MLBxで松中信彦氏らチームホークスが優勝",
+          "points": [
+            "MLB主催の新感覚ホームラン競争イベント「MLBx」が開催され、レジェンド選手らが参戦した。",
+            "松中信彦氏らが参加した「チームホークス」が見事に激戦を制して優勝を飾った。",
+            "福岡の地で行われたMLBイベントで地元チームのOBらが躍動し大会を盛り上げた。"
+          ],
+          "takeaway": "往年のスラッガーである松中信彦氏らがチームホークスとして掴んだ優勝の勇姿は見逃せません。",
+          "is_new": true
+        },
+        {
+          "title": "藤浪晋太郎がオリオールズのユニホームで１３発！ＭＬＢ主催のホームラン競争イベントに参加「１週間、打ち込んできました」今季限りでＤｅＮＡを戦力外…来季所属は未定",
+          "source": "スポーツ報知",
+          "pub_date": "11/07 15:59",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XeHg0R2VkUEZUS1FhSlpfMFE4ZS1uRm9NWTFwelNDRlNkUnljQllGUGdfd3lhRXB1eEtPb2xfQkZLZkdRbFpFMFBMNkFFOXRCZDZnWE05XzNKa2l3UEhBbHZB?oc=5",
+          "headline": "戦力外の藤浪晋太郎がMLBxで13発を放つ",
+          "points": [
+            "今季限りでDeNAを戦力外となった藤浪晋太郎がMLB主催のホームラン競争に参加した。",
+            "古巣オリオールズのユニホームを着用し「1週間打ち込んできた」と13発のアーチを描いた。",
+            "来季の所属先が未定となっている中で打撃イベントに登場し注目を集めている。"
+          ],
+          "takeaway": "去就が注目される藤浪投手がオリオールズのユニホーム姿で見せた豪快な打棒から目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "ＭＬＢ主催のホームラン競争イベントが日本で初開催 元オリックスのアダム・ジョーンズが開幕弾「ＭＬＢｘ：ＦＵＫＵＯＫＡ」",
+          "source": "スポーツ報知",
+          "pub_date": "11/07 15:40",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40LWdPMTIzS0FxVmV2YTA2aFlxV0JzcmtlRGtNNzNseDRKdkROcjRrMW5IOVpnbXRUN3dFbmhTSFlXSDJFT01KOE9BRmowTDc4UmpWSGRNemtlbHhmc1dsYnBn?oc=5",
+          "headline": "日本初開催のMLBxでA・ジョーンズが開幕弾",
+          "points": [
+            "MLB主催のホームラン競争イベント「MLBx：FUKUOKA」が日本で初めて開催された。",
+            "元オリックスのアダム・ジョーンズ氏が記念すべき大会のオープニングアーチを放った。",
+            "日本初上陸となった新たな野球エンターテインメントが福岡の舞台で華々しく幕を開けた。"
+          ],
+          "takeaway": "NPBファンにも馴染み深い元オリックスのアダム・ジョーンズ氏が放った豪快な開幕弾に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "新感覚のホームラン競争「MLBx」日本初開催 レッドソックスの松坂大輔氏、元本拠地にアーチ架ける（西スポWEB OTTO!）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 15:36",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrUGEtYmFOVHdaMG5oU3c3RXBYUno4UnlDbDJQYnYzUkNGODRaeXRCNjQ3c2NtSk1VTXE1VmQ0bWpRNmJTQ0MzYXgtMnpaV2xoSlltWHNiR0d4enNZbzBDd3JLMkR1LVB1WHl5WFpZQVRqVHp0Yl9OYTExQ0gtdnc?oc=5",
+          "headline": "松坂大輔氏が日本初開催のMLBxで元本拠地に一発",
+          "points": [
+            "新感覚のホームラン競争「MLBx」が日本で初めて開催され大きな話題を呼んでいる。",
+            "レッドソックスのユニホーム姿で松坂大輔氏が出場し元本拠地で見事なアーチを架けた。",
+            "かつての本拠地で投手の松坂氏が放った豪快な一発が詰めかけたファンを大いに沸かせた。"
+          ],
+          "takeaway": "レッドソックスのユニホームを身にまとい元本拠地でアーチを架けた松坂大輔氏の打棒は必見です。",
+          "is_new": true
+        },
+        {
+          "title": "「久保建英の出番なしはもはやニュースにもなっていない」出場時間はソシエダ内18番目…苦しい現状を記者が指摘（GOAL）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 11:51",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LLW0yWkZGZi1pNjFnc2ZzSUFYSVl2SVVWS0doN1d6UEEtNVRFaWJnQmQ5NU1hbm10SzVRZzlCeUZEUURMbHdqbDBiZ1BzbnRrYUgwd0ZHbk51Uk1fa3Y5MV9tSm1tLUVXNlVZS21fbHJKREZuQ2p3X2ctaTZNSjg?oc=5",
+          "headline": "久保建英は出場時間チーム18位で苦境と指摘",
+          "points": [
+            "現地記者が久保建英のソシエダにおける出番なしはもはやニュースにもならないと指摘した。",
+            "チーム内での出場時間が18番目にまで落ち込んでおり置かれている厳しい現状が浮き彫りとなった。",
+            "起用機会が激減している現状を打破し再びチーム内で確固たる地位を取り戻せるかが焦点となる。"
+          ],
+          "takeaway": "出場時間がチーム内18番目と苦境に立たされる久保建英がここからどう巻き返すのか要注目です。",
+          "is_new": true
+        },
+        {
+          "title": "久保建英25歳＆福原遥28歳の電撃婚はスペインでも「サプライズ」ほとんどの同僚が“交際すら寝耳に水”…発表2週間後の“復活ゴール”裏事情（Number Web）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/07 06:01",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WFhtWlBHbmhnSGRmR3g3UGR5TmVQTHR6WTQ5WlV4eG1IWkJOSDZEaUZzUjZld1QzRk1xRWtLcVdaXzRiLU5MQ25Nb2F1Sy1KOF9hb1NfMjJkYlBWckpfZDBkcFlTY3pKaHRtWDRxS1JDaURJVVBISWlTNWw4dU0?oc=5",
+          "headline": "久保建英と福原遥の結婚に同僚驚愕、復活弾の裏側",
+          "points": [
+            "久保建英と福原遥の電撃結婚発表は現地スペインでも大きなサプライズとして受け止められた。",
+            "ほとんどのチームメイトが交際すら寝耳に水だった中での電撃的な慶事となった。",
+            "発表から2週間後に久保が復活ゴールを決めた背景にある裏事情にも関心が集まっている。"
+          ],
+          "takeaway": "チームメイトも驚いた電撃婚の発表直後に見せた復活ゴールと今後のピッチ上での活躍に注目です。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}

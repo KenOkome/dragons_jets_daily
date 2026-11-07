@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-07",
-  "total_days": 48,
+  "latest_date": "2026-11-08",
+  "total_days": 49,
   "dates": [
+    {
+      "date": "2026-11-08",
+      "updated_at": "11月08日 07:50",
+      "label": "11/8",
+      "summary_title": "中日ドラゴンズ 2026年契約更改選手一覧"
+    },
     {
       "date": "2026-11-07",
       "updated_at": "11月07日 08:48",
