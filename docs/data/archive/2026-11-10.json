@@ -1,16 +1,32 @@
 {
   "date": "2026-11-10",
-  "updated_at": "11月10日 12:02",
+  "updated_at": "11月10日 12:36",
   "categories": {
     "dragons": {
       "report": {
-        "analyzed_at": "11/10 12:00",
-        "title": "中日・工藤新体制が始動、細川が1.9億円で更改",
-        "summary": "工藤新監督による秋季キャンプが始動し、ミーティングの名言がSNSで100万再生を突破するなど大きな話題に。契約更改では細川成也が6000万円増の1億9000万円で一発サインし、チームを牽引する主砲として高く評価された。",
-        "key_players": "自己最多25本塁打で全試合出場を果たした細川成也が1.9億円でサイン。また、工藤監督からゲキを飛ばされた田中幹也や、石川昂弥の契約更改の動き、ドラフト新人の発言などにもファンの熱い視線が集まっている。",
-        "outlook": "新体制における「工藤流キャンプ」での選手たちの意識改革や、今後の契約更改の動向に注目。若手野手の成長やポジション争いが激化する中、来季へ向けた新生ドラゴンズのチームづくりがどのように進むか見逃せない。"
+        "analyzed_at": "11/10 12:35",
+        "title": "工藤新体制が始動、細川が1.9億円で一発サイン",
+        "summary": "中日は新体制のキャンプやミーティングでの工藤監督の発言が大きな話題を呼ぶ中、契約更改が本格化。細川がキャリアハイ25本塁打で大幅増となる推定1億9000万円で一発サイン。戦力外からの復活を遂げた32歳内野手も契約を更改した。",
+        "key_players": "自己最多25本塁打で全試合出場を果たした細川が6000万円増でサインしつつも悔しさを吐露。田中幹は工藤監督の言葉で強みを再確認し来季へ意欲。石川昂の契約更改保留も議論を呼ぶなど、若手・主力の査定や動向に注目が集まる。",
+        "outlook": "秋季キャンプで工藤監督による指導やミーティングでの言葉が選手やファンの間で大きな反響を呼んでおり、令和版の指揮官の下で進む新生ドラゴンズのチーム作りや若手の意識改革、今後の契約更改の行方が最大の注目ポイントとなる。"
       },
       "news": [
+        {
+          "title": "阪神戦力外から復活！ 中日の”32歳内野手”が契約更改 今季自己最多6本塁打＆24打点",
+          "source": "ベースボールチャンネル",
+          "pub_date": "11/10 11:50",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBfZmVvckswM0xiT2F4X3pESTdZR3ZvSXlEWGdjX1I1dFZjMktKSV9pWE13NkZzS0hGd2FtSGN0VWtJY0ZZMUtERTdybHNuQWRnV2FHZQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日の32歳内野手が自己最多記録で更改",
+          "points": [
+            "阪神を戦力外から中日に加入した32歳の内野手が、今季自己最多となる6本塁打と24打点をマークした。",
+            "苦難を乗り越えて新天地で確かな存在感を示し、球団からも高く評価されるシーズンとなった。",
+            "野球における「戦力外からの這い上がり」は、諦めない姿勢と日々の努力が結実する最高のロマンである。"
+          ],
+          "takeaway": "一度はユニフォームを脱ぐ危機を味わった選手が、新天地で見事に花を咲かせる姿は胸を打つものがあります。",
+          "is_new": true
+        },
         {
           "title": "「社会人すべてに当てはまる」中日・工藤新監督、ミーティングの“名言”大反響で100万再生突破！ ネット共感「息子に見せます」「全てに通じる思考」「令和版の落合監督」：中日スポーツ・東京中日スポーツ",
           "source": "中日新聞Web",
@@ -18,29 +34,13 @@
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yLS1pRVg2M0RkOXNhN2lEamtLWVByZDhkZDNub2kydzktQlhqYmQ2NU42R21HT0lvT2Y5ZEhEd09rbml6X2wzOHMzWVo2QnN2NEJYNw?oc=5",
           "sub_tag": "🐉 中日ドラゴンズ",
           "sub_type": "team",
-          "headline": "工藤新監督のミーティング名言が100万再生突破",
+          "headline": "工藤新監督のミーティング名言が100万再生",
           "points": [
-            "中日・工藤新監督のミーティングでの言葉がネット上で大きな反響を呼び、100万回再生を突破した。",
-            "「社会人すべてに当てはまる」「令和版の落合監督」など、多くの共感や絶賛の声が広がっている。",
-            "指導者の言葉選びや哲学がいかにファンの心を掴むかを示す、プロ野球における新たな注目トピックとなっている。"
+            "中日の工藤新監督が実施したミーティングでの言葉が、社会人すべてに通じる名言として大きな反響を呼んでいる。",
+            "ネット上では共感の声が相次ぎ、動画の再生回数が100万回を突破するなど社会的な注目を集めている。",
+            "卓越した指導者の言葉は、野球ファンだけでなく組織に属する多くの人々の心を動かす力を持っている。"
           ],
-          "takeaway": "新監督の卓越した言葉の力やチームを引き締める求心力を感じられ、来季の戦いぶりへの期待が高まる見どころです。",
-          "is_new": true
-        },
-        {
-          "title": "『【 ゲスト／法元英明・中田宗男 第2話 】2026年 ドラフト総括「中日ドラゴンズの指名を本音で斬る！」』の動画が公開される！！！",
-          "source": "ドラ要素＠のもとけ",
-          "pub_date": "11/10 07:20",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBycHJrN0VqR05EaWNBQTZPOU1UdldYUUxjeUxFeHJaTVRyYXRhTG56WVRkWXNFN1RtMk1YdWRza1ZuR25ZOUJ3YV82M1RuVGoyaGl2QnJUSFo2QQ?oc=5",
-          "sub_tag": "🐉 中日ドラゴンズ",
-          "sub_type": "team",
-          "headline": "中日ドラゴンズの2026年ドラフト総括動画が公開",
-          "points": [
-            "法元英明氏と中田宗男氏をゲストに迎えた、2026年中日ドラゴンズのドラフト総括動画が新たに配信された。",
-            "球団の指名戦略や選手の評価について、専門的な視点から本音で斬り込む内容となっている。",
-            "プロ野球チームの編成の裏側やスカウトの狙いを深く知ることができる、ファン必見のコンテンツである。"
-          ],
-          "takeaway": "プロの鋭い分析を通じて未来の主力候補たちへの理解が深まり、チームの将来像を熱く語り合いたくなる面白さがあります。",
+          "takeaway": "野球の枠を超えてビジネスや日常の教訓としても響く指揮官の言葉に、チームの新しい求心力を感じます。",
           "is_new": true
         },
         {
@@ -50,29 +50,29 @@
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NcUl3QTBKanF4cE5lQlI0c0dSUE1ibzdmRnFkOVJ5RjFRdUFSR3VZTFR5QlJGT0hoZ29ISXRpLV83T1d2aEF2aFJwcUJRdGNvRWhaSV90azA?oc=5",
           "sub_tag": "🐉 中日ドラゴンズ",
           "sub_type": "team",
-          "headline": "工藤監督の“苦言”から広がった温かい光景が話題",
+          "headline": "工藤監督の苦言から生まれた23歳の温かい光景",
           "points": [
-            "中日の23歳選手に対し、工藤監督が「イジリ甲斐あるやん」とユーモアを交えつつも苦言を呈した。",
-            "その言葉をきっかけにチーム内で和やかな雰囲気が広がり、選手間の良好な関係性が垣間見える光景となった。",
-            "厳しさと優しさが同居するコミュニケーションを通じて、強い信頼関係で結ばれたチーム作りが進んでいる。"
+            "中日の23歳選手に対して工藤監督からユーモアを交えた苦言が飛び出し、周囲に微笑ましい光景が広がった。",
+            "監督と若手選手の間に生まれる良好なコミュニケーションが、チーム全体の明るい雰囲気を象徴している。",
+            "プロ野球の厳しさの中にもこうした人間味あふれるやり取りがあることが、チームの結束力を高めていく。"
           ],
-          "takeaway": "指揮官と若い選手たちの距離感やチーム内の温かい人間関係を垣間見ることができ、応援したくなる愛らしさがあります。",
+          "takeaway": "厳しくも愛情のある指揮官のイジりと、それに応える若手の関係性を見ているだけで応援したくなりますね。",
           "is_new": true
         },
         {
-          "title": "ドラゴンズの主砲･細川成也選手（28）6000万円アップの推定年俸1億9000万円で一発サイン 自己最多25本塁打 チームで唯一全試合出場など評価（CBCテレビ）",
-          "source": "Yahoo!ニュース",
-          "pub_date": "11/09 18:20",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14S25MQkZHQU16YjJzU2kxY3Y5eHVYTVRrRlZCYURUYVVzb0RFTG4yVUZKdWpTb3hXTUMyZEpVbTJBQmRlU0xkT2M2UUNVMGdnaVFuTklBR0h4WU5WSkFrWXJsbVpSUWtaSnFlb1dlTE5QcTM3WTJndWtONHRibVk?oc=5",
+          "title": "ドラゴンズの主砲･細川成也選手（28）6000万円アップの推定年俸1億9000万円で一発サイン 自己最多25本塁打 チームで唯一全試合出場など評価",
+          "source": "TBS NEWS DIG",
+          "pub_date": "11/09 18:41",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpeGwzSjczQ1RZSHA4X2N6eWhETjhNVGhLMjZObmRudENWbnkzaEZ0bHhWbzdiTkU1ZS1ELUR1MHhnS2ZiWC15M2JlbVNmYjdRMHN0WGMxYlNNQjlhWWFZ?oc=5",
           "sub_tag": "🐉 中日ドラゴンズ",
           "sub_type": "team",
-          "headline": "中日・細川成也が6000万円増の1億9000万円でサイン",
+          "headline": "中日の主砲・細川が1.9億円で一発サイン",
           "points": [
-            "中日の主砲である細川成也選手が、推定年俸1億9000万円（6000万円アップ）で契約を更改した。",
-            "今季は自己最多となる25本塁打を放ち、チームで唯一の全試合出場を果たした圧倒的な貢献度が評価された。",
-            "チームの主軸として長年引っ張る中心選手へと成長を遂げ、次季のさらなる飛躍にも大きな期待がかかっている。"
+            "中日の主砲である細川成也選手が、6000万円アップの推定年俸1億9000万円で契約を更改した。",
+            "今季は自己最多となる25本塁打を放ち、チームで唯一全試合に出場し続けた圧倒的な貢献度が評価された。",
+            "主軸としてチームを引っ張り続ける姿は、ファンの期待を一身に背負う頼もしいスラッガーの証である。"
           ],
-          "takeaway": "主砲としての重責を果たし続ける圧倒的なバッティングと、球団からの高い評価をストレートに実感できる爽快なニュースです。",
+          "takeaway": "全試合出場とキャリアハイの本塁打で勝ち取った大幅昇給は、チームの顔としてさらなる飛躍を予感させます。",
           "is_new": true
         },
         {
@@ -82,40 +82,40 @@
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBya3lKbEhvRkdzX09nRXZ3RTlDYkY3ZjNyeGxsRGNNNldYckd5ZF9xMEZWdnp6WVczUktsX2hva2N3bXJtY0t1SXUzVHMxakxxeTdXcjJWZ1JGYXhtZlE?oc=5",
           "sub_tag": "⚾ NPB全体トレンド",
           "sub_type": "league",
-          "headline": "JERAセ・リーグAWARD年間大賞に阪神・高橋遥人",
+          "headline": "阪神の高橋遥人がセ・リーグAWARD年間大賞",
           "points": [
-            "「JERAセ・リーグAWARD」の年間大賞に阪神の高橋遥人投手が見事選出された。",
-            "また、優れた活躍を見せた敢闘賞には巨人の田中瑛斗選手が選ばれる栄誉に浴した。",
-            "シーズンを通してセ・リーグを盛り上げた選手たちの功績が称えられ、ファンや関係者から祝福の声が寄せられている。"
+            "2026年11月10日の報道で、「JERAセ・リーグAWARD」の年間大賞に阪神の高橋遥人が選ばれた。",
+            "また、優れた活躍を見せた選手の敢闘賞として、巨人の田中瑛斗が選出される栄誉に浴した。",
+            "シーズンを通してチームの勝利に貢献し続けた選手たちの功績が、公式の場でしっかりと称えられている。"
           ],
-          "takeaway": "過酷なシーズンを戦い抜いた選手たちの栄誉ある受賞シーンから、プロ野球の激しい競争と感動のドラマを味わえます。",
+          "takeaway": "数々の激闘が繰り広げられたセ・リーグの中で、特に強烈なインパクトを残した選手たちの表彰は感慨深いです。",
           "is_new": true
         },
         {
-          "title": "2桁勝利の武内夏暉に鈴木豪太ら強力リリーフ陣も　アジアプロ野球チャンピオンシップ2026【パ・投手編】",
-          "source": "パ・リーグ.com",
-          "pub_date": "11/10 09:00",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8wc215S0o3XzNZbGcyeGdhU3R1bWdUZEJCbDNyWEdCRnhxTVUxcVd3SWR6VFBZMEF4YjlIc29aX1RFRU4xVF9WR2FVV2tqM1FsdWtyTm4wTdIBUkFVX3lxTE9LSUZWb2RDZkRyYjI1Qkd5Y1lvTF9qY2QwUjRnbEMxVmFQbGJwa2oyeEtVcVN3Wm1UZVRncFFaMWlrRXJoUVdlblRnb2JFZkhFSkE?oc=5",
+          "title": "【獲得調査相関図】「FA宣言選手」15年ぶり２桁 最大の注目は床田、森下、坂倉の広島３選手",
+          "source": "日刊スポーツ",
+          "pub_date": "11/10 05:01",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeFY0enlDRHZENHV1Z3RHNkw2YURWVEJ5T0tOZWFyZGhOS29JY2JPZzFYanRXcWNodW81Tk0xcEIyUVhMWkMzQVZaMmVxU294UERhdXNiVHYtZWhwV25HcmF5X2VYTUt1dC1mWjdqTW9hNmRfQVdPVkh6cVNHVXNIRXBzU2xCV250OWt3MmNjMA?oc=5",
           "sub_tag": "⚾ NPB全体トレンド",
           "sub_type": "league",
-          "headline": "アジアプロ野球チャンピオンシップ2026のパ・投手陣に注目",
+          "headline": "FA宣言選手が15年ぶり2桁、広島の3選手に注目",
           "points": [
-            "アジアプロ野球チャンピオンシップ2026に向け、2桁勝利を挙げた武内夏暉や鈴木豪太ら強力リリーフ陣が紹介された。",
-            "パ・リーグを代表する若手有望株の投手たちが、国際舞台でどのような投球を見せるのか期待が集まっている。",
-            "アジアの頂点を争う国際大会において、日本代表投手陣の層の厚さと実力が勝敗を分ける最大の鍵となる。"
+            "フリーエージェント（FA）権を宣言した選手が15年ぶりに2桁に達し、各球団の動向に熱い視線が集まっている。",
+            "その中でも最大の注目を集めているのは、広島東洋カープの床田、森下、坂倉という主軸の3選手である。",
+            "プロ野球のオフシーズンにおける一大イベントであるFA市場は、戦力均衡や移籍のドラマを生む最大の醍醐味である。"
           ],
-          "takeaway": "日本の将来を担う若き投手たちが世界の舞台で強打者たちをねじ伏せる、国際試合ならではの緊迫感と凄さを堪能できます。",
+          "takeaway": "長年チームを支えてきた主力たちの動向は、来季の勢力図を大きく塗り替えるため目が離せないポイントです。",
           "is_new": true
         }
       ]
     },
     "jets": {
       "report": {
-        "analyzed_at": "11/10 12:01",
-        "title": "千葉ジェッツが佐賀戦制し連勝、大阪戦へ向け加速",
-        "summary": "直近1週間、千葉ジェッツは佐賀バルーナーズ戦を103-111で制すなど熱戦を展開。チームは連戦が続き、大阪エヴェッサ戦や「BOOST STICKER PROJECT」等の情報も発信され、Bリーグ全体の熱気も高まっています。",
-        "key_players": "富樫勇樹の安定したプレーや、待望のBリーグデビュー戦で攻守に活躍を見せたブランドン・ランドルフがチームを牽引。一方、金近廉選手の負傷離脱という痛手もあり、今後の選手起用が注目されます。",
-        "outlook": "11月10日の大阪エヴェッサ戦（ららアリーナ）に向けた準備が進行中。Bプレミアを見据えた熱い戦いが続く中、負傷者の状況や新戦力の融合、Bリーグ全体の育成年代の動向からも目が離せません。"
+        "analyzed_at": "11/10 12:35",
+        "title": "千葉ジェッツが佐賀戦制し連勝、新戦力も躍動",
+        "summary": "千葉ジェッツは佐賀バルーナーズとの撃ち合いを111-103で制し、直近も好調な試合展開を見せている。また、シーズンに向けたBOOST STICKER PROJECTの開催や次戦の大阪エヴェッサ戦に向けた情報も発表され、盛り上がりを見せている。",
+        "key_players": "富樫勇樹が攻守でチームを牽引し、待望のBリーグデビューを果たしたブランドン・ランドルフがプレーメーカーとして攻守に渡り活躍。一方、金近廉選手の負傷離脱や、原修太のSPトークなどもファンの注目を集めた。",
+        "outlook": "11月10日にはホーム・ららアリーナでの大阪エヴェッサ戦が控え、6TH MAN CLUB DAYとしてファン必見の一戦となる。Bリーグ全体でもU18チャンピオンシップやロスター変更など動きがあり、今後の上位争いから目が離せない。"
       },
       "news": [
         {
@@ -128,10 +128,10 @@
           "headline": "千葉ジェッツ対大阪エヴェッサ戦開催",
           "points": [
             "2026-27シーズンのResona Group B.LEAGUEにおける千葉ジェッツと大阪エヴェッサの試合情報が発表された。",
-            "両チームの激しい攻防が予想される注目の対戦カードとして、多くのバスケットボールファンから期待を集めている。",
-            "Bリーグは日本全国で地域密着型の熱狂を生み出しており、アリーナ観戦は圧倒的な臨場感とエンタメ性が魅力のスポーツである。"
+            "両チームの激しい対戦が予定されており、Bリーグファン必見のカードとして注目を集めている。",
+            "国内最高峰のプロバスケットボールリーグであるBリーグにおいて、各チームの戦術的な駆け引きが勝敗を分ける。"
           ],
-          "takeaway": "スピード感あふれる展開と迫力満点のプレーが生み出す、Bリーグならではの熱気とアリーナの一体感を現地で体感しよう。",
+          "takeaway": "瞬時に展開が変わるスピーディーなパス回しと、ゴール下での激しい攻防が生み出す熱気はバスケットボール最大の魅力です。",
           "is_new": true
         },
         {
@@ -141,13 +141,13 @@
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUcFVOQlZ2QWJad2tMX3F1YmhlUkV3SEVfS2JTYlRVWjRSMVk4WEtVZnM2bjdFT043RjAyLWRkLU1yaEhKVFlYb0JfdE80RVZVZWZZ?oc=5",
           "sub_tag": "✈️ 千葉ジェッツ",
           "sub_type": "team",
-          "headline": "2026-27もステッカープロジェクト開催",
+          "headline": "BOOST STICKER PROJECT開催",
           "points": [
-            "千葉ジェッツは2026-27シーズンも「BOOST STICKER PROJECT」の開催を決定し、対象者へのオリジナルステッカープレゼントを発表した。",
-            "チームとブースター（ファン）の絆を深めるための継続的な企画として、毎シーズン多くのファンに親しまれている。",
-            "クラブとサポーターが一体となってチームを応援する文化は、プロスポーツにおけるアットホームで熱いコミュニティ形成の象徴である。"
+            "2026-27シーズンも継続して「BOOST STICKER PROJECT」の開催が決定し、対象者へのオリジナルステッカープレゼントが発表された。",
+            "チームとファンを繋ぐ企画として、毎シーズンの恒例イベントになりつつある重要な取り組みとなっている。",
+            "こうした地域密着型のファンサービスは、チームへの愛着を深め、会場全体の一体感を高める大きな原動力となる。"
           ],
-          "takeaway": "限定ステッカーを手に入れて、日常生活でも千葉ジェッツへの愛をアピールしながらチームの勝利を全力でブーストしよう。",
+          "takeaway": "チームの象徴となる限定グッズを身にまとい、アリーナの仲間たちと共に熱く応援する一体感は現地観戦ならではの醍醐味です。",
           "is_new": true
         },
         {
@@ -157,13 +157,13 @@
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YWG00M1haXzhEdVJQSUlKUHBLM2hjMzJWQmhfYjhyT2FkdTJlN3Y0bDRGd3F3QmR2d2JwYjYtMF81WjBTeFVHUUo2NHBVaEtZVHRpYjBn?oc=5",
           "sub_tag": "✈️ 千葉ジェッツ",
           "sub_type": "team",
-          "headline": "千葉ジェッツが佐賀を破り111得点",
+          "headline": "千葉ジェッツが佐賀を下し勝利",
           "points": [
-            "Bリーグプレミアの試合で、佐賀バルーナーズの反撃を振り切った千葉ジェッツが111対103で勝利を収めた。",
-            "敗れた佐賀バルーナーズはこの結果により悔しい8連敗となり、巻き返しに向けたチームの立て直しが急務となっている。",
-            "バスケットボールはわずか数秒で形勢が逆転するスピーディーな競技であり、高得点が飛び交う攻撃的な展開が醍醐味である。"
+            "Bリーグプレミアの試合で千葉ジェッツが佐賀バルーナーズを111対103で破り、勝利を収めた。",
+            "佐賀バルーナーズは終盤まで反撃を試みたものの及ばず、これで痛い8連敗となった。",
+            "両チーム合わせて210得点を超える激しいオフェンス戦が展開され、会場を大いに沸かせた。"
           ],
-          "takeaway": "両チームあわせて200得点を超える激しい撃ち合いを制した千葉ジェッツの攻撃力と、最後まで諦めない佐賀の粘り強さに注目だ。",
+          "takeaway": "わずか24秒以内にシュートを打たなければならない高速なルールが生む、息もつかせぬハイスコアな展開はバスケ初心者をも釘付けにします。",
           "is_new": true
         },
         {
@@ -173,13 +173,13 @@
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrejRCblI3eU0yNk8wemg3V3JMVDh4OGw3SHR4UUpZcS1PWUFIVlFwYURRTzA2MkdfYzdaRFRzR0ZlYmtoVGZ2cEg4VFZVNktOV3BmVV9pTlByLWhZc1BibDBZX0hWTkk?oc=5",
           "sub_tag": "✈️ 千葉ジェッツ",
           "sub_type": "team",
-          "headline": "11月10日にららアリーナで試合開催",
+          "headline": "11/10大阪戦のタイムスケジュール公開",
           "points": [
-            "11月10日19:05から、ららアリーナにて千葉ジェッツ対大阪エヴェッサの試合が開催されることが案内された。",
+            "11月10日19:05から、ららアリーナにて千葉ジェッツ対大阪エヴェッサ戦が開催される。",
             "当日は6TH MAN CLUB DAYとして実施され、一般入場は16:30、試合終了は21:00頃が予定されている。",
-            "南船橋駅を通る京葉線の最終電車の時刻まで記載されており、観戦者が安心して会場に足を運べるような配慮がなされている。"
+            "来場者向けに南船橋駅を発着する京葉線の最終電車の時刻など、アクセスに関する重要な情報も案内されている。"
           ],
-          "takeaway": "最新鋭のアリーナで開催されるナイトゲームの熱気を存分に味わい、アクセスのスケジュールも確認して快適に観戦を楽しもう。",
+          "takeaway": "試合前後のイベントやアリーナグルメを含め、エンターテインメントとして一日中満喫できるBリーグの会場体験を味わい尽くしましょう。",
           "is_new": true
         },
         {
@@ -189,13 +189,13 @@
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15c1BlN2E3UmhBYjhYLTIzZm85OGtJTklYMXdCRTBESGN6Uzk4UHFwWUNvNjJjVXhTdktRUHllZlhZajhOTFJyd1dCNm0yVXBMMFA4Z3pn?oc=5",
           "sub_tag": "🏀 Bリーグ全体トレンド",
           "sub_type": "league",
-          "headline": "キングスU18が選手権大会に出場",
+          "headline": "キングスU18が選手権大会へ出場",
           "points": [
-            "琉球ゴールデンキングスU18が、「インフロニア B.LEAGUE U18 CHAMPIONSHIP 2026」への出場決定を発表した。",
-            "次世代を担うユース世代の育成と日本バスケットボール界全体のレベルアップに直結する重要な公式大会である。",
-            "Bリーグではトップチームだけでなく育成組織の強化にも力を入れており、未来のスター選手を発掘する楽しみがある。"
+            "琉球ゴールデンキングスU18が「インフロニア B.LEAGUE U18 CHAMPIONSHIP 2026」への出場を発表した。",
+            "Bリーグの将来を担うユース世代のトップチームが集結し、日本一の座を賭けて熱戦を繰り広げる大会である。",
+            "育成組織の充実は日本のバスケットボール界全体の競技力向上において極めて重要な役割を果たしている。"
           ],
-          "takeaway": "将来の日本代表やBリーグの主役を目指す若き才能たちが、大舞台でどのような躍動を見せてくれるのか未来への期待が高まる。",
+          "takeaway": "未来の日本代表やスーパースター候補生たちが全身全霊で挑む、若さ溢れるアグレッシブなプレーの数々は胸を打つ感動があります。",
           "is_new": true
         },
         {
@@ -207,24 +207,40 @@
           "sub_type": "league",
           "headline": "福岡がナイジェル・スパイクスと契約解除",
           "points": [
-            "Bリーグの福岡が、ナイジェル・スパイクス選手との選手契約を解除したことを公式発表した。",
-            "同選手はここまで14試合に出場し、平均4.4得点、6.8リバウンドの成績を残していたチームのインサイドを支える存在だった。",
-            "プロスポーツの世界ではチーム戦術や状況の変化に伴い、シーズン中のロスター変更がチームの命運を分ける重要な要素となる。"
+            "Bリーグの福岡がナイジェル・スパイクス選手との選手契約を解除したと発表した。",
+            "スパイクス選手は今季14試合に出場し、平均4.4得点、6.8リバウンドの成績を残していた。",
+            "シーズン途中のロスター変更はチームの戦術や今後の順位争いに大きな影響を与えるため、各クラブの動向に注目が集まる。"
           ],
-          "takeaway": "シーズン途中の厳しい決断を経た福岡が、ここからどのようにチーム体制を立て直し、次なる戦いに挑むのか目が離せない。",
+          "takeaway": "チームが勝利を掴むために選手個々の持ち味やケミストリーをどう最適化していくか、プロスポーツのシビアな編成の裏側が垣間見えます。",
           "is_new": true
         }
       ]
     },
     "motorsport": {
       "report": {
-        "analyzed_at": "11/10 12:01",
-        "title": "F1サンパウロGP激闘とWEC最終戦、MotoGPカタールGPの動向",
-        "summary": "直近1週間はF1サンパウロGPでメルセデスが王者を決定し、フェルスタッペンが21番手から2位表彰台を獲得。WECでは日本人ドライバーのタイトル挑戦があり、MotoGPカタールGPではベッツェッキが今季6勝目を挙げた。",
-        "key_players": "F1では驚異の追い上げを見せたフェルスタッペンやピアストリとウェバー夫妻の契約終了が話題に。MotoGPではベッツェッキの独走優勝や小椋藍の奮闘、WECでは小林可夢偉と平川亮のタイトルへ向けた戦いが注目された。",
-        "outlook": "F1におけるメルセデスのコンストラクターズ王座決定後の各チームの動向や、アルゼンチンのF1復帰計画・サンパウロGP契約延長など、来季に向けたカレンダーやドライバー移籍の動きからも目が離せない。"
+        "analyzed_at": "11/10 12:35",
+        "title": "F1ブラジルGP激闘、WEC最終戦、MotoGPカタール詳報",
+        "summary": "F1サンパウロGPではノリスがPPを獲得しフェルスタッペンが21番手から2位表彰台へ。WEC最終戦モンツァではキャデラックが今季初勝利を挙げ、MotoGPカタールGPではベッツェッキが今季6勝目を飾るなど、主要モータースポーツで熱戦が展開された。",
+        "key_players": "F1で驚異の追い上げを見せたフェルスタッペンやPPのノリス、WECでタイトルに挑んだ小林可夢偉と平川亮、MotoGPカタールで独走優勝のベッツェッキ、惜しくも表彰台を逃した小椋藍らがそれぞれの舞台で存在感を示した。",
+        "outlook": "F1ではアルゼンチンの復帰計画やサンパウロGPの2035年までの契約延長など将来のトピックも浮上。各カテゴリーのシーズン終盤戦における残留争いや次季に向けたドライバー・チーム体制の動きから目が離せない。"
       },
       "news": [
+        {
+          "title": "WEC最終戦「モンツァ6時間」でキャデラックが今季初勝利「フェラーリ499Pは51号車が3位表彰台」【動画】（MotorFan）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 08:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlUWUwanpORjUzclVHNFBKWm5KWWs2SE9aMVJKSWRrVG5rNTZlb08xejVkeDJUckxLWU9GeXJCajBiWmZ2QlJMSjFYNXlHcWpoNUFKdjNSTVRaVHROYnlyMHFNNWZGNng0R1FUbjc4ZXc2bHNyLXJINXp1enk1cEU?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "キャデラックがWEC最終戦で今季初勝利",
+          "points": [
+            "WEC最終戦モンツァ6時間レースにおいて、キャデラックが激戦を制して今季初勝利を飾った。",
+            "地元メーカーであるフェラーリの499P 51号車が3位表彰台を獲得し、観客を大いに沸かせた。",
+            "世界最高峰の耐久レースでは、長時間の過酷な走行と戦略が勝敗を分ける重要な要素となる。"
+          ],
+          "takeaway": "過酷な耐久レースを戦い抜いたマシンたちが魅せる、最後まで予測不能なドラマチックな結戦を楽しめる。",
+          "is_new": true
+        },
         {
           "title": "【MotoGP】今季6勝目のベッツェッキ、カタールGPの独走に「良い仕事ができた」タイトル争いほぼ脱落もシーズンには満足",
           "source": "Yahoo!ニュース",
@@ -232,13 +248,13 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PTlZkTnFSM0JKQ0w3QldzUGd1WUNMaEYtX052bFk1WjNIWVdVZi1FZGNnQUhmbnY5UElQbV92WUNudkM2MUk1R3g4THFOVTZBTXpzN3RhTV9wbmpCSUhXbGNWN1d4dk9zaWNUQzNUMm5vVFcxendvUG1hY19LNm8?oc=5",
           "sub_tag": "🏍️ MotoGP",
           "sub_type": "normal",
-          "headline": "ベッツェッキがカタールGP独走勝利",
+          "headline": "ベッツェッキがカタールGPで今季6勝目",
           "points": [
-            "カタールGPを制して今季6勝目を挙げ、独走の走りで素晴らしい仕事ができたと振り返った。",
-            "タイトル争いからはほぼ脱落している状況ではあるものの、今シーズンの戦いぶり自体には満足している。",
-            "MotoGPは最高峰の二輪ロードレースであり、最高時速350km超で競う圧倒的なスピードと激しい順位争いが魅力。"
+            "MotoGPカタールGPにてベッツェッキが圧倒的な走りで独走勝利を飾り、今季6勝目をマークした。",
+            "タイトル争いからはほぼ脱落しているものの、自身のパフォーマンスとシーズン全体の成果に満足感を示した。",
+            "二輪最高峰のMotoGPでは、ライダーの卓越した技術とマシンのセッティングが勝利の鍵を握る。"
           ],
-          "takeaway": "チャンピオン争いの行方だけでなく、ライダー個人のシーズン集大成としての勝利へのこだわりを見逃すな。",
+          "takeaway": "時速300km超の世界で繰り広げられる極限のコーナリングと、ライダーたちのプライドをかけた熱いバトルが見どころ。",
           "is_new": true
         },
         {
@@ -248,13 +264,13 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XT2J0MmdzT3JfTlp5dTNXU3VCejkwbGJtVkM1VmYxNzBYdVFjNlI1UWQ5ZGdLdkpPbnByVUg4ZkQwN3l4Xzh6dlgxemlnckpoVUg2TjJJLWJrRDRLZGJKaEJrTmpaUmo0RnVOeGtaYU5jRGRaeHg0S2hnZ0p5Y28?oc=5",
           "sub_tag": "🏎️ F1",
           "sub_type": "normal",
-          "headline": "アルゼンチンにF1復帰の動き、ブラジルは長期契約",
+          "headline": "アルゼンチンがF1復帰へ向け巨額改修計画",
           "points": [
-            "アルゼンチンがF1復帰を目指して約317億円をかけたサーキットの改修計画を進めていることが明らかになった。",
-            "南米の伝統的な開催地であるサンパウロGPは、2035年までF1との開催契約を延長することが決定した。",
-            "F1は世界最高峰のモータースポーツであり、世界各地の巨大なサーキットで行われる国家的ビッグイベント。"
+            "アルゼンチンがF1開催復帰を目指し、約317億円を投じたサーキットの大規模改修計画を進めている。",
+            "一方でサンパウロGPはF1との開催契約を2035年まで長期延長し、南米でのF1熱は依然として高い。",
+            "モータースポーツの最高峰であるF1は、世界各国で巨額の経済効果をもたらす巨大エンターテインメントである。"
           ],
-          "takeaway": "カレンダーの拡大や歴史あるサーキットの契約延長など、サーキットの内外で進むF1のグローバルな動向に注目。",
+          "takeaway": "世界中を巡るF1カレンダーの裏側で動く、壮大な国家プロジェクトや長期的な開催契約のニュースを楽しめる。",
           "is_new": true
         },
         {
@@ -264,13 +280,13 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XeTZwWUhwRGFRTENzQ1hrN0hoZWhnWUFQWS1sd2g2ZkRtOXd5V0hRSmlLWW8xUlBuVGNuZTR3TFIycUtBOFQ3VHdLWmhnX3NXNlZPb3BsMUNDamN4Y21paUY2bzBUTW5iSEVUdFo3Wm9VYkJvY1dnVzVNVDRPTzQ?oc=5",
           "sub_tag": "🏎️ F1",
           "sub_type": "normal",
-          "headline": "ピアストリが恩師ウェバー夫妻と契約終了",
+          "headline": "ピアストリが恩師ウェバー夫妻との契約終了",
           "points": [
             "F1ドライバーのオスカー・ピアストリが、約7年間にわたり関係を築いてきた恩師ウェバー夫妻との契約を終了した。",
-            "F1デビューまでを二人三脚で支え続けた名マネジメントコンビが別々の道を歩むことになり、新体制に注目が集まる。",
-            "F1ではドライバーのマネジメントや契約関係がキャリアの大きな転換点となるため、移籍や体制変更のニュースが重要視される。"
+            "F1デビューへの道筋を二人三脚で支え続けた名マネジメントコンビが、電撃的に別々の道を歩むことになった。",
+            "ドライバーのキャリアマネジメントや契約更改は、F1界の勢力図や移籍市場に大きな影響を与える。"
           ],
-          "takeaway": "才能ある若手ドライバーのキャリアを支える裏方の体制変化が、今後の去就やパフォーマンスにどう影響するか要注目。",
+          "takeaway": "若手スターのキャリアを支える人間ドラマと、トップアスリートを取り巻くマネジメントの裏側に迫ることができる。",
           "is_new": true
         },
         {
@@ -280,29 +296,13 @@
           "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5FZnAwMWJkY0JySDdwendQWWQwbmlJQjVydmNkU2dWajdmZnZEOHFMZ2NDSElHVk5ORmNsOHdEVVNUazh1bEFZ?oc=5",
           "sub_tag": "🏎️ F1",
           "sub_type": "normal",
-          "headline": "フェルスタッペンが21番手から猛追2位表彰台",
+          "headline": "フェルスタッペンが21番手から驚異の2位表彰台",
           "points": [
-            "21番手という後方グリッドからのスタートながら見事な追い上げを見せ、2位表彰台を獲得する大活躍を見せた。",
-            "レース中盤には一時マシンのバランスが崩れてトップのノリスを追うことができなかったものの、激しい追い上げを楽しんだ。",
-            "モータースポーツの最高峰F1では、後方からの劇的な順位アップやドライバーのテクニックが勝敗を分ける大きな見どころ。"
+            "フェルスタッペンが後方21番手スタートという絶望的な状況から見事な追い上げを見せ、2位表彰台を獲得した。",
+            "レース中は一時マシンのバランスに苦しみながらも、トップを走るノリスを懸命に追いかける展開となった。",
+            "チームメイトのハジャーも共に表彰台に上がり、チームにとって素晴らしいダブル表彰台達成となった。"
           ],
-          "takeaway": "圧倒的な後方からの追い上げ劇と、マシンを限界までコントロールするトップドライバーの技術の高さに酔いしれよう。",
-          "is_new": true
-        },
-        {
-          "title": "【F1サンパウロGP】ホンダPUのアロンソ、12位も「かなり競争力があった」と評価 メルセデスがコンストラクターズ王者を決定",
-          "source": "Yahoo!ニュース",
-          "pub_date": "11/09 12:48",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qTHQ0aWRvZHpuVElmM0pHYnZsS1NSV192TE14UzFoRUduZDJvcjgxNEVsZWlNakpiamFUcGdiWUJPU09NcDZSMjhSSzNEY3Mxa3dQX1kwQUdRZXhJOFZUOG1JbTF4X1E4MjNMU1M2UFBIemlsV0h5b05tRm9mRTQ?oc=5",
-          "sub_tag": "🏎️ F1",
-          "sub_type": "normal",
-          "headline": "アロンソが競争力を実感、メルセデスが王者に",
-          "points": [
-            "ホンダ製パワーユニットを搭載するマシンを駆るアロンソが12位でフィニッシュし、内容に手応えを示した。",
-            "サンパウロGPではメルセデスがコンストラクターズ選手権の王者を決定するという重要な節目のレースとなった。",
-            "F1のコンストラクターズ部門は自動車メーカーの技術と総合力がぶつかり合う舞台であり、チーム全体の栄誉を懸けて戦う。"
-          ],
-          "takeaway": "個人タイトルだけでなく、メーカーの威信をかけたコンストラクターズ王座争いの決着やマシンの進化を見届けよう。",
+          "takeaway": "後方グリッドからの凄まじい追い上げ劇や、マシンの限界に挑むドライバーたちの圧倒的なドライビングテクニックを堪能できる。",
           "is_new": true
         },
         {
@@ -312,56 +312,72 @@
           "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ELUxuVGVkYlBUUG13dXJhUUVpR3dJSVhaUDFjTnI4alZ6RFFTZ1Z0NzZUQlk3dkJqaXlDdXlWa09HWlBZenlZZEhn?oc=5",
           "sub_tag": "🏍️ MotoGP",
           "sub_type": "normal",
-          "headline": "小椋藍がカタールGPで健闘も悔しい結果に",
+          "headline": "小椋藍がカタールGPで表彰台あと一歩の健闘",
           "points": [
-            "第20戦カタールGPに臨んだ小椋藍は表彰台まであと一歩に迫りながらも、惜しくも上位争いを逃した。",
-            "レース序盤に思うようにペースを上げられなかったことを反省し、自身の立ち回りに改善の余地があったと振り返った。",
-            "二輪モータースポーツの世界選手権では、スタート直後の展開や序盤のペース配分がレース全体の勝敗を大きく左右する。"
+            "MotoGP第20戦カタールGPにおいて、小椋藍は表彰台まであと一歩に迫る力強い走りを見せた。",
+            "しかし、レース序盤に思うようにペースを上げられなかったことを悔やみ、今後の改善を誓った。",
+            "世界のトップライダーたちが競い合う二輪レースでは、序盤のポジション取りとタイヤ管理が極めて重要となる。"
           ],
-          "takeaway": "日本期待のライダーが厳しい世界最高峰の舞台でいかに成長し、表彰台を掴み取るかの戦いから目が離せない。",
+          "takeaway": "世界の頂点を目指して戦う日本人ライダーのリアルな悔しさと、次戦への成長を感じさせる熱い戦いぶりに注目。",
           "is_new": true
         }
       ]
     },
     "world": {
       "report": {
-        "analyzed_at": "11/10 12:02",
-        "title": "世界のメジャースポーツ＆地域熱狂競技1週間総括",
-        "summary": "パリ・マスターズ制覇のアルカラスやSVリーグのKUROBE躍進、MLBの動向に加え、豪州AFLWのゴール・オブ・ザ・イヤー最終候補発表など、世界と地域の多様な競技が熱い盛り上がりを見せた1週間でした。",
-        "key_players": "USオープン敗退の雪辱を果たしパリ初優勝を遂げたアルカラスや、来春の次戦が注目される井上尚弥、またMLB主催イベントで競演した藤浪晋太郎らの活躍がファンの視線を集めました。",
-        "outlook": "井上尚弥の次戦の行方やMLB各球団の動向に加え、欧州サッカーや国内バレーボールSVリーグの順位争い、さらには豪州オージーボールなどの地域密着型スポーツの展開からも目が離せません。"
+        "analyzed_at": "11/10 12:35",
+        "title": "直近1週間の世界スポーツ総括：多様な競技で熱戦",
+        "summary": "直近1週間は世界各地の多彩な競技で熱戦が繰り広げられました。サッカー欧州CLや国内リーグ、MLBイベント、UFCなど格闘技、オージーボール、テニスやバレーボールなど、幅広い競技で注目すべきトピックが相次ぎました。",
+        "key_players": "ボクシングの中谷潤人は来年2月のカルデナス戦へ向け視界良好。バスケではオースティン・リーブスが通算5回目の40得点超えを達成。サッカーでは久保建英が3試合ぶりの先発復帰を果たし、藤浪晋太郎はMLB主催のホームラン競争イベントで快音を響かせました。",
+        "outlook": "今後は井上尚弥のベルト返上動向に伴う中谷潤人のタイトル戦の可能性や、SVリーグ女子の首位争い、MLBの去就関連の動きが注目されます。世界各国の多様な競技シーンから目が離せない状況が続きます。"
       },
       "news": [
         {
-          "title": "2026年AFLW年間最優秀ゴール・ファイナリスト発表",
+          "title": "2026年コールズAFLW年間最優秀ゴール・ファイナリスト発表",
           "source": "afl.com.au",
           "pub_date": "11/10 08:40",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQUh5RzVhdTJLZEVhUkxXLURvZGppZzJnbXgtclpTajNENkRWOFF6WHVDMWFETU4xbkpXREU0TV9lUGJfNDNNRGs1SWRVejcxOXhMckZIZTBhLTRIVkJiSHI5OTBhYTBfc3MzeFNpSG9WME1Vbkk0al9yaFJWQ0VuV2NjNnZ5MXY4RjY0WWZyNkJ4LUFKVGc?oc=5",
           "sub_tag": "🌏 地域熱狂：オージーボール(豪州)",
           "sub_type": "unique",
-          "headline": "豪州国技AFLWの年間最高ゴールが決定へ",
+          "headline": "オージーボール女子の年間最優秀ゴール候補選出",
           "points": [
-            "オーストラリアで観客動員数No.1を誇る巨大な楕円形フィールドで行われるAFLWの年間最優秀ゴール候補が出揃った。",
-            "空中戦と強烈なタックルが交錯する激しい競技の中で、選手たちが魅せた卓越したテクニックとシュートシーンが選出された。",
-            "オージーボールは広大な専用グラウンドを舞台に、驚異的な跳躍力と正確なキックで得点を競い合う豪州最大の国民的スポーツである。"
+            "オーストラリアで観客動員数No.1を誇る国技AFLの女性リーグにおける年間最優秀ゴールファイナリストが発表された。",
+            "巨大な楕円形のフィールドで繰り広げられる空中戦や、ゴールポスト間を通す華麗なキック技術が評価の対象となっている。",
+            "オージーボールは激しいタックルと卓越したキック精度が融合した豪州熱狂のスポーツで、観客を魅了し続けている。"
           ],
-          "takeaway": "広大なピッチで繰り広げられる空中戦の迫力と、選手たちの超人的な身体能力が生み出す華麗なスーパーゴールを見逃すな。",
+          "takeaway": "広大なピッチで繰り広げられる迫力の空中戦と、一瞬のスキを突いてゴールを奪う高度なキックの技術に注目せよ。",
           "is_new": true
         },
         {
-          "title": "USオープン準々決勝で敗れたシェルトンに雪辱したアルカラスが大会初優勝「ずっと追い求めていた」 [パリ・マスターズ／テニス]",
-          "source": "Yahoo!ニュース",
-          "pub_date": "11/09 18:10",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZURJOUdlSGVTaDhqU05FdFpXd1FQTXJZbU1hcktfUGJUc2M5ejM5MDVZbXVWQlJwNkV0dkdEcFE5ZDJOb1g0NFZqdC1rS0tHV29JRm96enRxLWQ1Z0Z4U3FNemNUNmtBX0RfTktJb0xhWGJhLTZvc3V1Z3hqNmhwSFZxVmtmZVJJME85bk1n?oc=5",
+          "title": "中谷潤人　来年２月にカルデナスと激突…井上尚弥がベルト返上なら「タイトル戦の可能性」",
+          "source": "Infoseek",
+          "pub_date": "11/10 11:52",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fUXF1VHYzOHRKZkZLZC04R2c1d04tSDdXemlMLUpvUzBKUFkzbmluSnRkXzI0MmFNT0NBQkFlNGcyX2plcmFQdkRrNHFUWXRzTHk0bWt5cUdhNXM0V19iZTRzbGpmVWJ2TGhNUnhPVdIBdEFVX3lxTE9seXk4NTBXZmFHdEIyWVgwdkpLc1JHUUpzYXBLUG1vbDJBWThMQ0h4LVZud0dfQ2ZQYmNlTW9hUUd4eHB6UHdaanR1T2lXWHpTSEk1Sm5MQ1kwYXhFR2ltc0dLNTdzc2VxbXptLUpkaDgxV0E2?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "中谷潤人が来年2月にカルデナスと対戦へ",
+          "points": [
+            "ボクシングの中谷潤人が来年2月にカルデナスと対戦することが決まり、大きな注目を集めている。",
+            "井上尚弥が王座ベルトを返上した場合、この一戦がタイトルマッチに発展する可能性が浮上している。",
+            "世界最高峰のリングで戦う実力者たちの動向は、今後の階級勢力図を大きく塗り替える重要な分岐点となる。"
+          ],
+          "takeaway": "井上尚弥の動向とも連動する次世代の主役・中谷潤人の次戦は、ボクシングファン必見の最高峰の攻防戦となる。",
+          "is_new": true
+        },
+        {
+          "title": "マガ・リネットに敗北、ジャニス・ジェン WTA 250チェンナイオープン2026準優勝",
+          "source": "VOI.ID",
+          "pub_date": "11/09 22:00",
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyWmpoMDFYd1RDUlF0blN3czJYS1JvSkRrcEM1VW1zQmJlMDRYSDF0MGJiYURVeHluaUpYZXd6STZqV09xUXfSAUJBVV95cUxQV1BwdTg3LXlVZWw3djRFaDhkYW9TdDZnOGk1QlViN0FpbDBzNGdKandmaVgxZmd2T2JCazZtSlgtNUE?oc=5",
           "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
           "sub_type": "frontier",
-          "headline": "アルカラスがパリ・マスターズ初制覇",
+          "headline": "ジャニス・ジェンがWTAチェンナイオープンで準優勝",
           "points": [
-            "テニスのパリ・マスターズ決勝で、カルロス・アルカラスが過去に敗れたシェルトンへの雪辱を果たして大会初優勝を飾った。",
-            "試合後のインタビューでアルカラスは「ずっと追い求めていた」と悲願のタイトル獲得に対する強い喜びを語った。",
-            "世界最高峰の男子テニスツアーにおいて、若きスターがまた一つ歴史的なビッグタイトルをコレクションに加えた。"
+            "WTA 250チェンナイオープン2026の決勝戦で、ジャニス・ジェンはマガ・リネットに敗北を喫した。",
+            "激しいトーナメントを勝ち抜いた末の決勝進出であり、今大会で見せた躍進は大きな成果となった。",
+            "惜しくも優勝は逃したものの、強豪ひしめく国際大会で堂々の準優勝を果たし確かな存在感を示した。"
           ],
-          "takeaway": "ライバルへのリベンジを果たして掴んだ悲願の初優勝であり、トップを走り続ける若き王者の圧倒的な進化と執念に注目だ。",
+          "takeaway": "世界の舞台で激闘を勝ち抜き、最後まで全力を尽くして準優勝をつかみ取った選手の健闘と粘り強いプレーに拍手を送りたい。",
           "is_new": true
         },
         {
@@ -371,61 +387,45 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDWkRObFY5aWJOMFZGNDRLMklEYjJYUGgwR3Rhc1lyV25hWlVYNW1YRTNfR21rNV9YV3pOQ3p3RVBmSVdRMnU0YmxQVEhoX0dsMThNQ3JudU44VnQzV3hJXzIwbmZ6YVBnZi1xUW1KVXR6OHFzN3Nvek1XUW5TNWc?oc=5",
           "sub_tag": "🏉🏐 ラグビー・バレー",
           "sub_type": "frontier",
-          "headline": "KUROBEが埼玉上尾を下し首位キープ",
+          "headline": "KUROBEが埼玉上尾に2連勝で東地区単独首位キープ",
           "points": [
-            "バレーボールの新リーグ「SVリーグ女子」において、KUROBEアクアフェアリーズ富山が埼玉上尾に連勝を飾った。",
-            "この連勝により東地区の単独首位の座をしっかりとキープし、好調なチームの勢いを改めて印象づける結果となった。",
-            "富山県を本拠地とするチームの快進撃が、地元ファンの熱狂を生み出しながらリーグ戦を大いに盛り上げている。"
+            "バレーボールSVリーグ女子のKUROBEアクアフェアリーズ富山が、埼玉上尾を相手に連勝を飾った。",
+            "この重要な直接対決を制したことで、東地区の単独首位の座を見事にキープすることに成功した。",
+            "富山県を拠点とするチームの快進撃は、地元ファンの熱狂を呼び起こし、リーグ全体の勢力図を面白くしている。"
           ],
-          "takeaway": "新リーグの頂点を目指して快進撃を続けるチームの団結力と、白熱する東地区の首位争いから目が離せない。",
+          "takeaway": "粘り強い守備とチーム一丸となった組織力で強敵を撃破し、首位を走り続ける快進撃のチームから目が離せない。",
           "is_new": true
         },
         {
-          "title": "井上尚弥の来春次戦「何が起こるか分からない」大橋会長が意味深発言　バム戦かフェザー級転向か",
-          "source": "日刊スポーツ",
-          "pub_date": "11/09 18:05",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jeDBuNXhjVG5GNDVDTGhJR0tkUlR2bGlGWnNDdnc2LXFBTTlCWm1NU1h6Q2hoM2I1ZDh2WlFkTFRRYTF1cEpJLURLS2Fac0VtSlNrVTN2M1VnRm11NXRSd3lPLXRiTXhFZ2x0Vi03c2hNRXI3MUNIUmt5Y18xVkXSAX9BVV95cUxNY3gwbjV4Y1RuRjQ1Q0xoSUdLZFJUdmxpRlpzQ3Z3Ni1xQU05QlptTVNYekNoaDNiNWQ4dlpRZExUUWExdXBKSS1ES0thWnNFbUpTa1UzdjNVZ0ZtdTV0Und5Ty10Yk14RWdsdFYtN3NoTUVyNzFDSFJreWNfMVZF?oc=5",
-          "sub_tag": "🥊🥋 UFC・世界格闘技",
-          "sub_type": "frontier",
-          "headline": "井上尚弥の来春次戦巡り大橋会長が言及",
-          "points": [
-            "ボクシングの井上尚弥選手の来春に行われる次戦について、大橋会長が「何が起こるか分からない」と意味深な発言を残した。",
-            "ファンやメディアの間では、注目されるバム戦の実現か、あるいは階級を上げてのフェザー級転向か憶測が飛び交っている。",
-            "世界中の格闘技ファンが熱視線を送る中、ボクシング界のP4P最強ファイターの次なる挑戦の行方に大きな注目が集まっている。"
-          ],
-          "takeaway": "歴史的な快進撃を続けるモンスターの次戦がどのようなサプライズを伴うのか、今後の動向から一瞬たりとも目が離せない。",
-          "is_new": true
-        },
-        {
-          "title": "「契約の一部を負担するという…」ドジャース、驚愕の条件でレギュラー選手を放出する！？ 米メディアが衝撃予想「1年間だけ保有するには」（ベースボールチャンネル）",
+          "title": "織田翔希18歳「巨人入り」のサプライズはあるのか？ メジャー球団関係者「ロックアウト中は契約できないと聞いている」いまだ予測不可能な“MLB側の事情”（Number Web）",
           "source": "Yahoo!ニュース",
-          "pub_date": "11/10 07:02",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RQnE3QU92Z0l2SzVSNlB2cUpnUmh6dHgwV3VwbVgzeHZSZmVNOE15TW0wSGVnZ1dCU1VoSmY5Y0tuUFZHTVUydk5PSnQzWEdna2NWOG4xUnV6b1Y5YjZZV29YblA4T2pFLXhuWUxsR0ZVeGRBcXFCdXFRTnV3RXc?oc=5",
+          "pub_date": "11/10 06:01",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKRnhVTzk2N2hZZ3liaEgzWGhUZFZ1NGdUZ2RIQ3UtWS05TVRodmNaQ3pFelZ5dDhzUnJxZjBmZTlRMHNkTkVGVlZCYlh3Ry1pcy1tTGpCeGxuUTNmZ3BJeDM2MnpHZFlsS3ZQVnAxTTFaY1dZRWRBOTZuOVRYRHc?oc=5",
           "sub_tag": "⚾ MLB・米野球",
           "sub_type": "normal",
-          "headline": "ドジャースの衝撃的な放出予想が話題",
+          "headline": "織田翔希の巨人入りやMLB側の事情に高い関心",
           "points": [
-            "米メディアの間で、ドジャースがレギュラー選手を放出するにあたり驚愕の条件を検討しているとの衝撃的な予想が浮上した。",
-            "チームが契約の一部を負担するという異例の形を取ってまで、1年間だけ選手を保有する可能性について報じられている。",
-            "メジャーリーグのストーブリーグにおける大胆な補強戦略や、陣容整理の裏側に多くの野球ファンから関心が寄せられている。"
+            "18歳の織田翔希を巡り、巨人入りのサプライズがあるのかどうかについて様々な憶測が飛び交っている。",
+            "メジャーリーグ側の球団関係者からはロックアウト中の契約に関する複雑な事情が語られている。",
+            "今後の去就がいまだ予測不可能な状況にあり、日本のプロ野球界と米球界の双方から熱い視線が注がれている。"
           ],
-          "takeaway": "常に大型補強や電光石火のトレードで球界を揺るがすドジャースの、次なる驚きのチーム編成プランに注目が集まる。",
+          "takeaway": "若き才能の未来がどのように決まるのか、日本球界とMLBの複雑なルールや事情が絡み合う動向を慎重に見守りたい。",
           "is_new": true
         },
         {
-          "title": "レブロンの息子「君は1年であなたにどれだけ稼いでるの？」NBAの試合中に観客と衝突··· コーチ陣まで出て止めた",
-          "source": "스타뉴스",
-          "pub_date": "11/10 00:29",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpOWMzT0JsdEV5YThqcEhaUFNTVk43QmRJREdUeE5xcmJJN0FaR29GNzYyRlgxbWJfQVJBUEt6b0ZuY3ZiNUQzczhrY1UtS21SaGwxOVZ6dkQySzU4RE5VdDZ2ZVBIVHpKY0ROaWtwUGRCaHZ6RW41OC1R?oc=5",
+          "title": "オースティン・リーブスが通算5回目の40得点超え…ドラフト外では歴代3位タイ",
+          "source": "バスケットボールキング",
+          "pub_date": "11/09 19:11",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96SnNHX0FVdzBkSmZjVFlZUXJOcXdUUVhYMjd3eGNpeHc1MXUwZDRlRXByai14TkZmVW1sdUhURlZ4RThSV2o4a28xUE43WXY0QW1FRE9LcUcwM29oWllvYjY1Z1RuOXRt?oc=5",
           "sub_tag": "🏀 NBA・米バスケ",
           "sub_type": "normal",
-          "headline": "レブロンの息子がNBA観客と口論に",
+          "headline": "オースティン・リーブスが通算5度目の40得点超え",
           "points": [
-            "NBAの試合中、レブロン・ジェームズの息子が観客からの挑発を受けて言葉を交わし、一触即発の衝突に発展した。",
-            "事態の深刻化を防ぐため、ベンチのコーチ陣までが飛び出して両者を仲裁する異例のハプニングとなった。",
-            "世界最高峰のバスケットボールリーグであるNBAでは、コート外の観客と選手間でのトラブルがしばしば大きな話題となる。"
+            "オースティン・リーブスがキャリアで通算5回目となる40得点超えの圧巻のパフォーマンスを披露した。",
+            "この記録はNBAのドラフト外出身の選手としては歴代3位タイに並ぶ快挙であり、その価値は非常に高い。",
+            "NBAは世界最高峰のバスケットボールリーグであり、ドラフト外から這い上がる苦労人の活躍はファンの感動を呼ぶ。"
           ],
-          "takeaway": "スーパースターの二世が直面したピッチ外での緊迫の瞬間と、バスケットボールの本場ならではの熱すぎるアリーナの空気が伝わる。",
+          "takeaway": "ドラフト指名なしという逆境からスターダムへと駆け上がり、驚異的な得点力を発揮し続ける泥臭くも華麗なプレースタイルを堪能せよ。",
           "is_new": true
         }
       ]

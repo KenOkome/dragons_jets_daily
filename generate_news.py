@@ -22,6 +22,10 @@ from email.utils import parsedate_to_datetime
 from concurrent.futures import ThreadPoolExecutor
 
 # 日本時間 (JST)
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 JST = timezone(timedelta(hours=9))
 
 CATEGORIES = [
@@ -204,6 +208,7 @@ REGIONAL_UNIQUE_POOLS = [
 
 GEMINI_MODELS = [
     "gemini-flash-lite-latest",
+    "gemini-2.0-flash",
     "gemini-flash-latest"
 ]
 
@@ -307,8 +312,34 @@ def parse_pub_datetime(pub_date_str):
         except Exception:
             return None
 
+# ------------------------------------------------------------------------------
+# 煽り・飛ばし・ゴシップ記事（Ragebait）検知パターン（スポーツ特化）
+# ------------------------------------------------------------------------------
+# Layer 1: 完全即時除外（悪質コタツ・人格攻撃・記号連打・推量飛ばし構文）
+RAGEBAIT_HARD_PATTERNS = [
+    r"(?:ブチギレ|大炎上|ネット(?:騒然|炎上|激怒)|ファン(?:激怒|悲鳴)|批判殺到|悲報|呆れた声|物議を醸す|愚行|不満爆発|コメ欄大荒れ)",
+    r"(?:給料泥棒|不良債権|恥さらし|オワコン|戦犯扱い|泥沼の泥仕合)",
+    r"[!?！？]{2,}",  # ！？ や ！！ などの煽り記号連打
+    r"(?:電撃|緊急|確執|亀裂|造反|内紛|トレード|移籍|解任|退団|構想外|追放).*(?:か|へ|浮上|噂|可能性|か[!?！？])$",  # 責任逃れの推量構文
+    r"「[^」]+」.*(?:ファン|ネット|批判)?(?:激怒|落胆|絶望|殺到|呆れ)"  # 匿名の愚痴切り貼りコタツ構文
+]
+
+# Layer 2: 大幅減点（タブロイド特有の誇大ワード）
+SENSATIONAL_SOFT_PATTERNS = [
+    r"衝撃", r"異例", r"波紋", r"まさか", r"惨劇", r"悪夢", r"大誤算", r"怪情報", r"不穏"
+]
+
+def is_hard_ragebait(title):
+    """即座に取得候補から破棄する悪質パターン"""
+    return any(re.search(p, title, re.IGNORECASE) for p in RAGEBAIT_HARD_PATTERNS)
+
+def calculate_sensational_penalty(title):
+    """タブロイド誇大見出しに対するペナルティ（-50.0pt）"""
+    hits = sum(1 for p in SENSATIONAL_SOFT_PATTERNS if re.search(p, title, re.IGNORECASE))
+    return hits * 50.0
+
 def score_article(title, age_hours):
-    """鮮度（公開からの経過時間）＋ 見出しの具体性をスコアリング（※特定個人名への偏重ボーナスは廃止）"""
+    """鮮度（公開からの経過時間）＋ 見出しの具体性をスコアリング（※特定個人名への偏重ボーナスは廃止・タブロイド減点適用）"""
     score = 0.0
     if age_hours <= 18:
         score += 14.0
@@ -331,6 +362,8 @@ def score_article(title, age_hours):
         "win", "final", "champion", "title", "victory", "record"
     ]):
         score += 2.5
+
+    score -= calculate_sensational_penalty(title)
     return score
 
 def fetch_rss_raw(query, lang="ja", max_age_hours=240.0):
@@ -373,6 +406,10 @@ def fetch_rss_raw(query, lang="ja", max_age_hours=240.0):
                 if any(nw in (clean_title + " " + source) for nw in noise_words):
                     continue
 
+                # Layer 1: 煽り・飛ばし・悪質コタツ記事（Ragebait）の即時除外
+                if is_hard_ragebait(clean_title):
+                    continue
+
                 pub_dt = parse_pub_datetime(pub_date_str)
                 if pub_dt is not None:
                     age_hours = max(0.0, (now_jst - pub_dt).total_seconds() / 3600.0)
@@ -408,7 +445,7 @@ def fetch_rss_raw(query, lang="ja", max_age_hours=240.0):
     return candidates
 
 def select_unique_items(candidates, count, selected_titles, athlete_counts, max_per_athlete=1, sub_tag="", sub_type="normal", region_hint=""):
-    """重複・同一選手集中を排除しながら指定件数を厳選"""
+    """重複・同一選手集中を排除しながら指定件数を厳選（枠割れ防止フォールバック付き）"""
     candidates.sort(key=lambda x: x["score"], reverse=True)
     picked = []
     for cand in candidates:
@@ -427,6 +464,20 @@ def select_unique_items(candidates, count, selected_titles, athlete_counts, max_
         picked.append(cand)
         if len(picked) >= count:
             break
+
+    # 万が一ニュース極小日で枠数に満たない場合は、同一選手制限のみ緩和して枠割れを防ぐ
+    if len(picked) < count:
+        for cand in candidates:
+            if cand in picked or is_duplicate_topic(cand["title"], selected_titles):
+                continue
+            selected_titles.append(cand["title"])
+            cand["sub_tag"] = sub_tag or cand.get("sub_tag", "")
+            cand["sub_type"] = sub_type
+            if region_hint:
+                cand["region_hint"] = region_hint
+            picked.append(cand)
+            if len(picked) >= count:
+                break
     return picked
 
 def fetch_dragons_and_npb():
@@ -601,6 +652,14 @@ def fetch_world_diverse():
         final_items.append(unique_slot_item)
     final_items.extend(chosen_frontier)
     final_items.extend(chosen_mainstream)
+
+    # 枠割れ防止セーフティネット：万が一6枠未満の場合は残りの候補から補充してきっかり6枠を保証
+    if len(final_items) < 6:
+        remaining_pools = [c for c in frontier_candidates if c not in final_items] + [c for c in mainstream_candidates if c not in final_items]
+        for extra in remaining_pools:
+            final_items.append(extra)
+            if len(final_items) >= 6:
+                break
     return final_items[:6]
 
 def fetch_category_news(category_id):
@@ -691,7 +750,7 @@ def call_gemini_json(prompt, api_key, timeout=35):
                         return json.loads(m.group(1)), model
         except urllib.error.HTTPError as he:
             print(f"  [Gemini HTTP {he.code}] model={model}", file=sys.stderr)
-            if he.code == 429:
+            if he.code in (429, 503):
                 time.sleep(2)
             continue
         except Exception as e:
