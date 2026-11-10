@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=4.0">
+    <link rel="stylesheet" href="style.css?v=4.1">
 </head>
 <body>
     <!-- ヘッダー -->
@@ -56,19 +56,19 @@
     <main class="main-container">
         <!-- カテゴリー切り替えタブ（4アイコン＋短縮ラベル横一列） -->
         <nav class="category-tabs" role="tablist" aria-label="スポーツカテゴリー切り替え">
-            <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true" aria-label="中日ドラゴンズ" title="中日ドラゴンズ">
+            <button class="tab-btn active" data-tab="dragons" role="tab" aria-selected="true" aria-label="ドラゴンズ＆NPB" title="中日ドラゴンズ＆NPB">
                 <span class="tab-icon-wrapper">
                     <img src="assets/dragons_emblem.svg" class="tab-emblem" alt="中日ドラゴンズ">
                     <span class="tab-count" id="count-dragons">{{DRAGONS_COUNT}}</span>
                 </span>
-                <span class="tab-label">ドラゴンズ</span>
+                <span class="tab-label">ドラ＆NPB</span>
             </button>
-            <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false" aria-label="千葉ジェッツ" title="千葉ジェッツふなばし">
+            <button class="tab-btn" data-tab="jets" role="tab" aria-selected="false" aria-label="ジェッツ＆Bリーグ" title="千葉ジェッツ＆Bリーグ">
                 <span class="tab-icon-wrapper">
                     <img src="assets/jets_emblem.svg" class="tab-emblem" alt="千葉ジェッツ">
                     <span class="tab-count" id="count-jets">{{JETS_COUNT}}</span>
                 </span>
-                <span class="tab-label">ジェッツ</span>
+                <span class="tab-label">ジェッツ＆B</span>
             </button>
             <button class="tab-btn" data-tab="motorsport" role="tab" aria-selected="false" aria-label="モータースポーツ" title="モータースポーツ">
                 <span class="tab-icon-wrapper">
@@ -77,22 +77,22 @@
                 </span>
                 <span class="tab-label">モーター</span>
             </button>
-            <button class="tab-btn" data-tab="world" role="tab" aria-selected="false" aria-label="世界のメジャースポーツ" title="世界のメジャースポーツ">
+            <button class="tab-btn" data-tab="world" role="tab" aria-selected="false" aria-label="世界＆地域熱狂スポーツ" title="世界のメジャースポーツ＆地域熱狂競技">
                 <span class="tab-icon-wrapper">
                     <img src="assets/world_emblem.svg" class="tab-emblem" alt="世界のメジャースポーツ">
                     <span class="tab-count" id="count-world">{{WORLD_COUNT}}</span>
                 </span>
-                <span class="tab-label">世界スポーツ</span>
+                <span class="tab-label">世界＆地域熱狂</span>
             </button>
         </nav>
         <div class="swipe-hint"><span>⇄</span> タブ選択・左右スワイプで切替 ｜ 上部の日付から過去履歴も閲覧可能</div>
 
-        <!-- 中日ドラゴンズセクション -->
+        <!-- 中日ドラゴンズ＆NPBセクション -->
         <section id="dragons-tab" class="tab-content active" role="tabpanel">
             <div class="section-intro dragons">
                 <div>
-                    <h2>中日ドラゴンズ 最新情報</h2>
-                    <p>試合結果速報、選手活躍、采配動向、チーム再建の要約まとめ</p>
+                    <h2>中日ドラゴンズ ＆ NPB最新情報</h2>
+                    <p>🐉 中日ドラゴンズ厳選4枠 ＋ ⚾ NPB他球団・リーグ全体トレンド2枠</p>
                 </div>
             </div>
 
@@ -107,12 +107,12 @@
             </div>
         </section>
 
-        <!-- 千葉ジェッツセクション -->
+        <!-- 千葉ジェッツ＆Bリーグセクション -->
         <section id="jets-tab" class="tab-content" role="tabpanel">
             <div class="section-intro jets">
                 <div>
-                    <h2>千葉ジェッツふなばし 最新情報</h2>
-                    <p>Bリーグプレミア、試合速報、富樫・渡邊ら注目選手動向</p>
+                    <h2>千葉ジェッツ ＆ Bリーグ最新情報</h2>
+                    <p>✈️ 千葉ジェッツ厳選4枠 ＋ 🏀 Bリーグ全体・代表トレンド2枠</p>
                 </div>
             </div>
 
@@ -147,12 +147,12 @@
             </div>
         </section>
 
-        <!-- 世界のメジャースポーツセクション -->
+        <!-- 世界のメジャースポーツ＆地域熱狂競技セクション -->
         <section id="world-tab" class="tab-content" role="tabpanel">
             <div class="section-intro world">
                 <div>
-                    <h2>世界のメジャースポーツ 最新情報</h2>
-                    <p>MLB（大谷・山本等）、欧州サッカー（三笘・久保等）、NBA等の速報要約</p>
+                    <h2>世界のメジャースポーツ ＆ 地域熱狂競技</h2>
+                    <p>🌏 毎日1枠「特定地域の熱狂ユニーク競技」確定 ＋ 異種5競技を幅広く厳選</p>
                 </div>
             </div>
 
@@ -379,13 +379,22 @@
                     ? `<div class="summary-takeaway">📣 <strong>注目:</strong> ${escapeHtml(cleanTk)}</div>`
                     : '';
                 const newBadge = item.is_new ? '<span class="badge-new">NEW</span>' : '';
-                const newClass = item.is_new ? ' is-new' : '';
+                const subType = item.sub_type ? escapeHtml(item.sub_type) : 'normal';
+                const subTagBadge = item.sub_tag
+                    ? `<span class="badge-subtag subtag-${subType}">${escapeHtml(item.sub_tag)}</span>`
+                    : '';
+                const cardClasses = ['news-card'];
+                if (item.is_new) cardClasses.push('is-new');
+                if (item.sub_type === 'league' || item.sub_type === 'unique' || item.sub_type === 'frontier') {
+                    cardClasses.push(`card-type-${subType}`);
+                }
                 const safeLink = (item.link && /^https?:\/\//i.test(item.link)) ? escapeHtml(item.link) : '#';
                 return `
-                <article class="news-card${newClass}" data-url="${safeLink}">
+                <article class="${cardClasses.join(' ')}" data-url="${safeLink}">
                     <div class="card-header">
                         <div class="card-meta-left">
                             ${newBadge}
+                            ${subTagBadge}
                             <span class="card-source">${escapeHtml(item.source)}</span>
                         </div>
                         <span class="card-date">${escapeHtml(item.pub_date)}</span>

@@ -637,6 +637,16 @@ details.report-card:not([open]) .report-title {
     border-left: 3px solid #34D399;
 }
 
+.news-card.card-type-unique {
+    background: linear-gradient(145deg, rgba(46, 26, 71, 0.88), rgba(19, 27, 46, 0.92));
+    border-color: rgba(168, 85, 247, 0.45);
+    border-left: 3px solid #C084FC;
+}
+
+.news-card.card-type-league {
+    border-color: rgba(56, 189, 248, 0.28);
+}
+
 .news-card.is-read {
     opacity: 0.72;
 }
@@ -666,6 +676,7 @@ details.report-card:not([open]) .report-title {
 .card-meta-left {
     display: inline-flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 6px;
 }
 
@@ -679,6 +690,41 @@ details.report-card:not([open]) .report-title {
     padding: 1px 6px;
     border-radius: 5px;
     letter-spacing: 0.5px;
+}
+
+.badge-subtag {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    white-space: nowrap;
+    background: rgba(59, 130, 246, 0.16);
+    border: 1px solid rgba(59, 130, 246, 0.38);
+    color: #93C5FD;
+}
+
+.badge-subtag.subtag-team {
+    background: rgba(59, 130, 246, 0.18);
+    border: 1px solid rgba(59, 130, 246, 0.42);
+    color: #93C5FD;
+}
+
+.badge-subtag.subtag-league {
+    background: rgba(14, 165, 233, 0.18);
+    border: 1px solid rgba(56, 189, 248, 0.45);
+    color: #7DD3FC;
+}
+
+.badge-subtag.subtag-frontier {
+    background: rgba(245, 158, 11, 0.18);
+    border: 1px solid rgba(245, 158, 11, 0.45);
+    color: #FCD34D;
+}
+
+.badge-subtag.subtag-unique {
+    background: rgba(168, 85, 247, 0.24);
+    border: 1px solid rgba(192, 132, 252, 0.55);
+    color: #E9D5FF;
 }
 
 .card-source {

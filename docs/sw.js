@@ -1,10 +1,10 @@
-const STATIC_CACHE = 'myspo-static-v4.0';
-const DATA_CACHE = 'myspo-data-v4.0';
+const STATIC_CACHE = 'myspo-static-v4.1';
+const DATA_CACHE = 'myspo-data-v4.1';
 
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
-    './style.css?v=4.0',
+    './style.css?v=4.1',
     './manifest.json',
     './icon.svg',
     './assets/dragons_emblem.svg',
