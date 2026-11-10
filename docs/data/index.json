@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-09",
-  "total_days": 50,
+  "latest_date": "2026-11-10",
+  "total_days": 51,
   "dates": [
+    {
+      "date": "2026-11-10",
+      "updated_at": "11月10日 11:14",
+      "label": "11/10",
+      "summary_title": "工藤新体制が本格始動！細川が1.9億円で更改"
+    },
     {
       "date": "2026-11-09",
       "updated_at": "11月09日 07:59",
