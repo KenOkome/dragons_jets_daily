@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-10",
-  "total_days": 51,
+  "latest_date": "2026-11-11",
+  "total_days": 52,
   "dates": [
+    {
+      "date": "2026-11-11",
+      "updated_at": "11月11日 09:06",
+      "label": "11/11",
+      "summary_title": "工藤新体制が始動！細川が更改＆若手への個別指導も充実"
+    },
     {
       "date": "2026-11-10",
       "updated_at": "11月10日 12:36",

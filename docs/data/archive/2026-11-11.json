@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-11",
+  "updated_at": "11月11日 09:06",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/11 09:04",
+        "title": "工藤新体制が始動！細川が更改＆若手への個別指導も充実",
+        "summary": "工藤新監督を迎えた中日は秋季キャンプが本格始動。細川が1億9000万円で更改したほか、根尾や田中幹ら若手への直接指導やミーティングでの名言が大きな反響を呼んでいる。NPB全体では西武・栗山のパ特別表彰や来季日程発表があった。",
+        "key_players": "細川成也が6000万円増で更改し主力としての存在感を示す。工藤監督から50分の指導を受けた根尾昂や、秋季キャンプで英智コーチと守備練習を行う岡林勇希、清水達也らの成長に期待が高まる。",
+        "outlook": "秋季キャンプにおける工藤監督の直接指導やアドバイスが若手選手たちにどのような化学反応を起こすか注目される。来季の巻き返しに向けたチーム改革のプロセスや、今後の契約更改の動きから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "中日・清水達也、突き進め”千賀ロード”！工藤新監督「見たよ」8年前の初登板もチェック 直接指導でシンプル助言「見てくれていると感じた」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/10 22:46",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBya25HX0tYTkxvQWpXZnFBVmJkZk1Xd1hMWVZUX0kyZjh2YUlleDNzUVBoUUNPVXBiMm9pSENXMjFDNHpBNEI3dmhVUzJ3MXN3dkV3Tg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "工藤新監督が清水達也に直接助言",
+          "points": [
+            "中日の清水達也が、工藤新監督から8年前の初登板もチェックされていたことを明かした。",
+            "工藤新監督からの直接指導によるシンプルな助言を受け、自身の成長への手応えを深めている。",
+            "千賀ロードを突き進む清水に対し、指揮官の細やかな気配りと期待の大きさが伺えるトピックである。"
+          ],
+          "takeaway": "新監督の熱い眼差しを受けて飛躍を期す清水投手が、来季どんな進化を見せるのか今から非常に楽しみです。",
+          "is_new": true
+        },
+        {
+          "title": "中日・岡林勇希、ナゴヤ球場での秋季キャンプ合流で英智コーチと守備練習！2022年以来のタッグに「高知とは違うものを吸収できる」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/10 22:22",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBLaThvSGpBUGJZUXFsQlhZWmNXNTVTankxZkI1Z0RuSjI1WHlTX0s3UlBUWnJrVENpdElwX1hnaXFLdkktX1FFZEJXNlUyYTFvak5pSQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "岡林勇希が秋季キャンプで英智コーチと再タッグ",
+          "points": [
+            "中日の岡林勇希がナゴヤ球場での秋季キャンプに合流し、英智コーチと守備練習を行った。",
+            "2022年以来となる英智コーチとのタッグで、高知とは異なる新たな技術や視点を吸収している。",
+            "名手として知られるコーチとの練習を通じて、さらなる守備力のレベルアップを図る重要な期間となっている。"
+          ],
+          "takeaway": "名コーチの薫陶を受けてさらに磨きがかかる岡林選手の鉄壁の外野守備と、躍動感あふれるプレーに期待が高まります。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラゴンズ・板山祐太郎内野手、600万円増の2800万円で契約更改",
+          "source": "中日新聞Web",
+          "pub_date": "11/10 18:48",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WMGdDTDFPblItcFU4SW9ROU9fQmpzWHhaLWQ3clJWT2FDV096WmtJbHlEdGhlVzFlTFlvbVlhMXN3RjdUYndWYWlTNFN6VENZR2huQg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日・板山祐太郎が600万円増で更改",
+          "points": [
+            "中日ドラゴンズの板山祐太郎内野手が契約更改に臨み、600万円増の2800万円でサインした。",
+            "今季の働きが評価されてのアップとなり、来季へ向けても確かな足がかりを作った。",
+            "チームの戦力として存在感を示した同選手の、来季のさらなる飛躍と打撃での貢献が期待される。"
+          ],
+          "takeaway": "契約更改を終えて迎える来季、勝負強い打撃とユーティリティな活躍でチームを勝利に導く姿を応援したいですね。",
+          "is_new": true
+        },
+        {
+          "title": "【中日】工藤公康新監督、根尾昂の『可能性』に期待…「伸びしろがたくさんあります」アドバイス50分",
+          "source": "中日新聞Web",
+          "pub_date": "11/10 16:31",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ycy1CcndMM1JuQXpvU0pYRTE0ajcxaGx3SjkwREJpWm91eS1DejgwVy1LNGJQaHN4dEJHZE1zYktyeFdWbjRHS3c0Y3J5anZFekdoNw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "工藤新監督が根尾昂に50分間のアドバイス",
+          "points": [
+            "中日の工藤公康新監督が根尾昂と向き合い、50分間にわたる直接のアドバイスを行った。",
+            "指揮官は根尾の秘めた『可能性』に大きな期待を寄せ、「伸びしろがたくさんある」と高く評価している。",
+            "レジェンド監督からの手厚い指導が、若き才能の覚醒に向けた大きなターニングポイントになり得る。"
+          ],
+          "takeaway": "指揮官の熱い期待を一身に受ける根尾選手が、来季こそポテンシャルを本格開花させる瞬間をファンは見逃せません。",
+          "is_new": true
+        },
+        {
+          "title": "【西武】栗山巧にパ特別表彰 「賞をいただけて、ほっとした気持ち」 西武一筋２５年",
+          "source": "au Webポータル",
+          "pub_date": "11/10 21:19",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTSmpWY0xsNkV4RVpVM2FkRGtlLVA4Z1ljbEN4d2w5elV3OU43eHA0ZFk5ZlpfRXBNMm5hZWRFenB5V3F0R25Mek1Db1BVeXJBdTFFNVlERnFXYjhCNmQ4c1l2aXRUMGlwSmhDbVd3?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "西武・栗山巧がパ特別表彰を受賞",
+          "points": [
+            "西武ライオンズ一筋25年を誇る栗山巧が、パ・リーグ特別表彰を受賞した。",
+            "長年にわたる球界への貢献と偉大なキャリアが称えられ、本人も「ほっとした気持ち」と語っている。",
+            "一つの球団で四半世紀にわたり第一線で戦い続ける姿勢は、プロ野球ファンだけでなく全スポーツ界の模範である。"
+          ],
+          "takeaway": "球団の歴史を背負い、孤高の職人として歩み続ける栗山選手の生き様と、その一挙手一投足から目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "プロ野球パ・リーグ、ソフトバンク―楽天などで3月26日に開幕 来季日程発表",
+          "source": "産経ニュース",
+          "pub_date": "11/10 15:39",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rNnlzUmhva2FJYk54UUY5QmFWVkVEZ2poY0VoeGFsQ0F0YnljaFc1dVF2QjZRVV9DM0tRRUNqdUpIQ2tmVElPbkdnX0J1TGh1MEotMEcyZGVfNnp1ZWxkM29TeEZkZTBOejFQeEoxU1FFQVFTRVE?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "来季パ・リーグ開幕戦日程が発表",
+          "points": [
+            "プロ野球パ・リーグの来季日程が発表され、3月26日に開幕することが明らかになった。",
+            "開幕カードとしてソフトバンク対楽天などの対戦が予定され、早くもファンの期待が高まっている。",
+            "球春到来を告げるスケジュールが決定したことで、各球団のオフの補強やキャンプへの注目度もさらに増す。"
+          ],
+          "takeaway": "長い冬を越えていよいよ幕を開ける新しいペナントレース。推しチームの初戦から始まる熱い戦いのドラマに胸が躍ります。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/11 09:05",
+        "title": "千葉ジェッツ祭2026～秋～ supported by 京王観光",
+        "summary": "直近の千葉ジェッツ＆Bリーグでは、「千葉ジェッツ祭2026～秋～ supported by  / 試合の見どころ 11/12 vs千葉ジェッツ ｜3連勝中 / 11/10 千葉ジェッツvs.大阪エヴェッサ [Reso」など注目のニュースが相次いで報じられています。",
+        "key_players": "主力選手や首脳陣の最新コメント、リーグ全体の編成・次戦に向けた調整状況に高い関心が集まっています。",
+        "outlook": "今後の試合日程や各大会の展開に向け、各メディアの続報と選手のパフォーマンスに注目です。"
+      },
+      "news": [
+        {
+          "title": "【11/10更新】千葉ジェッツ祭2026～秋～ supported by 京王観光開催のお知らせ",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/11 01:44",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01eXkxOGlNOFNERG5NQm9Oeko3eXR3bnQxblBJVWdKcFFjeV9adUd0RFE5cUh0RUNwSkppSXVKZFJpUU1QRUt4R2tUd2p2Xy1vSE5J?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ祭2026～秋～ supported by 京王",
+          "points": [
+            "「千葉ジェッツ」より、千葉ジェッツ祭2026～秋～ supported by 京王観光開催のお知らせに関する最新動向が報じられました。",
+            "詳細抜粋：千葉ジェッツ...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "試合の見どころ 11/12 vs千葉ジェッツ ｜3連勝中の\"東の雄\"を、4連勝中のホームで迎え撃つ",
+          "source": "滋賀レイクス",
+          "pub_date": "11/10 23:51",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hV1BwNDNLMFdTcldjTUZ6UGdUZ1FWRlFDT0Z4Y0NSUDVIZDZEeXVIUUE5VE5EM0N4bjF3Rm52ZGxyQmtTdVVPcmVFMjNVbVhhNG5VTVFNTTl1b2c?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "試合の見どころ 11/12 vs千葉ジェッツ",
+          "points": [
+            "「滋賀レイクス」より、試合の見どころ 11/12 vs千葉ジェッツに関する最新動向が報じられました。",
+            "詳細抜粋：滋賀レイクス...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "【試合情報】11/10 千葉ジェッツvs.大阪エヴェッサ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/10 22:32",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xcUFHUGVpOW5kVlhvRVZWRS14QWRPNHdLTi01d2gzYW43MVZ0LXU4TGJjanMzdzZoWjhtLXlLZ1hvM3F4Y0dVSExIcVpqT0E?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "11/10 千葉ジェッツvs.大阪エヴェッサ [Resona",
+          "points": [
+            "「千葉ジェッツ」より、11/10 千葉ジェッツvs.大阪エヴェッサ [Resona Group B.LEAGUE 2026-27 SEASON]に関する最新動向が報じられました。",
+            "詳細抜粋：千葉ジェッツ...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "【一覧】千葉ジェッツ 所属選手の契約期間と報酬総額（Bプレミア2026ｰ27シーズン）",
+          "source": "バスケットボールキング",
+          "pub_date": "11/10 21:13",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50RVF0Ung1Q0k4WjE0Z2RVOS1NcDNBTWZIcWpuQ3RqR2dPS2loRmlvdV92Q0Fxb1RvMmwyLUhqYlJUZkdfUTJ4Y2I2T2RUT3hxN2t3XzYza0pWMHZRb2MtQ1JYZWw?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ 所属選手の契約期間と報酬総額（Bプレミア202",
+          "points": [
+            "「バスケットボールキング」より、千葉ジェッツ 所属選手の契約期間と報酬総額（Bプレミア2026ｰ27シーズン）に関する最新動向が報じられました。",
+            "詳細抜粋：バスケットボールキング...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "苦境の琉球ゴールデンキングス、ジャック・クーリーの危機感「キングスは言い訳をする組織ではない、どんな状況でも勝ちたい」",
+          "source": "www.bleague.jp",
+          "pub_date": "11/10 15:20",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aQjFNMUl0dTZTZlhvbUhIQ0FMNnJfOUNOUk91aTItOVEzc0FzVDhDeDdQdlJIanRaM2FreENrdlUyZ1ladVVxbm5TbjBjZ01DYVVuQnlBTUR1Z0pHcWticVhnaw?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "苦境の琉球ゴールデンキングス、ジャック・クーリーの危機感「キ",
+          "points": [
+            "「www.bleague.jp」より、苦境の琉球ゴールデンキングス、ジャック・クーリーの危機感「キングスは言い訳をする組織ではない、どんな状況でも勝ちたい」に関する最新動向が報じられました。",
+            "記事内では「キングスは言い訳をする組織ではない、どんな状況でも勝ちたい」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏀 Bリーグ全体トレンドの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "ファンクラブ「ALVARCARS」限定商品『デニムシリーズ』再販決定のお知らせ",
+          "source": "アルバルク東京",
+          "pub_date": "11/10 15:18",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jZXFmeWJQQi1FdmZsMk50RVRacXpYRUt2QnpZd2JQSXlYQkNSUkJLOEc1eXJ0YnVNbktuekVkbWZZeElQWWRVekFsNFlTOEtmQy1RTmZGeFdhVVlCRzJKVkRpWUJNOWsydmpxenpNaw?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "ファンクラブ「ALVARCARS」限定商品『デニムシリーズ』",
+          "points": [
+            "「アルバルク東京」より、ファンクラブ「ALVARCARS」限定商品『デニムシリーズ』再販決定のお知らせに関する最新動向が報じられました。",
+            "記事内では「ALVARCARS」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏀 Bリーグ全体トレンドの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/11 09:06",
+        "title": "F1サンパウロGP激闘と平川亮のWEC大逆転劇",
+        "summary": "直近1週間はF1第20戦サンパウロGPでノリスがPPを獲得し熱戦を展開。ウエットコンディションやペレスのポイ捨て、カマラの戒告など混乱も生じた。一方、WEC最終戦では平川亮がダブルタイトルに向けた大逆転劇を果たすなど耐久レースも白熱した。",
+        "key_players": "F1では予選PPのノリスやQ3進出を果たしたアロンソ＆ホンダ、レース中に苦言を呈したサインツらが注目を集めた。WECでは平川亮が過密日程の中での大一番を制し、MotoGPではベッツェッキが今季6勝目を挙げて存在感を示した。",
+        "outlook": "F1はピレリの雨用タイヤに対する「危険」との指摘やラスベガスGPでの雨への警戒が続く中、各チームの戦略が勝負を分ける。また、WECやMotoGPのシーズン終盤の動向、F1の将来的な開催地を巡る動きからも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "F1緊急参戦→1週間後にWECでチャンピオン 「印象に残っているのは…」平川亮、今季大一番の大逆転劇（ABEMA TIMES）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 22:21",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUzRrSmpJMTFsV2VvR0pEcWg5Q0JiMi1QQVIydWt6bHIyUkE4dWFoaVFPU3pDUmtIM2RTbWNsSUJfdFYxMGZ2RElIWWdZUTBWdzBUNjZPa0F2dkN0V0dEcFR2a1VTOUI2WmVfYllzWDlmTVFIdHVDbDBmWWdsODBxQzBwUE5ZbGNjR3otZzFn?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "平川亮が過密日程を乗り越えWEC王者に",
+          "points": [
+            "F1への緊急参戦からわずか1週間後という過密スケジュールの中で、WECのシーズン大一番を大逆転で制してチャンピオンに輝いた。",
+            "世界最高峰の耐久レースであるWECにおいて、極限のプレッシャーと厳しいコンディションをチーム一丸となって乗り越えた。",
+            "複数のカテゴリーをまたにかけて戦うドライバーの適応力の高さと、過酷な耐久レースならではのドラマチックな結末がファンの心を打つ。"
+          ],
+          "takeaway": "過酷な耐久レースの世界で世界一を掴み取った平川亮選手の圧倒的な精神力と、最後まで諦めないモータースポーツのドラマ性を実感できます。",
+          "is_new": true
+        },
+        {
+          "title": "サインツ、苦戦続くウィリアムズF1に本音「ラスベガスGPが最終戦の方がいい」 開発は2027年を優先（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 20:16",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5GOVMwb0VONGNqSWlfdHdJMEo3Y3l6cHQ5amVCM1dSQ1RLTnZxZ0t0UlFpMzZVVkdDVk9EcVNMcHpVSDlTVGF1enFHN1V2aExCQWQyMFBVRUkyNi14MFptMU54Mm9LT09IVjFhRzNfV1NOMjI5SlNTUFNhY2c5Z28?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "サインツがチームの苦戦と将来展望を語る",
+          "points": [
+            "苦戦が続くウィリアムズF1に所属するサインツが、今季の厳しい現状を踏まえてラスベガスGPが最終戦であればいいと本音を明かした。",
+            "チームは短期的な成績だけでなく、レギュレーション大改修を見据えた2027年シーズンに向けた開発を優先している。",
+            "長期的視点でのチーム再建と、目の前の厳しいレースを戦わなければならないドライバーとの複雑な心境が垣間見える。"
+          ],
+          "takeaway": "勝てないマシンの開発に苦しむ名門チームのリアルな苦悩と、未来の勝利を見据えて耐え抜くドライバーのプロフェッショナルな姿勢に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "F1ドライバー、ピレリの雨用タイヤに「危険」と苦言 ノリスはラスベガスGPの雨を警戒（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 18:29",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xS3FvYmJsN0xMU3Nxd090MDlOSEpldjI5dFNIN0U2dTM3eXUxNHp4OFJOcVRDZjlOLXlRWkJHVnNFNVdZWGtWelR2MmR6WklpVEJjN3VBQkR2bmxiUlhZSVNjbGd5dnNlMnc3TkdnWXdsRTN1a1hjSUJzM0hGMm8?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ピレリの雨用タイヤにドライバーから苦言",
+          "points": [
+            "F1ドライバーたちから、ピレリが供給するウェットコンディション用の雨用タイヤに対して「危険である」と厳しい苦言が呈された。",
+            "マクラーレンのランド・ノリスをはじめとするトップドライバーたちが、次戦のラスベガスGPでの降雨を強く警戒している。",
+            "F1ではわずかな視界不良やグリップ不足が大クラッシュに直結するため、タイヤの性能と安全性の確保が毎戦の大きな焦点となる。"
+          ],
+          "takeaway": "時速300キロ超で駆け抜けるF1において、命を預かるタイヤの性能と安全性がドライバーの生死を分ける重要な要素である緊張感を味わえます。",
+          "is_new": true
+        },
+        {
+          "title": "「優勝争いが見えたので狙いたかった」「全員の努力を心から誇りに思う」／F1第20戦決勝トップ10コメント（2）",
+          "source": "autosport web",
+          "pub_date": "11/10 18:12",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBaVHdOdXhlQms4dG5LUUY0UUdpM2k4VEZoRW44RmlPU3R0TXhjdll0djhyYU5fMHhEUldSRDF3X0RFRnJzZEVz?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "F1第20戦決勝で上位入賞を果たしたドライバーたちの声",
+          "points": [
+            "F1第20戦の決勝レースでトップ10に入賞したドライバーたちが、激戦を振り返りそれぞれの公式コメントを発表した。",
+            "優勝争いを視野に入れて果敢に攻めた姿勢や、チーム全員のハードワークに対する感謝の言葉が語られている。",
+            "熾烈な順位争いを戦い抜いた者だけが味わえる達成感や、ガレージ一丸となってマシンを仕上げるチームスポーツとしての側面が浮き彫りになる。"
+          ],
+          "takeaway": "過酷なバトルを終えたドライバーたちの生々しい感情や、チーム全員で掴み取った栄光の裏側にあるドラマを感じることができます。",
+          "is_new": true
+        },
+        {
+          "title": "「タイムロスを最小限にすることに集中」「一度リズムを掴むとペースはよかった」／F1第20戦決勝トップ10コメント（1）",
+          "source": "autosport web",
+          "pub_date": "11/10 18:10",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5LNXdDX2R6amRuUzBQelJVOVFqaVFaVTRnZTBGb0dycDlQWjNiaVNhNXY3MlNpTkJTUmE4emcwajBRX0tua1Rr?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "トップ10ドライバーが語るレースの明暗",
+          "points": [
+            "F1第20戦の決勝レースにおいて、ポイント獲得を果たしたトップ10ドライバーたちがレース中の苦労を語った。",
+            "難しいコンディションの中でタイムロスを最小限に抑えるマネジメント力や、一度リズムに乗ったときの優れたペースについて言及されている。",
+            "一瞬の判断ミスやタイヤの摩耗が順位に直結するF1において、緻密な計算とドライビングテクニックの重要性が示されている。"
+          ],
+          "takeaway": "コンマ数秒を削るためにドライバーが極限の集中力を発揮している様子と、レースを組み立てる頭脳戦の面白さを堪能できます。",
+          "is_new": true
+        },
+        {
+          "title": "サインツ、セーフティカー待ちの賭け実らず「結果を大きく変えるには遅すぎた」アルボンは好スタートも15位",
+          "source": "autosport web",
+          "pub_date": "11/10 17:30",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5fS0FQREI3cjVleFZPc25KLXNaUlZUdFpudTQyaUc3OWdBNDhhYWxtVTRTQmptM2RhbmoxVjRXclZFNUNPTE9n?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "サインツの賭けは実らずアルボンは15位",
+          "points": [
+            "サインツはセーフティカー導入を期待して戦略的な賭けに出たものの、結果を大きく変えるにはタイミングが遅すぎたと振り返った。",
+            "チームメイトのアルボンは決勝レースで好スタートを切ったものの、最終的には15位でのフィニッシュにとどまった。",
+            "レース中の展開を予測して行われるピット戦略やセーフティカーを狙ったギャンブルが、勝敗を大きく左右するモータースポーツの奥深さを表している。"
+          ],
+          "takeaway": "ドライバーのドライビングだけでなく、チームの戦略的ギャンブルの成否がレース結果を劇的に変える緊迫した頭脳戦を楽しめます。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/11 09:06",
+        "title": "世界のメジャースポーツ＆地域熱狂競技の1週間",
+        "summary": "直近1週間はMLBのホームラン競争イベント開催や欧州CLでの熱戦、WTAファイナルズなど多様な競技が展開され、沖縄でのサイクルロードレースやスヌーカーなど地域熱狂競技も大きな盛り上がりを見せた。",
+        "key_players": "テニスではサバレンカが難敵を下し白星発進。サッカーでは久保建英が先発復帰を果たし、ボクシング中谷潤人の次戦決定など各競技の主役たちが存在感を示した。",
+        "outlook": "大谷翔平の契約やサラリーキャップに関する議論、バレーボールのSVリーグU15チャンピオンシップ決勝大会など、今後の競技動向や次世代の戦いから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "Champion of Champions Snooker 2026 Today: Prize money, Tuesday order of play, format, how to watch",
+          "source": "The Scotsman",
+          "pub_date": "11/10 17:37",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNZVVDX3hpZXJNZGtQS1kwd2UwOTl3T19JajRRRjRmdjFxTmdweXdiZWNnYUFkNC1DNFRjdElXVWNSYTVaa0FVMXp3SE1CM256TUs2T2xwc2xCeGJETXZ4ZzU3RDhvOG5qZ1RsdVgydVFhenVva2M5R2JUWFBCOXdjRDc4TnlkQm9RUHNPcmtOYTctMmtUQ1hlOThya1ZOQXd1d0U0VFRYQ1Z4c1JKb2FSNWtJLW02eC1JcUgta1IwalFndW9hMTNmWkZ4UE5yNXh1ME4ySVhkQkdrN0VoNnIxeThGMmdvSzRZOFpid3pXVUJhZWc0OG9yR0VfWFRmVk55X1kwblduNUxQaWx4aXBkeEs4REc5Zw?oc=5",
+          "sub_tag": "🌏 地域熱狂：スヌーカー(英・中国)",
+          "sub_type": "unique",
+          "headline": "Champion of Champions Snooker ",
+          "points": [
+            "「The Scotsman」より、Champion of Champions Snooker 2026 Today: Prize money, Tuesday order of play, format, how to watchに関する最新動向が報じられました。",
+            "詳細抜粋：The Scotsman...",
+            "【競技解説】イギリスや中国で絶大なテレビ視聴率を誇る、通常の約2倍巨大な台でミリ単位の精密ショットを競う頭脳ビリヤード。"
+          ],
+          "takeaway": "イギリスや中国で絶大なテレビ視聴率を誇る、通常の約2倍巨大な台でミリ単位の精密ショットを競う頭脳ビリヤード",
+          "is_new": true
+        },
+        {
+          "title": "大会初優勝を目指すサバレンカが難敵ムチョバを倒して白星スタート「最後まで気を抜けなかった」 [WTAファイナルズ／テニス]",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 20:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5UGNWYi0zTlpSZkM3UkFWa1Y0RmdrUFQyZ2dpRU1QM2pPQW1qUEpqVk02eURHMEd6STdkX29ZcVJpZUx1UGNteTdoYUQ2N0NfQ2x3eVE4T0dzaG1VUE1EZTUzbFVfcWJHdFRaalhSWVhObEFrUGtHY0VyMmstSTA?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "大会初優勝を目指すサバレンカが難敵ムチョバを倒して白星スター",
+          "points": [
+            "「Yahoo!ニュース」より、大会初優勝を目指すサバレンカが難敵ムチョバを倒して白星スタート「最後まで気を抜けなかった」 [WTAファイナルズに関する最新動向が報じられました。",
+            "記事内では「最後まで気を抜けなかった」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🎾⛳ 世界テニス・ゴルフの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "「おきなわで勝ちたかった」昨年2位のジャコモ・カラヴァリアが雪辱を果たす",
+          "source": "シクロワイアード",
+          "pub_date": "11/10 19:15",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WWlJWOU9lQnVrbjNZbHVTLTRzWG9PT2g5LUVNV09qVXYzVHdxdVAwbDYzTnhsODY3Mk5lRV9mamtfc2JLdjBpblZTTVNSdm9KX2NYcw?oc=5",
+          "sub_tag": "⛸️🚴 氷雪・自転車・卓球",
+          "sub_type": "frontier",
+          "headline": "「おきなわで勝ちたかった」昨年2位のジャコモ・カラヴァリアが",
+          "points": [
+            "「シクロワイアード」より、「おきなわで勝ちたかった」昨年2位のジャコモ・カラヴァリアが雪辱を果たすに関する最新動向が報じられました。",
+            "記事内では「おきなわで勝ちたかった」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "⛸️🚴 氷雪・自転車・卓球の最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "SVリーグのU15チャンピオンシップ決勝大会の組み合わせが決定！（バレーボールキング）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/10 17:40",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNNVFHSGR2VTVhTkVDaWtZVVdCUDBIU0gtNnRrU1Y1bTVCcllWemM0OGZXbENDMkc1aFh4b0dJYVFsd0g1WFVnZ19wb1RSbUdaVWtuNW5vRkdLdDl6djUzOHRCMWlCTEwxWlVIM2d1X21vREkwMERNWnBvUEJjcjQ?oc=5",
+          "sub_tag": "🏉🏐 ラグビー・バレー",
+          "sub_type": "frontier",
+          "headline": "SVリーグのU15チャンピオンシップ決勝大会の組み合わせが決",
+          "points": [
+            "「Yahoo!ニュース」より、SVリーグのU15チャンピオンシップ決勝大会の組み合わせが決定！（バレーボールキング）に関する最新動向が報じられました。",
+            "詳細抜粋：Yahoo!ニュース...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏉🏐 ラグビー・バレーの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "ドジャース黄金時代に暗雲、大谷翔平の契約解除条項とサラリーキャップ構想が「金満帝国」に突き付ける危機(1/4)",
+          "source": "JBpress",
+          "pub_date": "11/11 06:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lXzJRaUxCam5TVnczSmNwVDM0V1ExNnRoTm0xV0VMZnRJUTRvWlA4d3V1Vml4TEdIVWJoLXh0RGswUUcxajMyVER5LTVvcU5QZUxCRWFB?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "ドジャース黄金時代に暗雲、大谷翔平の契約解除条項とサラリーキ",
+          "points": [
+            "「JBpress」より、ドジャース黄金時代に暗雲、大谷翔平の契約解除条項とサラリーキャップ構想が「金満帝国」に突き付ける危機(1/4)に関する最新動向が報じられました。",
+            "記事内では「金満帝国」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "⚾ MLB・米野球の最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "「1年でいくら稼いでる？」ブロニー・ジェームズが試合中に観客と口論…警備員も介入",
+          "source": "バスケットボールキング",
+          "pub_date": "11/10 17:41",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrTHF2SXdsa1pyS1Z3WnpJM3FTWFJlY3Q1ak43OVFSVnRrWTNXMGhWaldZeTVuT0ZxaDI5SWlmYjNfcUpHWWNWY3pRSWJ1c1Q2elZLRllocHVOYTRSVDByNE1qamdWSk9o?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "「1年でいくら稼いでる？」ブロニー・ジェームズが試合中に観客",
+          "points": [
+            "「バスケットボールキング」より、「1年でいくら稼いでる？」ブロニー・ジェームズが試合中に観客と口論…警備員も介入に関する最新動向が報じられました。",
+            "記事内では「1年でいくら稼いでる？」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏀 NBA・米バスケの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
