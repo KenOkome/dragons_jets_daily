@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-12",
+  "updated_at": "11月12日 10:34",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/12 10:33",
+        "title": "中日秋季キャンプ始動、細川更改と新体制の動向",
+        "summary": "中日は工藤新監督の下で秋季キャンプが本格化し、選手への指導やミーティングでの名言が大きな反響を呼んでいる。また主力や若手の契約更改が相次ぎ、細川成也が1億9000万円でサインするなどオフの動きが活発化している。",
+        "key_players": "細川成也がキャリアハイ25本塁打で6000万円増の1億9000万円で更改。味谷大誠はドラフト捕手指名に危機感を抱き、篠崎国忠は守護神松山に弟子入り。高橋幸佑や清水達也も工藤新監督の指導で新たな感覚を掴んでいる。",
+        "outlook": "秋季キャンプにおける工藤新監督の直接指導やレジェンドコーチ陣とのタッグが、若手や主力投打のレベルアップにどう結びつくか要注目。次世代のレギュラー争いや、さらなる契約更改の行方から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "中日・味谷大誠「もちろん気になります」ドラフトで2人の捕手指名に危機感「石伊さんを抜かないと試合に出られない」",
+          "source": "中日新聞Web",
+          "pub_date": "11/11 20:02",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oOWNUQXNkZi1aeUUtcWlvTEx6aTdBU1F0WXZOUEx4eHZNalNPcUNTQ1N3SnNzNUprT2xMSGFISEFqSmFQRENxOFdGRXVNQU8zclVnbg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日・味谷大誠が捕手争いに強い危機感",
+          "points": [
+            "中日・味谷大誠選手が、ドラフト会議での新たな捕手2人の指名を受けて危機感を露わにした。",
+            "まずは石伊選手を抜かなければ一軍の試合に出られないと話し、チーム内の激しい競争を誓っている。",
+            "プロ野球の捕手ポジションは代えが効きにくく、打撃と守備の両面で高いレベルが求められる過酷な位置である。"
+          ],
+          "takeaway": "若手捕手たちがし烈な生存競争を繰り広げることで、チーム全体の底上げと次世代の正捕手誕生への期待が高まります。",
+          "is_new": true
+        },
+        {
+          "title": "中日・篠崎国忠、来季狙うは”7回の男”の座 竜の絶対的守護神・松山晋也の自主トレ参加し「学びたいのは決め球」",
+          "source": "中日新聞Web",
+          "pub_date": "11/11 19:38",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ma2g3SzkxVEVrMUJ5SHROdzFTdkE3TzFOUFpSOWtLcE1JaTd0a1ZIZjhmQnNpUmdGOF9HTUZ0RGhSM0hiOGQyUVZKLVRJSWxhUW0xTw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日・篠崎国忠が守護神から技を吸収へ",
+          "points": [
+            "中日の篠崎国忠選手が来季「7回の男」の座を狙うため、守護神・松山晋也選手の自主トレに参加する意向を示した。",
+            "松山選手から打者が分かっていても打てない決め球の極意を学びたいと、さらなるレベルアップに意欲を見せている。",
+            "野球において試合終盤の7回を任されるセットアッパーは、勝利の方程式を担う極めて重要な役割である。"
+          ],
+          "takeaway": "絶対的守護神の背中を追いかけ、若手がどん欲に技術を吸収していく姿から、来季のブルペン陣の厚みが増す予感が漂います。",
+          "is_new": true
+        },
+        {
+          "title": "中日・高橋幸佑「新しい感覚」「全然違う」工藤式改造でキャッチボールから球質の変化実感 20万円増の年俸560万円でサイン",
+          "source": "中日新聞Web",
+          "pub_date": "11/11 19:04",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pc3k3Q0p4d1VvMVlKNHBJaWgtSGtHWFBrWGlnQUtnU05ZdXBTZkdpYkRuRklPcEstZDR1RFZZODlfUnlNWE9JUHg0czdQb2tROERBWQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日・高橋幸佑が工藤式改造で球質に手応え",
+          "points": [
+            "中日の高橋幸佑選手が契約更改を行い、20万円増の年俸560万円でサインした。",
+            "いわゆる「工藤式改造」を取り入れ、キャッチボールの段階から球質の変化を実感するなど新しい感覚を得ている。",
+            "プロ野球では指導法やトレーニングの変更が選手の潜在能力を引き出し、劇的な飛躍を生み出すことが多々ある。"
+          ],
+          "takeaway": "レジェンドの知見を取り入れた若手左腕が、確かな手応えを胸に来季どのような進化を遂げるのか非常に楽しみです。",
+          "is_new": true
+        },
+        {
+          "title": "中日戦力外→決意した社会人野球入り 25歳が明かした進路「2023同期みんなの人生に幸あれ」 - Full",
+          "source": "Full-Count",
+          "pub_date": "11/11 18:35",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00Y0ZjeDFzdVp1aUtUbUlRSjd2SHAzVW4tMTlhM2lLN085Q0NYU09uZUVYM012R081YlE2b3dORlh4Nmd3THpTdW9lQk5Ja1pfV2kyaHBwM1Y?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日戦力外の25歳が社会人野球で現役続行",
+          "points": [
+            "中日を戦力外となった25歳の選手が、新たに社会人野球に進んで現役を続行する決意を明らかにした。",
+            "2023年入団の同期メンバーに向けて「みんなの人生に幸あれ」とエールを送り、それぞれの道での健闘を祈っている。",
+            "プロ野球の世界は入れ替わりが激しく、戦力外通告を受けた選手たちがそれぞれの場所で再びはい上がるドラマが生まれる。"
+          ],
+          "takeaway": "ユニフォームを変えても野球への情熱を持ち続け、新たなステージで夢を追いかける選手の覚悟と絆に胸が熱くなります。",
+          "is_new": true
+        },
+        {
+          "title": "「ゴールデン・グラブ賞」 阪神から両リーグ最多の5人選出",
+          "source": "NHKニュース",
+          "pub_date": "11/11 17:45",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YTWRhc2NmYmhjV2xmdTlrWXpMOWY5YVRLNTdFcWZtOW1sVkFWSnQ3M2NlOElVakZrSG54TmZ0dEpWaDdBVnZKY01oeHdsSXV3aVRtdTN0UUxuMDEwSWZF?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "阪神がゴールデン・グラブ賞で両リーグ最多5人",
+          "points": [
+            "プロ野球の守備の名手を表彰する「三井ゴールデン・グラブ賞」が発表され、阪神から両リーグ最多となる5人が選出された。",
+            "堅い守りでチームを支えた選手たちの功績が、シーズンを通しての安定した戦いぶりとともに高く評価されている。",
+            "卓越した捕球技術や強肩、広い守備範囲を持つ名手たちのプレーは、試合の流れを大きく変える最高の見どころである。"
+          ],
+          "takeaway": "華やかなホームランだけでなく、一瞬の好守でチームを救う守備職人たちの職人芸がデータと記者の投票で証明される瞬間です。",
+          "is_new": true
+        },
+        {
+          "title": "【三井ゴールデン・グラブ賞】巨人・松本剛が初受賞「プロに入った時からの目標」 泉口は2年連続2度目（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 17:25",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyc2Q4bnprTmJQZzJXNlJxWFhzUlVFeFpPVEJDQkk5ODJ2SmIzSlZ0aGVieDdua2lzNlVpbm9JV3VvLVNmRHR3dnN6VTlUQWliMEs0MkVHVHBwd3RBVkNLaGZoeXVFSTA4YUtDX0d4aDg1RmxkNDRPVVRGWFZQWXc?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "巨人・松本剛が初受賞、泉口は2年連続受賞",
+          "points": [
+            "「三井ゴールデン・グラブ賞」が発表され、巨人の松本剛選手がプロ入りからの目標だった初受賞を果たした。",
+            "同じく巨人の泉口選手も選出され、こちらは2年連続2度目の栄誉に輝く素晴らしい安定感を見せている。",
+            "守備のスペシャリストとしての誇りと日々の努力が結実するこの賞は、多くの選手にとってプロ生活の大きな勲章となる。"
+          ],
+          "takeaway": "長年の目標を掴み取った選手の歓喜と、連続受賞で実力を証明し続ける選手の誇りが交錯する感動的なトピックです。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/12 10:33",
+        "title": "千葉ジェッツが佐賀戦制し連勝、次戦は滋賀と激突",
+        "summary": "直近1週間の千葉ジェッツは、佐賀バルーナーズとの撃ち合いを100点ゲームで制し3連勝を飾るなど好調を維持。新加入のブランドン・ランドルフの活躍や南船橋装飾プロジェクトの始動など、チーム内外で熱気が高まっている。",
+        "key_players": "富樫勇樹が安定した司令塔ぶりを発揮し、待望のデビュー戦を迎えた新戦力のブランドン・ランドルフも攻守で貢献。また、宇都宮の高島が不振を払拭する17得点を挙げるなど、各チームの主力や新戦力の躍動が光る。",
+        "outlook": "東の雄として快進撃を見せる千葉ジェッツは、4連勝中のホームで迎え撃つ滋賀レイクスとのアウェー戦に挑む。Bプレミアを見据えた熱い戦いが続く中、チームの連勝継続とさらなる戦術浸透に大きな注目が集まる。"
+      },
+      "news": [
+        {
+          "title": "B.LEAGUE PREMIER 滋賀レイクス｜11月12日 vs 千葉ジェッツ｜試合開催情報",
+          "source": "滋賀レイクス",
+          "pub_date": "11/11 23:09",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02b3poNlVLQUkxNUg0Tml5ZnAzWWk4WUtVYm1aeFFjTl9ZSmNKN3lIdU1QWGc0R0lEOFI4S0RZN1plOWtHNHlmLWx0YWFVc3dLREE?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "B.LEAGUE PREMIER 滋賀レイクス",
+          "points": [
+            "「滋賀レイクス」より、B.LEAGUE PREMIER 滋賀レイクスに関する最新動向が報じられました。",
+            "詳細抜粋：滋賀レイクス...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツ「南船橋装飾プロジェクト」バスケの街に熱狂を共につくりたい",
+          "source": "CAMPFIRE (キャンプファイヤー)",
+          "pub_date": "11/11 19:23",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYMDR2SW80dzM0eDI1VmJ6NzRLVnBiN3ZVM3RzOEl0MmQ1RFhKWnpVSEFHU2hLR0kxTlIzZGxOOVNIZUJneW5ucEZZSWdwenZlQzZv?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ「南船橋装飾プロジェクト」バスケの街に熱狂を共に",
+          "points": [
+            "「CAMPFIRE (キャンプファイヤー)」より、千葉ジェッツ「南船橋装飾プロジェクト」バスケの街に熱狂を共につくりたいに関する最新動向が報じられました。",
+            "記事内では「南船橋装飾プロジェクト」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "１００点ゲーム勝利 ８日の佐賀戦 千葉ジェッツ",
+          "source": "千葉日報オンライン",
+          "pub_date": "11/11 10:58",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rUTcxUXJzOVFsSE5TQzRKeTlpUnhpUU1EY2M5REVPMnVVM3NSZUZRVnNXSnFSZ0VPbGZ2Rmptc1ZRb2c3eDdlVEdUemxwV2EyUEJFNEZuNWxXZG9m?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "１００点ゲーム勝利 ８日の佐賀戦 千葉ジェッツ",
+          "points": [
+            "「千葉日報オンライン」より、１００点ゲーム勝利 ８日の佐賀戦 千葉ジェッツに関する最新動向が報じられました。",
+            "詳細抜粋：千葉日報オンライン...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "試合の見どころ 11/12 vs千葉ジェッツ ｜3連勝中の\"東の雄\"を、4連勝中のホームで迎え撃つ",
+          "source": "滋賀レイクス",
+          "pub_date": "11/10 23:51",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hV1BwNDNLMFdTcldjTUZ6UGdUZ1FWRlFDT0Z4Y0NSUDVIZDZEeXVIUUE5VE5EM0N4bjF3Rm52ZGxyQmtTdVVPcmVFMjNVbVhhNG5VTVFNTTl1b2c?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "試合の見どころ 11/12 vs千葉ジェッツ",
+          "points": [
+            "「滋賀レイクス」より、試合の見どころ 11/12 vs千葉ジェッツに関する最新動向が報じられました。",
+            "詳細抜粋：滋賀レイクス...",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "✈️ 千葉ジェッツの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": false
+        },
+        {
+          "title": "宇都宮ブレックス、逃げ切って2連勝 高島が不振払拭の17得点「これから取り返す」",
+          "source": "下野新聞社",
+          "pub_date": "11/11 23:20",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KUE92ZWpSaVBWYjlBaW1kVnVIeWFvSk1vX2hoU3lJdUVsYkpDdWtJeldHQ1pnczFtMC1qVGhpUXZ2QXM2czVXeFFVSFItSERfcGs0ekdlZDRVSnc?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "宇都宮ブレックス、逃げ切って2連勝 高島が不振払拭の17得点",
+          "points": [
+            "「下野新聞社」より、宇都宮ブレックス、逃げ切って2連勝 高島が不振払拭の17得点「これから取り返す」に関する最新動向が報じられました。",
+            "記事内では「これから取り返す」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏀 Bリーグ全体トレンドの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        },
+        {
+          "title": "富山がブラウン通訳兼サポートコーチと契約解除「大学で選手として…」米帰国し再始動",
+          "source": "www.bleague.jp",
+          "pub_date": "11/11 21:47",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vSGw3aTlWYzRCV2hnd3gzLVpKNzBNQVNiSmxGa3dEUjh6WDJocWstZHpjZnhuazk4STZLNk5lZzN3YkpuY2lyejlqcjhqd1dLc2lCVDRROElGOWl3bjcwZkpJcw?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "富山がブラウン通訳兼サポートコーチと契約解除「大学で選手とし",
+          "points": [
+            "「www.bleague.jp」より、富山がブラウン通訳兼サポートコーチと契約解除「大学で選手として…」米帰国し再始動に関する最新動向が報じられました。",
+            "記事内では「大学で選手として…」といった注目の発言・コメントが伝えられています。",
+            "最新の動向や続報はリンク先の元記事全文から確認できます。"
+          ],
+          "takeaway": "🏀 Bリーグ全体トレンドの最新動向をチェックして次戦や今後の展開に注目しましょう！",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/12 10:33",
+        "title": "F1サンパウロGP激闘とWEC最終戦のドラマ",
+        "summary": "F1サンパウロGPではウエットコンディションやピレリ雨用タイヤの安全性に注目が集まり、サインツがウィリアムズの現状に言及。WEC最終戦では平川亮らが大逆転劇を演じ、MotoGPではベッツェッキがカタールGPを制するなど主要カテゴリーで熱戦が展開された。",
+        "key_players": "F1では雨の予選で強さを見せたアロンソや、サンパウロGPで表彰台を獲得したノリスらが話題に。WECでは平川亮や小林可夢偉がダブルタイトルへ向けた大一番を戦い抜き、MotoGPではベッツェッキが今季6勝目を挙げて存在感を示した。",
+        "outlook": "F1ではラスベガスGPでの雨への警戒や開発の先行きが議論される中、アルゼンチンのF1復帰計画やサンパウロGPの長期契約延長など未来に向けた動きも加速。各カテゴリーのシーズン終盤戦における戦いぶりや今後のレギュレーション動向から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "シューマッハからフェルスタッペンまで！耐久レースにも挑戦した意外なF1スター5人",
+          "source": "DAZN",
+          "pub_date": "11/12 01:35",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQb0p0QXFqSDQ5cVVBUUMxb0VDbDVEbC01RjJ2bFhHbVhIN2gyYWx4ZFNvYmlyd1ZKbWlMdXV3QnVmdUZyZFJac1NUT0xHM1VWbkFaRTFUSy0zMWZPZG4wUU5ILWpLdU1ram1lZ2NFNm56S3Y2NE9DUXpQUFpPUmVKQ09jM1BQUnB3RTZ1NTRId1JpM1hUcGNEdmZweXRTOFMzdlFtc1c1RlhXaVhPOFZwT2oxd3V5WVBJelR3OXhqV0gxT1lxNlFHa2N3eXoyREZEeUtxM2pwaFNPeDJhenRQZkNOeElCTmw2ZnBlaEFiY1luYlpRVzJyMXJlblo1YV9yNFNMNVRVUTlhd0tGVDFaSUZuVFBxZw?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "F1スターたちが挑んだ過酷な耐久レースの歴史",
+          "points": [
+            "DAZNがシューマッハやフェルスタッペンらF1スターの耐久レース挑戦を特集した",
+            "最高峰の速さを誇るF1ドライバーたちが異なるカテゴリーのレースにも参戦している",
+            "過酷な長距離を複数人で走る耐久レースならではのドラマや意外な一面が明かされている"
+          ],
+          "takeaway": "F1とは一味違う戦略とチームワークが試される耐久レースの魅力をトップドライバーの挑戦から体感できる。",
+          "is_new": true
+        },
+        {
+          "title": "三樹書房、ホンダのF1挑戦を中村良夫監督が自らが記録した書籍の改訂新版「F1 グランプリ ホンダF1とともに 1963-1968」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 20:10",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xSENZVUJ5OS0tbHY4aXJJZjB3VnFCaDhwT3pHNnZSRzdLVkRHZF82Mk1SX0ZCNUpWNmZrTnl1VkRSa3pWdXlPMVRnOHVwNmI2Q2xiVmFvdjZDamU0d05hLWxNSFctdklXbUJ1MmVGdXpvdkloVWFVR2QtZlJFS1E?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ホンダ黎明期のF1挑戦を綴った名著が改訂新版で登場",
+          "points": [
+            "三樹書房からホンダのF1挑戦初期を記録した書籍の改訂新版が発売されることになった",
+            "当時を率いた中村良夫監督自身が記録した貴重な歴史的資料として知られている",
+            "日本のモータースポーツが世界最高峰に挑んだ黎明期の熱気と苦闘が克明に描かれている"
+          ],
+          "takeaway": "日本メーカーが世界へ挑んだ原点と、当時の知られざるドラマを歴史的資料から深く知ることができる。",
+          "is_new": true
+        },
+        {
+          "title": "【SNS特集：F1サンパウロGP】ノリスが表彰台でシャンパンボトル粉砕／ボルトレートの恋人もアウディ特別リバリーに",
+          "source": "autosport web",
+          "pub_date": "11/11 19:08",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1kYlM2bUlBbDRRazNVVmc4TWNLWnEyQ3BTMWRpTXJHaFk2NllIVkRQZWQ0aDlHQ1JrYXhFOXNpMEdDZnFsMU5Z?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "F1サンパウロGPの裏側をSNSの話題から振り返る",
+          "points": [
+            "F1サンパウロGPの週末における選手や関係者のSNSでのトピックスが特集された",
+            "ノリスが表彰台でシャンパンボトルを粉砕するハプニングなどが注目を集めた",
+            "ボルトレートの恋人に関連するアウディの特別リバリーなど華やかな話題も紹介されている"
+          ],
+          "takeaway": "公式映像ではわからないパドックの和やかな雰囲気やドライバーたちのリアルな素顔をSNSを通じて楽しめる。",
+          "is_new": true
+        },
+        {
+          "title": "F1 PUメーカー救済システム『ADUO』の今季最終評価が発表に。性能差に変化も、追加の優遇措置はなし",
+          "source": "autosport web",
+          "pub_date": "11/11 17:50",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE42LURxdE1faEtWUVlyMHVxWFpwT3JCMUU1SFB3eGV5WExFOTVLNnBpeHZoNENPTy05SF9jSE4tSmJlbWNGVFMw?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "F1のPUメーカー救済システム最終評価が発表",
+          "points": [
+            "F1のパワーユニットメーカー救済システムであるADUOの今季最終評価が発表された",
+            "各メーカー間の性能差に変化が見られたものの追加の優遇措置は見送られた",
+            "規定に基づく公平性を保ちながら技術開発のバランスをとる重要な判断となっている"
+          ],
+          "takeaway": "緊密なパワーバランスが求められるF1において、技術規定とメーカー救済の裏側にある緊迫した事情がよくわかる。",
+          "is_new": true
+        },
+        {
+          "title": "アロンソこそ“真の雨の王”F1復帰以降「雨の予選でQ3進出率100％」…母国メディアが報じた驚愕のスタッツ｜F1（DAZN News）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 17:31",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKTXVBV3k1OXlPUkt1b2FkZ0RsbkNsSndYZjZ2cFZ6X1dxc3BsMktyeEpTc3pwNzU3OENCcVpEakxtX3FIbFk1SWY4N0JJbEpBTGhBanpwczJObzdwOFFNSGI4N3RWRy11djU5bkRMMjZrWkN1MlEzZllDOWlZRzg?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "アロンソが誇る雨の予選Q3進出率100％の驚異的記録",
+          "points": [
+            "F1復帰以降のアロンソが雨の予選でQ3進出率100パーセントを記録していると報じられた",
+            "母国メディアも驚愕する圧倒的なドライビングスキルと勝負強さが改めて証明されている",
+            "ベテランとなっても衰えない卓越したマシンコントロール能力が数字として表れている"
+          ],
+          "takeaway": "悪条件でこそ真価を発揮するベテランの圧倒的な技術と、いまだに衰えないドライビングの神髄を堪能できる。",
+          "is_new": true
+        },
+        {
+          "title": "決勝を制したベッツェッキ、辛くも逆転王座に望みを繋ぐ「勝利にはとても満足している」／第20戦カタールGP",
+          "source": "autosport web",
+          "pub_date": "11/11 14:38",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE50QUFRZUtfZ1ZoTllQb21tanZ2ZmdKQ0N1WlBMSTBubFoxQmVhX2k1LUlHRmVPN0tqMlRiUy00bUZ4ZmNmLUlySWtB?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ベッツェッキがカタールGP決勝を制し王座へ望み",
+          "points": [
+            "モータースポーツの第20戦カタールGP決勝でベッツェッキが勝利を掴み取った",
+            "この勝利により辛くも逆転王座獲得への望みを繋ぐことに成功した",
+            "レース後にベッツェッキ自身も勝利への強い満足感と安堵のコメントを残している"
+          ],
+          "takeaway": "土壇場で勝利をもぎ取りチャンピオン争いを最後まで面白くするドライバーの執念と熱い戦いぶりに注目したい。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/12 10:34",
+        "title": "MLB移籍市場から世界各地の熱狂競技まで直近1週間の動向を総括",
+        "summary": "今週はMLB今永昇太の去就やFA市場、WTAファイナルズでの激戦をはじめ、NFLドラフト展望、NBAウォリアーズの快進撃、シクロクロスやPDCダーツ、さらに国内開催のMLB主催ホームラン競争まで多様な競技が展開された。",
+        "key_players": "MLBイベントで本塁打を放った藤浪晋太郎、カブス再契約など複数球団と接触する今永昇太、WTAファイナルズで白星発進のサバレンカやノスコバ、パオリーニらの活躍が光った。",
+        "outlook": "WTAファイナルズの決勝トーナメント行方やNBAウォリアーズの連勝継続、ボクシング中谷潤人の来年2月の動向に加え、MLB各選手の去就や来季へ向けた各競技の熱戦から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "ダーツ PDCクラシックシリーズ 2017 UKオープン 決勝 #7 ガーウェン・プライス vs. ピーター・ライト",
+          "source": "J SPORTS",
+          "pub_date": "11/08 10:56",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84eUE3YWhNZGpVTnR6TW9GcUtfbW9SM3ppUFZNZEZ4aURYaFpEQWZBUTljSjZUMU1fd01BUGFpcUtZT1FObVJyZW5FcmtRNm1qU0dMNnozLWtOOFdDVnhMVGREMW5Cd0ktcEtHdQ?oc=5",
+          "sub_tag": "🌏 地域熱狂：PDCダーツ(英国・欧州)",
+          "sub_type": "unique",
+          "headline": "PDCダーツ最高峰の頂上決戦",
+          "points": [
+            "ガーウェン・プライスとピーター・ライトという強豪同士によるUKオープンの決勝戦である。",
+            "数千人の観客が仮装して大合唱するイギリス・欧州の熱狂的なアリーナスポーツとして知られている。",
+            "賞金数億円規模を誇り、独特のエンタメ性と高い技術が融合した世界最高峰のダーツ大会である。"
+          ],
+          "takeaway": "数千人の大歓声と大合唱に包まれた熱狂のアリーナで繰り広げられる、世界最高峰の超一級品のダーツ勝負を見逃すな。",
+          "is_new": false
+        },
+        {
+          "title": "2027年NFLドラフトで活躍が予想される選手をチェック | DAZN News 日本",
+          "source": "DAZN",
+          "pub_date": "11/12 04:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQUFJGSEtiMGtpSTZtbjJUYXlMcDJqNmJwVWtxX0dTbXhfaXZjQTNVeUhEMzRwZDZobXl6SEozcE1VWFFvS0kyT3ZkS09LbXBOSF9hTG1LeHoxLTRaakpDNUdDanhpNGQ5c2lGaDhlcHRGbDdxbHZicVRzdnNRbDZpWmN6WTZncFpkc3JBc3VNa3Rrbnozc3U4T3VlZ2NFUkhzZ2R4WVhNZW50Yk02TDdXTGRZWW5kVjV0U19HVVN4RHpaeVMyQ3E1dkhWMldDeXdBVE9zTHBGLV83MDhHT3VSTFN4RlIxaVhnNXVpN2U1T3MwQ3VEYVo3T2ZaZEJTWmctWnVKZFBONnJ4LUFuZWZBN00xeXlMQmNDdmN2QkFMTW5MQktlZ2tNeHVMMFkydVVHMUNiSUpkdDczcVRrZ3J5MjU0RUNWYnZw?oc=5",
+          "sub_tag": "🏈 NFL・米アメフト",
+          "sub_type": "frontier",
+          "headline": "2027年NFLドラフト注目選手",
+          "points": [
+            "2027年のNFLドラフトに向けて、将来の活躍が期待される注目選手たちの最新情報が紹介されている。",
+            "全米で絶大な人気と経済規模を誇るNFLの未来を担うスター候補たちの動向がチェックできる。",
+            "アメリカンフットボールは緻密な戦術と肉弾戦が融合し、全米が熱狂する巨大スポーツエンターテインメントである。"
+          ],
+          "takeaway": "数年後のNFLを背負って立つ未来のスター候補を青田買いの感覚で先取りし、次世代の才能の片鱗を楽しもう。",
+          "is_new": true
+        },
+        {
+          "title": "2連勝のノスコバとエラーニ／パオリーニが決勝トーナメント進出一番乗り [WTAファイナルズ／テニス]（テニスマガジンONLINE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 19:30",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9penlUVGY4RGdjOTN0aTRxblB4bEU2bHdsS0ttWldlSGlMU1dMdXZuMERyWGR6TVkxd3BCZzU0NEJZa0Rra3FDRFh3RzNtYkU3QnlkVVAzd1RkRHVHdGJNdTlDT0wwY0hJU0lmOXRvNEszLXZYVmM2Z2FEZGR1Mzg?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "ノスコバとエラーニ組が決勝進出",
+          "points": [
+            "WTAファイナルズにおいてノスコバとエラーニ／パオリーニ組が2連勝を飾り、決勝トーナメント進出一番乗りを決めた。",
+            "シーズン上位のトップ選手のみが出場を許される最高峰の大会で、白熱した戦いが繰り広げられている。",
+            "世界中のテニスファンが注目するビッグトーナメントであり、年間女王の座をかけた激戦が展開されている。"
+          ],
+          "takeaway": "トップ・オブ・トップが集うシーズン最終戦で、いち早く決勝トーナメントを決めた強者たちの圧倒的な勝負強さに注目。",
+          "is_new": true
+        },
+        {
+          "title": "泥のスーパープレスティージュ第3戦 バッカーとメイソンが大きな勝利を掴み取る",
+          "source": "シクロワイアード",
+          "pub_date": "11/12 09:16",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nNVNPUWQ2bTUzWlRucVltOXZ1QVU3SUVNR2l0UjZ5VTFMNGpxeF81dWt5SEZzLUt6TEVzOVA4bGpGa21lU2w4Q2k4b0FfNTl0TnNoNg?oc=5",
+          "sub_tag": "⛸️🚴 氷雪・自転車・卓球",
+          "sub_type": "frontier",
+          "headline": "シクロクロス第3戦でバッカーとメイソン勝利",
+          "points": [
+            "シクロクロスのスーパープレスティージュ第3戦で、バッカーとメイソンがそれぞれ大きな勝利を掴み取った。",
+            "ヨーロッパを中心に冬季のトレーニングとして発展し、現在は独立した過酷な自転車競技として熱狂的な人気を誇る。",
+            "舗装路だけでなく泥の悪路や階段を自転車を担いで駆け抜ける、高い技術とタフさが求められる過酷なスポーツである。"
+          ],
+          "takeaway": "泥まみれになりながら悪路を駆け抜け、自転車を担いで障害物を超えるシクロクロスならではの過酷さと躍動感を楽しもう。",
+          "is_new": true
+        },
+        {
+          "title": "FA今永昇太、MLB2桁球団と接触 カブス再契約も「可能性はある」、複数年希望（Full-Count）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 09:04",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUVR6MWNZRzFkTUtGSW1MT2xmZDRYZ0xQMWM0MVNqa0RMUEpfb1VuUlV4MFE5R3M4c2NBTTlaTy15d2phZU9COXJROVZPemZCbkN0NjNvMHN0OEpDdDE4eXNZNWg4VUdKblZPbFFfMmFJWUdpUG9weC1QTkN2c3M?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "FA今永昇太にMLB2桁球団が接触",
+          "points": [
+            "FAとなった今永昇太に対し、MLBの2桁にのぼる球団が接触していることが明らかになった。",
+            "カブスとの再契約の可能性も残されており、複数年契約を希望して去就に大きな注目が集まっている。",
+            "世界最高峰の舞台であるMLBで実力を証明した日本人左腕の、今後の移籍先決定に向けた動向から目が離せない。"
+          ],
+          "takeaway": "メジャーリーグで強烈なインパクトを残した今永昇太の去就と、争奪戦を繰り広げる各球団の動きに注目が集まる。",
+          "is_new": true
+        },
+        {
+          "title": "開幕３連敗から８連勝！カーHCが手応えを語るウォリアーズの強さ「攻守両面でトップ10に入ることが目標」＜DUNKSHOOT＞",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 19:16",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84bFZEWklCMmdzSDJHVVlmWkRGbHlRZk1CWDNKc3BsZFBSVzFJOFFTSldKZ1pKTWMzYVJrNHRJOXk0RnRZXzV6d0RhLWhrS2pGVUVldUZPRGFremFlN1lmQkxkMHZLcWI0dmd0NUVRc3ViVC0xZ3hJNHlZakQ2NUk?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "ウォリアーズが怒涛の8連勝で急浮上",
+          "points": [
+            "開幕3連敗と出遅れたウォリアーズだが、その後怒涛の8連勝を飾りチーム状態を大きく立て直した。",
+            "カーHCが手応えを語り、攻守両面でリーグのトップ10に入ることをチームの新たな目標として掲げている。",
+            "世界最高峰のプロバスケットボールリーグNBAにおいて、戦術的な修正力と選手の噛み合わせが光る快進撃である。"
+          ],
+          "takeaway": "苦しい開幕からの見事な立て直しを見せたウォリアーズが、強豪ひしめくNBAでどこまで勝ち星を伸ばすのか要注目。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
