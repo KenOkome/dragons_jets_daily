@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-13",
+  "updated_at": "11月13日 09:31",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/13 09:30",
+        "title": "中日秋季キャンプ熱気続く！新加入＆若手の契約更改も続々",
+        "summary": "中日は秋季キャンプが本格化し、工藤新監督の指導や高知での馬淵監督らの激励が話題に。若手の契約更改やドラフト新人の仮契約も進み、来季への世代交代と底上げが加速している。",
+        "key_players": "ドラ2柴崎が仮契約で意気込みを語り、桜井は増額更改。高橋幸佑や篠崎、清水らは秋季キャンプで工藤新監督や松山に学び、岡林は英智コーチと再タッグ。板山や32歳内野手も更改を終えた。",
+        "outlook": "工藤新監督の指導方針や秋季キャンプでの若手の成長曲線に注目。また、石川昂弥の契約更改や来季のレギュラー争い、新戦力のフィット具合がファンの最大の関心事となる。"
+      },
+      "news": [
+        {
+          "title": "中日ドラゴンズのドラフト2位指名・柴崎聖人外野手の入団決定 「シーズン通して1軍で活躍したい」",
+          "source": "中日新聞Web",
+          "pub_date": "11/12 19:25",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYVTVXZ28tQXA4SFFZelpWSVhTdVE4emNBNUpxTXluOGg3WTlhcnRNQkd5YzlIR2xhdEVVX2h5azhZSnhYd1hoUDhaenFGR3BOcDJYZg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラフト2位の柴崎が入団合意",
+          "points": [
+            "中日ドラゴンズからドラフト2位で指名された王子の柴崎聖人外野手が仮契約を結んだ。",
+            "入団会見では「シーズンを通して1軍で活躍したい」と力強い意気込みを語っている。",
+            "即戦力としての期待が大きい左打者であり、チームの打線強化の切り札として注目される。"
+          ],
+          "takeaway": "プロの舞台でどこまで通用するのか。即戦力左打者として1軍のレギュラー定着を目指すルーキーの初年度の躍動から目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "明徳義塾高・馬淵史郎監督、中日の高知キャンプ訪問、『頑張れよ！』激励受けたコーチ就任予定の森岡良介さん「身が引き締まります」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/12 19:22",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rZ01QdGJSLXJFcnU3bmpvekY5M3hOTXhQNlJWckpJYzRpeS16cEZyV2ctZUpRODlpMVZnaEZlZ3EwZnFlU18wM2ktbGpUdUk5dXVfVg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "明徳義塾・馬淵監督がキャンプ訪問",
+          "points": [
+            "高知キャンプを明徳義塾高校の馬淵史郎監督が訪れ、中日コーチ就任予定の森岡良介さんを激励した。",
+            "恩師からの温かい「頑張れよ！」という言葉を受け、森岡さんは身が引き締まる思いを抱いた。",
+            "名将からの熱いエールを胸に、新体制となる中日コーチ陣の新たな挑戦がスタートする。"
+          ],
+          "takeaway": "指導者同士の絆と熱いメッセージがチームに活力を与える。生まれ変わる中日ベンチワークの結束力に期待が高まる瞬間である。",
+          "is_new": true
+        },
+        {
+          "title": "即戦力左打者・王子の柴崎聖人選手が中日と仮契約 恩師の荒木氏と再会し誓う「シーズン通して1軍へ」",
+          "source": "愛知のニュース",
+          "pub_date": "11/12 19:04",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jUWF2NkpvanNTbXpLcVZZUFg4enZhN3A0YUJNbzFxZU95MTJqbnhhYnA4bThjQ3ZHdUw4YkN1OEl5a0p0YVFYNngzblZJdUNkekV0RmxCNnJtQmc?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "柴崎が仮契約、恩師との再会も",
+          "points": [
+            "王子硬式野球部の柴崎聖人選手が中日ドラゴンズと仮契約を交わし、入団へ前進した。",
+            "恩師である荒木氏との再会を果たし、プロの世界でシーズンを通して1軍で戦い抜くことを誓った。",
+            "社会人野球で培った確かな技術をベースに、プロの荒波へ挑む即戦力として期待が集中している。"
+          ],
+          "takeaway": "恩師の前で誓った目標に向かって、ルーキーがプロの第一歩を踏み出す。泥臭くチームを引っ張る姿に期待したい。",
+          "is_new": true
+        },
+        {
+          "title": "【中日】桜井頼之介、300万円アップの1500万円で契約更改…14試合に登板し、2勝5敗「先発も中継ぎもやらさせてもらっていい経験に」：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/12 16:31",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MQjRCcFN5RTZzZWNGUW1IVVVMY0tIbjRQeV9LWjRTQ1VGcC02OXRHbzAybGZ6SXR2SHlUOEJVbnA0R0V2dUNhOUk4WU95OUFxX3hEYw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "桜井が300万円増で契約更改",
+          "points": [
+            "中日の桜井頼之介投手が契約更改に臨み、300万円アップの年俸1500万円でサインした。",
+            "今季は14試合に登板して2勝5敗という成績を残し、貴重な経験を積むシーズンとなった。",
+            "先発と中継ぎの両方を任されたユーティリティな起用が、来季への大きな財産となっている。"
+          ],
+          "takeaway": "あらゆる役割をこなしたタフな経験が次代の飛躍につながる。さらなるブルペンやローテーションの柱としての成長が見逃せない。",
+          "is_new": true
+        },
+        {
+          "title": "「長嶋茂雄賞」初代はセ・リーグ三冠王 阪神 佐藤輝明選手 | NHKニュース",
+          "source": "Howl.Link",
+          "pub_date": "11/12 17:36",
+          "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9JN0hYSFJfWWdrNEU5RzhnSTFGTDRNV0lNT1Q0RUIwT3ZhdjFFai04RWtudGVORHM2ckRF?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "佐藤輝明が初代長嶋茂雄賞を受賞",
+          "points": [
+            "新設された「長嶋茂雄賞」の初代受賞者に、セ・リーグの三冠王に輝いた阪神の佐藤輝明選手が選ばれた。",
+            "球史に残る圧倒的な打撃成績を残し、日本プロ野球界を大きく盛り上げた功績が高く評価された。",
+            "ミスタープロ野球の名を冠する栄誉ある賞の初代にふさわしい、圧巻のシーズンパフォーマンスとなった。"
+          ],
+          "takeaway": "日本野球の象徴である長嶋茂雄氏の名を冠した栄誉ある賞の初代受賞。球界の顔としてさらに進化を遂げる姿に酔いしれたい。",
+          "is_new": true
+        },
+        {
+          "title": "阪神が2027年度版カレンダーをセ・リーグ優勝記念の特別デザインで発売（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 14:45",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pQ3ZPMEhTUjg4aTRlV3JicjRKSmdFbG14ek9sVTRVTzNobW5LcnFZeUwtbTg3V2dzMTAyUjZES0VfQUZxYzZzN0JwUmxzX1NGU1dfX3RTaEswdlR4dWxKREZPTk16TkU1X1k4OU0zYm9aa2RHZ0RLM1M2ellfYnM?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "阪神が優勝記念カレンダーを発売",
+          "points": [
+            "阪神タイガースが、セ・リーグ優勝を記念した特別デザインの2027年度版カレンダーを発売する。",
+            "ファンにとって歓喜のシーズンをいつでも振り返ることができる記念碑的なグッズとなっている。",
+            "チームの栄光の記憶を形として残す、熱狂的なファン必携のアイテムとして注目を集めている。"
+          ],
+          "takeaway": "栄冠の感動を一年中手元に置いて堪能できる。ファンなら誰もが手に入れたい記念アイテムの魅力を味わおう。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/13 09:30",
+        "title": "千葉ジェッツ、敵地での接戦を制し連勝！次戦は長崎戦へ",
+        "summary": "直近1週間、千葉ジェッツは佐賀戦での100点ゲーム勝利や、11月12日の滋賀レイクス戦での87-90の接戦勝利など快進撃を続ける。地域密着プロジェクトやイベント開催など、コート外の盛り上がりも活発だ。",
+        "key_players": "攻守でチームを牽引する千葉ジェッツの選手たちは、佐賀戦での111得点や滋賀戦での勝負強さを発揮。連勝街道を支える主軸のパフォーマンスが、次戦の長崎ヴェルカ戦でも最大の鍵となる。",
+        "outlook": "11月14日にはホームで長崎ヴェルカ戦が控えている。勢いに乗る東の雄が、南船橋での街づくりプロジェクトなど熱狂を高めるクラブの期待に応え、連勝をどこまで伸ばせるかファン必見の戦いが続く。"
+      },
+      "news": [
+        {
+          "title": "【試合結果】滋賀レイクス 87-90 千葉ジェッツ（2026/11/12）",
+          "source": "滋賀レイクス",
+          "pub_date": "11/13 06:52",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ZZjdTUWI3NXN1UWo0VGxCckZMMGgzTEE3dVFSV1F5YXVfVUNrUDNhSzVGYko1UGFlYlVYZEZGUzBXV3FNY3U1V3FTdnZVc0Vua182VUZuZHl3WVU?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツが滋賀との接戦を制す",
+          "points": [
+            "2026年11月12日に開催された試合で、千葉ジェッツが滋賀レイクスを相手に90対87で勝利を収めた。",
+            "両チームが一歩も譲らない激しい展開の中、終盤の競り合いを制して貴重な白星を掴み取った。",
+            "Bリーグの舞台では、一瞬の隙も許されない緊迫したシーソーゲームが毎節のように繰り広げられる。"
+          ],
+          "takeaway": "わずか3点差という手に汗握るデッドヒートを制した千葉ジェッツの勝負強さと、最後まで諦めない両チームの激闘が見どころです。",
+          "is_new": true
+        },
+        {
+          "title": "【試合情報】11/14 千葉ジェッツvs.長崎ヴェルカ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/13 00:58",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pRmg5RGlfNVV4cmZvekhoWVBzS0VsRFBHN2pQamM2R2I0N2VLWHpqcjZpNkIxVHcyaUdJZjZYRlcteUs3ZWJkX1R5azRHV0U?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "11月14日に千葉対長崎戦が開催",
+          "points": [
+            "Resona Group B.LEAGUE 2026-27 SEASONの試合として、11月14日に千葉ジェッツと長崎ヴェルカが対戦する。",
+            "シーズンを戦い抜く上で重要な位置づけとなる両チームの激突に向けた試合情報が発表された。",
+            "Bリーグでは週末だけでなく平日のナイトゲームなども組まれ、ファンを熱狂させるスケジュールが続く。"
+          ],
+          "takeaway": "強豪ひしめくBリーグにおいて、千葉ジェッツが長崎ヴェルカを相手にどのような戦術で挑むのか、試合展開から目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "B.LEAGUE PREMIER 滋賀レイクス｜11月12日 vs 千葉ジェッツ｜試合開催情報",
+          "source": "滋賀レイクス",
+          "pub_date": "11/12 23:56",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE02b3poNlVLQUkxNUg0Tml5ZnAzWWk4WUtVYm1aeFFjTl9ZSmNKN3lIdU1QWGc0R0lEOFI4S0RZN1plOWtHNHlmLWx0YWFVc3dLREE?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "B.LEAGUE PREMIERの開催情報公開",
+          "points": [
+            "B.LEAGUE PREMIERにおける11月12日の滋賀レイクス対千葉ジェッツの試合開催情報が事前に公開された。",
+            "新しく注目を集めるB.LEAGUE PREMIERの舞台で行われる注目のカードとしてファンに広く告知された。",
+            "最高峰の戦いが集まる同カテゴリーでは、各クラブのプライドをかけたハイレベルな戦いが展開される。"
+          ],
+          "takeaway": "新時代のB.LEAGUE PREMIERで繰り広げられる熱戦の背景にある、クラブごとの準備や開催情報を知ることで観戦の楽しみが倍増します。",
+          "is_new": true
+        },
+        {
+          "title": "【Bﾌﾟﾚﾐｱ26-27】滋賀レイクス vs 千葉ジェッツ G1【ワイ氏の反応】",
+          "source": "Basketball News Times",
+          "pub_date": "11/12 21:35",
+          "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNbjVXSGRjbVJKcFhjcER2NXp3OHhfVjVyQ2FlRzBQZF82aTVBYk5abDB3LWNfQnVSVHlicVVmREUyWnJMbElhMlY4QjBrRkJfWWhYdTF5WkV4NUJObVc5S1QwNVJ0VWlWOUQwTGxZSEpscjJVWkcweWNoMWpJNDk2MzlmRnNIeGdxMmJfYmZ1c2MtSzd1RHY3dnBoSUVGZFVJaTMxYVJ2YkJYd01pQWdHcXJoYXlGckZyZWlNVUF0VEFUU0lVaTZDeVpIdEFlcE9nQmVBMzRvaTJGMzJFbU9nS2dZczRiNE9jX3hWaGpwVmFvclpBRFBYY212OVZlemMxUk82N3ZvYm9LQno2QVZuVlcxVXpEXzdMcHdMU2VFNG85aW1pcVN2UV91MlE3dXNPQzNqTHp0aGpWMlRhUWc?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "滋賀対千葉G1のファンによる反応",
+          "points": [
+            "Bプレミア26-27シーズンの滋賀レイクス対千葉ジェッツの第1戦（G1）に関するファンの反応が取り上げられた。",
+            "試合を観戦したファンやメディアによるリアルタイムな感想や独自の視点での分析がシェアされている。",
+            "熱狂的なファンの声や考察に触れることで、試合結果だけでは見えてこない多角的な面白さを知ることができる。"
+          ],
+          "takeaway": "試合の勝敗だけでなく、熱いファンコミュニティがどのようなポイントに興奮し、どうリアクションしているのかを追う楽しさを味わえます。",
+          "is_new": true
+        },
+        {
+          "title": "【11/11更新】レインコートロウル登場 および「雨の日はロウル日和！プロジェクト」実施のお知らせ",
+          "source": "川崎ブレイブサンダース",
+          "pub_date": "11/12 19:34",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GakNtUVotdmd1cnBiaXdTVm5OdDliT25mUUhXNC10MVFoelhfV2FqVE5GVEFwNU5HWS1VeWRJM1d2TGVPNGYtRnNyZjZYZkpaX3hoU0w2Nk11bmRjNFFEdzBtNlJwUQ?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "川崎がレインコートロウルを発表",
+          "points": [
+            "川崎ブレイブサンダースが、レインコート姿のキャラクター・ロウルが登場する企画を発表した。",
+            "「雨の日はロウル日和！プロジェクト」と題し、雨の日でもファンが楽しめるような独自イベントが実施される。",
+            "Bリーグ各クラブは、マスコットを活用したユニークな地域密着型のファンサービスを積極的に展開している。"
+          ],
+          "takeaway": "試合以外の場面でもファンを楽しませてくれるマスコットの愛らしい姿や、雨の日ならではの心温まる企画の数々に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "「インフロニア B.LEAGUE U18 ELITE LEAGUE 2026」開催スケジュールおよびホーム開催時の観戦席・観戦方法について",
+          "source": "横浜ビー・コルセアーズ",
+          "pub_date": "11/12 16:26",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wWGliU090bVhzZ1Q0RDhYTmJ0WDhGOWdBMVFRdk4xQU93bEhjN3hlRmxUUGlPQWxabU1iWWZwMTlSMlN4X1BjV2hxVXZYSmo5aEkzQkdDWFJ3R3M?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "U18エリートリーグの開催情報発表",
+          "points": [
+            "「インフロニア B.LEAGUE U18 ELITE LEAGUE 2026」の開催スケジュールと観戦方法が発表された。",
+            "横浜ビー・コルセアーズのホーム開催時における観戦席の詳細や、現地での観戦方法がファンに向けて案内されている。",
+            "次世代を担う若手選手たちがトップレベルで競い合うユース世代の大会は、将来の日本バスケ界を占う上で非常に重要である。"
+          ],
+          "takeaway": "未来のBリーグや日本代表を背負う原石たちが躍動するU18世代の真剣勝負を、会場で間近に目撃できる貴重なチャンスです。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/13 09:30",
+        "title": "F1若手抜擢とWEC/MotoGP熱戦の1週間",
+        "summary": "19歳ツォロフのレッドブル等リザーブ就任が話題に。WEC最終戦ではキャデラックが今季初勝利を飾り平川亮が大逆転王者に。MotoGPではベッツェッキの活躍や小椋藍の独占取材が注目を集めた。",
+        "key_players": "F1でリザーブに就任する19歳ツォロフ、ハース解雇後に沈黙を破ったオコン。WECで大逆転劇を成し遂げた平川亮。MotoGPで今季6勝目を挙げたベッツェッキや、初勝利の背景を語った小椋藍。",
+        "outlook": "F1では次戦ラスベガスGPに向けた雨用タイヤへの懸念や、サインツらによる開発方針への言及がある。各カテゴリーのシーズン終盤戦におけるドライバーの動向や次季への準備、アルゼンチンのF1復帰計画の行方に注目。"
+      },
+      "news": [
+        {
+          "title": "Ｆ１＝19歳ツォロフがリザーブドライバー就任、レッドブル・ＲＢ発表（ロイター）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/13 09:18",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wUWxMNTJCX1ZLSnBQekFia2h0Yjc4TGY2dktlSHNvSjhfQWlzenA5LWNKT1dvNkI3U0NBTlg1UTcxNG1rLXVRX0VBUDRpYzdNWEN2WG11Qng3SnNtQTdKZ1UxeU5zMGl2ZlRtSE5uMV95M0FKVXJEQVVPTTF1aXM?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "19歳のニコラ・ツォロフがリザーブに就任",
+          "points": [
+            "19歳の若手ドライバーであるニコラ・ツォロフが、レッドブルおよびレーシングブルズのリザーブドライバーに就任したことが発表された。",
+            "F1の舞台を目指す若手にとって重要なステップであり、トップチームのバックアップ体制の一角を担うことになる。",
+            "F1は世界最高峰のモータースポーツであり、次世代を担う若手ドライバーの登用やチーム間のシート争いに大きな注目が集まる。"
+          ],
+          "takeaway": "F1の未来を担う若手ドライバーがトップチームの控えとしてどう成長していくか、次世代の才能発掘に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "【F1】角田裕毅の来季は？ツォロフがレッドブル＆レーシングブルズのリザーブに就任 続投のローソンを両代表が称賛",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/13 06:01",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZR19Ea205b0VnaU80eHlvMDFJVXV3XzRjdmVabm1LSDdhV3ZVNk1qZndvLWxCOVVlNFpIUFdiTFRpLUVqOFlvMlMtamlPMENJTHhwdERJeVM4ZTJmOFI4ZTI2MlNlTG4xRFotQWdXVFU0eVVKamtHdTVNNTNMRVU?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ツォロフのリザーブ就任とローソンへの評価",
+          "points": [
+            "ニコラ・ツォロフがレッドブルおよびレーシングブルズのリザーブドライバーに就任し、角田裕毅の来季去就にも関心が集まっている。",
+            "両チームの代表からは、来季の続投が決まったローソンに対する高い称賛のコメントが寄せられている。",
+            "F1ではドライバーの契約やシート争いがシーズン内外を通じてチームの勢力図や戦略に大きな影響を与え続ける。"
+          ],
+          "takeaway": "激しいシート争いが繰り広げられるF1において、若手の抜擢や現役ドライバーの評価がどう結実するか目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "ニコラ・ツォロフ、2027年はレッドブルとレーシングブルズでリザーブドライバーに就任",
+          "source": "autosport web",
+          "pub_date": "11/13 00:39",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE11aGlvZTZfdFdhQnk4aE8tOWEydmhtMERsZVNpaGUxMlU5aUF1NWN0ZW0wcklNNUM2cVA4VEJ2T05fcjFhVW5r?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ニコラ・ツォロフの2027年リザーブ就任",
+          "points": [
+            "ニコラ・ツォロフが2027年シーズンに向けて、レッドブルおよびレーシングブルズのリザーブドライバーに就任することが決まった。",
+            "将来のレギュラーシート獲得を見据え、トップチームの重要なバックアップ要員として契約を結んだ形となる。",
+            "F1の育成システムにおいて、リザーブドライバーが緊急時の出走や開発テストを通じて果たす役割は非常に大きい。"
+          ],
+          "takeaway": "数年先のシートを見据えた若手の登用計画から、F1チームがいかに緻密に次世代を育てているかがよくわかります。",
+          "is_new": true
+        },
+        {
+          "title": "オコン、ハースF1解雇後に沈黙破る「皆さんの支えに心から感謝」（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 19:05",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93azJ4cko2T2lhaEJTbjMyNzVfd3EyY0lITHp4dFdnWGh6U0xXTWhHM1E0VzdFNjRrRnI1MGlVaGstMk5STmFxTWRKUzlKVW41MkhrNVV6bm9EYUxXczVEakpMMEZhU1VsR3MyeWVhNk5fNFVoelhLSnh5b2pJaGs?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ハースF1解雇のオコンが支援に感謝を表明",
+          "points": [
+            "ハースF1チームを解雇されたオコンが沈黙を破り、ファンや関係者からの温かい支えに対して心からの感謝の意を表明した。",
+            "F1の世界では突然の契約解除や移籍が日常茶飯事であり、ドライバーたちのメンタルや発言にも大きな注目が集まる。",
+            "最高峰のプレッシャーが渦巻くモータースポーツ界において、困難な状況を乗り越えるアスリートの姿勢はファンの心を打つ。"
+          ],
+          "takeaway": "過酷なF1の世界で逆境に直面したドライバーが、どのように前を向いて次のキャリアへ歩み出すのかが見どころです。",
+          "is_new": true
+        },
+        {
+          "title": "【動画】「必要以上の筋肉は要りません」MotoGP・小椋藍が語る初勝利の背景と“時速260km”転倒の恐怖「人間もバイクもゴロゴロ…」《独占取材／前編》 | NumberPREMIER - ナンバープレミア",
+          "source": "Number Web",
+          "pub_date": "11/12 19:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XdFFwTlZuUUloaE9sY2ZneE9mWUE1eG1WSDF2ZGxSOUVzQU1QVUYydVpubUttNC1NckVGSUJkVkFVZnRBWnktTXJmS0NBQUtLYUxGWk9vY0dBZw?oc=5",
+          "sub_tag": "🏍️ MotoGP",
+          "sub_type": "normal",
+          "headline": "小椋藍が初勝利の背景と時速260kmの恐怖を語る",
+          "points": [
+            "MotoGPで初勝利を飾った小椋藍が独占取材に応じ、無駄な筋肉をそぎ落とした独自の身体づくりの背景を明かした。",
+            "時速260kmでの恐怖の転倒事故を振り返り、人間もバイクも激しく転がる過酷なレースの現実について語っている。",
+            "世界最高峰の二輪ロードレースであるMotoGPは、肉体的な極限と恐怖に打ち勝つメンタルが求められるスポーツである。"
+          ],
+          "takeaway": "時速300km超も飛び出す二輪最高峰の極限世界で、ライダーが恐怖とどう向き合い勝利を掴んだのかその哲学に迫ります。",
+          "is_new": true
+        },
+        {
+          "title": "ベテランレース記者をして「やっぱりF1は別格」だった！ レース規模もホスピタリティも何もかもが最高峰で見るものすべてが新鮮【みどり独乙通信】（WEB CARTOP）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 17:47",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Oc3JBb3lDbzk3OUt5YmNyQkZyaDBkaEljeUpjTGZZWVRBN3pGVW5PNjJzazN3T0Q2TEpwRHBJc29PMHdVQjNBRkVQRUhkSXdtZ1lQTXNJZGZ3MlIwR3BFS0NYaUYxMVhhbnR3azJZdGZVdm1uT2hXdXhKbzgyeG8?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ベテラン記者も絶賛するF1の圧倒的な規模と魅力",
+          "points": [
+            "多くの現場を見てきたベテランレース記者が、レースの規模やホスピタリティの面でF1はやはり別格であると絶賛した。",
+            "世界中を転戦するモータースポーツの最高峰として、細部に至るまで妥協のない運営や演出がなされていることを伝えている。",
+            "F1は単なる速さを競うレースを超え、世界中のファンを魅了する一大エンターテインメントとしての圧倒的な格を感じさせる。"
+          ],
+          "takeaway": "ベテランをも唸らせるF1ならではの非日常的な空間や、最高峰のエンターテインメント性を追体験できる内容です。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/13 09:31",
+        "title": "世界のメジャースポーツ＆地域熱狂競技の1週間",
+        "summary": "WTAファイナルズで熱戦が繰り広げられ、アンドレエワの首位通過が確定。NBAではカリーが負傷退場しウォリアーズの連勝がストップ。UFCやラグビー、海外サッカーなど多彩な競技で重要な試合や選手の動向が報じられた。",
+        "key_players": "WTAファイナルズでサバレンカから連取し首位通過したアンドレエワ、右腹部痛で負傷退場したステフィン・カリー、UFCで王者のケイラ・ハリソンやアマンダ・ヌネス、3試合ぶり先発復帰を果たした久保建英らが注目を集めた。",
+        "outlook": "WTAファイナルズの結末やUFC 334での王者対決、次戦へ向かうラグビーの静岡ブルーレヴズなど、世界各地で続く白熱した戦いや各競技の最新スケジュールと選手たちのパフォーマンスから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "【近藤雄二の「ランニング界の今」】ぷよぷよ、パデル、ＶＲ……広がる競技 アジア大会が映したスポーツの新時代",
+          "source": "RUNNET",
+          "pub_date": "11/09 17:38",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE14WllCWk1zLWZnSEFpZUVWMXB4a0N1cDJHUFZId2dNVWVRVmF3ak42UXB2VXZ4OHhKZzI2eFBualdhR05tZDZHUnVpTEtMbDRvcnBCcVJrNjdSV00?oc=5",
+          "sub_tag": "🌏 地域熱狂：パデル(スペイン・南米)",
+          "sub_type": "unique",
+          "headline": "多様化するスポーツの新時代とアジア大会の動向",
+          "points": [
+            "RUNNETのコラムにおいて、ぷよぷよやパデル、VRなど多様なスポーツの広がりがアジア大会を通じて特集された。",
+            "伝統的な走る・跳ぶといったランニング界の枠を超え、新たな競技の形が次世代のスポーツシーンとして注目を集めている。",
+            "パデルはスペインや南米でテニスを超える競技人口を誇り、強化ガラスの壁バウンドを使って高速で攻防するダブルス競技として熱狂を生んでいる。"
+          ],
+          "takeaway": "新しいテクノロジーやパデルのような革新的な地域熱狂スポーツが、これからのスポーツの楽しみ方を大きく変えていく点に注目です。",
+          "is_new": false
+        },
+        {
+          "title": "シングルス《グループ2》でサバレンカから最後の11ゲームを連取したアンドレエワの首位通過が確定「あと2試合はできそうなくらいエネルギーが漲っている」 [WTAファイナルズ／テニス]（テニスマガジンONLINE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 20:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mVXRCX2pteFVRUHJtUUhSWVBDeldEV0FuUFdHRDVNcE1UR2MyT29zUXNHcnQ3VmZESDl4Q2d5UXNXc1FJTjFGUWRmaUFNZTNqNWQzdlRzcTJmTEVnREM3UktoT19kdjBpci11RGdYMDhkclFqbndFZGx4a0lxMnc?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "アンドレエワがサバレンカを下し首位通過",
+          "points": [
+            "WTAファイナルズのシングルスグループ2で、アンドレエワがサバレンカから最後の11ゲームを連取する圧倒的な逆転劇を見せた。",
+            "この勝利によりアンドレエワのグループ首位通過が正式に決定し、本人も絶好調であることをアピールした。",
+            "試合後には「あと2試合はできそうなくらいエネルギーが漲っている」と語り、次戦へ向けて高いモチベーションを示している。"
+          ],
+          "takeaway": "トップ選手相手に11ゲーム連取という驚異的な集中力を見せた若手選手の爆発力と、大会終盤戦に向けた最高のコンディションに注目です。",
+          "is_new": true
+        },
+        {
+          "title": "静岡ブルーレヴズ・福田大晟、初出場へ闘志「試合で結果出したい」 14日に神戸戦",
+          "source": "静岡新聞DIGITAL",
+          "pub_date": "11/13 08:33",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01REtQdzhIcW5VRDQzRjlyazVOeUt1UmRDUi1DMnF4ZmFOMEF1OWZiYl91by1KT0k1cDJ1YjlQb2x3Y3FTLXpfdHUxLTk1QQ?oc=5",
+          "sub_tag": "🏉🏐 ラグビー・バレー",
+          "sub_type": "frontier",
+          "headline": "静岡の福田大晟が14日の神戸戦へ意欲",
+          "points": [
+            "静岡ブルーレヴズに所属する福田大晟が、14日に控える神戸戦での初出場へ向けて強い闘志を燃やしている。",
+            "チームの勝利に貢献するため、「試合で結果を出したい」と意気込みを語り、出場機会を掴むべく準備を進めている。",
+            "ジャパンラグビー リーグワンの舞台で若手がどのようなインパクトを残すのか、チームの起用法も含めて注目が集まる。"
+          ],
+          "takeaway": "公式戦初出場を狙う若手選手が、強豪との一戦でどのようなプレーを見せ、チームに勢いをもたらすのかが最大の見どころです。",
+          "is_new": true
+        },
+        {
+          "title": "【UFC】元ATT同門アマンダ・ヌネスの挑戦を受ける王者ケイラ・ハリソン「『女子』という言葉を付けずに、格闘技史上最高の選手と認められるように」＝11.14『UFC 334』 (ゴング格闘技)",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 16:18",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZUF3ZUZOYnFnVnM0TUlaRnRrVkJvY0dfVWdRcHRiRGQtdWFuRWVPVUZFRm1Qd2U2enV6aU10TUlpVEk3a2N6Q21BcHFMQnZ2VTVRVmN2YkFRY085S0JVTEdubjFxdmtMXzhIZnlHY2gwR2xEOHJMSjNwdFh6YVdxbVUyWWFLRHVaUUFvQlJn?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "UFC 334で王者ケイラ・ハリソンが防衛戦へ",
+          "points": [
+            "11月14日開催の『UFC 334』において、王者ケイラ・ハリソンが元ATT同門のアマンダ・ヌネスの挑戦を受ける。",
+            "ハリソンは試合に向けて、「『女子』という言葉を付けずに、格闘技史上最高の選手と認められたい」と強い野望を語っている。",
+            "世界最高峰の格闘技団体UFCの歴史に名を刻む伝説級のファイター同士による、最高峰のプライドをかけた激突となる。"
+          ],
+          "takeaway": "性別の垣根を超えて格闘技界の頂点を目指す王者の覚悟と、同門対決ならではの高度な心理戦や技術のぶつかり合いに目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "「大きな屈辱」11年契約を見切ってMLB移籍決意も冷ややか評価 佐藤輝明との“競争”に阻まれる韓国25歳打者の現状に母国紙が嘆き「米球界から無視をされている」（CoCoKARAnext）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 17:01",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtVThEY21JRVZyUWx5Y1dhUFpJRzY1VWVvNzB5aHRySkt1cks2SFJuWllRZXJRYzJBRFV0VTF2dDFHcG8xUElESENqY0JMeUhkajRqN0l5RUhoa2JMaG83dzEyMkJ2UGV3NnJqZTBNV01CdWUzSXcxaXZ0Vmh5TTg?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "韓国25歳打者のMLB移籍現状に母国紙が嘆き",
+          "points": [
+            "11年契約を見切ってMLB移籍を決意した韓国の25歳打者に対し、米球界から冷ややかな評価や無視とも取れる現状が伝えられている。",
+            "佐藤輝明とのポジション争いなどの影響もあり、母国紙からは「大きな屈辱」であると嘆きの声が上がっている。",
+            "メジャーリーグの分厚い層と厳しい競争環境の中で、選手が直面している現実と厳しい評価の背景が浮き彫りになっている。"
+          ],
+          "takeaway": "海を渡った若きスラッガーが厳しい逆境やポジション争いをどのように乗り越え、メジャーで評価を覆していくのかが注目されます。",
+          "is_new": true
+        },
+        {
+          "title": "【NBA】ステフィン・カリーが右腹部痛を訴え6分で負傷退場、ウォリアーズはロケッツに敗れ連勝が8でストップ",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/12 16:19",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zWVRRTUE3UDNNa0FJbnVtZDNFNXFMYXhOdmJoMmVwSng2OE1KaFNaS3JlWGRTLWdkYVRWVHFCbWM0emY2X2RHRDdyWVRKZ1pWMThBbno2dnJvd25ZQ2RRei1oVUVZV3RVMGhHdVRCRXVrTnFKZWhpSmJ4aUhadk0?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "カリー負傷退場のウォリアーズ、連勝が8で停止",
+          "points": [
+            "NBAの試合で、ステフィン・カリーが右腹部痛を訴えてわずか出場6分で負傷退場するアクシデントが発生した。",
+            "エースであるカリーの突然の離脱もあり、ウォリアーズはロケッツに敗れて連勝が「8」でストップした。",
+            "チームのオフェンスの軸であるカリーの今後のコンディションと、次戦以降のチームへの影響が懸念されている。"
+          ],
+          "takeaway": "絶対的エースの負傷というチームにとって最大の危機を、ウォリアーズがどのようにカバーし立て直していくのかが見どころです。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
