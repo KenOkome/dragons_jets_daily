@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-14",
-  "total_days": 55,
+  "latest_date": "2026-11-15",
+  "total_days": 56,
   "dates": [
+    {
+      "date": "2026-11-15",
+      "updated_at": "11月15日 08:00",
+      "label": "11/15",
+      "summary_title": "工藤新体制の中日が始動、根尾の肉体改造や若手の躍動に期待感"
+    },
     {
       "date": "2026-11-14",
       "updated_at": "11月14日 09:22",
