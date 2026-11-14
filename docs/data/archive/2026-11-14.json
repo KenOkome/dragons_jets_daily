@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-14",
+  "updated_at": "11月14日 09:22",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/14 09:21",
+        "title": "中日秋季キャンプと新体制の動き、若手の契約更改が本格化",
+        "summary": "直近1週間の中日は、秋季キャンプでの工藤新監督による指導や指導者の訪問が話題に。ドラフト新人の仮契約や指名あいさつが行われ、主力・若手選手の契約更改も次々と発表され、来季へ向けたチーム作りが本格化している。",
+        "key_players": "高橋幸佑が工藤式改造で球質の変化を実感。清水達也は工藤新監督から直接指導を受ける。また、柴崎聖人が仮契約を完了し、味谷大誠は捕手獲得に危機感を抱いてレギュラー奪取を誓うなど、若手・中堅の奮闘が目立つ。",
+        "outlook": "工藤新監督の下での技術改革や、秋季キャンプにおける選手たちの進化が今後の見どころ。新加入選手や若手が競争を激化させ、来季の陣容にどう影響していくのかファンの期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "ドラゴンズから“戦力外”で…？中日、トライアウトで再起を懸けた選手（3）背番号「20」のドラ1…わずか3年で退団",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/13 20:50",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KY2FpbWJFOVl1a0RoSlJ0c1AtbEplNkpycEZ0VmFlbUU5NjlONGtvX3pzMEhYZ2RtMU5HUlZrTkgwZEJkamg4U1M4U0Nwc2JTUkRRbGxYU0txRFlNdVEtWGg5Zmx3RndiOHRSRU0tQ19URERZWmpVamV0ZUFrSWc?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "背番号20のドラ1が3年で退団",
+          "points": [
+            "中日ドラゴンズで背番号「20」のドラフト1位指名を受けた選手が、わずか3年で退団となりました。",
+            "プロの世界では期待された高い評価を受けて入団したものの、結果を残せず厳しい戦力外通告を受けることになりました。",
+            "トライアウトなどを通じて、NPBでの現役続行や新たなステージでの再起を懸けて必死の戦いに挑んでいます。"
+          ],
+          "takeaway": "ドラフト1位という鳴り物入りで入団した選手であっても、プロの生存競争は厳しく、わずか数年で岐路に立たされるというプロ野球のシビアな現実とドラマが凝縮されています。",
+          "is_new": true
+        },
+        {
+          "title": "中日、ドラフト6位・清水智裕捕手に指名あいさつ 「打てる捕手として本塁打王に」",
+          "source": "中日新聞Web",
+          "pub_date": "11/13 18:28",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EU3RCR29BT0s0bU0wZTY5WWdPSzlnOS1uQzBoWVZTR1lpdmh0M3hRUWoyU1N4OU12WGRwM2hrY2tYd0NlU1hPcHc3Wk42N0Y0cDBjTA?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラ6清水捕手が指名あいさつ",
+          "points": [
+            "中日ドラゴンズからドラフト6位で指名を受けた清水智裕捕手が、球団からの指名あいさつを受けました。",
+            "面談の中で本人は「打てる捕手として本塁打王に」という非常に高い目標と大きな野望を堂々と口にしています。",
+            "守備の要である捕手でありながら圧倒的な打撃力も兼ね備える選手として、チームの将来を担う主砲への成長が期待されています。"
+          ],
+          "takeaway": "下位指名からのスタートとはなりますが、本人が掲げる「打てる捕手で本塁打王」というスケールの大きな目標に向かってプロの門を叩く姿は、チームの未来を明るく照らす大きな楽しみとなります。",
+          "is_new": true
+        },
+        {
+          "title": "【中日】立浪和義元監督が工藤新監督に「根尾を何とかして」とお願い ドラフト2位の柴崎聖人には「顔がいい」と独自目線で太鼓判",
+          "source": "中日新聞Web",
+          "pub_date": "11/13 17:34",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oaThZTmFxSGVOT3M5c0diTzdxTjBTQUhPc2hJTHlZck1EemhFWng4SWpoV1FwR3hybjRzS01KWDBxUWs3bnYxbUNpLTJJYzhYSlRPQQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "立浪前監督が新体制へエール",
+          "points": [
+            "中日の立浪和義元監督が、新監督となった工藤氏に対し、根尾選手の起用や育成について直接お願いをしました。",
+            "さらに、ドラフト2位で加入した柴崎聖人選手に対しては「顔がいい」という独自の視点からユニークな太鼓判を押しています。",
+            "チームの内部事情や選手個々のポテンシャルを熟知する前監督ならではのユーモアと期待が入り交じったエールとなっています。"
+          ],
+          "takeaway": "指揮官交代という大きな転換期の中、前監督から新体制へ向けられた温かいアドバイスや選手評には、チームの躍進を願う深い愛情とファン必見の裏話が詰まっています。",
+          "is_new": true
+        },
+        {
+          "title": "現ドラで楽天から加入…中日の“25歳右腕”が契約更改 移籍2年目は20試合登板と飛躍の年に",
+          "source": "ベースボールチャンネル",
+          "pub_date": "11/13 16:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zcXJTUHJfNE9CdG1FYnZyQmc2TEprYl9zZjNuejlKV3huZnNFWGZGMUV3aDZCNDkwWk1ISHgwVmdPYVNqQUhkX1VUOTF0NE9qeHlzTg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "現ドラ加入の25歳右腕が更改",
+          "points": [
+            "現役ドラフトで東北楽天ゴールデンイーグルスから中日ドラゴンズへ移籍した25歳の右腕投手陣が契約更改を行いました。",
+            "移籍2年目となったシーズンでは、一軍で20試合に登板するなど投手陣の一角として確かな飛躍を遂げる一年となりました。",
+            "出場機会に恵まれなかった選手に新たなチャンスを与える現役ドラフト制度の成功例として、チームに欠かせない戦力へと成長しています。"
+          ],
+          "takeaway": "移籍をきっかけに新天地で才能を開花させ、一軍の舞台で貴重な戦力としてブルペンを支える若手右腕のサクセスストーリーは、チームに活力を与える大きな見どころです。",
+          "is_new": true
+        },
+        {
+          "title": "パ・リーグ公式戦打者成績 - プロ野球 セ・パ12球団 速報 & データ",
+          "source": "スポーツブル",
+          "pub_date": "11/14 06:44",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54X0VzRHBBSDY1bUc4WlFaX2U2UUJiOUpDYjNRV2l4ZFpHYUppUTZIaUNWaVRPRjFabklLTGp3WDBjR3JCZGs4ZXlSa2NvYWZjYk0wT3ozb0thUzJRQk9FR3NPNF84UQ?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "パ・リーグの打撃成績を速報",
+          "points": [
+            "プロ野球パシフィック・リーグの公式戦における打者たちの最新の個人成績や試合速報が詳細にデータ化されています。",
+            "シーズンを通して繰り広げられる激しい首位打者争いや本塁打王争いなど、各打者の成績推移がリアルタイムで分かります。",
+            "12球団がしのぎを削るペナントレースにおいて、打撃タイトルの行方を占う上で欠かせない重要で正確なデータ情報です。"
+          ],
+          "takeaway": "一瞬のプレーで順位やタイトルが入れ替わるプロ野球の過酷な個人闘争を、詳細な数字とデータを通じて深く堪能できる点がスポーツファンの心を熱くさせます。",
+          "is_new": true
+        },
+        {
+          "title": "セ・リーグ公示（１３日）＝プロ野球",
+          "source": "時事通信ニュース",
+          "pub_date": "11/13 17:05",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GT0lBcGk1Z0Y2YnFCenpINWc3TElPaXR3ZlpnMEY3bDRQT1pldTdFY2FCV1FCeGlYZFBwd0pVTHdrTi1qOHhiVWJoUWlhLVV0UGE1cw?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "セ・リーグの13日付公示を発表",
+          "points": [
+            "日本野球機構（NPB）より、セ・リーグ球団における11月13日付の選手登録や抹消などの出場選手公示が発表されました。",
+            "秋季キャンプや来季に向けたチーム編成の過渡期における、各球団の細かな選手の入れ替わりや動向が示されています。",
+            "シーズンオフの期間中であっても、チームの戦力補強や若手抜擢の動きをいち早くキャッチできる重要な公式情報です。"
+          ],
+          "takeaway": "公式戦がないオフシーズンであっても、一挙手一投足を見逃せないプロ野球の緊迫したチーム編成の裏側や、来季へ向けた各球団の戦略をリアルに感じ取ることができます。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/14 09:21",
+        "title": "千葉ジェッツ、激闘制し連勝へ！ロースター変更も",
+        "summary": "直近1週間の千葉ジェッツは、佐賀戦での100点ゲーム勝利や滋賀戦でのブザービーター勝利など接戦をモノにし白星を重ねる。また、ルーク・メイの退団とエルジー・ギルの再加入というロースター変更も発表され、チームは次戦の長崎ヴェルカ戦へ向かう。",
+        "key_players": "契約解除となったルーク・メイに代わり、チームに正式再加入したエルジー・ギル。再びジェッツのユニフォームをまとう彼のパフォーマンスとチームへのフィットが直近の戦いにおける大きな注目ポイントとなる。",
+        "outlook": "11月14日に控える長崎ヴェルカ戦での戦いぶりが最大の注目。新体制となった千葉ジェッツが連勝をさらに伸ばせるか、そしてBリーグ全体での各チームのハードワークやユース育成の動きも含めた今後のトレンドから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "【試合情報】11/14 千葉ジェッツvs.長崎ヴェルカ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/14 07:18",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pRmg5RGlfNVV4cmZvekhoWVBzS0VsRFBHN2pQamM2R2I0N2VLWHpqcjZpNkIxVHcyaUdJZjZYRlcteUs3ZWJkX1R5azRHV0U?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ対長崎ヴェルカ戦",
+          "points": [
+            "11月14日にResona Group B.LEAGUE 2026-27シーズンの一環として開催される千葉ジェッツ対長崎ヴェルカの試合情報です。",
+            "Bリーグの頂点を目指す強豪同士の激突であり、両チームの戦略的な戦いや選手たちの熱いプレーに大きな注目が集まっています。",
+            "バスケットボールは攻守の切り替えが極めて早く、40分間を通じて息つく暇もないスピーディーな展開が魅力のスポーツです。"
+          ],
+          "takeaway": "一瞬の隙も許されないスピーディーな攻防と、会場全体を飲み込むような迫力あるチーム同士の激突を生で体感するのが醍醐味です。",
+          "is_new": true
+        },
+        {
+          "title": "滋賀レイクス、千葉ジェッツにブザービーターで敗戦　4775人が声援",
+          "source": "ｄメニューニュース",
+          "pub_date": "11/13 19:17",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNnFZUndPMjBlVVZ0MEcxYnJKTEh0eUhodi1tX2RTTTlUOE5EVkR5aTgyaVFmeXZTVlZTRW9pNk8tNk9xQlZGNVZ1TzhEV0JWcDhJbjhrRFhnZkhmUjJ1MlBMRzA4MG1uMGdGVzZ4ckJYVkhjdjVDdkdZYnd3MGhDS0Nn0gGHAUFVX3lxTE1CTUNQSUVTUW5qX3ZDRHJHX21HTzFJU1ZTOFVuM3JGUmdOVkRrZWN5RGRHNzlwV0JQdllVVzhCTXBES2NrMFJQSEFKUnlOaU5PZXI1Q1NpVmJEUTJRVGRpQl9HZmFCenpyZ0ZVRlYtemhiQkpCZFlURjZ0X1pIMWpSdDJ3bHF2RQ?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツが劇的な勝利を獲得",
+          "points": [
+            "4775人の大観衆が見守る中、滋賀レイクスと千葉ジェッツが対戦し、試合終了と同時に決まるブザービーターで千葉ジェッツが勝利しました。",
+            "最後までどちらが勝つかわからない白熱した展開となり、会場は多くのファンによる熱い声援に包まれました。",
+            "バスケットボールの醍醐味である土壇場での逆転劇が飛び出し、観客のボルダリングが最高潮に達する劇的な一戦となりました。"
+          ],
+          "takeaway": "試合終了のブザーと同時に放たれるシュートで勝敗が決まる、バスケットボールならではのドラマチックな瞬間を楽しめます。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツはルーク・メイと契約延長交渉がまとまらず契約を解除、再契約したエルジー・ギルは「正式に戻れてとても興奮しています」",
+          "source": "www.bleague.jp",
+          "pub_date": "11/13 17:47",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85OTZuQnpxVDJDTHZrbU9sVHpPanpZdFFydFhxZ0R6M2RTcTRnMVB5N250MlNvOTdXUGZZZnlkTWVGbk45eGpxTWxpa2l5ZEgzYkdqbGM1T3g2ZjJFcGFV?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "ルーク・メイ退団とエルジー・ギル再加入",
+          "points": [
+            "千葉ジェッツはルーク・メイ選手との契約延長交渉がまとまらず、契約解除となることが発表されました。",
+            "一方で、エルジー・ギル選手との再契約がまとまり、本人はチームへの復帰に対して非常に興奮している心境を語っています。",
+            "プロリーグにおける選手の入れ替えやロスターの再編は、チームの戦術やシーズン全体の成績を左右する重要な要素です。"
+          ],
+          "takeaway": "選手の移籍や契約変更によってチームケミストリーがどう変化するかを見極めることも、スポーツ観戦の奥深い楽しみ方の一つです。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツ、ルーク・メイが契約延長合意に至らず退団…エルジー・ギルが再加入",
+          "source": "バスケットボールキング",
+          "pub_date": "11/13 15:38",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95eThHbTR5LUU3eS1qU3pWSzA0RHZSX0hBSXVxU19ZZmRWZ2ZQbDFQYW1YbmoxUmFsNHFGZzZvbDFMQUgzdERWclh1azU5aEhBdk13OU5aVElkeVFMeUlfc0F6OGVYTVNF?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツがロスター変更を発表",
+          "points": [
+            "千葉ジェッツに所属していたルーク・メイ選手が、契約延長合意に至らずチームを退団することになりました。",
+            "退団に伴い、かつて在籍したエルジー・ギル選手が新たにチームへ再加入することが決定しています。",
+            "シーズン途中のロスター変更は、チームに新たな化学反応をもたらすかどうかの大きな分岐点となります。"
+          ],
+          "takeaway": "新加入選手がチームのピースとしてどのようにフィットし、勝利に貢献していくのかを追うのがプロスポーツの大きな見どころです。",
+          "is_new": true
+        },
+        {
+          "title": "【Bリーグ】京都ハンナリーズ、ハードワークで連敗脱出 11スチール「ディフェンスの勝利」",
+          "source": "京都新聞デジタル",
+          "pub_date": "11/13 22:00",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PVUotaTNEODY1MjFRRGstX0VoNEt2X2dvdm5uUUZIcUdkUDB4Tmk3ZXJJWjRUZVd3Y1h3WEhXWW9YMFZCMnhyXzRpWFYyLXJiUERjUmtpZDQ?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "京都ハンナリーズがハードワークで連敗脱出",
+          "points": [
+            "京都ハンナリーズが試合を通じて激しいハードワークを展開し、見事に連敗から脱出することに成功しました。",
+            "試合中になんと11ものスチールを記録し、堅い守備からチャンスを生み出す「ディフェンスの勝利」となりました。",
+            "バスケットボールにおいて、個人の得点力だけでなく組織的なディフェンスが試合の勝敗を決定づける重要な鍵となります。"
+          ],
+          "takeaway": "相手のボールを奪い取るスティールや体を張った守備など、泥臭くも美しいディフェンスの応酬に熱くなること間違いなしです。",
+          "is_new": true
+        },
+        {
+          "title": "越谷が17歳の稲田貫大をユース育成特別枠で登録…「自分の持ってる力を最大限発揮していきたい」",
+          "source": "www.bleague.jp",
+          "pub_date": "11/13 18:52",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6ZE1BQS04THNMenR3elJQc0pULTdXdTJyY1NRMnNKSTJyaVdKLV9td29ZWERwd3pEOVRpVnAtNnYzY3F6R05JcGRGVjJoYVZsSkUtWW95Sjd0RGlnMGVZbEtlcw?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "17歳の稲田貫大がユース育成特別枠で登録",
+          "points": [
+            "越谷が将来有望な17歳の稲田貫大選手をユース育成特別枠の選手として新たに登録したことを発表しました。",
+            "本人からは「自分の持ってる力を最大限発揮していきたい」という強い意気込みが語られています。",
+            "若手選手がトップチームの舞台に挑戦する仕組みは、将来の日本代表やリーグの未来を支える非常に重要な育成システムです。"
+          ],
+          "takeaway": "若き才能がトップレベルの荒波にもまれながら成長していく姿や、未来のスター誕生の瞬間を応援する楽しさがあります。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/14 09:21",
+        "title": "F1メルセデスの結束とMotoGP小椋の激走",
+        "summary": "直近1週間はF1メルセデスの安定性追求や、レッドブル・RBのリザーブ就任人事、WEC最終戦での平川亮の大逆転王者が話題に。MotoGPでは小椋藍が過酷な3連戦を完走しカタールGPで4位と健闘した。",
+        "key_players": "F1ではメルセデスが安定性と安心感を重視。レッドブルとRBが19歳ツォロフのリザーブ就任を発表しローソンが称賛を受ける。WECでは平川亮が劇的な逆転王者に輝き、MotoGPの小椋藍はカタールGPで4位に入った。",
+        "outlook": "F1の次戦や次期規則に向けた性能調整の議論、サインツが開発優先を語るウィリアムズの動向、そしてピレリの雨用タイヤに関するドライバーたちの懸念など、レギュレーションや安全性に関する各陣営の対応に注目が集まる。"
+      },
+      "news": [
+        {
+          "title": "メルセデスは目標に向かって進み、失敗も発言も認められる環境。4年ぶりの戴冠の鍵は「安定性と安心感」",
+          "source": "autosport web",
+          "pub_date": "11/14 07:00",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CUG5JWVlfUEM1WFR1VmRsckNLUmRCZFFDeEFMWHRNT3VBRldVX0Voa1I0bnFvS3BlWUhGNFdsVzRjaGVLa3dJ?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "メルセデスが目指す4年ぶり戴冠の鍵",
+          "points": [
+            "メルセデスF1チームが失敗や意見交換を受け入れる寛容な組織作りを構築していることが明かされた。",
+            "チーム一丸となって目標へ前進する中で、精神的な安定性とチームへの安心感が重視されている。",
+            "最高峰のモータースポーツにおいて、心理的安全性がいかに勝利への原動力となるかを示す好例である。"
+          ],
+          "takeaway": "トップチームがいかにしてプレッシャーを乗り越え組織を一つにまとめているか、その裏側の人間ドラマに注目。",
+          "is_new": true
+        },
+        {
+          "title": "【MotoGP】過酷な3連戦完走 小椋藍がカタールGPで4位フィニッシュ 猛追見せるも表彰台届かず（日テレNEWS NNN）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/14 06:18",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XbEwtVHpjazI1eE0zMHZqMzVLdGF1aVBpYkFveXF1YWNFT2E2eWlBWnEyM3JSS0hMMkh0R0ZCU3gyS0FsYkxESXJQMTdLYU1aejRyRmpnRFlCUTlvdlBIWkNOMS1mZXV1TGpVdVVBZGw0VDRCWHkzekNPTWhlNkU?oc=5",
+          "sub_tag": "🏍️ MotoGP",
+          "sub_type": "normal",
+          "headline": "小椋藍がカタールGPで粘りの4位",
+          "points": [
+            "MotoGPの過酷な3連戦の最終戦となるカタールGPで、小椋藍選手が懸命な走りで4位フィニッシュを果たした。",
+            "レース終盤に猛烈な追い上げを見せたものの、惜しくも表彰台には一歩届かない結果となった。",
+            "二輪モータースポーツの最高峰であるMotoGPで、世界の強豪を相手に戦い抜く日本人の底力を示した。"
+          ],
+          "takeaway": "限界ぎりぎりのバイクコントロールと、世界最高峰のライダーたちが繰り広げる激しい順位争いは何度見ても圧巻。",
+          "is_new": true
+        },
+        {
+          "title": "「周回遅れってこと？」ハミルトンが目の前を走るノリスに驚愕【F1第20戦無線レビュー（2）】",
+          "source": "autosport web",
+          "pub_date": "11/14 06:00",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA4VnQ0RWVMdk9DT2ROemYxdWZxdXhFeTBQY0xQamQ3aDZjM0RLc2psN3ExZGRHQndaLUFjeFgwanlraVNSLVVV?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ハミルトンがノリスとの差に驚愕",
+          "points": [
+            "F1第20戦のレース中、ルイス・ハミルトンが目の前を走るランド・ノリスの位置に無線で驚きを示した。",
+            "トップ争いを繰り広げるドライバー同士の間で、まさかの周回遅れが発生したのかと困惑する場面があった。",
+            "刻々と状況が変わり、トップドライバーすら混乱するほどの激しい展開がF1レースの過酷さを物語っている。"
+          ],
+          "takeaway": "時速300kmを超える極限の戦いの中で、ドライバーが交わす緊迫した無線やり取りからレースのリアルな空気が伝わる。",
+          "is_new": true
+        },
+        {
+          "title": "2030年規則での性能調整撤廃案に「明確なリスクだ」とBMW M責任者。トヨタ技術ボスも見解述べる",
+          "source": "autosport web",
+          "pub_date": "11/13 18:00",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80dkM3OENZRGY1Q3A0UzZiU25qcFJyUUdWeDh5UlMwTWZjektSZ2JpN3JVRlptSmdtN2lGZmpPeGhtTDBrSkZpb1Q0Q2pmWU5RUHc?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "2030年規則の性能調整撤廃に懸念",
+          "points": [
+            "2030年規則における性能調整の撤廃案について、BMW Mの責任者が明確なリスクがあると苦言を呈した。",
+            "これに対し、トヨタの技術トップも独自の視点から現在の規則と将来の方向性について見解を述べた。",
+            "自動車メーカーがモータースポーツのレギュレーション変更に対して抱く戦略的な思惑が浮き彫りになった。"
+          ],
+          "takeaway": "技術の粋を集めたマシンの公平性をどう保つか、メーカー間の開発競争の裏にあるレギュレーションの攻防が面白い。",
+          "is_new": true
+        },
+        {
+          "title": "「加速するとクルマが片方に引っ張られる」タイヤ交換直後のアントネッリがスピン【F1第20戦無線レビュー（1）】",
+          "source": "autosport web",
+          "pub_date": "11/13 17:46",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5RWkFoZ0p0UmsySW1vRzB1b1FLLTZhUjRsbUJnSWk1VzNnWjh1N1pUQUtYcXdmbjBjb0wxVDN6bG5EM01KbGRv?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "タイヤ交換直後のアントネッリがスピン",
+          "points": [
+            "F1第20戦のレース中、アントネッリがタイヤ交換直後の加速時にマシンが片方に引っ張られスピンを喫した。",
+            "ピットアウト直後の冷えたタイヤやマシンの挙動変化がいかにドライビングを難しくするかを示すトラブルとなった。",
+            "一瞬の判断ミスやマシンのわずかな違和感が命取りになるF1のシビアな世界を象徴する出来事である。"
+          ],
+          "takeaway": "ピットストップ直後のアウトラップがいかに魔の時間帯であるか、ドライバーの苦闘を通じて臨場感を味わえる。",
+          "is_new": true
+        },
+        {
+          "title": "ベテランレース記者をして「やっぱりF1は別格」だった！ レース規模もホスピタリティも何もかもが最高峰で見るものすべてが新鮮【みどり独乙通信】（WEB CARTOP） | 自動車情報・ニュース",
+          "source": "carview!",
+          "pub_date": "11/13 17:37",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRU9abFJvVVJDRm80UDU3aVRSc1k3Y1EtRERXcFRZSmZRbEdhaDlRVTBlWEhJS0ZmT2ttOVJEZVNmTmltOE1GUy00Q3RzNEU1Y0hwZVJQZkVyS29iTlM3ZlJxLWNreXBTYUFBcnJ4Z3d4QUN5eDRFUFllVlhkc3RMX2M0SGFPXy1u?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ベテラン記者も絶賛するF1の別格さ",
+          "points": [
+            "多くの現場を見てきたベテランのレース記者でさえ、F1の圧倒的な規模とホスピタリティに感嘆の声を上げた。",
+            "世界最高峰のモータースポーツとして、レース運営からゲストへのもてなしまで全てが規格外のクオリティを誇る。",
+            "世界中を転戦するF1という巨大なサーカスが持つ独特の熱気と洗練されたエンターテインメント性が強調された。"
+          ],
+          "takeaway": "単なる速さの競い合いにとどまらず、世界最高峰のイベントとして人々を魅了し続けるF1のブランド力を実感できる。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/14 09:21",
+        "title": "NBA歴史的快挙からWTA熱戦まで激動の1週間総括",
+        "summary": "直近1週間はNBAでケイド・カニングハムが52得点11アシストの歴史的快挙を達成。WTAファイナルズではアンドレエワやサバレンカが躍動し、MLBではスクバルとドジャースの動向やLPGAのチェ・ヘジンの戦いなど、多様な競技で熱戦が繰り広げられた。",
+        "key_players": "NBAで0ターンオーバーの偉業を成し遂げたカニングハム、WTAファイナルズでエネルギーを漲らせるアンドレエワやサバレンカ、LPGAで悲願の初優勝を目指すチェ・ヘジンらが圧倒的な存在感を放っている。",
+        "outlook": "WTAファイナルズの決勝トーナメントやアイルランドのハーリング防衛戦など、世界各地の熱狂的な競技の結末に注目。また、MLBの去就報道やNFLの未来のドラフト候補たちの動向からも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "アイルランド全土が熱狂！ハーリング王座防衛戦が開幕",
+          "source": "Balls.ie",
+          "pub_date": "11/13 20:41",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hNWtOT3BoOVN4YVFZR3lQaWZBaGxWNmZadFpHQ1ZLa3FGaVF5RUFCd1FFQWozMkctMTEwRVVRVnJPQzJmNGxXT2JnMzlFWGNQclRXRE9kaUdIV0dDOG1OWTBCMnpVNUJw?oc=5",
+          "sub_tag": "🌏 地域熱狂：ハーリング＆ゲーリック(愛)",
+          "sub_type": "unique",
+          "headline": "アイルランドの国技ハーリングで全アイルランド選手権の防衛戦が開幕",
+          "points": [
+            "アイルランドで8万人の大観衆を動員する人気の古代スティック球技、ハーリングの国内大会がテレビ放送される。",
+            "昨季王者のバルリーガンナーが全アイルランド選手権のタイトル防衛戦に向けて再び始動している。",
+            "時速150kmを超える球が飛び交う地上最速の伝統球技であり、アイルランド全土のプライドを賭けた熱狂を生み出している。"
+          ],
+          "takeaway": "伝統あるスティックとボールの高速攻防戦が生み出す、アイルランド全土が熱狂する圧倒的な迫力を体感できる。",
+          "is_new": true
+        },
+        {
+          "title": "「スタートがいい。 残りの3ラウンドでも今のショット感覚を続けていきたい」 今季、準優勝3回など米女子プロゴルフ（LPGA）ツアーで個人通算優勝なしに準優勝だけで9回を記録したチェ·ヘジンが、再び生涯..",
+          "source": "매일경제",
+          "pub_date": "11/13 17:23",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mNS1UMEVRUG5zckJVVGdyc2dsN0RyYmtFbXNyTTk3UnExc0dOT20xbGVaTzI0WFhnSXpYSUJDa0M3YmtqMnBmTlJudm5NTnNt?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "米女子プロゴルフツアーで初優勝を目指すチェ・ヘジンが順調な滑り出し",
+          "points": [
+            "今季LPGAツアーで準優勝9回を記録しながらも未勝利のチェ・ヘジンが、好スタートを切った。",
+            "初日の良いショット感覚を維持したまま、残りの3ラウンドでも同じプレーを継続したいと意気込みを語っている。",
+            "ツアーでの高い実力を示しながらも届いていない悲願の初優勝へ向け、絶好の位置で大会を折り返そうとしている。"
+          ],
+          "takeaway": "これまでに9度の準優勝を重ねてきた実力者が、ついに悲願の初優勝を掴み取れるかどうかの勝負所となる。",
+          "is_new": true
+        },
+        {
+          "title": "【準決勝 前日会見】谷川萌々子「優勝するためにこの代表に来た」を今すぐ観戦 | DAZN JP",
+          "source": "DAZN",
+          "pub_date": "11/13 15:58",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaU9HWXRVNWpfYjFfZ2JMSnAwTEFLVmdyWWUxM09ORmpwVWR2TkdqRDFvMVVZeXpnQkwyMmFNRHlBcW14Yi1xZmk2VzlUUXE5SjRFZlJGdmVrQzlWdU1ydHRMOUlZemJQZ29vS3hPa0ZIdHdDTHl1RnBqcWVKMGpqQ1NtU3JOdWwtVWQxMVVfUGNqWkxYUDBzOA?oc=5",
+          "sub_tag": "🏒 NHL・氷上ホッケー",
+          "sub_type": "frontier",
+          "headline": "DAZNにて氷上ホッケー関連の準決勝前日会見と谷川萌々子のコメントが公開",
+          "points": [
+            "DAZN JPにて、大会の準決勝に向けた前日会見の模様や関連動画が配信され、すぐに観戦が可能となっている。",
+            "代表選手である谷川萌々子が「優勝するためにこの代表に来た」と力強い意気込みを語っている。",
+            "氷上の格闘技とも称される激しいコンタクトスポーツの舞台で、チームが頂点を目指す戦いに注目が集まる。"
+          ],
+          "takeaway": "選手たちが発する強い覚悟と、氷上での極限のせめぎ合いが生み出すドラマチックな試合展開を見逃せない。",
+          "is_new": true
+        },
+        {
+          "title": "井上尚弥、『徹子の部屋』出演へ 黒柳徹子とのツーショット写真添え「楽しい時間を過ごさせて頂きました！」世界4団体統一王者、",
+          "source": "中日新聞Web",
+          "pub_date": "11/13 19:15",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lWnRqSkoxYm94TkJKeGtMWXJ6NzFMd0R0ZUxBUURLUS1aeHR4Sm5IYkJxQ3lDdmpVM3l3dEFFNVotd3QydVJlM3lDUl95VUdQbGhiQw?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "世界4団体統一王者・井上尚弥が『徹子の部屋』に出演し黒柳徹子と対談",
+          "points": [
+            "ボクシングの世界4団体統一王者である井上尚弥が、人気トーク番組『徹子の部屋』の収録に参加した。",
+            "自身のSNS等で黒柳徹子とのツーショット写真を添え、「楽しい時間を過ごさせて頂きました！」と報告している。",
+            "リング上の圧倒的な強さとは一味違う、王者のリラックスした表情や普段聞けないトークに注目が集まっている。"
+          ],
+          "takeaway": "世界を熱狂させるモンスターボクサーが、テレビのトーク番組でどのような素顔や裏話を語るのかファン必見の内容。",
+          "is_new": true
+        },
+        {
+          "title": "スクバルとドジャースの溝 つきまとう「サラリー・キャップ」への不安 短期契約は「受け入れる可能性極めて低い」 米報道 テオスカー放出も検討か（スポーツ報知）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/14 09:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wTG5pWEhQUU1wM09NS1pZaElldkFzakJib2tIZDVJOHM4bUFDQXF6SjAtSmxVbG82QW5CTmFKaFhOdXhqOHFVMXdMeXRXM1JRb0tuSzdYMUhUZV85WmwwU3pYeHZrN19LNm4ycW5MR1NiTF91N1kzOFRweFpYdVU?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "米報道でドジャースとスクバルを巡る契約の懸念やテオスカー放出の可能性が浮上",
+          "points": [
+            "米メディアの報道により、スクバルとドジャースの間にある溝や「サラリー・キャップ」への不安が取り沙汰されている。",
+            "短期契約については「受け入れる可能性極めて低い」とされており、今後の動向に注目が集まっている。",
+            "MLB特有の資金制限ルールやチーム編成の兼ね合いから、テオスカーの放出も検討されていると報じられている。"
+          ],
+          "takeaway": "メジャーリーグの厳格な制度や資金管理の裏で、トッププレイヤーの去就を巡る球団の思惑が交錯する緊迫したニュース。",
+          "is_new": true
+        },
+        {
+          "title": "【NBA】ケイド・カニングハムが52得点11アシスト0ターンオーバーの歴史的快挙「最高の気分だけど数字のことは一切気にしていない」",
+          "source": "Basket Count",
+          "pub_date": "11/13 15:42",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIY2UzaUNsYzFHeFo3NXE2eHpGS05mTzJNenhfUkRKTTNiZGF2ZE9rMmM2NWNRcW9SRzM4VHRYcEt4WWJIbHhCbFNXTWVPVjdNalpqa3huTEdNdw?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "ケイド・カニングハムが52得点11アシスト0ターンオーバーの歴史的快挙を達成",
+          "points": [
+            "NBAの試合でケイド・カニングハムが52得点、11アシスト、0ターンオーバーという圧倒的な個人成績を残した。",
+            "本人は「最高の気分だけど数字のことは一切気にしていない」とチームの勝利や内容を優先する姿勢を見せている。",
+            "世界最高峰のバスケットボールリーグにおいて、ミスを一切犯さずに驚異的な得点とパスを量産する歴史的パフォーマンスとなった。"
+          ],
+          "takeaway": "世界最高峰の舞台で驚異的なスタッツを叩き出しながらも、個人の数字に惑わされないスーパースターの圧倒的な気高さを感じられる。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}

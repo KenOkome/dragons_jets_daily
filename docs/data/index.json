@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-13",
-  "total_days": 54,
+  "latest_date": "2026-11-14",
+  "total_days": 55,
   "dates": [
+    {
+      "date": "2026-11-14",
+      "updated_at": "11月14日 09:22",
+      "label": "11/14",
+      "summary_title": "中日秋季キャンプと新体制の動き、若手の契約更改が本格化"
+    },
     {
       "date": "2026-11-13",
       "updated_at": "11月13日 09:31",
