@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-16",
+  "updated_at": "11月16日 08:25",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/16 08:23",
+        "title": "中日：大島更改＆新体制へ期待、新人入団も続々",
+        "summary": "直近1週間の中日は、最年長の大島洋平が減額制限を超える更改で来季への強い意気込みを示し、梅野雄吾や新加入のドラフト4位・鈴木悠悟らの入団や契約決定が相次いだ。また、工藤新監督の指導や新コーチ陣の発表など、2027年シーズンに向けた編成とチーム作りの動きが本格化している。",
+        "key_players": "大島洋平は大幅減俸となるも「やってやる」と健在をアピール。梅野雄吾は工藤監督の指導に感謝しオフも継続。体つきの変化が話題となった根尾昂や、ドラフト2位・柴崎聖人、同6位・清水智裕ら新戦力の動向にも熱視線が注がれている。",
+        "outlook": "秋季キャンプでの新監督による指導やコーチ陣の布陣が固まりつつあり、若手・中堅の底上げが急務。味谷大誠ら既存の捕手陣が新加入選手との競争にどう挑むか、来季のレギュラー争いとチームの変革にファンの期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "中日・梅野雄吾、工藤監督の指導に感謝「初心に返るようなトレーニングが身に付いている」オフも継続へ 550万円減で更改",
+          "source": "中日新聞Web",
+          "pub_date": "11/15 20:43",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96Y2gtTGhmbmJJOWM2c0UwbVhjX3FMMHc0ZHVZT1lndEEtel9ubzMzR0ozTGxPbE9iZHd4SHltLW9UZzM4a2g3aUlNN3ZNY08tZUJaVw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "梅野が現状維持から550万円減で更改",
+          "points": [
+            "中日の梅野雄吾投手は15日、契約更改を行い550万円減の金額でサインした。",
+            "工藤監督の指導により初心に返るようなトレーニングが身に付いたと感謝を語った。",
+            "身についたトレーニングをオフシーズンも継続し、来季の巻き返しを誓っている。"
+          ],
+          "takeaway": "プロ野球選手が新たな指導者との出会いによっていかに技術や意識をアップデートし、泥臭く這い上がろうとするかの過程に注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラゴンズ、ドラフト4位・鈴木悠悟内野手の入団決定 「レギュラー取る」",
+          "source": "中日新聞Web",
+          "pub_date": "11/15 19:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBGb1lrWDFFSkRQNWZFVWpjQUY1b1lxQ0ZWdExrbkp0aEpzemo1QXZmakYyX2JEMzB5am9MTlItWlo5TUxKQmFhNVNLdkkwdjBQMU0wNw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラフト4位・鈴木悠悟の入団が決定",
+          "points": [
+            "中日ドラゴンズは15日、ドラフト4位で指名した鈴木悠悟内野手の入団が決まったと発表した。",
+            "鈴木新人は記者会見で「レギュラー取る」と力強く意気込みを語っている。",
+            "球界の未来を担う若き才能が、プロの世界でどのように頭角を現していくかが期待される。"
+          ],
+          "takeaway": "プロの門を叩いたばかりの若武者が、厳しい競争の世界でどれだけ早く自分のポジションを掴み取れるかというフレッシュな躍動感が見どころ。",
+          "is_new": true
+        },
+        {
+          "title": "中日ドラゴンズ、11月15日の契約更改は3人 チーム最年長・大島洋平外野手「やってやる」",
+          "source": "中日新聞Web",
+          "pub_date": "11/15 19:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sOHltVy10c0VEVFNHT3F6anhmZDgwVjIxTDNTYTdZOWF1NkVnUHVHdHc5RlRkcDBXMnFEbGNkb3kxN2NVaEIwNWZ0MTBiRVdtbzkwcQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "大島ら3選手が15日に契約更改を実施",
+          "points": [
+            "中日ドラゴンズは15日に契約更改を行い、チーム最年長の大島洋平外野手らがサインした。",
+            "この日は大島を含む計3選手の契約更改が行われ、オフシーズンの動静が進んでいる。",
+            "ベテランから若手まで、来季に向けた選手それぞれの新たなスタートが切られている。"
+          ],
+          "takeaway": "プロ野球のオフの風物詩である契約更改から、チームの世代交代やベテランの意地など、選手のリアルな人間模様を感じ取ることができる。",
+          "is_new": true
+        },
+        {
+          "title": "中日・大島洋平、減額制限超える4000万円減、年俸2000万円プラス出来高で更改「やってやろう、やるしかない」18年目の来季へ意気込む：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/15 16:17",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tSmYxT01fbThROExYb2tJcEJoT3RxRUZjWTNHTXBfVDF1cU1MeHpzbTRjWlFsYnpCMmJuOG91d2RRMGZYeVNiTFhQaHlyam9sVEd3Mg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "大島洋平が4000万円減で来季へ意気込み",
+          "points": [
+            "中日の大島洋平外野手は15日、減額制限を超える4000万円減の年俸2000万円プラス出来高で更改した。",
+            "来季は18年目を迎えるベテランであり、厳しい評価を受け止めながらも強い闘志を見せている。",
+            "「やってやろう、やるしかない」と語り、不屈の精神で再びグラウンドでの躍動を誓っている。"
+          ],
+          "takeaway": "長年チームを引っ張ってきたベテランが、減額を乗り越えてなお前を向き、泥臭くポジションや結果を奪いに行く姿には心を揺さぶられる。",
+          "is_new": true
+        },
+        {
+          "title": "岐阜の地域プロ野球リーグ新球団「ダイヤモンドリバーズ」がトライアウト 関市で投手・野手４０人以上が挑戦、１期生内定",
+          "source": "岐阜新聞デジタル",
+          "pub_date": "11/15 19:02",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ITHRmTzhvR0pLTWYxaTlGSFAwV0hRT0FZU3pFXzhsdnVhdGZhVmpObnIwakl4aGwzT3FxV2VSc01kbFZLbUEwckhScHVHU29Tck9mX2x3?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "新球団ダイヤモンドリバーズがトライアウト実施",
+          "points": [
+            "岐阜の地域プロ野球リーグ新球団「ダイヤモンドリバーズ」が関市でトライアウトを開催した。",
+            "会場には投手や野手ら40人以上が挑戦し、熱いアピールを繰り広げ、記念すべき1期生が内定した。",
+            "地域密着型の独立リーグや新球団は、NPBを目指す選手たちの夢の受け皿として全国各地で熱い盛り上がりを見せている。"
+          ],
+          "takeaway": "大舞台だけが野球ではない。夢を諦めきれない選手たちが這い上がろうとする泥臭いトライアウトの舞台裏には、ピュアな野球愛とドラマが詰まっている。",
+          "is_new": true
+        },
+        {
+          "title": "【三井ゴールデン・グラブ賞】巨人・松本剛が初受賞「プロに入った時からの目標」 泉口は2年連続2度目（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/11 17:25",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyc2Q4bnprTmJQZzJXNlJxWFhzUlVFeFpPVEJDQkk5ODJ2SmIzSlZ0aGVieDdua2lzNlVpbm9JV3VvLVNmRHR3dnN6VTlUQWliMEs0MkVHVHBwd3RBVkNLaGZoeXVFSTA4YUtDX0d4aDg1RmxkNDRPVVRGWFZQWXc?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "巨人・松本剛らがゴールデン・グラブ賞初受賞",
+          "points": [
+            "プロ野球の守備の表彰である「三井ゴールデン・グラブ賞」が発表された。",
+            "巨人の松本剛がプロ入りからの悲願だった初受賞を果たし、喜びを語っている。",
+            "また、泉口も2年連続2度目の受賞を決めるなど、守備巧者たちの卓越した技術が称えられた。"
+          ],
+          "takeaway": "華やかなホームランだけでなく、ヒット性の当たりをファインプレーで阻止する守備職人たちの職人芸と、受賞の瞬間の歓喜に注目したい。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/16 08:24",
+        "title": "千葉ジェッツが怒涛の5連勝で勝率5割に復帰！",
+        "summary": "千葉ジェッツは長崎や滋賀との接戦を制し、公式戦5連勝をマークして勝率5割に復帰した。ロースター変更を乗り越え、チームとして確かな進化と勝負強さを見せつけている。",
+        "key_players": "渡邊雄太は勝負所での劇的3Pや接戦をものにする自信を語りチームを牽引。また、ルーク・メイの契約解除に伴い再契約となったエルジー・ギルがチームへの復帰を果たした。",
+        "outlook": "三遠戦など今後の連戦における戦いぶりが注目される。また、Bリーグ全体でサラリーキャップ制度や報酬レンジ別人数が初公表されるなど、Bプレミアに向けた新時代への動きも加速している。"
+      },
+      "news": [
+        {
+          "title": "【試合情報】11/16 千葉ジェッツvs.三遠ネオフェニックス [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/16 00:07",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGT3BkQmpHaV9Vc0toWmotVmZUM2JSZkcxRk1KUjZTdjA5QjNkTHhsLURSQnQ0VnFSZ3lhX1Z2dk1aS1ptMjd0ejRmRUM4dTA?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツが三遠戦へ臨む",
+          "points": [
+            "千葉ジェッツ対三遠ネオフェニックスの試合情報が公開され、注目を集めている。",
+            "Resona Group B.LEAGUE 2026-27シーズンの一環として開催される公式戦である。",
+            "バスケットボールは攻守の切り替えが極めて早く、1秒を争うス気迫あふれる得点シーンが魅力である。"
+          ],
+          "takeaway": "強豪同士の激突でどのような熱戦が展開されるか、スピード感あふれるプレーから目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "【B.PREMIER】渡邊雄太（千葉J）「接戦を全部ものにできている自信は間違いなくある」5連勝で勝率5割復帰／コヴァーチHCが語る日本への適応と選手の強みを生かすチームづくり",
+          "source": "https://jbasket.jp/",
+          "pub_date": "11/15 15:25",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtY1BkTjZfYXhaOTNyX3Z4SWIxbUh3em1QSGhkMWVqVmo1ZWhLUmRBV3hDNDdJOTcwaDNFTmZNTGRMWkR4YWsyRWQyUEgydU9mTzRacjRwelJCb0JhcnZ2WG94dk9aUQ?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "渡邊雄太の活躍で5連勝、勝率5割復帰",
+          "points": [
+            "千葉ジェッツは5連勝を飾り、勝率5割への復帰を果たしたことが報じられている。",
+            "渡邊雄太選手が接戦をものにするチームの自信について手応えを語っている。",
+            "コヴァーチHCが日本への適応と選手の強みを最大限に生かすチームづくりについて言及している。"
+          ],
+          "takeaway": "NBA経験を持つ渡邊選手を中心としたチームの結束力と、接戦を勝ち切る勝負強さに注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツ、長崎に勝利し5連勝 見えた変化 - www.journal",
+          "source": "www.journal-one.net",
+          "pub_date": "11/15 12:57",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9vRDhacDRlR1ZWOS1FVVEtWGZKNU5fMDVVTGQwNzg2LW1YQTV6LVduNTRQSlRnVkdzTWMzNU5mNW9KRElxaHJlZkNkSmdGUQ?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "長崎を下し千葉ジェッツが5連勝",
+          "points": [
+            "千葉ジェッツが長崎戦に勝利し、見事に5連勝を達成したことが伝えられている。",
+            "連勝の過程の中でチームに確かな変化や成長が見られていると評価されている。",
+            "バスケットボールにおける連勝はチームの勢いを加速させ、シーズン全体の順位争いに大きな影響を与える。"
+          ],
+          "takeaway": "チームにどのような戦術的変化が起きているのか、快進撃を続ける姿から目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "[11/12 更新]【チケット】「Jr.ウインターカップ2026-27／ウインターカップ2026」千葉県予選会開催のご案内",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/14 20:34",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWaHJpV2pNZjlBM1J2T3VLNlMwNEdsYnBNWHM4cEJ0Y0JxQVdWQXM3S0RNMjloRk1HYlplMk1ZSWJfclRLQkJaUUlKdlRLRHV4aWpJ?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "ウインターカップ千葉県予選会の案内",
+          "points": [
+            "Jr.ウインターカップ2026-27およびウインターカップ2026の千葉県予選会が開催される。",
+            "大会に向けたチケット情報が11月12日に更新され、ファンへ向けて案内が行われている。",
+            "育成年代の大会は将来のBリーグや日本代表を担う原石を発掘する重要な舞台である。"
+          ],
+          "takeaway": "未来のスターたちが熱い戦いを繰り広げる予選会のチケット情報を早めにチェックしておこう。",
+          "is_new": false
+        },
+        {
+          "title": "島根スサノオマジック、宇都宮ブレックスに快勝 Ｂリーグ１部（山陰中央新報）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/16 07:36",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zOEd4Nll1bi16VVAtbXlPXzZEWF9FcVlncl9wMEl3U3NEOFJHdUpDZ01BS2JUVUxRQ3ZMdUZ1LUxSSVdjMzhlLWpLWGNXNWl2U1NRcHhfQ0NWR05Jd25XcHVXcEo3WTVmUFB6QjdTdzZSalRlc3JzLWdKZU9LUHc?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "島根が宇都宮に快勝し白星",
+          "points": [
+            "Bリーグ1部において、島根スサノオマジックが宇都宮ブレックスに快勝した。",
+            "強豪同士の対戦カードであり、島根が鮮やかな勝利を収めたことが報じられている。",
+            "Bリーグは毎節激しい順位変動が起きるため、強豪撃破の1勝がシーズン終盤の行方を大きく左右する。"
+          ],
+          "takeaway": "強豪を圧倒した島根の勝因と、宇都宮が次節に向けてどう立て直すのかが見どころである。",
+          "is_new": true
+        },
+        {
+          "title": "１億円超え６２人、「サラリーキャップ」導入のバスケＢリーグが報酬レンジ別人数を初公表…クラブ別総年俸や契約期間も",
+          "source": "読売新聞",
+          "pub_date": "11/15 09:30",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QMHFxT2tvQjZpeklzSnRHQk5Vb3h2VWRRbUNiLUdBdk14SkZBcWpMWmlmU1VfbkFBZ0cxa0MwWEZJYTNiaTRiSkNVVEFSZEJsWml5VExGZTJ0WlFWWm5LdlB0MkpSYzBo?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "Bリーグが報酬レンジ別の人数を初公表",
+          "points": [
+            "サラリーキャップを導入しているバスケットボールのBリーグが報酬レンジ別人数を初公表した。",
+            "1億円超えの選手が62人に達していることや、クラブ別総年俸、契約期間などが明らかにされた。",
+            "リーグの透明性を高め、ビジネス面でも成長を続けるプロスポーツ経営の先進的な取り組みである。"
+          ],
+          "takeaway": "選手の契約やクラブの総年俸が可視化されたことで、今後の移籍市場やリーグの勢力図がより深く楽しめる。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/16 08:24",
+        "title": "F1混戦予兆と角田アウディ上訴問題",
+        "summary": "F1でメルセデスが新たな激戦へ警戒を示す一方、アウディがイタリアGPの角田裕毅の10位・1ポイントを巡り上訴。またWECではトヨタが水素エンジンの将来性を語り、MotoGPでは小椋藍が過酷な3連戦を戦い抜いた。",
+        "key_players": "9度目戴冠のメルセデス代表ウォルフが激戦を警戒。イタリアGPの裁定にアウディが上訴し角田裕毅の10位に影響の可能性。WECの小林可夢偉代表が耐久レースの難しさを語り、MotoGPでは小椋藍がカタールGPで4位と健闘した。",
+        "outlook": "11月25日に予定される角田裕毅の10位を巡る審理や、アストンマーティン・ホンダの信頼性改善の行方が注目される。また、F1アカデミーのカレンダー発表や各カテゴリーの来季に向けたドライバー体制の動向から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "「メルセデス時代の始まりとは考えていない」9度目戴冠のウォルフ代表、史上最大の激戦に備える／F1チーム代表の現場事情",
+          "source": "autosport web",
+          "pub_date": "11/16 08:12",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03UzVteXVzdXh2YUtHc3pWWFhkZUtCdkNSN2ZubGNSal9TWDZ4eW5IdGg4UGRTOUxURmNQaEFnbFBpWFR2em9v?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "メルセデス代表が史上最大の激戦を警戒",
+          "points": [
+            "メルセデスのトト・ウォルフ代表が、今後のシーズンを単純な一強時代とは考えていないことを明かした。",
+            "過去の圧倒的な強さとは異なり、各チームの戦力が拮抗する史上最大の激戦になると予想されている。",
+            "数千分の1秒を争う極限のプレッシャーの中で、チーム首脳陣がどう戦術を組み立てるかが勝負の分かれ目となる。"
+          ],
+          "takeaway": "絶対王者が不在の群雄割拠の時代だからこそ生まれる、毎戦予測不能なドラマと頭脳戦の応酬が見逃せません。",
+          "is_new": true
+        },
+        {
+          "title": "角田裕毅の10位・1ポイントはどうなる？ 11月25日に審理へ、F1イタリアGPの「不問」裁定にアウディが上訴（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/15 20:38",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBc3BiY1RtWWZLd0tYNTBfZjNoWUEtakZNYmlNa3dNRGtZWWtCZC1XWG9qSUVmb3FMV0VFSW5NMUdIa1ZDODUtZ2RTTnZzM1I3T0k0VUFRcERGOEFfWXBoRmZxUGp1cHNadGtmYXljSy1rSmkwSWxsQkRJd2JjN3c?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "角田裕毅の10位入賞を巡り11月25日に上訴審理へ",
+          "points": [
+            "F1イタリアGPでの裁定に対しアウディが上訴を行い、角田裕毅の獲得した10位・1ポイントの行方が再び審理されることになった。",
+            "過去のレース裁定が覆る可能性があるため、チーム間およびドライバーズ選手権のポイント争いに大きな影響を与える。",
+            "わずか1ポイントがシーズン全体の順位やチームのランキングを左右するため、法的な駆け引きにも大きな注目が集まっている。"
+          ],
+          "takeaway": "チェッカーフラッグ後もコース外で繰り広げられる、コンマ何秒の争いに匹敵するスリリングな法廷闘争の行方に要注目です。",
+          "is_new": true
+        },
+        {
+          "title": "ミラー、WSBKでの目標は「最高のスーパーバイクライダーになること」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "11/15 18:29",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYlQ4RlFVYTFIQTF5ZFZhbHN4Q041a1NSd1l1enF4eW40SHhjRGRhS1BHN3BuSmROdE5scmtwV3F5WlVMLWpuQXN6NzhMalVnblY5UHR0c096OVJ6MlJWejE2eGRNYU5mdkVwQzF1WFpxWGs4ZTVxRHdrSVFyV21ZRGtCam1Lekc5RVhxT180LWtNOHM5N2xZU0N0MFpFOUtzdkhTWTFrNXB0TldUQkFXbnZHRDlWWnVzSDNkZEdwbWc?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ジャック・ミラーがWSBKでの新たな目標を語る",
+          "points": [
+            "モータースポーツ界で知られるジャック・ミラーが、スーパーバイク世界選手権（WSBK）への参戦に向けた強い意気込みを語った。",
+            "最高峰の舞台を目指す中で、彼が掲げる究極の目標は「最高のスーパーバイクライダーになること」であると明かされている。",
+            "異なるカテゴリーへの挑戦を通じて、ライダーとしての総合力や新たなマシンの限界を引き出す手腕が試される。"
+          ],
+          "takeaway": "市販車ベースのマシンで限界を超えたバトルを繰り広げるWSBKで、トップライダーが新天地で魅せる走りに期待が高まります。",
+          "is_new": true
+        },
+        {
+          "title": "自動車レースで”水素”を使うメリットとは？ スーパー耐久に、そしてル・マンに……トヨタの想い「将来の量産車開発に活かせる」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "11/15 17:34",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTU1meVVVYlI0dmFLemlWUFN5OGZuaUVIUl92R1ZzamVLSnBicW9zTnFKTmZqLUxSc1BBQUlnUkgwSHdkTGpIT0lzN2tzdzNJRkFBa1lEWXZERmtkaVpiMjFUR0VDaEg1MHdzZ1czWk5zX2V6ZDRBMTVRWkdTM3Zpb1pHUjBJYkNZWTR2eTROekJSTDVwY19TRzVQc2hsUQ?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "トヨタが語るレースを通じた水素技術の未来",
+          "points": [
+            "スーパー耐久やル・マンなどの過酷なモータースポーツの現場で、トヨタが水素エンジン技術の実証実験を進めている。",
+            "極限の環境でレース車両を走らせることで、耐久性や性能を証明し、将来の量産車開発への直結を目指している。",
+            "カーボンニュートラル実現に向けた新たな動力源として、モータースポーツが技術革新の実験場として機能している。"
+          ],
+          "takeaway": "サーキットでの過酷な挑戦が、私たちが乗る未来の市販車や環境技術を直接進化させていくという壮大なロマンを感じさせます。",
+          "is_new": true
+        },
+        {
+          "title": "2027年F1アカデミーのカレンダーが発表される。オランダに代わりハンガリーが加わる",
+          "source": "autosport web",
+          "pub_date": "11/15 16:54",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ubVZkSFlfWjk5MjJYM2pLbzB0X0l1dUl6VktBeFExSExFWnlPNmFORlA1aFA4eEFfTEdvNzdUNzhmeHZVQ00zeU1zRkF0Znc?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "2027年F1アカデミーの開催カレンダーが発表",
+          "points": [
+            "女性ドライバー限定の育成カテゴリーであるF1アカデミーの、2027年シーズンに向けた新たなカレンダーが公開された。",
+            "従来のオランダ大会に代わり、新たにハンガリーでの開催が組み込まれるなど、世界各地を転戦する構成となっている。",
+            "未来のトップカテゴリーを目指す女性アスリートたちに、より多様なサーキット経験の機会を提供する重要なステップとなる。"
+          ],
+          "takeaway": "次世代のスターを育成する登竜門として進化を続けるF1アカデミーが、世界中のモータースポーツファンに新たな熱狂を生み出しています。",
+          "is_new": true
+        },
+        {
+          "title": "圧勝のち大惨敗も……WECを戦い抜く難しさ。”オールマイティ”なマシンは生み出せない？ 小林可夢偉代表「だからこそ、勝てる場所でしっかり勝つのが重要」（motorsport.com 日本版）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/15 14:41",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sUXhKaHhFRmFGWkRRZVkwRFI5Y3VrbVhnbENQemRlOTQ5ZWx3Q0JmRXBjU1hzSHRWbTg5X002cWpRWnJKazVNM3ZTZVNnLWlVRXRMemFIbFRDTExTNGdsanU3Ujk0U3F6RVdnMWFYaFpZaG1pSE5laV9xdXRXeFU?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "小林可夢偉代表が語るWEC耐久レースの厳しさ",
+          "points": [
+            "WEC（世界耐久選手権）において、すべてのサーキットで速さを発揮する万能なマシンを作ることは極めて困難であると指摘されている。",
+            "圧勝したかと思えば大敗することもあるという過酷な環境の中で、チームを率いる小林可夢偉代表が勝利の哲学を語った。",
+            "長時間のレースを戦い抜くための戦略性と、勝てるサーキットで確実にポイントを稼ぐ戦術的アプローチの重要性が強調されている。"
+          ],
+          "takeaway": "24時間続く長丁場や予測不能なトラブルを乗り越え、チーム一丸となってチェッカーを目指す耐久レースならではの深いドラマが味わえます。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/16 08:25",
+        "title": "激動の1週間！世界各地で熱戦展開",
+        "summary": "テニスWTAファイナルズでアンドレエワが躍進し、UFCではケイラ・ハリソンが王座防衛。MLBの補強や国内のバレー・ラグビー・セパタクロー、世界各地の多様な競技で熱い戦いが繰り広げられた1週間となった。",
+        "key_players": "WTAファイナルズでストレート勝利を重ねるアンドレエワ、UFCで復帰のアマンダ・ヌネスを下したケイラ・ハリソン、LPGAで首位を快走するチェ・ヘジンらが圧倒的な存在感を示した。",
+        "outlook": "テニスやゴルフの最終局面での優勝争いに加え、MLBの契約動向、氷雪シーズンを迎えるウィンター競技や各地の地域熱狂競技のさらなる盛り上がりにファンからの熱い視線が集まる。"
+      },
+      "news": [
+        {
+          "title": "コンチネンタルタイヤ、バイアスロンと4シーズン協力…冬用タイヤのマーケティングを強化",
+          "source": "매일경제",
+          "pub_date": "11/12 09:58",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GbmRjRDZMT1pET1NoS1hjNzFodnR1RS01RV9qZXJaZGNHOWV0QlBXSVZ2NGw2UW9PLS1RNWNhT1BSd0dtMHZ6Q0FPSHFmRWZtcUdF?oc=5",
+          "sub_tag": "🌏 地域熱狂：バイアスロン(北欧・独)",
+          "sub_type": "unique",
+          "headline": "コンチネンタルタイヤがバイアスロンと4季協力",
+          "points": [
+            "コンチネンタルタイヤがバイアスロン競技と4シーズンにわたるパートナーシップ契約を締結した。",
+            "冬用タイヤのマーケティング強化を目的として、欧州を中心に高い人気を誇る冬季競技との協力を決めた。",
+            "バイアスロンはドイツやノルウェーでテレビ視聴率No.1を誇り、激しい息切れの中で精密射撃を行う究極の動静競技だ。"
+          ],
+          "takeaway": "心拍数180超のクロスカントリースキー直後に正確無比なライフル射撃を行う、静と動の極限コントラストが生む緊張感が最高潮の瞬間を楽しめる。",
+          "is_new": false
+        },
+        {
+          "title": "初対決だったペグラに勝ったアンドレエワが4試合連続ストレート勝利で初出場での優勝に王手「今日はまったくプレッシャーを感じなかった」 [WTAファイナルズ／テニス]（テニスマガジンONLINE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/15 20:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YamRwQ3BOZWhBa0NVSkUxZEZneFJfWXc5Rk1KOGhhcEVGeXVZRDlKODUtV2oxTkd1SzRYckNMbE9lY2J4cXRjd0hoV1pwZ2kxcXBlNFN0RWJkNlY4WE11UXQxRnBEMWZSZGF3Sk51SVZMN3JfY05EYjlZamRYbWs?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "アンドレエワがストレート勝利で優勝に王手",
+          "points": [
+            "WTAファイナルズの準決勝で初対決のペグラを下し、4試合連続のストレート勝利を収めた。",
+            "今大会が初出場ながら圧倒的なパフォーマンスを発揮し、ついに決勝進出を果たして優勝へ王手をかけた。",
+            "試合後には「まったくプレッシャーを感じなかった」と語り、抜群のメンタルと勢いのまま最終戦に臨む。"
+          ],
+          "takeaway": "初出場とは思えない圧倒的な強さとメンタルの安定感を見せるアンドレエワが、大舞台の頂点を掴み取る瞬間に要注目である。",
+          "is_new": true
+        },
+        {
+          "title": "【UFC】ケイラ・ハリソンが復帰のアマンダ・ヌネスに4R 一本勝ち王座防衛！「本来なら今ここにいるはずのない人間。そこから、ここまで来られたなんて」（ゴング格闘技）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/15 14:49",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Cd2l4Y3JtUE9tZWVYdmhxWGprOEpXQzhuM21jQ0g2T2pyQmZ6SUpKSi1TcW5PRGhnSmpFR0d4bGlyWnhGMzRtQlM4azhuekcwRU9tZU5OdUlxNkhyVDVDSWt2bTJ4YU01UGJ5OEFoT2xlYmpMMnZLdHR0WXdxQ0U?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "ケイラ・ハリソンが一本勝ちで王座防衛",
+          "points": [
+            "UFCでケイラ・ハリソンが復帰戦となったアマンダ・ヌネスを相手に第4ラウンド一本勝ちを収めた。",
+            "見事に王座防衛を果たし、試合後には感極まった様子でここまでの道のりを振り返り喜びを語った。",
+            "世界最高峰の総合格闘技団体UFCにおいて、実力者同士のプライドがぶつかり合う歴史的な一戦となった。"
+          ],
+          "takeaway": "最強女王の系譜を継ぐケイラ・ハリソンが、復帰したアマンダ・ヌネスを退けて見せた圧倒的な極め技の技術と執念の勝利に酔いしれたい。",
+          "is_new": true
+        },
+        {
+          "title": "「みんなのお姫様だわ」 18歳中井亜美の“2秒”に海外すら虜「マジで可愛すぎる」SP圧巻首位",
+          "source": "au Webポータル",
+          "pub_date": "11/15 21:41",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DY1RfSXoxRWkySmMtZllONWNkV2JoQkdBcGhMT0ZzRjFfcmN3TzVJN2hieV9GVkRxel9WbkJNSmZudkdZZWk0QjlNdmE3a292Ym05X1ZIc1hFLTZXYXI4QmVqY1JNZlVCbXBFeG1n?oc=5",
+          "sub_tag": "⛸️🚴 氷雪・自転車・卓球",
+          "sub_type": "frontier",
+          "headline": "18歳の中井亜美がSP圧巻首位",
+          "points": [
+            "フィギュアスケートのショートプログラムで、18歳の中井亜美が圧巻の演技を見せて首位に立った。",
+            "演技中のわずかな仕草や表情が海外ファンをも虜にし、「みんなのお姫様だわ」と大きな話題を集めた。",
+            "技術点の高さだけでなく、氷上のアーティストとしての魅力と愛らしさが世界中で絶賛されている。"
+          ],
+          "takeaway": "高いジャンプや技術はもちろんのこと、リンクの上で見せる一瞬の表情や表現力が世界中のファンを魅了する瞬間を堪能できる。",
+          "is_new": true
+        },
+        {
+          "title": "【NBA】カリー代役の重責を担うもフィールドゴール13本中1本成功に終わり大敗、ウォリアーズのレンデボーグ「100点差で負けた気分」（BASKET COUNT）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/15 15:39",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kUmVfY1NtRzF2LWhjRkZST3RfWEJwM2hrR01uaE9fcy1fMmVSZXhHU0FzbGdYeHk3eG1DblNONlZ2WmlSWTJYWHVFdVg2OXRRUG9OSi13eWhEY2ZUWDItZGZIbmYtZk12eTZzdDBHb0NkWDllb0ZhS2ZLcTVYejg?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "ウォリアーズが代役不発で大敗",
+          "points": [
+            "NBAの試合でステフィン・カリーの代役を務めたレンデボーグがフィールドゴール13本中1本成功にとどまった。",
+            "チームも大敗を喫し、試合後にレンデボーグは「100点差で負けた気分」とショックを隠さなかった。",
+            "主力の離脱という緊急事態において、代役選手にかかる重責とNBAの厳しさが浮き彫りとなった一戦である。"
+          ],
+          "takeaway": "スーパースターの不在がいかにチームに影響するか、代役選手が直面するプレッシャーと過酷な現実をリアルに感じる試合となった。",
+          "is_new": true
+        },
+        {
+          "title": "ヤンキースが救援左腕ヒルと再契約 1年3.6億円、ゴロ率68・8％はメジャートップ（スポニチアネックス）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/16 07:17",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNdmdpZGpFV1lrR29UVXdHU1BZVC1wV01uclA3WHQ2cXR6VjlSZld1V3JhcWo5TmZqS3Z1M1dvYUpmS3Q3QXpFcEUtYTlWWjZ4SDdLSnAzcVdoaW1SaDdrVlRUQUMwd3p3YlNhVUZsNnhoV25rRTdzemhFSldLTHc?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "ヤンキースが救援左腕ヒルと再契約",
+          "points": [
+            "MLBのヤンキースが救援左腕のヒルと1年約3億6000万円で再契約を結んだことを発表した。",
+            "昨季のゴロ率68.8％という数字はメジャートップを誇り、チームのブルペン陣にとって不可欠な存在である。",
+            "メジャー屈指の地面へ打球を転がさせる高い技術力で、勝負所でのリリーフ起用が期待されている。"
+          ],
+          "takeaway": "圧倒的なゴロ率でピンチを火消しするメジャー最高峰のグラウンドボールピッチャーが、来季もヤンキースのブルペンを支える。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}

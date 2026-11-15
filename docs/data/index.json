@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-15",
-  "total_days": 56,
+  "latest_date": "2026-11-16",
+  "total_days": 57,
   "dates": [
+    {
+      "date": "2026-11-16",
+      "updated_at": "11月16日 08:25",
+      "label": "11/16",
+      "summary_title": "中日：大島更改＆新体制へ期待、新人入団も続々"
+    },
     {
       "date": "2026-11-15",
       "updated_at": "11月15日 08:00",
