@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-18",
+  "updated_at": "11月18日 10:38",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/18 10:38",
+        "title": "中日・工藤新体制が本格始動、来季のコーチングスタッフ決定と契約更改が進む",
+        "summary": "中日ドラゴンズは工藤公康新監督と嶋基宏総合コーチの新体制による来季スタッフが決定。秋季練習では選手への指導や契約更改が行われ、新入団選手の交渉も進展を見せている。",
+        "key_players": "工藤監督から指導を受ける梅野や肉体改造が進む根尾に期待。また、契約更改を終えた最年長の大島洋平や、新加入のドラフト2位・柴崎聖人らの動向が注目されている。",
+        "outlook": "6年連続Bクラスからの巻き返しを狙う工藤新体制のもと、若手の育成や新戦力の融合が進む。セ・リーグDH導入を見据えた他球団の動きと合わせ、オフシーズンの編成に注目。"
+      },
+      "news": [
+        {
+          "title": "元中日・福敬登、中日ドラゴンズ2015年ドラフト同期で「慰労会」",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "11/17 22:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXM20wdjlSa2FEWlJrVGJxMnFSWjlwbGNGbEZPS1lvZnBxNTZLUVJYRXdkLTZ3blQwLXdFdk1fel92WTQ1N2NzR0txWlFwMWZ4di04YndGUzM0QQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "元中日の福敬登が2015年ドラフト同期で慰労会を開催",
+          "points": [
+            "元中日ドラゴンズの福敬登が、自身のSNSを更新して2015年のドラフト同期入団メンバーで慰労会を行ったことを報告した。",
+            "プロ野球の世界で苦楽を共にした同期の絆が、ユニフォームを脱いだ後も深く繋がっている心温まるエピソードとなっている。",
+            "長年プロの第一線で戦い続けた選手同士ならではの、深い信頼関係やリスペクトが垣間見える交流としてファンに親しまれている。"
+          ],
+          "takeaway": "勝負の世界を生き抜いた同期の変わらぬ絆や、チームの歴史を支えた選手たちのプライベートでの温かい交流を感じられるエピソードです。",
+          "is_new": true
+        },
+        {
+          "title": "石岡真衣のドラゴンズ勝利の女神記 番外編「侍ジャパン観戦記」",
+          "source": "BUBKA Web",
+          "pub_date": "11/17 19:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbEkwZ3FqOUYzc0NuRVlzYUc0NWFxTHl5NG5peGtfbVpaXzdic1dwaDk2elRlbkxnbkl5ajdnZW9DSzJ0dlhQQWQ5OFBzbEdLWXJUcQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "石岡真衣が侍ジャパンの試合を観戦した番外編コラムを公開",
+          "points": [
+            "タレントの石岡真衣が自身の連載コラムの番外編として、国際大会に臨む侍ジャパンの熱戦を生観戦したレポートを寄稿した。",
+            "ドラゴンズを愛する視点とはまた一味違う、日の丸を背負う日本代表選手たちの圧倒的なプレーや球場の熱気を伝えている。",
+            "野球ファンお馴染みの著名人が、代表戦特有の緊張感や日本中が一体となって応援する盛り上がりを独自の目線で振り返っている。"
+          ],
+          "takeaway": "普段のプロ野球公式戦とは異なる、侍ジャパン特有の国を背負うプレッシャーや代表応援の熱気をファン目線で追体験できる内容です。",
+          "is_new": true
+        },
+        {
+          "title": "中日・工藤新監督、江夏豊さん悼む「子どもの頃から目標の投手で、フォームをまねして投げていました」西武で1年ともにプレー",
+          "source": "中日新聞Web",
+          "pub_date": "11/17 17:36",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5XS2hFNktldzIxTHBwWHI5LUlxTWwxOFdTUklvNk5PZnJHRmpIbXZkNUdVWWJ2cXMwYXdxVjViWTlXbU00QnBPeWpnOXotelVjNE1SWg?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日の工藤新監督がレジェンド江夏豊さんを追悼",
+          "points": [
+            "中日ドラゴンズの工藤新監督が、惜しまれつつも亡くなった江夏豊さんへの深い哀悼の意と生前の思い出を語った。",
+            "子どもの頃からの憧れの存在であり、プロ時代には西武ライオンズで1年間ともにプレーした貴重なエピソードを明かした。",
+            "日本野球界のレジェンドが残した多大な足跡と、レジェンドからレジェンドへ受け継がれてきた野球への情熱が語られている。"
+          ],
+          "takeaway": "球界の偉大な先達が後世の野球人に与えた影響の大きさと、レジェンド同士の知られざる深い絆をしみじみと感じられる記事です。",
+          "is_new": true
+        },
+        {
+          "title": "【中日】来季のコーチングスタッフ決定 1軍は工藤公康監督・嶋基宏総合コーチ体制 6年連続Bクラスからの巻き返しへ",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/17 17:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oMHFadEZEYmhTQk5mVGVLbXltUXNRcnZ2eEV0QWRWdUpxaDJBS0VLaUVvMklWdFowSlVaUUcwc1VFRkRYeWFkeXVvUm9GQlVJZUo2bmtQdkF5MEZ5R3dscEFxSTNyb1BudHdJdUF4TlVsUkVrT1BrS2tDTVJudWM?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日の来季コーチングスタッフ決定、工藤新体制が本格始動",
+          "points": [
+            "中日ドラゴンズは来季のコーチングスタッフを発表し、1軍は工藤公康新監督と嶋基宏総合コーチの体制で臨むことが決定した。",
+            "6年連続Bクラスという低迷からの脱却と巻き返しを期し、球界屈指の名将として知られる工藤新監督のもとで新たな戦術や指導体制を構築する。",
+            "就任した首脳陣の手腕と、長年優勝から遠ざかっているチームの意識改革や戦力立て直しがどのように進むのか大きな注目が集まっている。"
+          ],
+          "takeaway": "低迷からの脱却を図る名門球団が、新監督と強力なコーチ陣を迎えてどう生まれ変わるのか、来季の躍進を占う極めて重要な布陣発表です。",
+          "is_new": true
+        },
+        {
+          "title": "(2ページ目)巨人のDHはリチャードか、それとも… セ・リーグDH導入元年、各チームの候補は？",
+          "source": "AERA DIGITAL",
+          "pub_date": "11/17 17:30",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83RjFWeVRRcVBERUY5TUJycVZVSFF1WEtOemdLbU1KT0lRM0NhYTI5UTJSMXpBQTJqVFg0aVIzSi1zWVNuMGRKNmVrMTNiWGloblhKZFRWYzV6UQ?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "セ・リーグDH導入元年、巨人など各球団の起用候補を徹底考察",
+          "points": [
+            "セ・リーグで指名打者（DH）制が導入される記念すべき元年を迎え、各球団の強力なDH候補選手についての考察が展開されている。",
+            "読売ジャイアンツにおいては加入が噂されるリチャードをはじめ、打撃自慢の長距離砲をどのように起用するかが編成の大きな鍵となる。",
+            "パ・リーグでは長年定着しているDH制がセ・リーグに本格導入されることで、戦術の幅や選手起用の選択肢がどのように変化するか注目される。"
+          ],
+          "takeaway": "セ・リーグの野球観を根底から変える「DH制導入」により、各チームがどのようなオーダーを組むのかという新しい戦略の醍醐味が味わえます。",
+          "is_new": true
+        },
+        {
+          "title": "阪神タイガース、セ・リーグ初連覇の裏側に迫るドキュメンタリー映画が12月に公開 (映画ナタリー)",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/17 04:14",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcU1FWTgtZEVsbGlFUFRDZm9Ba3RjbmZ1NklTMldadnM1a1ZPX2NxMkVxSlBfVlhSdUZGN1V3MUtwdm9xWjBDcWZpZUljZHAzWWl4Q3Awb2EzMzVkWkFnUnVwazdkb3ZJOWZNOEVMRXRlQVN1T0p5ZjY4WTIzNmhYNTU5dmhOelIweDBDdmJ3?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "阪神タイガースのセ・リーグ初連覇に迫るドキュメンタリー映画公開へ",
+          "points": [
+            "阪神タイガースが成し遂げたセ・リーグ初連覇の知られざる裏側に密着した公式ドキュメンタリー映画が12月に公開されることが決定した。",
+            "歴史的な快挙を達成したシーズン中、選手や監督、スタッフがグラウンドの裏で見せた葛藤や歓喜の瞬間が余すところなく収められている。",
+            "ファンの熱狂的な応援で知られる関西の熱気とともに、プロ野球チームが頂点を目指す過酷な戦いのリアルなドラマが描かれる。"
+          ],
+          "takeaway": "シーズンを戦い抜いた選手たちの生々しい表情や、歓喜の裏にあった苦悩を特等席の目線で目撃できる感動のドキュメンタリー作品です。",
+          "is_new": false
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/18 10:38",
+        "title": "千葉ジェッツ激闘の1週間、5連勝と三遠戦の課題",
+        "summary": "千葉ジェッツは長崎や滋賀戦を制し一時5連勝を飾るも、直近の三遠戦では延長の末に惜敗。ロスター変更や接戦での課題が浮き彫りとなりつつも、勝率5割に復帰し熱戦が続いています。",
+        "key_players": "渡邊雄太は接戦をモノにする自信を示し勝率復帰に貢献。富樫勇樹は三遠戦後に悔しさをにじませつつチームを牽引。また、ルーク・メイの契約解除とエルジー・ギルの再契約が発表されました。",
+        "outlook": "11月18日の秋田ノーザンハピネッツ戦へ向けた戦術修正とチームの結束がカギ。Bプレミア全体でも長崎の連敗ストップや川崎のベテランのコメントなど各所の動向から目が離せません。"
+      },
+      "news": [
+        {
+          "title": "【試合情報】11/18 千葉ジェッツvs.秋田ノーザンハピネッツ [Resona Group B.LEAGUE 2026-27 SEASON]",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/18 00:48",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BTFpaY1FISUdiWXFBeHhaZVM5SV9WdHFhbEg1VXVqQkNJWDk0SDIxMk93LU04eldJN1JmWVplYWVud3AwUEtta19QcjRfaEk?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ対秋田戦の試合情報",
+          "points": [
+            "りそなグループB.LEAGUE 2026-27シーズンにおける千葉ジェッツと秋田ノーザンハピネッツの試合情報が発表されました。",
+            "11月18日に開催される両チームの対戦に向けた公式のスケジュールや詳細な試合情報がファンに向けて届けられています。",
+            "Bリーグは日本国内で急速に人気を集めるプロバスケットボールリーグであり、毎節熱い戦いが繰り広げられています。"
+          ],
+          "takeaway": "強豪が集うBリーグの舞台で千葉ジェッツがどのような戦いを見せるのか、試合展開から目が離せません。",
+          "is_new": true
+        },
+        {
+          "title": "りそなグループB.LEAGUE 2026-27シーズン 3rdユニフォームデザインならびに着用日決定のお知らせ",
+          "source": "千葉ジェッツ",
+          "pub_date": "11/17 12:03",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WQkZPNXBBME1IV0lnaGJBU1ZFbmRqaS16d0tQRnRWWHBQdzRHSTctd1psU1dpd0NUVTdqbWFlbmJRdjdRUnUwOG9kVUhoUVlCaE44?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツの3rdユニフォーム決定",
+          "points": [
+            "りそなグループB.LEAGUE 2026-27シーズンで使用される千葉ジェッツの3rdユニフォームのデザインと着用日が決定しました。",
+            "クラブの新たな一面を表現する特別なユニフォームデザインの発表となり、シーズン中の特定の試合で選手たちが着用します。",
+            "バスケットボール界ではユニフォームのデザインや限定着用がクラブのアイデンティティを示し、ファンのコレクション欲を刺激します。"
+          ],
+          "takeaway": "特別な3rdユニフォームを纏った選手たちがコート上でどのような躍動を見せるのか、デザインの細部まで注目です。",
+          "is_new": true
+        },
+        {
+          "title": "【B.PREMIER】富樫勇樹（千葉J）「正直あまり受け入れられない」三遠との延長激闘で惜敗／接戦で見えたチームの課題と司令塔としての役割",
+          "source": "https://jbasket.jp/",
+          "pub_date": "11/17 09:59",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55RHZuZ1JuV2VrRkhpZGoxZkliOHJJd1QwZnZOQ2d3UV9MTG1QeUcxcmVXaWpvTDNDOW9ic1FLTkpGdjdZbmNnV2JLYVNuNUdzQjdGWUpWV2VuQUZVS1kxQUZ5dW1Zdw?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "富樫選手が三遠戦の惜敗を振り返る",
+          "points": [
+            "三遠との延長戦にもつれ込む激闘の末に惜敗した試合を受け、富樫勇樹選手が悔しさとチームの課題について語りました。",
+            "B.PREMIERの舞台において、司令塔としてチームを勝利に導く役割を担う富樫選手の強い責任感が示されています。",
+            "バスケットボールにおける司令塔は試合をコントロールする頭脳であり、わずかなミスが勝敗を分ける重要なポジションです。"
+          ],
+          "takeaway": "エースであり司令塔でもある富樫選手が、この敗戦をバネにチームをどう立て直していくのか次の戦いに期待が高まります。",
+          "is_new": true
+        },
+        {
+          "title": "【B.PREMIER】渡邊雄太（千葉J）「接戦を全部ものにできている自信は間違いなくある」5連勝で勝率5割復帰／コヴァーチHCが語る日本への適応と選手の強みを生かすチームづくり",
+          "source": "https://jbasket.jp/",
+          "pub_date": "11/15 15:25",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtY1BkTjZfYXhaOTNyX3Z4SWIxbUh3em1QSGhkMWVqVmo1ZWhLUmRBV3hDNDdJOTcwaDNFTmZNTGRMWkR4YWsyRWQyUEgydU9mTzRacjRwelJCb0JhcnZ2WG94dk9aUQ?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツが5連勝で勝率5割に復帰",
+          "points": [
+            "渡邊雄太選手の力強い言葉や、コヴァーチHCが語る日本への適応とチームづくりにより千葉ジェッツが5連勝を飾りました。",
+            "接戦を確実にものにするチームの確固たる自信と、選手個々の強みを最大限に生かす戦術が見事に噛み合っています。",
+            "バスケットボールの強豪チームでは、HCの戦術理解度と個々の高い決定力が連勝を生み出す大きな原動力となります。"
+          ],
+          "takeaway": "渡邊選手を中心とした勝負強さと洗練されたチーム戦術がどのように勝利を引き寄せているのか、その圧倒的な強さを実感できます。",
+          "is_new": false
+        },
+        {
+          "title": "【Bプレミア結果まとめ】第3Qに流れを呼び込んだ長崎が三河に快勝…連敗を「5」でストップ｜Bリーグ",
+          "source": "DAZN",
+          "pub_date": "11/17 21:57",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObnhrSVlxdkpjai1HWGRwSF9TcTZidkd6d0EyRVpFbGFac2xHSnpxNEdKWFVSdmRFZGxCcjg3VDBWZDM2SmhBNVpDNEl3WGJVRDh0TWFsZ19rT09kd09JVjQ1elpqQ0hmUUFJYW56RFFRc3JCWjJtNXlsSElmMVNoSVBRWm4teGlPMDB4dkdqc0FEUzZPZXBZcnNRLUxBOUVGdzhZS0JyeGdkU25lY21BcjJaejdtS3VWSk9sREZhZHBDaHRBZGZidEVYUkRvalZjQVdGbXFwWXVBVnhaS1BhWXN3aXQzRTZwemg5bF9R?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "長崎が三河に快勝し連敗を5で止める",
+          "points": [
+            "Bプレミアの試合において、長崎が第3クォーターに試合の流れを大きく引き寄せ、三河を相手に快勝を収めました。",
+            "この勝利により長崎はこれまでの連敗を「5」でストップさせ、チームにとって大きな転換点となる白星を手に入れました。",
+            "バスケットボールでは特定のクォーターでの戦術的修正や選手交代が試合の流れを劇的に変える重要な要素となります。"
+          ],
+          "takeaway": "苦しい連敗を脱出した長崎がここから勢いに乗っていけるのか、今後の巻き返しに向けた戦いぶりに注目が集まります。",
+          "is_new": true
+        },
+        {
+          "title": "連勝も安堵することない川崎ブレイブサンダースの長谷川技、勝利を知るベテランが語る現在地「今は納得できる勝ち方ができていない」",
+          "source": "www.bleague.jp",
+          "pub_date": "11/17 19:01",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SSjgtV1pvQ1R3SUE0MXU4SnI3NmFBN3hTLUdPUThiY0xTMTkwNUFmUXFSbnc5c0x4OV9DZXQ5VU1YVWJPcVhSdVROREE5SF9QTE5lM0diWU5FVUg3Q1dvbFcxQQ?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "長谷川選手が語る川崎の現在地と課題",
+          "points": [
+            "連勝を重ねながらも決して安堵せず、勝利を知るベテランの長谷川技選手がチームの現在地について率直な思いを語りました。",
+            "「今は納得できる勝ち方ができていない」という言葉の裏には、チームが更なる高みを目指すための高い基準が存在しています。",
+            "長いシーズンを戦い抜くプロスポーツの世界では、勝利しながらも内容にこだわるベテランの姿勢がチームを引き締めます。"
+          ],
+          "takeaway": "勝利の味を知るベテランがチームに求める高い意識と妥協のない姿勢から、川崎の今後のさらなる進化が楽しみになります。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/18 10:38",
+        "title": "F1動向からアロンソのダカール参戦まで激動の1週間",
+        "summary": "直近1週間はF1でのキャデラックの特別リバリー発表や平川亮の代役起用噂、角田裕毅のリザルトに関する上訴審理の動きなど激しいトピックが続出。さらにWRCではアロンソのダカール参戦発表など、モータースポーツ界全体で大きな展開が見られた。",
+        "key_players": "ハース創設期を支えたグロージャンがインディカー引退を示唆。アストンマーティンのアロンソが2027年ダカール・ラリー参戦を発表したほか、MotoGPでは小椋藍がカタールGPで4位フィニッシュと見事な猛追を見せた。",
+        "outlook": "2027年F1日本GP指定席が約4時間でほぼ完売するなどファンの期待値が高まる中、ハースの残る2戦での代役候補としての平川亮の動向や、アウディによる角田裕毅のイタリアGP裁定への上訴審理など、直近のレース内外の展開から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "小松礼雄とハース創設期を支えたグロージャン、F1炎上事故から6年･･･40歳でインディカー引退示唆「もう終わりだと思う」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/18 07:24",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUSXB1QWw2V3ZQS09jZG1EcEdGSnA3N0NoOVFOZ3p2R0ktQXg1MXZjTWxxdmpyVUdqNnFPaVFIVlhRQ0l5RlJVQVNpNEVzd2tIWFN1UmxpM3BSTi1JWFVyalR1ZTJlMXpLbUlKNlgwOGNHUDVLZzUzUF9RLWd3THM?oc=5",
+          "sub_tag": "🏎️ Indy・国内トップ",
+          "sub_type": "normal",
+          "headline": "グロージャンがインディカー引退を示唆",
+          "points": [
+            "F1での大炎上事故から6年を経て、現在40歳を迎えるロマン・グロージャンがインディカーからの引退を示唆した。",
+            "彼は日本人エンジニアの小松礼雄とともにハースF1の創設期を支えたドライバーとして広く知られている。",
+            "最高時速350kmを超えるオーバルコースでの戦いや命がけの駆け引きが繰り広げられる北米最高峰のモータースポーツである。"
+          ],
+          "takeaway": "生死の境を乗り越えて走り続けたベテランの引き際と、アメリカ特有の超高速バトルに挑むファイターの生き様に注目が集まる。",
+          "is_new": true
+        },
+        {
+          "title": "白いボディーの奥に浮かぶのは？ キャデラックがF1ラスベガスGPでまとう「半透明風リバリー」の真意 - Formula1",
+          "source": "Formula1-Data",
+          "pub_date": "11/18 03:48",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUTA4TVFJS1U4TVI4Wm9sUU1LUHp2VlpFY0ZsekdLWGdIRTgzRWNaOXRHczhRTXlHRmZ5OUJsQ1pKWGhkeUlOc3pwSmdaeXFTVVNxb3hFTHpEUFpHandNQ0ZkRy05M21YZUVSUEN1MS1EMXpvMDM5WU9WSDJzUHRlUnpFNTE?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "キャデラックがラスベガスGPで半透明風デザインを採用",
+          "points": [
+            "キャデラックがF1ラスベガスGPにおいて、白いボディの奥が透けて見えるような「半透明風リバリー」をまとって出走する。",
+            "華やかなナイトレースとして知られるラスベガスGPの舞台で、観客やファンの目を引くための特別なカラーリングとなっている。",
+            "F1マシンは毎年チームやイベントごとに独創的な外観（リバリー）を披露し、マシンの美しさやデザインの芸術性も大きな見所となる。"
+          ],
+          "takeaway": "最先端のスピードを競うだけでなく、カジノ街の夜を彩るド派手なビジュアル戦略とマシンの美しさを堪能できる特別な一戦。",
+          "is_new": true
+        },
+        {
+          "title": "2027年のF1日本GP指定席、約4時間でほぼ完売。鈴鹿サーキット社長「皆様の期待に応えるため、様々な準備を進めている」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "11/17 22:35",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEQ1SEJTc1VqdlBCZHBPelR2ZG9QRkI2Vld6TU9faHByUlJGRm9ZRTRJR2kzNVltZW1MLXpHZnBnRi1YOTNoWVYzZEsxNjUwMkY1cTBMeU8wZkQtVU9SV0Y2bjdXclJnbXpBWlZSQkRRUWpfRGpwZ2hjaGx5dUNLTmp6OVE?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "2027年のF1日本GP指定席が約4時間でほぼ完売",
+          "points": [
+            "鈴鹿サーキットで開催される2027年のF1日本GPの指定席券が、発売開始からわずか約4時間でほぼ完売した。",
+            "チケットの売れ行きは過去最高レベルであり、鈴鹿サーキットの社長はファンからの高い期待に応える準備を進めている。",
+            "F1日本GPは世界中のドライバーやファンから「最も走りたい、訪れたいサーキットの一つ」として熱狂的に愛されている。"
+          ],
+          "takeaway": "世界最高峰のドライビングテクニックがぶつかり合う聖地鈴鹿へのチケット争奪戦は、モータースポーツファンの熱量の高さを証明している。",
+          "is_new": true
+        },
+        {
+          "title": "平川亮がカタール＆アブダビに出走か ハースF1がラスベガスでのカマラ起用発表も「残る２戦での代役候補としてはヒラカワが順当」と英メディア（THE DIGEST）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/17 19:42",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95N05fSGZ0SG5YMUtDdlYwWjBMMnAxb3JON1lfOU40NDR5bzhTbkI5dFh5OGF2MTZ5cDdfWHNLSmNzU19vNXFLSVFScmdyaWRYeW5TemF5Z3FDeDRUUUdSSzZmNjI1QXpMWjdHTWJwTV9JaW1LdzFjQnJ3RWE3TjQ?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "平川亮がF1残り2戦の代役候補として浮上",
+          "points": [
+            "ハースF1がラスベガスGPでのカマラ起用を発表した一方、英メディアは残る2戦での代役として平川亮が順当であると報じた。",
+            "WECなどで世界的に活躍するトップドライバーである平川のF1出走の可能性に、国内外のメディアやファンから大きな注目が集まっている。",
+            "世界最高峰のF1でシートを争うドライバーたちの激しい椅子取りゲームと、日本人ドライバーの抜擢に向けた動向から目が離せない。"
+          ],
+          "takeaway": "世界のトップカテゴリで実力を証明してきた平川亮が、ついにF1の舞台でステアリングを握るのかという歴史的瞬間への期待が高まる。",
+          "is_new": true
+        },
+        {
+          "title": "フェルナンド・アロンソ、2027年のダカール・ラリー参戦を発表。マシンはアストンマーティン「F1とダカール……両方に全身全霊を傾ける」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "11/17 18:05",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVlDb0FBbko1ZVNGMzJnQkpIMm00M0lCbThhNDZZaFhqcGNSaW5JcUR0Ny1RLVRzYWtqY3Itb2lBZU51QWpWQUxqaTlRYTkzZzJDU3hIMHZZSG9obnh3U3IyU3FHb0k0YmRKX2ZzWEZrVVRHdGRRMnV1ZG9sNDVEeHRGTTdhakZFWFRGVnFFZ29DY3lxdG5EWnlva1FZWjRHYTJ6Qkx3cmFPMkFsVmhiTng5c3RZYjdGT0hrMF9xakdRRTlfaE0w?oc=5",
+          "sub_tag": "🚗 WRC・ラリー",
+          "sub_type": "normal",
+          "headline": "アロンソが2027年のダカール・ラリー参戦を発表",
+          "points": [
+            "F1のレジェンドドライバーであるフェルナンド・アロンソが、2027年にアストンマーティンを駆りダカール・ラリーに参戦することを発表した。",
+            "アロンソ本人は「F1とダカール、両方に全身全霊を傾ける」と語り、新たな過酷なオフロードの挑戦に向け意欲を見せている。",
+            "ダカール・ラリーは世界過酷なモータースポーツと呼ばれ、砂漠や荒野を数千キロ走破する人類とマシーンの極限サバイバルレースである。"
+          ],
+          "takeaway": "サーキットを極めたトップアスリートが、過酷な砂漠の未踏ルートを走破する世界一過酷なラリーに挑む壮大な挑戦が見どころ。",
+          "is_new": true
+        },
+        {
+          "title": "「想像もしていなかった」ジェネシスの躍動。“同い年でF1デビュー”の平川を「心から誇りに思う」とロッテラー",
+          "source": "autosport web",
+          "pub_date": "11/17 16:59",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jSzM0WlYtQTc5Q21qWXNYQnZwTmUyUDktYWowSTE2TExZSElYMWg4MjJOQ2hFc0d4UDgwRE9OZmZRQW5YQ2Z2VDl0RjRsa3lHRmc?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ロッテラーが同い年の平川亮の活躍を称賛",
+          "points": [
+            "耐久レース等で活躍するアンドレ・ロッテラーが、同い年でF1デビューの噂もある平川亮の躍動について「心から誇りに思う」と語った。",
+            "ジェネシスなどのモータースポーツシーンにおける目覚ましい活躍と、ベテラン同士の深いリスペクト関係が明らかになった。",
+            "世界のトップカテゴリーで長年戦い続ける同世代のライバルたちが、お互いを刺激し合いながら高め合う姿はスポーツの大きな醍醐味である。"
+          ],
+          "takeaway": "国境やカテゴリを超えてトップドライバー同士が認め合い、刺激を与え合うプロフェッショナルな絆の美しさを感じさせるエピソード。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/18 10:38",
+        "title": "世界のメジャースポーツ＆地域熱狂競技の1週間総括",
+        "summary": "北米スポーツから欧州サッカー、テニス、格闘技、そして各地の地域熱狂競技まで、直近1週間も多様な舞台で熱戦が展開されました。女子アジア選手権に臨むハンドボール日本代表や各地の大会など、世界中で熱い戦いが繰り広げられています。",
+        "key_players": "テニスでアンドレエワがストレート勝利で優勝に王手をかけ、UFCではケイラ・ハリソンが王座防衛を果たしました。また、ゴルフの松山英樹やチェ・ヘジンの活躍、ボクシング世界戦やサッカーの動向など各競技の主役たちが注目を集めています。",
+        "outlook": "ダンロップゴルフの開幕を控える松山英樹の戦いや、女子日本代表おりひめジャパンのハンドボールアジア選手権初戦タイ戦など、見逃せない大会が続きます。多様な競技の今後の展開とファン必見の熱戦から目が離せません。"
+      },
+      "news": [
+        {
+          "title": "【ハンドボール】第21回女子アジア選手権、女子日本代表「おりひめジャパン」の試合日程が変更 初戦の相手はタイに",
+          "source": "PR TIMES",
+          "pub_date": "11/17 14:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YajdrcWZiaVIwUEtvb2lwLW03cC16QjBSd0dzaVJaWWxkekt0eVh4MEpoRVlVczM4OVp0VWhBTEpWUDQtUHI1LXB1N213bTcyM0pseUhoeXNRQ3ZNUnE0TWZtYlVVUGtZV0E?oc=5",
+          "sub_tag": "🌏 地域熱狂：欧州ハンド＆フロアボール",
+          "sub_type": "unique",
+          "headline": "女子アジア選手権、日本代表の初戦相手がタイに変更",
+          "points": [
+            "第21回女子アジア選手権に挑む女子日本代表「おりひめジャパン」の試合日程が変更された。",
+            "大会初戦の対戦相手がタイに変更となり、チームは新たな初戦に向けて調整を進めている。",
+            "欧州ではアリーナを満員にするほど空中戦が熱狂的な人気を誇るハンドボールのアジア頂点を目指す。"
+          ],
+          "takeaway": "欧州でアリーナを熱狂の渦に巻き込む迫力の空中戦とスピード感溢れるハンドボールで、アジアの頂点を目指す日本代表の戦いを見逃すな。",
+          "is_new": true
+        },
+        {
+          "title": "松山英樹「今年こそは優勝」 ダンロップゴルフ19日開幕",
+          "source": "日本経済新聞",
+          "pub_date": "11/17 18:24",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96QWVhd0xGam4taER0dmlNT3Y4UG94TXNOQnZPdldNeEVmS1RETG9wSHdXUmJsUEppaWdzT0FxNDdjdW5qYjZCVUdJVnh1NEFxcDZsblF1b3EwZlJCeDAwSjBHN0dRb2NXWmdhNA?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "松山英樹がダンロップゴルフ開幕を前に優勝への意気込み",
+          "points": [
+            "19日に開幕するダンロップゴルフに向け、日本が誇るトップゴルファー松山英樹が「今年こそは優勝」と意気込みを語った。",
+            "大会の開幕を間近に控え、ファンの期待が高まる中での力強いコメントとなった。",
+            "世界最高峰の舞台で戦う松山が、国内の舞台でどのような圧倒的なパフォーマンスを見せるのか注目が集まる。"
+          ],
+          "takeaway": "世界を舞台に戦い続ける松山英樹が、国内の大会でどのような神業ショットと精密なマネジメントを見せてくれるのかが最大の注目ポイント。",
+          "is_new": true
+        },
+        {
+          "title": "増田陸vs堤聖也、寺地拳四朗の初防衛戦も ボクシング世界戦3試合をJOYSOUND「みるハコ」で無料生配信",
+          "source": "マイナビニュース",
+          "pub_date": "11/18 05:00",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0QnFPNFJvazBfekNDLUdCMUE0a1otU0d0bHAyRWpoZXhUaVpaZUNWN0J5RjFzZDdzWXdCTUxOQTI4Z3lpd0g1WFBmQmlLR0Q0dGVKYTNRMGxqeWNZ?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "ボクシング世界戦3試合がJOYSOUNDで無料生配信決定",
+          "points": [
+            "増田陸対堤聖也戦や寺地拳四朗の初防衛戦を含むボクシング世界戦3試合の生配信が発表された。",
+            "カラオケルームのJOYSOUND「みるハコ」を活用し、ファンが無料で視聴できる環境が提供される。",
+            "世界最高峰の技術と一瞬の隙も許されない極限の心理戦が繰り広げられるボクシングの魅力を大画面で堪能できる。"
+          ],
+          "takeaway": "世界トップレベルのボクサーたちが繰り出す一撃必殺の攻防と、極限の緊張感に満ちた世界戦の迫力を存分に味わい尽くそう。",
+          "is_new": true
+        },
+        {
+          "title": "チャージャーズ対レイブンズ：ロサンゼルスがついに初勝利！（23-20）",
+          "source": "DAZN",
+          "pub_date": "11/17 17:36",
+          "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOb0NTWGhGREFTNUZGMnBJdkpkQ1BXZDBaanBlc2o4Q1BvdzFfMm56bFdoWURqc0pjTVhFZWRWbFV6dlYtRXhrRkxPQ05lcHhpdzlMYVJHVVJVQjZ4M3Y5TW5ZcUJlaTdQTTduQmo5RHFraUp0b2RLTkdDX3NONTFfNkFxVGpDLXJPQ0hyakxUbmpRclA5UmJVbDlaem02MjllaHZmV3Y2dkNoTlFBU2pYOXF0ZUhLSzFkYUNqU0ZIMWQzQVcwWlU1ZDVnQ2NVN29hSTRYamhXSTFCME12QUlYdHltQ0xIRklQbFIySDJyRm1kQkV4cnVRZVlMTFIteHZ4NERZdTRudjZEdHBrY1ZBbElyc3lEWmxKdkNJbWl5RFJzM3NMRU1nY1BLYlFudmxZZU5EZjJod01sVzB1S19FY3JHc1I?oc=5",
+          "sub_tag": "🏈 NFL・米アメフト",
+          "sub_type": "frontier",
+          "headline": "チャージャーズが接戦を制しロサンゼルスで待望の初勝利",
+          "points": [
+            "ロサンゼルスで行われたチャージャーズ対レイブンズの一戦は、23対20の接戦となった。",
+            "激しい攻防の末にチャージャーズが勝利を掴み、ロサンゼルスで待望のシーズン初勝利を挙げた。",
+            "全米で圧倒的な人気を誇るNFLは、一瞬の戦術的駆け引きと強烈な肉弾戦が融合する究極のチームスポーツである。"
+          ],
+          "takeaway": "アメリカ全土が熱狂する巨大スポーツNFLならではの、試合終盤まで目が離せない息詰まる攻防と劇的な勝利の瞬間を体感せよ。",
+          "is_new": true
+        },
+        {
+          "title": "大谷翔平 ２０２６年「無冠」確定 シルバースラッガー賞も逃す…４５発で本塁打王シュワバーが選出される",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/18 10:28",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6S3p4MjlYd2NPR0cta1pWU2FhMnFJV0s1dktMRzZZdGU2UlVvTHpCU3lsQ1pRWmtpM19NMTNCTExZZmp1aXN6eExESzR1SHAy?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "大谷翔平がシルバースラッガー賞を逃し2026年の無冠が確定",
+          "points": [
+            "45本塁打を放ったシュワバーがシルバースラッガー賞に選出され、大谷翔平の受賞はならなかった。",
+            "この結果により、大谷の2026年シーズンにおける主要タイトルの無冠が確定するニュースとなった。",
+            "世界最高峰のMLBで圧倒的な成績を残しながらも、トップ争いの激しさを物語る象徴的な出来事となった。"
+          ],
+          "takeaway": "世界最高峰のメジャーリーグで常に進化を続けるスーパースターたちの、熾烈を極める個人タイトルの争いの厳しさを実感させられる。",
+          "is_new": true
+        },
+        {
+          "title": "パウ・ケサダ：「インテルに勝つためにはレアル・マドリードの非常に良いバージョンが必要です」 - Real Madrid CF",
+          "source": "Real Madrid CF | Web Oficial",
+          "pub_date": "11/17 23:00",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeUlWWXRZN2dxR2RhY04tR3MzMTZzTkZPZXBqS2NZbDYxOEpnZC12N1R5QUQ5Y1FnZzZ0ZWE3MXAxYWpBSENSVkdMZ3ZEUG9pOC1TQmFoZkZocVF0RjRlNFllTkkwanhzZzFxUFBILU9ReGRiNy14WkY1MEFYOHdZMkNGNGFPWkh1ZlNWc1p1eUhTbW9fTGlPUXF0b19MbkMzZHQ2OQ?oc=5",
+          "sub_tag": "⚽ 欧州サッカー",
+          "sub_type": "normal",
+          "headline": "インテル戦に向けレアル・マドリードのベスト発揮を誓う",
+          "points": [
+            "パウ・ケサダが強豪インテルとの対戦に向け、レアル・マドリードの非常に良いバージョンが必要であると語った。",
+            "ヨーロッパ最高峰の舞台におけるビッグマッチを見据え、チームに最高のパフォーマンスを求めている。",
+            "世界中のサッカーファンが熱狂する欧州CLでは、細部の戦術と選手のコンディションが勝敗を分ける。"
+          ],
+          "takeaway": "欧州最高峰の舞台で繰り広げられる伝統の強豪同士の激突において、極限の戦術眼と個の能力がぶつかり合う極上の瞬間を楽しもう。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
