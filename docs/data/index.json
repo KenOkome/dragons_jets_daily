@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-19",
-  "total_days": 59,
+  "latest_date": "2026-11-20",
+  "total_days": 60,
   "dates": [
+    {
+      "date": "2026-11-20",
+      "updated_at": "11月20日 10:19",
+      "label": "11/20",
+      "summary_title": "中日・工藤新体制の秋季キャンプ総括と契約更改の動き"
+    },
     {
       "date": "2026-11-19",
       "updated_at": "11月19日 10:16",
