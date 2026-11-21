@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-20",
-  "total_days": 60,
+  "latest_date": "2026-11-21",
+  "total_days": 61,
   "dates": [
+    {
+      "date": "2026-11-21",
+      "updated_at": "11月21日 09:50",
+      "label": "11/21",
+      "summary_title": "工藤新監督の秋季キャンプ始動と契約更改が本格化"
+    },
     {
       "date": "2026-11-20",
       "updated_at": "11月20日 10:19",
