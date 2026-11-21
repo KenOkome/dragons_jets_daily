@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-22",
+  "updated_at": "11月22日 08:50",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/22 08:49",
+        "title": "中日：ベテラン契約更改と床田FA交渉、新体制の秋季キャンプ総括",
+        "summary": "直近1週間の中日は、涌井の契約更改や根尾、山浅らのサインが伝えられ、FA宣言した広島・床田との交渉も実施された。また、ファンフェスタが開催され約3万6000人のファンが詰めかけたほか、秋季キャンプでは工藤新監督への直訴など活発な動きが見られた。",
+        "key_players": "通算170勝を挙げた涌井が現状維持でサイン。FA交渉を行った床田には「必要としてくれている」と好感触。根尾は契約更改で前向きな姿勢を示し、藤嶋は工藤新監督から個別指導を受けるなど、来季へ向けた主力の動向が注目されている。",
+        "outlook": "新体制で臨む来季に向け、秋季キャンプの成果やFA交渉の行方が最大の関心事。また、ドラフト2位の柴崎ら新戦力の加入による底上げや、ベテラン勢の奮闘がチームの浮沈を握る。ファンフェスタを終え、さらなる補強やキャンプの続報に注目が集まる。"
+      },
+      "news": [
+        {
+          "title": "先輩・松坂大輔氏に並ぶ通算170勝…！中日の“最多勝右腕”が契約更改 40歳で防御率3.92",
+          "source": "ベースボールチャンネル",
+          "pub_date": "11/22 06:30",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fakZ1emh4OXVnNTBTUnRTQmJEQ1I0XzNabXV4eHViQnpPczZhb0pEUk84ZmlBdEpRejlWZUhBZ2drYXNyZDFvYnFYcnRqdWtUVmFzdA?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日のベテラン右腕が契約更改",
+          "points": [
+            "中日ドラゴンズの最多勝右腕が契約更改を行い、報道陣の取材に応じた。",
+            "レジェンドである松坂大輔氏に並ぶ通算170勝を達成した実績を持つ。",
+            "40歳というベテランの年齢でありながら防御率3.92を記録し、健在ぶりを示している。"
+          ],
+          "takeaway": "プロ野球において40歳を超えて第一線で投げ続けるベテランの不屈の闘志と、積み重ねてきた偉大な記録の重みを感じられる。",
+          "is_new": true
+        },
+        {
+          "title": "FA宣言の広島・床田寛樹、中日ドラゴンズとの交渉は「いい話ができた。必要としてくれているんだなと思います」",
+          "source": "ドラ要素＠のもとけ",
+          "pub_date": "11/22 00:55",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XRWpKSDcyRnRiQk92d3dfZGFsc3R2WkhpVVVqOXlhTXlzLU1IVjRzSkJRYlp1SWZlS2xSeEZickNrS0hRNk1qdktJZTVsOGZHenNOT2xvRno2Zw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "FA宣言の床田が中日と交渉",
+          "points": [
+            "フリーエージェント（FA）を宣言した広島の床田寛樹選手が中日ドラゴンズと交渉を行った。",
+            "選手本人は球団との話し合いについて「いい話ができた」と前向きな感想を語っている。",
+            "球団側から高く評価され「必要としてくれているんだな」と実感したことを明かしている。"
+          ],
+          "takeaway": "シーズンオフのストーブリーグにおける最大の醍醐味であるFA移籍交渉の動向と、チーム補強に向けた球団の本気度が垣間見える。",
+          "is_new": true
+        },
+        {
+          "title": "ミレニアル世代とZ世代に分かれ激突…ドラゴンズ「ファンフェスタ」約3万6000人のファンが選手たちに歓声",
+          "source": "FNNプライムオンライン",
+          "pub_date": "11/21 18:37",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBzdmtHTGZJWTNBRU5sRDY5YUk2Z2VQN3FzbVo2SV9tbGhaVk84cV9FcXltdk1wTVlyb0RfME9QR3R5Nmc0Y1c5RDl2cEs2Zw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラゴンズファンフェスタが開催",
+          "points": [
+            "中日ドラゴンズのファンフェスタが開催され、約3万6000人のファンが球場に駆けつけた。",
+            "イベントでは選手たちがミレニアル世代とZ世代に分かれて対決し、大いに盛り上がった。",
+            "詰めかけた多くのファンから選手たちに向けて温かい歓声と大きな拍手が送られた。"
+          ],
+          "takeaway": "シーズンオフならではのイベントで選手が見せるリラックスした表情や、ファンとチームの強い結びつきと温かい雰囲気を存分に楽しめる。",
+          "is_new": true
+        },
+        {
+          "title": "「後輩の手本になる」母校岐阜第一高校で語る ドラゴンズからドラフト2位指名の柴崎選手",
+          "source": "中日新聞Web",
+          "pub_date": "11/21 05:05",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRFdTRUktcTZHRmxvN3EtR0NnQmExNmJCNVhEQzdyMS1xbFRXdXNXSTZYV3ZVc3JYeElxc2xtUzVLN3cyZWZvY3RqaUhuZUgydEQtYQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラ2柴崎選手が母校で語る",
+          "points": [
+            "中日ドラゴンズからドラフト2位指名を受けた柴崎選手が母校の岐阜第一高校を訪れた。",
+            "母校の生徒や関係者の前で、プロの世界へ挑むにあたり「後輩の手本になる」と決意を語った。",
+            "高校時代を過ごした思い出の地で、プロ野球選手としての新たなスタートへの覚悟を示している。"
+          ],
+          "takeaway": "未来のスター候補がアマチュア時代を過ごした原点を振り返り、プロの世界へ羽ばたいていくフレッシュな決意とドラマ性を感じられる。",
+          "is_new": true
+        },
+        {
+          "title": "【1950（昭和25）年11月22日】プロ野球「日本シリーズ」スタート",
+          "source": "トウシル",
+          "pub_date": "11/22 07:30",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nS24yY1UwS2xqSVQtZE41RVBlcDI3UHo0SkdBQnFUUlY5Y3NXbVhaYVNuMlBxaG1Gei0tSGlEQXo5aEJJM1pjbjRJNlNXdHpxZ3NIVzQxX295QQ?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "プロ野球日本シリーズの歴史",
+          "points": [
+            "1950年（昭和25）年11月22日にプロ野球の「日本シリーズ」が初めてスタートした。",
+            "日本プロ野球界の年間王者を決める最高峰の舞台として、長年にわたり歴史を重ねてきた。",
+            "セ・パ両リーグの覇者が激突する日本シリーズは、日本のプロ野球ファンにとって最大の年間行事である。"
+          ],
+          "takeaway": "日本プロ野球の歴史的な記念日を知ることで、毎年秋に繰り広げられる最高峰の真剣勝負の重みと伝統の深さを改めて実感できる。",
+          "is_new": true
+        },
+        {
+          "title": "「引退した後に自慢できる」 ソフトバンク山本祐大、移籍2年目での両リーグ受賞に照準 セではDeNA時代の24年に初受賞",
+          "source": "西スポWEB OTTO!",
+          "pub_date": "11/21 19:23",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83ZlNEMHo5VnVWeHpTMGxTWEdyclJlUS00NFhWZlRZdEJUTTZXT3JoV193blJ6N2lZQnhKSzhFcEktWUJLYUFqZktnNDEyVVo5Q29QY2dKUTZoNG84ek5F?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "ソフトバンク山本が両リーグ受賞へ",
+          "points": [
+            "ソフトバンクの山本祐大選手が、移籍2年目での両リーグでのタイトル受賞に照準を合わせている。",
+            "セ・リーグではDeNA時代の2024年に自身初となる受賞を果たしている。",
+            "選手本人も「引退した後に自慢できる」と語るほど、非常に価値の高い栄誉を目指して意気込んでいる。"
+          ],
+          "takeaway": "異なるリーグやチームで結果を残し続けることの難しさと素晴らしさ、そして選手がそこにかける強い誇りとモチベーションが伝わってくる。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/22 08:49",
+        "title": "千葉J富樫がオールスター最多得票、渡邊雄太は代表へ",
+        "summary": "千葉ジェッツは秋田戦を経て逆境を乗り越える戦いを見せる中、富樫勇樹がBリーグオールスターで11大会連続の最多得票を獲得。チームからは渡邊雄太らも選出され、南船橋装飾プロジェクトなども進行して盛り上がりを見せている。",
+        "key_players": "千葉Jのエース富樫勇樹がファン投票で最多得票に輝きチームを牽引。また、負傷を抱えつつもW杯予選アウェー2連戦に向かう日本代表の渡邊雄太の強い決意や、オールスター選出された選手たちの活躍に大きな注目が集まっている。",
+        "outlook": "Bプレミアに向けた3rdユニフォームの着用日決定やオールスター関連のイベント情報が続々発表。クラブと地域の結びつきを強める南船橋装飾プロジェクトの行方とともに、日本代表戦に挑む選手のコンディションやリーグ戦の戦いに注目。"
+      },
+      "news": [
+        {
+          "title": "渡邊雄太が語るW杯予選の現在地「日本は強いと見せつける」…負傷抱えアウェー2連戦へ",
+          "source": "バスケットボールキング",
+          "pub_date": "11/21 20:53",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMkVfMS11VVplOTU0NmZ6WDdLR3FHbFhJVjlrMng4YTI5SHN4cEhOREhvNVFCRVFieXdFTVoyREptTEllLXloSnFnalVYUHZrR1M1SzE3a3BzejI1N29USThreV9EaFdu?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "渡邊雄太が負傷を抱えつつW杯予選へ意気込み",
+          "points": [
+            "日本代表の渡邊雄太選手が、負傷を抱えながらもW杯アジア予選のアウェー2連戦へ向かう意気込みを語った。",
+            "「日本は強いと見せつける」と強い決意を示し、チームの勝利に向けて闘志を燃やしている。",
+            "世界の舞台で戦う日本代表の圧倒的な個人技と、国を背負う選手の覚悟が直に伝わる重要な一戦となる。"
+          ],
+          "takeaway": "怪我を乗り越えてコートに立つスーパースターの魂のプレーと、日本代表が世界へ挑む姿を見逃すな。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツ「南船橋装飾プロジェクト」バスケの街に熱狂を共につくりたい",
+          "source": "CAMPFIRE (キャンプファイヤー)",
+          "pub_date": "11/19 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYMDR2SW80dzM0eDI1VmJ6NzRLVnBiN3ZVM3RzOEl0MmQ1RFhKWnpVSEFHU2hLR0kxTlIzZGxOOVNIZUJneW5ucEZZSWdwenZlQzZv?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツが南船橋の街を彩る装飾プロジェクト始動",
+          "points": [
+            "千葉ジェッツが本拠地周辺の南船橋エリアをチームカラーで染め上げるクラウドファンディング企画を実施する。",
+            "「バスケの街」としての一体感を高め、地域住民やファンと共に新たな熱狂の空間を作り上げることを目指す。",
+            "スポーツチームが地域社会と深く結びつき、街全体をアリーナ化していくホームタウン密着の先進的な試みである。"
+          ],
+          "takeaway": "試合の日だけでなく、街を歩くだけでワクワクするようなバスケ文化が地域一体となって育まれていく過程を楽しめる。",
+          "is_new": false
+        },
+        {
+          "title": "逆境を乗り越える”常勝軍団”千葉J…エース富樫「本当にチームで良くここまで戻すことができた」",
+          "source": "バスケットボールキング",
+          "pub_date": "11/19 15:37",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42Q1lyRHdpbXRLUmk0YjNTekczTWhTT0pRVDZDb2dWUjFleVQ4anowclpYQnotYjA4eFNEQTQ5V25xc1ZpZjl4WmYzNTA0MkEwZzNrZW1KdUFxa0RaUDhVbjY3WTBCYW1G?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉Jが逆境を乗り越えチーム状態を立て直す",
+          "points": [
+            "開幕からの逆境や苦しい時期を乗り越え、常勝軍団としての強さを発揮してチーム状態を立て直した。",
+            "エースの富樫勇樹選手がインタビューで「本当にチームで良くここまで戻すことができた」と手応えを語った。",
+            "シーズン中の試練を全員で乗り越える組織力や、選手たちのメンタルの強さがBリーグの大きな見どころである。"
+          ],
+          "takeaway": "苦難を乗り越えて勝利を掴み取るチームの団結力と、エース富樫勇樹をはじめとする選手たちの勝負強さに心揺さぶられる。",
+          "is_new": false
+        },
+        {
+          "title": "富樫勇樹や渡辺雄太らがBリーグ・オールスターに出場 斎藤拓実「名古屋を盛り上げられたら」／バスケ（サンケイスポーツ）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/19 13:16",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzY3BTSFVkT2ZlQ2p3MXlsbVVvaEp1VGhpelFCSFplT19odzJ2bzlWZWozQ2tGSUZmUXlpbkhZMkZOZFNuNVpUbnBwODRzNXJzSUphZTMyVTZxeW5ucnozTU05TXY5aG1BZzNOTHUwZUJFRkhRaEp5MDdQRlZhaGs?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "Bリーグオールスターに豪華スター選手が集結",
+          "points": [
+            "富樫勇樹選手や渡邊雄太選手ら日本バスケ界を牽引するトップスターたちがBリーグ・オールスターに出場する。",
+            "出場選手の斎藤拓実選手が開催地となる名古屋を盛り上げたいと意気込みを語っている。",
+            "普段の真剣勝負とは一味違う、スター選手たちの圧倒的なテクニックとエンターテインメント性あふれる祭典である。"
+          ],
+          "takeaway": "日本最高峰の選手たちが垣根を越えて集結し、華麗な技と遊び心でアリーナを熱狂の渦に巻き込む夢の祭典を堪能できる。",
+          "is_new": false
+        },
+        {
+          "title": "バスケ日本代表・桶谷大監督「W杯出場勝ち取る」 アジア予選へ決意",
+          "source": "日本経済新聞",
+          "pub_date": "11/21 21:15",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CdjZjOEo2bVFTd3lVbXdWd1cwU3lVX0loanBqQVdnRHJfenVnc0NGMEJ4cEQ2dkI3WVZSTG9KMjdKYXN3TzR5b1RId185ZU1EUFhxaTZKdnBWZzlDZGR3aXEtZy1aMDFQMVRiNg?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "桶谷大監督がW杯アジア予選へ向けて力強い決意",
+          "points": [
+            "バスケットボール日本代表の桶谷大監督が、直近に迫るW杯アジア予選に向けて勝利と出場権獲得への決意を述べた。",
+            "アジアの強豪がひしめく厳しい予選を勝ち抜くため、指揮官としての明確なプランとチーム作りが進められている。",
+            "戦術の駆け引きやベンチワークなど、勝敗を分ける監督の手腕とチーム全体の結束力が試される重要な局面である。"
+          ],
+          "takeaway": "日本バスケの歴史を塗り替えていく代表チームが、世界への切符を掴むために一丸となって戦う緊張感と感動を味わえる。",
+          "is_new": true
+        },
+        {
+          "title": "「りそなグループ B.LEAGUE ALL-STAR GAME WEEKEND 2027 IN AICHI-NAGOYA」 EVENT PARTNER追加決定のお知らせ",
+          "source": "www.bleague.jp",
+          "pub_date": "11/21 09:33",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rcDk0TE84U3Q1YlBwMkc0NXZTZWdCNjBRbmpwb2Zpb1NlM25aT0RkdENpTTFNMFVNMmk0LUk5cEpEOEs3TW1FSUxQakpGWDhsV1BpNFlIeWRpRGFJN25JTmZ6OHJUQQ?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "2027年名古屋オールスターのイベントパートナー追加決定",
+          "points": [
+            "2027年に愛知・名古屋で開催されるBリーグオールスターの週末イベントに向けたパートナー追加が発表された。",
+            "大会の規模拡大やエンターテインメント性の向上を目指し、様々な企業や組織がイベントを強力にバックアップする。",
+            "Bリーグが目指すアリーナエンターテインメントの進化と、地域経済を巻き込んだビッグイベントへの期待が高まっている。"
+          ],
+          "takeaway": "未来のバスケ界のビジョンが形作られる壮大なプロジェクトの裏側を知ることで、Bリーグの成長スピードの凄さを実感できる。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/22 08:49",
+        "title": "ラスベガスGP予選と耐久・F1の最新動向",
+        "summary": "ラスベガスGP予選ではフェルスタッペンが2番手につける一方、ホンダ勢やアロンソがストレートスピード不足などで苦戦。また、フェラーリの契約更新やNIKEのF1公式パートナー就任など場外の動きも活発化している。",
+        "key_players": "フェルスタッペンは予選2番手から好スタートを狙う。アロンソはストレートスピードの厳しさから予選19番手に沈み、ノリスは不運もありながらラップに比較的満足した。また、インディカーではグロージャンが引退を示唆。",
+        "outlook": "ラスベガスGP決勝での各チームのタイヤ戦略や巻き返しに注目。さらにWECなど耐久レースでのトップチームの動向、そして2026-2027年シーズンに向けたPU開発や新規パートナー参入の動きからも目が離せない。"
+      },
+      "news": [
+        {
+          "title": "「アップデートは期待通りに機能」「間違いなく今週末で最もいいセッション」／F1第21戦ラスベガスGP予選トップ10コメント（2）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/22 08:12",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wRkZRdGY5UndOU2JZUVV5MHVnbnM1R1o1cmg0b3FWVTQtd0FOc0s0azQ4N2ZYajZkckZGckFHdUtWdHc3Z1hTZFdQWjNFNVp4RnJUNlRlV0FUMXdxZzBWUDJrVmF0Ujk4MVBMRU5tWmM1VDVVTExxYU14azcwd0E?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ラスベガスGP予選、各チームが手応え",
+          "points": [
+            "投入したマシンアップデートが事前の期待通りにしっかりと機能した。",
+            "今週末の走行セッションの中で間違いなく最高の出来栄えとなった。",
+            "F1世界最高峰の技術開発競争において、細かなパーツの進化が生死を分ける。"
+          ],
+          "takeaway": "エンジニアとドライバーの努力が結実した瞬間のマシン挙動の違いに注目したい。",
+          "is_new": true
+        },
+        {
+          "title": "「表彰台はオプション...」",
+          "source": "www.motogp.com",
+          "pub_date": "11/22 02:20",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVm1EZVM1VF9Cb0Vzb3E5REpNSkRLV29PRXp3TU54NmdZNHBaVlA5b0hQTFpaeVRnaE9xbDAzckxoMnNsdjJSS1FWWWpKMXJfbFluUFhaNVRzd2ZUNkpVWVJMYWZsR1NBcVpzUDY0UmlaTnl3NFJpMjcxeTRpRFo1WkF3RnNpRHJHWjYyRUNRbmszZHRnVVhQQUVGOVVXdzlSNGhvMC00M2gxcUhUc2xDaXBJN3BqWnVsU2M4UHNTNnBSeVJGNUx3bktKZVBSd0ZQTlRkX2hCX2xIWVk?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "表彰台獲得へ向けた厳しい現実",
+          "points": [
+            "決勝レースでの表彰台争いが容易ではない厳しい状況であると示唆された。",
+            "週末の限られたセッションを通じてマシンのポテンシャルを最大限引き出す必要がある。",
+            "世界最高峰のモータースポーツにおいて表彰台に登ることの極めて高い難しさを物語っている。"
+          ],
+          "takeaway": "劣勢を覆して表彰台をもぎ取るための戦略とドライバーの意地に注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "フェルスタッペン予選2番手「今週末ベストのセッション。先頭から好スタートを決めたい」ラッセルとの接触への処分は『警告』",
+          "source": "autosport web",
+          "pub_date": "11/21 21:30",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9wR2I4b3pNQW84WlR0V2JtbWoyZ041NTd4N3QxbHc0Yy1tQk5OcXNMSlN2R0l1dTNEMTNrZG1iZWlhN2N1WGpF?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "フェルスタッペンが予選2番手を獲得",
+          "points": [
+            "今週末でベストとなる走りを見せて予選2番手を確保することに成功した。",
+            "セッション中の接触事案についてはスチュワードから警告処分が下された。",
+            "決勝では最前列に近いポジションからスタートしてトップ奪取を狙う。"
+          ],
+          "takeaway": "スタート直後の1コーナーへ向けたトップ争いのスリリングな攻防が見どころ。",
+          "is_new": true
+        },
+        {
+          "title": "【ホンダF1】2台ともQ1敗退 折原チーフ「予想していた通り厳しい」 決勝に向け「準備に集中」／F1ラスベガスGP予選（TopNews）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/21 21:03",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82N04telBDd085bHNJYVY4Q2JQTVY1ZGFOdXBJTmhRMTh4bXc1UGxUUXp1RnhhQnlJaHJBTU5pR1dFOWxFWXZuazlXVGhWQkhPWlJraXdDN1E5RFMzMHZEcmJ6cjR6bi1PTUlleU1odG1YSk9OLW5Nd1dSWE9UVWM?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ホンダ勢はまさかのQ1敗退",
+          "points": [
+            "出走した2台のマシンが揃って最初のノックアウト方式の予選Q1で敗退した。",
+            "折原チーフエンジニアは事前の予想通り非常に厳しいセッションだったと認めた。",
+            "チームは早くも気持ちを切り替えて決勝レースに向けた準備に全力を注いでいる。"
+          ],
+          "takeaway": "後方からのスタートでいかに順位を挽回していくか、チームの総合力が試される。",
+          "is_new": true
+        },
+        {
+          "title": "予選4番手のノリスはビニール袋が引っかかる不運。慢性的な直線スピード不足に悩むも「ラップには比較的満足」",
+          "source": "autosport web",
+          "pub_date": "11/21 18:47",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5JYkdzeEpuQlU5Y0V1dHozV1E1OGlvUDlBM0daaTJuR0RqN1NmMERMSGgweGFOR0gwZnQyLW9jOENTTHlrbHJ3?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ノリスは不運もあり予選4番手",
+          "points": [
+            "マシンにビニール袋が引っかかるという思わぬ不運に見舞われた。",
+            "以前から課題となっている慢性的な直線スピード不足に苦しめられている。",
+            "それでも自身の叩き出したアタックラップのタイム自体には比較的満足している。"
+          ],
+          "takeaway": "不運やマシンの弱点をドライビングテクニックでどこまでカバーできるかに注目。",
+          "is_new": true
+        },
+        {
+          "title": "苦戦を覚悟していたアロンソ、予選19番手に沈み、Q1首位とは2.736秒差「僕たちのストレートラインスピードでは戦えない」",
+          "source": "autosport web",
+          "pub_date": "11/21 16:26",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFB5dkJIOUUySGowbXVmYmZVNURlUXoxZ19zT1o4d1NxcE9scUk5eXUxWkxTcE1OUGpDb2ZWM2Vnc2RudDgyaXcw?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "アロンソは予選19番手で苦戦",
+          "points": [
+            "苦戦をある程度覚悟していたものの予選19番手の低位置に沈んだ。",
+            "トップタイムとは2.736秒という大きなタイム差をつけられた。",
+            "圧倒的なストレートスピードの不足により直線区間で全く勝負にならないと嘆いた。"
+          ],
+          "takeaway": "百戦錬磨のベテランであるアロンソが過酷な状況の決勝でどう立ち回るかが見もの。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/22 08:50",
+        "title": "世界のメジャースポーツ＆地域熱狂競技の1週間",
+        "summary": "テニスATPファイナルズでアルカラスが決勝トーナメントへ進出。UFCでは堀口恭司が判定勝ちを収め、NBAではナゲッツが逆転勝利。ゴルフやバレー、MLBなど多様な競技で熱戦が繰り広げられた1週間となった。",
+        "key_players": "左太腿の不安を抱えながらもストレート勝利を重ねたアルカラスや、ランカー対決を制しUFC10勝目を挙げた堀口恭司が躍動。ゴルフの松山英樹や、パワースラップで連勝のぶーちんら各競技の主役たちが存在感を示した。",
+        "outlook": "アルカラスのコンディションやテニス決勝トーナメントの行方に注目。また、国内外のバレーSVリーグや世界各地で続く格闘技、ゴルフ、北米スポーツの展開など、多様な競技の熱狂とレガシーの継承から目が離せない。"
+      },
+      "news": [
+        {
+          "title": "鳥取 vs 長野 : 第18節 をライブ 中継 | DAZN JP",
+          "source": "DAZN",
+          "pub_date": "11/21 14:00",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQUNleExHWm1NOGVuTmh5UzZiN0pqMWtnSTV2bVFOODRZaUhYYi1uR2NNY3dIVk5YWG5USWtKcjJLRnQ1MGREZDZPRUNHY3ZDVGo1bGxmcDNLVWlpU1MzRDE4dW1jRTdUUDg1UVNMcmJ3MFh3THoxNnY1aXpTU3plQUN6TmpEWnUzakpJeA?oc=5",
+          "sub_tag": "🌏 地域熱狂：オージーボール(豪州)",
+          "sub_type": "unique",
+          "headline": "DAZNで鳥取対長野の第18節ライブ中継",
+          "points": [
+            "DAZN JPにてサッカーJリーグの鳥取対長野の第18節の模様がライブ中継される。",
+            "熱戦が繰り広げられる試合の様子をリアルタイムで視聴することが可能となっている。",
+            "オーストラリア国技のオージーボールは巨大な楕円形フィールドで空中戦とタックルを繰り広げる観客動員数No.1の巨大スポーツである。"
+          ],
+          "takeaway": "現地や配信で繰り広げられる白熱の試合展開をリアルタイムで目撃できるチャンスを見逃すな。",
+          "is_new": true
+        },
+        {
+          "title": "左太腿に不安を抱えるアルカラスが3試合連続ストレート勝利で決勝トーナメントへ「課題はコート外にある」 [Nitto ATPファイナルズ／テニス]（テニスマガジンONLINE）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/21 20:55",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Nd1FleFRBR2c3U3ZoN0FOc2VTbGkzMXZ3LXltZ1g1OUxkR3ZPOU95a3JaLVF6QVFSMktZSTJJOFhoQW4xQnFxU1plRUFxYWhlVmxyMU5FcVBVY0VJZkpFNEVzTTNnR3h6aWhhcXlVSnZSTk83V0tZYm9nanU2Sms?oc=5",
+          "sub_tag": "🎾⛳ 世界テニス・ゴルフ",
+          "sub_type": "frontier",
+          "headline": "アルカラスが3試合連続ストレート勝利",
+          "points": [
+            "左太腿に不安を抱えながらも3試合連続のストレート勝利を収めて決勝トーナメント進出を果たした。",
+            "Nitto ATPファイナルズの舞台で自身のコンディションや試合に向けた課題について言及している。",
+            "世界最高峰の選手が集うシーズン最終戦であり、トッププレイヤー同士のプライドが激突する大会である。"
+          ],
+          "takeaway": "満身創痍の状態でありながらも勝ち上がりを見せるアルカラスの驚異的な勝負強さと精神力に注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "【UFC】堀口恭司、ランカー対決の再起戦に判定勝利「もちろんチャンピオン目指す」UFC10勝目",
+          "source": "日刊スポーツ",
+          "pub_date": "11/22 07:01",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLTm9FOV9SUjNLX25QZWZMTml5TzlxVnBjR1hWZTcxVUpqM01PR1JXaG5MTno4b21wbUZST3VESHZuWWVaMVFLZW8ybzU0SVBRVkktdWIyS2ZPT0tFVU1ZcEhEd0ctYlk2OVhsRThuVlNYSnfSAXtBVV95cUxQdmJHVnZlRE92WUN3d2ZZUEY3aGQzSzdVOWhiQ0Nvd2djaTFCcFFGNEdYVDVpR1B3ejBkeXpMcjRsM3E5ZkRKa21GTVZ6N084cmsxbTk5ZV9nN2lQXzBDZHJVbUdKUEJDNWVnSFNVMHRWTm04MTVfQXQ1cHM?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "堀口恭司がランカー対決の再起戦で判定勝利",
+          "points": [
+            "UFCでのランカー対決となる再起戦に臨み、見事な判定勝利を収めてUFC通算10勝目を挙げた。",
+            "試合後には改めて世界チャンピオンの座を目指す強い意志と意気込みを言葉にしている。",
+            "世界最高峰の総合格闘技団体UFCにおいて、日本屈指の実力者が再びトップ戦線へと突き進む。"
+          ],
+          "takeaway": "幾多の試練を乗り越えて掴んだ復活勝利から、最高峰のベルトを掴むまでの道のりから目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "〈ＫＵＲＯＢＥアクアフェアリーズ・ＳＶリーグ〉連勝止まる 大阪に１―３｜スポーツ｜富山のニュース｜富山新聞",
+          "source": "北國新聞",
+          "pub_date": "11/22 05:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5nMU50cUp5R3FHalJXWHVqLWxqajFRWkVxWC1yT0ZzR2VqbFFxa3hkcWRVWWo2bm5FQVdoSms2cm5iZC1wTG43Z2x6bTNid0ItYmtNZ3dTbw?oc=5",
+          "sub_tag": "🏉🏐 ラグビー・バレー",
+          "sub_type": "frontier",
+          "headline": "KUROBEの連勝が大阪戦でストップ",
+          "points": [
+            "SVリーグに参戦するKUROBEアクアフェアリーズが大阪戦に臨み1対3で敗北した。",
+            "好調を維持して重ねてきた連勝記録が今回の試合で惜しくもストップする結果となった。",
+            "国内最高峰のSVリーグにおいて、各チームが激しい順位争いを繰り広げている。"
+          ],
+          "takeaway": "連勝が止まった悔しさをバネに、チームが次戦に向けてどのように立て直してくるのかが見どころだ。",
+          "is_new": true
+        },
+        {
+          "title": "ド軍32歳が１年3.5億で残留「素晴らしい組織の一員でいられることに感謝」 今季88試合で打率.233、１本塁打、20打点",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/21 19:47",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45OFF1VkZuVGVzcEliaVZHTEFaRlgxenZLNFdCalZEV2VXNnVZTVFMTnBLc3FuSmlydWo2dWZTcW5xSmlXRTBSTU42enR0ck9hLU9GdzE0ZnBsSlBibW4xTmxsYWs2czZ3azl3Nkh0UDZVZU1TSldFNXFCUXRwQkU?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "ドジャースの32歳選手が1年3.5億円で残留",
+          "points": [
+            "今季88試合に出場して打率.233、1本塁打、20打点を記録した32歳の選手が残留を決めた。",
+            "契約総額1年3.5億円での合意となり、素晴らしい組織の一員でいられることに感謝の意を示した。",
+            "世界一を目指す名門メジャーリーグ球団ドジャースにおいて、チームを支える貴重な戦力として期待されている。"
+          ],
+          "takeaway": "強力なスター軍団を支えるバイプレーヤーが、来季も同じユニフォームで連覇へ貢献する姿に期待が高まる。",
+          "is_new": true
+        },
+        {
+          "title": "最大17点差を覆したナゲッツ――セルティックスを沈めた「後半40失点」と逆転勝利の本質｜Visca Barça",
+          "source": "note",
+          "pub_date": "11/22 03:33",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KVnpDdWwxT05fdzlSWHdkZ0hVOEg5cnJYOXl2OGdabjdabFdyQzNpTWY5VVV0NHpvZFpDY3BmaGhsRDZOS0dCeVVKM1BwS19h?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "ナゲッツが最大17点差を逆転して勝利",
+          "points": [
+            "試合中に最大17点もの大きな点差をつけられながらも、驚異的な粘りで試合をひっくり返した。",
+            "後半の失点をわずか40点に抑え込む鉄壁のディフェンスが逆転勝利をもたらす本質となった。",
+            "世界最高峰のプロバスケットボールリーグNBAにおいて、強豪同士のハイレベルな戦いが展開された。"
+          ],
+          "takeaway": "試合の流れを劇的に変える強固な守備と、土壇場での圧倒的な爆発力が生み出すバスケの醍醐味を堪能できる。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}

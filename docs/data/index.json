@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-21",
-  "total_days": 61,
+  "latest_date": "2026-11-22",
+  "total_days": 62,
   "dates": [
+    {
+      "date": "2026-11-22",
+      "updated_at": "11月22日 08:50",
+      "label": "11/22",
+      "summary_title": "中日：ベテラン契約更改と床田FA交渉、新体制の秋季キャンプ総括"
+    },
     {
       "date": "2026-11-21",
       "updated_at": "11月21日 09:50",
