@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-22",
-  "total_days": 62,
+  "latest_date": "2026-11-23",
+  "total_days": 63,
   "dates": [
+    {
+      "date": "2026-11-23",
+      "updated_at": "11月23日 09:21",
+      "label": "11/23",
+      "summary_title": "中日ファンフェスタ開催と契約更改・補強の最新動向"
+    },
     {
       "date": "2026-11-22",
       "updated_at": "11月22日 08:50",
