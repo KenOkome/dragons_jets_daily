@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-25",
+  "updated_at": "11月25日 12:04",
+  "categories": {
+    "dragons": {
+      "report": {
+        "analyzed_at": "11/25 12:03",
+        "title": "中日が160キロ剛腕マクウィリアムズ獲得＆新選手会長に村松就任",
+        "summary": "中日は最速160キロの剛腕サム・マクウィリアムズと基本合意し、新選手会長に村松開人が就任。ドラフト6位の清水智裕と仮契約を結んだほか、FA宣言した広島・床田寛樹との交渉を行うなど積極的な動きを見せた。",
+        "key_players": "新加入の助っ人マクウィリアムズやウォード、新選手会長の村松開人、ドラフト上位の柴崎や前嶋藍、清水智裕らの若手、そして交渉が行われた床田寛樹らがチームの大きな注目を集めている。",
+        "outlook": "工藤新監督のもとでの来季へ向け、助っ人補強や契約更改、新人選手の動向が続く。新体制でチームがどう変革していくか、今後の編成や調整の進展にファンからの期待が高まる。"
+      },
+      "news": [
+        {
+          "title": "中日、最速160キロ＆身長201センチの剛腕サム・マクウィリアムズと基本合意！守護神・松山晋也へつなぐ勝利の方程式へ、ウォードに続く助っ人補強第2弾：中日スポーツ・東京中日スポーツ",
+          "source": "中日新聞Web",
+          "pub_date": "11/25 10:50",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5xWm1LdmVMS2Q0aDY3OWpzSUM5aWZTZDlSSnlpNGlndUVKTDJQZGF3YmtFcEtQVnBIVWhkcUhWZ1NCbHhtczV2WG9mdzNWNFliaVA3OQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "最速160キロの大型右腕マクウィリアムズと合意",
+          "points": [
+            "中日が身長201センチで最速160キロを誇る剛腕サム・マクウィリアムズ投手との基本合意を発表した。",
+            "ウォードに続く新外国人補強の第2弾であり、守護神・松山晋也へとつなぐ強力な勝利の方程式の形成が期待される。",
+            "圧倒的な体格と球速を武器とするメジャー級の剛腕が、来季のドラゴンズのブルペン陣を大きく強化する鍵となる。"
+          ],
+          "takeaway": "身長201センチの角度ある剛速球が日本の打者をどう圧倒するか、新守護神候補へとつなぐリリーフ陣のピースとして大注目だ。",
+          "is_new": true
+        },
+        {
+          "title": "中日の新選手会長に村松開人就任へ 「チームが勝てるよう、言うべき時はしっかりと言う」",
+          "source": "中日新聞Web",
+          "pub_date": "11/24 21:59",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5cmFiWDBHMlp0WGwzZ21OSWJBZDVweG5IYWlqR1VqSk9PUGNtWlRwUDVFemYtd2pfam9hQS1wS1NDeU9ScDlYeDRRRW5mdXNzSG1Zbw?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日の新選手会長に村松開人選手が就任へ",
+          "points": [
+            "中日の新選手会長に村松開人選手が就任する見通しとなり、「チームが勝てるよう、言うべき時はしっかりと言う」と強い決意を示した。",
+            "チームの若返りと結束を図る上で、選手を束ねるリーダーとしての役割が非常に重要な局面となっている。",
+            "プレーだけでなく言葉でもチームを引っ張る新選手会長のリーダーシップが、来季の浮上に直結する。"
+          ],
+          "takeaway": "若きリーダー村松選手がどのような発信と背中でチームを引っ張り、組織を変えていくのか非常に楽しみである。",
+          "is_new": true
+        },
+        {
+          "title": "【中日ドラゴンズ】ドラフト6巡目指名・清水智裕選手と仮契約",
+          "source": "スポーツナビ",
+          "pub_date": "11/24 18:18",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuTTdSV01pQW5oWHY2MXZqNDVlSFUyQlE0VW1VWEw0TmdiM2ZndmdRdFNnVGNuV1FfVkgta1BodWJxWE5VV2s4NDlEeWdQUFlxcmRNY01FQnVsNi0xYzNtWUpTeDBlblVzM01ka3BqYVlUbWc?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "中日がドラフト6位の清水智裕と仮契約を締結",
+          "points": [
+            "中日はドラフト6巡目で指名したヤマハの清水智裕選手と仮契約を結んだと発表した。",
+            "社会人野球の名門・ヤマハで培った確かな実力を引っさげ、プロの世界への第一歩を踏み出すことになった。",
+            "将来の正捕手争いに加わるべく、即戦力としての期待と今後の成長に大きな注目が集まっている。"
+          ],
+          "takeaway": "社会人出身のルーキー捕手がいかに早くプロのスピードに適応し、投手陣から信頼を勝ち取るかが見どころだ。",
+          "is_new": true
+        },
+        {
+          "title": "中日、ドラフト6位のヤマハ・清水智裕と仮契約 勝負強い打撃＆長打力が魅力の捕手「打球スピードを見てほしい」",
+          "source": "中日新聞Web",
+          "pub_date": "11/24 16:50",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNS2VvdzFDcUkxbjJ2cUhTWmpkRHM0WE9IVmd6UDRkSGYzZTZkbnBSdzJEbzFjbk4zN2QyWms1Mlh4Mk0tMl9wYzF1VVRSX3BVNWRyLQ?oc=5",
+          "sub_tag": "🐉 中日ドラゴンズ",
+          "sub_type": "team",
+          "headline": "ドラ6・清水智裕が仮契約、長打力アピール",
+          "points": [
+            "仮契約を交わしたドラフト6位の清水智裕選手が、自身の最大の魅力である勝負強い打撃と長打力をアピールした。",
+            "「自分の持ち味である打球スピードを見てほしい」と力強く意気込みを語り、打てる捕手としての期待を高めている。",
+            "ヤマハ時代に磨き上げた豪快かつ確実性の高い打撃で、プロの投手陣から鋭い当たりを連発できるかに注目が集まる。"
+          ],
+          "takeaway": "強肩巧打が求められる捕手ポジションにおいて、自慢の強烈な打球スピードで首脳陣に強烈なインパクトを残せるか必見だ。",
+          "is_new": true
+        },
+        {
+          "title": "【2026パ・回顧録】日米通算170勝達成。新天地で迎えた前田健太のNPB復帰1年目",
+          "source": "パ・リーグ.com",
+          "pub_date": "11/24 19:14",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wZWREWjNZaDZSVnFoNG13QXA1S3A0QUhCeGlJN004VTZDckxBOFhEaGJra283N2JtOGZkeVI5WGZvOVltOEVVTDJuTU1JTEdJbDZDaS1RTdIBUkFVX3lxTFBFTHc2cVFSOEhSUmxSOHBFWDZ6dmpJSUNUVDVMWEctck5sbTY1bDI2YmJ5RjhET0NHRlkwOW9yTWZRak8zeDUxWFFJeFdVSDNsNVE?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "前田健太のNPB復帰1年目と日米通算170勝",
+          "points": [
+            "2026年パ・リーグの回顧録として、新天地でNPB復帰1年目を迎えた前田健太のシーズンが振り返られている。",
+            "シーズンを通じて数々の経験を発揮し、日米通算170勝という偉大な節目を達成する大きな足跡を残した。",
+            "メジャーリーグでも活躍したベテランが日本球界のファンを再び魅了し、若手投手陣にも多大な好影響を与えた。"
+          ],
+          "takeaway": "日米通算170勝を誇る百戦錬磨の投球術が、新天地のパ・リーグでどのように発揮されたのかその軌跡を噛み締めたい。",
+          "is_new": true
+        },
+        {
+          "title": "「NPBで史上唯一、両リーグ200本塁打を放った大打者は？」【野Q王からの挑戦状】（集英社オンライン）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/24 11:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vUnNnRmpxX1V0RlgxRUxvMXVlaThsQmJSQng3MVBLTlVkUGpjcGtRNmNnMURCd2dKN0lERFhxNlNib3h0NV9xRm1XbGxuUjhZU3JiU1hEQ01ZWjlTb0tISzU5YkxRUWR5TmNaYnVWWXEyUzFyRWx6cGFGS1k0cjg?oc=5",
+          "sub_tag": "⚾ NPB全体トレンド",
+          "sub_type": "league",
+          "headline": "NPB史上唯一の両リーグ200本塁打達成者を問う",
+          "points": [
+            "セ・パ両リーグの歴史を振り返るクイズ企画において、「両リーグでそれぞれ200本塁打以上を放ったNPB史上唯一の大打者」が取り上げられた。",
+            "セ・パ双方の球団で圧倒的な長打力を長年発揮し続けなければ達成できない、極めて難易度の高い大記録である。",
+            "日本プロ野球の長い歴史と、球史に燦然と輝くレジェンドたちの驚異的なバッティング技術の凄さを改めて実感させる。"
+          ],
+          "takeaway": "セ・パ両方で200本塁打を放つことがどれほど至難の業か、日本野球の歴史を彩った最強スラッガーの偉大さを再認識できる。",
+          "is_new": true
+        }
+      ]
+    },
+    "jets": {
+      "report": {
+        "analyzed_at": "11/25 12:03",
+        "title": "千葉J・富樫が最多得票選出、エルジー・ギルは契約解除",
+        "summary": "直近1週間、千葉ジェッツはエルジー・ギルとの契約を再度解除し合計12試合出場でチームを離れる動きがあった一方、エース富樫勇樹がBリーグオールスターで最多得票となり11大会連続11回目の選出を果たしチームの逆境を乗り越える原動力となっている。",
+        "key_players": "千葉Jの富樫勇樹が最多得票でオールスター選出。また日本代表では、負傷を抱えつつアウェー2連戦に挑む渡邊雄太がW杯予選へのプライドと覚悟を語り、不在の富樫らに代わり36歳のベテラン比江島慎の役割にも注目が集まる。",
+        "outlook": "B1上位争いやBプレミアに向けた各クラブの地域共創の動きが進む中、千葉ジェッツは主力の代表遠征やロスター調整の過渡期を迎える。オールスター選出の熱気とチームの立て直し、南船橋装飾プロジェクトなど地域密着の展開にも注目だ。"
+      },
+      "news": [
+        {
+          "title": "【男子バスケ】比江島慎が日本代表チームに帰ってきた 富樫勇樹ら不在のなか36歳ベテランシューターの役割",
+          "source": "スポーツブル",
+          "pub_date": "11/25 06:45",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE8yaGlPaW11ZkUyMmNwNFlOUlFZNWdoV3BpQnhGNDl1bVNfc2E5Y0E1UjN5OHRMODVvb1NnaTQxQllsemNvM1hN?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "36歳のベテラン比江島慎が日本代表に合流",
+          "points": [
+            "主力である富樫勇樹らが不在の日本代表チームに、36歳のベテランシューター比江島慎が帰ってきました。",
+            "若手中心のチーム構成となる中で、豊富な国際経験を持つ比江島選手が果たすべき役割に大きな期待が寄せられています。",
+            "バスケットボールは攻守の切り替えが激しく、ベテランの冷静なゲームコントロールと勝負強さが勝敗を大きく左右します。"
+          ],
+          "takeaway": "世代交代が進む日本代表において、大舞台を数々と経験してきたベテランならではの勝負強さとリーダーシップに注目です。",
+          "is_new": true
+        },
+        {
+          "title": "「すっかりお母さんですね」バスケ渡邊雄太の妻・久慈暁子、親子ショット公開「ママの顔」「綺麗過ぎて」（All About）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/24 20:35",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtVFZra2U4NHJlWGJiRW41X0hCNndNbGNtMmFwXzBxRUs0R1l3SnJweFdnSzZ5NlpPLWYxdXo0cVJMQXE3VjRSbTl5aFJ0ejFzalJWWFFsX0N5Q3BNX19MaUlTVi1Wek9QZE1pTEU2SG1uYjdhOXdDelBWT1ozbkE?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "渡邊雄太の妻・久慈暁子が親子ショットを公開",
+          "points": [
+            "バスケットボール選手の渡邊雄太さんの妻である久慈暁子さんが、自身のSNSで親子ショットを公開しました。",
+            "ファンからは「すっかりお母さんですね」「ママの顔になっていて綺麗過ぎる」といった温かいコメントが寄せられています。",
+            "トップアスリートを支える家族のほほえましい日常の一コマとして、ネット上や各メディアで大きな話題となりました。"
+          ],
+          "takeaway": "厳しい世界で戦うアスリートを支える家族の温かい絆や、マタニティ・育児ライフの微笑ましい一面を垣間見ることができます。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツがエルジー・ギルとの契約を再び解除、合計12試合出場「過ごせる時間が短いことは最初から分かっていました」",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/24 15:27",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtbXNyWGRBcU5TRUt0WWptWk04bUVEZ2pTaVlPVVFCYnpmR1BYUkptVDFiUzdBdnBCS256WU9pM2JGZzlNY09zYnNiSl9iY2lDVUlma3RXTGYtUElvSTNMSVNxZFlSREg0MFM3NWhPV1BlQjdWcVZVMmlIcFQ0a2M?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツがエルジー・ギルとの契約を解除",
+          "points": [
+            "千葉ジェッツは、エルジー・ギル選手との選手契約を再び解除したことを発表し、チームでの合計出場試合数は12試合となりました。",
+            "本人も「一緒に過ごせる時間が短いことは最初から分かっていました」とコメントを残し、チームを去る形となりました。",
+            "シーズン途中のロスター調整や外国籍選手を巡る戦略的な判断は、Bリーグ各クラブの浮沈を握る重要な要素です。"
+          ],
+          "takeaway": "限られた時間の中で全力を尽くした助っ人選手の貢献と、シーズンを戦い抜くためのクラブ側のシビアな決断に注目です。",
+          "is_new": true
+        },
+        {
+          "title": "千葉ジェッツがエルジー・ギルとの契約を解除…再加入後は3試合に出場",
+          "source": "バスケットボールキング",
+          "pub_date": "11/24 15:25",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ORU8ybzl3M0taTkJiLW5jMmI2Qnh1U1l5LWkxWGQ2TS1hNkdha25yU045SVFTZmNwclgwZV9LdUJieHhRckJNYzRKdDVBU0MydVpKc1J0MkNicnRERjVibFdudHNwckk5?oc=5",
+          "sub_tag": "✈️ 千葉ジェッツ",
+          "sub_type": "team",
+          "headline": "千葉ジェッツ、エルジー・ギルとの契約解除を発表",
+          "points": [
+            "千葉ジェッツがエルジー・ギル選手との契約を解除したことが、バスケットボールキング等のメディアで報じられました。",
+            "ギル選手はチームへの再加入後、公式戦3試合に出場していましたが、今回のリリースにより再びチームを離れることになりました。",
+            "プロバスケットボールの世界では、ケガ人対応や戦術適合などにより、外国籍選手の入れ替えがスピーディーに行われます。"
+          ],
+          "takeaway": "激しいBリーグの順位争いの中で、チームがどのようにベストな布陣を模索し構築していくのか、編成の裏側に迫れます。",
+          "is_new": true
+        },
+        {
+          "title": "何が起きても「伸びしろ」に…東京サンロッカーズ・ベンドラメ礼生が語るキオクとミライ【TOBI»RUSH】",
+          "source": "www.bleague.jp",
+          "pub_date": "11/24 20:01",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pdUNNN240b2xQZXhLaGp5NDhUSk1YTUI4bjRDVko0dE9wYkFRU0JyeHI2ZGxkeE5MTXE1YmpHOWlyMlVtblREdEtlUWt6TjVlSE8yYnVHQk5zd0RVVWxoSTdKZw?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "SR渋谷のベンドラメ礼生が語る現在地と未来",
+          "points": [
+            "サンロッカーズ東京のベンドラメ礼生選手がインタビューに登場し、自身のこれまでの記憶と未来について語りました。",
+            "どんな困難な状況が起きてもそれをすべて「伸びしろ」と捉える前向きな姿勢や、競技に対する深い哲学が明かされています。",
+            "Bリーグの第一線で活躍し続ける選手たちの内面や、コート外で見せるプロフェッショナルな思考に触れることができます。"
+          ],
+          "takeaway": "日本最高峰の舞台で戦い続けるトッププレイヤーが、どのようなメンタリティで日々のプレッシャーを乗り越えているのかが分かります。",
+          "is_new": true
+        },
+        {
+          "title": "広島ドラゴンフライズのりそなグループ B.LEAGUE 2026-27シーズンの地域共創パートナーとして「広島電鉄株式会社」様が決定いたしましたので、お知らせいたします。",
+          "source": "広島ドラゴンフライズ",
+          "pub_date": "11/24 13:13",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zblRzNUpqd0hNRi00X2tEV3lkay1QX2lqd25yZGE5amFrSTJyVXV0QVZySVFVei1uc2s1Y09NeTVQNENPa0l6V1htaVdSQjB0M1lONXFfa0RJY0tYU0NmOFR0MA?oc=5",
+          "sub_tag": "🏀 Bリーグ全体トレンド",
+          "sub_type": "league",
+          "headline": "広島ドラゴンフライズが広島電鉄とパートナー契約",
+          "points": [
+            "広島ドラゴンフライズは、B.LEAGUE 2026-27シーズンの地域共創パートナーとして広島電鉄株式会社が決定したと発表しました。",
+            "地元を代表するインフラ企業とプロスポーツクラブが手を取り合い、地域社会の活性化や共創を推し進める重要な取り組みとなります。",
+            "スポーツチームは単なる娯楽を超え、地域住民の誇りや一体感を生み出す社会的なインフラとしても大きな役割を果たしています。"
+          ],
+          "takeaway": "クラブが地域と深く結びつき、地元企業と共に歩みながら街全体を盛り上げていくBリーグならではの地域密着の強みを感じられます。",
+          "is_new": true
+        }
+      ]
+    },
+    "motorsport": {
+      "report": {
+        "analyzed_at": "11/25 12:03",
+        "title": "F1ラスベガスGPとMotoGP最終戦、耐久レースの動向を総括",
+        "summary": "直近1週間は目まぐるしい展開となったF1ラスベガスGPでフェルスタッペンが今季4勝目を挙げた。また、MotoGP最終戦ではマルク・マルケスが8度目のタイトルを獲得し、WECではプジョーの参戦終了が発表されるなど大きな動きがあった。",
+        "key_players": "F1ラスベガスGPを制したフェルスタッペンや、節目の250戦目で8位入賞のサインツ、MotoGPで5位に入りタイヤにやさしい走りを語った小椋藍、8度目のタイトルを獲得したマルク・マルケスらがそれぞれの舞台で存在感を示した。",
+        "outlook": "F1は次戦カタールGPでのタイヤ交換規則などの対応が焦点となる。また、アロンソの7年ぶりダカール・ラリー参戦や、シトロエンとオペルのフォーミュラE参戦終了など、カテゴリを越えた今後の動向やメーカーの動きから目が離せない。"
+      },
+      "news": [
+        {
+          "title": "「1周でも手を抜くと怒られた」MotoGP小椋藍が語る後半の猛追“アイタイム” 秘けつはタイヤにやさしい走りと全力姿勢",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/25 06:10",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sS0o5QTBLRm9PR0JsMUhnWmI2Q3hPc1ZGLUl5dUhmZ05Bbjk0YU1zczlYN3dEa2dyZU93RHVPNFpneVVYeGR4WXVnWHo1QThSbXRva2JTYnRBaUZPa1JnV1V4UDFzM1l3Y21VWWZMUnJsTmxqMnlmRENxTnVtWUU?oc=5",
+          "sub_tag": "🏍️ MotoGP",
+          "sub_type": "normal",
+          "headline": "小椋藍の猛追を支えたタイヤに優しい走り",
+          "points": [
+            "MotoGPで活躍する小椋藍選手が、後半戦の猛追劇の秘けつとしてタイヤにやさしい走りと全力姿勢を語った。",
+            "1周たりとも手を抜かない厳しさの中で培われた走りは、世界最高峰のバイクレースにおいて確かな成果を生んでいる。",
+            "二輪の限界を競うモータースポーツにおいて、タイヤの消耗をコントロールしながら戦う技術の高さが光る。"
+          ],
+          "takeaway": "世界最高峰の二輪レースで戦う日本人ライダーが、いかにして高度なタイヤマネジメントと圧倒的なスピードを両立させているのかに注目です。",
+          "is_new": true
+        },
+        {
+          "title": "マーベリック・ビニャーレスのベストレース厳選３戦",
+          "source": "www.motogp.com",
+          "pub_date": "11/25 03:14",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUDRDeFl2ZFRidk1sc0ljd3g1QUVXVFh0UGNqX0ptT1VjQnBpZWlqMVhYcW5WbjFRa2tPZXk1TWdSWUJfUmhWdWhTOVItQ3hBMENvMXlhdUZwaEtrN3AxYXFjdjlRWFAtRjJpTC1xVTM1UmttTkxnSEdWZEsxWlp1SHl6bU1RMG9uY0piS3ZPRURvZw?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ビニャーレスの記憶に残る名レース3選",
+          "points": [
+            "MotoGP公式サイトにて、マーベリック・ビニャーレス選手のキャリアにおけるベストレース3戦が厳選された。",
+            "トップライダーとして数々の名勝負を繰り広げてきた彼の軌跡と、その卓越した走りが振り返られている。",
+            "二輪ロードレースの最高峰で戦う選手たちの歴史や、歴史的な名シーンを多角的に知ることができる内容となっている。"
+          ],
+          "takeaway": "最高峰のバイクレースで数々の伝説を作ってきたトップライダーの走りの軌跡を振り返り、その圧倒的な実力を体感できます。",
+          "is_new": true
+        },
+        {
+          "title": "第142回：目まぐるしかったラスベガスGPはフェルスタッペン選手が今季4勝目！ 偶然による人との縁に大感謝しました",
+          "source": "Car Watch",
+          "pub_date": "11/25 00:00",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzYk9PNWg5dUEzN2lVNGE5Znp1MFhDLW9HSVJTTmxFc1I0RUh3em0xd2hVZ2M1OVppVUQwZ1NYc0ZORTg0R0dIN1VNNU5zbUViSmVSUUE2T0JZRDlqZ3VYdG9vMzhOSU0weUpjQVBKVWU?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ラスベガスGPはフェルスタッペンが今季4勝目",
+          "points": [
+            "目まぐるしい展開となったF1ラスベガスGPにおいて、フェルスタッペン選手が今季4勝目を手に入れた。",
+            "市街地コース特有の予測不能なコンディションや偶然の巡り合わせが、レースの行方を大きく左右した。",
+            "世界最高峰の自動車レースであるF1では、ドライバーの技術だけでなく運や人との縁も勝利を呼び込む重要な要素となる。"
+          ],
+          "takeaway": "華やかなラスベガスの街並みを舞台にした予測不能なF1の戦いと、トップドライバーが掴み取った見事な勝利のドラマを楽しめます。",
+          "is_new": true
+        },
+        {
+          "title": "プジョーがWEC参戦を終了 シトロエンとオペルのフォーミュラE参戦も2027年夏終了へ",
+          "source": "Car Watch",
+          "pub_date": "11/24 21:13",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wNkF1R1FUa3lDVjJEanVfSFFOZWlzMU5HTmhWQ3U4dktUeWhTa3VuczBvd0JXanBPN3EyQWNJeUFLRHA4QlRqVWpTb19qdDhIUjlfa2NpY25FbzRCbk5HeTFrVmU?oc=5",
+          "sub_tag": "🏁 WEC・耐久",
+          "sub_type": "normal",
+          "headline": "プジョーがWEC参戦終了を発表",
+          "points": [
+            "プジョーがWEC（世界耐久選手権）への参戦を終了することを発表し、業界に大きな衝撃を与えている。",
+            "さらにシトロエンとオペルについても、フォーミュラEへの参戦を2027年夏で終了する方針が明らかにされた。",
+            "自動車メーカーのモータースポーツ活動における戦略見直しが進む中、各選手権の今後の体制に大きな影響を与える。"
+          ],
+          "takeaway": "名門メーカーの相次ぐモータースポーツ活動の終了が、世界の耐久レースや電動フォーミュラの勢力図にどう影響するかが見逃せません。",
+          "is_new": true
+        },
+        {
+          "title": "【F1】決勝は最低2回のタイヤ交換 1セット最大27周、予選や練習走行もカウント／カタールGP (TopNews)",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/24 20:05",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQczlhTW1iR2RHYVgxT0RXSXFLTHpUMVg5T3VQa05jb2xKckdsa0RCSUR0d2E4eHo4SU1iRTFUMnQ3S1Z0QjJISm5qUnE3anZlWWhBaW9XMkhBbjVFQzR2dmUwODBoVG85YlNUYVJFUU5FLU0tQUktVnp0WG42VWpzU18xMjRKZHV0QjVTaXVn?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "カタールGPは決勝で最低2回のタイヤ交換義務",
+          "points": [
+            "F1カタールGPの決勝レースにおいて、安全上の理由から最低2回のタイヤ交換を行うことが義務付けられた。",
+            "1セットあたりの使用周回数が最大27周に制限され、予選や練習走行で使用した周回数もカウントされる変則的なルールとなった。",
+            "マシンの限界性能を引き出すF1において、タイヤの耐久性と戦略的なピットストップのタイミングが勝敗を分ける鍵となる。"
+          ],
+          "takeaway": "厳しいタイヤ制限という特殊なルールの中で、各チームがどのように戦略を組み立てて限られた周回を走り抜くのかが最大の焦点です。",
+          "is_new": true
+        },
+        {
+          "title": "オーバーテイク352回！ 白熱したF1ラスベガスGPで生じた”矛盾”にマクラーレン代表「短絡的な議論は避けるべき」",
+          "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
+          "pub_date": "11/24 18:46",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaEFZZW45cDNRdGIyclJ5MGVCUDBhbHNLa29ZbERNUkw4ajN3eFFzN3Z6SUVOTGVweTJZU3UyT2U3M3doOHV6dG9MSkFCMkVqOFFoelNkWjBaSE1fd3NOZms1dEFhT29WUlQ3MDZ5c2d4c2JEcXR1ZGpNZHozRmNZYVNMa0VtSERxclV3d3NJX21HZTB4SzhndlNTSUhKMDhrZEFhYkZuSVNJdXNSU0FPTXlOd3gzWjJKN1pvbXhpMlJDZw?oc=5",
+          "sub_tag": "🏎️ F1",
+          "sub_type": "normal",
+          "headline": "ラスベガスGPの352回の抜揺劇と議論",
+          "points": [
+            "F1ラスベガスGPでは合計352回ものオーバーテイクが発生し、非常に白熱したバトルが繰り広げられた。",
+            "一方でそのレース内容を巡ってはさまざまな矛盾や議論が生じ、マクラーレン代表が短絡的な議論を避けるべきだと警鐘を鳴らした。",
+            "最高峰のモータースポーツであるF1では、派手な追い抜き数だけでなく、レース全体の質や安全性を巡る議論が常に続けられている。"
+          ],
+          "takeaway": "数多くの抜きつ抜されつが生んだ熱狂的なレースの裏で、チーム代表が語るF1の奥深い戦術論や冷静な分析の視点に触れられます。",
+          "is_new": true
+        }
+      ]
+    },
+    "world": {
+      "report": {
+        "analyzed_at": "11/25 12:03",
+        "title": "世界のメジャースポーツ＆地域熱狂競技の激動の1週間",
+        "summary": "パデルが2026年アジア競技大会の正式種目に決定。MLBでは平良海馬がブルージェイズと5年127億円で合意するなど、メジャー・地域競技ともに大きな動きが見られた週となった。",
+        "key_players": "テニスのATPファイナルズでアルカラスが逆転勝利や連勝で存在感を示し、スヌーカーではウンヌーがオサリバンを撃破。UFCでは堀口恭司が再起戦に勝利し、ボクシング界では矢吹正道らの挑戦者陣営の発言が話題に。",
+        "outlook": "アジア大会でのパデル採用による競技普及や、2027年NFLドラフト注目選手の台頭など、次世代のスポーツシーンの発展にファンからの高い関心が寄せられている。"
+      },
+      "news": [
+        {
+          "title": "パデルは2026 年アジア競技大会のアリアー名古屋でのメダル争いの部門に正式に入りました",
+          "source": "VOI.ID",
+          "pub_date": "11/23 12:35",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2VQNTlkMW0xUVVMdDQ3NzdZN0dlTXVKMHZWMl9JWXZwcHZyWVdhQ05JYVgyVHk1RG0wZk5mWU5QS3RrZzZRci1GUXRNMEV4V3lUaTViZkVDS20xN2RfRkstMEFteDNKZFN2RUlkUXlGclMyTjg0M25VblhfZldwUmFvTU1idDkybHBvRm9HSmYzS2NvZlJLNW5jOWRZN3dyZGQyM0dNdG0zT2Mt?oc=5",
+          "sub_tag": "🌏 地域熱狂：パデル(スペイン・南米)",
+          "sub_type": "unique",
+          "headline": "パデルが2026年アジア大会の正式競技に",
+          "points": [
+            "パデルが2026年に開催されるアジア競技大会（愛知・名古屋）のメダル種目として正式に採用された。",
+            "テニスを超える競技人口を誇るスペインや南米を中心に大人気で、世界的な競技拡大が進んでいる。",
+            "強化ガラスの壁を使った高速なボールのバウンドとダブルスならではの駆け引きが特徴の次世代スポーツ。"
+          ],
+          "takeaway": "ガラスの壁をも味方につける変幻自在のショットと、スピード感あふれる頭脳的なラリー戦が大きな魅力。",
+          "is_new": false
+        },
+        {
+          "title": "悲しみの中でも「ありがとうございます「先に伝えた··· バレーボール観戦中に亡くなった70代の遺族「KOVO・興国生命などに感謝」",
+          "source": "스타뉴스",
+          "pub_date": "11/24 19:52",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qYWZPM3Z3dVpKdy0tcG81Z1pRWjZLR0dDVFBTZXZUOGM5ZFZBdm1SM0ZITTFvMUVrcTQtN3g2R1pZQmMza2U4WjlBSzZETmRUUklKSnpWRGgtVlNleWVXbWRSVGlLeEJLeE0yMGdEX0tCZDlVa055c2FR?oc=5",
+          "sub_tag": "🏉🏐 ラグビー・バレー",
+          "sub_type": "frontier",
+          "headline": "バレー観戦中の急逝を受け遺族が感謝を表明",
+          "points": [
+            "バレーボールの試合観戦中に70代の観客が亡くなるという悲しい事故が発生したことが報じられた。",
+            "韓国バレーボール連盟（KOVO）や興国生命などの関係組織が遺族に対して誠実な対応を見せた。",
+            "突然の別れという深い悲しみの中にある遺族が、関係各所からの温かい支援や配慮に感謝を伝えた。"
+          ],
+          "takeaway": "スポーツの現場で起きる予期せぬ悲劇に対し、競技団体やチームが寄り添う姿勢の大切さが浮き彫りとなった。",
+          "is_new": true
+        },
+        {
+          "title": "「冗談でしょう？」矢吹正道と石井武志が「井上尚弥とも十分に戦える準備をしてきた」物議を醸した挑戦者陣営の挑発を一笑に付す…日本最速“65秒KO王者”が抱えていた意外な苦悩とは？",
+          "source": "au Webポータル",
+          "pub_date": "11/25 08:16",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oaE1JMEZsaHNEU0p1cnk3MHFXbGJWYTdLLTR5bTF5MXphWkYtLVBVRHZsT0JkczVTMWRZWkdlTUFhSC1QTk13MXNWYkFuUVlrblp3bmtJYndNM0I1NUpxVnh1bDlyY080cTM5VktB?oc=5",
+          "sub_tag": "🥊🥋 UFC・世界格闘技",
+          "sub_type": "frontier",
+          "headline": "矢吹正道と石井武志が挑戦者陣営の挑発を一笑",
+          "points": [
+            "矢吹正道と石井武志が、井上尚弥との対戦可能性に言及した挑戦者陣営の挑発に対して冷ややかな反応を示した。",
+            "日本最速の65秒KO王者が、その圧倒的な強さの裏で抱えていた意外な苦悩についても明らかになっている。",
+            "世界最高峰の舞台を見据える実力者たちが、周囲の物議を醸す発言に惑わされず自身の戦いに集中している。"
+          ],
+          "takeaway": "頂点を目指すファイターたちが纏う圧倒的な自信と、リング外のノイズを実力でねじ伏せる迫力が感じられる。",
+          "is_new": true
+        },
+        {
+          "title": "2027年NFLドラフトでスターになると予想される選手をチェック | DAZN News 日本",
+          "source": "DAZN",
+          "pub_date": "11/25 03:30",
+          "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQNFhzYTVYNEQwZG5LLVUwQVVDajg5MHhtTUg3SXZSMmRPc3NQQUJpV2Z4Z3hOZmc4LU9kUFYwNjMzS1ZMTUJIR2RiQ2E4Ym9xM2Y2VFF6dGpxQzBvT1Z5OUF5S1JqZWU3ZDI1Q1MtYWxfMkhhX04tdFVaX1EtcTE0UzdnWWRXZXNCcWJNOEZRUmZOUXBRdjBPWVJUQ1NoYU90NzNuaHhWd0U3TE1rbUFRNkduelhJYXd6Ujh5QnBMOEtJQWJkd2h2cEdNTGJ1ZVZtcHE0NWR1MGdpcDJlR3VMUXVMM0FkY09pTFVUYkxtcHhua2hpOE5fS2VQQThVWTZpNGN5Qmtxa0RYYXNkZ2ZUcWNCZEE4UFdDZmFOc0JoMmlYbzFiaVcxRTJ1YUhqQm9YQWhnX3lmZEN3VS1YNThZcGE1MWhwdVBuXzJ3akJ1SENnR0ZO?oc=5",
+          "sub_tag": "🏈 NFL・米アメフト",
+          "sub_type": "frontier",
+          "headline": "2027年NFLドラフトの注目スター候補",
+          "points": [
+            "2027年のNFLドラフトで将来のスターとして活躍が期待される注目選手たちの顔ぶれが紹介された。",
+            "世界最高峰のアメリカンフットボールリーグにおいて、次世代を担う逸材の動向は常に大きな関心を集める。",
+            "北米で絶大な人気と経済規模を誇るNFLでは、大学時代からの綿密なスカウトとドラフト戦略がチームの命運を握る。"
+          ],
+          "takeaway": "未来のNFLを背負う原石たちがどのような成長を遂げてプロの最高峰へ辿り着くのか、長期的な視点で追う楽しみがある。",
+          "is_new": true
+        },
+        {
+          "title": "【ＭＬＢ】平良海馬 ブルージェイズと５年127億円で合意 ファン歓喜「素晴らしい契約」「来季のローテは強力」（東スポWEB）",
+          "source": "Yahoo!ニュース",
+          "pub_date": "11/25 08:20",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhVG9neDl6akpPLU55VFBqSkZ0QTR6cDAxNjRGR01PSURsbVNSN1hHMjNtbWYtb0hycVFnV2VvcTVJSFl2TlVaWHZLUURSeU9pdGVjS05sUXEteGtmQnRkblY5UDhUSzRBc1czNW51UEdOWHozNU1CTExaT1o1MUk?oc=5",
+          "sub_tag": "⚾ MLB・米野球",
+          "sub_type": "normal",
+          "headline": "平良海馬がブルージェイズと5年127億円で合意",
+          "points": [
+            "日本のプロ野球で圧倒的な実績を残してきた平良海馬が、ブルージェイズと5年総額127億円で契約に合意した。",
+            "この大型契約の報せにチームのファンからは歓喜の声が上がり、来季の強力な先発ローテーション形成に期待が高まっている。",
+            "世界最高峰のメジャーリーグにおいて、日本人投手が巨額の評価を受けて新たな挑戦へ踏み出すこととなった。"
+          ],
+          "takeaway": "世界中の精鋭が集うMLBの舞台で、平良投手が強打者たちをどのように封じ込めていくのか来季の投球から目が離せない。",
+          "is_new": true
+        },
+        {
+          "title": "バスケ日本代表の司令塔・名古屋Dの斎藤拓実、河村勇輝不在のW杯アジア2次予選に「国際試合に対する不安はない」 ”桶谷ジャパン”の核担う『周りを生かす力』",
+          "source": "中日新聞Web",
+          "pub_date": "11/24 20:27",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83VHM3VXo0LUxudWRoRVZxOGgzdlU3RlJ0VDFMaDZ2ai1ycDhQUEY3LUZvRGlEUTc0Z1pseWVXVTB6T1FKN2ZpVGktcHllVmNWYUxJTA?oc=5",
+          "sub_tag": "🏀 NBA・米バスケ",
+          "sub_type": "normal",
+          "headline": "バスケ日本代表の司令塔・斎藤拓実がW杯予選へ意欲",
+          "points": [
+            "河村勇輝が不在となるW杯アジア2次予選に向け、バスケ日本代表の司令塔である斎藤拓実が力強い意気込みを示した。",
+            "国際試合に対する不安はないと断言し、所属する名古屋Dで見せる『周りを生かす力』を代表でも発揮する構えを見せている。",
+            "”桶谷ジャパン”の戦術的核として、卓越したパスセンスとゲームコントロールでチームを勝利へと導くことが期待されている。"
+          ],
+          "takeaway": "主軸の不在というピンチをチャンスに変え、卓越したパスワークでチームメイトの持ち味を最大限に引き出す司令塔の妙技に注目。",
+          "is_new": true
+        }
+      ]
+    }
+  }
+}
