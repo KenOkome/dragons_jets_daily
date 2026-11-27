@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-26",
-  "total_days": 66,
+  "latest_date": "2026-11-27",
+  "total_days": 67,
   "dates": [
+    {
+      "date": "2026-11-27",
+      "updated_at": "11月27日 11:14",
+      "label": "11/27",
+      "summary_title": "中日：大野が更改し新戦力続々加入、NPB全体ではGG賞表彰式など開催"
+    },
     {
       "date": "2026-11-26",
       "updated_at": "11月26日 11:17",
