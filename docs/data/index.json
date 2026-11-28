@@ -1,7 +1,13 @@
 {
-  "latest_date": "2026-11-27",
-  "total_days": 67,
+  "latest_date": "2026-11-28",
+  "total_days": 68,
   "dates": [
+    {
+      "date": "2026-11-28",
+      "updated_at": "11月28日 11:02",
+      "label": "11/28",
+      "summary_title": "中日、主力大刷新と大型補強で新体制へ"
+    },
     {
       "date": "2026-11-27",
       "updated_at": "11月27日 11:14",
